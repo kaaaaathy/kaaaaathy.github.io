@@ -1,0 +1,242 @@
+<html>
+<head>
+<!-- <link rel="stylesheet" href="index.css"> -->
+<!-- <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script> -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<style>
+
+body {
+  background:black;
+  color:white;
+
+  font-family: times;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin:20px;
+
+  -webkit-user-select:none;
+  -webkit-touch-callout:none;
+   -moz-user-select:none;
+   -ms-user-select:none;
+   user-select:none;
+
+}
+
+.pulse {
+  animation: fade 1s ease infinite alternate;
+}
+
+@keyframes fade {
+  from {opacity: 1.0;}
+  to {opacity: 0.2;}
+}
+
+
+
+#partholder {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  max-width: 40%;
+  margin:20px;
+}
+
+#container{
+  height:100%;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.part {
+  text-align: center;
+  padding: 20px;
+  cursor: pointer;
+  opacity: 0.2;
+}
+
+.part img {
+  max-width: 50px;
+}
+
+#phone {
+  color:white;
+  /* height:90%; */
+  width:400px;
+
+  background-image: url('iphone/american_child.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+
+  margin: 20px;
+  padding-left: 20px;
+
+  justify-content: center;
+}
+
+#writing {
+}
+
+
+h2 {
+  font-weight: normal;
+  line-height: 30px;
+
+}
+
+
+</style>
+
+<body>
+
+
+<div id="container">
+
+    <div id="phone">
+      <h2>on touching each other<br>through semi conduction<br></h2>
+      <p id="writing"><!-- poem is generated here --></p>
+    </div>
+    <div id = "partholder"></div>
+
+
+</div>
+
+
+
+<script type="text/javascript">
+
+//declare all the text data variables
+let data;  //empty for now
+let poem = []; //empty for now
+let poemCounter = [];
+let poemDiv = document.getElementById("writing");
+//create images
+let parts = ["moon","sinew","beethoven","unique_personalities","daughters","amulets","weaving","workers"];
+
+
+let wholeLength = 0;
+let resetOpacity = 0.2;
+
+//lmao this would be more elegant in jquery
+function buildSite(){
+
+  //render all images and add class desc
+  for (let i = 0; i < parts.length; i++){
+    let newImage = document.createElement("img");
+    newImage.src = "iphone/" + parts[i] + ".png";
+    console.log(newImage);
+
+    let newdiv = document.createElement("div");
+    newdiv.classList.add("part");
+    newdiv.appendChild(newImage);
+    newdiv.innerHTML += "<br>" + parts[i];
+
+
+    //add visual effects
+    if (i == 0){
+      newdiv.classList.add("pulse");
+    }
+
+    //tell it how to respond on click
+    newdiv.addEventListener("click", function(){
+            newdiv.classList.remove("pulse");
+
+            poemDiv.innerHTML += poem[i][poemCounter[i]]+ "<br>";
+            newdiv.style.opacity = poemCounter[i] * 0.1 + resetOpacity;
+
+
+            //increment lines
+            if (poemCounter[i] < poem[i].length -1){
+              poemCounter[i] += 1;
+            } else {
+              poemCounter[i] = 0;
+            }
+
+            //counter + reset
+            wholeLength ++;
+
+            if (wholeLength > 15) {
+              poemDiv.innerHTML = "";
+              wholeLength = 0;
+              newdiv.style.opacity = resetOpacity;
+            }
+
+      });
+
+      document.getElementById("partholder").appendChild(newdiv);
+
+      //tell it where to live
+      // if (i < 4){
+      //     document.getElementById("left").appendChild(newdiv);
+      // } else if (i >= 3 && parts.length){
+      //     document.getElementById("right").appendChild(newdiv);
+      //   }
+      }
+}
+
+
+//this is where it happens!!
+fetch('data.txt')
+    .then(response => response.text())
+    .then(data => {
+        poem = splitTxt(data);
+        // console.log(poem);
+        // console.log(poem[poemLine]);
+        buildSite();
+    });
+
+
+function splitTxt(input){
+  //create blank Array to be returned
+  let outputArray = [];
+
+  //create an array of the data, splitting on each numbered entry
+  let array1 = input.split(/[0-9]+\—/);
+
+  // call cleanOutput, which deletes every blank space
+  let array2 = cleanUp(array1);
+
+  for(let i = 0; i < array2.length; i++){
+    if (array2[i].length > 1){
+      let newLine = array2[i].split("\n");
+      outputArray.push(newLine);
+
+      //add a 0 to the poemCounter
+      poemCounter.push(0);
+    }
+    else {
+
+    }
+    console.log(outputArray);
+  }
+
+  return(outputArray);
+}
+//this is borked
+
+
+function cleanUp(array){
+  for (let i = 0; i < array.length;i++){
+    if (array[i].length <= 1){
+      array.splice(i,1);
+    }
+  }
+  return array;
+}
+
+
+
+
+</script>
+
+
+</body>
+</html>
