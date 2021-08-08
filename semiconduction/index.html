@@ -57,11 +57,15 @@ body {
 
 .part {
   text-align: center;
-  padding: 20px;
+  padding: 16px;
   cursor: pointer;
   /* opacity: 0.2; */
 }
-
+.part p {
+  line-height: 16px;
+  font-family: courier, monospace;
+  font-size:12px;
+}
 .part img {
   max-width: 50px;
 }
@@ -88,7 +92,7 @@ body {
   background-position: top;
 
   border-right: 1px dotted white;
-  margin: 20px;
+  margin: 10px;
   padding: 0px 40px;
 
   justify-content: center;
@@ -129,6 +133,7 @@ h2 {
     max-width:100%;
     margin:20px 0px;
 
+
   }
 
   .part img {
@@ -147,7 +152,7 @@ h2 {
 <div id="container">
 
     <div id="phone">
-      <h2>on touching each other<br>through semi conduction<br></h2>
+      <h2>on touching each other<br>through semi conduction</h2>
       <p id="writing"><!-- poem is generated here --></p>
     </div>
     <div id = "partholder"></div>
@@ -169,7 +174,7 @@ let parts = ["moon","sinew","beethoven","individuals","daughters","amulets","wea
 
 
 let wholeLength = 0;
-let maxLength = 16;
+let maxLength = 14;
 let minOpacity = 0.2;
 
 //lmao this would be more elegant in jquery
@@ -183,7 +188,10 @@ function buildSite(){
     let newdiv = document.createElement("div");
     newdiv.classList.add("part");
     newdiv.appendChild(newImage);
-    newdiv.innerHTML += "<br>" + parts[i];
+
+    let label = document.createElement("p");
+    label.innerText = i;
+    newdiv.appendChild(label);
 
 
     //add visual effects
