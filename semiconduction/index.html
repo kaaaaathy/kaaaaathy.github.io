@@ -114,7 +114,7 @@ h2 {
   font-family: times;
   font-weight: normal;
   line-height: 32px;
-  /* padding-bottom: 20px; */
+  padding-bottom: 10px;
 
 }
 
@@ -128,12 +128,6 @@ h2 {
     width:100%;
     height:100%;
     border-right: 0px;
-
-  }
-
-
-  #writing {
-    padding-top:20px;
 
   }
 
@@ -178,6 +172,7 @@ let data;  //empty for now
 let poem = []; //empty for now
 let poemCounter = [];
 let poemDiv = document.getElementById("writing");
+let phone = document.getElementById("phone");
 //create images
 let parts = ["moon","sinew","beethoven","individuals","daughters","amulets","weaving","workers","threads"];
 
@@ -186,7 +181,6 @@ let started = false;
 
 let wholeLength = 0;
 let maxLength = 14;
-let x = poemDiv.getBoundingClientRect().right;
 
 let fadeTime = 8000;
 let fadeDelay = 2000;
@@ -205,7 +199,6 @@ function newPart(i){
   label.innerText = i;
   newdiv.appendChild(label);
 
-
 //click behavior
   newdiv.addEventListener("click", function(){
           if (started == false){
@@ -215,7 +208,6 @@ function newPart(i){
 
           let newLine = document.createElement("div");
           newLine.innerHTML += poem[i][poemCounter[i]] + " <span class='supscript'>" + i + "&nbsp;</span>";
-          // newLine.appendChild(miniImage);
 
           setTimeout(function(){
             newLine.classList.add("fade");
@@ -236,106 +228,110 @@ function newPart(i){
           }
     });
 
+    document.addEventListener("pointerup", function(){
+      if (checkPos(newdiv) == true){
+            newdiv.classList.add("fade");
+            newdiv.classList.remove("draggable");
+            setTimeout(function(){
+              newdiv.style.display = "none";
+              let newerdiv = newPart(i);
+              newdiv.parentElement.insertBefore(newerdiv,newdiv);
+              newdiv.parentElement.removeChild(newdiv);
+
+              addDrag();
+            }, fadeDelay);
+      }
+    });
+
   return newdiv;
+
+
 }
 
 function turnOffIntro(){
   intro.classList.remove("pulse");
   setTimeout(function(){
     intro.classList.add("fade");
+  }, 500);
 
-  },fadeDelay)
+  setTimeout(function(){
+    intro.parentElement.removeChild(intro);
+  },1000);
+
 }
+
+
 //lmao this would be more elegant in jquery
 function buildSite(){
   //render all images and add class desc
   for (let i = 0; i < parts.length; i++){
-    let newdiv = newPart(i);
+    document.getElementById("partholder").appendChild(newPart(i));
+    addDrag();
+
+  }
+}
 
     //tell it how to respond on click
-      newdiv.addEventListener("click", function(){
-        if (checkPos(newdiv) == true){
-              newdiv.classList.add("fade");
-              newdiv.classList.remove("draggable");
-              setTimeout(function(){
-                newdiv.style.display = "none";
-                newdiv = newPart(i);
-                addDrag(newdiv);
-              }, fadeDelay);
-        }
-
-      });
-
-      addDrag(newdiv);
-
-}
 
 function checkPos(div){
   let rect = div.getBoundingClientRect();
-  if (rect.left < x){
-  return true;
+  let poemX = phone.getBoundingClientRect().right;
+  let poemY = phone.getBoundingClientRect().bottom;
+
+  if (rect.left < poemX && rect.top < poemY){
+    return true;
   }
 }
 
 
-function addDrag(div){
+function addDrag(){
   $( function() {
     $( ".draggable" ).draggable({
           grid: [ 50, 50 ]
         });
   });
-  document.getElementById("partholder").appendChild(div);
-  }
 }
+
 
 //this is where it happens!!
 fetch('data.txt')
     .then(response => response.text())
     .then(data => {
         poem = splitTxt(data);
-        // console.log(poem);
-        // console.log(poem[poemLine]);
         buildSite();
     });
 
 
 function splitTxt(input){
   //create blank Array to be returned
-  let outputArray = [];
+  let outputPoem = [];
 
   //create an array of the data, splitting on each numbered entry
-  let array1 = input.split(/[0-9]+\—/);
+  //split into poems
+  let allPoems = input.split(/[0-9]+\—/);
+  allPoems.splice(0,1);
+  console.log(allPoems);
 
-  // call cleanOutput, which deletes every blank space
-  let array2 = cleanUp(array1);
+  for(let i = 0; i < allPoems.length; i++){
+//split poems into lines //add lines into an baby array
+        let newLine = allPoems[i].split("\n");
+        console.log("that is da newLine that u split",newLine)
+//remove white space
+        for (let j = 0; j< newLine.length; j++){
+          if (newLine[j].length <= 1){
+              newLine.splice(j,1);
+              j-=1;
+          }
+        }
+        outputPoem.push(newLine);
+        poemCounter.push(0);
 
-  for(let i = 0; i < array2.length; i++){
-    if (array2[i].length > 1){
-      let newLine = array2[i].split("\n");
-      outputArray.push(newLine);
-
-      //add a 0 to the poemCounter
-      poemCounter.push(0);
-    }
-    else {
-
-    }
-    console.log(outputArray);
+        console.log("that is da outputPoem with da newLines",outputPoem)
   }
 
-  return(outputArray);
+  return(outputPoem);
 }
 //this is borked
-
-
-function cleanUp(array){
-  for (let i = 0; i < array.length;i++){
-    if (array[i].length <= 1){
-      array.splice(i,1);
-    }
-  }
-  return array;
-}
 
 
 </script>
