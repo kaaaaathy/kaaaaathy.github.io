@@ -75,7 +75,7 @@ body {
 
 .fade {
   opacity:0;
-  transition: 1.5s ease-in;
+  transition: 0.75s ease-in;
 }
 
 .pulse {
@@ -182,8 +182,8 @@ let started = false;
 let wholeLength = 0;
 let maxLength = 14;
 
-let fadeTime = 8000;
-let fadeDelay = 2000;
+let fadeTime = 5000;
+let fadeDelay = 1000;
 
 function newPart(i){
 
@@ -212,11 +212,11 @@ function newPart(i){
           setTimeout(function(){
             newLine.classList.add("fade");
 
-          }, fadeTime);
+          }, fadeTime+fadeDelay);
 
           setTimeout(function(){
             newLine.style.display = "none";
-          }, fadeTime+2000);
+          }, fadeTime+fadeDelay*2);
 
           poemDiv.appendChild(newLine);
 
