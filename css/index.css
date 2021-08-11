@@ -14,7 +14,9 @@
 
 html{
   height:100%;
-  background: linear-gradient(90deg,white,white,white,#f4eff7);
+  /* background: linear-gradient(90deg,white,white,white,#f4eff7); */
+	background: linear-gradient(90deg,white,white,white,snow);
+
   overflow-x: hidden;
 }
 
@@ -65,7 +67,7 @@ section{
 }
 
 .aboutlinks {
-    border-bottom: 1px dotted #a937ff;
+    border-bottom: 1px dotted salmon;
     font-weight: bold;
 
 }
@@ -103,13 +105,14 @@ nav a {
 a{
 	text-decoration: none;
 	color: inherit;
-    color:#a937ff;
+    color:salmon;
 
 }
 
 a:hover {
-    color:#c87dff;
+    /* color:#c87dff; */
     cursor:help;
+		opacity: 0.8;
 
 }
 
@@ -172,7 +175,8 @@ h3{
 }
 
 #content a {
-    border-bottom: 1px dotted #a937ff;
+    border-bottom: 1px dotted salmon;
+		/* previously #a937ff */
 }
 
 /*--------------------------------------------------------------*/
@@ -262,7 +266,7 @@ body {
 
 nav a{
 	padding-left:40px;
-    color: #a937ff;
+    color: salmon;
 
 }
 

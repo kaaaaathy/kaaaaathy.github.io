@@ -1,5 +1,23 @@
 work=[
 
+
+     {  "folder":"semiconduction",
+    "name":"Touching Each Other Through Semi Conduction",
+    "tags":"Interactive, HTML",
+    "thumb":"thumb.jpg",
+    "content":`An <a href="semiconduction/index.html" target="_blank">interactive web poem</a> I wrote and coded about Chinese bodies in a context of mass production.
+    Works on mobile. For a more spatial viewing experience, try on a desktop computer.
+     [semi1.gif]
+     [semi3.gif]
+
+     Still image:
+     [semiconduction.png]
+
+    Here's the experience on a mobile device:
+    [semi5.gif]
+
+    `
+    },
      {  "folder":"office",
     "name":"Office for Language Under Capitalism",
     "tags":"Interactive, HTML",
@@ -23,92 +41,62 @@ work=[
 
     Finally, no bureaucratic call is complete without some palatable music.
     [0.jpg]
-    
-    `
-  },
-
-
-     {  "folder":"copy-paste-img",
-    "name":"Copy & Paste & Paste & Paste",
-    "tags":"Interactive, HTML",
-    "thumb":"thumb.jpg",
-    "content":`An <a href="copyandpaste/index.html" target="_blank">interactive web poem</a> I wrote and coded about Chinese bodies in a context of mass production.
-    Works on mobile. For a more spatial viewing experience, try on a desktop computer.
-    [layering.gif]
-    [1.jpg]
-    [2.jpg]
-    [4.jpg]
-    [7.jpg]
-    [12.jpg]
-    Here's the experience on a mobile device:
-    [phonegif.gif]
-    Images from DuckDuckGo. Font is <a href="https://fonts.google.com/specimen/Piazzolla?category=Serif" target="_blank">Piazolla</a> by Google Fonts.
 
     `
   },
 
-  {
-      "folder":"manymigrations",
-      "name":"Many Migrations",
-      "tags":"Textiles, poetry",
-      "thumb":"thumb.jpg",
-      "content":`
-      A cross-seas collaboration with my friend Ying Cai.
-
-      The embroidery (by me) tells two migration stories divided across economic class and held by culture. A garment worker in NYC Chinatown on the left; my mother designing semiconductors on the right. Both of them, immigrant bodies within a context of mass production.
-
-      In the center, a child who is born in America.
-
-      [me1.jpg]
-
-      The hand-dyed garment is made by Ying. She's so beautifully synthesized the Chinese Du-dou silhouette with the Western apron. The shape holds stories of domesticity, Confucian patriarchy, female labor.
-      In her words, yellow is a strong but gentle color.
-
-      [sideview3.jpg]
-      [backview.jpg]
-
-      <br>
-      <b> GARMENT DETAIL </b>
-      [layflat.jpg]
-      [closeup1.jpg]
-      [closeup2.jpg]
-
-      <br>
-      <b> PROCESS </b>
-      [process1.jpg]
-      [process3.jpg]
-
-      <br>
-      <b> INSPIRATION </b>
-      The embroidery for this textile work was inspired by a poem I wrote: <b>Chinatown (Many Migrations)</b>.
-
-      Published in <a href="https://issuu.com/mitaai/docs/zinefinal_4_no_bleed_for_online_export-compressed" target="_blank">MIT Asian American Initiative Zine: Rooted</a>.
-      Also featured in <a href="https://www.unboundvisualarts.org/new-narratives-reclaiming-asian-identity-through-story-storyteller-series/" target ="_blank">VISIONS Unbounded Art Storytellers Exhibit & Panel Roundtable</a>.
-      [chinatown 1.jpg]
-      Whose working immigrant bodies do we value through our language?
-      Sometimes I find myself a tourist within my extended family's own cultural or class experience. In the broader Chinese diaspora, I feel sensitive to moments when way race unifies across class, and create moments of the familiar.
-
-      `
-  },
+  {  "folder":"lootingdream",
+ "name":"Looting Dream",
+ "tags":"Interactive, HTML",
+ "thumb":"thumb.jpg",
+ "content":`LOOTING DREAM is an interactive web fantasy about distorting, glitching, re-inserting, and deleting from glass boxes + institutions. Seen on <a href="https://pages.virtualgoodsdealer.com/exhibits" target="_blank">Virtual Goods Dealer</a>.
+ [looting.gif]
+ [looting.png]
 
 
-       {  "folder":"earth",
-    "name":"Earth is Now Called Puddle",
-    "tags":"Interactive, HTML",
-    "thumb":"thumb.jpg",
-    "content":`Earth is now called PUDDLE, and is overrun with breads. We have entirely too much low-density polyethylene, it covers all water and land you can see.
-    This web poem contains seemingly infinite fictions about a planet with an obsession for abundance gone awry.
-    Find <a href="https://kaaathy.com/earth/index.html" target="_blank">a different future</a> here.
-    [earth.jpg]
-    Earth is now called WHITE OUT, and is overrun with deodorants.
-    Earth is now called PLUSH FROG, and is overrun with stockings.
-    (And so on.)
-    [earth-mouse.gif]
-    Built with <a href="https://github.com/dariusk/corpora/tree/master/data" target="_blank">Corpora data</a>, HTML + javaScript, and a mellow sense of dystopianism. Thank you to the contributors of objects.json, occupations.json, packagingmaterials.json, adjs.json. Set in <a href="https://www.velvetyne.fr/fonts/compagnon/" target="_blank">Compagnon</a> from Velvetyne Foundry.
-    [objects.png]
-    
-    `
-  },
+ `
+},
+
+
+  //    {  "folder":"copy-paste-img",
+  //   "name":"Copy & Paste & Paste & Paste",
+  //   "tags":"Interactive, HTML",
+  //   "thumb":"thumb.jpg",
+  //   "content":`An <a href="copyandpaste/index.html" target="_blank">interactive web poem</a> I wrote and coded about Chinese bodies in a context of mass production.
+  //   Works on mobile. For a more spatial viewing experience, try on a desktop computer.
+  //   [layering.gif]
+  //   [1.jpg]
+  //   [2.jpg]
+  //   [4.jpg]
+  //   [7.jpg]
+  //   [12.jpg]
+  //   Here's the experience on a mobile device:
+  //   [phonegif.gif]
+  //   Images from DuckDuckGo. Font is <a href="https://fonts.google.com/specimen/Piazzolla?category=Serif" target="_blank">Piazolla</a> by Google Fonts.
+  //
+  //   `
+  // },
+
+
+
+  //
+  //      {  "folder":"earth",
+  //   "name":"Earth is Now Called Puddle",
+  //   "tags":"Interactive, HTML",
+  //   "thumb":"thumb.jpg",
+  //   "content":`Earth is now called PUDDLE, and is overrun with breads. We have entirely too much low-density polyethylene, it covers all water and land you can see.
+  //   This web poem contains seemingly infinite fictions about a planet with an obsession for abundance gone awry.
+  //   Find <a href="https://kaaathy.com/earth/index.html" target="_blank">a different future</a> here.
+  //   [earth.jpg]
+  //   Earth is now called WHITE OUT, and is overrun with deodorants.
+  //   Earth is now called PLUSH FROG, and is overrun with stockings.
+  //   (And so on.)
+  //   [earth-mouse.gif]
+  //   Built with <a href="https://github.com/dariusk/corpora/tree/master/data" target="_blank">Corpora data</a>, HTML + javaScript, and a mellow sense of dystopianism. Thank you to the contributors of objects.json, occupations.json, packagingmaterials.json, adjs.json. Set in <a href="https://www.velvetyne.fr/fonts/compagnon/" target="_blank">Compagnon</a> from Velvetyne Foundry.
+  //   [objects.png]
+  //
+  //   `
+  // },
 
 // {
 //    "folder":"oppositesgame",
@@ -132,10 +120,10 @@ work=[
       "content":`
       What’s the opposite of darkness? Is it brightness? How about the opposite of a wall, or a cage?
       Our collective imagination is constrained by our vocabulary, both linguistic and visual— can we use new art forms and new language to build the inverse of violence?
-      
+
       [prompt.jpg]
 
-      I designed and led this workshop series around creating speculative artwork based on "inverted" headlines. By playing with words and their opposites, we can begin rewrite current news headlines into alternative realities and speculative futures.  
+      I designed and led this workshop series around creating speculative artwork based on "inverted" headlines. By playing with words and their opposites, we can begin rewrite current news headlines into alternative realities and speculative futures.
 
       This workshop concept was inspired by <a href="http://theamericanjournalofpoetry.com/v2-constantine.html" target="_blank">this poem</a> by Brendan Constantine.
 
@@ -176,11 +164,11 @@ work=[
       "tags":"Writing, Film, Digital Collage, Storytelling",
       "thumb":"thumb.jpg",
       "content":`
-      A piece of film-based transmedia storytelling I created together with Nancy Valladares and Alia Rizvi.
+      A piece of film-based transmedia storytelling created with Nancy Valladares and Alia Rizvi.
       This work was created as part of a social media campaign to protest the construction of a copper mine in Oak Flat, Arizona—or what is the unceded indigenous land of the San Carlos Apache people. The prompt was to create original content and present it in a short film.
-      [oakflat2.gif] 
+      [oakflat2.gif]
 
-    These extractive processes threaten all life because they threaten water. Our film features a poem I wrote from the point of view of the river basin. I contributed to the concept, and created about half of the video graphics using digital collage techniques.
+    These extractive processes threaten all life because they threaten water.
 
     <br>
     <b>  Text & Voice </b>
@@ -189,17 +177,14 @@ work=[
 
       <br>
       <b>River, Personified</b></br>
-I wrote the poem from the point of view of the Arizona Tonto Basin River— a body of water which would effectively be poisoned by the construction of the copper mine.
-Some pieces of the writing were generalized to be more poetic about water in general. 
-      [oakflat.gif] 
-I wanted to be mindful of existing practices of nature personification without overstepping, especially because our team was comprised of non-local, non-indigenous artists. 
+I wrote the script from the point of view of the Arizona Tonto Basin River— a body of water which would effectively be poisoned by the construction of the copper mine.
+      [oakflat.gif]
 
       <br>
       <b> Stills </b>
       [stills.jpg]
     `
   },
-
 
 
 {
@@ -211,7 +196,7 @@ I wanted to be mindful of existing practices of nature personification without o
   How much does the internet weigh? How much data do we consume?<br>Are their landfills of information on the internet?
 [intro_bytes_reduced.jpg]
 
-  The Byte Catalog expresses the degree to which text in digital space is now so immense in scale, that our bodies fail to comprehend it. Language originally comes from the human body, and holds meaning within social, relational contexts. What happens at scale—when language transcends meaning, when data transcends body? 
+  The Byte Catalog expresses the degree to which text in digital space is now so immense in scale, that our bodies fail to comprehend it. Language originally comes from the human body, and holds meaning within social, relational contexts. What happens at scale—when language transcends meaning, when data transcends body?
   This work began as a inquiry into the textual internet; over a semester, it evolved into a visceral experience of virtuality, including sculpture, video, and writing.
 
   <br><br>
@@ -339,27 +324,69 @@ People also gave me thoughts on how to improve:
     <a href='https://pondermake.tumblr.com/post/169135208964/cam-doodler' target="_blank">Read the blog post.</a>`
 
 },
+{
+    "folder":"manymigrations",
+    "name":"Many Migrations",
+    "tags":"Textiles, poetry",
+    "thumb":"thumb.jpg",
+    "content":`
+    A cross-seas collaboration with my friend Ying Cai.
 
+    The embroidery (by me) tells two migration stories divided across economic class and held by culture. A garment worker in NYC Chinatown on the left; my mother designing semiconductors on the right. Both of them, immigrant bodies within a context of mass production.
+
+    In the center, a child who is born in America.
+
+    [me1.jpg]
+
+    The hand-dyed garment is made by Ying. She's so beautifully synthesized the Chinese Du-dou silhouette with the Western apron. The shape holds stories of domesticity, Confucian patriarchy, female labor.
+    In her words, yellow is a strong but gentle color.
+
+    [sideview3.jpg]
+    [backview.jpg]
+
+    <br>
+    <b> GARMENT DETAIL </b>
+    [layflat.jpg]
+    [closeup1.jpg]
+    [closeup2.jpg]
+
+    <br>
+    <b> PROCESS </b>
+    [process1.jpg]
+    [process3.jpg]
+
+    <br>
+    <b> INSPIRATION </b>
+    The embroidery for this textile work was inspired by a poem I wrote: <b>Chinatown (Many Migrations)</b>.
+
+    Published in <a href="https://issuu.com/mitaai/docs/zinefinal_4_no_bleed_for_online_export-compressed" target="_blank">MIT Asian American Initiative Zine: Rooted</a>.
+    Also featured in <a href="https://www.unboundvisualarts.org/new-narratives-reclaiming-asian-identity-through-story-storyteller-series/" target ="_blank">VISIONS Unbounded Art Storytellers Exhibit & Panel Roundtable</a>.
+    [chinatown 1.jpg]
+    Whose working immigrant bodies do we value through our language?
+    Sometimes I find myself a tourist within my extended family's own cultural or class experience. In the broader Chinese diaspora, I feel sensitive to moments when way race unifies across class, and create moments of the familiar.
+
+    `
+},
 {  "folder":"jelly",
   "name":"Pulmō Plastics",
   "tags":"Speculative objects, biodesign",
   "thumb":"overview.jpg",
   "content":`
-  
+
   Collaboration with biologist Marian Shaw as part of NYU ITP's Biodesign studio.<br>I contributed to the research, concept, storytelling, and writing.
-  Selected as a finalist for the <a href="https://biodesignchallenge.org/" target="_blank">Biodesign Challenge</a>, and presented at MoMA in 2018. 
+  Selected as a finalist for the <a href="https://biodesignchallenge.org/" target="_blank">Biodesign Challenge</a>, and presented at MoMA in 2018.
 
   [overview_crop.jpg]
 
   As part of the man-made climate crisis, oceans are warmer and more acidic. Jellyfish, known as pulmōnēs in Latin, are <a href="https://www.youtube.com/watch?time_continue=21&v=uh4eImPI-OY&feature=emb_logo&ab_channel=HarvardUniversity" target="_blank">overpopulating</a> parts of global oceans.
-  Proliferating in blooms, they <a href="www.thejakartapost.com/news/2020/05/01/workers-fishermen-scramble-to-fend-off-jellyfish-bloom-in-waters-off-east-java-power-plant.html" target="_blank">pose a threat</a> to human infrastructures, but more importantly, to biodiversity in the marine ecosystem. 
-  
+  Proliferating in blooms, they <a href="www.thejakartapost.com/news/2020/05/01/workers-fishermen-scramble-to-fend-off-jellyfish-bloom-in-waters-off-east-java-power-plant.html" target="_blank">pose a threat</a> to human infrastructures, but more importantly, to biodiversity in the marine ecosystem.
+
   [jelly-context.jpg]<span style="font-size:11px">Image copyright: Monty Graham, Dauphin Island Sea Lab // Getty Images</span>
 
   When plastic enters the oceans, marine wildlife often confuse it for their jellyfish prey and subsequently die from plastic consumption.
     [jelly21.jpg]<span style="font-size:11px">Image credit: Troy Mayne, World Wildlife Foundation.</span>
 
-    What if we could close the loop between our jellyfish ‘problem’ and another marine threat— <b>petroleum-based plastic waste</b>? 
+    What if we could close the loop between our jellyfish ‘problem’ and another marine threat— <b>petroleum-based plastic waste</b>?
 
   [jelly3.jpeg]
   Jellyfish protein is almost exclusively <b>the structural protein collagen.</b> Given this 500-million year old creature consists of collagen of an earlier template in the evolutionary cycle, it has the potential to be a more universal biomaterial for various applications.
@@ -371,7 +398,7 @@ People also gave me thoughts on how to improve:
   <br>
   <b>OUR PROCESS</b>
   We tested different ratios of glycerin to gelatin and plastic shape and size, creating samples with varying material properties that could lend themselves to different objects.
-  
+
   [jelly5.jpeg]
 
   Crunchy like a disposable beverage bottle...
@@ -379,7 +406,7 @@ People also gave me thoughts on how to improve:
   ...or supple yet strong like a ‘plastic’ bag.
   [jelly7.jpeg]
 
-  In our final samples, we dyed plastics with beet juice and incorporated pigments produced by bacteria engineered to express colorful proteins derived from marine animals. 
+  In our final samples, we dyed plastics with beet juice and incorporated pigments produced by bacteria engineered to express colorful proteins derived from marine animals.
   [jelly18.jpeg]
 
 
@@ -423,53 +450,53 @@ People also gave me thoughts on how to improve:
     `
   },
 
-{
-  "folder":"searchdivides",
-  "name":"Search Divides Us",
-  "tags":"Exhibit design, front-end dev, UI/UX",
-  "thumb":"cover.jpg",
-  "content":`
-  Designed & built in collaboration with Anthony Bui, Asha Veeraswamy, and Keerthana Pareedy. I contributed conceptual work, front end dev, and graphics.
-<br><b>THE STORY</b>
-  Search Divides Us is an interactive exhibit about bias in search engines, through the example of a housing search. Our team demoed this at ITP Spring Show, as well as <a href="https://makerfaire.com/maker/entry/67996/" target="_blank">New York Maker Faire</a> in 2019.
-  [plaque-2.jpg]
-<br>
-  <b>HARDWARE INTERFACE</b>
-  The final interface followed a slot machine metaphor. The interface consisted of a set of dials: CLASS, RACE, EDUCATION. In the center, a green space-bar-shaped button would allow you to search.
-  [video-1.gif]
-
-<br><b>WEBSITE</b>
-  I created a fictional island (modeled roughly after Manhattan, NY) and built fictional housing provider website. 
-  [searchdivides_mini.gif]
-  The result was projected onto a dark wall. We wanted the experience of entering in your demographic and receiving your result to be as public as possible, so that visitors would  think about these issues in dialogue with us and each other.
- 
-  [demo.jpg]
-<br><b>RANDOM SEARCH</b>
-  We encouraged visitors to explore how other search profiles tended towards different results. Using a "slot machine" metaphor, visitors could choose a new identity at random.
-  [video-2-mini.gif]
-
-
-  <br><b>PROCESS</b>
-  Our team was inspired by the <a href="https://www.nyu.edu/about/news-publications/news/2016/august/nyu-study-looks-at-how-racial-inequality-is-produced-online.html" target = "_blank">research</a> of Dr. Charles McIlwain of NYU, which explores how the internet is as segregated as a city.
-
-  Here’s our early design for a plinko machine, where the flippers represent categorization and algorithm bias.
-
-  [idea1.jpg]
-
-  We were fond of this metaphor; at the same time, it felt abstract and removed.
-
-  [idea2.jpg]
-  <br>
-  [idea3.jpg]
-
-  <br><b>GRAPHICS</b>
-  [bluemap.jpg]
-  [1-white.jpg]
-  [3-black.jpg]
-  [4-black-result.jpg]
-
-  `
-},
+// {
+//   "folder":"searchdivides",
+//   "name":"Search Divides Us",
+//   "tags":"Exhibit design, front-end dev, UI/UX",
+//   "thumb":"cover.jpg",
+//   "content":`
+//   Designed & built in collaboration with Anthony Bui, Asha Veeraswamy, and Keerthana Pareedy. I contributed conceptual work, front end dev, and graphics.
+// <br><b>THE STORY</b>
+//   Search Divides Us is an interactive exhibit about bias in search engines, through the example of a housing search. Our team demoed this at ITP Spring Show, as well as <a href="https://makerfaire.com/maker/entry/67996/" target="_blank">New York Maker Faire</a> in 2019.
+//   [plaque-2.jpg]
+// <br>
+//   <b>HARDWARE INTERFACE</b>
+//   The final interface followed a slot machine metaphor. The interface consisted of a set of dials: CLASS, RACE, EDUCATION. In the center, a green space-bar-shaped button would allow you to search.
+//   [video-1.gif]
+//
+// <br><b>WEBSITE</b>
+//   I created a fictional island (modeled roughly after Manhattan, NY) and built fictional housing provider website.
+//   [searchdivides_mini.gif]
+//   The result was projected onto a dark wall. We wanted the experience of entering in your demographic and receiving your result to be as public as possible, so that visitors would  think about these issues in dialogue with us and each other.
+//
+//   [demo.jpg]
+// <br><b>RANDOM SEARCH</b>
+//   We encouraged visitors to explore how other search profiles tended towards different results. Using a "slot machine" metaphor, visitors could choose a new identity at random.
+//   [video-2-mini.gif]
+//
+//
+//   <br><b>PROCESS</b>
+//   Our team was inspired by the <a href="https://www.nyu.edu/about/news-publications/news/2016/august/nyu-study-looks-at-how-racial-inequality-is-produced-online.html" target = "_blank">research</a> of Dr. Charles McIlwain of NYU, which explores how the internet is as segregated as a city.
+//
+//   Here’s our early design for a plinko machine, where the flippers represent categorization and algorithm bias.
+//
+//   [idea1.jpg]
+//
+//   We were fond of this metaphor; at the same time, it felt abstract and removed.
+//
+//   [idea2.jpg]
+//   <br>
+//   [idea3.jpg]
+//
+//   <br><b>GRAPHICS</b>
+//   [bluemap.jpg]
+//   [1-white.jpg]
+//   [3-black.jpg]
+//   [4-black-result.jpg]
+//
+//   `
+// },
 
   // {
   // 		"folder":"polit-img",
@@ -529,9 +556,9 @@ People also gave me thoughts on how to improve:
   		`
   	},
 
- 
-    
 
+
+//
 // {
 // 		"folder":"difficultwriting",
 // 		"name":"Difficult Writing",
@@ -542,7 +569,7 @@ People also gave me thoughts on how to improve:
 // 		<br>
 // 		<b>CROSS-COUNTRY CALLIGRAPHY.</b> It may take months to write to you.
 // 		[driving_gif.gif]
-
+//
 // 		[miss-you.jpg]
 // 		<br>
 // 		<br>
@@ -554,7 +581,7 @@ People also gave me thoughts on how to improve:
 // 		{<video width=100% src='work/shapinglanguage/speech-to-text.mp4' controls autoplay='on' muted></video>}
 // 		<br>
 //     <br>
-
+//
 // 		<b>KEYBOARD CALISTHENICS</b> A speculative guidebook and sarcastic keyboard workout video, inspired by Jane Fonda energy from the 80's and those horrible typing games from my childhood.
 // 		[kindastrange1.gif]
 //     <br>
@@ -618,24 +645,24 @@ People also gave me thoughts on how to improve:
 //   "thumb":"thumb.png",
 //   "content":`
 
-//   <b>WHAT'S SCRATCH? </b>  
+//   <b>WHAT'S SCRATCH? </b>
 //   <a href="scratch.mit.edu" target="_blank">Scratch</a> is an open-source programming language, creative tool, and online community used by millions of young people and educators around the world today.
-//   For many children, Scratch is their first experience in computational media and virtual community. 
+//   For many children, Scratch is their first experience in computational media and virtual community.
 
 // <br>
-//   <b>WHY THIS WORK? </b>  
+//   <b>WHY THIS WORK? </b>
 
 //   Our previous join experience was text-heavy, less paced, and more utilitarian.
 //   [join 6.png]
 
-//   Scratch usage has been growing worldwide over the last few years. Often kids will be creating a new account as part of their classroom experience, or sometimes they will discover Scratch on their own. 
+//   Scratch usage has been growing worldwide over the last few years. Often kids will be creating a new account as part of their classroom experience, or sometimes they will discover Scratch on their own.
 //   It felt crucial that we improve this first touch point – to emphasize a welcoming community, as well as the joy of building your first creative identity online.
 
 // <br>
 //   <b>NEW EXPERIENCE</b>
 //   I remember my first foray with internet communities over a decade ago, and how emotional that could be.
 //   We also recognize that we have a responsibility to onboard young people into internet community literacy — how to represent yourself online, while protecting your privacy.
- 
+
 //   [join 1.png]
 //   [age 1.png]
 //   [country 2.png]
@@ -653,18 +680,18 @@ People also gave me thoughts on how to improve:
 //   "tags":"Illustration",
 //   "thumb":"sprite1-alt.png",
 //   "content":`
-  
-//     <b>WHAT'S SCRATCH? </b>  
+
+//     <b>WHAT'S SCRATCH? </b>
 //   <a href="scratch.mit.edu" target="_blank">Scratch</a> is an open-source programming language, creative tool, and online community used by millions of young people and educators around the world today.
-//    For many children, Scratch is their first experience in computational media and virtual community. 
+//    For many children, Scratch is their first experience in computational media and virtual community.
 
 //  <br>
-//    <b>WHY THIS WORK?</b>  
+//    <b>WHY THIS WORK?</b>
 //   Kids use the paint editor in Scratch to create stories, animations, games, and more. For many of them, Scratch is their first and only image editing software.
-//   Through the Scratch online community, young people share creations about themselves and their communities. 
+//   Through the Scratch online community, young people share creations about themselves and their communities.
 //   [community2.gif]
-//   I wanted to lead this project because feel strongly about media representation generally; as a designer of creative tools, I'm especially passionate about our responsibilities to youth and their personal, expressive experiences. 
-  
+//   I wanted to lead this project because feel strongly about media representation generally; as a designer of creative tools, I'm especially passionate about our responsibilities to youth and their personal, expressive experiences.
+
 // <br>
 //   <b>OUR EXISTING ARTWORK</b>
 //   Our team responded to how the existing characters in our asset library were sometimes difficult to reshape, or recolor. Here's an example project by a young person in the community, who has created their own work-arounds:
@@ -677,7 +704,7 @@ People also gave me thoughts on how to improve:
 //   <b>2. RESHAPING.</b>
 //    Even for our vector assets, reposing characters were challenging because they were not designed with editability. For example, the outline and fill are constructed separately on this ballerina.
 //   [difficulty2.gif]
-//    This artwork was launched as part of a 3-month project I led and managed, with a focus on helping kids represent themselves in artwork. 
+//    This artwork was launched as part of a 3-month project I led and managed, with a focus on helping kids represent themselves in artwork.
 //   It was important to us that beginners — new to Scratch, new to image editing, or both — could quickly see themselves in the tool and community.
 
 // <br>
@@ -694,10 +721,10 @@ People also gave me thoughts on how to improve:
 //   These character sets were built and grouped so they can be easily recolored or puppeted. Limb shapes are separated to move at the joint.
 //   [sprite5.png]
 //   [sprite3.gif]
- 
+
 //   Complex shapes like hair are left as groups of simple shapes — a strategy inspired by artists in the Scratch community.
 
-//   Not only is it easier to modify, but also this offers an affordance on how vector illustrations are made.  
+//   Not only is it easier to modify, but also this offers an affordance on how vector illustrations are made.
 
 //   [sprite4.png]
 //   [sprite4.gif]
@@ -712,31 +739,31 @@ People also gave me thoughts on how to improve:
 
 
 
-
-	
-  {
-   "folder":"motemote",
-   "name":"MoteMote",
-   "tags":"Game design, vector illustration, software",
-   "thumb":"thumb3.jpg",
-   "content":`
-   A game I created with my team in under 24 hours at Hack@Brown 2015. I brought design chops to a team of two developers. We wanted to make group gaming more fun & inclusive, by using a controller most people already have in their pockets.
-   In MoteMote, you use your smartphone as a remote and play as a teensy Mote character. Anyone can join at any point in the game. The project won <a href='http://hackatbrown2015.devpost.com/' target='blank' style='font-weight:bold'>Best Overall at Hack@Brown 2015</a>.
-   [motemote1.jpg]
-   Gameplay is like Mario Party Bumper Balls, except with shark danger and (in theory) infinite players.
-   [demo.jpg]
-   During the hackathon demo, we invited everyone in the audience to join the game. At one point, we had over 200 participants going on-screen.
-   [demo2.JPG]
-   Testing with judges and students.
-   <br><br>
-   <b>THE GAME</b>
-   [motemote-3.gif]
-   The interface is pretty minimal. You select a character and color for your Mote, and write in your name to start:
-   [motemote.gif]
-   The rest of gameplay is done through a touch-screen joystick. Alternatively, you can use your phone's spatial sensors to control your character by tilting instead.
-   [motemote-2-nice.gif]
-   `
-  },
+  //
+  //
+  // {
+  //  "folder":"motemote",
+  //  "name":"MoteMote",
+  //  "tags":"Game design, vector illustration, software",
+  //  "thumb":"thumb3.jpg",
+  //  "content":`
+  //  A game I created with my team in under 24 hours at Hack@Brown 2015. I brought design chops to a team of two developers. We wanted to make group gaming more fun & inclusive, by using a controller most people already have in their pockets.
+  //  In MoteMote, you use your smartphone as a remote and play as a teensy Mote character. Anyone can join at any point in the game. The project won <a href='http://hackatbrown2015.devpost.com/' target='blank' style='font-weight:bold'>Best Overall at Hack@Brown 2015</a>.
+  //  [motemote1.jpg]
+  //  Gameplay is like Mario Party Bumper Balls, except with shark danger and (in theory) infinite players.
+  //  [demo.jpg]
+  //  During the hackathon demo, we invited everyone in the audience to join the game. At one point, we had over 200 participants going on-screen.
+  //  [demo2.JPG]
+  //  Testing with judges and students.
+  //  <br><br>
+  //  <b>THE GAME</b>
+  //  [motemote-3.gif]
+  //  The interface is pretty minimal. You select a character and color for your Mote, and write in your name to start:
+  //  [motemote.gif]
+  //  The rest of gameplay is done through a touch-screen joystick. Alternatively, you can use your phone's spatial sensors to control your character by tilting instead.
+  //  [motemote-2-nice.gif]
+  //  `
+  // },
 
   // {
   //     "folder":"googleparty",
@@ -885,7 +912,7 @@ People also gave me thoughts on how to improve:
 
 
 
-  //
+
   //
 	// {
 	// 	"folder":"sketch",

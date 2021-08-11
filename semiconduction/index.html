@@ -7,7 +7,7 @@
 
 <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script> -->
 <link type="text/css" href="css/themename/jquery-ui-1.7.1.custom.css" rel="Stylesheet" />
-
+<title>on touching each other through semi conduction</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
@@ -69,10 +69,14 @@ body {
 }
 
 .part img:hover{
-  /* box-shadow:1px 1px 5px #fff; */
   opacity:0.75;
 }
 
+.part img:active{
+  /* box-shadow:1px 1px 5px #fff; */
+  opacity:0.5;
+
+}
 .fade {
   opacity:0;
   transition: 0.75s ease-in;
@@ -126,7 +130,7 @@ h2 {
     margin: 0px 10px;
     padding: 0px;
     width:100%;
-    height:100%;
+    height:90%;
     border-right: 0px;
 
   }
@@ -139,11 +143,22 @@ h2 {
 
   }
 
+  #writing{
+    position: fixed;
+    top:10px;
+  }
+
   .part img {
     max-width: 60px;
   }
   .part {
     padding: 10px;
+  }
+
+  h2{
+    /* padding-bottom: 0px;
+    margin-top: 0px; */
+    display:none;
   }
 }
 
