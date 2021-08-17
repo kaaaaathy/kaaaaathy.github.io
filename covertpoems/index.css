@@ -19,7 +19,7 @@ p{
   /* FORMATS YOUR POEM LINE */
   position: absolute;
   font-size: 30px;
-  opacity: 0.2;
+  opacity: 0.1;
   color:white;
   transition: 1s ease;
 
