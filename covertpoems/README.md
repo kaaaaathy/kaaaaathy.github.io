@@ -59,8 +59,11 @@ Here is the [basic example](https://kaaathy.com/covertpoems/index.html):
 ### Then, in the code:
 
 * Download all of covertpoems to your desktop. This should include “index.css,” “index.html,” “script.js.” Open all three files in a text editor of your choice.
-* Beginning in **script.js**: On line 1, after the equal sign “let desires = …”, replace the lines with your own poem. Think about if you want to split it up on every line break, or on every word...
-* On line 16: If you would like, you can change the event listener “click” to other kinds of events. Mouseover, mousedown… here is a full list of all event listeners:[HTML DOM Event Object Reference](https://www.w3schools.com/jsref/dom_obj_event.asp)
+* Beginning in **script.js**: On line 1, after the equal sign “let desires = …”, replace the data with your own poem. Think about if you want to split it up on every line break, or on every word...
+ 
+ <img width="500" alt="image of the text editor, showing an example array" src="https://user-images.githubusercontent.com/8203939/129782342-47353fa4-4f41-42a1-9b19-cf43306f209e.png">
+
+* On line 16: If you would like, you can change the event listener “click” to other kinds of events. Mouseover, mousedown… here is a full list of all event listeners: [HTML DOM Event Object Reference](https://www.w3schools.com/jsref/dom_obj_event.asp)
   
 * **In index.html**: On line 15, between the h1 brackets, replace the title of the poem with your own. What instructions might you give to someone reading this poem?
 * **In index.css**: On line 3, change the background image to be the name of your own image file. Maybe it’s something that reminds you about the person/idea you are writing to, or maybe it’s something completely random and meant to disguise the website from your intended audience.
