@@ -1,16 +1,16 @@
-let desires = ["lick a flower bud","taste your mouth","enter, again", "suck a tenderness", "and graze you","caressing an edge"];
+let desires = ["lick your flower bud","taste your mouth","enter, again", "suck a tenderness", "and graze you","caressing an edge"];
 
-let acrossYou = window.innerWidth;
 let alongYou = window.innerHeight;
+let acrossYou = window.innerWidth;
 
 for (let i = 0; i<desires.length;i++){
 
   let newDesire = document.createElement("p");
   newDesire.innerText = desires[i];
 
-// PUT IN A RANDOM LOCATION
-  newDesire.style.top = getRandomNumber(0, acrossYou);
-  newDesire.style.left = getRandomNumber(0, alongYou);
+// PUT IN A RANDOM LOCATION, adding 50px padding on all sides, 200px preventing it from getting too close to right side
+  newDesire.style.top = getRandomNumber(50, innerHeight-50);
+  newDesire.style.left = getRandomNumber(50, innerWidth-200);
 
 // TELL IT TO CHANGE ITS APPEARANCE WHEN TOUCHED (CAN DELETE)
   newDesire.addEventListener("click", function(){

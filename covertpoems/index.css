@@ -19,8 +19,8 @@ p{
   /* FORMATS YOUR POEM LINE */
   position: absolute;
   font-size: 30px;
-
-  opacity: 0;
+  opacity: 0.2;
+  color:white;
   transition: 1s ease;
 
 }
@@ -41,7 +41,6 @@ p:focus, p:active{
 
 .touched{
   /* MAKES THE POEM LINE APPEAR, ALSO CAN BE DELETED FOR DISCRETION */
-  color: pink;
   opacity:1;
   text-shadow: oldlace 10px 0 10px;
 
