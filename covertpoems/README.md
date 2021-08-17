@@ -40,8 +40,9 @@ Here is the [basic example](https://kaaathy.com/covertpoems/index.html):
 
 ## Instructions
   
-### Start offline:
-* Offer a love poem. If it’s easier, write it not as a poem, but as a list.  
+### Write a love poem:
+* If it’s easier, write it not as a poem, but as a list. 
+* If you'd like structure, consider traditional poetry formats, e.g. 14 lines in the rough structure of a sonnet. Or 5 lines for a haiku. 
 * Perhaps it’s someone you fancy, with whom you want to be discreet. 
 * Perhaps this poem is dedicated to yourself, or a part of the body.
 * What do you love about this part of the body?
@@ -49,7 +50,6 @@ Here is the [basic example](https://kaaathy.com/covertpoems/index.html):
 * You can stay within a realm of romantic, platonic, or other kinds of love. Whatever is more comfortable. 
 * Maybe you start every line with a different verb [“touch,” “taste”, “stroke”]. 
 * Maybe you start every line with the word “you…”
-* If you'd like structure, consider traditional poetry formats, e.g. 14 lines in the rough structure of a sonnet. Or 5 lines for a haiku. 
 * For net-based written inspiration, consider [Craigslist Missed Connections](https://newyork.craigslist.org/d/missed-connections/search/mis) (go with discretion...) or erotic Fan Fiction sites...
 
     <img width="400" alt="love poem by audre lorde" src="https://user-images.githubusercontent.com/8203939/129765294-ec1810ae-6a91-4700-99fe-305bd52a1060.jpg">
