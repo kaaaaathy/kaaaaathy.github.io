@@ -80,9 +80,10 @@ This is just meant to be a starting point, but perhaps you want to play with oth
 ## Further Reading
 * [The Uses of the Erotic, Erotic as Power](https://uk.sagepub.com/sites/default/files/upm-binaries/11881_Chapter_5.pdf)
  by Audre Lorde
-* Love Poem by Audre Lorde
+* [Audre Lorde's Poetry](https://www.poetryfoundation.org/poets/audre-lorde), Poetry Foundation
 * [Pleasure Activism: The Politics of Feeling Good](https://www.akpress.org/pleasure-activism.html) by adrienne maree browne
 * [skinonskinonskin](https://anthology.rhizome.org/skinonskinonskin) by Auriea Harvey and Michaël Samyn
+* [Women of Concrete Poetry](https://poetrysociety.org/features/in-their-own-words/concrete-poetry)
 
 **Tech Resources**
 * What is an event listener? [JavaScript DOM EventListener](https://www.w3schools.com/js/js_htmldom_eventlistener.asp)
@@ -91,4 +92,4 @@ This is just meant to be a starting point, but perhaps you want to play with oth
 
 **Also of Interest**
 * Sex workers, technology, social justice: [Hacking // Hustling](https://hackinghustling.org/)
-* Computational, material, electronic poetry, in no particular order: [Women of Concrete Poetry](https://poetrysociety.org/features/in-their-own-words/concrete-poetry), [OuliPo](https://en.wikipedia.org/wiki/Oulipo), [A House of Dust](https://www.centerforthehumanities.org/james-gallery/exhibitions/house-of-dust), [Patchwork Girl](https://www.eliterature.org/Awards2001/fiction-JacksonShelley.php)
+* Computational, material, electronic poetry, in no particular order: [Patchwork Girl](https://www.eliterature.org/Awards2001/fiction-JacksonShelley.php), [OuliPo](https://en.wikipedia.org/wiki/Oulipo), [A House of Dust](https://www.centerforthehumanities.org/james-gallery/exhibitions/house-of-dust)
