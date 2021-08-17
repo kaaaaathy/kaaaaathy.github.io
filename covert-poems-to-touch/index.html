@@ -1,0 +1,99 @@
+<html>
+<head>
+<title>things i am thinking about doing</title>
+<style type="text/css">
+
+body {
+  /* INSERT AN IMAGE THAT YOU MAY WANT FOR DISCRETION */
+  background-image: url(rose.jpg);
+
+  /* THIS PREVENTS THE IMAGE FROM MOVING AROUND, FEEL FREE TO CHANGE FOR RESIZING */
+  background-size: cover;
+  overflow-y: hidden;
+
+  font-family: cursive;
+
+
+}
+
+h1 {
+  /* FORMATS THE TITLE */
+  text-shadow: oldlace 1px 0 10px;
+  text-align: center;
+}
+
+
+p{
+  /* FORMATS YOUR POEM LINE */
+  position: absolute;
+  font-size: 30px;
+
+  opacity: 0;
+  transition: 1s ease;
+
+
+
+}
+
+p:hover{
+  /* FORMATS YOUR POEM LINE WHEN THE CURSOR EVER SO GRAZES IT */
+  opacity:1;
+  transition: 1s ease;
+  cursor:pointer;
+
+}
+
+p:focus, p:active{
+  /* CHANGES CURSOR TO GRABBING CURSOR ON CLICK */
+  cursor:grabbing;
+
+}
+
+.touched{
+  /* MAKES THE POEM LINE APPEAR, ALSO CAN BE DELETED FOR DISCRETION */
+  color: pink;
+  opacity:1;
+  text-shadow: oldlace 10px 0 10px;
+
+}
+
+</style>
+</head>
+
+
+<body>
+  <!-- TITLE, which can be deleted -->
+  <!-- DELETE OR EDIT THIS IF YOU WANT IT TO LOOK MORE LIKE A NORMAL WEBSITE  -->
+
+  <h1>a website body</h1>
+</body>
+
+<script>
+let desires = ["lick a flower bud","taste your mouth","enter, again", "suck a tenderness", "and graze you","caressing an edge"];
+
+let acrossYou = window.innerWidth;
+let alongYou = window.innerHeight;
+
+for (let i = 0; i<desires.length;i++){
+
+  let newDesire = document.createElement("p");
+  newDesire.innerText = desires[i];
+
+// PUT IN A RANDOM LOCATION
+  newDesire.style.top = getRandomNumber(0, acrossYou);
+  newDesire.style.left = getRandomNumber(0, alongYou);
+
+// TELL IT TO CHANGE ITS APPEARANCE WHEN TOUCHED (CAN DELETE)
+  newDesire.addEventListener("click", function(){
+      newDesire.classList.toggle("touched");
+  });
+
+  document.body.appendChild(newDesire);
+}
+
+function getRandomNumber(min,max){
+  return Math.floor(Math.random() * max + min);
+}
+
+</script>
+</html>
