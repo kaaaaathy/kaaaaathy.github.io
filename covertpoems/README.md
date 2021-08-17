@@ -36,7 +36,7 @@ This recipe is a simple and humble one. It’s aimed at people who are just star
 
 Here is the [basic example](https://kaaathy.com/covertpoems/index.html):
 
-<img width="600" alt="a gif of a mouse roving a webpage with an image of a rose, looking for text which says things like, lick my flower bud" src="https://user-images.githubusercontent.com/8203939/129764343-17931f75-c867-4573-865e-08c504a532c2.gif">
+<img width="600" alt="a gif of a mouse roving a webpage with an image of a rose, looking for text which says things like, lick your flower bud" src="https://user-images.githubusercontent.com/8203939/129781977-b13910d1-3627-4ebb-89bb-2d19fd9af964.gif">
 
 ## Instructions
   
