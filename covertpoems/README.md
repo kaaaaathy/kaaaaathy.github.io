@@ -24,7 +24,8 @@ And of course there’s all the ways in which the act of writing about love—es
 Within the traditions of material and concrete poetics, we might gently resist what this web space might be for. For instance, here’s an example of [digital love letters from 1999](https://anthology.rhizome.org/skinonskinonskin), which plays with how the cursor dances across skin: 
 
  <img width="400" alt="a heart pumps in a Netscape browser window from 1999, revealing steamy words that scatter across the screen" src="https://user-images.githubusercontent.com/8203939/129767323-7de55c32-66cd-42f4-945a-81067ba2c9a9.gif">
-Src: [skinonskinonskin](https://anthology.rhizome.org/skinonskinonskin)
+
+> Src: [skinonskinonskin](https://anthology.rhizome.org/skinonskinonskin)
  
 We can play with the browser space as a world of play, poetry, and pleasure even. As users of computational machines we spend minutes if not hours of everyday clicking, swiping, touching the <body> of a webpage. Let’s pretend for a moment that the cursor is my hand, or body, seemingly immaterial, floating. Can a hover state be a gaze, or a click be a caress?
 
@@ -50,7 +51,7 @@ Here is the [basic example](https://kaaathy.com/covertpoems/index.html):
 * Maybe you start every line with the word “you…”
 
     <img width="400" alt="love poem by audre lorde" src="https://user-images.githubusercontent.com/8203939/129765294-ec1810ae-6a91-4700-99fe-305bd52a1060.jpg">
-_Love Poem by Audre Lorde_
+> _Love Poem by Audre Lorde_
   
 If you'd like structure, consider traditional poetry formats, e.g. 14 lines in the rough structure of a sonnet. Or 5 lines for a haiku. For net-based inspiration, consider [Craigslist Missed Connections](https://newyork.craigslist.org/d/missed-connections/search/mis) (go with discretion...) or erotic Fan Fiction sites...
 
@@ -65,7 +66,8 @@ If you'd like structure, consider traditional poetry formats, e.g. 14 lines in t
 * **In index.css**: On line 3, change the background image to be the name of your own image file. Maybe it’s something that reminds you about the person/idea you are writing to, or maybe it’s something completely random and meant to disguise the website from your intended audience.
 
 <img width="300" alt="a woman's tongue licking a keyboard" src="https://user-images.githubusercontent.com/8203939/129765868-a3a1ea06-b78d-4f28-8af0-382b845cde2a.png">
-Src: [Women in Concrete Poetry: 1959-1979](https://primaryinformation.org/product/women-in-concrete-poetry-1959-1979/)
+ 
+> Src: [Women in Concrete Poetry: 1959-1979](https://primaryinformation.org/product/women-in-concrete-poetry-1959-1979/)
   
 This is just meant to be a starting point, but perhaps you want to play with other structures entirely. Here is a [love poem builder](https://kaaathy.com/digpo/may.html) that I made back in 2014, if you want to see other kinds of interactivity.
 
