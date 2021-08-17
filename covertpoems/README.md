@@ -23,6 +23,9 @@ And of course there’s all the ways in which the act of writing about love—es
 
 Within the traditions of material and concrete poetics, we might gently resist what this web space might be for. For instance, here’s an example of [digital love letters from 1999](https://anthology.rhizome.org/skinonskinonskin), which plays with how the cursor dances across skin: 
 
+ <img width="400" alt="a heart pumps in a Netscape browser window from 1999, revealing steamy words that scatter across the screen" src="https://user-images.githubusercontent.com/8203939/129767323-7de55c32-66cd-42f4-945a-81067ba2c9a9.gif">
+Src: [skinonskinonskin](https://anthology.rhizome.org/skinonskinonskin)
+ 
 We can play with the browser space as a world of play, poetry, and pleasure even. As users of computational machines we spend minutes if not hours of everyday clicking, swiping, touching the <body> of a webpage. Let’s pretend for a moment that the cursor is my hand, or body, seemingly immaterial, floating. Can a hover state be a gaze, or a click be a caress?
 
 Writing about love can often invite a kind of discretion, secrecy, for a number of different reasons—think pillow books, innuendos. This recipe is also inspired by modes of secret writing. In the browser, to be literally transparent means to hide away. To be opaque in our expression, means to show all. You might also play with visibility, legibility.
@@ -32,7 +35,7 @@ This recipe is a simple and humble one. It’s aimed at people who are just star
 
 Here is the [basic example](https://kaaathy.com/covertpoems/index.html):
 
-<img width="400" alt="a gif of a mouse roving a webpage with an image of a rose, looking for text which says things like, lick my flower bud" src="https://user-images.githubusercontent.com/8203939/129764343-17931f75-c867-4573-865e-08c504a532c2.gif">
+<img width="600" alt="a gif of a mouse roving a webpage with an image of a rose, looking for text which says things like, lick my flower bud" src="https://user-images.githubusercontent.com/8203939/129764343-17931f75-c867-4573-865e-08c504a532c2.gif">
 
 ## Instructions
   
@@ -66,7 +69,7 @@ Src: [Women in Concrete Poetry: 1959-1979](https://primaryinformation.org/produc
   
 This is just meant to be a starting point, but perhaps you want to play with other structures entirely. Here is a [love poem builder](https://kaaathy.com/digpo/may.html) that I made back in 2014, if you want to see other kinds of interactivity.
 
-<img width="400" alt="a still image of flowers on a black background. it reads, you and me take make wear and sigh" src="https://user-images.githubusercontent.com/8203939/129765236-0451a0bc-8c1b-426a-9b50-a8542255e1e1.jpg)">
+<img width="500" alt="a still image of flowers on a black background. it reads, you and me take make wear and sigh" src="https://user-images.githubusercontent.com/8203939/129765236-0451a0bc-8c1b-426a-9b50-a8542255e1e1.jpg">
 
 
 ## Further Reading
