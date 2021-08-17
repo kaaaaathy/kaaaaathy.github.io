@@ -1,8 +1,11 @@
 <html>
 <head>
-<title>things i am thinking about doing</title>
-<style type="text/css">
+<title>a body</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<!-- WHERE YOUR POEM IS STYLED -->
+
+<style type="text/css">
 body {
   /* INSERT AN IMAGE THAT YOU MAY WANT FOR DISCRETION */
   background-image: url(rose.jpg);
@@ -12,8 +15,6 @@ body {
   overflow-y: hidden;
 
   font-family: cursive;
-
-
 }
 
 h1 {
@@ -22,7 +23,6 @@ h1 {
   text-align: center;
 }
 
-
 p{
   /* FORMATS YOUR POEM LINE */
   position: absolute;
@@ -30,8 +30,6 @@ p{
 
   opacity: 0;
   transition: 1s ease;
-
-
 
 }
 
@@ -61,12 +59,20 @@ p:focus, p:active{
 </head>
 
 
+
+
+
+<!-- WHERE YOUR POEM IS BUILT -->
+
 <body>
   <!-- TITLE, which can be deleted -->
   <!-- DELETE OR EDIT THIS IF YOU WANT IT TO LOOK MORE LIKE A NORMAL WEBSITE  -->
 
-  <h1>a website body</h1>
+  <h1>in the body of a rose in an ether</h1>
 </body>
+
+
+<!-- WHERE YOU WRITE THE 'DATA' THAT CONTAINS YOUR POEM -->
 
 <script>
 let desires = ["lick a flower bud","taste your mouth","enter, again", "suck a tenderness", "and graze you","caressing an edge"];
@@ -91,6 +97,7 @@ for (let i = 0; i<desires.length;i++){
   document.body.appendChild(newDesire);
 }
 
+// A FUNCTION THAT GIVES A RANDOM NUMBER, FOR SIMPLICITY
 function getRandomNumber(min,max){
   return Math.floor(Math.random() * max + min);
 }
