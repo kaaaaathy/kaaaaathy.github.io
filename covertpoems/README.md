@@ -49,12 +49,12 @@ Here is the [basic example](https://kaaathy.com/covertpoems/index.html):
 * You can stay within a realm of romantic, platonic, or other kinds of love. Whatever is more comfortable. 
 * Maybe you start every line with a different verb [“touch,” “taste”, “stroke”]. 
 * Maybe you start every line with the word “you…”
+* If you'd like structure, consider traditional poetry formats, e.g. 14 lines in the rough structure of a sonnet. Or 5 lines for a haiku. 
+* For net-based written inspiration, consider [Craigslist Missed Connections](https://newyork.craigslist.org/d/missed-connections/search/mis) (go with discretion...) or erotic Fan Fiction sites...
 
     <img width="400" alt="love poem by audre lorde" src="https://user-images.githubusercontent.com/8203939/129765294-ec1810ae-6a91-4700-99fe-305bd52a1060.jpg">
 > _Love Poem by Audre Lorde_
-  
-If you'd like structure, consider traditional poetry formats, e.g. 14 lines in the rough structure of a sonnet. Or 5 lines for a haiku. For net-based inspiration, consider [Craigslist Missed Connections](https://newyork.craigslist.org/d/missed-connections/search/mis) (go with discretion...) or erotic Fan Fiction sites...
-
+ 
   
 ### Then, in the code:
 
@@ -71,14 +71,13 @@ If you'd like structure, consider traditional poetry formats, e.g. 14 lines in t
   
 This is just meant to be a starting point, but perhaps you want to play with other structures entirely. Here is a [love poem builder](https://kaaathy.com/digpo/may.html) that I made back in 2014, if you want to see other kinds of interactivity.
 
-<img width="500" alt="a still image of flowers on a black background. it reads, you and me take make wear and sigh" src="https://user-images.githubusercontent.com/8203939/129765236-0451a0bc-8c1b-426a-9b50-a8542255e1e1.jpg">
+<img width="500" alt="a grid of flowers blooming on a black background. each flower has a word attached to it, like you, me, take, sigh" src="https://kaaathy.com/work/digpo-imgs/may-3.gif">
 
 
 ## Further Reading
-* [The Uses of the Erotic, Erotic as Power](https://uk.sagepub.com/sites/default/files/upm-binaries/11881_Chapter_5.pdf)!
+* [The Uses of the Erotic, Erotic as Power](https://uk.sagepub.com/sites/default/files/upm-binaries/11881_Chapter_5.pdf)
  by Audre Lorde
 * Love Poem by Audre Lorde
-* All about Love by bell hooks
 * [Pleasure Activism: The Politics of Feeling Good](https://www.akpress.org/pleasure-activism.html) by adrienne maree browne
 * [skinonskinonskin](https://anthology.rhizome.org/skinonskinonskin) by Auriea Harvey and Michaël Samyn
 
