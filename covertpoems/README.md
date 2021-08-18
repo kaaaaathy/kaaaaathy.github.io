@@ -27,12 +27,12 @@ Within the traditions of material and concrete poetics, we might gently resist w
 
 > Src: [skinonskinonskin](https://anthology.rhizome.org/skinonskinonskin)
  
-We can play with the browser space as a world of play, poetry, and pleasure even. As users of computational machines we spend minutes if not hours of everyday clicking, swiping, touching the <body> of a webpage. Let’s pretend for a moment that the cursor is my hand, or body, seemingly immaterial, floating. Can a hover state be a gaze, or a click be a caress?
+We can play with the browser space as a world of play, poetry, and pleasure even. As users of computational machines we spend minutes if not hours of everyday clicking, swiping, touching the body of a webpage. Let’s pretend for a moment that the cursor is my hand, or body, seemingly immaterial, floating. Can a hover state be a gaze, or a click be a caress?
 
 Writing about love can often invite a kind of discretion, secrecy, for a number of different reasons—think pillow books, innuendos. This recipe is also inspired by modes of secret writing. In the browser, to be literally transparent means to hide away. To be opaque in our expression, means to show all. You might also play with visibility, legibility.
 
 **Who is it for?**
-This recipe is a simple and humble one. It’s aimed at people who are just starting out their understanding with “how the browser is built,” that offers a playful way to think about “touch” and “click” and toggling the appearance of a DOM element. Making websites from scratch too, can be a radical act of moving away from standards, constraints, community guidelines set out by contemporary internet giants. 
+This recipe is a simple and humble one. It’s aimed at people who are just starting out their understanding with “how the browser is built,” that offers a playful way to think about “touch” and “click” and toggling the appearance of a DOM element. Making websites from scratch too, can be a radical act of moving away from the nonconsensual transactions, constraints, and terms of service set out by today's software empires. 
 
 Here is the [basic example](https://kaaathy.com/covertpoems/index.html):
 
