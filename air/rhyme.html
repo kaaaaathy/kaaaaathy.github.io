@@ -1,0 +1,94 @@
+<html>
+<head>
+<style type="text/css">
+#content {
+  font-family: Arial;
+  padding: 100px 0;
+}
+
+body {
+  text-align: center;
+}
+
+</style>
+</head>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/rita"></script>
+
+  <div id="content" width=200 height=200></div>
+  <button id = "button">another one</button>
+
+  <script>
+
+      // console.log(RiTa.randomWord());
+      // console.log(RiTa.randomWord({targetPos: "nns"}));
+      // console.log(RiTa.randomWord({numSyllables: 3, maxLength: 10}));
+
+      doSomething();
+
+      function doSomething(){
+
+        let data = "A house of dust on open ground lit by natural light inhabited by friends and enemies";
+        let parts = RiTa.pos(data);
+        console.log(parts);
+        let words = RiTa.tokenize(data);
+        console.log(RiTa.analyze(data));
+
+// MAKE IT RANDOM
+      // for (i=0; i<words.length;i++){
+      //   if (RiTa.isNoun(words[i])==true && words[i] != "lit"){
+      //     console.log(words[i] + " is a noun");
+      //     // console.log(words[i] + " is a " + parts[i] + " and has the syllables " + RiTa.syllables(words[i]));
+      //     words[i] = RiTa.randomWord({targetPos:"nn"});
+      //   }
+      //   else {
+      //
+      //   }
+      // }
+
+      // for (i=0; i<words.length;i++){
+      //   if (RiTa.isNoun(words[i])==true && words[i] != "lit"){
+      //     console.log(words[i] + " is a noun");
+      //     // console.log(words[i] + " is a " + parts[i] + " and has the syllables " + RiTa.syllables(words[i]));
+      //     words[i] = RiTa.rhymes(words[i]).join(" ");
+      //
+      //   }
+      //   else {
+      //
+      //   }
+
+
+// MAKE IT RHYME
+
+      for (i=0; i<words.length;i++){
+        if (RiTa.isNoun(words[i])==true && words[i] != "lit"){
+          console.log(words[i] + " is a noun");
+          // console.log(words[i] + " is a " + parts[i] + " and has the syllables " + RiTa.syllables(words[i]));
+          let rhymes = RiTa.rhymes(words[i]);
+          console.log(rhymes);
+
+          if (rhymes.length > 0){
+
+            let randomNum = Math.floor(Math.random() * rhymes.length);
+            console.log(randomNum);
+            words[i] = rhymes[randomNum];
+          }
+        }
+        else {
+
+        }
+      }
+
+      console.log(words);
+      let finishedData = RiTa.untokenize(words);
+
+      document.getElementById("content").innerHTML = finishedData;
+      }
+
+      document.getElementById("button").onclick = doSomething;
+
+
+
+  </script>
+<html>

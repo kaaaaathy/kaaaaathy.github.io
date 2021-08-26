@@ -9,6 +9,15 @@
 	font-weight: bold;
 }
 
+@font-face {
+  font-family: 'Publico';
+  src: url('../fonts/publico/PublicoTextMono-RomanNo2-Web.woff2') format('woff2'),
+       url('../fonts/publico/PublicoTextMono-RomanNo2-Web.woff') format('woff');
+  font-weight:  500;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
 /*--------------------------------------------------------------*/
 /*THE FUN STARTS HERE*/
 
@@ -68,8 +77,6 @@ section{
 
 .aboutlinks {
     border-bottom: 1px dotted salmon;
-    font-weight: bold;
-
 }
 
 
@@ -92,7 +99,7 @@ nav {
 
 nav a {
 	font-size: 16pt;
-    font-family: 'DM Mono', monospace;
+    font-family: 'Publico','DM Mono', monospace;
     margin-top:-20px;
     padding:20px;
 }
@@ -122,19 +129,19 @@ a:hover {
 
 h2 {
 	font-size:16pt;
-	font-family: 'DM Mono', monospace;
+	font-family: 'Publico','DM Mono', monospace;
 	font-weight: normal;
     line-height: 1.6em;
-	letter-spacing: 0px;
+	letter-spacing: -0.25px;
     max-width: 700px;
     margin-top:0px;
 }
 
 h3{
-	font-size: 16pt;
-	font-family: 'DM Mono', monospace;
+	font-size: 18pt;
+	font-family: 'Publico','DM Mono', monospace;
 	font-weight: normal;
-  	letter-spacing: 0px;
+	letter-spacing: -0.25px;
     margin-bottom: 0px;
 	margin-top: 90px;
 }

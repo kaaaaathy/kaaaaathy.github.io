@@ -1,0 +1,169 @@
+<html>
+<head>
+<style type="text/css">
+#content {
+  font-family: Arial;
+  /* padding: 100px 0; */
+}
+
+body {
+  text-align: center;
+  background: white;
+  color:blue;
+
+
+}
+
+.mutable {
+  color:blue;
+}
+
+.wordItem:hover{
+  background-color: aliceblue;
+  cursor: pointer;
+}
+
+#content {
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+}
+
+div .wordItem {
+  padding:2px 6px;
+  border-radius: 100px;
+  width: auto;
+}
+
+.clicked{
+    background: blue;
+    color:white;
+}
+
+</style>
+</head>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/rita"></script>
+  <!-- <div id="div"></div> -->
+  <div id="content"></div>
+
+  <script>
+
+  let phrase;
+  let words;
+  let waterways = ["streams","rivers", "estuaries", "deltas", "seas", "oceans","loneliness","waiting","wanting"];
+
+      setup();
+
+      for (let i=0; i<100;i++){
+        build();
+      }
+
+
+  // LOAD DATA + BREAK INTO WORDS
+  function setup(){
+    console.log(waterways);
+    phrase = waterways.join(" which led to ");
+    words = RiTa.tokenize(phrase);
+    words.push("to");
+
+
+  }
+
+  // MAKE IT APPEAR IN DOM
+  function build(){
+      for (let i=0; i<words.length;i++){
+          console.log(words[i]);
+          //create new divs with words in them
+          let newdiv = document.createElement("div");
+          newdiv.id = 'word-' + i;
+          newdiv.classList.add("wordItem");
+          newdiv.innerHTML = words[i];
+          let randomTime = Math.floor(Math.random() * 10000) + 10000;
+
+          //if the word is a water word, make it change
+          if (words[i] != "to" && words[i] != "which" && words[i] != "led" && words[i] != "the" ){
+            fontSize(newdiv);
+            // newdiv.classList.add("mutable");
+            setInterval(nextWater, randomTime, newdiv);
+          }
+
+          //toggle class
+          newdiv.addEventListener("click",function() {
+              // nextWater(newdiv);
+              newdiv.classList.toggle("clicked");
+            });
+
+
+          document.getElementById("content").appendChild(newdiv);
+
+      }
+
+    console.log("BUILD COMPLETE");
+
+  }
+
+
+// function randomWord(div){
+//   div.innerHTML = RiTa.randomWord({pos:"nn"});
+// }
+//
+function randomWater(div){
+  let random = Math.floor(Math.random() * waterways.length);
+  div.innerHTML = waterways[random];
+  fontSize(div);
+
+
+}
+
+function fontSize(div){
+  if (div.innerHTML == waterways[5]){
+    div.style.fontSize = 22;
+  }
+  else if (div.innerHTML == waterways[4]){
+    div.style.fontSize = 20;
+  }
+  else if (div.innerHTML == waterways[3]){
+    div.style.fontSize = 18;
+  }
+  else if (div.innerHTML == waterways[2]){
+    div.style.fontSize = 16;
+  }
+  else if (div.innerHTML == waterways[1]){
+    div.style.fontSize = 12;
+  }
+  else {
+    div.style.fontSize = 10;
+  }
+}
+
+function nextWater(div){
+  currentIndex = waterways.indexOf(div.innerHTML);
+  if (currentIndex < waterways.length - 1){
+      div.innerHTML = waterways[currentIndex + 1];
+    } else {
+      div.innerHTML = waterways[0];
+    }
+
+    fontSize(div);
+
+}
+
+function randomRhyme(word, div){
+  let rhymes;
+
+    rhymes = RiTa.rhymes(word);
+    if (rhymes.length > 0){
+        let randomNum = Math.floor(Math.random() * rhymes.length);
+        console.log(rhymes);
+        div.innerHTML = rhymes[randomNum];
+    }
+    else{
+
+    }
+}
+
+  </script>
+<html>

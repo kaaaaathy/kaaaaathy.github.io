@@ -1,0 +1,150 @@
+<html>
+<head>
+<style type="text/css">
+#content {
+  font-family: Arial;
+  /* padding: 100px 0; */
+}
+
+body {
+  text-align: center;
+
+}
+
+.isAir {
+  color:blue;
+}
+
+.isAir:hover{
+  background-color: aliceblue;
+  cursor: pointer;
+}
+
+#content {
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+}
+
+div .wordItem {
+  padding:20px;
+  border-radius: 100px;
+  width: auto;
+}
+
+</style>
+</head>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/rita"></script>
+  <!-- <div id="div"></div> -->
+  <div id="content"></div>
+
+  <script>
+
+  let data;
+  let words;
+
+      setup();
+
+      for (let i=0; i<100;i++){
+        build();
+      }
+
+      console.log(words);
+      console.log(RiTa.analyze(data));
+
+
+  // LOAD DATA + BREAK INTO WORDS
+  function setup(){
+      data = `the air which connects`;
+      let punctuationless = data.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,"");
+      data = punctuationless.replace(/\s{2,}/g," ");
+      words = RiTa.tokenize(data);
+  }
+
+  // MAKE IT APPEAR IN DOM
+  function build(){
+      for (let i=0; i<words.length;i++){
+          console.log(words[i]);
+          //create new divs with words in them
+          let newdiv = document.createElement("div");
+          newdiv.id = 'word-' + i;
+          newdiv.classList.add("wordItem");
+          newdiv.innerHTML = words[i];
+
+          let randomTime = Math.floor(Math.random() * 4000) + 10000;
+          //if the word is air, than give it rhymes
+          // if (words[i] == "air"){
+          //   newdiv.classList.add("hasRhymes");
+          //   setInterval(randomRhyme, randomTime, words[i], newdiv);
+          // }
+
+          //if the word is air, than give it random word instead
+          if (words[i] == "air"){
+            setInterval(randomWord, randomTime, words[i], newdiv);
+
+            newdiv.classList.add("isAir");
+
+            newdiv.addEventListener("click",function() {
+                newdiv.innerHTML = RiTa.randomWord({pos:"nn"});
+            	});
+          } else {
+
+          }
+
+          document.getElementById("content").appendChild(newdiv);
+
+          //update the rhyme periodically
+      }
+
+    console.log("BUILD COMPLETE");
+
+  }
+
+
+
+
+// // GIVE ME A RANDOM WORD ON CLICK
+// document.getElementById("content").addEventListener("click",function(e) {
+// 	// e.target was the clicked element
+//   if (e.target && e.target.matches("div.wordItem")) {
+//     e.target.innerHTML = RiTa.randomWord({targetPos:"nn"});
+//
+// 	}
+// });
+
+//GIVE ME A RHYMING WORD ON CLICK
+// document.getElementById("content").addEventListener("click",function(e) {
+// 	// e.target was the clicked element
+//
+//   if (e.target && e.target.matches("div.wordItem")) {
+//     // console.log(randomRhyme(e.target.innerHTML));
+//     e.target.innerHTML = randomRhyme(e.target.innerHTML);
+//
+//   }
+//
+// });
+
+
+function randomWord(word,div){
+  div.innerHTML = RiTa.randomWord({pos:"nn"});
+}
+
+function randomRhyme(word, div){
+  let rhymes;
+
+    rhymes = RiTa.rhymes(word);
+    if (rhymes.length > 0){
+        let randomNum = Math.floor(Math.random() * rhymes.length);
+        console.log(rhymes);
+        div.innerHTML = rhymes[randomNum];
+    }
+    else{
+
+    }
+}
+
+  </script>
+<html>
