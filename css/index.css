@@ -31,12 +31,19 @@ html{
 
 body {
 	position: relative;
-
-	font-family: 'Karla', Arial, sans-serif;
-	color: #323232;
-	line-height: 1.6em;
 	font-size: 13pt;
 
+	/* font-family: 'Karla', Arial, sans-serif; */
+	font-family: Arial, sans-serif;
+	letter-spacing: 0.5px;
+	line-height: 1.75em;
+
+	/* font-family: 'Courier Prime','Courier', monospace;
+	letter-spacing: -0.5px; */
+	/* line-height: 1.6em; */
+
+
+	color: #323232;
 	margin: 0;
 	width:100%;
 	height: 100%;
@@ -76,7 +83,7 @@ section{
 }
 
 .aboutlinks {
-    border-bottom: 1px dotted salmon;
+    border-bottom: 1px solid salmon;
 }
 
 
@@ -182,7 +189,7 @@ h3{
 }
 
 #content a {
-    border-bottom: 1px dotted salmon;
+    border-bottom: 1px solid salmon;
 		/* previously #a937ff */
 }
 
@@ -223,10 +230,12 @@ h3{
 
 
 #work-stuff a figcaption{
-	font-weight: bold;
 	margin-top: 8px;
-	line-height: 1.4rem;
+	line-height: 1.5rem;
 	color:rgba(0,0,0,.8);
+	text-align: center;
+	text-transform: lowercase;
+	/* font-family: 'Publico','DM Mono', monospace; */
 
 
  }
@@ -241,6 +250,7 @@ h3{
 	margin:0;
 	color:gray;
 	font-weight: normal;
+	display: none;
 
 }
 
@@ -265,10 +275,6 @@ h3{
 
 @media screen and (min-width: 540px){
 
-
-body {
-    font-size: 12pt;
-  }
 
 
 nav a{

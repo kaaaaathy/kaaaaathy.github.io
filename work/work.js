@@ -5,7 +5,7 @@ work=[
     "name":"Touching Each Other Through Semi Conduction",
     "tags":"Interactive, HTML",
     "thumb":"thumb.jpg",
-    "content":`An <a href="semiconduction/index.html" target="_blank">interactive web poem</a> I wrote and coded about Chinese bodies in a context of mass production.
+    "content":`An <a href="semiconduction/index.html" target="_blank">interactive web poem</a> I wrote and coded about Chinese workers in a context of mass production.
     Works on mobile. For a more spatial viewing experience, try on a desktop computer.
      [semi1.gif]
      [semi3.gif]
