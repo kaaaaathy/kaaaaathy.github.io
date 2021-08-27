@@ -1,10 +1,10 @@
 @font-face {
-	src: url(../fonts/Karla-Regular.ttf);
+	src: url('../fonts/Karla-Regular.ttf');
 	font-family: Karla;
 	font-weight: normal;
 }
 @font-face {
-	src: url(../fonts/Karla-Bold.ttf);
+	src: url('../fonts/Karla-Bold.ttf');
 	font-family: Karla;
 	font-weight: bold;
 }
@@ -33,9 +33,9 @@ body {
 	position: relative;
 	font-size: 13pt;
 
-	/* font-family: 'Karla', Arial, sans-serif; */
-	font-family: Arial, sans-serif;
-	letter-spacing: 0.5px;
+	font-family: 'Karla', Arial, sans-serif;
+	/* font-family: Arial, sans-serif; */
+	/* letter-spacing: 0.5px; */
 	line-height: 1.75em;
 
 	/* font-family: 'Courier Prime','Courier', monospace;
@@ -83,7 +83,7 @@ section{
 }
 
 .aboutlinks {
-    border-bottom: 1px solid salmon;
+    border-bottom: 1px dotted salmon;
 }
 
 
@@ -151,6 +151,7 @@ h3{
 	letter-spacing: -0.25px;
     margin-bottom: 0px;
 	margin-top: 90px;
+
 }
 
 
@@ -189,7 +190,7 @@ h3{
 }
 
 #content a {
-    border-bottom: 1px solid salmon;
+    border-bottom: 1px dotted salmon;
 		/* previously #a937ff */
 }
 
@@ -231,11 +232,11 @@ h3{
 
 #work-stuff a figcaption{
 	margin-top: 8px;
-	line-height: 1.5rem;
+	line-height: 1.4rem;
 	color:rgba(0,0,0,.8);
 	text-align: center;
 	text-transform: lowercase;
-	/* font-family: 'Publico','DM Mono', monospace; */
+	font-family: 'Publico','DM Mono', monospace;
 
 
  }
