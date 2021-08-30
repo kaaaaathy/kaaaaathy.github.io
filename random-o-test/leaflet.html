@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Add Map</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+
+<!-- NEW MAPBOX TOKEN
+
+pk.eyJ1Ijoia2FhYXRoeSIsImEiOiJja3N4dHBqOTEyZDZmMm5rdDd3aDRranl2In0.4oP1N1f4Bs43c9feXjCH6g
+
+L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+
+
+     -->
+
+
+    <style>
+      #mapid { height: 180px; }
+    </style>
+
+  </head>
+  <body>
+     <div id="mapid"></div>
+
+
+         <script>
+             var mymap = L.map('mapid').setView([51.505, -0.09], 13);
+
+             L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoia2FhYXRoeSIsImEiOiJja3N4dHBqOTEyZDZmMm5rdDd3aDRranl2In0.4oP1N1f4Bs43c9feXjCH6g', {
+               attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+               maxZoom: 18,
+               id: 'mapbox/streets-v11',
+               tileSize: 512,
+               zoomOffset: -1,
+               accessToken: 'pk.eyJ1Ijoia2FhYXRoeSIsImEiOiJja3N4dHBqOTEyZDZmMm5rdDd3aDRranl2In0.4oP1N1f4Bs43c9feXjCH6g'
+             //accessToken: 'AIzaSyAtlhEfxgbl8irdc7OAmEKvlE_S6Cu0FBo'
+           }).addTo(mymap);
+
+           </script>
+  </body>
+</html>
