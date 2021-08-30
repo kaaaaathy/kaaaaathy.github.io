@@ -294,13 +294,13 @@ I wrote the script from the point of view of the Arizona Tonto Basin River— a 
 
 {
 "folder":"camdoodler",
-"name":"Cam Doodler",
+"name":"Camera Doodler",
 "tags":"Web, drawing, p5.js",
 "thumb":"thumb.jpg",
 "content":`
 Doodle your world via webcam! Fool your foes! Impress your friends! 👀
 
-    Cam Doodler is a browser-based drawing tool built in p5.js. <a href='https://alpha.editor.p5js.org/full/5BVBUSW2w' target="_blank">Demo it here.</a>  (Note that you'll have to turn your webcam on.)
+    Camera Doodler is a browser-based drawing tool built in p5.js. <a href='https://preview.p5js.org/kathymakes/present/pvr3nRv2c' target="_blank">Demo it here.</a>  (Note that you'll have to turn your webcam on.)
 
 [screen1.jpg]
     I love the idea of canvases that are real-world compatible. To me, this means that anyone can use them without any extra materials or parts– that they interface easily with our found environment.
