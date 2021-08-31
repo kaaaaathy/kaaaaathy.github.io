@@ -1,0 +1,65 @@
+<html>
+<head>
+<style>
+#userInput {
+  width:800px;
+  height:200px;
+  margin: 20px 0px;
+}
+</style>
+
+</head>
+
+
+<body>
+
+
+<h1>Paste something, like a speech, or a manuscript</h1>
+<textarea id = 'userInput'></textarea>
+
+<br>
+
+<button onclick="deconstruct()">sort</button>
+
+<p id = "text"></p>
+
+<script type="text/javascript">
+
+    let input = document.getElementById('userInput');
+    let data;
+    // let abcString = `abcdefghijklmnopqrstuvwxyz`
+    // let abc = abcString.split('');
+    //this is the alphabet as an array
+
+    function deconstruct(){
+        if (input.value.length > 1){
+
+          //store the input into variable 'data'
+          data = input.value;
+          //transform it all to lowercase (helps with sort)
+          data = data.toLowerCase();
+
+          data.replace('\W', '');
+
+          //take the string and split it into an array
+          let words = data.split(' ');
+
+          //sort alphanumerically
+          let resorted = words.sort();
+
+          //if no repeats
+          let uniqueChars = [];
+          resorted.forEach((c) => {
+              if (!uniqueChars.includes(c)) {
+              uniqueChars.push(c);
+            }
+          });
+
+          document.getElementById('text').innerText = uniqueChars.join(' ');
+        }
+    }
+</script>
+</body>
+
+
+</html>

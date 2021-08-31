@@ -1,0 +1,87 @@
+<html>
+<head>
+<style>
+#userInput {
+  width:800px;
+  height:300px;
+
+  margin: 20px 0px;
+}
+</style>
+
+</head>
+
+
+<body>
+
+
+<h1>Paste something, like a speech, or a manuscript</h1>
+<textarea id = 'userInput'></textarea>
+
+<br>
+Find what:
+<textarea id = 'before'></textarea>
+
+Replace with:
+<textarea id = 'after'></textarea>
+
+<br><br>
+
+<button onclick="replace()">replace</button> (uses fresh seed text)
+<br><br>
+<button onclick="replaceAgain()">replace again</button> (compounds search on your existing output)
+
+
+<p id = "text"></p>
+
+<script type="text/javascript">
+
+    let input = document.getElementById('userInput');
+    let before = document.getElementById('before');
+    let after = document.getElementById('after');
+
+    let data;
+    let printedData;
+
+    // function replace(input){
+    //
+    //   return output;
+    // }
+    function replace(){
+        if (input.value.length > 1 && before.value.length > 0 ){
+          //store the input into variable 'data'
+          data = input.value;
+
+          console.log("before="+before.value);
+          console.log("after="+after.value);
+
+          let regex = new RegExp(before.value,'g');
+          console.log(regex);
+          let newdata = data.replace(regex, after.value);
+
+          document.getElementById('text').innerText = newdata;
+        }
+    }
+
+    function replaceAgain(){
+      if (input.value.length > 1 && before.value.length > 0 ){
+        //store the input into variable 'data'
+        data = document.getElementById('text').innerText;
+
+        console.log("before="+before.value);
+        console.log("after="+after.value);
+
+        let regex = new RegExp(before.value,'g');
+        console.log(regex);
+        let newdata = data.replace(regex, after.value);
+
+        document.getElementById('text').innerText = newdata;
+      }
+
+    }
+
+</script>
+</body>
+
+
+</html>

@@ -1,0 +1,86 @@
+<html>
+<head>
+<style>
+#userInput {
+  width:800px;
+  height:300px;
+
+  margin: 20px 0px;
+}
+</style>
+
+</head>
+
+
+<body>
+
+
+<h1>Paste something, like a speech, or a manuscript</h1>
+<textarea id = 'userInput'></textarea>
+
+<br><br>
+
+<button onclick="replace('e')">eeeee</button>
+<button onclick="replace('a')">aaaaaa</button>
+<button onclick="replace('o')">oooooo</button>
+<button onclick="replace('i')">iiiiii</button>
+<button onclick="replace('u')">uuuuuu</button>
+<!-- <button onclick="y()">sometimes y</button> -->
+
+<br><br>
+<button onclick="more()">*vowels intensify*</button>
+
+<p id = "text"></p>
+
+<script type="text/javascript">
+
+    let input = document.getElementById('userInput');
+    let before = document.getElementById('before');
+    let after = document.getElementById('after');
+
+    let data;
+    let vowel;
+
+    function replace(letter){
+        if (input.value.length > 1){
+          data = input.value;
+          let regex = new RegExp('[aeiuo]','g');
+          console.log(regex);
+          let newdata = data.replace(regex, letter);
+          document.getElementById('text').innerText = newdata;
+
+          vowel = letter;
+        }
+
+      }
+
+    function more(){
+      let currentdata = document.getElementById('text').innerText;
+      let regex = new RegExp('[aeiuo]','g');
+      let newdata = data.replace(regex, vowel+vowel);
+      document.getElementById('text').innerText = newdata;
+    }
+
+    //
+    // function replaceAgain(){
+    //   if (input.value.length > 1 && before.value.length > 0 ){
+    //     //store the input into variable 'data'
+    //     data = document.getElementById('text').innerText;
+    //
+    //     console.log("before="+before.value);
+    //     console.log("after="+after.value);
+    //
+    //     let regex = new RegExp(before.value,'g');
+    //     console.log(regex);
+    //     let newdata = data.replace(regex, after.value);
+    //
+    //     document.getElementById('text').innerText = newdata;
+    //   }
+    //
+    // }
+
+</script>
+</body>
+
+
+</html>
