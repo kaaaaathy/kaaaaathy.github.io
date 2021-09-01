@@ -3,45 +3,13 @@
 <head>
 
 
-<title>folio obscura</title>
+  <title>folio obscura | a walk through google maps</title>
 
-<style type="text/css">
+  <link href="style.css" rel="stylesheet" type="text/css"/>
 
-body {
-  background-image: url("maps/central3.png");
-  background-size: cover;
-  font-family: 'courier prime',courier, monospace;
-  color:white;
-  /* font-weight: bold; */
-  user-select: none;
-}
-
-
-a {
-  color:white;
-  text-decoration: underline;
-}
-
-p, img {
-/* box-shadow: 0px 0px 5px gray; */
-background: black;
-opacity: 0;
-}
-
-div, .poem {
-  position:absolute;
-  text-align: center;
-
-}
-.appear{
-  opacity: 1;
-  transition: 1s;
-}
-
-</style>
 
 </head>
-<body>
+<body style="background-image: url('maps/central2.png')">
 
   <a href="9.html">
   <div id="poem"></div>
@@ -53,14 +21,9 @@ div, .poem {
 let winWidth = window.innerWidth;
 let winHeight = window.innerHeight;
 
-let words = `an old friend tells me
-about a poltergeist in their last apartment
-any prior deaths? — not that they know of.
-
-what would it do?
+let words = `what would it do?
 slam doors, close windows.
-zephyrous being.
-`;
+zephyrous being.`;
 
 // let regex = new RegExp()
 let poem = words.split(/\n/);

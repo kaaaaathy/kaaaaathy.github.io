@@ -3,45 +3,12 @@
 <head>
 
 
-<title>folio obscura</title>
+  <title>folio obscura | a walk through google maps</title>
 
-<style type="text/css">
-
-body {
-  background-image: url("maps/inwoodhill2.png");
-  background-size: cover;
-  font-family: 'courier prime',courier, monospace;
-  color:white;
-  /* font-weight: bold; */
-  user-select: none;
-}
-
-
-a {
-  color:white;
-  text-decoration: underline;
-}
-
-p, img {
-/* box-shadow: 0px 0px 5px gray; */
-background: black;
-opacity: 0;
-}
-
-div, .poem {
-  position:absolute;
-  text-align: center;
-
-}
-.appear{
-  opacity: 1;
-  transition: 1s;
-}
-
-</style>
+  <link href="style.css" rel="stylesheet" type="text/css"/>
 
 </head>
-<body>
+<body style="background-image: url('maps/inwoodhill2.png')">
 
   <a href="3.html">
   <div id="poem"></div>
@@ -55,9 +22,7 @@ let winHeight = window.innerHeight;
 let words = `some moments crystallize purely
 in pixel space:
 a pinhole leaf camera
-persists
-
-`;
+persists`;
 
 // let regex = new RegExp()
 let poem = words.split(/\n/);

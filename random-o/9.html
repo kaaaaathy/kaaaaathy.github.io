@@ -3,47 +3,15 @@
 <head>
 
 
-<title>folio obscura</title>
+  <title>folio obscura | a walk through google maps</title>
 
-<style type="text/css">
+  <link href="style.css" rel="stylesheet" type="text/css"/>
 
-body {
-  background-image: url("maps/seneca.png");
-  background-size: cover;
-  font-family: 'courier prime',courier, monospace;
-  color:white;
-  /* font-weight: bold; */
-  user-select: none;
-}
-
-
-a {
-  color:white;
-  text-decoration: underline;
-}
-
-p, img {
-/* box-shadow: 0px 0px 5px gray; */
-background: black;
-opacity: 0;
-}
-
-div, .poem {
-  position:absolute;
-  text-align: center;
-
-}
-.appear{
-  opacity: 1;
-  transition: 1s;
-}
-
-</style>
 
 </head>
-<body>
+<body style="background-image: url('maps/seneca.png')">
 
-  <a href="1.html">
+  <a href="10.html">
   <div id="poem"></div>
   </a>
 </body>
@@ -56,8 +24,7 @@ let winHeight = window.innerHeight;
 let words = `in google maps,
 step backwards in time.
 white ground, white sky
-skaters pirouette
-`;
+skaters pirouette`;
 
 // let regex = new RegExp()
 let poem = words.split(/\n/);

@@ -1,0 +1,40 @@
+body {
+  background-size: cover;
+  background-color: black;
+  font-family: 'courier prime',courier, monospace;
+  /* font-weight: bold; */
+  user-select: none;
+}
+
+
+a {
+  color:white;
+  text-decoration: underline;
+}
+
+p{
+box-shadow: 0px 0px 5px gray;
+/* background: black; */
+background-image: url('maps/paper.png');
+padding:8px;
+color:black;
+transform: rotateX(5deg);
+/* opacity: 0; */
+}
+
+div, .poem {
+  position:absolute;
+  text-align: center;
+
+
+}
+.appear{
+  opacity: 1;
+  transition: 1s;
+}
+
+@media screen and (max-width: 500px){
+  body{
+    background-size: auto;
+  }
+}
