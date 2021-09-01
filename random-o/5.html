@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+
+<title>folio obscura</title>
+
+<style type="text/css">
+
+body {
+  background-image: url("maps/central4.png");
+  background-size: cover;
+  font-family: 'courier prime',courier, monospace;
+  color:white;
+  /* font-weight: bold; */
+  user-select: none;
+}
+
+
+a {
+  color:white;
+  text-decoration: underline;
+}
+
+p, img {
+/* box-shadow: 0px 0px 5px gray; */
+background: black;
+opacity: 0;
+}
+
+div, .poem {
+  position:absolute;
+  text-align: center;
+
+}
+.appear{
+  opacity: 1;
+  transition: 1s;
+}
+
+</style>
+
+</head>
+<body>
+
+  <a href="6.html">
+  <div id="poem"></div>
+  </a></body>
+
+<script>
+
+let winWidth = window.innerWidth;
+let winHeight = window.innerHeight;
+
+let words = `seneca central subterranean
+sordid histories sleep
+
+`;
+
+// let regex = new RegExp()
+let poem = words.split(/\n/);
+
+console.log(poem);
+let poemDiv = document.getElementById('poem');
+
+poemDiv.style.top = getRandomNumber(0, winHeight - 200) +"px";
+poemDiv.style.left = getRandomNumber(0, winWidth - 200) +"px";
+
+
+for (let i = 0; i < poem.length;i++){
+  setTimeout(function(){
+    let newP = document.createElement('p');
+    newP.innerText = poem[i];
+    newP.classList.add("appear");
+    poemDiv.appendChild(newP);
+
+  },i*2000);
+}
+
+
+function getRandomNumber(min, max) {
+  return Math.random() * (max - min) + min;
+
+}
+
+</script>
+</html>

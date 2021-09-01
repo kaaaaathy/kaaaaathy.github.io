@@ -2,84 +2,87 @@
 <html>
 <head>
 
-<script language="javascript" type="text/javascript">
-<!--
-/****************************************************
-     Author: Eric King
-     Url: http://redrival.com/eak/index.shtml
-     This script is free to use as long as this info is left in
-     Featured on Dynamic Drive script library (http://www.dynamicdrive.com)
-****************************************************/
-var win=null;
-function NewWindow(mypage,myname,w,h,scroll,pos){
-if(pos=="random"){LeftPosition=(screen.width)?Math.floor(Math.random()*(screen.width-w)):100;TopPosition=(screen.height)?Math.floor(Math.random()*((screen.height-h)-75)):100;}
-if(pos=="center"){LeftPosition=(screen.width)?(screen.width-w)/2:100;TopPosition=(screen.height)?(screen.height-h)/2:100;}
-else if((pos!="center" && pos!="random") || pos==null){LeftPosition=0;TopPosition=20}
-settings='width='+w+',height='+h+',top='+TopPosition+',left='+LeftPosition+',scrollbars='+scroll+',location=no,directories=no,status=no,menubar=no,toolbar=no,resizable=no';
-win=window.open(mypage,myname,settings);}
-// -->
-</script>
 
-
-<title>garden map</title>
+<title>folio obscura</title>
 
 <style type="text/css">
 
 body {
-  background-image: url("aerial-cem/2.png");
+  background-image: url("maps/inwoodhill.png");
   background-size: cover;
+  font-family: 'courier prime',courier, monospace;
+  color:white;
+  /* font-weight: bold; */
+  user-select: none;
 }
-.cemetary {
-  background-image: url("aerial-cem/2.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 3000px;
-  height: 2000px;
 
-}
 
 a {
   color:white;
+  text-decoration: underline;
 }
+
 p, img {
-
-position:absolute;
-width:40px;
-height:40px;
-z-index: 1000;
-
+/* box-shadow: 0px 0px 5px gray; */
+background: black;
+opacity: 0;
 }
 
+div, .poem {
+  position:absolute;
+  text-align: center;
+
+}
+.appear{
+  opacity: 1;
+  transition: 1s;
+}
 
 </style>
 
 </head>
 <body>
 
-<div class="cemetary"></div>
-<a href="coldrainstarting.html" onclick="NewWindow(this.href,'mywin','250','100','no','random');return false" onfocus="this.blur()">
-  <p style="top:120%;left:55%;">a weathered grave with a name you can't quite make out</p></a>
-
-<a href="caterpillar.html" onclick="NewWindow(this.href,'mywin','250','100','no','random');return false" onfocus="this.blur()">
-  <p style="top:180%; left:120%;">a bouquet of flowers</p></a>
-
-<a href="cuckoocries.html" onclick="NewWindow(this.href,'mywin','250','100','no','random');return false" onfocus="this.blur()">
-  <p style="top:30%; left:40%;">an angel daydreaming</p></a>
-
-<a href="snowymorning.html" onclick="NewWindow(this.href,'mywin','250','100','no','random');return false" onfocus="this.blur()">
-  <p style="top:40%; left:20%;">lilies were her favorite flower</p></a>
-
-<a href="cicada.html" onclick="NewWindow(this.href,'mywin','250','100','no','random');return false" onfocus="this.blur()">
-  <img src="text_document.png" style="top:80%; right:10%;"></a>
-
-<a href="bee.html" onclick="NewWindow(this.href,'mywin','250','100','no','random');return false" onfocus="this.blur()">
-  <img src="text_document.png" style="top:90%;left:150%;"></a>
-
-<a href="coolfallnight.html" onclick="NewWindow(this.href,'mywin','250','100','no','random');return false" onfocus="this.blur()">
-  <img src="text_document.png" style="top:160%; left:180%;"></a>
-
-<a href="strangeflower.html" onclick="NewWindow(this.href,'mywin','250','100','no','random');return false" onfocus="this.blur()">
-  <img src="text_document.png" style="top:15%; left:130%;"></a>
-
+<a href="2.html">
+<div id="poem"></div>
+</a>
 </body>
+
+<script>
+
+let winWidth = window.innerWidth;
+let winHeight = window.innerHeight;
+
+let words = `when reading land, read:
+street signs and portals
+apparitions hushed tones
+there if you see them`;
+
+// let regex = new RegExp()
+let poem = words.split(/\n/);
+
+console.log(poem);
+let poemDiv = document.getElementById('poem');
+
+poemDiv.style.top = getRandomNumber(0, winHeight - 200) +"px";
+poemDiv.style.left = getRandomNumber(0, winWidth - 200) +"px";
+
+
+for (let i = 0; i < poem.length;i++){
+  setTimeout(function(){
+    let newP = document.createElement('p');
+    newP.innerText = poem[i];
+    newP.classList.add("appear");
+    poemDiv.appendChild(newP);
+
+  },i*2000);
+}
+
+
+function getRandomNumber(min, max) {
+  return Math.random() * (max - min) + min;
+
+}
+
+</script>
 </html>
