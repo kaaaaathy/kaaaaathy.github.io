@@ -1,21 +1,17 @@
 <html>
 <head>
-<style>
-#userInput {
-  width:800px;
-  height:300px;
-
-  margin: 20px 0px;
-}
-</style>
+  <link href="style.css" rel="stylesheet" type="text/css"/>
 
 </head>
 
 
-<body>
+<body style = "background:lavender">
 
 
-<h1>Paste something, like a speech, or a manuscript</h1>
+<h1>texture editor</h1>
+<p>Paste something, like a speech, or a manuscript,
+  and try replacing a single letter with something or nothing, or try entire words.</p>
+
 <textarea id = 'userInput'></textarea>
 
 <br>
@@ -31,8 +27,9 @@ Replace with:
 <br><br>
 <button onclick="replaceAgain()">replace again</button> (compounds search on your existing output)
 
+<br><br>
 
-<p id = "text"></p>
+<p id = "text">(your output will appear here)</p>
 
 <script type="text/javascript">
 

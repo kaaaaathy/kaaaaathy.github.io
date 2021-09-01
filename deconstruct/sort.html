@@ -1,27 +1,22 @@
 <html>
 <head>
-<style>
-#userInput {
-  width:800px;
-  height:200px;
-  margin: 20px 0px;
-}
-</style>
+  <link href="style.css" rel="stylesheet" type="text/css"/>
 
 </head>
 
 
-<body>
+<body style = "background:papayawhip">
 
 
-<h1>Paste something, like a speech, or a manuscript</h1>
+<h1>alphabetizer, or how to make something easier to read</h1>
+<p>Paste something, like a speech, or a manuscript</p>
 <textarea id = 'userInput'></textarea>
 
 <br>
 
 <button onclick="deconstruct()">sort</button>
 
-<p id = "text"></p>
+<p id = "text">(your output will appear here)</p>
 
 <script type="text/javascript">
 
@@ -39,7 +34,10 @@
           //transform it all to lowercase (helps with sort)
           data = data.toLowerCase();
 
-          data.replace('\W', '');
+          let regex = /(\r\n)+|\r+|\n+/g;
+          console.log(data.match(regex));
+
+          data = data.replace(regex, ' ');
 
           //take the string and split it into an array
           let words = data.split(' ');
@@ -48,14 +46,14 @@
           let resorted = words.sort();
 
           //if no repeats
-          let uniqueChars = [];
-          resorted.forEach((c) => {
-              if (!uniqueChars.includes(c)) {
-              uniqueChars.push(c);
-            }
-          });
+          // let uniqueChars = [];
+          // resorted.forEach((c) => {
+          //     if (!uniqueChars.includes(c)) {
+          //     uniqueChars.push(c);
+          //   }
+          // });
 
-          document.getElementById('text').innerText = uniqueChars.join(' ');
+          document.getElementById('text').innerText = resorted.join(' ');
         }
     }
 </script>
