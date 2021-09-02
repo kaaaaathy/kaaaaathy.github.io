@@ -1,40 +1,62 @@
 body {
   background-size: cover;
   background-color: black;
-  font-family: 'courier prime',courier, monospace;
-  /* font-weight: bold; */
+  /* font-family: 'courier prime',courier, monospace; */
+  font-family: arial;
   user-select: none;
 }
 
 
 a {
+  text-decoration: none;
   color:white;
-  text-decoration: underline;
 }
 
-p{
-box-shadow: 0px 0px 5px gray;
-/* background: black; */
-background-image: url('maps/paper.png');
-padding:8px;
-color:black;
-transform: rotateX(5deg);
-/* opacity: 0; */
+
+
+#poem {
+  top:0px;
+  left:0px;
+  border: 40px solid green;
 }
 
-div, .poem {
-  position:absolute;
+div {
+  position: fixed;
   text-align: center;
-
-
-}
-.appear{
-  opacity: 1;
-  transition: 1s;
+  line-height: 40px;
 }
 
-@media screen and (max-width: 500px){
+#a {
+  width:100%;
+  top:0px;
+  left:0px;
+}
+
+#b {
+  right:-65px;
+  top:50%;
+  transform: rotate(90deg);
+  transform-origin: center;
+}
+
+#c{
+  bottom:0px;
+  left:0px;
+  width:100%;
+
+}
+
+#d{
+  left:-55px;
+  top:50%;
+  transform: rotate(270deg);
+  transform-origin: center;
+
+}
+
+
+/* @media screen and (max-width: 500px){
   body{
     background-size: auto;
   }
-}
+} */

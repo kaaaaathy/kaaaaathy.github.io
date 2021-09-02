@@ -3,50 +3,42 @@
 <head>
 
 
-<title>folio obscura | a walk through google maps</title>
+  <title>folio obscura | a walk through google maps</title>
 
-<link href="style.css" rel="stylesheet" type="text/css"/>
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+
+</style>
 
 </head>
 <body style="background-image: url('maps/central4.png')">
 
-  <a href="6.html">
-  <div id="poem"></div>
-  </a></body>
 
-<script>
-
-let winWidth = window.innerWidth;
-let winHeight = window.innerHeight;
-
-let words = `seneca central subterranean
-sordid histories sleep`;
-
-// let regex = new RegExp()
-let poem = words.split(/\n/);
-
-console.log(poem);
-let poemDiv = document.getElementById('poem');
-
-poemDiv.style.top = getRandomNumber(0, winHeight - 200) +"px";
-poemDiv.style.left = getRandomNumber(0, winWidth - 200) +"px";
+<div id="poem">
+<div id ="a">     <a href="">
 
 
-for (let i = 0; i < poem.length;i++){
-  setTimeout(function(){
-    let newP = document.createElement('p');
-    newP.innerText = poem[i];
-    newP.classList.add("appear");
-    poemDiv.appendChild(newP);
+    when reading land, read:
 
-  },i*2000);
-}
+  </a></div>
+<div id ="b">     <a href="">
+
+    street signs and portals
 
 
-function getRandomNumber(min, max) {
-  return Math.random() * (max - min) + min;
+  </a></div>
+<div id ="c"><a href="">
 
-}
+  apparitions hushed tones
 
-</script>
+</a></div>
+<div id ="d"><a href="">
+
+
+  there if you see them
+
+
+</a></div></div>
+</body>
+<script type="text/javascript" src = "script.js"></script>
+
 </html>

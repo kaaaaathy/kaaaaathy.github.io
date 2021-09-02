@@ -1,0 +1,45 @@
+body {
+  background-size: cover;
+  background-color: black;
+  font-family: 'courier prime',courier, monospace;
+  /* font-weight: bold; */
+  user-select: none;
+}
+
+
+a {
+  color:blue;
+  text-decoration: underline;
+}
+
+p{
+/* background: black; */
+color:black;
+line-height: 30px;
+/* opacity: 0; */
+}
+
+span {
+  /* background-image: url('maps/paper.png'); */
+  /* box-shadow: 0px 0px 5px gray; */
+  background-color: linen;
+  border-radius: 8px;
+  padding:8px;
+}
+
+div, .poem {
+  position:absolute;
+  text-align: center;
+
+
+}
+.appear{
+  opacity: 1;
+  transition: 1s;
+}
+
+@media screen and (max-width: 500px){
+  body{
+    background-size: auto;
+  }
+}

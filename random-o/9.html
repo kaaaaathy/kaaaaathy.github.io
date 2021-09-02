@@ -7,50 +7,38 @@
 
   <link href="style.css" rel="stylesheet" type="text/css"/>
 
+</style>
 
 </head>
 <body style="background-image: url('maps/seneca.png')">
 
-  <a href="10.html">
-  <div id="poem"></div>
-  </a>
+
+<div id="poem">
+<div id ="a">     <a href="">
+
+
+    when reading land, read:
+
+  </a></div>
+<div id ="b">     <a href="">
+
+    street signs and portals
+
+
+  </a></div>
+<div id ="c"><a href="">
+
+  apparitions hushed tones
+
+</a></div>
+<div id ="d"><a href="">
+
+
+  there if you see them
+
+
+</a></div></div>
 </body>
+<script type="text/javascript" src = "script.js"></script>
 
-<script>
-
-let winWidth = window.innerWidth;
-let winHeight = window.innerHeight;
-
-let words = `in google maps,
-step backwards in time.
-white ground, white sky
-skaters pirouette`;
-
-// let regex = new RegExp()
-let poem = words.split(/\n/);
-
-console.log(poem);
-let poemDiv = document.getElementById('poem');
-
-poemDiv.style.top = getRandomNumber(0, winHeight - 200) +"px";
-poemDiv.style.left = getRandomNumber(0, winWidth - 200) +"px";
-
-
-for (let i = 0; i < poem.length;i++){
-  setTimeout(function(){
-    let newP = document.createElement('p');
-    newP.innerText = poem[i];
-    newP.classList.add("appear");
-    poemDiv.appendChild(newP);
-
-  },i*2000);
-}
-
-
-function getRandomNumber(min, max) {
-  return Math.random() * (max - min) + min;
-
-}
-
-</script>
 </html>
