@@ -3,28 +3,59 @@ body {
   background-color: black;
   /* font-family: 'courier prime',courier, monospace; */
   font-family: arial;
+  color:white;
   user-select: none;
+  overflow: hidden;
+
 }
 
+iframe {
+  width:100%;
+  height:800px;
+
+}
 
 a {
   text-decoration: none;
   color:white;
+  position: fixed;
+  text-align: center;
+  line-height: 40px;
+  opacity: 1;
+  transition: 0.25s opacity;
+
 }
 
 
+a:hover{
+  opacity: 0.5;
+  transition: 0.25s opacity;
+}
+
+.symbol{
+  font-size: 12px;
+}
+
+
+
+.star {
+  font-size: 30px;
+  position: fixed;
+  z-index: 1000;
+  color:gold;
+  /* opacity: 0.5; */
+}
 
 #poem {
   top:0px;
   left:0px;
   border: 40px solid green;
+  position: fixed;
+  background: none;
+
 }
 
-div {
-  position: fixed;
-  text-align: center;
-  line-height: 40px;
-}
+
 
 #a {
   width:100%;
@@ -33,10 +64,10 @@ div {
 }
 
 #b {
-  right:-65px;
+  right:0px;
   top:50%;
   transform: rotate(90deg);
-  transform-origin: center;
+  transform-origin: top;
 }
 
 #c{
@@ -47,10 +78,10 @@ div {
 }
 
 #d{
-  left:-55px;
+  left:0px;
   top:50%;
   transform: rotate(270deg);
-  transform-origin: center;
+  transform-origin: top;
 
 }
 
