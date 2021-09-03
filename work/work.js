@@ -1,5 +1,22 @@
 work=[
 
+  {  "folder":"walk",
+  "name":"walking with ghosts",
+  "tags":"Interactive, HTML",
+  "thumb":"thumb.png",
+  "content":`<a href="https://kaaathy.com/walk/1.html" target="_blank">*walking with ghosts*</a> is a hypertext web poem that invites the reader to travel through cryptic sites in Google Street View. the images are pulled from current NY public parks (nearly all of which used to be potter's fields) and contrasts present day burial grounds with these recreational spaces.
+  it nods at the historical layers of eviction, theft, imperialism embedded quietly and namelessly in these green spaces, via the narrative throughline of ghosts.
+  <iframe src="https://player.vimeo.com/video/596956749" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+  [walk1.png]
+  [walk2.png]
+  [walk3.png]
+  [walk4.png]
+
+  more soon~
+
+  `
+  },
 
      {  "folder":"semiconduction",
     "name":"Touching Each Other Through Semi Conduction",
