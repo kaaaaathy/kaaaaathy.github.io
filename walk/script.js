@@ -7,7 +7,8 @@ let c =  document.getElementById('c');
 
 setText();
 size();
-
+setStars();
+secret();
 function setText(){
     //add unicode arrows dynamically to the top 3
     for (let i = 0; i< abd.length;i++){
@@ -33,11 +34,13 @@ function setStars(){
       star.innerHTML = '&#10038';
       star.classList.add("star");
 
-      let starW = 25;
-      let topbottom = "-" + starW + "px";
-      let leftright = starW/2 + "px";
+      // let starW = 20;
+      let topbottom = "-" + 20 + "px";
+      let leftright =       15 + "px";
+
       if (i==0){
         star.style.top = topbottom;
+        star.style.left = leftright;
 
       } else if (i==1){
         star.style.top = topbottom;
@@ -47,10 +50,19 @@ function setStars(){
         star.style.bottom = topbottom;
       } else if (i==3){
         star.style.bottom = topbottom;
+        star.style.left = leftright;
+
       }
       document.body.appendChild(star);
     }
 
+}
+
+function secret(){
+  let secret = document.createElement('a');
+  secret.classList.add('secret');
+  secret.setAttribute('href',"1.html");
+  document.body.appendChild(secret);
 }
 
 //set up the border and positioning
@@ -64,7 +76,6 @@ function size(){
   poemDiv.style.width = newWidth + "px";
   poemDiv.style.height = newHeight + "px";
 
-  setStars();
 
 }
 

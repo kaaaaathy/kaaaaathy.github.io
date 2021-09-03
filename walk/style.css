@@ -1,51 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital@0;1&display=swap');
+
+
 body {
   background-size: cover;
   background-color: black;
   /* font-family: 'courier prime',courier, monospace; */
   font-family: arial;
-  color:white;
   user-select: none;
   overflow: hidden;
 
 }
 
-iframe {
-  width:100%;
-  height:800px;
-
+.loc {
+  font-family: 'space mono', arial;
+  font-size: 11px;
+  font-style: italic;
+  color:oldlace;
+  text-align: right;
+  padding-right: 15px;
 }
 
-a {
-  text-decoration: none;
-  color:white;
-  position: fixed;
-  text-align: center;
-  line-height: 50px;
-  font-size: 18px;
-  opacity: 1;
-  letter-spacing: 0.25px;
-  transition: 0.25s opacity;
-
-}
-
-
-a:hover{
-  opacity: 0.5;
-  transition: 0.25s opacity;
-}
-
-.symbol{
-  font-size: 12px;
-}
-
-
-
-.star {
-  font-size: 30px;
-  position: fixed;
-  z-index: 1000;
-  color:gold;
-  /* opacity: 0.5; */
+.dark {
+  color:black;
+  font-weight: bold;
 }
 
 #poem {
@@ -54,9 +31,54 @@ a:hover{
   border: 50px solid green;
   position: fixed;
   background: none;
-
+  background-size: cover;
+  background-position: center;
 }
 
+iframe {
+  width:100%;
+  height:800px;
+}
+
+a {
+  color:white;
+  text-decoration: none;
+  position: fixed;
+  text-align: center;
+  line-height: 50px;
+  font-size: 18px;
+  letter-spacing: 0.25px;
+
+  opacity: 1;
+  transition: 0.25s opacity;
+}
+
+
+a:hover{
+  opacity: 0.5;
+  transition: 0.25s opacity;
+}
+
+
+.gold {
+  color:gold;
+}
+
+.gold:hover{
+  cursor:inherit;
+  opacity: 1!important;
+}
+
+.symbol{
+  font-size: 12px;
+}
+
+.star {
+  font-size: 30px;
+  position: fixed;
+  z-index: 1000;
+  color:gold;
+}
 
 
 #a {
@@ -87,6 +109,15 @@ a:hover{
 
 }
 
+.secret {
+  width:50px;
+  height:50px;
+  background: transparent;
+  z-index: 1000;
+  top:0px;
+  left:0px;
+  /* cursor: n-resize; */
+}
 
 /* @media screen and (max-width: 500px){
   body{
