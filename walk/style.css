@@ -4,7 +4,6 @@
 body {
   background-size: cover;
   background-color: black;
-  /* font-family: 'courier prime',courier, monospace; */
   font-family: arial;
   user-select: none;
   overflow: hidden;
@@ -28,7 +27,6 @@ body {
 #poem {
   top:0px;
   left:0px;
-  border: 50px solid green;
   position: fixed;
   background: none;
   background-size: cover;
@@ -92,6 +90,7 @@ a:hover{
   top:50%;
   transform: rotate(90deg);
   transform-origin: top;
+
 }
 
 #c{

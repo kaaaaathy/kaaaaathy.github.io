@@ -26,6 +26,7 @@ function setText(){
 
     b.style.right = bOffset + "px";
     d.style.left = dOffset + "px";
+
 }
 
 function setStars(){
@@ -75,6 +76,7 @@ function size(){
 
   poemDiv.style.width = newWidth + "px";
   poemDiv.style.height = newHeight + "px";
+  poemDiv.style.border = border + "px solid green";
 
 
 }
