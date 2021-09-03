@@ -86,7 +86,7 @@ a:hover{
 }
 
 #b {
-  right:0px;
+  right:-100px;
   top:50%;
   transform: rotate(90deg);
   transform-origin: top;
@@ -101,7 +101,7 @@ a:hover{
 }
 
 #d{
-  left:0px;
+  left:-100px;
   top:50%;
   transform: rotate(270deg);
   transform-origin: top;
