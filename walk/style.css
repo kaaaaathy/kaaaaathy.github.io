@@ -20,8 +20,10 @@ a {
   color:white;
   position: fixed;
   text-align: center;
-  line-height: 40px;
+  line-height: 50px;
+  font-size: 18px;
   opacity: 1;
+  letter-spacing: 0.25px;
   transition: 0.25s opacity;
 
 }
@@ -49,7 +51,7 @@ a:hover{
 #poem {
   top:0px;
   left:0px;
-  border: 40px solid green;
+  border: 50px solid green;
   position: fixed;
   background: none;
 

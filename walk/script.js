@@ -1,5 +1,5 @@
 
-let border = 40;
+let border = 50;
 
 let poemDiv = document.getElementById('poem');
 let abd = [document.getElementById('a'),document.getElementById('b'),document.getElementById('d')]
