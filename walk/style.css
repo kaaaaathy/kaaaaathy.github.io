@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital@0;1&display=swap');
 
+@font-face{
+  font-family:'terminal';
+  src:url('terminal-grotesque-webfont.woff');
+}
 
 body {
   background-size: cover;
@@ -44,10 +48,11 @@ a {
   position: fixed;
   text-align: center;
   line-height: 50px;
-  font-size: 18px;
+  font-size: 20px;
   letter-spacing: 0.25px;
-
   opacity: 1;
+  font-family: 'terminal',arial;
+  align-self: center;
   transition: 0.25s opacity;
 }
 

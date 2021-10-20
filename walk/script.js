@@ -24,6 +24,14 @@ function setText(){
     let bOffset = 0 - b.offsetWidth/2;
     let dOffset = 0 - d.offsetWidth/2;
 
+    if (b.offsetWidth > 200){
+       bOffset = 0 - b.offsetWidth/2.15;
+    }
+
+    if (d.offsetWidth > 200){
+      dOffset = 0 - d.offsetWidth/2.15;
+    }
+
     b.style.right = bOffset + "px";
     d.style.left = dOffset + "px";
 
