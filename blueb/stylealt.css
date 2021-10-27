@@ -1,0 +1,98 @@
+/* CSS files add styling rules to your content */
+@import url('https://cdn.glitch.me/f6a85cef-b2ef-4983-99f5-7ad28ec42489%2Fterminal-grotesque-webfont.woff2?v=1634599793779');
+
+@import url('https://kaaathy.com/fonts/Avara-BoldItalic.otf');
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+
+/*   font-family: 'terminal grotesque', monospace;
+  text-transform:lowercase;
+  letter-spacing:1px; */
+
+
+   font-family: 'terminal','space mono','georgia','times',serif;
+/*    font-style: italic;  */
+  text-transform:uppercase;
+  letter-spacing:1px;
+  font-size:100px;
+/*   color:white; */
+}
+
+.caption {
+  font-size:20px;
+}
+
+button {
+  font-family: 'space mono','georgia','times',serif;
+  text-transform:uppercase;
+  font-size:20px;
+  padding:10px;
+  border-radius:8px;
+
+}
+
+#text {
+  font-size: 100px; 
+  display:flex;
+  align-items:center;
+}
+
+#colorName{
+  text-align:center;
+  font-size:20px;
+}
+
+#container{
+  height:250px;
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin:auto;
+}
+
+.swatches {
+  color:black;
+}
+
+.sky {
+  color:#87CFEB;
+/*   color:black;
+ */
+}
+
+.cobalt {
+  color:#0046AB;
+}
+
+
+.blue {
+  color:blue;
+
+}
+
+.lapis {
+  color:#26619C;
+}
+
+.ultra {
+  color:#3F00FF;
+
+}
+
+.prussian {
+  color:#003153;
+}
+
+/* 
+.navy {
+  background:navy;
+
+}
+.cyan{
+  background:cyan;
+  color:black;
+}
+ */
