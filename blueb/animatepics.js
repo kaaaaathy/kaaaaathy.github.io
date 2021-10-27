@@ -49,12 +49,11 @@ function animateColor() {
     setTimeout(()=>{
           // let f = windows.indexOf(whichWin);
           let image = "url('images/"+folders[5]+"/blue"+i%10+".jpg')";
-          // console.log(image);
           document.body.style.backgroundImage = image;
-          // p.innerHTML = blues[i];
+          p.innerHTML = blues[i];
           if (blues[i].length > 3){
              winWidth = window.innerWidth;
-             // p.style.fontSize = winWidth/blues[i].length + "px";
+             p.style.fontSize = winWidth/blues[i].length + "px";
           }
       }
     , time);
