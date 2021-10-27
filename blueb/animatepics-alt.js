@@ -47,12 +47,14 @@ function animateColor() {
   for (let i = 0; i < hex.length;i++){
     time = speed*i + delay;
     setTimeout(()=>{
-          winWidth = window.innerWidth();
           // let f = windows.indexOf(whichWin);
           let image = "url('images/"+folders[5]+"/blue"+i%10+".jpg')";
           document.body.style.backgroundImage = image;
-          p.style.fontSize = winWidth/blues[i].length + "px";
-
+          p.innerHTML = blues[i];
+          if (blues[i].length > 3){
+             winWidth = window.innerWidth;
+             p.style.fontSize = winWidth/blues[i].length + "px";
+          }
       }
     , time);
   }
