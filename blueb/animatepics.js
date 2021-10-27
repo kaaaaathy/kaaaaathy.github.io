@@ -43,15 +43,16 @@ fetch("colors.json")
 
 function animateColor() {
   let time;
-  let winWidth;
+  // let winWidth;
   for (let i = 0; i < hex.length;i++){
     time = speed*i + delay;
     setTimeout(()=>{
-          winWidth = window.innerWidth();
+          winWidth = window.innerWidth;
+
           // let f = windows.indexOf(whichWin);
           let image = "url('images/"+folders[5]+"/blue"+i%10+".jpg')";
           document.body.style.backgroundImage = image;
-          p.style.fontSize = winWidth/blues[i].length + "px";
+          p.style.fontSize = winWidth/6 + "px";
 
       }
     , time);
