@@ -6,10 +6,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 body {
-  font-family: 'terminal','space mono',monospace; */
-  text-transform:uppercase;
-  /* font-family: 'times',serif;
-  text-transform:lowercase; */
+  font-family: 'terminal','space mono',monospace; 
+  text-transform: uppercase;
+
   letter-spacing:0.5px;
   font-size:100px;
   color:white;
@@ -18,8 +17,8 @@ body {
 }
 
 .swatch {
-  width:180px;
-  height:180px;
+  width:120px;
+  height:120px;
   color:transparent;
 }
 .caption {
