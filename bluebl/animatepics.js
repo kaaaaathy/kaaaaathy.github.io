@@ -2,56 +2,61 @@
 //get blues
 
 let p = document.getElementById('text');
+let swatch = document.getElementById('swatch');
+
 let folders = ["bsod","cerulean","ceylon","china","cobalt","cobaltmine","lapis","led","neon","prussian","ultra","vermeer","virgin"];
-let blues = [];
-let hex = [];
+// let classes = ["sky","cobalt","ultra","prussian","lapis","blue"];
+
+let blues = [
+  {"name":"sky","hex":"##87CFEB"},
+  {"name":"cobalt","hex":"#0046AB"},
+  {"name":"blue","hex":"blue"},
+  {"name":"lapis","hex":"#26619C"},
+  {"name":"ultra","hex":"#3F00FF"},
+  {"name":"prussian", "hex":"#003153"}];
+
 let speed = 1200;
 let delay = 0;
 // let whichWin = document.body.className;
-// let windows = ["sky","cobalt","ultra","prussian","lapis","blue"];
+// let swatchColors = ["sky","cobalt","ultra","prussian","lapis","blue"];
 
 //resize code
 let cont = document.getElementById('container');
 cont.style.height = window.innerHeight + "px";
+
 window.addEventListener('resize',function(){
+    winWidth = window.innerWidth;
     cont.style.height = window.innerHeight + "px";
+    swatch.style.width = 0.2 * winWidth + "px";
+    swatch.style.height = swatch.style.width;
 });
 
+animate(blues[1].hex,folders.indexOf("cobaltmine"));
 
-fetch("colors.json")
-  .then(response => response.json())
-  .then(data => {
-
-  for (let i = 0; i<data.length;i++){
-      if(data[i].name.includes("blue") || data[i].name.includes("cyan") || data[i].name.includes("lapis") || data[i].name.includes("ultra") ){
-
-
-        if (data[i].name.includes("blue")){
-             blues.push(data[i].name.replace("blue",""));
-        } else {
-             blues.push(data[i].name);
-        }
-        hex.push(data[i].color);
-    }
-  }
-
-  animateColor();
-});
-
-
+// function getHex(blue){
+//     for (let i =0; i < blues.length; i++){
+//         if (blues[i].name.includes(blue)){
+//           return blues[i].hex;
+//         }
+//     };
+// }
 //how to make this repeat?
 
-function animateColor() {
+function animate(blue,imgs) {
   let time;
   // let winWidth;
-  for (let i = 0; i < hex.length;i++){
+  for (let i = 0; i < 100;i++){
     time = speed*i + delay;
     setTimeout(()=>{
-          winWidth = window.innerWidth;
 
+          let int = i%10;
+          let int1 = int +1;
           // let f = windows.indexOf(whichWin);
-          let image = "url('images/"+folders[5]+"/blue"+i%10+".jpg')";
+          let image = "url('images/"+folders[imgs]+"/blue"+int1+".jpg')";
           document.body.style.backgroundImage = image;
+          document.body.style.backgroundSize = "cover";
+          document.body.style.backgroundRepeat = "no-repeat";
+          swatch.style.background = blue;
           p.style.fontSize = winWidth/6 + "px";
 
       }
