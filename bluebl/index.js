@@ -7,8 +7,8 @@ let windows = []; // global variable
 // var w = 420;
 // var h = 300;
 var w = 400;
-var h = 200;
-var y = 300;
+var h = w-80;
+var y = 250;
 var x = 20;
 var hbar = 80;
 

@@ -15,6 +15,24 @@ body {
   background-size: auto;
   background-position: center;
   background-repeat: no-repeat;
+  user-select: none;
+  overflow: hidden;
+}
+
+section {
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding-top: 150px;
+  width: 100%;
+  margin:0px auto;
+}
+iframe {
+  height:300px;
+  max-width: 30%;
+  margin: 0px 20px;
+  border: 1px solid #333;
+
 }
 
 #swatch {
@@ -25,7 +43,6 @@ body {
 .caption {
   font-size:20px;
 }
-
 
 #text {
   font-size: 100px;
