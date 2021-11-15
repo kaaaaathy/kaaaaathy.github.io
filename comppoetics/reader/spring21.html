@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="../style.css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="reader.css" media="screen"/>
+
+
+</head>
+<!-- <body style="overflow-x:hidden;background:rgb(116, 174, 180)"> -->
+<body style="overflow-x:hidden;">
+<div class="header">
+  <p class = "small">RISD Graphic Design  •  GRAPH-1125</p>
+  <h1>Computational Poetics Reader<br>Spring 2021 <a class="button" style="margin:0px" href="../index.html" target="_blank">?</a></h1>
+
+  <!-- <ul>Links <a class ="button" target = "_blank" href="https://docs.google.com/document/d/1xdPg3TvgzILBlLPnW5OKQqiwgfRaISCfeQQSOiVnoMI/edit?usp=sharing">
+  Student Writing</a>  <a class ="button" target = "_blank" href="https://docs.google.com/document/d/1xtTQAWTcW8n_i1RmMqXKYh9pzZFiFX7ts4g8Sr49YCU/edit">
+  Roots + Influences </a><br><br> -->
+
+  <ul>For best results, view projects on Desktop or tablet.
+</div>
+<!-- content -->
+<div id="container" style="border-bottom:1px solid white">
+  <div class ="top-level">
+  <div class="index small"></div>
+  <div class="small">NAME</div>
+  <div class="small">PROJECT</div>
+  <!-- <div>mobile?</div> -->
+  <div></div>
+
+</div>
+
+<div class = "reader-row" v-for="(item,index) in allItems">
+    <!-- Activate this if you want a toggle effect -->
+      <div class = "inner-row ta-da"><img v-bind:src="item.img" class = "r-image">
+
+        <div class="index small"><span class="decoration">✻</span>&nbsp;&nbsp;{{index}}</div>
+      <div style ="padding-right:5px;">{{item.artist}}</div>
+      <div style ="padding-left:5px;" class = "ta-da">{{item.project}}</div>
+
+      <!-- <div class="small">{{item.mobile}}</div> -->
+      <div><a class = "button" v-bind:href="item.url" target="_blank">Read</a></div></div>
+    </div>
+</div>
+
+<!-- end row element -->
+</div>
+<!-- end container element -->
+
+<!-- flowers -->
+<div id="flowers-field">
+  <div class="flowers-row"></div>
+</div>
+
+
+
+<script src="flowers.js"></script>
+
+
+<script type = "module">
+
+
+new Vue({
+    el: "#container",
+    data: {
+      shownitem: 0,
+      allItems: [
+          {
+
+              artist:`Daphne Hsu`,
+              project:`Eating at the Same Table`,
+              mobile:`no`,
+              info:` is a project about this or that or maybe those, and definitely something about there.`,
+              img:"spring21/1.png",
+              url:"https://eating-at-the-same-table.glitch.me/"
+          	},
+
+
+            {
+
+              artist:`Lara Karadogan`,
+              project:`Base Pairs`,
+              mobile:`no`,
+              info:` is a project about this or that or maybe those, and definitely something about there.`,
+              img:"spring21/2.png",
+              url:"https://base-pair.glitch.me/"
+          	},
+
+
+            {
+              artist:`Amy Choi`,
+              project:`Refresh Memory`,
+              mobile:`no`,
+              info:` is a project about this or that or maybe those, and definitely something about there.`,
+              img:"spring21/3.png",
+              url:"https://refresh-memory.glitch.me/"
+          	},
+
+            {
+
+
+              artist:`lai xu`,
+              project:`Recaptcha Poem`,
+              mobile:`no`,
+              info:` is a project about this or that or maybe those, and definitely something about there.`,
+              img:"spring21/4.gif",
+              url:"https://recaptcha-poem.glitch.me"
+          	},
+
+            {
+
+              artist:`Jie Jian`,
+              project:`Collective Recipe`,
+              mobile:`no`,
+              img:"spring21/5.png",
+              info:` is a project about this or that or maybe those, and definitely something about there.`,
+              url:"https://collective-recipe.glitch.me/"
+          	},
+            {
+
+              artist:`Lara Karadogan`,
+              project:`Input Map`,
+              mobile:`no`,
+              info:` is a project about this or that or maybe those, and definitely something about there.`,
+              img:"spring21/6.gif",
+              url:"https://input-map.glitch.me/"
+          	},
+            {
+
+              artist:`Mariana Ramos Ortiz`,
+              project:`How to Play Hopscotch`,
+              mobile:`no`,
+              info:` is a project about this or that or maybe those, and definitely something about there.`,
+              img:"spring21/7.png",
+              url:"https://www.are.na/mariana-r-o/cp-3"
+          	},
+            {
+
+              artist:`Ranxin Zhou`,
+              project:`Normal Match`,
+              mobile:`no`,
+              img:"spring21/8.png",
+              info:` is a project about this or that or maybe those, and definitely something about there.`,
+              url:"https://editor.p5js.org/IAMZRX/full/-aarqqIsc"
+          	},
+
+            {
+
+
+              artist:`asher white`,
+              project:`Iterations on Care`,
+              mobile:`no`,
+              info:` is a project about this or that or maybe those, and definitely something about there.`,
+              img:"spring21/9.gif",
+              url:"https://iterations-on-care.glitch.me/"
+            },
+
+
+            {
+
+
+              artist:`Christie Zhong`,
+              project:`Collective Shelf`,
+              mobile:`no`,
+              info:` is a project about this or that or maybe those, and definitely something about there.`,
+              img:"spring21/10.png",
+              url:"https://finalshelf.glitch.me/index.html"
+            },
+            {
+
+
+              artist:`Mariana Ramos Ortiz`,
+              project:`(Untitled)`,
+              mobile:`no`,
+              info:` is a project about this or that or maybe those, and definitely something about there.`,
+              img:"spring21/11.png",
+              url:"https://www.are.na/mariana-r-o/cp-final-58ihpir2eqg"
+          	},
+            {
+
+
+              artist:`Amy Choi`,
+              project:`Rewriting Hangul`,
+              mobile:`no`,
+              img:"spring21/12.png",
+              info:` is a project about this or that or maybe those, and definitely something about there.`,
+              url:"https://www.are.na/amy-choi-_y0yut8ez0q/rewriting-hangul"
+          	},
+            {
+
+
+              artist:`asher white`,
+              project:`Reddit Dream Poems`,
+              mobile:`no`,
+              info:` is a project about this or that or maybe those, and definitely something about there.`,
+              img:"spring21/13.png",
+              url:"https://reddit-dream-poems.glitch.me/"
+            },
+            {
+
+
+              artist:`Trent Kim`,
+              project:`Name I'm Feeling`,
+              mobile:`no`,
+              info:` is a project about this or that or maybe those, and definitely something about there.`,
+              img:"spring21/14.png",
+              url:"https://name-im-feeling.glitch.me/"
+          	},
+            {
+
+
+              artist:`Jie Jian`,
+              project:`Download Folder Diary`,
+              mobile:`no`,
+              img:"spring21/15.png",
+              info:` is a project about this or that or maybe those, and definitely something about there.`,
+              url:"https://download-folder-diary.glitch.me/"
+          	},
+            {
+
+
+              artist:`Christie Zhong`,
+              project:`Instruction for a Hug`,
+              mobile:`no`,
+              img:"spring21/16.png",
+              info:` is a project about this or that or maybe those, and definitely something about there.`,
+              url:"https://www.are.na/christie-zhong/instruction-for-a-hug"
+            }
+
+
+
+          ]
+        }
+      });
+
+
+</script>
+
+</body>
+</html>

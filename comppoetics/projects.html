@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+
+</head>
+<body>
+
+<div class="header">
+  <h2>Projects</h2>
+  <p>Projects are 3-weeks long and require written reflections; exercises are 1-week long.
+</div>
+
+<div id="container">
+
+<div class = "row" v-for="(project,index) in projects">
+    <div class = "item" @click="project.shown = !project.shown">
+      <!-- <div class ="due">{{project.date}}</div> -->
+      <div class ="item-project">{{project.project}} &nbsp;&nbsp;&nbsp;</div>
+      <div class ="item-heading">{{project.name}}</div>
+    </div>
+
+    <!-- <div class="caret">X</div> -->
+
+    <!-- hidden content starts here -->
+    <div class = "contents" v-if="project.shown==true">
+      <div v-html="project.content"></div>
+
+    </div>
+</div>
+<!-- end row element -->
+
+</div>
+
+<!-- end row element -->
+
+</div>
+
+
+<script type = "module">
+
+import projects from "./projects.js";
+
+
+new Vue({
+    el: "#container",
+    data: {
+      projects
+    }
+  })
+
+
+</script>
+
+</body>
+</html>

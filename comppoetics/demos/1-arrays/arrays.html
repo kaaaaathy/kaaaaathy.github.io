@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <!-- CSS Changes the appearance -->
+    <style type="text/css">
+
+        p {
+            font-size:20px;
+        }
+
+    </style>
+
+
+  </head>
+
+<body>
+  <!-- HTML DOM elements What is going to appear in your browser -->
+  <h1>Hello this is a website</h2>
+    <p>This is going to be a demo about arrays</p>
+
+
+  <!-- JS Defining the behavior -->
+  <script type="text/javascript">
+
+  // OK! Now we are going to play with arrays.
+  // An array is basically a list of stuff. You can fill it with lots of object types, like variables, numbers, words (strings) etc.
+  //
+
+  // Here is where the array lives.
+  var numbers = [0,1,2,3];
+
+  // I can "retrieve" what the list is by printing it to the console.
+  console.log(numbers);
+
+  // This is going to tell me what the first (0th) item in the list is.
+  console.log("The first number is" + numbers[0]);
+
+  // This is going to tell me the length of the list
+  console.log("The length of the list numbers is" + numbers.length);
+
+  // This is going to return all the numbers in the list
+  for (i=0; i < numbers.length;i++){
+    console.log("Numbers contains the number " + numbers[i]);
+  }
+
+  // Give me a random number between 0 and 1
+  console.log(Math.random());
+
+  // Give me a random number anywhere between 0 and the length of my list
+  console.log(Math.floor(Math.random()*numbers.length));
+
+
+
+
+  // Numbers are great but how does this work with text?
+  // Let's do the same thing.
+  var colors = ["vermillion", "rose", "tangerine", "sky blue", "orange","teal","navy"];
+
+  console.log(colors);
+
+  console.log("Sometimes I feel " + colors[0]);
+
+  // Adding randomness
+  console.log("Other days I randomly feel " + colors[Math.floor(Math.random()*colors.length)]);
+
+
+
+
+  </script>
+
+</body>
+
+
+</html>

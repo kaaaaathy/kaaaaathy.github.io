@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+	<style>
+
+	body {
+		background-color:black;
+		color:white;
+		font-family:Arial,'Consolas',"Courier New","Courier",monospace;
+		letter-spacing: 0.5px;
+		line-height: 28px;
+		font-size:16px;
+	}
+
+	#fictionmaker {
+		margin: 40px;
+	}
+
+	#earthIs{
+		padding-top: 60px;
+	}
+
+	#overrun, #thereIs, #youCan, #jobs, #some, #houses {
+
+		padding: 30px 0px;
+	}
+
+	#overrun, #houses, #youCan, #some {
+		text-align: center;
+	}
+
+	#thereIs {
+		padding-left: 40px;
+	}
+
+	 #jobs {
+		 padding-top: 40px;
+	 }
+
+</style>
+</head>
+<body>
+<section id="fictionmaker">
+<p id="headline">Possible Futures of Planet Earth</p> <button id="button">but can it be that</button>
+
+<p id="earthIs"></p>
+<p id="overrun"></p>
+<p id="thereIs"></p>
+<p id="youCan"></p>
+<p id="jobs"></p>
+<p id="houses"></p>
+
+</section>
+
+<script>
+let stuff = ["crop of wheat", "young chicken", "wafers of silicon", "Tesla Model T", "CD", "Christmas ornament", "acorn", "apple", "bag", "bag of cotton balls","ball of yarn", "balloon", "banana", "baseball hat"];
+let packaging = ["aluminium foil", "bopet", "bubble wrap", "cellophane", "corrugated fiberboard", "corrugated plastic", "cushioning", "foam peanut", "glass", "hot-melt adhesive", "kraft paper", "linear low-density polyethylene", "liquid packaging board", "low-density polyethylene", "metallised film", "modified atmosphere", "molded pulp", "nonwoven fabric", "paperboard", "polyester", "styrofoam", "tupperware", "plaster", "cement"];
+let job = ["mother","father","hedgehog","businessman","monarch","peasant","laborer","child","community","organizer","tree","actor","adhesive bonding machine tender"];
+let obstructed = ["moon","water","sky","stars"];
+
+function randomFuture(){
+
+		document.getElementById("earthIs").innerHTML =
+		"Earth is now called " + stuff[Math.floor((Math.random() * stuff.length))].toUpperCase();
+
+		document.getElementById("overrun").innerHTML =
+		"and it is overrun with " + stuff[Math.floor((Math.random() * stuff.length))] + "s.";
+
+		document.getElementById("thereIs").innerHTML =
+		"There is too much " + packaging[Math.floor((Math.random() * packaging.length))];
+
+		document.getElementById("youCan").innerHTML =
+		"you can no longer see the " + obstructed[Math.floor((Math.random() * obstructed.length))];
+
+		document.getElementById("jobs").innerHTML =
+		"These days, most people are a " + job[Math.floor((Math.random() * job.length))] + ".";
+
+		document.getElementById("houses").innerHTML = "Houses are made of " + packaging[Math.floor((Math.random() * packaging.length))] + ".";
+}
+
+randomFuture();
+document.getElementById("button").onclick = randomFuture;
+</script>
+
+</body>
+
+</html>

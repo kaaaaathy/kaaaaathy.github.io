@@ -1,0 +1,12 @@
+{
+	"title": "computational poetics",
+	"about" : "computational poetics",
+	"menu" : {
+		"✻ Computational Poetics ✻" : "info.html",
+		"Syllabus" : "syllabus.html",
+		"Projects" : "projects.html",
+		"Topics" : "topics.html",
+		"Workshops" : "workshops.html",
+		"Prompts" : "prompts.html"
+		}
+}

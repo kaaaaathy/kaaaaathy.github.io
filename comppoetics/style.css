@@ -1,0 +1,260 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+/*———————————————GLOBAL STYLES———————————————*/
+
+
+body{
+  margin: 20px 0px 40px 80px;
+  font-weight: normal;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+
+  color:white;
+  background: mediumorchid;
+
+  letter-spacing: 0.5px;
+
+  user-select: none;
+}
+
+.header{
+  padding: 20px 0px;
+  max-width: 720px;
+}
+
+#container {
+  padding-top: 20px;
+  margin-bottom: 100px;
+  max-width: 720px;
+  letter-spacing: 0.5px;
+
+}
+
+.row {
+  border:1px solid white;
+  padding: 10px 30px;
+  margin: 20px 0;
+  line-height: 2rem;
+  transition: all 0.25s ease;
+  border-radius: 8px;
+  font-size:16px;
+}
+
+
+.row:hover {
+  background: white;
+  color:mediumorchid;
+  cursor: default;
+}
+
+.white{
+  background: white;
+  color:mediumorchid;
+
+}
+
+.white a{
+  color:mediumorchid;
+  border-bottom: 1px solid mediumorchid;
+
+
+}
+
+.row:hover a {
+  color:mediumorchid;
+  border-bottom: 1px solid mediumorchid;
+}
+
+.row:hover .note {
+  color:mediumorchid;
+}
+
+.item{
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  flex-wrap: wrap;
+  /* padding: 10px 0px; */
+}
+
+
+.item-heading {
+  font-weight: normal;
+  font-family: 'courier prime';
+  letter-spacing: 0px;
+  font-size:20px;
+  padding: 16px 0px;
+}
+
+
+
+/* row contents */
+.contents {
+  padding: 0px 0px 40px 0px;
+  max-width: 600px;
+}
+
+.button {
+  font-size: 14px;
+  font-family: 'Courier Prime','Courier',monospace;
+  text-transform: uppercase;
+  background: mediumorchid;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding:4px 8px;
+  color:white;
+  right:0px;
+  margin-left: 20px;
+  margin-bottom: 8px;
+
+  transition: all 0.1s ease;
+
+}
+
+.button:hover{
+  background-color:white;
+  border: 1px solid mediumorchid;
+  color:mediumorchid;
+
+}
+
+.doc {
+  width:800px;
+  margin:auto;
+  height:900px;
+  border:0px;
+  box-shadow: 4px 4px 12px lime;
+}
+
+.short{
+  height:400px;
+}
+
+/* journaling prompt images */
+.p-image {
+    width:auto;
+    max-height: 300px;
+    padding-top:20px;
+
+}
+
+
+
+
+/*———————————————TYPOGRAPHY STYLES———————————————*/
+
+::selection {
+  background:#222222;
+  color:white;
+}
+
+ul, li {
+  padding-left: 0px!important;
+}
+
+a {
+  text-decoration: none;
+  color:white;
+  border-bottom: 0.5px solid white;
+}
+
+p {
+  display: flex;
+  flex-wrap: wrap;
+}
+h1 {
+  font-weight: inherit;
+  font-size: 32px;
+  line-height: 40px;
+  font-family: 'courier prime';
+  letter-spacing: 0px;
+
+}
+h2 {
+  font-weight: inherit;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+h3 {
+  font-family: 'Courier Prime','Courier',monospace;
+  font-size: 14px;
+  font-weight: normal;
+  padding-top: 20px;
+  text-transform: uppercase;
+
+}
+
+.small {
+  font-family: 'courier prime', 'courier',monospace;
+  font-size: 14px;
+
+}
+
+/* FONT SPAN styles */
+
+.note {
+  font-family: 'Courier Prime','Courier',monospace;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.imageCaption {
+  font-family: 'Courier Prime','Courier',monospace;
+  font-size: 12px;
+  font-style:italic;
+  max-width: 400px;
+}
+
+#cp {
+  color:white;
+  border-bottom: 1px solid white;
+}
+#cp:hover {
+  color:lime;
+  border-bottom: 1px solid lime;
+
+  opacity:0.9;
+  transition: 0.2s all;
+  cursor:help;
+}
+
+
+@media only screen and (max-width: 768px) {
+  body {
+    margin: 0 40px;
+  }
+
+  .row {
+    flex-wrap: wrap;
+  }
+
+  .doc {
+    width:100%;
+  }
+  .p-image {
+      width:100%;
+      max-height: 300px;
+  }
+  .imageCaption {
+    width:100%;
+  }
+
+  .item-heading{
+    width: 100%;
+    line-height: 40px;
+    padding: 0;
+
+  }
+  .contents{
+    margin-left: 0px;
+  }
+
+  /* .dueSchedule {
+    margin: 5px 0px 10px 0;
+} */
+
+}

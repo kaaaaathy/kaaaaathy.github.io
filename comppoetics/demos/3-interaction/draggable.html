@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+
+  body {
+    background: black;
+    font-family: arial;
+    color:white;
+  }
+  .draggable {
+    width: 200px; height: 200px; padding: 0.5em;
+    text-align: center;
+    position: absolute;
+
+  }
+
+  img {
+    width:100%;
+    overflow: hidden;
+    display: block;
+  }
+
+
+  </style>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+</head>
+<body>
+  <p>Drag me around</p>
+</div>
+
+
+</body>
+
+<script>
+$( function() {
+  $( ".draggable" ).draggable();
+} );
+
+let images = ["cloud1.png","cloud2.png","cloud3.png","cloud4.png","cloud5.png","cloud1.png"];
+let captions = ["everything tethers back","the soft bodies and ferns", "the copper ores", "that lay sleeping","our data structures", "our taxonomies"]
+let winWidth = window.innerWidth;
+let winHeight = window.innerHeight;
+
+for (let i = 0; i < images.length; i++){
+  let cloud = document.createElement("img");
+  cloud.src = images[i];
+  console.log(cloud);
+
+  let text = document.createElement("p");
+  let textnode = document.createTextNode(captions[i]);
+  text.appendChild(textnode);
+
+  let newdiv = document.createElement("div");
+  newdiv.classList.add("draggable");
+  newdiv.appendChild(cloud);
+  newdiv.appendChild(text);
+
+  console.log(newdiv);
+
+  // update top and left position
+  newdiv.style.top = getRandomNumber(0, winHeight - 200) +"px";
+  newdiv.style.left = getRandomNumber(0, winWidth - 200) +"px";
+
+  document.body.appendChild(newdiv);
+
+}
+
+function getRandomNumber(min, max) {
+  return Math.random() * (max - min) + min;
+
+}
+
+$('.draggable').each(function(){
+        $(newdiv).css({"left": Math.random() * window.outerWidth , "top": Math.random() * window.outerHeight}).textillate();
+});
+
+</script>
+</html>

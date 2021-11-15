@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="../style.css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="reader.css" media="screen"/>
+
+
+</head>
+<body style="overflow-x:hidden">
+<div class="header">
+  <p class = "small">RISD Graphic Design  •  GRAPH-1125</p>
+  <h1>Computational Poetics Reader<br>Fall 2021</h1>
+
+  <!-- <ul>Links <a class ="button" target = "_blank" href="https://docs.google.com/document/d/1xdPg3TvgzILBlLPnW5OKQqiwgfRaISCfeQQSOiVnoMI/edit?usp=sharing">
+  Student Writing</a>  <a class ="button" target = "_blank" href="https://docs.google.com/document/d/1xtTQAWTcW8n_i1RmMqXKYh9pzZFiFX7ts4g8Sr49YCU/edit">
+  Roots + Influences </a><br><br> -->
+
+  <ul>For best results, view projects on Desktop or tablet.
+</div>
+<!-- content -->
+<div id="container" style="border-bottom:1px solid white">
+  <div class ="top-level">
+  <div class="index small"></div>
+  <div class="small">NAME</div>
+  <div class="small">PROJECT</div>
+  <!-- <div>mobile?</div> -->
+  <div></div>
+
+</div>
+
+<div class = "reader-row" v-for="(item,index) in allItems">
+    <!-- Activate this if you want a toggle effect -->
+      <div class = "inner-row ta-da"><img v-bind:src="item.img" class = "r-image">
+
+        <div class="index small"><span class="decoration">✻</span>&nbsp;&nbsp;{{index}}</div>
+      <div style ="padding-right:5px;">{{item.artist}}</div>
+      <div style ="padding-left:5px;" class = "ta-da">{{item.project}}</div>
+
+      <!-- <div class="small">{{item.mobile}}</div> -->
+      <div><a class = "button" v-bind:href="item.url" target="_blank">Read</a></div></div>
+    </div>
+</div>
+
+<!-- end row element -->
+</div>
+<!-- end container element -->
+
+<!-- flowers -->
+<div id="flowers-field">
+  <div class="flowers-row"></div>
+</div>
+
+
+
+<script src="flowers.js"></script>
+
+
+
+<script type = "module">
+
+
+new Vue({
+    el: "#container",
+    data: {
+      shownitem: 0,
+      allItems: [
+          {
+
+              artist:`Name`,
+              project:`Project name`,
+              mobile:`no`,
+              info:` is a project about this or that or maybe those, and definitely something about there.`,
+              img:"URL",
+              url:""
+          },
+          {
+
+              artist:`Name`,
+              project:`Project name`,
+              mobile:`no`,
+              info:` is a project about this or that or maybe those, and definitely something about there.`,
+              img:"URL",
+              url:""
+          },
+          {
+
+              artist:`Name`,
+              project:`Project name`,
+              mobile:`no`,
+              info:` is a project about this or that or maybe those, and definitely something about there.`,
+              img:"URL",
+              url:""
+          },
+          {
+
+              artist:`Name`,
+              project:`Project name`,
+              mobile:`no`,
+              info:` is a project about this or that or maybe those, and definitely something about there.`,
+              img:"URL",
+              url:""
+          },
+          {
+
+              artist:`Name`,
+              project:`Project name`,
+              mobile:`no`,
+              info:` is a project about this or that or maybe those, and definitely something about there.`,
+              img:"URL",
+              url:""
+          },
+          {
+
+              artist:`Name`,
+              project:`Project name`,
+              mobile:`no`,
+              info:` is a project about this or that or maybe those, and definitely something about there.`,
+              img:"URL",
+              url:""
+          },
+          {
+
+              artist:`Name`,
+              project:`Project name`,
+              mobile:`no`,
+              info:` is a project about this or that or maybe those, and definitely something about there.`,
+              img:"URL",
+              url:""
+          },
+          {
+
+              artist:`Name`,
+              project:`Project name`,
+              mobile:`no`,
+              info:` is a project about this or that or maybe those, and definitely something about there.`,
+              img:"URL",
+              url:""
+          },
+          {
+
+              artist:`Name`,
+              project:`Project name`,
+              mobile:`no`,
+              info:` is a project about this or that or maybe those, and definitely something about there.`,
+              img:"URL",
+              url:""
+          },
+          {
+
+              artist:`Name`,
+              project:`Project name`,
+              mobile:`no`,
+              info:` is a project about this or that or maybe those, and definitely something about there.`,
+              img:"URL",
+              url:""
+          },
+          {
+
+              artist:`Name`,
+              project:`Project name`,
+              mobile:`no`,
+              info:` is a project about this or that or maybe those, and definitely something about there.`,
+              img:"URL",
+              url:""
+          }
+
+
+
+
+          ]
+        }
+      });
+
+
+</script>
+
+</body>
+</html>

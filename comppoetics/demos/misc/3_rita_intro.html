@@ -1,0 +1,32 @@
+<html>
+<head>
+<style type="text/css">
+#content {
+  font-family: Arial;
+  padding: 100px 0;
+}
+</style>
+</head>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/rita"></script>
+
+  <div id="content" width=200 height=200></div>
+
+  <script>
+
+        let data = "A house of dust on open ground lit by natural light inhabited by friends and enemies";
+        let parts = RiTa.pos(data);
+        console.log(parts);
+        let words = RiTa.tokenize(data);
+
+
+        // console.log(RiTa.randomWord());
+        // console.log(RiTa.randomWord({targetPos: "nns"}));
+        // console.log(RiTa.randomWord({numSyllables: 3, maxLength: 10}));
+
+        console.log(RiTa.analyze(data));
+
+
+  </script>
+<html>

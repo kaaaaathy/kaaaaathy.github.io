@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body {
+  background-color: cornsilk;
+}
+
+.wordItem, p {
+  position: absolute;
+  font-size: 16px;
+  font-family: arial;
+  color: CornflowerBlue;
+  transition: font-size 0.5s ease;
+}
+
+a {
+  color: CornflowerBlue;
+}
+
+.clicked {
+  font-size: 50px;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+
+let winWidth = window.innerWidth;
+let winHeight = window.innerHeight;
+
+fetch('romance.txt')
+    .then(response => response.text())
+    .then(data => {
+        importedTxt = data;
+        splitTxt();
+        build();
+    });
+
+// USE REGULAR EXPRESSION TO SPLIT TXT FILE ON EVERY NON-CHARACTER (e.g. WHITE SPACE)
+
+function splitTxt(){
+    words = importedTxt.split(/\W+/);
+}
+
+// MAKE IT APPEAR IN DOM
+function build(){
+  //Select word items 34-84
+  //(I arbitriarily picked this set
+  //use "words.length" instead of 84 if you want the whole thing
+
+      for (i=34; i<84;i++){
+          console.log(words[i]);
+          let newdiv = document.createElement("div");
+          newdiv.classList.add("wordItem");
+          newdiv.innerHTML = words[i];
+          newdiv.style.top = getRandomNumber(100, winHeight) +"px";
+          newdiv.style.left = getRandomNumber(0, winWidth) +"px";
+          document.body.appendChild(newdiv);
+          newdiv.onclick = function(){
+            newdiv.classList.toggle("clicked");
+          }
+          animation(newdiv);
+
+      }
+
+      console.log("BUILD COMPLETE");
+
+    }
+
+//ANIMATE
+function animation(element){
+    let div = $(element);
+
+    for (let i = 0; i<10000; i++){
+    div.animate({left: '+='+getRandomJiggle(), top: '-='+getRandomJiggle()}, 50);
+    div.animate({left: '-='+getRandomJiggle(), top: '+='+getRandomJiggle()}, 50);
+  }
+
+}
+
+//GET RANDOM NUMBER TO USE IN POSITIONING
+function getRandomNumber(min, max) {
+  return Math.random() * (max - min) + min;
+
+}
+//GET RANDOM PIXEL NUMBER TO USE IN JIGGLE ANIMATION
+function getRandomJiggle() {
+  return Math.random() * (3) + "px";
+}
+
+</script>
+</head>
+<body>
+
+<!-- <div style="background:transparent;height:100px;width:100px;position:absolute;">hello</div> -->
+<p>&nbsp;&nbsp; Click on the words. Words taken from <a href="https://poets.org/poem/romance-1-0" target="_blank">Romance #1</a> by Eunsong Kim</p>
+</body>
+</html>

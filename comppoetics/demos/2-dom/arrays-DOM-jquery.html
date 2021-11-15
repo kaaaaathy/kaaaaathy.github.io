@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <!-- This is new! Adding jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <!-- Changes the appearance -->
+    <style type="text/css">
+
+        p {
+            font-size:20px;
+        }
+
+        h1 {
+          font-size:14px;
+          font-weight: normal;
+          padding-top: 20px;
+        }
+
+    </style>
+  </head>
+
+<body>
+  <!-- What is going to appear in your browser -->
+  <p>Hello</p>
+  <p id="test"></p>
+  <p id="oneColor">(an empty text element)</p>
+
+  <!-- <h1> This one has repeating colors</h1> -->
+  <p id="randomColor">(an empty text element)</p>
+
+  <!-- <h1> This one does not repeat colors</h1> -->
+  <p id="randomUniqueColor">(an empty text element)</p>
+
+
+
+  <!-- Defining the behavior -->
+  <script>
+
+  // Let's start off with colors again.
+  var colors = ["vermillion", "rose", "tangerine", "sky blue", "orange","teal","navy"];
+  console.log(colors);
+
+  //Remember that we're able to retrieve a random color.
+  // Adding randomness
+  console.log("Here's a random color: " + colors[Math.floor(Math.random()*colors.length)]);
+
+  // Let's say now that I want to see this represented as text on my webpage.
+  // Here's the function to manipulate the test element
+
+  $("#test").text("I just changed the inner HTML of this element");
+
+  // Let's say I want to make this text say something from my array:
+  $("#oneColor").text("Here's a color: " + colors[0]);
+
+  $("#randomColor").text("The sky was " + colors[Math.floor(Math.random()*colors.length)] + " and the lake was " +colors[Math.floor(Math.random()*colors.length)]);
+
+  noRepeatColors();
+
+  //it becomes a little more complex to not repeat values because you will then need to start keeping track of the colors you have used.
+  function noRepeatColors(){
+    var color1 = colors[Math.floor(Math.random()*colors.length)];
+    console.log("color 1 is " + color1);
+
+    var color2 = colors[Math.floor(Math.random()*colors.length)];
+    console.log("color 2 is " + color2);
+
+    if (color1 == color2){
+      color2 = colors[Math.floor(Math.random()*colors.length)];
+      console.log("They're the same");
+      console.log("color 2 is now " + color2);
+
+    } else { }
+  $("#randomUniqueColor").text("The sky was " + color1 + " and the lake was " + color2);
+}
+
+
+
+
+
+  </script>
+
+</body>
+
+
+</html>

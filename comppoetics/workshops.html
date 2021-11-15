@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+
+</head>
+<body>
+
+<div class="header">
+  <h2>Coding Workshops</h2>
+</div>
+
+<div id="container">
+
+<div class = "row" v-for="(workshops,index) in workshops">
+    <a v-bind:href="workshops.link" target="blank"><div class = "item item-heading">
+      <!-- <div class ="due">{{project.date}}</div> -->
+      {{workshops.name}} &nbsp;📄</div></a>
+    </div>
+
+</div>
+<!-- end row element -->
+
+</div>
+
+
+<script type = "module">
+
+
+import workshops from "./workshops.js";
+
+new Vue({
+    el: "#container",
+    data: {
+      workshops
+    }
+  })
+
+
+</script>
+
+</body>
+</html>
