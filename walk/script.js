@@ -25,11 +25,11 @@ function setText(){
     let dOffset = 0 - d.offsetWidth/2;
 
     if (b.offsetWidth > 200){
-       bOffset = 0 - b.offsetWidth/2.15;
+       bOffset = 0 - b.offsetWidth/2;
     }
 
     if (d.offsetWidth > 200){
-      dOffset = 0 - d.offsetWidth/2.15;
+      dOffset = 0 - d.offsetWidth/2;
     }
 
     b.style.right = bOffset + "px";

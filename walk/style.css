@@ -48,10 +48,10 @@ a {
   position: fixed;
   text-align: center;
   line-height: 50px;
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 0.25px;
   opacity: 1;
-  font-family: 'terminal',arial;
+  font-family: arial;
   align-self: center;
   transition: 0.25s opacity;
 }
