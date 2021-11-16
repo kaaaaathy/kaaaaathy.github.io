@@ -22,7 +22,7 @@ fetch("colors.json")
 
   for (let i = 0; i<data.length;i++){
       if(data[i].name.includes("blue") || data[i].name.includes("cyan") || data[i].name.includes("lapis") || data[i].name.includes("ultra") ){
-        
+
 
         if (data[i].name.includes("blue")){
              blues.push(data[i].name.replace("blue",""));
@@ -30,10 +30,16 @@ fetch("colors.json")
              blues.push(data[i].name);
         }
         hex.push(data[i].color);
-    } 
+    }
   }
 
-  animateColor();
+// DOESNT WORK
+  setTimeout(function(){
+    animateColor();
+    let interval = speed*blues.length;
+    setInterval(animateColor(),interval);
+  },delay);
+
 });
 
 
@@ -56,4 +62,3 @@ function animateColor() {
     , time);
   }
 }
-

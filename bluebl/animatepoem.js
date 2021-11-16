@@ -23,7 +23,11 @@ fetch("text.txt")
     .then(response => response.text())
     .then(data => {
         allText = data.split(/\W/);
+
+        // DOESNT WORK
         animate(allText);
+        let interval = speed*allText.length + delay;
+        setInterval(animate(allText),interval);
 
 });
 
@@ -38,7 +42,7 @@ function animate(array){
         setText(array[i]);
     },
       time);
-    
+
     if (i == array.length - 1){
       document.body.classList.add("black");
     }
@@ -63,4 +67,3 @@ function setText(word){
 function clearText(){
     p.innerHTML = "";
 }
-
