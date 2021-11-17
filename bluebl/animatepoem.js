@@ -16,7 +16,7 @@ window.addEventListener('resize',function(){
 let allText;
 let p = document.getElementById('text');
 let speed = 600;
-let delay = 5000;
+let delay = 4800;
 let winWidth;
 
 fetch("text.txt")

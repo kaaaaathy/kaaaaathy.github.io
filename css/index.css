@@ -18,6 +18,11 @@
   font-stretch: normal;
 }
 
+@font-face {
+	src: url('../fonts/terminal-grotesque.ttf');
+	font-family: Terminal;
+}
+
 /*--------------------------------------------------------------*/
 /*THE FUN STARTS HERE*/
 
@@ -106,7 +111,7 @@ nav {
 
 nav a {
 	font-size: 16pt;
-    font-family: 'Publico','DM Mono', monospace;
+    font-family: 'Terminal','Publico','DM Mono', monospace;
     margin-top:-20px;
     padding:20px;
 }
