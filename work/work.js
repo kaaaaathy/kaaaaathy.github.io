@@ -319,7 +319,7 @@ Doodle your world via webcam! Fool your foes! Impress your friends! 👀
 
     Camera Doodler is a browser-based drawing tool built in p5.js. <a href='https://preview.p5js.org/kathymakes/present/pvr3nRv2c' target="_blank">Demo it here.</a>  (Note that you'll have to turn your webcam on.)
 
-[screen1.jpg]
+[screen1_crop.jpg]
     I love the idea of canvases that are real-world compatible. To me, this means that anyone can use them without any extra materials or parts– that they interface easily with our found environment.
 
 Here's the brush in action:
@@ -341,49 +341,49 @@ People also gave me thoughts on how to improve:
     <a href='https://pondermake.tumblr.com/post/169135208964/cam-doodler' target="_blank">Read the blog post.</a>`
 
 },
-{
-    "folder":"manymigrations",
-    "name":"Many Migrations",
-    "tags":"Textiles, poetry",
-    "thumb":"thumb.jpg",
-    "content":`
-    A cross-seas collaboration with my friend Ying Cai.
-
-    The embroidery (by me) tells two migration stories divided across economic class and held by culture. A garment worker in NYC Chinatown on the left; my mother designing semiconductors on the right. Both of them, immigrant bodies within a context of mass production.
-
-    In the center, a child who is born in America.
-
-    [me1.jpg]
-
-    The hand-dyed garment is made by Ying. She's so beautifully synthesized the Chinese Du-dou silhouette with the Western apron. The shape holds stories of domesticity, Confucian patriarchy, female labor.
-    In her words, yellow is a strong but gentle color.
-
-    [sideview3.jpg]
-    [backview.jpg]
-
-    <br>
-    <b> GARMENT DETAIL </b>
-    [layflat.jpg]
-    [closeup1.jpg]
-    [closeup2.jpg]
-
-    <br>
-    <b> PROCESS </b>
-    [process1.jpg]
-    [process3.jpg]
-
-    <br>
-    <b> INSPIRATION </b>
-    The embroidery for this textile work was inspired by a poem I wrote: <b>Chinatown (Many Migrations)</b>.
-
-    Published in <a href="https://issuu.com/mitaai/docs/zinefinal_4_no_bleed_for_online_export-compressed" target="_blank">MIT Asian American Initiative Zine: Rooted</a>.
-    Also featured in <a href="https://www.unboundvisualarts.org/new-narratives-reclaiming-asian-identity-through-story-storyteller-series/" target ="_blank">VISIONS Unbounded Art Storytellers Exhibit & Panel Roundtable</a>.
-    [chinatown 1.jpg]
-    Whose working immigrant bodies do we value through our language?
-    Sometimes I find myself a tourist within my extended family's own cultural or class experience. In the broader Chinese diaspora, I feel sensitive to moments when way race unifies across class, and create moments of the familiar.
-
-    `
-},
+// {
+//     "folder":"manymigrations",
+//     "name":"Many Migrations",
+//     "tags":"Textiles, poetry",
+//     "thumb":"thumb.jpg",
+//     "content":`
+//     A cross-seas collaboration with my friend Ying Cai.
+//
+//     The embroidery (by me) tells two migration stories divided across economic class and held by culture. A garment worker in NYC Chinatown on the left; my mother designing semiconductors on the right. Both of them, immigrant bodies within a context of mass production.
+//
+//     In the center, a child who is born in America.
+//
+//     [me1.jpg]
+//
+//     The hand-dyed garment is made by Ying. She's so beautifully synthesized the Chinese Du-dou silhouette with the Western apron. The shape holds stories of domesticity, Confucian patriarchy, female labor.
+//     In her words, yellow is a strong but gentle color.
+//
+//     [sideview3.jpg]
+//     [backview.jpg]
+//
+//     <br>
+//     <b> GARMENT DETAIL </b>
+//     [layflat.jpg]
+//     [closeup1.jpg]
+//     [closeup2.jpg]
+//
+//     <br>
+//     <b> PROCESS </b>
+//     [process1.jpg]
+//     [process3.jpg]
+//
+//     <br>
+//     <b> INSPIRATION </b>
+//     The embroidery for this textile work was inspired by a poem I wrote: <b>Chinatown (Many Migrations)</b>.
+//
+//     Published in <a href="https://issuu.com/mitaai/docs/zinefinal_4_no_bleed_for_online_export-compressed" target="_blank">MIT Asian American Initiative Zine: Rooted</a>.
+//     Also featured in <a href="https://www.unboundvisualarts.org/new-narratives-reclaiming-asian-identity-through-story-storyteller-series/" target ="_blank">VISIONS Unbounded Art Storytellers Exhibit & Panel Roundtable</a>.
+//     [chinatown 1.jpg]
+//     Whose working immigrant bodies do we value through our language?
+//     Sometimes I find myself a tourist within my extended family's own cultural or class experience. In the broader Chinese diaspora, I feel sensitive to moments when way race unifies across class, and create moments of the familiar.
+//
+//     `
+// },
 {  "folder":"jelly",
   "name":"Pulmō Plastics",
   "tags":"Speculative objects, biodesign",
@@ -533,7 +533,7 @@ People also gave me thoughts on how to improve:
 
   {
   		"folder":"teaching",
-  		"name":"Art as Contemplative Care",
+  		"name":"Breath as a Line",
   		"tags":"Informal teaching",
   		"thumb":"thumb.jpg",
   		"content":`

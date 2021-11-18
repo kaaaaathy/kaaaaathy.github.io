@@ -1,15 +1,4 @@
 @font-face {
-	src: url('../fonts/Karla-Regular.ttf');
-	font-family: Karla;
-	font-weight: normal;
-}
-@font-face {
-	src: url('../fonts/Karla-Bold.ttf');
-	font-family: Karla;
-	font-weight: bold;
-}
-
-@font-face {
   font-family: 'Publico';
   src: url('../fonts/publico/PublicoTextMono-RomanNo2-Web.woff2') format('woff2'),
        url('../fonts/publico/PublicoTextMono-RomanNo2-Web.woff') format('woff');
@@ -18,10 +7,7 @@
   font-stretch: normal;
 }
 
-@font-face {
-	src: url('../fonts/terminal-grotesque.ttf');
-	font-family: Terminal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 /*--------------------------------------------------------------*/
 /*THE FUN STARTS HERE*/
@@ -29,18 +15,18 @@
 html{
   height:100%;
   /* background: linear-gradient(90deg,white,white,white,#f4eff7); */
-	background: linear-gradient(90deg,white,white,white,snow);
-
+	/* background: linear-gradient(90deg,white,white,white,snow); */
+background:black;
   overflow-x: hidden;
 }
 
 body {
 	position: relative;
-	font-size: 13pt;
+	font-size: 11pt;
 
-	font-family: 'Karla', Arial, sans-serif;
-	/* font-family: Arial, sans-serif; */
-	/* letter-spacing: 0.5px; */
+	/* font-family: 'Karla', Arial, sans-serif; */
+	font-family: Arial, sans-serif;
+	letter-spacing: 0.75px;
 	line-height: 1.75em;
 
 	/* font-family: 'Courier Prime','Courier', monospace;
@@ -48,7 +34,7 @@ body {
 	/* line-height: 1.6em; */
 
 
-	color: #323232;
+	color: white;
 	margin: 0;
 	width:100%;
 	height: 100%;
@@ -57,7 +43,7 @@ body {
 }
 
 ::selection {
-	background: black;
+	background: white;
 	color:white;
 }
 
@@ -88,7 +74,9 @@ section{
 }
 
 .aboutlinks {
-    border-bottom: 1px dotted salmon;
+		font-family: 'courier prime';
+		letter-spacing: -0.25px;
+    /* border-bottom: 1px solid white; */
 }
 
 
@@ -110,10 +98,11 @@ nav {
 }
 
 nav a {
-	font-size: 16pt;
-    font-family: 'Terminal','Publico','DM Mono', monospace;
+	font-size: 11pt;
+    font-family: 'courier prime','Publico','DM Mono', monospace;
     margin-top:-20px;
-    padding:20px;
+    padding:24px;
+		border-bottom: none;
 }
 
 
@@ -124,7 +113,7 @@ nav a {
 a{
 	text-decoration: none;
 	color: inherit;
-    color:salmon;
+  color:white;
 
 }
 
@@ -140,20 +129,25 @@ a:hover {
 /*HEADER STYLES*/
 
 h2 {
-	font-size:16pt;
-	font-family: 'Publico','DM Mono', monospace;
-	font-weight: normal;
+	font-size: 14pt;
+	font-family:'Arial';
+	letter-spacing: 0.5px;
+
+		font-weight: normal;
     line-height: 1.6em;
-	letter-spacing: -0.25px;
     max-width: 700px;
     margin-top:0px;
 }
 
+h2 a {
+	border-bottom: 1px solid white;
+
+}
 h3{
-	font-size: 18pt;
-	font-family: 'Publico','DM Mono', monospace;
+	font-size: 16pt;
+	font-family: 'Arial','Publico','DM Mono', monospace;
 	font-weight: normal;
-	letter-spacing: -0.25px;
+	letter-spacing: 1px;
     margin-bottom: 0px;
 	margin-top: 90px;
 
@@ -177,7 +171,7 @@ h3{
   background: transparent;
   padding-top: 20px; /*this is additive with the div content below, which you can't delete
   because it defines the <br> height */
-  border-bottom: 1px dotted #323232;
+  border-bottom: 1px solid #323232;
 
 }
 
@@ -195,7 +189,7 @@ h3{
 }
 
 #content a {
-    border-bottom: 1px dotted salmon;
+    border-bottom: 1px solid white;
 		/* previously #a937ff */
 }
 
@@ -236,25 +230,26 @@ h3{
 
 
 #work-stuff a figcaption{
-	margin-top: 8px;
+	margin-top: 16px;
 	line-height: 1.4rem;
-	color:rgba(0,0,0,.8);
+	color:white;
 	text-align: center;
 	text-transform: lowercase;
-	font-family: 'Publico','DM Mono', monospace;
-
+	font-family: 'courier prime','Publico','DM Mono', monospace;
+	letter-spacing: -0.25px;
 
  }
 
 #work-stuff a:hover figcaption{
-	color:rgba(0,0,0,1);
+	opacity:0.9;
+	transition: 0.2s all;
 
 }
 
 #work-stuff .tags {
 	padding:0;
 	margin:0;
-	color:gray;
+	color:white;
 	font-weight: normal;
 	display: none;
 
@@ -269,7 +264,7 @@ h3{
 .credit {
 	padding:15px 0;
 	font-size:9pt;
-	color:gray;
+	color:white;
 }
 
 
@@ -285,7 +280,7 @@ h3{
 
 nav a{
 	padding-left:40px;
-    color: salmon;
+  color: white;
 
 }
 
@@ -320,7 +315,12 @@ nav a{
 		font-size:9pt;
 
 	}
+	#work-stuff a figcaption{
+		margin-top: 8px;
 
+		text-align: left;
+
+	 }
 
 /*--------------------------------------------------------------*/
 
