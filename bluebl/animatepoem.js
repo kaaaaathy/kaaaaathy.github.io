@@ -15,8 +15,14 @@ window.addEventListener('resize',function(){
 
 let allText;
 let p = document.getElementById('text');
-let speed = 600;
-let delay = 4800;
+
+let speed = 700;
+let delay = 63000;
+
+// let speed = 1400;
+// let delay = 33600;
+
+
 let winWidth;
 
 fetch("text.txt")
@@ -40,6 +46,8 @@ function animate(array){
     setTimeout(()=>{
       //this used to be a for loop in the window but it was glitchin
         setText(array[i]);
+        document.body.classList.add("cobalt");
+
     },
       time);
 

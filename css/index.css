@@ -1,11 +1,11 @@
-@font-face {
+/* @font-face {
   font-family: 'Publico';
   src: url('../fonts/publico/PublicoTextMono-RomanNo2-Web.woff2') format('woff2'),
        url('../fonts/publico/PublicoTextMono-RomanNo2-Web.woff') format('woff');
   font-weight:  500;
   font-style:   normal;
   font-stretch: normal;
-}
+} */
 
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 

@@ -31,7 +31,9 @@ iframe {
   height:300px;
   max-width: 30%;
   margin: 0px 20px;
-  border: 1px solid #333;
+  border: none;
+
+  /* border: 1px solid #333; */
 
 }
 

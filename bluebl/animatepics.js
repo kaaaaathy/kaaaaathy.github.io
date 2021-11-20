@@ -5,7 +5,6 @@ let p = document.getElementById('text');
 let swatch = document.getElementById('swatch');
 
 let folders = ["bsod","cerulean","ceylon","china","cobalt","cobaltmine","lapis","led","neon","prussian","ultra","vermeer","virgin"];
-// let classes = ["sky","cobalt","ultra","prussian","lapis","blue"];
 
 let blues = [
   {"name":"sky","hex":"##87CFEB"},
@@ -15,8 +14,13 @@ let blues = [
   {"name":"ultra","hex":"#3F00FF"},
   {"name":"prussian", "hex":"#003153"}];
 
-let speed = 1200;
-let delay = 0;
+  // let speed = 700;
+  // let delay = 63000;
+
+  let speed = 1400;
+  let delay = 33600;
+
+
 // let whichWin = document.body.className;
 // let swatchColors = ["sky","cobalt","ultra","prussian","lapis","blue"];
 
