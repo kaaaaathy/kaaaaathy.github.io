@@ -1,6 +1,6 @@
 
 //get blues
-
+let danube = document.getElementById('danube');
 let p = document.getElementById('text');
 let swatch = document.getElementById('swatch');
 
@@ -19,6 +19,7 @@ let blues = [
 
   let speed = 1400;
   let delay = 33600;
+  // let delay = 3400;
 
 
 // let whichWin = document.body.className;
@@ -35,7 +36,9 @@ window.addEventListener('resize',function(){
     swatch.style.height = swatch.style.width;
 });
 
-animate(blues[1].hex,folders.indexOf("cobaltmine"));
+setInterval(()=>{
+  animate(blues[1].hex,folders.indexOf("cobaltmine"));
+},speed*100 + delay);
 
 // function getHex(blue){
 //     for (let i =0; i < blues.length; i++){
@@ -48,6 +51,10 @@ animate(blues[1].hex,folders.indexOf("cobaltmine"));
 
 function animate(blue,imgs) {
   let time;
+
+  setTimeout(function(){
+    danube.play();},
+  delay);
   // let winWidth;
   for (let i = 0; i < 100;i++){
     time = speed*i + delay;

@@ -1,5 +1,6 @@
 
 //get blues
+let danube = document.getElementById('danube');
 
 let p = document.getElementById('text');
 
@@ -33,13 +34,16 @@ fetch("colors.json")
     }
   }
 
-// DOESNT WORK
   setTimeout(function(){
     animateColor();
-    let interval = speed*blues.length;
-    setInterval(animateColor(),interval);
-  },delay);
+    danube.play();
 
+    let interval = speed*blues.length;
+    setInterval(()=>{
+      animateColor()},interval);
+
+
+    }, delay);
 });
 
 

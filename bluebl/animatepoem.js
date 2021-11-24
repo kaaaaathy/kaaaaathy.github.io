@@ -1,6 +1,7 @@
 // NOTE
 
 // THIS IS THE VERSION I LIKE THE MOST RIGHT NOW
+let danube = document.getElementById('danube');
 
 
 
@@ -32,14 +33,19 @@ fetch("text.txt")
 
         // DOESNT WORK
         animate(allText);
+
         let interval = speed*allText.length + delay;
-        setInterval(animate(allText),interval);
+        setInterval(()=>{
+          animate(allText)},interval);
 
 });
 
 
 function animate(array){
   let time;
+  setTimeout(function(){
+    danube.play();},
+  delay);
   for (let i = 0; i < array.length;i++){
   time = speed*i + delay;
 
