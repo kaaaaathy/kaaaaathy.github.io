@@ -5,33 +5,36 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital@0;1&display=swap" rel="stylesheet">
-    <!-- <script src="StartAudioContext.js"></script> -->
-    <script type="text/javascript" src="index.js"></script>
 
 
   </head>
   <body class = "black" style="text-align:center;">
+    <p id ="startCaption">[sound on]</p>
 
-    <section>
-      <iframe src = "names.html"></iframe>
+    <section id ="start"></section>
 
-      <iframe src = "pics.html"></iframe>
-
-      <iframe src = "poem.html"></iframe>
-
-    </section>
-
-      <!-- <audio style = "display:none" controls preload="auto" id = "danube" loop>
-          <source src="danubetest.mp3" />
-        </audio> -->
+    <audio style = "display:none" controls preload="auto" id = "clink" loop>
+        <source src="klink.mpeg" />
+      </audio>
 
   </body>
-  <!-- <script>
-    let danube = document.getElementById('danube');
-    danube.play();
-    document.addEventListener('mouseover',function(){
-      danube.play();
+  <script>
+    let sound = document.getElementById('clink');
+    let delay = 1400;
+    let go = document.getElementById('start');
+    let startCaption = document.getElementById('startCaption');
+    let started = false;
 
-    })
-  </script> -->
+    document.addEventListener('mouseover',function(){
+      if (started == false){
+      started = true;
+      go.innerHTML = "<iframe src = 'names.html'></iframe><iframe src = 'pics.html'></iframe><iframe src = 'poem.html'></iframe>"
+          setTimeout(()=>{
+              sound.play();
+              startCaption.classList.add("fade");
+
+          },delay);
+      }
+    });
+  </script>
 </html>

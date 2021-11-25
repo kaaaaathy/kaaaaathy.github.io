@@ -1,6 +1,8 @@
 
 //get blues
 let swatch = document.getElementById('swatch');
+
+//this is so i can switch it out for other images optionally
 let folders = ["bsod","cerulean","ceylon","china","cobalt","cobaltmine","lapis","led","neon","prussian","ultra","vermeer","virgin"];
 let blues = [
   {"name":"sky","hex":"##87CFEB"},
@@ -15,6 +17,7 @@ let delay = 2800;
 // let delay = 35200;
 let loop = 100;
 
+//resize code, this is a bit custom...
 let cont = document.getElementById('container');
 cont.style.height = window.innerHeight + "px";
 

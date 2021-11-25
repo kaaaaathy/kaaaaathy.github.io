@@ -1,14 +1,10 @@
 /* CSS files add styling rules to your content */
-@import url('https://cdn.glitch.me/f6a85cef-b2ef-4983-99f5-7ad28ec42489%2Fterminal-grotesque-webfont.woff2?v=1634599793779');
-
-@import url('https://kaaathy.com/fonts/Avara-BoldItalic.otf');
 
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 body {
-  font-family: 'terminal','space mono',monospace;
+  font-family: 'space mono',monospace;
   text-transform: uppercase;
-
   letter-spacing:0.5px;
   font-size:100px;
   color:white;
@@ -23,18 +19,17 @@ section {
   display:flex;
   flex-wrap: nowrap;
   justify-content: center;
-  padding-top: 150px;
+  padding-top: 250px;
   width: 100%;
   margin:0px auto;
 }
+
 iframe {
-  height:300px;
-  max-width: 30%;
-  margin: 0px 20px;
+  height:250px;
+  width: 28%;
+  /* this used to be 20px, btw */
+  margin: 0px 1.5%;
   border: none;
-
-  /* border: 1px solid #333; */
-
 }
 
 #swatch {
@@ -42,9 +37,7 @@ iframe {
   height:120px;
   color:transparent;
 }
-.caption {
-  font-size:20px;
-}
+
 
 #text {
   font-size: 100px;
@@ -52,10 +45,11 @@ iframe {
   align-items:center;
 }
 
+/*
 #colorName{
   text-align:center;
   font-size:20px;
-}
+} */
 
 #container{
   height:250px;
@@ -63,7 +57,23 @@ iframe {
   display:flex;
   align-items:center;
   justify-content:center;
+  text-align:center;
   margin:auto;
+}
+
+#startCaption{
+  font-size: 20px;
+  text-transform: lowercase;
+  font-style: italic;
+  position: fixed;
+  top:20px;
+  width: 100%;
+  text-align: center;
+}
+
+.fade {
+  opacity:0;
+  transition: 0.5s opacity;
 }
 
 .black {
@@ -75,10 +85,6 @@ iframe {
   color:black;
 }
 
-.sky {
-  background:#87CFEB;
-
-}
 
 .cobalt {
   background:#0046AB;
@@ -87,6 +93,13 @@ iframe {
 
 .blue {
   background:blue;
+
+}
+
+/* temporarily retired styles */
+
+/* .sky {
+  background:#87CFEB;
 
 }
 
@@ -103,7 +116,7 @@ iframe {
   background:#003153;
 }
 
-/*
+
 .navy {
   background:navy;
 
@@ -111,5 +124,4 @@ iframe {
 .cyan{
   background:cyan;
   color:black;
-}
- */
+} */

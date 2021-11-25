@@ -1,7 +1,5 @@
 
 //get blues
-let danube = document.getElementById('danube');
-
 let p = document.getElementById('text');
 
 let blues = [];
@@ -36,8 +34,6 @@ fetch("colors.json")
 
   setTimeout(function(){
     animateColor();
-    danube.play();
-
     let interval = speed*blues.length;
     setInterval(()=>{
       animateColor()},interval);
