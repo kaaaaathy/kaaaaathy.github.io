@@ -1,9 +1,3 @@
-// NOTE
-
-// THIS IS THE VERSION I LIKE THE MOST RIGHT NOW
-let danube = document.getElementById('danube');
-
-
 
 //resize code
 let cont = document.getElementById('container');
@@ -17,11 +11,11 @@ window.addEventListener('resize',function(){
 let allText;
 let p = document.getElementById('text');
 
-let speed = 700;
-let delay = 63000;
+let speed = 1400;
+let textdelay = 35000;
 
-// let speed = 1400;
-// let delay = 33600;
+// let textdelay = 70000;
+let delay = 2800;
 
 
 let winWidth;
@@ -32,9 +26,12 @@ fetch("text.txt")
         allText = data.split(/\W/);
 
         // DOESNT WORK
+        setTimeout(function(){
+          document.body.style.backgroundColor = "blue";
+        },delay);
         animate(allText);
 
-        let interval = speed*allText.length + delay;
+        let interval = speed*allText.length + textdelay;
         setInterval(()=>{
           animate(allText)},interval);
 
@@ -43,11 +40,8 @@ fetch("text.txt")
 
 function animate(array){
   let time;
-  setTimeout(function(){
-    danube.play();},
-  delay);
   for (let i = 0; i < array.length;i++){
-  time = speed*i + delay;
+  time = speed*i + textdelay;
 
     setTimeout(()=>{
       //this used to be a for loop in the window but it was glitchin

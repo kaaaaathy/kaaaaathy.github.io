@@ -21,7 +21,7 @@ body {
 
 section {
   display:flex;
-  flex-flow: row wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   padding-top: 150px;
   width: 100%;

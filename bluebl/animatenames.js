@@ -7,7 +7,7 @@ let p = document.getElementById('text');
 let blues = [];
 let hex = [];
 let speed = 2800;
-let delay = 2000;
+let delay = 1400;
 
 //resize code
 let cont = document.getElementById('container');
