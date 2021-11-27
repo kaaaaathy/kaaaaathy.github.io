@@ -20,9 +20,10 @@
   </body>
   <script>
     let sound = document.getElementById('clink');
-    let delay = 1400;
     let go = document.getElementById('start');
-    let startCaption = document.getElementById('startCaption');
+    let goCaption = document.getElementById('startCaption');
+
+    let delay = 1400;
     let started = false;
 
     document.addEventListener('mouseover',function(){
@@ -31,10 +32,10 @@
       go.innerHTML = "<iframe src = 'names.html'></iframe><iframe src = 'pics.html'></iframe><iframe src = 'poem.html'></iframe>"
           setTimeout(()=>{
               sound.play();
-              startCaption.classList.add("fade");
-
+              goCaption.classList.add("fade");
           },delay);
       }
     });
+    
   </script>
 </html>

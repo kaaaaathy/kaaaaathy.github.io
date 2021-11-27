@@ -31,34 +31,51 @@ fetch("colors.json")
         hex.push(data[i].color);
     }
   }
-
-  setTimeout(function(){
-    animateColor();
-    let interval = speed*blues.length;
-    setInterval(()=>{
-      animateColor()},interval);
-
-
-    }, delay);
+  play();
 });
 
 
-//how to make this repeat?
-
-function animateColor() {
-  let time;
-  let winWidth;
-  for (let i = 0; i < hex.length;i++){
-    time = speed*i + delay;
-    console.log(time);
-    setTimeout(()=>{
-          document.body.style.backgroundColor = hex[i];
-          p.innerHTML = blues[i];
-          if (blues[i].length > 3){
-             winWidth = window.innerWidth;
-             p.style.fontSize = winWidth/blues[i].length + "px";
-          }
-      }
-    , time);
-  }
+async function play(){
+  await wait(delay);
+  animateColor();
 }
+
+async function animateColor() {
+  for (let i = 0; i < hex.length;i++){
+    await wait(speed);
+    document.body.style.backgroundColor = hex[i];
+    p.innerHTML = blues[i];
+
+    if (blues[i].length > 3){
+       winWidth = window.innerWidth;
+       p.style.fontSize = winWidth/blues[i].length + "px";
+     }
+  }
+  await animateColor();
+}
+
+function wait(time) {
+  return new Promise(resolve => {
+    setTimeout(() => {
+      resolve('resolved');
+    }, time);
+  });
+}
+
+// function animateColor() {
+//   let time;
+//   let winWidth;
+//   for (let i = 0; i < hex.length;i++){
+//     time = speed*i + delay;
+//     console.log(time);
+//     setTimeout(()=>{
+//           document.body.style.backgroundColor = hex[i];
+//           p.innerHTML = blues[i];
+//           if (blues[i].length > 3){
+//              winWidth = window.innerWidth;
+//              p.style.fontSize = winWidth/blues[i].length + "px";
+//           }
+//       }
+//     , time);
+//   }
+// }

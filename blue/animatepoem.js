@@ -12,9 +12,7 @@ let allText;
 let p = document.getElementById('text');
 
 let speed = 1400;
-let textdelay = 35000;
-
-// let textdelay = 70000;
+let textdelay = 30800;
 let delay = 2800;
 
 
@@ -24,45 +22,26 @@ fetch("text.txt")
     .then(response => response.text())
     .then(data => {
         allText = data.split(/\W/);
-
-        // DOESNT WORK
-        setTimeout(function(){
-          document.body.style.backgroundColor = "blue";
-        },delay);
-        animate(allText);
-
-        let interval = speed*allText.length + textdelay;
-        setInterval(()=>{
-          animate(allText)},interval);
+        play(allText);
 
 });
 
-
-function animate(array){
-  let time;
-  for (let i = 0; i < array.length;i++){
-  time = speed*i + textdelay;
-
-    setTimeout(()=>{
-      //this used to be a for loop in the window but it was glitchin
-        setText(array[i]);
-        document.body.classList.add("cobalt");
-
-    },
-      time);
-
-    if (i == array.length - 1){
-      document.body.classList.add("black");
-    }
-  }
-  // setTimeout(()=>{
-  //   for (let j = 0;j<windows.length;j++){
-  //       clearText();
-  //     }
-  // }
-  //    , delay + speed * array.length);
+async function play(array){
+  await wait(delay);
+  document.body.classList.add("blue");
+  await wait(textdelay);
+  animate(array);
 }
 
+async function animate(array){
+  let time;
+  for (let i = 0; i < array.length;i++){
+    //this used to be a for loop in the window but it was glitchin
+    await wait(speed);
+    setText(array[i]);
+  }
+  await animate(array);
+}
 
 function setText(word){
     winWidth = window.innerWidth;
@@ -72,6 +51,10 @@ function setText(word){
     }
 }
 
-function clearText(){
-    p.innerHTML = "";
+function wait(time) {
+  return new Promise(resolve => {
+    setTimeout(() => {
+      resolve('resolved');
+    }, time);
+  });
 }
