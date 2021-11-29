@@ -1,11 +1,20 @@
 /* @font-face {
-  font-family: 'Publico';
+  font-family: ;
   src: url('../fonts/publico/PublicoTextMono-RomanNo2-Web.woff2') format('woff2'),
        url('../fonts/publico/PublicoTextMono-RomanNo2-Web.woff') format('woff');
   font-weight:  500;
   font-style:   normal;
   font-stretch: normal;
 } */
+
+@font-face {
+  font-family: ;
+  src: url('../fonts/compagnon/Compagnon-Roman.woff') format('woff'),
+       url('../fonts/compagnon/Compagnon-Italic.woff') format('woff'),
+       url('../fonts/compagnon/Compagnon-LightItalic.otf') format('otf');
+
+}
+
 
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
@@ -26,10 +35,10 @@ html{
 
 body {
 	position: relative;
-	font-size: 11pt;
+	font-size: 12pt;
 
 	/* font-family: 'Karla', Arial, sans-serif; */
-	font-family: Arial, sans-serif;
+	font-family: 'Arial', sans-serif;
 	letter-spacing: 0.75px;
 	line-height: 1.75em;
 
@@ -47,7 +56,7 @@ body {
 }
 
 ::selection {
-	background: white;
+	background: lavenderblush;
 	color: darkslategray;
 }
 
@@ -78,8 +87,8 @@ section{
 }
 
 .aboutlinks {
-		font-family: 'courier prime';
-		letter-spacing: -0.25px;
+		font-family: 'Arial','courier prime';
+		/* letter-spacing: -0.25px; */
     /* border-bottom: 1px solid white; */
 }
 
@@ -102,8 +111,8 @@ nav {
 }
 
 nav a {
-	font-size: 11pt;
-    font-family: 'courier prime','Publico','DM Mono', monospace;
+	font-size: 14pt;
+    font-family: 'Arial','courier prime', monospace;
     margin-top:-20px;
     padding:24px;
 		border-bottom: none;
@@ -148,10 +157,11 @@ h2 a {
 
 }
 h3{
-	font-size: 16pt;
-	font-family: 'Arial','Publico','DM Mono', monospace;
-	font-weight: normal;
-	letter-spacing: 1px;
+	font-size: 18pt;
+	font-family: 'Compagnon','Arial', monospace;
+	font-weight: 700;
+  /* font-style: italic; */
+	letter-spacing: -0.5px;
     margin-bottom: 0px;
 	margin-top: 90px;
 
@@ -239,8 +249,8 @@ h3{
 	color: darkslategray;
 	text-align: center;
 	text-transform: lowercase;
-	font-family: 'courier prime','Publico','DM Mono', monospace;
-	letter-spacing: -0.25px;
+	font-family: 'Arial','Arial Narrow','courier prime', monospace;
+	letter-spacing: 0.5px;
 
  }
 
