@@ -14,9 +14,13 @@
 
 html{
   height:100%;
+  background-position: top;
+  background-attachment: fixed;
   /* background: linear-gradient(90deg,white,white,white,#f4eff7); */
+  background-image:linear-gradient(45deg,white,azure,cornsilk,lavenderblush,#f4eff7);
+
 	/* background: linear-gradient(90deg,white,white,white,snow); */
-background:black;
+/* background:black; */
   overflow-x: hidden;
 }
 
@@ -34,7 +38,7 @@ body {
 	/* line-height: 1.6em; */
 
 
-	color: white;
+	color: darkslategray;
 	margin: 0;
 	width:100%;
 	height: 100%;
@@ -44,7 +48,7 @@ body {
 
 ::selection {
 	background: white;
-	color:white;
+	color: darkslategray;
 }
 
 /*--------------------------------------------------------------*/
@@ -113,7 +117,7 @@ nav a {
 a{
 	text-decoration: none;
 	color: inherit;
-  color:white;
+  color: darkslategray;
 
 }
 
@@ -140,7 +144,7 @@ h2 {
 }
 
 h2 a {
-	border-bottom: 1px solid white;
+	border-bottom: 1px solid darkslategray;
 
 }
 h3{
@@ -171,7 +175,7 @@ h3{
   background: transparent;
   padding-top: 20px; /*this is additive with the div content below, which you can't delete
   because it defines the <br> height */
-  border-bottom: 1px solid #323232;
+  border-bottom: 1px solid darkslategray;
 
 }
 
@@ -189,7 +193,7 @@ h3{
 }
 
 #content a {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid darkslategray;
 		/* previously #a937ff */
 }
 
@@ -232,7 +236,7 @@ h3{
 #work-stuff a figcaption{
 	margin-top: 16px;
 	line-height: 1.4rem;
-	color:white;
+	color: darkslategray;
 	text-align: center;
 	text-transform: lowercase;
 	font-family: 'courier prime','Publico','DM Mono', monospace;
@@ -249,7 +253,7 @@ h3{
 #work-stuff .tags {
 	padding:0;
 	margin:0;
-	color:white;
+	color: darkslategray;
 	font-weight: normal;
 	display: none;
 
@@ -264,7 +268,7 @@ h3{
 .credit {
 	padding:15px 0;
 	font-size:9pt;
-	color:white;
+	color: darkslategray;
 }
 
 
@@ -280,7 +284,7 @@ h3{
 
 nav a{
 	padding-left:40px;
-  color: white;
+  color: darkslategray;
 
 }
 

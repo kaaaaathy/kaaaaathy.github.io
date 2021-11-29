@@ -5,7 +5,7 @@ let p = document.getElementById('text');
 let blues = [];
 let hex = [];
 let speed = 2800;
-let delay = 1400;
+let delay = 0;
 
 //resize code
 let cont = document.getElementById('container');
@@ -37,7 +37,7 @@ fetch("colors.json")
 
 async function play(){
   await wait(delay);
-  animateColor();
+  await animateColor();
 }
 
 async function animateColor() {

@@ -1,5 +1,81 @@
 work=[
 
+{  "folder":"blueimg",
+  "name":"a virtual blue",
+  "tags":"HTML, javaScript, projection, sound, poetry",
+  "thumb":"blue1.gif",
+  "content":`If you call something, you can keep it in a box. If you classify it, perhaps you can harvest it. Commodification and supply chain and frameworks of extraction have their own grammars.
+This project explores concepts both abstract and concrete — a color wavelength — are socialized through language. How blue was the last discrete color category to be named in English.
+<iframe src="https://player.vimeo.com/video/651241191?h=b90e7371ba" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+
+  Virtual loves to hide a supply chain. They can't make lithium fast enough.
+  [blue1.gif]
+
+  Appliances love to hide a hole. Cobalt is the sound on the roof of your mouth.
+  [blue2.gif]
+
+  Vermeer finds beautiful clothing for Mary. She's draped in it, it's Afghanistan.
+  [blue6.gif]
+
+  They wanted to build a tunnel to China but China was busy eating the Congo.
+  [blue3.gif]
+
+  The glaze whispering, infinity.
+  [blue4.gif]
+
+  Projected performance:
+  <iframe src="https://player.vimeo.com/video/650972652?h=586c7f8ceb" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  [end.png]
+
+  `
+  },
+
+  // <iframe src="https://player.vimeo.com/video/650972652?h=586c7f8ceb" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  // [1.jpg]
+  // [5.jpg]
+  // [22.jpg]
+  //
+  // [end.png]
+  // [b1.png]
+
+
+  {  "folder":"eroevent",
+    "name":"erotic event listeners",
+    "tags":"",
+    "thumb":"3.png",
+    "content":`This workshop / zine is inspired by a tradition of computational & digital poetry, as well as by feminist writers who write about love, pleasure, and healing. This is a template and starting point for building a simple digital love poem focused on opacity/transparency, and click/touch interactions.
+
+Within the traditions of material and concrete poetics, we might gently resist what this web space might be for.
+
+    [1.png]
+    [2.png]
+    [rose.gif]
+    [3.png]
+
+    more soon~
+
+    `
+    },
+    {  "folder":"comppo",
+      "name":"computational poetics",
+      "tags":"",
+      "thumb":"1.png",
+      "content":`Student work by Amy Choi, Mariana Ramos Ortiz, Lara Karadogan, Daphne Hsu
+Computational Poetics is a studio elective within RISD Graphic Design focused on new ways of reading and writing, both with and without computers. The course asks critical questions about text-oriented art and design in the context of code, procedures, authorship, and classification.
+The main 3 projects focus on Math.random() as a divination tool, collective authorship through annotation and hypertext, and the politics of classification.
+kaaathy.com/comppoetics
+
+      [1.png]
+      [2.png]
+      [3.png]
+      [4.png]
+      [5.png]
+
+      more soon~
+
+      `
+      },
   {  "folder":"walk",
   "name":"walking with ghosts",
   "tags":"Interactive, HTML",
@@ -13,9 +89,7 @@ work=[
   [walk3.png]
   [walk4.png]
 
-  more soon~
-
-  `
+  more soon~`
   },
 
      {  "folder":"semiconduction",

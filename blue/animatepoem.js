@@ -30,7 +30,7 @@ async function play(array){
   await wait(delay);
   document.body.classList.add("blue");
   await wait(textdelay);
-  animate(array);
+  await animate(array);
 }
 
 async function animate(array){
