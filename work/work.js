@@ -60,13 +60,13 @@ Within the traditions of material and concrete poetics, we might gently resist w
     {  "folder":"comppo",
       "name":"computational poetics",
       "tags":"",
-      "thumb":"1.png",
+      "thumb":"hero.png",
       "content":`Student work by Amy Choi, Mariana Ramos Ortiz, Lara Karadogan, Daphne Hsu
 Computational Poetics is a studio elective within RISD Graphic Design focused on new ways of reading and writing, both with and without computers. The course asks critical questions about text-oriented art and design in the context of code, procedures, authorship, and classification.
 The main 3 projects focus on Math.random() as a divination tool, collective authorship through annotation and hypertext, and the politics of classification.
 kaaathy.com/comppoetics
 
-      [1.png]
+      [hero.png]
       [2.png]
       [3.png]
       [4.png]
@@ -136,7 +136,7 @@ kaaathy.com/comppoetics
     `
   },
 
-  {  "folder":"lootingdream",
+  {  "folder":"looting",
  "name":"Looting Dream",
  "tags":"Interactive, HTML",
  "thumb":"thumb.jpg",
@@ -189,25 +189,14 @@ kaaathy.com/comppoetics
   //   `
   // },
 
-// {
-//    "folder":"oppositesgame",
-//    "name":"Opposites Workshop",
-//    "tags":"Informal teaching",
-//    "thumb":"opposites.jpg",
-//    "content":`
-//    <br><b>Opposites</b>
-//
-//
-//
-//    `
-//  },
+
 
 
 {
       "folder":"opposites",
       "name":"Opposites Workshop",
       "tags":"Informal teaching",
-      "thumb":"thumb.png",
+      "thumb":"workshop1.jpg",
       "content":`
       What’s the opposite of darkness? Is it brightness? How about the opposite of a wall, or a cage?
       Our collective imagination is constrained by our vocabulary, both linguistic and visual— can we use new art forms and new language to build the inverse of violence?
@@ -219,7 +208,7 @@ kaaathy.com/comppoetics
       This workshop concept was inspired by <a href="http://theamericanjournalofpoetry.com/v2-constantine.html" target="_blank">this poem</a> by Brendan Constantine.
 
       <br><br>
-      <b>PT 1: THE OPPOSITE OF A GUN</b>
+      <span class="emph">PT 1: THE OPPOSITE OF A GUN</span>
       I first piloted this workshop at Tisch School of Arts. I introduced the poem by Brendan Constantine, and took people through an exercise:
       “What is the opposite of the phrase, My Life Had Stood a Loaded Gun?”
        [workshop3.jpg]
@@ -230,17 +219,17 @@ kaaathy.com/comppoetics
       [workshop2.jpg]
 
       <br><br>
-      <b>PT 2: REWRITING HEADLINES</b>
+      <span class="emph">PT 2: REWRITING HEADLINES</span>
       In the second iteration of this workshop, I placed a stronger emphasis on writing. I asked participants to look up news headlines which contained the following words:
       [workshop4.jpg]
 
       This version of the workshop was focused on multi-media interpretations. Here's one interpretation, using front-end browser tools as a vehicle for expression and pretend:
-      <b>“Crew Hang Giant American Flag Over George Washington Bridge”</b> becomes <b>“Individual Lifts Tiny Worldwide Cloud Under Donald Trump Wall”</b>
+      <span class="emph">“Crew Hang Giant American Flag Over George Washington Bridge”</span> becomes <span class="emph">“Individual Lifts Tiny Worldwide Cloud Under Donald Trump Wall”</span>
       [opposites.gif]
       ...which later became an interactive digital project:
       [oppositesgamescratch.gif]
       <br>
-      <b>MORE EXAMPLES </b>
+      <span class="emph">MORE EXAMPLES </span>
       “These Gun Enthusiasts at the Virginia Rally Carried More Firepower than US Troops” becomes “These seed supporters at the stateless sleepover dispersed more waterpower than many Pangaea flowers”
       [opposites1.jpg]
 “Gun Makers Adjust Focus to Women Buyers” becomes “Watering Can Fixers Keep Distraction Away From Baby Philanthropists”
@@ -262,17 +251,17 @@ kaaathy.com/comppoetics
     These extractive processes threaten all life because they threaten water.
 
     <br>
-    <b>  Text & Voice </b>
+    <span class="emph">  Text & Voice </span>
       I was responsible for integrating text throughout the piece. Inspired by artists like Young Hae-Chang Heavy Industries, I wanted to create impactful typographic experiences that could be loud without the accompaniment of sound.
       [oakflat3.gif]
 
       <br>
-      <b>River, Personified</b></br>
+      <span class="emph">River, Personified</span></br>
 I wrote the script from the point of view of the Arizona Tonto Basin River— a body of water which would effectively be poisoned by the construction of the copper mine.
       [oakflat.gif]
 
       <br>
-      <b> Stills </b>
+      <span class="emph"> Stills </span>
       [stills.jpg]
     `
   },
@@ -291,7 +280,7 @@ I wrote the script from the point of view of the Arizona Tonto Basin River— a 
   This work began as a inquiry into the textual internet; over a semester, it evolved into a visceral experience of virtuality, including sculpture, video, and writing.
 
   <br><br>
-  <b>1. VOLUME, WEIGHT</b>
+  <span class="emph">1. VOLUME, WEIGHT</span>
 
   If our informational input could be measured in pounds, imagine how it would feel to literally consume or hold that much weight.
 
@@ -300,7 +289,7 @@ I wrote the script from the point of view of the Arizona Tonto Basin River— a 
   [dp_1.jpg]
   <br>
   <br>
-  <b>2. CONVERSION TOOLS</b>
+  <span class="emph">2. CONVERSION TOOLS</span>
   The human body understands the material world and has unique intuitions that help us navigate it. I was interested in how people would use intuition to convert their understanding of virtual units into physical objects.
  I created interpretive “conversion tools” n the form of frames and boxes. Ech of these symbolized a space for an assigned virtual unit where people’s responses/objects would live.
   [crowdsourced.jpg]
@@ -308,7 +297,7 @@ I wrote the script from the point of view of the Arizona Tonto Basin River— a 
 
   <br>
   <br>
-  <b>3. WRITING</b>
+  <span class="emph">3. WRITING</span>
   Writing was an important part of my process and discovery. I generated about 1MB worth of text and images throughout this project.       I populated that data into a <a href='https://drive.google.com/file/d/0BzXTWcuY86iYcHFTREVrbVhrRzA/view?usp=sharing
 ' target='_blank'>process document</a> and a video (below).
   In the Byte Catalogue, I documented objects I crowd-sourced. I compared these against virtual experiences—for example, the Lord of the Rings trilogy in bytes.
@@ -318,7 +307,7 @@ I wrote the script from the point of view of the Arizona Tonto Basin River— a 
 
   <br>
   <br>
-  <b>4. OWNERSHIP OF VIRTUAL THINGS</b>
+  <span class="emph">4. OWNERSHIP OF VIRTUAL THINGS</span>
   Inspired by the Million Dollar website,  I was amused at the skeuomorph of buying “space” on the Internet.
   [7_alt.jpg]
   <br>
@@ -328,7 +317,7 @@ I wrote the script from the point of view of the Arizona Tonto Basin River— a 
 
   <br>
   <br>
-  <b>5. VIRTUAL WORLD</b>
+  <span class="emph">5. VIRTUAL WORLD</span>
   Eventually I collected enough to fill up a room with artifacts. I found textual objects and materials of different weights and densities and quantified them in bytes.
   The piece also featured sculptural metaphors like downloading across glass jars, as well as plastic physical hard-drives.
   [1.jpg]
@@ -399,7 +388,7 @@ Doodle your world via webcam! Fool your foes! Impress your friends! 👀
 Here's the brush in action:
     {<video src='work/camdoodler/demo.mov' controls autoplay='on' width='100%' height='auto'></video>}
     <br>
-    <b>DRAWINGS</b>
+    <span class="emph">DRAWINGS</span>
 After building it, I sent the tool out to friends and acquaintances for user testing. People made some amazing things!
     [cam-doodler.gif]
     I got a lot of great feedback, including, "This is so much fun," and "I could spend hours doing this." I intended it for desktop use but a few people even made designs on mobile, which was a nice surprise.
@@ -436,19 +425,19 @@ People also gave me thoughts on how to improve:
 //     [backview.jpg]
 //
 //     <br>
-//     <b> GARMENT DETAIL </b>
+//     <span class="emph"> GARMENT DETAIL </span>
 //     [layflat.jpg]
 //     [closeup1.jpg]
 //     [closeup2.jpg]
 //
 //     <br>
-//     <b> PROCESS </b>
+//     <span class="emph"> PROCESS </span>
 //     [process1.jpg]
 //     [process3.jpg]
 //
 //     <br>
-//     <b> INSPIRATION </b>
-//     The embroidery for this textile work was inspired by a poem I wrote: <b>Chinatown (Many Migrations)</b>.
+//     <span class="emph"> INSPIRATION </span>
+//     The embroidery for this textile work was inspired by a poem I wrote: <span class="emph">Chinatown (Many Migrations)</span>.
 //
 //     Published in <a href="https://issuu.com/mitaai/docs/zinefinal_4_no_bleed_for_online_export-compressed" target="_blank">MIT Asian American Initiative Zine: Rooted</a>.
 //     Also featured in <a href="https://www.unboundvisualarts.org/new-narratives-reclaiming-asian-identity-through-story-storyteller-series/" target ="_blank">VISIONS Unbounded Art Storytellers Exhibit & Panel Roundtable</a>.
@@ -477,17 +466,17 @@ People also gave me thoughts on how to improve:
   When plastic enters the oceans, marine wildlife often confuse it for their jellyfish prey and subsequently die from plastic consumption.
     [jelly21.jpg]<span style="font-size:11px">Image credit: Troy Mayne, World Wildlife Foundation.</span>
 
-    What if we could close the loop between our jellyfish ‘problem’ and another marine threat— <b>petroleum-based plastic waste</b>?
+    What if we could close the loop between our jellyfish ‘problem’ and another marine threat— <span class="emph">petroleum-based plastic waste</span>?
 
   [jelly3.jpeg]
-  Jellyfish protein is almost exclusively <b>the structural protein collagen.</b> Given this 500-million year old creature consists of collagen of an earlier template in the evolutionary cycle, it has the potential to be a more universal biomaterial for various applications.
-  We propose the use of <b>jellyfish gelatin</b> (which can be obtained by heating jellyfish collagen), <b>vegetable glycerin,</b> and <b>chitosan</b> to create food-safe, <a href="https://fabtextiles.org/the-secrets-of-bioplastic/" target="_blank">biodegradable plastics</a> which enter safely back into the ecosystem
+  Jellyfish protein is almost exclusively <span class="emph">the structural protein collagen.</span> Given this 500-million year old creature consists of collagen of an earlier template in the evolutionary cycle, it has the potential to be a more universal biomaterial for various applications.
+  We propose the use of <span class="emph">jellyfish gelatin</span> (which can be obtained by heating jellyfish collagen), <span class="emph">vegetable glycerin,</span> and <span class="emph">chitosan</span> to create food-safe, <a href="https://fabtextiles.org/the-secrets-of-bioplastic/" target="_blank">biodegradable plastics</a> which enter safely back into the ecosystem
 
   [jelly9.jpeg]
 
   <br>
   <br>
-  <b>OUR PROCESS</b>
+  <span class="emph">OUR PROCESS</span>
   We tested different ratios of glycerin to gelatin and plastic shape and size, creating samples with varying material properties that could lend themselves to different objects.
 
   [jelly5.jpeg]
@@ -504,7 +493,7 @@ People also gave me thoughts on how to improve:
 
   <br>
   <br>
-  <b>FINAL THOUGHTS</b>
+  <span class="emph">FINAL THOUGHTS</span>
   Despite the current abundance of jellyfish, do we have the right to steal them — even dead ones — from nature for our material desires?
   [pulmo_samples.jpg]
   We recognize that creating new biomaterials is not a substitute for urgent <a href="https://en.wikipedia.org/wiki/Green_New_Deal" target="_blank">policy</a> towards real environmental justice. Nor do we want to encourage future cycles of exploitation of abundance in order to deplete it.
@@ -520,21 +509,21 @@ People also gave me thoughts on how to improve:
     "content":`Printed text marries an immutable form, but graphemes on screen can shapeshift through a dynamic, stretchy existence.
     Click your way through language, make textural mischief, build new poems every time. Digital experiments in HTML & p5.js.
     <br>
-    <b>GRECIAN URNS:</b>&ensp; Online-only artifacts made from letters. Please <a href='ffabschrift/pottery.html' target='_blank'>do not touch.</a>
+    <span class="emph">GRECIAN URNS:</span>&ensp; Online-only artifacts made from letters. Please <a href='ffabschrift/pottery.html' target='_blank'>do not touch.</a>
     [pottery.gif]
     [urn.gif]
     <br><br>
-        <b>OPPOSITE OF A GUN:</b>&ensp;A game that completes within seconds, or as long as you let it. Inspired by <a href='http://theamericanjournalofpoetry.com/v2-constantine.html' target='_blank'>this poem.</a>&ensp;You can <a href='http://alpha.editor.p5js.org/full/rybGZQX2Z' target='_blank'>try it here.</a>
+        <span class="emph">OPPOSITE OF A GUN:</span>&ensp;A game that completes within seconds, or as long as you let it. Inspired by <a href='http://theamericanjournalofpoetry.com/v2-constantine.html' target='_blank'>this poem.</a>&ensp;You can <a href='http://alpha.editor.p5js.org/full/rybGZQX2Z' target='_blank'>try it here.</a>
 [gun_opposite.jpg]
 [gun_opposite.gif]
 <br><br>
 
-    <b>MONTH OF MAY:</b>&ensp;Recombinative love poems. <a href='digpo/may.html' target='_blank'>Make your own.</a>
+    <span class="emph">MONTH OF MAY:</span>&ensp;Recombinative love poems. <a href='digpo/may.html' target='_blank'>Make your own.</a>
     [may.jpg]
     [may-3.gif]
     <br><br>
 
-    <b>BASHO IN THE FOREST:</b>&ensp; Haikus to stumble upon in the woods. <a href='digpo/garden/basho.html' target='_blank'>Take a gander?</a>
+    <span class="emph">BASHO IN THE FOREST:</span>&ensp; Haikus to stumble upon in the woods. <a href='digpo/garden/basho.html' target='_blank'>Take a gander?</a>
     [basho.jpg]
     [basho1.jpg]
 
@@ -548,26 +537,26 @@ People also gave me thoughts on how to improve:
 //   "thumb":"cover.jpg",
 //   "content":`
 //   Designed & built in collaboration with Anthony Bui, Asha Veeraswamy, and Keerthana Pareedy. I contributed conceptual work, front end dev, and graphics.
-// <br><b>THE STORY</b>
+// <br><span class="emph">THE STORY</span>
 //   Search Divides Us is an interactive exhibit about bias in search engines, through the example of a housing search. Our team demoed this at ITP Spring Show, as well as <a href="https://makerfaire.com/maker/entry/67996/" target="_blank">New York Maker Faire</a> in 2019.
 //   [plaque-2.jpg]
 // <br>
-//   <b>HARDWARE INTERFACE</b>
+//   <span class="emph">HARDWARE INTERFACE</span>
 //   The final interface followed a slot machine metaphor. The interface consisted of a set of dials: CLASS, RACE, EDUCATION. In the center, a green space-bar-shaped button would allow you to search.
 //   [video-1.gif]
 //
-// <br><b>WEBSITE</b>
+// <br><span class="emph">WEBSITE</span>
 //   I created a fictional island (modeled roughly after Manhattan, NY) and built fictional housing provider website.
 //   [searchdivides_mini.gif]
 //   The result was projected onto a dark wall. We wanted the experience of entering in your demographic and receiving your result to be as public as possible, so that visitors would  think about these issues in dialogue with us and each other.
 //
 //   [demo.jpg]
-// <br><b>RANDOM SEARCH</b>
+// <br><span class="emph">RANDOM SEARCH</span>
 //   We encouraged visitors to explore how other search profiles tended towards different results. Using a "slot machine" metaphor, visitors could choose a new identity at random.
 //   [video-2-mini.gif]
 //
 //
-//   <br><b>PROCESS</b>
+//   <br><span class="emph">PROCESS</span>
 //   Our team was inspired by the <a href="https://www.nyu.edu/about/news-publications/news/2016/august/nyu-study-looks-at-how-racial-inequality-is-produced-online.html" target = "_blank">research</a> of Dr. Charles McIlwain of NYU, which explores how the internet is as segregated as a city.
 //
 //   Here’s our early design for a plinko machine, where the flippers represent categorization and algorithm bias.
@@ -580,7 +569,7 @@ People also gave me thoughts on how to improve:
 //   <br>
 //   [idea3.jpg]
 //
-//   <br><b>GRAPHICS</b>
+//   <br><span class="emph">GRAPHICS</span>
 //   [bluemap.jpg]
 //   [1-white.jpg]
 //   [3-black.jpg]
@@ -595,10 +584,10 @@ People also gave me thoughts on how to improve:
   // 		"tags":"Brush pen, etc",
   // 		"thumb":"thumb.jpg",
   // 		"content":`
-  //     <b>MIGRATION IS BEAUTIFUL:</b> A print for a fundraiser for RAICES and Movimiento Cosecha. (Link to buy a print coming soon.)
+  //     <span class="emph">MIGRATION IS BEAUTIFUL:</span> A print for a fundraiser for RAICES and Movimiento Cosecha. (Link to buy a print coming soon.)
   // 		[migrationprint.jpg]
   // 		<br>
-  //     <b>NOT YOUR BAO-BEI:</b> A celestial, pi-pa strumming Chinese god/goddess but with Riot Girl energy.
+  //     <span class="emph">NOT YOUR BAO-BEI:</span> A celestial, pi-pa strumming Chinese god/goddess but with Riot Girl energy.
   //     [pipapunk.jpg]
   // 		`
   // },
@@ -619,7 +608,7 @@ People also gave me thoughts on how to improve:
       To me, moving through space in this way has always been an ancient, unnamed, beautiful art (especially outside the canon of white contemporary artists.)
 
       <br>
-      <b>ART AS CONTEMPLATIVE CARE / CONTEMPLATIVE CARE AS ART </b>
+      <span class="emph">ART AS CONTEMPLATIVE CARE / CONTEMPLATIVE CARE AS ART </span>
 
       In this 2-hour workshop, I offer space where people could consider the body while drawing. This way, drawing is more like breathing than it is image-making.
 
@@ -627,7 +616,7 @@ People also gave me thoughts on how to improve:
       [drawing2.jpg]
 
       <br>
-      <b> VARIATIONS ON A LINE: </b> Drawing with different hands, closing your eyes, breathing through a line.
+      <span class="emph"> VARIATIONS ON A LINE: </span> Drawing with different hands, closing your eyes, breathing through a line.
   		[action3.jpg]
   		[drawing3.jpg]
 
@@ -637,7 +626,7 @@ People also gave me thoughts on how to improve:
   		[line_hard_break_2.jpg]
 
       <br>
-      <b>BUILDING A GUEST HOUSE: </b> Creating a sculpture to hold feeling.
+      <span class="emph">BUILDING A GUEST HOUSE: </span> Creating a sculpture to hold feeling.
   		[action5.jpg]
       [drawing5.jpg]
   		[end5.jpg]
@@ -658,22 +647,22 @@ People also gave me thoughts on how to improve:
 // 		"content":`
 // 		The gesture of writing includes scratch, ping, swipe, tap. What are some new tools for writing that push or strain the body? These are experiments in bizarre and obstructed lingual gestures. (More to come.)
 // 		<br>
-// 		<b>CROSS-COUNTRY CALLIGRAPHY.</b> It may take months to write to you.
+// 		<span class="emph">CROSS-COUNTRY CALLIGRAPHY.</span> It may take months to write to you.
 // 		[driving_gif.gif]
 //
 // 		[miss-you.jpg]
 // 		<br>
 // 		<br>
-//     <b>TRANSCRIBING OBSTRUCTIONS I.</b> Typing with socks on my hands.
+//     <span class="emph">TRANSCRIBING OBSTRUCTIONS I.</span> Typing with socks on my hands.
 //     [socks.png]
 //     <br><br>
-// 		<b>TRANSCRIBING OBSTRUCTIONS II.</b> Reading tongue twisters while covering different parts of my mouth with a spoon. I used an online text-to-speech tool.
+// 		<span class="emph">TRANSCRIBING OBSTRUCTIONS II.</span> Reading tongue twisters while covering different parts of my mouth with a spoon. I used an online text-to-speech tool.
 // 		<br>
 // 		{<video width=100% src='work/shapinglanguage/speech-to-text.mp4' controls autoplay='on' muted></video>}
 // 		<br>
 //     <br>
 //
-// 		<b>KEYBOARD CALISTHENICS</b> A speculative guidebook and sarcastic keyboard workout video, inspired by Jane Fonda energy from the 80's and those horrible typing games from my childhood.
+// 		<span class="emph">KEYBOARD CALISTHENICS</span> A speculative guidebook and sarcastic keyboard workout video, inspired by Jane Fonda energy from the 80's and those horrible typing games from my childhood.
 // 		[kindastrange1.gif]
 //     <br>
 //     Explorations in repetition, exercise, and creating writing from an interface-first perspective – since our expression is ultimately constrained by body and tools.
@@ -695,32 +684,32 @@ People also gave me thoughts on how to improve:
 //     Lego Soundmaker lets you make music with LEGOs and your environment. 🎵
 //         [1.jpg]
 //         [2.jpg]
-//         <br><b>Build your own tracks...</b>
+//         <br><span class="emph">Build your own tracks...</span>
 //         [stopmotion.gif]
 //         <br>
-//         <b>Record your voice, your dog, or other found sounds.</b>
+//         <span class="emph">Record your voice, your dog, or other found sounds.</span>
 //         [record.gif]
 //         <br>
-//         <b>How does it work?</b>
+//         <span class="emph">How does it work?</span>
 //         Inside, there's an Arduino and a line of LEDs, plus one RGB color changing LEDs, and 4 switches that I've glued pennies onto to increase surface area.
 //         [3_super_cropped.jpg]
-// The magic under the hood relies on an overhead webcam and <b>computer vision</b>. Here's my initial design, which originally featured a webcam below (which didn't work so well with lighting).
+// The magic under the hood relies on an overhead webcam and <span class="emph">computer vision</span>. Here's my initial design, which originally featured a webcam below (which didn't work so well with lighting).
 //         [schematic1.jpg]
 // I wrote the computer vision program myself using p5.js. <a href="https://alpha.editor.p5js.org/kathymakes/sketches/H19jBHXbG" target="_blank">Take a look at the code.</a>
 // [p5process.jpg]
 
 //         <br>
-//         <b>Process</b>
+//         <span class="emph">Process</span>
 //         Building out the insides:
 //         [process1.jpg]
 //         Fabricating the box:
 //         [boxprocess_big.gif]
 
 // <br>
-// <b>The ITP Winter Show!</b>
+// <span class="emph">The ITP Winter Show!</span>
 // This was selected to be shown at ITP's annual public showcase. A lot of people came and played with my finished project for the first time. I learned so much just watching them. Some visitors used it in unexpected ways...
 // [wintershow.jpg]
-// <b>Some things I heard:</b>
+// <span class="emph">Some things I heard:</span>
 // "This is so much fun. I could just keep going."
 // "It sounds like a bunch of babies!"
 // "What do I hear? It's like a load of animals."
@@ -736,12 +725,12 @@ People also gave me thoughts on how to improve:
 //   "thumb":"thumb.png",
 //   "content":`
 
-//   <b>WHAT'S SCRATCH? </b>
+//   <span class="emph">WHAT'S SCRATCH? </span>
 //   <a href="scratch.mit.edu" target="_blank">Scratch</a> is an open-source programming language, creative tool, and online community used by millions of young people and educators around the world today.
 //   For many children, Scratch is their first experience in computational media and virtual community.
 
 // <br>
-//   <b>WHY THIS WORK? </b>
+//   <span class="emph">WHY THIS WORK? </span>
 
 //   Our previous join experience was text-heavy, less paced, and more utilitarian.
 //   [join 6.png]
@@ -750,7 +739,7 @@ People also gave me thoughts on how to improve:
 //   It felt crucial that we improve this first touch point – to emphasize a welcoming community, as well as the joy of building your first creative identity online.
 
 // <br>
-//   <b>NEW EXPERIENCE</b>
+//   <span class="emph">NEW EXPERIENCE</span>
 //   I remember my first foray with internet communities over a decade ago, and how emotional that could be.
 //   We also recognize that we have a responsibility to onboard young people into internet community literacy — how to represent yourself online, while protecting your privacy.
 
@@ -772,34 +761,34 @@ People also gave me thoughts on how to improve:
 //   "thumb":"sprite1-alt.png",
 //   "content":`
 
-//     <b>WHAT'S SCRATCH? </b>
+//     <span class="emph">WHAT'S SCRATCH? </span>
 //   <a href="scratch.mit.edu" target="_blank">Scratch</a> is an open-source programming language, creative tool, and online community used by millions of young people and educators around the world today.
 //    For many children, Scratch is their first experience in computational media and virtual community.
 
 //  <br>
-//    <b>WHY THIS WORK?</b>
+//    <span class="emph">WHY THIS WORK?</span>
 //   Kids use the paint editor in Scratch to create stories, animations, games, and more. For many of them, Scratch is their first and only image editing software.
 //   Through the Scratch online community, young people share creations about themselves and their communities.
 //   [community2.gif]
 //   I wanted to lead this project because feel strongly about media representation generally; as a designer of creative tools, I'm especially passionate about our responsibilities to youth and their personal, expressive experiences.
 
 // <br>
-//   <b>OUR EXISTING ARTWORK</b>
+//   <span class="emph">OUR EXISTING ARTWORK</span>
 //   Our team responded to how the existing characters in our asset library were sometimes difficult to reshape, or recolor. Here's an example project by a young person in the community, who has created their own work-arounds:
 //   [abby.gif]
 
 //   We identified two main challenges:
-//   <b>1. RECOLORING.</b>
+//   <span class="emph">1. RECOLORING.</span>
 //    Many of our existing assets, especially the bitmap characters, were difficult to recolor. For example, the hair contains multiple tones on this sprite.
 //   [hannah.gif]
-//   <b>2. RESHAPING.</b>
+//   <span class="emph">2. RESHAPING.</span>
 //    Even for our vector assets, reposing characters were challenging because they were not designed with editability. For example, the outline and fill are constructed separately on this ballerina.
 //   [difficulty2.gif]
 //    This artwork was launched as part of a 3-month project I led and managed, with a focus on helping kids represent themselves in artwork.
 //   It was important to us that beginners — new to Scratch, new to image editing, or both — could quickly see themselves in the tool and community.
 
 // <br>
-//   <b>NEW ARTWORK </b>
+//   <span class="emph">NEW ARTWORK </span>
 //   As part of this project, we launched four new character sets for the Scratch Asset Library. You can see them all at <a href="https://scratch.mit.edu/projects/editor" target ="_blank">scratch.mit.edu</a> in the sprite library.
 //   Our team wanted to provide enough specificity through different options, as well as use simple shapes that could be easily altered and generalized.
 
@@ -847,7 +836,7 @@ People also gave me thoughts on how to improve:
   //  [demo2.JPG]
   //  Testing with judges and students.
   //  <br><br>
-  //  <b>THE GAME</b>
+  //  <span class="emph">THE GAME</span>
   //  [motemote-3.gif]
   //  The interface is pretty minimal. You select a character and color for your Mote, and write in your name to start:
   //  [motemote.gif]
@@ -864,7 +853,7 @@ People also gave me thoughts on how to improve:
   //     "content":`
   //     Using tools which originated as canvases for capitalist productivist labor as community hallways and art-making spaces during Coronavirus.
   //     <br>
-  //     <b>RENGA PARTY DURING COVID-19, #1</b>
+  //     <span class="emph">RENGA PARTY DURING COVID-19, #1</span>
   //     Let's write a renga-shaped poem together.
   //     Renga is a <a href="https://en.wikipedia.org/wiki/Collaborative_poetry" target="_blank">classical Japanese format</a> for writing an infinite, interlocking, collaborative poem.
   //     [partyrules.jpg]
@@ -876,7 +865,7 @@ People also gave me thoughts on how to improve:
   //     [party6.jpg]
 
   //     <br>
-  //     <b>RENGA PARTY DURING COVID-19, #2</b>
+  //     <span class="emph">RENGA PARTY DURING COVID-19, #2</span>
   //     This turned into a 97-page meme fest and I'm not sure why, except that I invited my brother.
   //     [party7.jpg]
   //     [party10.jpg]
@@ -884,7 +873,7 @@ People also gave me thoughts on how to improve:
   //     [party12.jpg]
 
   //     <br>
-  //     <b>BDAY DRAWING PARTY IN SHEETS, #1</b>
+  //     <span class="emph">BDAY DRAWING PARTY IN SHEETS, #1</span>
   //     I did this one in 2015, alongside a 100-page Google Doc birthday party I threw for myself.
   //     [party17.jpg]
   //     [party18.jpg]
@@ -899,40 +888,40 @@ People also gave me thoughts on how to improve:
 	// 	"tags":"Media Design, Interactive, UI/UX",
 	// 	"thumb":"thumb.jpg",
 	// 	"content":`
-	// 	Bumble is a <b>collaborative fiction-building tool.</b> Users can create stories with their thumbs, and navigate a web of stories like a dungeon map. I collaborated with Kevin Cadena and Jamar Bromley in the studio course, Computer Utopias.
+	// 	Bumble is a <span class="emph">collaborative fiction-building tool.</span> Users can create stories with their thumbs, and navigate a web of stories like a dungeon map. I collaborated with Kevin Cadena and Jamar Bromley in the studio course, Computer Utopias.
 	// 	[thumb2.jpg]
 	// 	<br><br>
-	// 	<b>What is the shape of mobile media?</b>
+	// 	<span class="emph">What is the shape of mobile media?</span>
 	// 	Today, even with responsive design, much of mobile media retrofits desktop sites to a small screen. Scrollable content is not comfortable or “native” to this device.
 	// 	Our team was inspired by Hypercard and SmallTalk, which informed the shape of media-making on personal computers in the 1960s and beyond.
 	// 	[2.jpg]
 	// 	Our early sketches explored hyperlinkable, inspectable cards, where people could create webcontent without touching a full-size computer.
-	// 	The most difficult question was nailing down <b>what media our tool would enable.</b> Ephemeral, or invested? Individual, or collaborative?
+	// 	The most difficult question was nailing down <span class="emph">what media our tool would enable.</span> Ephemeral, or invested? Individual, or collaborative?
 	// 	<br><br>
-	// 	<b>VERSION 1</b>
-	// 	Mobile devices encourage creative manipulation of images and videos. We were drawn to playful media, and inspired by Snapchat and Kidpix. In this iteration of Bumble, users could build <b>expressive webcards on a social network.</b>
+	// 	<span class="emph">VERSION 1</span>
+	// 	Mobile devices encourage creative manipulation of images and videos. We were drawn to playful media, and inspired by Snapchat and Kidpix. In this iteration of Bumble, users could build <span class="emph">expressive webcards on a social network.</span>
 	// 	[4.jpg]
-	// 	The program was feature-loaded: color, text, audio, shape, stickers, and hyperlinks! But what are they making, and would they care?</b>
-	// 	<b>What we learned:</b> The timeframe for mobile content creation, in this case, was less invested than on desktop. We needed to serve this platform's attention span.
+	// 	The program was feature-loaded: color, text, audio, shape, stickers, and hyperlinks! But what are they making, and would they care?</span>
+	// 	<span class="emph">What we learned:</span> The timeframe for mobile content creation, in this case, was less invested than on desktop. We needed to serve this platform's attention span.
 	// 	<br><br>
-	// 	<b>VERSION 2</b>
+	// 	<span class="emph">VERSION 2</span>
 	// 	We challenged our initial assumption that people would want to craft handheld websites with care. We trashed all content primitives except video and scribbling.
 	// 	[6.jpg]
 	// 	Oops… so we made Snapchat’s less cool cousin. We lost our initial mission, which was to redefine what it meant to make and move in a mobile web browser.
-	// 	<b>What we learned:</b> It's better to make something that 100 people love than something for the masses to ignore. Make a monopoly, not more competition.
+	// 	<span class="emph">What we learned:</span> It's better to make something that 100 people love than something for the masses to ignore. Make a monopoly, not more competition.
 	// 	<br><br>
-	// 	<b>VERSION 3: Storytelling redefines our vision.</b>
+	// 	<span class="emph">VERSION 3: Storytelling redefines our vision.</span>
 	// 	Up until this point, we struggled to articulate who would use this, and why the phone matters. Full-blown websites were too heavy-duty for mobile, and Snapchat had already been done.
 
-	// 	In our final iteration, we created a storytelling platform fueled by <b>LARP culture</b>.
-	// 	The UI was inspired by <b>Choose-Your-Own Adventure,</b> and Borges' <b>Garden of the Forking Paths.</b>
+	// 	In our final iteration, we created a storytelling platform fueled by <span class="emph">LARP culture</span>.
+	// 	The UI was inspired by <span class="emph">Choose-Your-Own Adventure,</span> and Borges' <span class="emph">Garden of the Forking Paths.</span>
 	// 	[7.jpg]
 	// 	The Bumble web is a four-directional architecture that respects the shape of your phone, and the singleness of a swipe. Users can see their website architecture from a birds-eye, dungeon-map view.
 
 	// 	<br>
 	// 	{<video src='work/bumble/demo.m4v' controls autoplay='on'></video>.}
 
-	// 	In our first version, Bumble serves a niche audience of <b>role-playing enthusiasts.</b> In the future, Bumble can grow to accommodate new content. Instructional threads could draw in new networks of crafty people demonstrating skills and recipes. Or, similar to Reddit, people from all over the world can respond to a single thread prompt, with infinite branches.
+	// 	In our first version, Bumble serves a niche audience of <span class="emph">role-playing enthusiasts.</span> In the future, Bumble can grow to accommodate new content. Instructional threads could draw in new networks of crafty people demonstrating skills and recipes. Or, similar to Reddit, people from all over the world can respond to a single thread prompt, with infinite branches.
 	// 	`
 	// },
 
@@ -949,21 +938,21 @@ People also gave me thoughts on how to improve:
 // 		[process4.jpg]
 // 		[process1.jpg]
 // 		<br><br>
-// 		<b>LOGO CONCEPT</b>
+// 		<span class="emph">LOGO CONCEPT</span>
 // 		The final mark references a slow, recession of light, space, and atmosphere, while winking at the “T” of Turrell. The palette is a saturated take on the gradation of daylight, and the colors of the Turrell’s native Arizona landscape.
 // 		[turrell-02.svg]
 // [stationary_crop.jpg]
 // 		[turrell12.jpg]
 // 		[poster.jpg]
 // 		<br>
-// 		<b>PRINT MATERIALS</b>
+// 		<span class="emph">PRINT MATERIALS</span>
 // 		The way a Turrell piece transforms when viewed during different times of the day inspired these materials. The museum, open from 10:00AM to 6:00PM daily, issues a different colored ticket to visitors each hour. Viewed as a long strip, these tickets appear as a continuous gradient.
 // 		[ticket.jpg]
 // The event brochures together reference changing time throughout the year.
 //         [books_all.jpg]
 //         [book2.jpg]
 // <br>
-// 				<b>THE MUSEUM SPACE</b>
+// 				<span class="emph">THE MUSEUM SPACE</span>
 // What stood out to me about the museum's location was how beautiful the surrounding wineries were. This outdoor installation would bring visitors together in a tranquil museum garden. The pool connects to an unseen irrigation system which waters the nearby vines. In this way, the piece feeds back into the terrain, the way a Turrell piece works together with nature.
 // 		[reflect_gif.gif]
 // 		`
@@ -978,7 +967,7 @@ People also gave me thoughts on how to improve:
 // [8_spicy.jpeg]
 // [mobile.jpeg]
 // <br>
-// <b>Inspiration & Research</b>
+// <span class="emph">Inspiration & Research</span>
 // We wanted our new products to feel efficient, trusting, and connecting. In my inspiration, I referenced soft lined drawings and maps of cities.
 // [3.jpeg]
 // Four other visual designers and I created each or own interpretation, and we tested them with IBM employees.
@@ -988,7 +977,7 @@ People also gave me thoughts on how to improve:
 
 // <br>
 
-// <b>The Visual Language</b>
+// <span class="emph">The Visual Language</span>
 // For our final system, the products are using the typeface IBM Plex. Visual accessibility was an important consideration as we chose our colors.
 // [6_alt.jpeg]
 // [7.jpeg]
