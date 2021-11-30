@@ -48,13 +48,15 @@ Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">blue a
   {  "folder":"eroevent",
     "name":"erotic event listeners",
     "tags":"",
-    "thumb":"thumb.jpg",
+    "thumb":"1.jpg",
     "content":`
     This workshop / zine is inspired by a tradition of computational & digital poetry, as well as by feminist writers who write about love, pleasure, and healing. This is a template and starting point for building a simple digital love poem focused on opacity/transparency, and click/touch interactions.
 
 Within the traditions of material and concrete poetics, we might gently resist what this web space might be for.
-[thumb.jpg]
-[3.png]
+[1.jpg]
+[3.jpg]
+[5.jpg]
+[4.jpg]
 
 Website → <a href="https://eroticeventlisteners.glitch.me" target="_blank">Erotic Event Listeners</a>
     [1.png]
