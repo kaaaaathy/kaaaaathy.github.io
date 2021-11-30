@@ -153,7 +153,7 @@ h3{
   background: transparent;
   padding-top: 20px; /*this is additive with the div content below, which you can't delete
   because it defines the <br> height */
-  border-bottom: 1px solid darkslategray;
+  border-bottom: 1px dotted darkslategray;
 
 }
 

@@ -1,13 +1,17 @@
 work=[
 
 {  "folder":"blueimg",
-  "name":"a virtual blue",
+  "name":"blue at a loss for words",
   "tags":"HTML, javaScript, projection, sound, poetry",
   "thumb":"blue1.gif",
-  "content":`If you call something, you can keep it in a box. If you classify it, perhaps you can harvest it. Commodification and supply chain and frameworks of extraction have their own grammars.
-This project explores concepts both abstract and concrete — a color wavelength — are socialized through language. How blue was the last discrete color category to be named in English.
-<iframe src="https://player.vimeo.com/video/651241191?h=b90e7371ba" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  "content":`
+If you call something, you can keep it in a box. If you classify it, perhaps you can harvest it. Commodification and supply chain and frameworks of extraction have their own grammars.
+This infinitely looping browser poem explores concepts both abstract and concrete — a color wavelength — are socialized through language. How blue was the last discrete color category to be named in English.
 
+Watch with sound on:<iframe src="https://player.vimeo.com/video/651241191?h=b90e7371ba" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+<br><br>
+Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">blue at a loss for words</a>
 
   Virtual loves to hide a supply chain. They can't make lithium fast enough.
   [blue1.gif]
@@ -24,8 +28,9 @@ This project explores concepts both abstract and concrete — a color wavelength
   The glaze whispering, infinity.
   [blue4.gif]
 
-  Projected performance:
-  <iframe src="https://player.vimeo.com/video/650972652?h=586c7f8ceb" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<br>
+  Poem projected onto a ceiling:<iframe src="https://player.vimeo.com/video/650972652?h=586c7f8ceb" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  The end.
   [end.png]
 
   `
@@ -43,15 +48,17 @@ This project explores concepts both abstract and concrete — a color wavelength
   {  "folder":"eroevent",
     "name":"erotic event listeners",
     "tags":"",
-    "thumb":"3.png",
-    "content":`This workshop / zine is inspired by a tradition of computational & digital poetry, as well as by feminist writers who write about love, pleasure, and healing. This is a template and starting point for building a simple digital love poem focused on opacity/transparency, and click/touch interactions.
+    "thumb":"thumb.jpg",
+    "content":`
+    This workshop / zine is inspired by a tradition of computational & digital poetry, as well as by feminist writers who write about love, pleasure, and healing. This is a template and starting point for building a simple digital love poem focused on opacity/transparency, and click/touch interactions.
 
 Within the traditions of material and concrete poetics, we might gently resist what this web space might be for.
+[thumb.jpg]
+[3.png]
 
+Website → <a href="https://eroticeventlisteners.glitch.me" target="_blank">Erotic Event Listeners</a>
     [1.png]
-    [2.png]
     [rose.gif]
-    [3.png]
 
     more soon~
 
@@ -60,13 +67,15 @@ Within the traditions of material and concrete poetics, we might gently resist w
     {  "folder":"comppo",
       "name":"computational poetics",
       "tags":"",
-      "thumb":"hero.png",
-      "content":`Student work by Amy Choi, Mariana Ramos Ortiz, Lara Karadogan, Daphne Hsu
+      "thumb":"hero.jpg",
+      "content":`
 Computational Poetics is a studio elective within RISD Graphic Design focused on new ways of reading and writing, both with and without computers. The course asks critical questions about text-oriented art and design in the context of code, procedures, authorship, and classification.
 The main 3 projects focus on Math.random() as a divination tool, collective authorship through annotation and hypertext, and the politics of classification.
-kaaathy.com/comppoetics
+
+Course Website → <a href="https://kaaathy.com/comppoetics" target="_blank">Computational Poetics</a>
 
       [hero.png]
+      Student work pictured by Amy Choi, Mariana Ramos Ortiz, Lara Karadogan, Daphne Hsu
       [2.png]
       [3.png]
       [4.png]
@@ -192,79 +201,34 @@ kaaathy.com/comppoetics
 
 
 
-{
-      "folder":"opposites",
-      "name":"Opposites Workshop",
-      "tags":"Informal teaching",
-      "thumb":"workshop1.jpg",
-      "content":`
-      What’s the opposite of darkness? Is it brightness? How about the opposite of a wall, or a cage?
-      Our collective imagination is constrained by our vocabulary, both linguistic and visual— can we use new art forms and new language to build the inverse of violence?
 
-      [prompt.jpg]
-
-      I designed and led this workshop series around creating speculative artwork based on "inverted" headlines. By playing with words and their opposites, we can begin rewrite current news headlines into alternative realities and speculative futures.
-
-      This workshop concept was inspired by <a href="http://theamericanjournalofpoetry.com/v2-constantine.html" target="_blank">this poem</a> by Brendan Constantine.
-
-      <br><br>
-      <span class="emph">PT 1: THE OPPOSITE OF A GUN</span>
-      I first piloted this workshop at Tisch School of Arts. I introduced the poem by Brendan Constantine, and took people through an exercise:
-      “What is the opposite of the phrase, My Life Had Stood a Loaded Gun?”
-       [workshop3.jpg]
-        I left this Henning Rogge photo on-screen— a bomb-scar from WWII, in the forest, now teeming with life. Is this the opposite of war?
-        I provided foraged materials. to “build an object that is the opposite of a gun.”
-       [workshop1.jpg]
-       Here is what people made: a vase for holding life; a grenade filled with woodland seeds instead of warfare; a listening device to help you hear the forest.
-      [workshop2.jpg]
-
-      <br><br>
-      <span class="emph">PT 2: REWRITING HEADLINES</span>
-      In the second iteration of this workshop, I placed a stronger emphasis on writing. I asked participants to look up news headlines which contained the following words:
-      [workshop4.jpg]
-
-      This version of the workshop was focused on multi-media interpretations. Here's one interpretation, using front-end browser tools as a vehicle for expression and pretend:
-      <span class="emph">“Crew Hang Giant American Flag Over George Washington Bridge”</span> becomes <span class="emph">“Individual Lifts Tiny Worldwide Cloud Under Donald Trump Wall”</span>
-      [opposites.gif]
-      ...which later became an interactive digital project:
-      [oppositesgamescratch.gif]
-      <br>
-      <span class="emph">MORE EXAMPLES </span>
-      “These Gun Enthusiasts at the Virginia Rally Carried More Firepower than US Troops” becomes “These seed supporters at the stateless sleepover dispersed more waterpower than many Pangaea flowers”
-      [opposites1.jpg]
-“Gun Makers Adjust Focus to Women Buyers” becomes “Watering Can Fixers Keep Distraction Away From Baby Philanthropists”
-      [opposites2.jpg]
-      “Ignore the Fake Climate Debate” becomes “Focus on the True Inner Consensus”
-      [opposites3.jpg]`
-    },
-
-{
-      "folder":"oakflat",
-      "name":"Oak Flat Campaign",
-      "tags":"Writing, Film, Digital Collage, Storytelling",
-      "thumb":"thumb.jpg",
-      "content":`
-      A piece of film-based transmedia storytelling created with Nancy Valladares and Alia Rizvi.
-      This work was created as part of a social media campaign to protest the construction of a copper mine in Oak Flat, Arizona—or what is the unceded indigenous land of the San Carlos Apache people. The prompt was to create original content and present it in a short film.
-      [oakflat2.gif]
-
-    These extractive processes threaten all life because they threaten water.
-
-    <br>
-    <span class="emph">  Text & Voice </span>
-      I was responsible for integrating text throughout the piece. Inspired by artists like Young Hae-Chang Heavy Industries, I wanted to create impactful typographic experiences that could be loud without the accompaniment of sound.
-      [oakflat3.gif]
-
-      <br>
-      <span class="emph">River, Personified</span></br>
-I wrote the script from the point of view of the Arizona Tonto Basin River— a body of water which would effectively be poisoned by the construction of the copper mine.
-      [oakflat.gif]
-
-      <br>
-      <span class="emph"> Stills </span>
-      [stills.jpg]
-    `
-  },
+// {
+//       "folder":"oakflat",
+//       "name":"Oak Flat Campaign",
+//       "tags":"Writing, Film, Digital Collage, Storytelling",
+//       "thumb":"thumb.jpg",
+//       "content":`
+//       A piece of film-based transmedia storytelling created with Nancy Valladares and Alia Rizvi.
+//       This work was created as part of a social media campaign to protest the construction of a copper mine in Oak Flat, Arizona—or what is the unceded indigenous land of the San Carlos Apache people. The prompt was to create original content and present it in a short film.
+//       [oakflat2.gif]
+//
+//     These extractive processes threaten all life because they threaten water.
+//
+//     <br>
+//     <span class="emph">  Text & Voice </span>
+//       I was responsible for integrating text throughout the piece. Inspired by artists like Young Hae-Chang Heavy Industries, I wanted to create impactful typographic experiences that could be loud without the accompaniment of sound.
+//       [oakflat3.gif]
+//
+//       <br>
+//       <span class="emph">River, Personified</span></br>
+// I wrote the script from the point of view of the Arizona Tonto Basin River— a body of water which would effectively be poisoned by the construction of the copper mine.
+//       [oakflat.gif]
+//
+//       <br>
+//       <span class="emph"> Stills </span>
+//       [stills.jpg]
+//     `
+//   },
 
 
 {
@@ -404,49 +368,7 @@ People also gave me thoughts on how to improve:
     <a href='https://pondermake.tumblr.com/post/169135208964/cam-doodler' target="_blank">Read the blog post.</a>`
 
 },
-// {
-//     "folder":"manymigrations",
-//     "name":"Many Migrations",
-//     "tags":"Textiles, poetry",
-//     "thumb":"thumb.jpg",
-//     "content":`
-//     A cross-seas collaboration with my friend Ying Cai.
-//
-//     The embroidery (by me) tells two migration stories divided across economic class and held by culture. A garment worker in NYC Chinatown on the left; my mother designing semiconductors on the right. Both of them, immigrant bodies within a context of mass production.
-//
-//     In the center, a child who is born in America.
-//
-//     [me1.jpg]
-//
-//     The hand-dyed garment is made by Ying. She's so beautifully synthesized the Chinese Du-dou silhouette with the Western apron. The shape holds stories of domesticity, Confucian patriarchy, female labor.
-//     In her words, yellow is a strong but gentle color.
-//
-//     [sideview3.jpg]
-//     [backview.jpg]
-//
-//     <br>
-//     <span class="emph"> GARMENT DETAIL </span>
-//     [layflat.jpg]
-//     [closeup1.jpg]
-//     [closeup2.jpg]
-//
-//     <br>
-//     <span class="emph"> PROCESS </span>
-//     [process1.jpg]
-//     [process3.jpg]
-//
-//     <br>
-//     <span class="emph"> INSPIRATION </span>
-//     The embroidery for this textile work was inspired by a poem I wrote: <span class="emph">Chinatown (Many Migrations)</span>.
-//
-//     Published in <a href="https://issuu.com/mitaai/docs/zinefinal_4_no_bleed_for_online_export-compressed" target="_blank">MIT Asian American Initiative Zine: Rooted</a>.
-//     Also featured in <a href="https://www.unboundvisualarts.org/new-narratives-reclaiming-asian-identity-through-story-storyteller-series/" target ="_blank">VISIONS Unbounded Art Storytellers Exhibit & Panel Roundtable</a>.
-//     [chinatown 1.jpg]
-//     Whose working immigrant bodies do we value through our language?
-//     Sometimes I find myself a tourist within my extended family's own cultural or class experience. In the broader Chinese diaspora, I feel sensitive to moments when way race unifies across class, and create moments of the familiar.
-//
-//     `
-// },
+
 {  "folder":"jelly",
   "name":"Pulmō Plastics",
   "tags":"Speculative objects, biodesign",
@@ -591,7 +513,94 @@ People also gave me thoughts on how to improve:
   //     [pipapunk.jpg]
   // 		`
   // },
+  {
+      "folder":"manymigrations",
+      "name":"Many Migrations",
+      "tags":"Textiles, poetry",
+      "thumb":"thumb.jpg",
+      "content":`
+      A cross-seas collaboration with my friend Ying Cai.
 
+      The embroidery (by me) tells two migration stories divided across economic class and held by culture. A garment worker in NYC Chinatown on the left; my mother designing semiconductors on the right. Both of them, immigrant people within a context of mass production.
+
+      In the center, a child who is born in America.
+
+      [me1.jpg]
+
+      The hand-dyed garment is made by Ying. She's so beautifully synthesized the Chinese Du-dou silhouette with the Western apron. The shape holds stories of domesticity, Confucian patriarchy, female labor.
+      In her words, yellow is a strong but gentle color.
+
+      [sideview3.jpg]
+      [backview.jpg]
+
+      <br>
+      <span class="emph"> GARMENT DETAIL </span>
+      [layflat.jpg]
+      [closeup1.jpg]
+      [closeup2.jpg]
+
+      <br>
+      <span class="emph"> PROCESS </span>
+      [process1.jpg]
+      [process3.jpg]
+
+      <br>
+      <span class="emph"> INSPIRATION </span>
+      The embroidery for this textile work was inspired by a poem I wrote: <span class="emph">Chinatown (Many Migrations)</span>.
+
+      Published in <a href="https://issuu.com/mitaai/docs/zinefinal_4_no_bleed_for_online_export-compressed" target="_blank">MIT Asian American Initiative Zine: Rooted</a>.
+      Also featured in <a href="https://www.unboundvisualarts.org/new-narratives-reclaiming-asian-identity-through-story-storyteller-series/" target ="_blank">VISIONS Unbounded Art Storytellers Exhibit & Panel Roundtable</a>.
+      [chinatown 1.jpg]
+      Whose working immigrant bodies do we value through our language?
+      Sometimes I find myself a tourist within my extended family's own cultural or class experience. In the broader Chinese diaspora, I feel sensitive to moments when way race unifies across class, and create moments of the familiar.
+
+      `
+  },
+  {
+        "folder":"opposites",
+        "name":"Opposites Workshop",
+        "tags":"Informal teaching",
+        "thumb":"workshop1.jpg",
+        "content":`
+        What’s the opposite of darkness? Is it brightness? How about the opposite of a wall, or a cage?
+        Our collective imagination is constrained by our vocabulary, both linguistic and visual— can we use new art forms and new language to build the inverse of violence?
+
+        [prompt.jpg]
+
+        I designed and led this workshop series around creating speculative artwork based on "inverted" headlines. By playing with words and their opposites, we can begin rewrite current news headlines into alternative realities and speculative futures.
+
+        This workshop concept was inspired by <a href="http://theamericanjournalofpoetry.com/v2-constantine.html" target="_blank">this poem</a> by Brendan Constantine.
+
+        <br><br>
+        <span class="emph">PT 1: THE OPPOSITE OF A GUN</span>
+        I first piloted this workshop at Tisch School of Arts. I introduced the poem by Brendan Constantine, and took people through an exercise:
+        “What is the opposite of the phrase, My Life Had Stood a Loaded Gun?”
+         [workshop3.jpg]
+          I left this Henning Rogge photo on-screen— a bomb-scar from WWII, in the forest, now teeming with life. Is this the opposite of war?
+          I provided foraged materials. to “build an object that is the opposite of a gun.”
+         [workshop1.jpg]
+         Here is what people made: a vase for holding life; a grenade filled with woodland seeds instead of warfare; a listening device to help you hear the forest.
+        [workshop2.jpg]
+
+        <br><br>
+        <span class="emph">PT 2: REWRITING HEADLINES</span>
+        In the second iteration of this workshop, I placed a stronger emphasis on writing. I asked participants to look up news headlines which contained the following words:
+        [workshop4.jpg]
+
+        This version of the workshop was focused on multi-media interpretations. Here's one interpretation, using front-end browser tools as a vehicle for expression and pretend:
+        <span class="emph">“Crew Hang Giant American Flag Over George Washington Bridge”</span> becomes <span class="emph">“Individual Lifts Tiny Worldwide Cloud Under Donald Trump Wall”</span>
+        [opposites.gif]
+        ...which later became an interactive digital project:
+        [oppositesgamescratch.gif]
+        <br>
+        <span class="emph">MORE EXAMPLES </span>
+        “These Gun Enthusiasts at the Virginia Rally Carried More Firepower than US Troops” becomes “These seed supporters at the stateless sleepover dispersed more waterpower than many Pangaea flowers”
+        [opposites1.jpg]
+  “Gun Makers Adjust Focus to Women Buyers” becomes “Watering Can Fixers Keep Distraction Away From Baby Philanthropists”
+        [opposites2.jpg]
+        “Ignore the Fake Climate Debate” becomes “Focus on the True Inner Consensus”
+        [opposites3.jpg]`
+      },
 
 
   {

@@ -11,7 +11,7 @@
   font-family: ;
   src: url('../fonts/compagnon/Compagnon-Roman.woff') format('woff'),
        url('../fonts/compagnon/Compagnon-Italic.woff') format('woff'),
-       url('../fonts/compagnon/Compagnon-LightItalic.otf') format('otf');
+       url('../fonts/compagnon/Compagnon-Bold.otf') format('woff'),
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
@@ -178,7 +178,7 @@ h3{
   background: transparent;
   padding-top: 20px; /*this is additive with the div content below, which you can't delete
   because it defines the <br> height */
-  border-bottom: 1px solid darkslategray;
+  border-bottom: 1px dotted darkslategray;
 
 }
 
