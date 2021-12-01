@@ -286,14 +286,10 @@ Course Website → <a href="https://kaaathy.com/comppoetics" target="_blank">Com
   <span class="emph">5. VIRTUAL WORLD</span>
   Eventually I collected enough to fill up a room with artifacts. I found textual objects and materials of different weights and densities and quantified them in bytes.
   The piece also featured sculptural metaphors like downloading across glass jars, as well as plastic physical hard-drives.
-  [1.jpg]
+  [1.png]
   <br>
   [4.jpg]
-  <br>
   [3alt.jpg]
-  <br>
-
-
   `
   },
 
