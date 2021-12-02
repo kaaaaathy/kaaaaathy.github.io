@@ -13,7 +13,7 @@ html{
 
 body {
 	position: relative;
-	font-size: 15pt;
+	font-size: 16pt;
 
 	font-family: 'Arial Narrow', sans-serif;
 	letter-spacing: 0.25px;
@@ -113,7 +113,7 @@ a:hover {
 /*HEADER STYLES*/
 
 h2 {
-	font-size: 20pt;
+	font-size: 18pt;
 	font-family:'Arial Narrow';
 	font-weight: normal;
   line-height: 1.5;
@@ -126,7 +126,7 @@ h2 a {
 
 }
 h3{
-  font-size: 20pt;
+  font-size: 22pt;
   font-family: 'Arial Narrow', sans-serif;
   font-weight: normal;
 

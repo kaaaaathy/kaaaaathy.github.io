@@ -78,10 +78,10 @@ Course Website → <a href="https://kaaathy.com/comppoetics" target="_blank">Com
 
       [hero.png]
       Student work pictured by Amy Choi, Mariana Ramos Ortiz, Lara Karadogan, Daphne Hsu
-      [2.png]
-      [3.png]
-      [4.png]
-      [5.png]
+      [2.jpg]
+      [3.jpg]
+      [4.jpg]
+      [5.jpg]
 
       more soon~
 
@@ -109,11 +109,10 @@ Course Website → <a href="https://kaaathy.com/comppoetics" target="_blank">Com
     "thumb":"thumb.jpg",
     "content":`An <a href="semiconduction/index.html" target="_blank">interactive web poem</a> I wrote and coded about Chinese workers in a context of mass production.
     Works on mobile. For a more spatial viewing experience, try on a desktop computer.
-     [semi1.gif]
      [semi3.gif]
 
      Still image:
-     [semiconduction.png]
+     [semi1.jpg]
 
     Here's the experience on a mobile device:
     [semi5.gif]
