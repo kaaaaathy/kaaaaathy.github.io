@@ -58,12 +58,15 @@ Within the traditions of material and concrete poetics, we might gently resist w
 [5.jpg]
 [4.jpg]
 
+<br>
 Website → <a href="https://eroticeventlisteners.glitch.me" target="_blank">Erotic Event Listeners</a>
     [1.png]
+    [site.gif]
+
+    <br>
+    Simple template for a digital erotic poem:
+    [code.jpg]
     [rose.gif]
-
-    more soon~
-
     `
     },
     {  "folder":"comppo",
