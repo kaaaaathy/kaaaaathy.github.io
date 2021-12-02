@@ -1,4 +1,10 @@
-
+@font-face {
+  font-family: 'Arial Narrow';
+  src: url('../fonts/Arial-Narrow.ttf') format('ttf');
+  font-weight:  500;
+  font-style:   normal;
+  font-stretch: normal;
+}
 /*--------------------------------------------------------------*/
 /*THE FUN STARTS HERE*/
 
@@ -217,7 +223,7 @@ h3{
 	color: darkslategray;
 	text-align: center;
 	text-transform: lowercase;
-	font-family: 'Arial Narrow','courier prime', monospace;
+	font-family: 'Arial Narrow','Arial', sans-serif;
 
  }
 
