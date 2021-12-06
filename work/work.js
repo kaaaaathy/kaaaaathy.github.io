@@ -296,71 +296,61 @@ Course Website → <a href="https://kaaathy.com/comppoetics" target="_blank">Com
   },
 
 
-{  "folder":"jelly",
-  "name":"Pulmō Plastics",
-  "tags":"Speculative objects, biodesign",
-  "thumb":"overview.jpg",
-  "content":`
-
-  Collaboration with biologist Marian Shaw as part of NYU ITP's Biodesign studio.<br>I contributed to the research, concept, storytelling, and writing.
-  Selected as a finalist for the <a href="https://biodesignchallenge.org/" target="_blank">Biodesign Challenge</a>, and presented at MoMA in 2018.
-
-  [overview_crop.jpg]
-
-  As part of the man-made climate crisis, oceans are warmer and more acidic. Jellyfish, known as pulmōnēs in Latin, are <a href="https://www.youtube.com/watch?time_continue=21&v=uh4eImPI-OY&feature=emb_logo&ab_channel=HarvardUniversity" target="_blank">overpopulating</a> parts of global oceans.
-  Proliferating in blooms, they <a href="www.thejakartapost.com/news/2020/05/01/workers-fishermen-scramble-to-fend-off-jellyfish-bloom-in-waters-off-east-java-power-plant.html" target="_blank">pose a threat</a> to human infrastructures, but more importantly, to biodiversity in the marine ecosystem.
-
-  [jelly-context.jpg]<span style="font-size:11px">Image copyright: Monty Graham, Dauphin Island Sea Lab // Getty Images</span>
-
-  When plastic enters the oceans, marine wildlife often confuse it for their jellyfish prey and subsequently die from plastic consumption.
-    [jelly21.jpg]<span style="font-size:11px">Image credit: Troy Mayne, World Wildlife Foundation.</span>
-
-    What if we could close the loop between our jellyfish ‘problem’ and another marine threat— <span class="emph">petroleum-based plastic waste</span>?
-
-  [jelly3.jpeg]
-  Jellyfish protein is almost exclusively <span class="emph">the structural protein collagen.</span> Given this 500-million year old creature consists of collagen of an earlier template in the evolutionary cycle, it has the potential to be a more universal biomaterial for various applications.
-  We propose the use of <span class="emph">jellyfish gelatin</span> (which can be obtained by heating jellyfish collagen), <span class="emph">vegetable glycerin,</span> and <span class="emph">chitosan</span> to create food-safe, <a href="https://fabtextiles.org/the-secrets-of-bioplastic/" target="_blank">biodegradable plastics</a> which enter safely back into the ecosystem
-
-  [jelly9.jpeg]
-
-  <br>
-  <br>
-  <span class="emph">OUR PROCESS</span>
-  We tested different ratios of glycerin to gelatin and plastic shape and size, creating samples with varying material properties that could lend themselves to different objects.
-
-  [jelly5.jpeg]
-
-  Crunchy like a disposable beverage bottle...
-  [jelly6.jpeg]
-  ...or supple yet strong like a ‘plastic’ bag.
-  [jelly7.jpeg]
-
-  In our final samples, we dyed plastics with beet juice and incorporated pigments produced by bacteria engineered to express colorful proteins derived from marine animals.
-  [jelly18.jpeg]
-
-
-
-  <br>
-  <br>
-  <span class="emph">FINAL THOUGHTS</span>
-  Despite the current abundance of jellyfish, do we have the right to steal them — even dead ones — from nature for our material desires?
-  [pulmo_samples.jpg]
-  We recognize that creating new biomaterials is not a substitute for urgent <a href="https://en.wikipedia.org/wiki/Green_New_Deal" target="_blank">policy</a> towards real environmental justice. Nor do we want to encourage future cycles of exploitation of abundance in order to deplete it.
-  Our hope with this work is to illustrate effects of unsustainable supply chains on the ocean today — and to ask the audience to imagine how materials we use in the future can be more interoperable with our biological planet.
-
-
-  `
-},
-     {  "folder":"digpo-imgs",
-    "name":"month of may",
-    "tags":"Interactive, HTML",
-    "thumb":"maythumb.jpg",
-    "content":`Printed text marries an immutable form, but graphemes on screen can shapeshift through a dynamic, stretchy existence.
-    Month of May is an interactive love poem generator. <a href='digpo/may.html' target='_blank'>Make your own.</a>
-    [may.jpg]
-    [may-3.gif]
-    `
-  },
+// {  "folder":"jelly",
+//   "name":"Pulmō Plastics",
+//   "tags":"Speculative objects, biodesign",
+//   "thumb":"overview.jpg",
+//   "content":`
+//
+//   Collaboration with biologist Marian Shaw as part of NYU ITP's Biodesign studio.<br>I contributed to the research, concept, storytelling, and writing.
+//   Selected as a finalist for the <a href="https://biodesignchallenge.org/" target="_blank">Biodesign Challenge</a>, and presented at MoMA in 2018.
+//
+//   [overview_crop.jpg]
+//
+//   As part of the man-made climate crisis, oceans are warmer and more acidic. Jellyfish, known as pulmōnēs in Latin, are <a href="https://www.youtube.com/watch?time_continue=21&v=uh4eImPI-OY&feature=emb_logo&ab_channel=HarvardUniversity" target="_blank">overpopulating</a> parts of global oceans.
+//   Proliferating in blooms, they <a href="www.thejakartapost.com/news/2020/05/01/workers-fishermen-scramble-to-fend-off-jellyfish-bloom-in-waters-off-east-java-power-plant.html" target="_blank">pose a threat</a> to human infrastructures, but more importantly, to biodiversity in the marine ecosystem.
+//
+//   [jelly-context.jpg]<span style="font-size:11px">Image copyright: Monty Graham, Dauphin Island Sea Lab // Getty Images</span>
+//
+//   When plastic enters the oceans, marine wildlife often confuse it for their jellyfish prey and subsequently die from plastic consumption.
+//     [jelly21.jpg]<span style="font-size:11px">Image credit: Troy Mayne, World Wildlife Foundation.</span>
+//
+//     What if we could close the loop between our jellyfish ‘problem’ and another marine threat— <span class="emph">petroleum-based plastic waste</span>?
+//
+//   [jelly3.jpeg]
+//   Jellyfish protein is almost exclusively <span class="emph">the structural protein collagen.</span> Given this 500-million year old creature consists of collagen of an earlier template in the evolutionary cycle, it has the potential to be a more universal biomaterial for various applications.
+//   We propose the use of <span class="emph">jellyfish gelatin</span> (which can be obtained by heating jellyfish collagen), <span class="emph">vegetable glycerin,</span> and <span class="emph">chitosan</span> to create food-safe, <a href="https://fabtextiles.org/the-secrets-of-bioplastic/" target="_blank">biodegradable plastics</a> which enter safely back into the ecosystem
+//
+//   [jelly9.jpeg]
+//
+//   <br>
+//   <br>
+//   <span class="emph">OUR PROCESS</span>
+//   We tested different ratios of glycerin to gelatin and plastic shape and size, creating samples with varying material properties that could lend themselves to different objects.
+//
+//   [jelly5.jpeg]
+//
+//   Crunchy like a disposable beverage bottle...
+//   [jelly6.jpeg]
+//   ...or supple yet strong like a ‘plastic’ bag.
+//   [jelly7.jpeg]
+//
+//   In our final samples, we dyed plastics with beet juice and incorporated pigments produced by bacteria engineered to express colorful proteins derived from marine animals.
+//   [jelly18.jpeg]
+//
+//
+//
+//   <br>
+//   <br>
+//   <span class="emph">FINAL THOUGHTS</span>
+//   Despite the current abundance of jellyfish, do we have the right to steal them — even dead ones — from nature for our material desires?
+//   [pulmo_samples.jpg]
+//   We recognize that creating new biomaterials is not a substitute for urgent <a href="https://en.wikipedia.org/wiki/Green_New_Deal" target="_blank">policy</a> towards real environmental justice. Nor do we want to encourage future cycles of exploitation of abundance in order to deplete it.
+//   Our hope with this work is to illustrate effects of unsustainable supply chains on the ocean today — and to ask the audience to imagine how materials we use in the future can be more interoperable with our biological planet.
+//
+//
+//   `
+// },
 
 {
   "folder":"searchdivides",
@@ -409,6 +399,18 @@ Course Website → <a href="https://kaaathy.com/comppoetics" target="_blank">Com
 
   `
 },
+     {  "folder":"digpo-imgs",
+    "name":"month of may",
+    "tags":"Interactive, HTML",
+    "thumb":"maythumb.jpg",
+    "content":`Printed text marries an immutable form, but graphemes on screen can shapeshift through a dynamic, stretchy existence.
+    Month of May is an interactive love poem generator. <a href='digpo/may.html' target='_blank'>Make your own.</a>
+    [may.jpg]
+    [may-3.gif]
+    `
+  },
+
+
 
   {
       "folder":"manymigrations",
@@ -575,67 +577,67 @@ Course Website → <a href="https://kaaathy.com/comppoetics" target="_blank">Com
 
 // },
 
-{  "folder":"scratch-sprites",
-  "name":"Scratch: People Sprites",
-  "tags":"Illustration",
-  "thumb":"sprite1-alt.png",
-  "content":`
-
-    <span class="emph">WHAT'S SCRATCH? </span>
-  <a href="scratch.mit.edu" target="_blank">Scratch</a> is an open-source programming language, creative tool, and online community used by millions of young people and educators around the world today.
-   For many children, Scratch is their first experience in computational media and virtual community.
-
- <br>
-   <span class="emph">WHY THIS WORK?</span>
-  Kids use the paint editor in Scratch to create stories, animations, games, and more. For many of them, Scratch is their first and only image editing software.
-  Through the Scratch online community, young people share creations about themselves and their communities.
-  [community2.gif]
-  I wanted to lead this project because feel strongly about media representation generally; as a designer of creative tools, I'm especially passionate about our responsibilities to youth and their personal, expressive experiences.
-
-<br>
-  <span class="emph">OUR EXISTING ARTWORK</span>
-  Our team responded to how the existing characters in our asset library were sometimes difficult to reshape, or recolor. Here's an example project by a young person in the community, who has created their own work-arounds:
-  [abby.gif]
-
-  We identified two main challenges:
-  <span class="emph">1. RECOLORING.</span>
-   Many of our existing assets, especially the bitmap characters, were difficult to recolor. For example, the hair contains multiple tones on this sprite.
-  [hannah.gif]
-  <span class="emph">2. RESHAPING.</span>
-   Even for our vector assets, reposing characters were challenging because they were not designed with editability. For example, the outline and fill are constructed separately on this ballerina.
-  [difficulty2.gif]
-   This artwork was launched as part of a 3-month project I led and managed, with a focus on helping kids represent themselves in artwork.
-  It was important to us that beginners — new to Scratch, new to image editing, or both — could quickly see themselves in the tool and community.
-
-<br>
-  <span class="emph">NEW ARTWORK </span>
-  As part of this project, we launched four new character sets for the Scratch Asset Library. You can see them all at <a href="https://scratch.mit.edu/projects/editor" target ="_blank">scratch.mit.edu</a> in the sprite library.
-  Our team wanted to provide enough specificity through different options, as well as use simple shapes that could be easily altered and generalized.
-
-    [sprite2.png]
-
-  I drew this set of new vector characters. Now that they are in the Scratch Library, anyone can use them for their creative projects.
-
-  [sprite1-alt.png]
-
-  These character sets were built and grouped so they can be easily recolored or puppeted. Limb shapes are separated to move at the joint.
-  [sprite5.png]
-  [sprite3.gif]
-
-  Complex shapes like hair are left as groups of simple shapes — a strategy inspired by artists in the Scratch community.
-
-  Not only is it easier to modify, but also this offers an affordance on how vector illustrations are made.
-
-  [sprite4.png]
-  [sprite4.gif]
-
-  Here's some examples of the new sprites in use in the community:
-  [example_both.jpg]
-
-
-  `
-
-},
+// {  "folder":"scratch-sprites",
+//   "name":"Scratch: People Sprites",
+//   "tags":"Illustration",
+//   "thumb":"sprite1-alt.png",
+//   "content":`
+//
+//     <span class="emph">WHAT'S SCRATCH? </span>
+//   <a href="scratch.mit.edu" target="_blank">Scratch</a> is an open-source programming language, creative tool, and online community used by millions of young people and educators around the world today.
+//    For many children, Scratch is their first experience in computational media and virtual community.
+//
+//  <br>
+//    <span class="emph">WHY THIS WORK?</span>
+//   Kids use the paint editor in Scratch to create stories, animations, games, and more. For many of them, Scratch is their first and only image editing software.
+//   Through the Scratch online community, young people share creations about themselves and their communities.
+//   [community2.gif]
+//   I wanted to lead this project because feel strongly about media representation generally; as a designer of creative tools, I'm especially passionate about our responsibilities to youth and their personal, expressive experiences.
+//
+// <br>
+//   <span class="emph">OUR EXISTING ARTWORK</span>
+//   Our team responded to how the existing characters in our asset library were sometimes difficult to reshape, or recolor. Here's an example project by a young person in the community, who has created their own work-arounds:
+//   [abby.gif]
+//
+//   We identified two main challenges:
+//   <span class="emph">1. RECOLORING.</span>
+//    Many of our existing assets, especially the bitmap characters, were difficult to recolor. For example, the hair contains multiple tones on this sprite.
+//   [hannah.gif]
+//   <span class="emph">2. RESHAPING.</span>
+//    Even for our vector assets, reposing characters were challenging because they were not designed with editability. For example, the outline and fill are constructed separately on this ballerina.
+//   [difficulty2.gif]
+//    This artwork was launched as part of a 3-month project I led and managed, with a focus on helping kids represent themselves in artwork.
+//   It was important to us that beginners — new to Scratch, new to image editing, or both — could quickly see themselves in the tool and community.
+//
+// <br>
+//   <span class="emph">NEW ARTWORK </span>
+//   As part of this project, we launched four new character sets for the Scratch Asset Library. You can see them all at <a href="https://scratch.mit.edu/projects/editor" target ="_blank">scratch.mit.edu</a> in the sprite library.
+//   Our team wanted to provide enough specificity through different options, as well as use simple shapes that could be easily altered and generalized.
+//
+//     [sprite2.png]
+//
+//   I drew this set of new vector characters. Now that they are in the Scratch Library, anyone can use them for their creative projects.
+//
+//   [sprite1-alt.png]
+//
+//   These character sets were built and grouped so they can be easily recolored or puppeted. Limb shapes are separated to move at the joint.
+//   [sprite5.png]
+//   [sprite3.gif]
+//
+//   Complex shapes like hair are left as groups of simple shapes — a strategy inspired by artists in the Scratch community.
+//
+//   Not only is it easier to modify, but also this offers an affordance on how vector illustrations are made.
+//
+//   [sprite4.png]
+//   [sprite4.gif]
+//
+//   Here's some examples of the new sprites in use in the community:
+//   [example_both.jpg]
+//
+//
+//   `
+//
+// },
 
 
 
