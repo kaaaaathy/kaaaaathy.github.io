@@ -149,50 +149,6 @@ Course Website → <a href="https://kaaathy.com/comppoetics" target="_blank">Com
     `
   },
 
-
-
-{
-    "folder":"teaching",
-    "name":"Breath as a Line",
-    "tags":"Informal teaching",
-    "thumb":"action5.jpg",
-    "content":`
-
-    Inspired by Buddhist monk <a href="https://en.wikipedia.org/wiki/Th%C3%ADch_Nh%E1%BA%A5t_H%E1%BA%A1nh" target="_blank">Thích Nhất Hạnh</a>, I was curious about ways in which mindful activities with the body – like walking – can be a kind of art in of itself.
-
-    And vice versa: "art-making activities" can become meditations. Your art-making might center body and time in mechanical, transient ways. Think Richard Long's walks, or Goldsworthy-style <a href="https://www.instagram.com/p/B5BixoGlVbwBOuRbQPQz76Gmg1e4b9uOwN5NW40/" target="_blank">leaves</a>.
-
-    To me, moving through space in this way has always been an ancient, unnamed, beautiful art (especially outside the canon of white contemporary artists.)
-
-    <br>
-    <span class="emph">ART AS CONTEMPLATIVE CARE / CONTEMPLATIVE CARE AS ART </span>
-
-    In this 2-hour workshop, I offer space where people could consider the body while drawing. This way, drawing is more like breathing than it is image-making.
-
-    [1.jpg]
-    [drawing2.jpg]
-
-    <br>
-    <span class="emph"> VARIATIONS ON A LINE: </span> Drawing with different hands, closing your eyes, breathing through a line.
-    [action3.jpg]
-    [drawing3.jpg]
-
-    [action4.jpg]
-    [drawing4.jpg]
-
-    [line_hard_break_2.jpg]
-
-    <br>
-    <span class="emph">BUILDING A GUEST HOUSE: </span> Creating a sculpture to hold feeling.
-    [action5.jpg]
-    [drawing5.jpg]
-    [end5.jpg]
-
-    [drawing6.jpg]
-    [end0.jpg]
-    `
-  },
-
   {  "folder":"looting",
  "name":"Looting Dream",
  "tags":"Interactive, HTML",
@@ -204,6 +160,50 @@ Course Website → <a href="https://kaaathy.com/comppoetics" target="_blank">Com
 
  `
 },
+
+
+  //    {  "folder":"copy-paste-img",
+  //   "name":"Copy & Paste & Paste & Paste",
+  //   "tags":"Interactive, HTML",
+  //   "thumb":"thumb.jpg",
+  //   "content":`An <a href="copyandpaste/index.html" target="_blank">interactive web poem</a> I wrote and coded about Chinese bodies in a context of mass production.
+  //   Works on mobile. For a more spatial viewing experience, try on a desktop computer.
+  //   [layering.gif]
+  //   [1.jpg]
+  //   [2.jpg]
+  //   [4.jpg]
+  //   [7.jpg]
+  //   [12.jpg]
+  //   Here's the experience on a mobile device:
+  //   [phonegif.gif]
+  //   Images from DuckDuckGo. Font is <a href="https://fonts.google.com/specimen/Piazzolla?category=Serif" target="_blank">Piazolla</a> by Google Fonts.
+  //
+  //   `
+  // },
+
+
+
+  //
+  //      {  "folder":"earth",
+  //   "name":"Earth is Now Called Puddle",
+  //   "tags":"Interactive, HTML",
+  //   "thumb":"thumb.jpg",
+  //   "content":`Earth is now called PUDDLE, and is overrun with breads. We have entirely too much low-density polyethylene, it covers all water and land you can see.
+  //   This web poem contains seemingly infinite fictions about a planet with an obsession for abundance gone awry.
+  //   Find <a href="https://kaaathy.com/earth/index.html" target="_blank">a different future</a> here.
+  //   [earth.jpg]
+  //   Earth is now called WHITE OUT, and is overrun with deodorants.
+  //   Earth is now called PLUSH FROG, and is overrun with stockings.
+  //   (And so on.)
+  //   [earth-mouse.gif]
+  //   Built with <a href="https://github.com/dariusk/corpora/tree/master/data" target="_blank">Corpora data</a>, HTML + javaScript, and a mellow sense of dystopianism. Thank you to the contributors of objects.json, occupations.json, packagingmaterials.json, adjs.json. Set in <a href="https://www.velvetyne.fr/fonts/compagnon/" target="_blank">Compagnon</a> from Velvetyne Foundry.
+  //   [objects.png]
+  //
+  //   `
+  // },
+
+
+
 
 
 // {
@@ -295,6 +295,79 @@ Course Website → <a href="https://kaaathy.com/comppoetics" target="_blank">Com
   `
   },
 
+//   {
+//     "folder":"lankpranks",
+//     "name":"Rain in Drain in Ukraine",
+//     "tags":"Poetry, python",
+//     "thumb":"thumb.jpg",
+//     "content":`
+//     I wrote a poem about word sounds using <a href="http://www.speech.cs.cmu.edu/cgi-bin/cmudict" target = "_blank">CMU's pronouncing dictionary</a>.
+//     There’s such a material quality to spoken word—which are just meaty vibrations, with different ways of stopping air.
+//     My 1-month bare bones knowledge of linguistics tells me that air stopped with my lips, versus with teeth, versus tongue, are the most low-level differentiators between sounds that are innately “aggressive,” or innately “soft.”
+//
+//     [babycastles1.jpg]
+//     For me, the exciting computational aspect was glomming together intense similarities in record time— creating this hyper-active form of English that almost evolved into something more abstractly shaped, like music.
+//     [0-realpython.jpg]
+//     “Rain in spain,” was the only string that has some intentional cultural reference. Originally from “My Fair Lady,” it acts as a kind of shibboleth for lower-class dialects; there’s a whole song about her conforming her vowel dipthongs.
+//
+//     [5-rain.jpg]
+//     [rain.gif]
+// <audio src="work/lankpranks/rain.mp3" controls />
+//     Before a performance, each of six rhyming poems got regenerated with unique words:
+//     [3-itsits.jpg]
+//     [itsits.gif]
+// <audio src="work/lankpranks/itsits.mp3" controls />
+//     [1-zapgap.jpg]
+//     [zapgap.gif]
+// <audio src="work/lankpranks/zapgap.mp3" controls />
+//     [bloom.jpeg]
+//     [bloom.gif]
+// <audio src="work/lankpranks/bloom.mp3" controls />
+//     <br>
+//     Here's the end of my performance at <a href="https://www.babycastles.com/" target ="_blank">Babycastles</a>, NYC.
+//
+//     [babycastles3.jpg]
+//     [babycastles2.jpg]
+//
+//     Thank you to Allison Parrish for code help, as well as to Ayal’s project which uses pronouncing + spacy. I referenced code for my “rhyme()” function from there.
+//     <br>
+//     `
+// },
+
+
+
+// {
+// "folder":"camdoodler",
+// "name":"Camera Doodler",
+// "tags":"Web, drawing, p5.js",
+// "thumb":"thumb.jpg",
+// "content":`
+// Doodle your world via webcam! Fool your foes! Impress your friends! 👀
+//
+//     Camera Doodler is a browser-based drawing tool built in p5.js. <a href='https://preview.p5js.org/kathymakes/present/pvr3nRv2c' target="_blank">Demo it here.</a>  (Note that you'll have to turn your webcam on.)
+//
+// [screen1_crop.jpg]
+//     I love the idea of canvases that are real-world compatible. To me, this means that anyone can use them without any extra materials or parts– that they interface easily with our found environment.
+//
+// Here's the brush in action:
+//     {<video src='work/camdoodler/demo.mov' controls autoplay='on' width='100%' height='auto'></video>}
+//     <br>
+//     <span class="emph">DRAWINGS</span>
+// After building it, I sent the tool out to friends and acquaintances for user testing. People made some amazing things!
+//     [cam-doodler.gif]
+//     I got a lot of great feedback, including, "This is so much fun," and "I could spend hours doing this." I intended it for desktop use but a few people even made designs on mobile, which was a nice surprise.
+// People also gave me thoughts on how to improve:
+// [feedback.jpg]
+// <br>
+//     Here are some of my favorite drawings:
+//     [8.jpg]
+//     [11.jpg]
+//     [16.jpg]
+//     [4.jpg]
+// <br><br>
+//     <a href='https://pondermake.tumblr.com/post/169135208964/cam-doodler' target="_blank">Read the blog post.</a>`
+//
+// },
 
 {  "folder":"jelly",
   "name":"Pulmō Plastics",
@@ -352,13 +425,30 @@ Course Website → <a href="https://kaaathy.com/comppoetics" target="_blank">Com
   `
 },
      {  "folder":"digpo-imgs",
-    "name":"month of may",
+    "name":"Web Poetics",
     "tags":"Interactive, HTML",
     "thumb":"maythumb.jpg",
     "content":`Printed text marries an immutable form, but graphemes on screen can shapeshift through a dynamic, stretchy existence.
-    Month of May is an interactive love poem generator. <a href='digpo/may.html' target='_blank'>Make your own.</a>
+    Click your way through language, make textural mischief, build new poems every time. Digital experiments in HTML & p5.js.
+    <br>
+    <span class="emph">GRECIAN URNS:</span>&ensp; Online-only artifacts made from letters. Please <a href='ffabschrift/pottery.html' target='_blank'>do not touch.</a>
+    [pottery.gif]
+    [urn.gif]
+    <br><br>
+        <span class="emph">OPPOSITE OF A GUN:</span>&ensp;A game that completes within seconds, or as long as you let it. Inspired by <a href='http://theamericanjournalofpoetry.com/v2-constantine.html' target='_blank'>this poem.</a>&ensp;You can <a href='http://alpha.editor.p5js.org/full/rybGZQX2Z' target='_blank'>try it here.</a>
+[gun_opposite.jpg]
+[gun_opposite.gif]
+<br><br>
+
+    <span class="emph">MONTH OF MAY:</span>&ensp;Recombinative love poems. <a href='digpo/may.html' target='_blank'>Make your own.</a>
     [may.jpg]
     [may-3.gif]
+    <br><br>
+
+    <span class="emph">BASHO IN THE FOREST:</span>&ensp; Haikus to stumble upon in the woods. <a href='digpo/garden/basho.html' target='_blank'>Take a gander?</a>
+    [basho.jpg]
+    [basho1.jpg]
+
     `
   },
 
@@ -410,6 +500,19 @@ Course Website → <a href="https://kaaathy.com/comppoetics" target="_blank">Com
   `
 },
 
+  // {
+  // 		"folder":"polit-img",
+  // 		"name":"Illustrations",
+  // 		"tags":"Brush pen, etc",
+  // 		"thumb":"thumb.jpg",
+  // 		"content":`
+  //     <span class="emph">MIGRATION IS BEAUTIFUL:</span> A print for a fundraiser for RAICES and Movimiento Cosecha. (Link to buy a print coming soon.)
+  // 		[migrationprint.jpg]
+  // 		<br>
+  //     <span class="emph">NOT YOUR BAO-BEI:</span> A celestial, pi-pa strumming Chinese god/goddess but with Riot Girl energy.
+  //     [pipapunk.jpg]
+  // 		`
+  // },
   {
       "folder":"manymigrations",
       "name":"Many Migrations",
@@ -500,6 +603,47 @@ Course Website → <a href="https://kaaathy.com/comppoetics" target="_blank">Com
   //     },
 
 
+  {
+  		"folder":"teaching",
+  		"name":"Breath as a Line",
+  		"tags":"Informal teaching",
+  		"thumb":"action5.jpg",
+  		"content":`
+
+      Inspired by Buddhist monk <a href="https://en.wikipedia.org/wiki/Th%C3%ADch_Nh%E1%BA%A5t_H%E1%BA%A1nh" target="_blank">Thích Nhất Hạnh</a>, I was curious about ways in which mindful activities with the body – like walking – can be a kind of art in of itself.
+
+      And vice versa: "art-making activities" can become meditations. Your art-making might center body and time in mechanical, transient ways. Think Richard Long's walks, or Goldsworthy-style <a href="https://www.instagram.com/p/B5BixoGlVbwBOuRbQPQz76Gmg1e4b9uOwN5NW40/" target="_blank">leaves</a>.
+
+      To me, moving through space in this way has always been an ancient, unnamed, beautiful art (especially outside the canon of white contemporary artists.)
+
+      <br>
+      <span class="emph">ART AS CONTEMPLATIVE CARE / CONTEMPLATIVE CARE AS ART </span>
+
+      In this 2-hour workshop, I offer space where people could consider the body while drawing. This way, drawing is more like breathing than it is image-making.
+
+      [1.jpg]
+      [drawing2.jpg]
+
+      <br>
+      <span class="emph"> VARIATIONS ON A LINE: </span> Drawing with different hands, closing your eyes, breathing through a line.
+  		[action3.jpg]
+  		[drawing3.jpg]
+
+  		[action4.jpg]
+  		[drawing4.jpg]
+
+  		[line_hard_break_2.jpg]
+
+      <br>
+      <span class="emph">BUILDING A GUEST HOUSE: </span> Creating a sculpture to hold feeling.
+  		[action5.jpg]
+      [drawing5.jpg]
+  		[end5.jpg]
+
+  		[drawing6.jpg]
+  		[end0.jpg]
+  		`
+  	},
 
 
 
@@ -538,6 +682,51 @@ Course Website → <a href="https://kaaathy.com/comppoetics" target="_blank">Com
 // 		`
 // },
 
+
+
+// {
+//     "folder":"lego",
+//     "name":"Lego Soundmaker",
+//     "tags":"Fabrication, physical computing, p5.js",
+//     "thumb":"thumb.jpg",
+//     "content":`
+//     Lego Soundmaker lets you make music with LEGOs and your environment. 🎵
+//         [1.jpg]
+//         [2.jpg]
+//         <br><span class="emph">Build your own tracks...</span>
+//         [stopmotion.gif]
+//         <br>
+//         <span class="emph">Record your voice, your dog, or other found sounds.</span>
+//         [record.gif]
+//         <br>
+//         <span class="emph">How does it work?</span>
+//         Inside, there's an Arduino and a line of LEDs, plus one RGB color changing LEDs, and 4 switches that I've glued pennies onto to increase surface area.
+//         [3_super_cropped.jpg]
+// The magic under the hood relies on an overhead webcam and <span class="emph">computer vision</span>. Here's my initial design, which originally featured a webcam below (which didn't work so well with lighting).
+//         [schematic1.jpg]
+// I wrote the computer vision program myself using p5.js. <a href="https://alpha.editor.p5js.org/kathymakes/sketches/H19jBHXbG" target="_blank">Take a look at the code.</a>
+// [p5process.jpg]
+
+//         <br>
+//         <span class="emph">Process</span>
+//         Building out the insides:
+//         [process1.jpg]
+//         Fabricating the box:
+//         [boxprocess_big.gif]
+
+// <br>
+// <span class="emph">The ITP Winter Show!</span>
+// This was selected to be shown at ITP's annual public showcase. A lot of people came and played with my finished project for the first time. I learned so much just watching them. Some visitors used it in unexpected ways...
+// [wintershow.jpg]
+// <span class="emph">Some things I heard:</span>
+// "This is so much fun. I could just keep going."
+// "It sounds like a bunch of babies!"
+// "What do I hear? It's like a load of animals."
+// "Hah, this sounds so funny!"
+// <br>
+// <a href='https://pondermake.tumblr.com/post/169135210574/lego-sound-sequencer' target='_blank'>Read more thoughts on my blog.</a>
+//         `
+//   },
 
 // {  "folder":"scratch",
 //   "name":"Scratch: Join Scratch",
@@ -637,6 +826,178 @@ Course Website → <a href="https://kaaathy.com/comppoetics" target="_blank">Com
 
 },
 
+
+
+  //
+  //
+  // {
+  //  "folder":"motemote",
+  //  "name":"MoteMote",
+  //  "tags":"Game design, vector illustration, software",
+  //  "thumb":"thumb3.jpg",
+  //  "content":`
+  //  A game I created with my team in under 24 hours at Hack@Brown 2015. I brought design chops to a team of two developers. We wanted to make group gaming more fun & inclusive, by using a controller most people already have in their pockets.
+  //  In MoteMote, you use your smartphone as a remote and play as a teensy Mote character. Anyone can join at any point in the game. The project won <a href='http://hackatbrown2015.devpost.com/' target='blank' style='font-weight:bold'>Best Overall at Hack@Brown 2015</a>.
+  //  [motemote1.jpg]
+  //  Gameplay is like Mario Party Bumper Balls, except with shark danger and (in theory) infinite players.
+  //  [demo.jpg]
+  //  During the hackathon demo, we invited everyone in the audience to join the game. At one point, we had over 200 participants going on-screen.
+  //  [demo2.JPG]
+  //  Testing with judges and students.
+  //  <br><br>
+  //  <span class="emph">THE GAME</span>
+  //  [motemote-3.gif]
+  //  The interface is pretty minimal. You select a character and color for your Mote, and write in your name to start:
+  //  [motemote.gif]
+  //  The rest of gameplay is done through a touch-screen joystick. Alternatively, you can use your phone's spatial sensors to control your character by tilting instead.
+  //  [motemote-2-nice.gif]
+  //  `
+  // },
+
+  // {
+  //     "folder":"googleparty",
+  //     "name":"Google Doc Parties",
+  //     "tags":"Events, collaborative poetry",
+  //     "thumb":"thumb-alt.jpg",
+  //     "content":`
+  //     Using tools which originated as canvases for capitalist productivist labor as community hallways and art-making spaces during Coronavirus.
+  //     <br>
+  //     <span class="emph">RENGA PARTY DURING COVID-19, #1</span>
+  //     Let's write a renga-shaped poem together.
+  //     Renga is a <a href="https://en.wikipedia.org/wiki/Collaborative_poetry" target="_blank">classical Japanese format</a> for writing an infinite, interlocking, collaborative poem.
+  //     [partyrules.jpg]
+
+  //     There is no room for Zoom here. Let us revel in each other's quiet cursory form. Introduce yourselves to your fellow ether-mates or say nothing—be an Anonymous Frog—channel that mysterious amphibian who moonlights as a lyricist
+  //     We produced 73 pages of interlocking verse and ambulating conversation, and then did a reading. About 13 people showed up.
+  //     [party2.jpg]
+  //     [party5.jpg]
+  //     [party6.jpg]
+
+  //     <br>
+  //     <span class="emph">RENGA PARTY DURING COVID-19, #2</span>
+  //     This turned into a 97-page meme fest and I'm not sure why, except that I invited my brother.
+  //     [party7.jpg]
+  //     [party10.jpg]
+  //     [party15.jpg]
+  //     [party12.jpg]
+
+  //     <br>
+  //     <span class="emph">BDAY DRAWING PARTY IN SHEETS, #1</span>
+  //     I did this one in 2015, alongside a 100-page Google Doc birthday party I threw for myself.
+  //     [party17.jpg]
+  //     [party18.jpg]
+  //     [party20.jpg]
+
+  //     `
+  // },
+
+ //   {
+	// 	"folder":"bumble",
+	// 	"name":"Bumble",
+	// 	"tags":"Media Design, Interactive, UI/UX",
+	// 	"thumb":"thumb.jpg",
+	// 	"content":`
+	// 	Bumble is a <span class="emph">collaborative fiction-building tool.</span> Users can create stories with their thumbs, and navigate a web of stories like a dungeon map. I collaborated with Kevin Cadena and Jamar Bromley in the studio course, Computer Utopias.
+	// 	[thumb2.jpg]
+	// 	<br><br>
+	// 	<span class="emph">What is the shape of mobile media?</span>
+	// 	Today, even with responsive design, much of mobile media retrofits desktop sites to a small screen. Scrollable content is not comfortable or “native” to this device.
+	// 	Our team was inspired by Hypercard and SmallTalk, which informed the shape of media-making on personal computers in the 1960s and beyond.
+	// 	[2.jpg]
+	// 	Our early sketches explored hyperlinkable, inspectable cards, where people could create webcontent without touching a full-size computer.
+	// 	The most difficult question was nailing down <span class="emph">what media our tool would enable.</span> Ephemeral, or invested? Individual, or collaborative?
+	// 	<br><br>
+	// 	<span class="emph">VERSION 1</span>
+	// 	Mobile devices encourage creative manipulation of images and videos. We were drawn to playful media, and inspired by Snapchat and Kidpix. In this iteration of Bumble, users could build <span class="emph">expressive webcards on a social network.</span>
+	// 	[4.jpg]
+	// 	The program was feature-loaded: color, text, audio, shape, stickers, and hyperlinks! But what are they making, and would they care?</span>
+	// 	<span class="emph">What we learned:</span> The timeframe for mobile content creation, in this case, was less invested than on desktop. We needed to serve this platform's attention span.
+	// 	<br><br>
+	// 	<span class="emph">VERSION 2</span>
+	// 	We challenged our initial assumption that people would want to craft handheld websites with care. We trashed all content primitives except video and scribbling.
+	// 	[6.jpg]
+	// 	Oops… so we made Snapchat’s less cool cousin. We lost our initial mission, which was to redefine what it meant to make and move in a mobile web browser.
+	// 	<span class="emph">What we learned:</span> It's better to make something that 100 people love than something for the masses to ignore. Make a monopoly, not more competition.
+	// 	<br><br>
+	// 	<span class="emph">VERSION 3: Storytelling redefines our vision.</span>
+	// 	Up until this point, we struggled to articulate who would use this, and why the phone matters. Full-blown websites were too heavy-duty for mobile, and Snapchat had already been done.
+
+	// 	In our final iteration, we created a storytelling platform fueled by <span class="emph">LARP culture</span>.
+	// 	The UI was inspired by <span class="emph">Choose-Your-Own Adventure,</span> and Borges' <span class="emph">Garden of the Forking Paths.</span>
+	// 	[7.jpg]
+	// 	The Bumble web is a four-directional architecture that respects the shape of your phone, and the singleness of a swipe. Users can see their website architecture from a birds-eye, dungeon-map view.
+
+	// 	<br>
+	// 	{<video src='work/bumble/demo.m4v' controls autoplay='on'></video>.}
+
+	// 	In our first version, Bumble serves a niche audience of <span class="emph">role-playing enthusiasts.</span> In the future, Bumble can grow to accommodate new content. Instructional threads could draw in new networks of crafty people demonstrating skills and recipes. Or, similar to Reddit, people from all over the world can respond to a single thread prompt, with infinite branches.
+	// 	`
+	// },
+
+
+//     {
+// 		"folder":"turrell",
+// 		"name":"James Turrell Museum",
+// 		"tags":"Brand Identity, Print",
+// 		"thumb":"books_thumb.jpg",
+// 		"content":`
+// 		I rebranded the James Turrell Museum in Bodega Colome, Argentina in 6 weeks for RISD's Brand Identity studio.
+// 		I first wanted to know more about Turrell's work. What stood out to me was how he distills nature into this pure, temporal experience. His work focuses and frames natural processes—like the sunset— so the viewer enters this almost meditative state, where they are hyper-aware of passing time.
+// 		Here's some early research: obsessive moodboarding, drawing, and word studies.
+// 		[process4.jpg]
+// 		[process1.jpg]
+// 		<br><br>
+// 		<span class="emph">LOGO CONCEPT</span>
+// 		The final mark references a slow, recession of light, space, and atmosphere, while winking at the “T” of Turrell. The palette is a saturated take on the gradation of daylight, and the colors of the Turrell’s native Arizona landscape.
+// 		[turrell-02.svg]
+// [stationary_crop.jpg]
+// 		[turrell12.jpg]
+// 		[poster.jpg]
+// 		<br>
+// 		<span class="emph">PRINT MATERIALS</span>
+// 		The way a Turrell piece transforms when viewed during different times of the day inspired these materials. The museum, open from 10:00AM to 6:00PM daily, issues a different colored ticket to visitors each hour. Viewed as a long strip, these tickets appear as a continuous gradient.
+// 		[ticket.jpg]
+// The event brochures together reference changing time throughout the year.
+//         [books_all.jpg]
+//         [book2.jpg]
+// <br>
+// 				<span class="emph">THE MUSEUM SPACE</span>
+// What stood out to me about the museum's location was how beautiful the surrounding wineries were. This outdoor installation would bring visitors together in a tranquil museum garden. The pool connects to an unseen irrigation system which waters the nearby vines. In this way, the piece feeds back into the terrain, the way a Turrell piece works together with nature.
+// 		[reflect_gif.gif]
+// 		`
+// 	},
+
+//  {	"folder":"ics-design",
+// 		"name":"IBM ICS Design",
+// 		"tags":"Software interface design",
+// 		"thumb":"thumb.jpg",
+// 		"content":`In 2017, I was tasked to help redesign our department's visual design language. At the time, I worked for IBM Collaboration Solutions, which designs team communications and work platforms for big businesses. I worked closely with our lead designer, as well as other visual designers. This is an ongoing project, more to come.
+// [1.jpeg]
+// [8_spicy.jpeg]
+// [mobile.jpeg]
+// <br>
+// <span class="emph">Inspiration & Research</span>
+// We wanted our new products to feel efficient, trusting, and connecting. In my inspiration, I referenced soft lined drawings and maps of cities.
+// [3.jpeg]
+// Four other visual designers and I created each or own interpretation, and we tested them with IBM employees.
+// [diffdesigns.gif]
+// I interviewed 15 people from our team, including other designers, software developers, and product managers.
+// [5.jpeg]
+
+// <br>
+
+// <span class="emph">The Visual Language</span>
+// For our final system, the products are using the typeface IBM Plex. Visual accessibility was an important consideration as we chose our colors.
+// [6_alt.jpeg]
+// [7.jpeg]
+// [before_after.gif]
+
+
+
+// // `
+
+
+// 	},
 
 
 
