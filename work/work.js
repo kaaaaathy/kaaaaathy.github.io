@@ -8,7 +8,7 @@ work=[
 If you call something, you can keep it in a box. If you classify it, perhaps you can harvest it. Commodification and supply chain and frameworks of extraction have their own grammars.
 This infinitely looping browser poem explores concepts both abstract and concrete — a color wavelength — are socialized through language. How blue was the last discrete color category to be named in English.
 
-Watch with sound on:<iframe src="https://player.vimeo.com/video/651241191?h=b90e7371ba" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+Watch with sound on:<iframe src="https://player.vimeo.com/video/653867996" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 <br><br>
 Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">blue at a loss for words</a>
@@ -29,7 +29,7 @@ Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">blue a
   [blue4.gif]
 
 <br>
-  Poem projected onto a ceiling:<iframe src="https://player.vimeo.com/video/650972652?h=586c7f8ceb" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  Color names poem projected onto a ceiling:<iframe src="https://player.vimeo.com/video/650982362" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
   The end.
   [end.png]
 
