@@ -296,61 +296,61 @@ Course Website → <a href="https://kaaathy.com/comppoetics" target="_blank">Com
   },
 
 
-// {  "folder":"jelly",
-//   "name":"Pulmō Plastics",
-//   "tags":"Speculative objects, biodesign",
-//   "thumb":"overview.jpg",
-//   "content":`
-//
-//   Collaboration with biologist Marian Shaw as part of NYU ITP's Biodesign studio.<br>I contributed to the research, concept, storytelling, and writing.
-//   Selected as a finalist for the <a href="https://biodesignchallenge.org/" target="_blank">Biodesign Challenge</a>, and presented at MoMA in 2018.
-//
-//   [overview_crop.jpg]
-//
-//   As part of the man-made climate crisis, oceans are warmer and more acidic. Jellyfish, known as pulmōnēs in Latin, are <a href="https://www.youtube.com/watch?time_continue=21&v=uh4eImPI-OY&feature=emb_logo&ab_channel=HarvardUniversity" target="_blank">overpopulating</a> parts of global oceans.
-//   Proliferating in blooms, they <a href="www.thejakartapost.com/news/2020/05/01/workers-fishermen-scramble-to-fend-off-jellyfish-bloom-in-waters-off-east-java-power-plant.html" target="_blank">pose a threat</a> to human infrastructures, but more importantly, to biodiversity in the marine ecosystem.
-//
-//   [jelly-context.jpg]<span style="font-size:11px">Image copyright: Monty Graham, Dauphin Island Sea Lab // Getty Images</span>
-//
-//   When plastic enters the oceans, marine wildlife often confuse it for their jellyfish prey and subsequently die from plastic consumption.
-//     [jelly21.jpg]<span style="font-size:11px">Image credit: Troy Mayne, World Wildlife Foundation.</span>
-//
-//     What if we could close the loop between our jellyfish ‘problem’ and another marine threat— <span class="emph">petroleum-based plastic waste</span>?
-//
-//   [jelly3.jpeg]
-//   Jellyfish protein is almost exclusively <span class="emph">the structural protein collagen.</span> Given this 500-million year old creature consists of collagen of an earlier template in the evolutionary cycle, it has the potential to be a more universal biomaterial for various applications.
-//   We propose the use of <span class="emph">jellyfish gelatin</span> (which can be obtained by heating jellyfish collagen), <span class="emph">vegetable glycerin,</span> and <span class="emph">chitosan</span> to create food-safe, <a href="https://fabtextiles.org/the-secrets-of-bioplastic/" target="_blank">biodegradable plastics</a> which enter safely back into the ecosystem
-//
-//   [jelly9.jpeg]
-//
-//   <br>
-//   <br>
-//   <span class="emph">OUR PROCESS</span>
-//   We tested different ratios of glycerin to gelatin and plastic shape and size, creating samples with varying material properties that could lend themselves to different objects.
-//
-//   [jelly5.jpeg]
-//
-//   Crunchy like a disposable beverage bottle...
-//   [jelly6.jpeg]
-//   ...or supple yet strong like a ‘plastic’ bag.
-//   [jelly7.jpeg]
-//
-//   In our final samples, we dyed plastics with beet juice and incorporated pigments produced by bacteria engineered to express colorful proteins derived from marine animals.
-//   [jelly18.jpeg]
-//
-//
-//
-//   <br>
-//   <br>
-//   <span class="emph">FINAL THOUGHTS</span>
-//   Despite the current abundance of jellyfish, do we have the right to steal them — even dead ones — from nature for our material desires?
-//   [pulmo_samples.jpg]
-//   We recognize that creating new biomaterials is not a substitute for urgent <a href="https://en.wikipedia.org/wiki/Green_New_Deal" target="_blank">policy</a> towards real environmental justice. Nor do we want to encourage future cycles of exploitation of abundance in order to deplete it.
-//   Our hope with this work is to illustrate effects of unsustainable supply chains on the ocean today — and to ask the audience to imagine how materials we use in the future can be more interoperable with our biological planet.
-//
-//
-//   `
-// },
+{  "folder":"jelly",
+  "name":"Pulmō Plastics",
+  "tags":"Speculative objects, biodesign",
+  "thumb":"overview.jpg",
+  "content":`
+
+  Collaboration with biologist Marian Shaw as part of NYU ITP's Biodesign studio.<br>I contributed to the research, concept, storytelling, and writing.
+  Selected as a finalist for the <a href="https://biodesignchallenge.org/" target="_blank">Biodesign Challenge</a>, and presented at MoMA in 2018.
+
+  [overview_crop.jpg]
+
+  As part of the man-made climate crisis, oceans are warmer and more acidic. Jellyfish, known as pulmōnēs in Latin, are <a href="https://www.youtube.com/watch?time_continue=21&v=uh4eImPI-OY&feature=emb_logo&ab_channel=HarvardUniversity" target="_blank">overpopulating</a> parts of global oceans.
+  Proliferating in blooms, they <a href="www.thejakartapost.com/news/2020/05/01/workers-fishermen-scramble-to-fend-off-jellyfish-bloom-in-waters-off-east-java-power-plant.html" target="_blank">pose a threat</a> to human infrastructures, but more importantly, to biodiversity in the marine ecosystem.
+
+  [jelly-context.jpg]<span style="font-size:11px">Image copyright: Monty Graham, Dauphin Island Sea Lab // Getty Images</span>
+
+  When plastic enters the oceans, marine wildlife often confuse it for their jellyfish prey and subsequently die from plastic consumption.
+    [jelly21.jpg]<span style="font-size:11px">Image credit: Troy Mayne, World Wildlife Foundation.</span>
+
+    What if we could close the loop between our jellyfish ‘problem’ and another marine threat— <span class="emph">petroleum-based plastic waste</span>?
+
+  [jelly3.jpeg]
+  Jellyfish protein is almost exclusively <span class="emph">the structural protein collagen.</span> Given this 500-million year old creature consists of collagen of an earlier template in the evolutionary cycle, it has the potential to be a more universal biomaterial for various applications.
+  We propose the use of <span class="emph">jellyfish gelatin</span> (which can be obtained by heating jellyfish collagen), <span class="emph">vegetable glycerin,</span> and <span class="emph">chitosan</span> to create food-safe, <a href="https://fabtextiles.org/the-secrets-of-bioplastic/" target="_blank">biodegradable plastics</a> which enter safely back into the ecosystem
+
+  [jelly9.jpeg]
+
+  <br>
+  <br>
+  <span class="emph">OUR PROCESS</span>
+  We tested different ratios of glycerin to gelatin and plastic shape and size, creating samples with varying material properties that could lend themselves to different objects.
+
+  [jelly5.jpeg]
+
+  Crunchy like a disposable beverage bottle...
+  [jelly6.jpeg]
+  ...or supple yet strong like a ‘plastic’ bag.
+  [jelly7.jpeg]
+
+  In our final samples, we dyed plastics with beet juice and incorporated pigments produced by bacteria engineered to express colorful proteins derived from marine animals.
+  [jelly18.jpeg]
+
+
+
+  <br>
+  <br>
+  <span class="emph">FINAL THOUGHTS</span>
+  Despite the current abundance of jellyfish, do we have the right to steal them — even dead ones — from nature for our material desires?
+  [pulmo_samples.jpg]
+  We recognize that creating new biomaterials is not a substitute for urgent <a href="https://en.wikipedia.org/wiki/Green_New_Deal" target="_blank">policy</a> towards real environmental justice. Nor do we want to encourage future cycles of exploitation of abundance in order to deplete it.
+  Our hope with this work is to illustrate effects of unsustainable supply chains on the ocean today — and to ask the audience to imagine how materials we use in the future can be more interoperable with our biological planet.
+
+
+  `
+},
 
 {
   "folder":"searchdivides",
