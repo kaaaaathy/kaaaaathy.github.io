@@ -30,7 +30,8 @@ Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">blue a
 
 <br>
   Color names poem projected onto a ceiling:<iframe src="https://player.vimeo.com/video/650982362" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-  The end.
+  [blueceiling.png]
+  The end:
   [end.png]
 
   `
@@ -152,7 +153,7 @@ Course Website → <a href="https://kaaathy.com/comppoetics" target="_blank">Com
 
 
 {
-    "folder":"teaching",
+    "folder":"breath",
     "name":"Breath as a Line",
     "tags":"Informal teaching",
     "thumb":"action5.jpg",
