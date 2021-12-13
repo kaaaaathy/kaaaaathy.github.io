@@ -1,7 +1,7 @@
 work=[
 
 {  "folder":"blueimg",
-  "name":"blue at a loss for words",
+  "name":"virtual blue",
   "tags":"HTML, javaScript, projection, sound, poetry",
   "thumb":"blue1.gif",
   "content":`
@@ -127,7 +127,9 @@ Course Website → <a href="https://kaaathy.com/comppoetics" target="_blank">Com
     "name":"Office for Language Under Capitalism",
     "tags":"Interactive, HTML",
     "thumb":"thumb.jpg",
-    "content":`I'm interested in what happens to language under specific sociopolitical constraints.
+    "content":`Selected for <a href="https://icids2021.ardin.online/art-exhibition" target="_blank">ICIDS 2021 [Re|Dis]connection.</a>
+
+    I'm interested in what happens to language under specific sociopolitical constraints.
     Language under capitalism compresses itself—it minifies into lean, neat boxes fit for work and production. It does not rebel, it does not deviate; it eclipses possibility of what could be in our relationships.
     <iframe src="https://player.vimeo.com/video/469486919" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
     This interactive, audio-based web poem plays out through a fictional bureaucratic phone call. <a href="office/index.html" target="_blank">Try it on your mobile device</a> for the intended experience.
