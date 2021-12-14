@@ -127,7 +127,7 @@ Course Website → <a href="https://kaaathy.com/comppoetics" target="_blank">Com
     "name":"Office for Language Under Capitalism",
     "tags":"Interactive, HTML",
     "thumb":"thumb.jpg",
-    "content":`Selected for <a href="https://icids2021.ardin.online/art-exhibition" target="_blank">ICIDS 2021 [Re|Dis]connection.</a>
+    "content":`Selected for <a href="https://icids2021.ardin.online/art-exhibition" target="_blank">ICIDS 2021 Re|Disconnection.</a>
 
     I'm interested in what happens to language under specific sociopolitical constraints.
     Language under capitalism compresses itself—it minifies into lean, neat boxes fit for work and production. It does not rebel, it does not deviate; it eclipses possibility of what could be in our relationships.
