@@ -91,7 +91,7 @@ body {
   /* height:90%; */
   width:400px;
 
-  background-image: url('iphone/american_child.png');
+  /* background-image: url('iphone/american_child.png'); */
   background-size: contain;
   background-repeat: no-repeat;
   background-position: top;
@@ -116,7 +116,11 @@ h2 {
 }
 
 @media only screen and (max-width: 600px) {
-  #container {
+  body{
+    margin:20px;
+
+    }
+    #container {
       flex-wrap: wrap;
     }
   #phone {
@@ -181,9 +185,6 @@ let phone = document.getElementById("phone");
 //create images
 let parts = ["moon","sinew","beethoven","individuals","daughters","amulets","weaving","workers","threads"];
 
-let intro = document.getElementById("intro");
-let started = false;
-
 let wholeLength = 0;
 let maxLength = 14;
 
@@ -194,21 +195,18 @@ function newPart(i){
 
   let newdiv = document.createElement("div");
   newdiv.classList.add("part");
-  // newdiv.classList.add("draggable");
+  newdiv.classList.add("draggable");
 
   let newImage = document.createElement("img");
   newImage.src = "iphone/" + parts[i] + ".png";
   newdiv.appendChild(newImage);
 
   let label = document.createElement("p");
-  label.innerText = i;
+  label.innerText = parts[i];
   newdiv.appendChild(label);
 
 //click behavior
   newdiv.addEventListener("click", function(){
-          if (started == false){
-            started = true;
-          }
 
           let newLine = document.createElement("div");
           newLine.innerHTML += poem[i][poemCounter[i]] + "&nbsp;";
@@ -235,7 +233,7 @@ function newPart(i){
     document.addEventListener("pointerup", function(){
       if (checkPos(newdiv) == true){
             newdiv.classList.add("fade");
-            // newdiv.classList.remove("draggable");
+            newdiv.classList.remove("draggable");
             setTimeout(function(){
               newdiv.style.display = "none";
               let newerdiv = newPart(i);
@@ -252,17 +250,6 @@ function newPart(i){
 
 }
 
-// function turnOffIntro(){
-//   intro.classList.remove("pulse");
-//   setTimeout(function(){
-//     intro.classList.add("fade");
-//   }, 500);
-//
-//   setTimeout(function(){
-//     intro.parentElement.removeChild(intro);
-//   },1000);
-//
-// }
 
 
 //lmao this would be more elegant in jquery
@@ -270,7 +257,7 @@ function buildSite(){
   //render all images and add class desc
   for (let i = 0; i < parts.length; i++){
     document.getElementById("partholder").appendChild(newPart(i));
-    // addDrag();
+    addDrag();
 
   }
 }
@@ -288,13 +275,13 @@ function checkPos(div){
 }
 
 
-// function addDrag(){
-//   $( function() {
-//     $( ".draggable" ).draggable({
-//           grid: [ 50, 50 ]
-//         });
-//   });
-// }
+function addDrag(){
+  $( function() {
+    $( ".draggable" ).draggable({
+          grid: [ 50, 50 ]
+        });
+  });
+}
 
 
 //this is where it happens!!
@@ -330,7 +317,7 @@ function splitTxt(input){
         outputPoem.push(newLine);
         poemCounter.push(0);
 
-        // console.log("that is da outputPoem with da newLines",outputPoem)
+        console.log("that is da outputPoem with da newLines",outputPoem)
   }
 
   return(outputPoem);
@@ -339,6 +326,7 @@ function splitTxt(input){
 
 
 </script>
+
 
 
 </body>
