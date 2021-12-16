@@ -211,7 +211,7 @@ function newPart(i){
           }
 
           let newLine = document.createElement("div");
-          newLine.innerHTML += poem[i][poemCounter[i]];
+          newLine.innerHTML += poem[i][poemCounter[i]] + " ";
 
           setTimeout(function(){
             newLine.classList.add("fade");
