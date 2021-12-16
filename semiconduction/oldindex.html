@@ -21,7 +21,12 @@ body {
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
-  margin:20px 0px;
+  margin:20px;
+
+  -webkit-user-select:none;
+  -webkit-touch-callout:none;
+   -moz-user-select:none;
+   -ms-user-select:none;
    user-select:none;
 
 }
@@ -37,13 +42,17 @@ body {
   flex-flow: row wrap;
   justify-content: center;
   align-items: baseline;
-  max-width: 60%;
+  max-width: 40%;
 }
 
 #container{
   height:100%;
   display: flex;
   flex-flow: row nowrap;
+}
+
+.draggable {
+  cursor: pointer;
 }
 
 .part {
@@ -53,12 +62,10 @@ body {
   line-height: 16px;
   font-family: courier, monospace;
   font-size:12px;
-  cursor: pointer;
-
 }
 
 .part img {
-  max-width: 80px;
+  max-width: 100px;
 }
 
 .part img:hover{
@@ -66,7 +73,7 @@ body {
 }
 
 .part img:active{
-  box-shadow:1px 1px 5px #fff;
+  /* box-shadow:1px 1px 5px #fff; */
   opacity:0.5;
 
 }
@@ -161,7 +168,10 @@ h2 {
 
 
 <div id="container">
+
     <div id="phone">
+      <h2 class ="pulse">on touching each other<br>through semi conduction</h2>
+      <p id = "intro" class ="pulse">click or drag the parts→</p>
       <p id="writing"><!-- poem is generated here --></p>
     </div>
     <div id = "partholder"></div>
@@ -194,7 +204,7 @@ function newPart(i){
 
   let newdiv = document.createElement("div");
   newdiv.classList.add("part");
-  // newdiv.classList.add("draggable");
+  newdiv.classList.add("draggable");
 
   let newImage = document.createElement("img");
   newImage.src = "iphone/" + parts[i] + ".png";
@@ -208,10 +218,11 @@ function newPart(i){
   newdiv.addEventListener("click", function(){
           if (started == false){
             started = true;
+            turnOffIntro();
           }
 
           let newLine = document.createElement("div");
-          newLine.innerHTML += poem[i][poemCounter[i]];
+          newLine.innerHTML += poem[i][poemCounter[i]] + " <span class='supscript'>" + i + "&nbsp;</span>";
 
           setTimeout(function(){
             newLine.classList.add("fade");
@@ -235,7 +246,7 @@ function newPart(i){
     document.addEventListener("pointerup", function(){
       if (checkPos(newdiv) == true){
             newdiv.classList.add("fade");
-            // newdiv.classList.remove("draggable");
+            newdiv.classList.remove("draggable");
             setTimeout(function(){
               newdiv.style.display = "none";
               let newerdiv = newPart(i);
@@ -252,17 +263,17 @@ function newPart(i){
 
 }
 
-// function turnOffIntro(){
-//   intro.classList.remove("pulse");
-//   setTimeout(function(){
-//     intro.classList.add("fade");
-//   }, 500);
-//
-//   setTimeout(function(){
-//     intro.parentElement.removeChild(intro);
-//   },1000);
-//
-// }
+function turnOffIntro(){
+  intro.classList.remove("pulse");
+  setTimeout(function(){
+    intro.classList.add("fade");
+  }, 500);
+
+  setTimeout(function(){
+    intro.parentElement.removeChild(intro);
+  },1000);
+
+}
 
 
 //lmao this would be more elegant in jquery
@@ -270,7 +281,7 @@ function buildSite(){
   //render all images and add class desc
   for (let i = 0; i < parts.length; i++){
     document.getElementById("partholder").appendChild(newPart(i));
-    // addDrag();
+    addDrag();
 
   }
 }
@@ -288,13 +299,13 @@ function checkPos(div){
 }
 
 
-// function addDrag(){
-//   $( function() {
-//     $( ".draggable" ).draggable({
-//           grid: [ 50, 50 ]
-//         });
-//   });
-// }
+function addDrag(){
+  $( function() {
+    $( ".draggable" ).draggable({
+          grid: [ 50, 50 ]
+        });
+  });
+}
 
 
 //this is where it happens!!
@@ -330,7 +341,7 @@ function splitTxt(input){
         outputPoem.push(newLine);
         poemCounter.push(0);
 
-        // console.log("that is da outputPoem with da newLines",outputPoem)
+        console.log("that is da outputPoem with da newLines",outputPoem)
   }
 
   return(outputPoem);
