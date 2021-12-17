@@ -5,6 +5,9 @@
   font-style:   normal;
   font-stretch: normal;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Pragati+Narrow&display=swap');
+
 /*--------------------------------------------------------------*/
 /*THE FUN STARTS HERE*/
 
@@ -21,7 +24,7 @@ body {
 	position: relative;
 	font-size: 16pt;
 
-	font-family: 'Arial Narrow', sans-serif;
+	font-family: 'Arial Narrow', 'Pragati Narrow',sans-serif;
 	letter-spacing: 0.25px;
 	line-height: 1.5em;
 
@@ -65,7 +68,7 @@ section{
 }
 
 .aboutlinks {
-		font-family: 'Arial Narrow','courier prime';
+		font-family: 'Arial Narrow','Pragati Narrow',sans-serif;
     /* border-bottom: 1px solid darkslategray; */
 }
 
@@ -89,7 +92,7 @@ nav {
 
 nav a {
 	font-size: 14pt;
-    font-family: 'Arial Narrow','courier prime', monospace;
+    font-family: 'Arial Narrow','Pragati Narrow', sans-serif;
     margin-top:-20px;
     padding:24px;
 		border-bottom: none;
@@ -120,7 +123,7 @@ a:hover {
 
 h2 {
 	font-size: 18pt;
-	font-family:'Arial Narrow';
+	font-family:'Arial Narrow','Pragati Narrow','Arial';
 	font-weight: normal;
   line-height: 1.5;
   max-width: 700px;
@@ -133,7 +136,7 @@ h2 a {
 }
 h3{
   font-size: 22pt;
-  font-family: 'Arial Narrow', sans-serif;
+  font-family: 'Arial Narrow', 'Pragati Narrow','Arial',sans-serif;
   font-weight: normal;
 
   margin-bottom: 0px;
@@ -223,7 +226,7 @@ h3{
 	color: darkslategray;
 	text-align: center;
 	text-transform: lowercase;
-	font-family: 'Arial Narrow','Arial', sans-serif;
+	font-family: 'Arial Narrow','Pragati Narrow','Arial', sans-serif;
 
  }
 
