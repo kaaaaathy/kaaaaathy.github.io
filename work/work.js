@@ -262,7 +262,7 @@ Course Website → <a href="https://kaaathy.com/comppoetics" target="_blank">Com
   <br>
   <span class="emph">2. CONVERSION TOOLS</span>
   The human body understands the material world and has unique intuitions that help us navigate it. I was interested in how people would use intuition to convert their understanding of virtual units into physical objects.
- I created interpretive “conversion tools” n the form of frames and boxes. Ech of these symbolized a space for an assigned virtual unit where people’s responses/objects would live.
+ I created interpretive “conversion tools” n the form of frames and boxes. Each of these symbolized a space for an assigned virtual unit where people’s responses/objects would live.
   [crowdsourced.jpg]
 
 
@@ -355,53 +355,53 @@ Course Website → <a href="https://kaaathy.com/comppoetics" target="_blank">Com
   `
 },
 
-{
-  "folder":"searchdivides",
-  "name":"Search Divides Us",
-  "tags":"Exhibit design, front-end dev, UI/UX",
-  "thumb":"cover.jpg",
-  "content":`
-  Designed & built in collaboration with Anthony Bui, Asha Veeraswamy, and Keerthana Pareedy. I contributed conceptual work, front end dev, and graphics.
-<br><span class="emph">THE STORY</span>
-  Search Divides Us is an interactive exhibit about bias in search engines, through the example of a housing search. Our team demoed this at ITP Spring Show, as well as <a href="https://makerfaire.com/maker/entry/67996/" target="_blank">New York Maker Faire</a> in 2019.
-  [plaque-2.jpg]
-<br>
-  <span class="emph">HARDWARE INTERFACE</span>
-  The final interface followed a slot machine metaphor. The interface consisted of a set of dials: CLASS, RACE, EDUCATION. In the center, a green space-bar-shaped button would allow you to search.
-  [video-1.gif]
-
-<br><span class="emph">WEBSITE</span>
-  I created a fictional island (modeled roughly after Manhattan, NY) and built fictional housing provider website.
-  [searchdivides_mini.gif]
-  The result was projected onto a dark wall. We wanted the experience of entering in your demographic and receiving your result to be as public as possible, so that visitors would  think about these issues in dialogue with us and each other.
-
-  [demo.jpg]
-<br><span class="emph">RANDOM SEARCH</span>
-  We encouraged visitors to explore how other search profiles tended towards different results. Using a "slot machine" metaphor, visitors could choose a new identity at random.
-  [video-2-mini.gif]
-
-
-  <br><span class="emph">PROCESS</span>
-  Our team was inspired by the <a href="https://www.nyu.edu/about/news-publications/news/2016/august/nyu-study-looks-at-how-racial-inequality-is-produced-online.html" target = "_blank">research</a> of Dr. Charles McIlwain of NYU, which explores how the internet is as segregated as a city.
-
-  Here’s our early design for a plinko machine, where the flippers represent categorization and algorithm bias.
-
-  [idea1.jpg]
-
-  We were fond of this metaphor; at the same time, it felt abstract and removed.
-
-  [idea2.jpg]
-  <br>
-  [idea3.jpg]
-
-  <br><span class="emph">GRAPHICS</span>
-  [bluemap.jpg]
-  [1-white.jpg]
-  [3-black.jpg]
-  [4-black-result.jpg]
-
-  `
-},
+// {
+//   "folder":"searchdivides",
+//   "name":"Search Divides Us",
+//   "tags":"Exhibit design, front-end dev, UI/UX",
+//   "thumb":"cover.jpg",
+//   "content":`
+//   Designed & built in collaboration with Anthony Bui, Asha Veeraswamy, and Keerthana Pareedy. I contributed conceptual work, front end dev, and graphics.
+// <br><span class="emph">THE STORY</span>
+//   Search Divides Us is an interactive exhibit about bias in search engines, through the example of a housing search. Our team demoed this at ITP Spring Show, as well as <a href="https://makerfaire.com/maker/entry/67996/" target="_blank">New York Maker Faire</a> in 2019.
+//   [plaque-2.jpg]
+// <br>
+//   <span class="emph">HARDWARE INTERFACE</span>
+//   The final interface followed a slot machine metaphor. The interface consisted of a set of dials: CLASS, RACE, EDUCATION. In the center, a green space-bar-shaped button would allow you to search.
+//   [video-1.gif]
+//
+// <br><span class="emph">WEBSITE</span>
+//   I created a fictional island (modeled roughly after Manhattan, NY) and built fictional housing provider website.
+//   [searchdivides_mini.gif]
+//   The result was projected onto a dark wall. We wanted the experience of entering in your demographic and receiving your result to be as public as possible, so that visitors would  think about these issues in dialogue with us and each other.
+//
+//   [demo.jpg]
+// <br><span class="emph">RANDOM SEARCH</span>
+//   We encouraged visitors to explore how other search profiles tended towards different results. Using a "slot machine" metaphor, visitors could choose a new identity at random.
+//   [video-2-mini.gif]
+//
+//
+//   <br><span class="emph">PROCESS</span>
+//   Our team was inspired by the <a href="https://www.nyu.edu/about/news-publications/news/2016/august/nyu-study-looks-at-how-racial-inequality-is-produced-online.html" target = "_blank">research</a> of Dr. Charles McIlwain of NYU, which explores how the internet is as segregated as a city.
+//
+//   Here’s our early design for a plinko machine, where the flippers represent categorization and algorithm bias.
+//
+//   [idea1.jpg]
+//
+//   We were fond of this metaphor; at the same time, it felt abstract and removed.
+//
+//   [idea2.jpg]
+//   <br>
+//   [idea3.jpg]
+//
+//   <br><span class="emph">GRAPHICS</span>
+//   [bluemap.jpg]
+//   [1-white.jpg]
+//   [3-black.jpg]
+//   [4-black-result.jpg]
+//
+//   `
+// },
      {  "folder":"digpo-imgs",
     "name":"month of may",
     "tags":"Interactive, HTML",
