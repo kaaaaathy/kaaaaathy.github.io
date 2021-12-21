@@ -110,16 +110,16 @@ Course Website → <a href="https://kaaathy.com/comppoetics" target="_blank">Com
      {  "folder":"semiconduction",
     "name":"Touching Each Other Through Semi Conduction",
     "tags":"Interactive, HTML",
-    "thumb":"thumb.jpg",
+    "thumb":"thumb2.jpg",
     "content":`An <a href="semiconduction/index.html" target="_blank">interactive web poem</a> I wrote and coded about Chinese workers in a context of mass production.
     Works on mobile. For a more spatial viewing experience, try on a desktop computer.
-     [semi3.gif]
+     [semi6.gif]
 
      Still image:
-     [semi1.jpg]
+     [semi_crop.png]
 
     Here's the experience on a mobile device:
-    [semi5.gif]
+    [semi_m.gif]
 
     `
     },
