@@ -9,9 +9,8 @@ If you call something, you can keep it in a box. If you classify it, perhaps you
 This infinitely looping browser poem explores concepts both abstract and concrete — a color wavelength — are socialized through language. How blue was the last discrete color category to be named in English.
 
 Watch with sound on:<iframe src="https://player.vimeo.com/video/653867996" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-
+Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtual blue</a> (images may load slowly before they cache)
 <br><br>
-Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">blue at a loss for words</a>
 
   Virtual loves to hide a supply chain. They can't make lithium fast enough.
   [blue1.gif]
@@ -25,12 +24,16 @@ Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">blue a
   They wanted to build a tunnel to China but China was busy eating the Congo.
   [blue3.gif]
 
-  The glaze whispering, infinity.
+  The glaze whispering, infinity. You think blue is more velvet but it is made of hard things.
   [blue4.gif]
 
 <br>
   Color names poem projected onto a ceiling:<iframe src="https://player.vimeo.com/video/650982362" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
   [blueceiling.png]
+
+  The data:
+  [bluelist.png]
+
   The end:
   [end.png]
 
