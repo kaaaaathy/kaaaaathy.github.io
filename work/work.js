@@ -94,7 +94,28 @@ Course Website → <a href="https://kaaathy.com/comppoetics" target="_blank">Com
 
       `
       },
-  {  "folder":"walk",
+      {  "folder":"aarw-zine",
+        "name":"visioning towards abolition zine",
+        "tags":"zine, workshop",
+        "thumb":"thumb.png",
+        "content":`Made with AARW as part of their abolition working group.
+        [zine-scan-cover-2.png]
+        [2.png]
+        [3.png]
+        [4.png]
+        [zine-scan-gif.gif]
+        You can purchase the zine here.
+        [sky1.jpeg]
+        <br>
+        Check out the <a href="https://docs.google.com/presentation/d/1pfmC3wtc6xU0QqKWCPTugfl0HUkxZXpLT9-772c-Ndo/edit#slide=id.g10d7d2d8eac_0_155" target="_blank">workshop materials</a> to run this in your own communities.
+        [slide1.png]
+        [slide2.png]
+
+
+
+        `
+        },
+        {  "folder":"walk",
   "name":"walking with ghosts",
   "tags":"Interactive, HTML",
   "thumb":"thumb.png",
@@ -418,49 +439,49 @@ Course Website → <a href="https://kaaathy.com/comppoetics" target="_blank">Com
 
 
 
-  {
-      "folder":"manymigrations",
-      "name":"Many Migrations",
-      "tags":"Textiles, poetry",
-      "thumb":"thumb.jpg",
-      "content":`
-      A cross-seas collaboration with my friend Ying Cai.
-
-      The embroidery (by me) tells two migration stories divided across economic class and held by culture. A garment worker in NYC Chinatown on the left; my mother designing semiconductors on the right. Both of them, immigrant people within a context of mass production.
-
-      In the center, a child who is born in America.
-
-      [me1.jpg]
-
-      The hand-dyed garment is made by Ying. She's so beautifully synthesized the Chinese Du-dou silhouette with the Western apron. The shape holds stories of domesticity, Confucian patriarchy, female labor.
-      In her words, yellow is a strong but gentle color.
-
-      [sideview3.jpg]
-      [backview.jpg]
-
-      <br>
-      <span class="emph"> GARMENT DETAIL </span>
-      [layflat.jpg]
-      [closeup1.jpg]
-      [closeup2.jpg]
-
-      <br>
-      <span class="emph"> PROCESS </span>
-      [process1.jpg]
-      [process3.jpg]
-
-      <br>
-      <span class="emph"> INSPIRATION </span>
-      The embroidery for this textile work was inspired by a poem I wrote: <span class="emph">Chinatown (Many Migrations)</span>.
-
-      Published in <a href="https://issuu.com/mitaai/docs/zinefinal_4_no_bleed_for_online_export-compressed" target="_blank">MIT Asian American Initiative Zine: Rooted</a>.
-      Also featured in <a href="https://www.unboundvisualarts.org/new-narratives-reclaiming-asian-identity-through-story-storyteller-series/" target ="_blank">VISIONS Unbounded Art Storytellers Exhibit & Panel Roundtable</a>.
-      [chinatown 1.jpg]
-      Whose working immigrant bodies do we value through our language?
-      Sometimes I find myself a tourist within my extended family's own cultural or class experience. In the broader Chinese diaspora, I feel sensitive to moments when way race unifies across class, and create moments of the familiar.
-
-      `
-  },
+  // {
+  //     "folder":"manymigrations",
+  //     "name":"Many Migrations",
+  //     "tags":"Textiles, poetry",
+  //     "thumb":"thumb.jpg",
+  //     "content":`
+  //     A cross-seas collaboration with my friend Ying Cai.
+  //
+  //     The embroidery (by me) tells two migration stories divided across economic class and held by culture. A garment worker in NYC Chinatown on the left; my mother designing semiconductors on the right. Both of them, immigrant people within a context of mass production.
+  //
+  //     In the center, a child who is born in America.
+  //
+  //     [me1.jpg]
+  //
+  //     The hand-dyed garment is made by Ying. She's so beautifully synthesized the Chinese Du-dou silhouette with the Western apron. The shape holds stories of domesticity, Confucian patriarchy, female labor.
+  //     In her words, yellow is a strong but gentle color.
+  //
+  //     [sideview3.jpg]
+  //     [backview.jpg]
+  //
+  //     <br>
+  //     <span class="emph"> GARMENT DETAIL </span>
+  //     [layflat.jpg]
+  //     [closeup1.jpg]
+  //     [closeup2.jpg]
+  //
+  //     <br>
+  //     <span class="emph"> PROCESS </span>
+  //     [process1.jpg]
+  //     [process3.jpg]
+  //
+  //     <br>
+  //     <span class="emph"> INSPIRATION </span>
+  //     The embroidery for this textile work was inspired by a poem I wrote: <span class="emph">Chinatown (Many Migrations)</span>.
+  //
+  //     Published in <a href="https://issuu.com/mitaai/docs/zinefinal_4_no_bleed_for_online_export-compressed" target="_blank">MIT Asian American Initiative Zine: Rooted</a>.
+  //     Also featured in <a href="https://www.unboundvisualarts.org/new-narratives-reclaiming-asian-identity-through-story-storyteller-series/" target ="_blank">VISIONS Unbounded Art Storytellers Exhibit & Panel Roundtable</a>.
+  //     [chinatown 1.jpg]
+  //     Whose working immigrant bodies do we value through our language?
+  //     Sometimes I find myself a tourist within my extended family's own cultural or class experience. In the broader Chinese diaspora, I feel sensitive to moments when way race unifies across class, and create moments of the familiar.
+  //
+  //     `
+  // },
   // {
   //       "folder":"opposites",
   //       "name":"Opposites Workshop",
