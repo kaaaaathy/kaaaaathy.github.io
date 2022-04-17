@@ -176,49 +176,49 @@ Course Website → <a href="https://kaaathy.com/comppoetics" target="_blank">Com
     `
   },
 
-
-
-{
-    "folder":"breath",
-    "name":"Breath as a Line",
-    "tags":"Informal teaching",
-    "thumb":"action5.jpg",
-    "content":`
-
-    Inspired by Buddhist monk <a href="https://en.wikipedia.org/wiki/Th%C3%ADch_Nh%E1%BA%A5t_H%E1%BA%A1nh" target="_blank">Thích Nhất Hạnh</a>, I was curious about ways in which mindful activities with the body – like walking – can be a kind of art in of itself.
-
-    And vice versa: "art-making activities" can become meditations. Your art-making might center body and time in mechanical, transient ways. Think Richard Long's walks, or Goldsworthy-style <a href="https://www.instagram.com/p/B5BixoGlVbwBOuRbQPQz76Gmg1e4b9uOwN5NW40/" target="_blank">leaves</a>.
-
-    To me, moving through space in this way has always been an ancient, unnamed, beautiful art (especially outside the canon of white contemporary artists.)
-
-    <br>
-    <span class="emph">ART AS CONTEMPLATIVE CARE / CONTEMPLATIVE CARE AS ART </span>
-
-    In this 2-hour workshop, I offer space where people could consider the body while drawing. This way, drawing is more like breathing than it is image-making.
-
-    [1.jpg]
-    [drawing2.jpg]
-
-    <br>
-    <span class="emph"> VARIATIONS ON A LINE: </span> Drawing with different hands, closing your eyes, breathing through a line.
-    [action3.jpg]
-    [drawing3.jpg]
-
-    [action4.jpg]
-    [drawing4.jpg]
-
-    [line_hard_break_2.jpg]
-
-    <br>
-    <span class="emph">BUILDING A GUEST HOUSE: </span> Creating a sculpture to hold feeling.
-    [action5.jpg]
-    [drawing5.jpg]
-    [end5.jpg]
-
-    [drawing6.jpg]
-    [end0.jpg]
-    `
-  },
+//
+//
+// {
+//     "folder":"breath",
+//     "name":"Breath as a Line",
+//     "tags":"Informal teaching",
+//     "thumb":"action5.jpg",
+//     "content":`
+//
+//     Inspired by Buddhist monk <a href="https://en.wikipedia.org/wiki/Th%C3%ADch_Nh%E1%BA%A5t_H%E1%BA%A1nh" target="_blank">Thích Nhất Hạnh</a>, I was curious about ways in which mindful activities with the body – like walking – can be a kind of art in of itself.
+//
+//     And vice versa: "art-making activities" can become meditations. Your art-making might center body and time in mechanical, transient ways. Think Richard Long's walks, or Goldsworthy-style <a href="https://www.instagram.com/p/B5BixoGlVbwBOuRbQPQz76Gmg1e4b9uOwN5NW40/" target="_blank">leaves</a>.
+//
+//     To me, moving through space in this way has always been an ancient, unnamed, beautiful art (especially outside the canon of white contemporary artists.)
+//
+//     <br>
+//     <span class="emph">ART AS CONTEMPLATIVE CARE / CONTEMPLATIVE CARE AS ART </span>
+//
+//     In this 2-hour workshop, I offer space where people could consider the body while drawing. This way, drawing is more like breathing than it is image-making.
+//
+//     [1.jpg]
+//     [drawing2.jpg]
+//
+//     <br>
+//     <span class="emph"> VARIATIONS ON A LINE: </span> Drawing with different hands, closing your eyes, breathing through a line.
+//     [action3.jpg]
+//     [drawing3.jpg]
+//
+//     [action4.jpg]
+//     [drawing4.jpg]
+//
+//     [line_hard_break_2.jpg]
+//
+//     <br>
+//     <span class="emph">BUILDING A GUEST HOUSE: </span> Creating a sculpture to hold feeling.
+//     [action5.jpg]
+//     [drawing5.jpg]
+//     [end5.jpg]
+//
+//     [drawing6.jpg]
+//     [end0.jpg]
+//     `
+//   },
 
   {  "folder":"looting",
  "name":"Looting Dream",
@@ -323,61 +323,93 @@ Course Website → <a href="https://kaaathy.com/comppoetics" target="_blank">Com
   },
 
 
-{  "folder":"jelly",
-  "name":"Pulmō Plastics",
-  "tags":"Speculative objects, biodesign",
-  "thumb":"overview.jpg",
-  "content":`
-
-  Collaboration with biologist Marian Shaw as part of NYU ITP's Biodesign studio.<br>I contributed to the research, concept, storytelling, and writing.
-  Selected as a finalist for the <a href="https://biodesignchallenge.org/" target="_blank">Biodesign Challenge</a>, and presented at MoMA in 2018.
-
-  [overview_crop.jpg]
-
-  As part of the man-made climate crisis, oceans are warmer and more acidic. Jellyfish, known as pulmōnēs in Latin, are <a href="https://www.youtube.com/watch?time_continue=21&v=uh4eImPI-OY&feature=emb_logo&ab_channel=HarvardUniversity" target="_blank">overpopulating</a> parts of global oceans.
-  Proliferating in blooms, they <a href="www.thejakartapost.com/news/2020/05/01/workers-fishermen-scramble-to-fend-off-jellyfish-bloom-in-waters-off-east-java-power-plant.html" target="_blank">pose a threat</a> to human infrastructures, but more importantly, to biodiversity in the marine ecosystem.
-
-  [jelly-context.jpg]<span style="font-size:11px">Image copyright: Monty Graham, Dauphin Island Sea Lab // Getty Images</span>
-
-  When plastic enters the oceans, marine wildlife often confuse it for their jellyfish prey and subsequently die from plastic consumption.
-    [jelly21.jpg]<span style="font-size:11px">Image credit: Troy Mayne, World Wildlife Foundation.</span>
-
-    What if we could close the loop between our jellyfish ‘problem’ and another marine threat— <span class="emph">petroleum-based plastic waste</span>?
-
-  [jelly3.jpeg]
-  Jellyfish protein is almost exclusively <span class="emph">the structural protein collagen.</span> Given this 500-million year old creature consists of collagen of an earlier template in the evolutionary cycle, it has the potential to be a more universal biomaterial for various applications.
-  We propose the use of <span class="emph">jellyfish gelatin</span> (which can be obtained by heating jellyfish collagen), <span class="emph">vegetable glycerin,</span> and <span class="emph">chitosan</span> to create food-safe, <a href="https://fabtextiles.org/the-secrets-of-bioplastic/" target="_blank">biodegradable plastics</a> which enter safely back into the ecosystem
-
-  [jelly9.jpeg]
-
+      {
+  		"folder":"turrell",
+  		"name":"James Turrell Museum",
+  		"tags":"Brand Identity, Print",
+  		"thumb":"books_thumb.jpg",
+  		"content":`
+  		I rebranded the James Turrell Museum in Bodega Colome, Argentina in 6 weeks for RISD's Brand Identity studio.
+  		I first wanted to know more about Turrell's work. What stood out to me was how he distills nature into this pure, temporal experience. His work focuses and frames natural processes—like the sunset— so the viewer enters this almost meditative state, where they are hyper-aware of passing time.
+  		Here's some early research: obsessive moodboarding, drawing, and word studies.
+  		[process4.jpg]
+  		[process1.jpg]
+  		<br><br>
+  		<span class="emph">LOGO CONCEPT</span>
+  		The final mark references a slow, recession of light, space, and atmosphere, while winking at the “T” of Turrell. The palette is a saturated take on the gradation of daylight, and the colors of the Turrell’s native Arizona landscape.
+  		[turrell-02.svg]
+  [stationary_crop.jpg]
+  		[turrell12.jpg]
+  		[poster.jpg]
+  		<br>
+  		<span class="emph">PRINT MATERIALS</span>
+  		The way a Turrell piece transforms when viewed during different times of the day inspired these materials. The museum, open from 10:00AM to 6:00PM daily, issues a different colored ticket to visitors each hour. Viewed as a long strip, these tickets appear as a continuous gradient.
+  		[ticket.jpg]
+  The event brochures together reference changing time throughout the year.
+          [books_all.jpg]
+          [book2.jpg]
   <br>
-  <br>
-  <span class="emph">OUR PROCESS</span>
-  We tested different ratios of glycerin to gelatin and plastic shape and size, creating samples with varying material properties that could lend themselves to different objects.
-
-  [jelly5.jpeg]
-
-  Crunchy like a disposable beverage bottle...
-  [jelly6.jpeg]
-  ...or supple yet strong like a ‘plastic’ bag.
-  [jelly7.jpeg]
-
-  In our final samples, we dyed plastics with beet juice and incorporated pigments produced by bacteria engineered to express colorful proteins derived from marine animals.
-  [jelly18.jpeg]
-
-
-
-  <br>
-  <br>
-  <span class="emph">FINAL THOUGHTS</span>
-  Despite the current abundance of jellyfish, do we have the right to steal them — even dead ones — from nature for our material desires?
-  [pulmo_samples.jpg]
-  We recognize that creating new biomaterials is not a substitute for urgent <a href="https://en.wikipedia.org/wiki/Green_New_Deal" target="_blank">policy</a> towards real environmental justice. Nor do we want to encourage future cycles of exploitation of abundance in order to deplete it.
-  Our hope with this work is to illustrate effects of unsustainable supply chains on the ocean today — and to ask the audience to imagine how materials we use in the future can be more interoperable with our biological planet.
-
-
-  `
-},
+  				<span class="emph">THE MUSEUM SPACE</span>
+  What stood out to me about the museum's location was how beautiful the surrounding wineries were. This outdoor installation would bring visitors together in a tranquil museum garden. The pool connects to an unseen irrigation system which waters the nearby vines. In this way, the piece feeds back into the terrain, the way a Turrell piece works together with nature.
+  		[reflect_gif.gif]
+  		`
+  	},
+//
+// {  "folder":"jelly",
+//   "name":"Pulmō Plastics",
+//   "tags":"Speculative objects, biodesign",
+//   "thumb":"overview.jpg",
+//   "content":`
+//
+//   Collaboration with biologist Marian Shaw as part of NYU ITP's Biodesign studio.<br>I contributed to the research, concept, storytelling, and writing.
+//   Selected as a finalist for the <a href="https://biodesignchallenge.org/" target="_blank">Biodesign Challenge</a>, and presented at MoMA in 2018.
+//
+//   [overview_crop.jpg]
+//
+//   As part of the man-made climate crisis, oceans are warmer and more acidic. Jellyfish, known as pulmōnēs in Latin, are <a href="https://www.youtube.com/watch?time_continue=21&v=uh4eImPI-OY&feature=emb_logo&ab_channel=HarvardUniversity" target="_blank">overpopulating</a> parts of global oceans.
+//   Proliferating in blooms, they <a href="www.thejakartapost.com/news/2020/05/01/workers-fishermen-scramble-to-fend-off-jellyfish-bloom-in-waters-off-east-java-power-plant.html" target="_blank">pose a threat</a> to human infrastructures, but more importantly, to biodiversity in the marine ecosystem.
+//
+//   [jelly-context.jpg]<span style="font-size:11px">Image copyright: Monty Graham, Dauphin Island Sea Lab // Getty Images</span>
+//
+//   When plastic enters the oceans, marine wildlife often confuse it for their jellyfish prey and subsequently die from plastic consumption.
+//     [jelly21.jpg]<span style="font-size:11px">Image credit: Troy Mayne, World Wildlife Foundation.</span>
+//
+//     What if we could close the loop between our jellyfish ‘problem’ and another marine threat— <span class="emph">petroleum-based plastic waste</span>?
+//
+//   [jelly3.jpeg]
+//   Jellyfish protein is almost exclusively <span class="emph">the structural protein collagen.</span> Given this 500-million year old creature consists of collagen of an earlier template in the evolutionary cycle, it has the potential to be a more universal biomaterial for various applications.
+//   We propose the use of <span class="emph">jellyfish gelatin</span> (which can be obtained by heating jellyfish collagen), <span class="emph">vegetable glycerin,</span> and <span class="emph">chitosan</span> to create food-safe, <a href="https://fabtextiles.org/the-secrets-of-bioplastic/" target="_blank">biodegradable plastics</a> which enter safely back into the ecosystem
+//
+//   [jelly9.jpeg]
+//
+//   <br>
+//   <br>
+//   <span class="emph">OUR PROCESS</span>
+//   We tested different ratios of glycerin to gelatin and plastic shape and size, creating samples with varying material properties that could lend themselves to different objects.
+//
+//   [jelly5.jpeg]
+//
+//   Crunchy like a disposable beverage bottle...
+//   [jelly6.jpeg]
+//   ...or supple yet strong like a ‘plastic’ bag.
+//   [jelly7.jpeg]
+//
+//   In our final samples, we dyed plastics with beet juice and incorporated pigments produced by bacteria engineered to express colorful proteins derived from marine animals.
+//   [jelly18.jpeg]
+//
+//
+//
+//   <br>
+//   <br>
+//   <span class="emph">FINAL THOUGHTS</span>
+//   Despite the current abundance of jellyfish, do we have the right to steal them — even dead ones — from nature for our material desires?
+//   [pulmo_samples.jpg]
+//   We recognize that creating new biomaterials is not a substitute for urgent <a href="https://en.wikipedia.org/wiki/Green_New_Deal" target="_blank">policy</a> towards real environmental justice. Nor do we want to encourage future cycles of exploitation of abundance in order to deplete it.
+//   Our hope with this work is to illustrate effects of unsustainable supply chains on the ocean today — and to ask the audience to imagine how materials we use in the future can be more interoperable with our biological planet.
+//
+//
+//   `
+// },
 
 // {
 //   "folder":"searchdivides",
@@ -665,8 +697,6 @@ Course Website → <a href="https://kaaathy.com/comppoetics" target="_blank">Com
 //   `
 //
 // },
-
-
 
 
 
