@@ -40,14 +40,6 @@ Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtua
   `
   },
 
-  // <iframe src="https://player.vimeo.com/video/650972652?h=586c7f8ceb" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-  // [1.jpg]
-  // [5.jpg]
-  // [22.jpg]
-  //
-  // [end.png]
-  // [b1.png]
-
 
   {  "folder":"eroevent",
     "name":"erotic event listeners",
@@ -321,39 +313,39 @@ Course Website → <a href="https://kaaathy.com/comppoetics" target="_blank">Com
   [3alt.jpg]
   `
   },
-
-
-      {
-  		"folder":"turrell",
-  		"name":"James Turrell Museum",
-  		"tags":"Brand Identity, Print",
-  		"thumb":"books_thumb.jpg",
-  		"content":`
-  		I rebranded the James Turrell Museum in Bodega Colome, Argentina in 6 weeks for RISD's Brand Identity studio.
-  		I first wanted to know more about Turrell's work. What stood out to me was how he distills nature into this pure, temporal experience. His work focuses and frames natural processes—like the sunset— so the viewer enters this almost meditative state, where they are hyper-aware of passing time.
-  		Here's some early research: obsessive moodboarding, drawing, and word studies.
-  		[process4.jpg]
-  		[process1.jpg]
-  		<br><br>
-  		<span class="emph">LOGO CONCEPT</span>
-  		The final mark references a slow, recession of light, space, and atmosphere, while winking at the “T” of Turrell. The palette is a saturated take on the gradation of daylight, and the colors of the Turrell’s native Arizona landscape.
-  		[turrell-02.svg]
-  [stationary_crop.jpg]
-  		[turrell12.jpg]
-  		[poster.jpg]
-  		<br>
-  		<span class="emph">PRINT MATERIALS</span>
-  		The way a Turrell piece transforms when viewed during different times of the day inspired these materials. The museum, open from 10:00AM to 6:00PM daily, issues a different colored ticket to visitors each hour. Viewed as a long strip, these tickets appear as a continuous gradient.
-  		[ticket.jpg]
-  The event brochures together reference changing time throughout the year.
-          [books_all.jpg]
-          [book2.jpg]
-  <br>
-  				<span class="emph">THE MUSEUM SPACE</span>
-  What stood out to me about the museum's location was how beautiful the surrounding wineries were. This outdoor installation would bring visitors together in a tranquil museum garden. The pool connects to an unseen irrigation system which waters the nearby vines. In this way, the piece feeds back into the terrain, the way a Turrell piece works together with nature.
-  		[reflect_gif.gif]
-  		`
-  	},
+  //
+  //
+  //     {
+  // 		"folder":"turrell",
+  // 		"name":"James Turrell Museum",
+  // 		"tags":"Brand Identity, Print",
+  // 		"thumb":"books_thumb.jpg",
+  // 		"content":`
+  // 		I rebranded the James Turrell Museum in Bodega Colome, Argentina in 6 weeks for RISD's Brand Identity studio.
+  // 		I first wanted to know more about Turrell's work. What stood out to me was how he distills nature into this pure, temporal experience. His work focuses and frames natural processes—like the sunset— so the viewer enters this almost meditative state, where they are hyper-aware of passing time.
+  // 		Here's some early research: obsessive moodboarding, drawing, and word studies.
+  // 		[process4.jpg]
+  // 		[process1.jpg]
+  // 		<br><br>
+  // 		<span class="emph">LOGO CONCEPT</span>
+  // 		The final mark references a slow, recession of light, space, and atmosphere, while winking at the “T” of Turrell. The palette is a saturated take on the gradation of daylight, and the colors of the Turrell’s native Arizona landscape.
+  // 		[turrell-02.svg]
+  // [stationary_crop.jpg]
+  // 		[turrell12.jpg]
+  // 		[poster.jpg]
+  // 		<br>
+  // 		<span class="emph">PRINT MATERIALS</span>
+  // 		The way a Turrell piece transforms when viewed during different times of the day inspired these materials. The museum, open from 10:00AM to 6:00PM daily, issues a different colored ticket to visitors each hour. Viewed as a long strip, these tickets appear as a continuous gradient.
+  // 		[ticket.jpg]
+  // The event brochures together reference changing time throughout the year.
+  //         [books_all.jpg]
+  //         [book2.jpg]
+  // <br>
+  // 				<span class="emph">THE MUSEUM SPACE</span>
+  // What stood out to me about the museum's location was how beautiful the surrounding wineries were. This outdoor installation would bring visitors together in a tranquil museum garden. The pool connects to an unseen irrigation system which waters the nearby vines. In this way, the piece feeds back into the terrain, the way a Turrell piece works together with nature.
+  // 		[reflect_gif.gif]
+  // 		`
+  // 	},
 //
 // {  "folder":"jelly",
 //   "name":"Pulmō Plastics",
