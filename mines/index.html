@@ -1,0 +1,139 @@
+<html>
+    <head> 
+
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
+        integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14="
+        crossorigin=""/>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,400;0,500;1,400;1,500&family=DotGothic16&display=swap" rel="stylesheet">
+
+        <script type="text/javascript" src ="papaparse.min.js"></script>
+
+        <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
+        integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg="
+        crossorigin=""></script>  
+        
+        <style>
+            body {
+                background:lime}
+            
+            p {
+                font-family:'DotGothic16';
+                color:white;
+            }
+        </style>
+      
+    </head>
+    <body>
+        <section id ="container" style="z-index:0">
+        <div id="map" style="height: 100%;"></div>
+        </section>
+        <p id="text" style="position:fixed;bottom:0px;left:40px;z-index: 401;font-size:20px"><span style="background:white;z-index:401"></span>Location Name</span></p>
+        <p id="minText" style="position:fixed;top:150px;left:40px;z-index:402;font-size:80px"><span style="background:white;z-index:401">Mineral</span></p>
+
+    
+    
+    
+    </body>
+            <script type="text/javascript">
+
+                let lat = []; 
+                let lon = [];
+                let place = [];
+                let mineral = [];
+                let data;
+                let text = document.getElementById('text');
+                let minText = document.getElementById('minText');
+                Papa.parse('/sedcu/main.csv',{
+                    download:true,
+                        complete: function(results, file) {
+                        console.log("Parsing complete:", results, file);
+                        data = results.data;
+                        for(let i = 1; i < data.length; i++){
+                            lat.push(data[i][27]);
+                            lon.push(data[i][28]);
+                            place.push(data[i][15]);
+                            mineral.push(data[i][18]);
+                         }
+                         console.log(place);
+
+                         play();
+                    }
+                })
+
+                
+  
+
+
+                //NEED TO
+                //take 29th and 30th array object (lat and long)
+                //take the 18th and 19th number (mineral)
+                //take the 2nd or 5th to get location
+
+
+                 // Your Mapboxgl API Key
+                 let key = 'pk.eyJ1Ijoia2FhYXRoeSIsImEiOiJja3N4dHBqOTEyZDZmMm5rdDd3aDRranl2In0.4oP1N1f4Bs43c9feXjCH6g'
+
+                // Map options
+                var map = L.map('map').setView([33.8472222222222, -0.341666666666667], 20);
+
+                L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoia2FhYXRoeSIsImEiOiJja3N4dHBqOTEyZDZmMm5rdDd3aDRranl2In0.4oP1N1f4Bs43c9feXjCH6g', {
+                    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+                    maxZoom: 18,
+                    id: 'mapbox/satellite-v9',
+                    tileSize: 512,
+                    zoomOffset: -1,
+                    zoomControl:false,
+                    accessToken: key
+                    
+                }).addTo(map);
+
+
+                let speed = 8000;
+                let delay = 0;
+
+                        //resize code
+                        // let cont = document.getElementById('container');
+                        //     cont.style.height = window.innerHeight + "px";
+                        //     window.addEventListener('resize',function(){
+                        //         cont.style.height = window.innerHeight + "px";
+                        // });
+
+                        async function play(){
+                            // map.setMaxZoom(100);
+
+                            await wait(delay);
+                            await animate();
+                        }
+
+                        async function animate() {
+
+                        for (let i = 1; i < data.length - 1; i++){
+                            let x = lon[i];
+                            let y = lat[i];
+                            let latlng = L.latLng(x, y);
+                            map.setZoom(50);
+
+                            map.flyTo(latlng);
+                            text.innerText = x + ", " + y + " " + place[i];
+                            minText.innerText = mineral[i];
+
+                            await wait(speed);
+                        }
+                        await animate();
+                        }
+
+                        function wait(time) {
+                        return new Promise(resolve => {
+                            setTimeout(() => {
+                            resolve('resolved');
+                            }, time);
+                        });
+                        }
+
+               
+            </script>
+
+</html>

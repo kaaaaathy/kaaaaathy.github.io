@@ -1,0 +1,116 @@
+<html>
+    <head> 
+
+        
+        <script type="text/javascript" src ="papaparse.min.js"></script>
+
+
+
+        <script src="https://unpkg.com/mappa-mundi@0.0.4/dist/mappa.min.js" type="text/javascript"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+        
+        <script type="text/javascript">
+
+                let data;
+                Papa.parse('/sedcu/main.csv',{
+                    download:true,
+                        complete: function(results, file) {
+                        console.log("Parsing complete:", results, file);
+                        data = results;
+                    }
+                })
+
+
+                //NEED TO
+                //take 29th and 30th array object (lat and long)
+                //take the 18th and 19th number (mineral)
+                //take the 2nd or 5th to get location
+
+
+
+
+        let p = document.getElementById('text');
+
+
+        let speed = 2800;
+        let delay = 0;
+
+                //resize code
+                // let cont = document.getElementById('container');
+                //     cont.style.height = window.innerHeight + "px";
+                //     window.addEventListener('resize',function(){
+                //         cont.style.height = window.innerHeight + "px";
+                // });
+
+                // for (let i = 0; i<data.length;i++){
+
+                // play();
+                // });
+
+
+                // async function play(){
+                // await wait(delay);
+                // await animateColor();
+                // }
+
+                // async function animateColor() {
+                // for (let i = 0; i < hex.length;i++){
+                //     await wait(speed);
+                // }
+                // await animateColor();
+                // }
+
+        function wait(time) {
+        return new Promise(resolve => {
+            setTimeout(() => {
+            resolve('resolved');
+            }, time);
+        });
+        }
+
+        // Your Mapboxgl API Key
+        let key = 'pk.eyJ1Ijoia2FhYXRoeSIsImEiOiJja3N4dHBqOTEyZDZmMm5rdDd3aDRranl2In0.4oP1N1f4Bs43c9feXjCH6g'
+
+        // Create a new Mappa instance using Mapboxgl.
+        let mappa = new Mappa('Mapbox', key);
+        let myMap;
+        let can;
+        // Map options
+
+
+        const options = {
+                lat: 33.8472222222222,
+                lng: -0.341666666666667,
+                zoom: 20,
+                studio: true, // false to use non studio styles
+                style: 'mapbox://styles/mapbox/satellite-v9'
+                // style: 'mapbox.dark' //streets, outdoors, light, dark, satellite (for nonstudio)
+                // style: 'mapbox://styles/kaaathy/cku2wxteo03oy17l48i9y30d1',
+        };
+
+
+        //p5 mappa canvas
+        function setup(){
+                can = createCanvas(windowWidth, windowHeight);
+                can.parent('canvas');
+                // Create a tile map centered in New York with an initial zoom level of 4.
+                myMap = mappa.tileMap(options);
+
+        // Overlay the tile map to the p5 canvas. This will display the map.
+                myMap.overlay(can);
+
+        }
+
+
+
+
+
+        </script>
+
+    </head>
+    <body style="background:black">
+        <div id="canvas"></div>
+        <div id="text"></div>
+    </body>
+</html>
