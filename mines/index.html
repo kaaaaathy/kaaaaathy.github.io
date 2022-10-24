@@ -1,9 +1,7 @@
 <html>
     <head> 
 
-        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
-        integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14="
-        crossorigin=""/>
+        <link rel="stylesheet" href="leaflet.css">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,23 +15,48 @@
         
         <style>
             body {
-                background:lime}
+                background:rosybrown;
+            }
             
             p {
                 font-family:'DotGothic16';
                 color:white;
             }
+
+            #text-container{
+                z-index: 401;
+                display:flex;
+                position:fixed;
+                height:100%;
+                width:100%;
+                top:0;
+                left:0;
+                align-items: center;
+                justify-content: center;
+
+
+            }
+            #minText{
+                max-width: 800px;
+                text-align: center;
+                line-height: 1em;
+                font-size:75px;
+                letter-spacing: 1px;
+            }
+            #locText{
+                position:fixed;bottom:0px;left:20px;font-size:20px
+            }
+
         </style>
       
     </head>
     <body>
-        <section id ="container" style="z-index:0">
         <div id="map" style="height: 100%;"></div>
-        </section>
-        <p id="text" style="position:fixed;bottom:0px;left:40px;z-index: 401;font-size:20px"><span style="background:white;z-index:401"></span>Location Name</span></p>
-        <p id="minText" style="position:fixed;top:150px;left:40px;z-index:402;font-size:80px"><span style="background:white;z-index:401">Mineral</span></p>
+        <div id="text-container">
+            <p id="locText"><span style="background:white;z-index:401"></span>Location Name</span></p>
+            <p id="minText">Mineral</p>
 
-    
+         </div>
     
     
     </body>
@@ -44,20 +67,22 @@
                 let place = [];
                 let mineral = [];
                 let data;
-                let text = document.getElementById('text');
+                let loctext = document.getElementById('locText');
                 let minText = document.getElementById('minText');
-                Papa.parse('/sedcu/main.csv',{
+
+
+                Papa.parse('minfac-0-copper.txt',{
                     download:true,
                         complete: function(results, file) {
                         console.log("Parsing complete:", results, file);
                         data = results.data;
                         for(let i = 1; i < data.length; i++){
-                            lat.push(data[i][27]);
-                            lon.push(data[i][28]);
-                            place.push(data[i][15]);
-                            mineral.push(data[i][18]);
+                            lat.push(data[i][10]);
+                            lon.push(data[i][11]);
+                            place.push(data[i][5]);
+                            mineral.push(data[i][6]);
                          }
-                         console.log(place);
+                         console.log(lat + " " + lon);
 
                          play();
                     }
@@ -77,7 +102,9 @@
                  let key = 'pk.eyJ1Ijoia2FhYXRoeSIsImEiOiJja3N4dHBqOTEyZDZmMm5rdDd3aDRranl2In0.4oP1N1f4Bs43c9feXjCH6g'
 
                 // Map options
-                var map = L.map('map').setView([33.8472222222222, -0.341666666666667], 20);
+                var map = L.map('map').setView([-19.33,146.89], 10);
+
+               
 
                 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoia2FhYXRoeSIsImEiOiJja3N4dHBqOTEyZDZmMm5rdDd3aDRranl2In0.4oP1N1f4Bs43c9feXjCH6g', {
                     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -102,8 +129,6 @@
                         // });
 
                         async function play(){
-                            // map.setMaxZoom(100);
-
                             await wait(delay);
                             await animate();
                         }
@@ -111,13 +136,13 @@
                         async function animate() {
 
                         for (let i = 1; i < data.length - 1; i++){
-                            let x = lon[i];
-                            let y = lat[i];
+                            let y = lon[i];
+                            let x = lat[i];
                             let latlng = L.latLng(x, y);
-                            map.setZoom(50);
+                            map.setZoom(20);
 
                             map.flyTo(latlng);
-                            text.innerText = x + ", " + y + " " + place[i];
+                            loctext.innerText = x + ", " + y + " " + place[i];
                             minText.innerText = mineral[i];
 
                             await wait(speed);
