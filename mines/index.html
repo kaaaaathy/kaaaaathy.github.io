@@ -79,6 +79,19 @@
                 let map = L.map('map').setView([-19.33,146.89], zoom);
 
 
+                // Map options
+
+                L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoia2FhYXRoeSIsImEiOiJja3N4dHBqOTEyZDZmMm5rdDd3aDRranl2In0.4oP1N1f4Bs43c9feXjCH6g', {
+                    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+                    maxZoom: 18,
+                    id: 'mapbox/satellite-v9',
+                    tileSize: 512,
+                    zoomOffset: -1,
+                    accessToken: key
+                    
+                }).addTo(map);
+
+
                 Papa.parse('minfac-0-copper.txt',{
                     download:true,
                         complete: function(results, file) {
@@ -90,19 +103,6 @@
                             place.push(data[i][5]);
                             mineral.push(data[i][6]);
                          }
-
-                        // Map options
-
-                        L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoia2FhYXRoeSIsImEiOiJja3N4dHBqOTEyZDZmMm5rdDd3aDRranl2In0.4oP1N1f4Bs43c9feXjCH6g', {
-                            attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-                            maxZoom: 18,
-                            id: 'mapbox/satellite-v9',
-                            tileSize: 512,
-                            zoomOffset: -1,
-                            zoomControl:false,
-                            accessToken: key
-                            
-                        }).addTo(map);
 
                          play();
                     }
