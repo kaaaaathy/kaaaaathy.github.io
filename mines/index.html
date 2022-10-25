@@ -137,7 +137,7 @@
                         let latlng = L.latLng(x, y);
                         map.setZoom(zoom);
 
-                        map.panTo(latlng);
+                        map.flyTo(latlng);
                         loctext.innerText = x + ", " + y + " " + place[i];
                         minText.innerText = mineral[i];
 
