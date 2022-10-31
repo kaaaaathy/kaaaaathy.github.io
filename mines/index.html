@@ -41,11 +41,11 @@
 
 
             }
-            #minText{
+            /* #minText{
                 position:fixed;top:0px;right:20px;font-size:20px
 
              
-            }
+            } */
             #poemText{
                 font-size:75px;
                 text-align: center;
@@ -64,8 +64,8 @@
         <div id="map" style="height: 100%;"></div>
         <div id="text-container">
             <p id="locText"></p>
-            <p id="minText"></p>
-            <p id="poemText">ON TUBES</p>
+            <!-- <p id="minText"></p> -->
+            <p id="poemText">(I am drawing a line)</p>
 
 
          </div>
@@ -152,10 +152,10 @@
 
                         map.flyTo(latlng);
                         loctext.innerText = x + ", " + y + " " + place[i];
-                        minText.innerText = mineral[i];
-                        if(i < poem.length){
-                        poemText.innerText = poem[i-1];
-                        } 
+                        poemText.innerText = mineral[i];
+                        // if(i < poem.length){
+                        // poemText.innerText = poem[i-1];
+                        // } 
                         await wait(speed);
                     }
 
