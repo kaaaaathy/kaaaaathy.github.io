@@ -24,8 +24,8 @@
             }
             
             p {
-                /* font-family:'DotGothic16'; */
-                font-family:courier;
+                font-family:'Arial';
+                /* font-family:courier; */
                 color:white;
             }
 
@@ -49,7 +49,7 @@
             } */
             #mineText{
                 /* font-size:75px; */
-                font-size:20px;
+                font-size:16px;
                 text-align: center;
                 line-height: 1em;
                 /* letter-spacing: 1px; */
@@ -61,13 +61,21 @@
                 max-width:800px;
             }
             #locText{
-                position:fixed;bottom:0px;font-size:20px;
+                position:fixed;bottom:0px;
                 background-color: rgba(47, 79, 79,0.5);
                 color:whitesmoke;
                 padding:4px;
                 border-radius: 8px;
+                font-size:16px;
                 text-align: center;
 
+
+            }
+
+            #scrollText{
+                font-size:75px;text-align:center;
+                line-height: 1em;
+                font-family:'DotGothic16';
 
             }
 
@@ -78,9 +86,10 @@
         <div id="map" style="height: 100%;"></div>
         <div id="text-container">
             <p id="locText"></p>
-            <!-- <p id="minText"></p> -->
-            <p id="mineText">(I am drawing a line)</p>
-            <marquee scrollamount="3" width="40%" direction="up" height="80%"><p style="font-size:75px;text-align:center">what lines lace the undersea? copper, mineral, thickly. in which falling in love, and paying taxes resemble each other. plunked from boats edge they sink and caress sea floor. off mendocino, 600 wait for signal. instead sound and light extend pacificside, a sentence unraveling backwards the period.
+            <p id="mineText"></p>
+            <!-- <marquee scrollamount="3" width="30%" direction="up" height="80%"> -->
+            <marquee scrollamount="3">
+                    <p id="scrollText">I am drawing a line    *    I am drawing a line    *    I am drawing a line    *    what lines lace the undersea? copper, mineral, thickly. in which falling in love, and paying taxes resemble each other. plunked from boats edge they sink and caress sea floor. off mendocino, 600 wait for signal. instead sound and light extend pacificside, a sentence unraveling backwards the period.
                 tell the myth of global. american cable, english telegraph wire form warp extorting electric money. ocean becomes cross-weave, cut currents across optical fiber & silicon gel buffed by plastic. ultra high strength steel copper sheath polyethylene nylon galvanize thread in a tar soaked yarn. erotic verdigris. see also: contraception. see also: circuit industry. see also: goddess of spermicidic semiconduction. she is venus! she is named—</p></marquee>
 
 
@@ -144,7 +153,7 @@
 
 
                 let speed = 8000;
-                let delay = 4000;
+                let delay = 0;
 
                         //resize code
                         // let cont = document.getElementById('container');
