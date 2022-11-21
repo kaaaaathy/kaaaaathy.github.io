@@ -93,13 +93,44 @@
     
     
     </body>
-            <script type="text/javascript">
+    <script src="/tone/build/Tone.js"></script>
+    <script type="text/javascript">
+
+                document.body.onmousedown =()=> Tone.start();
+
+                const synthA = new Tone.PolySynth().toDestination();
+                // set the attributes across all the voices using 'set'
+                synthA.set({ detune: -1200 });
+
+                // const synthB = new Tone.MonoSynth({
+                //     oscillator: {
+                //         type: "square"
+                //     },
+                //     envelope: {
+                //         attack: 0.1
+                //     }
+                // }).toDestination();
+                //play a note every quarter-note
+                const loopA = new Tone.Loop(time => {
+                //     synthA.triggerAttackRelease("C4", "1n", time);
+                
+                    synthA.triggerAttackRelease(["C4", "E4", "A4"], 5);
+                }, "1n").start(0);
+                //play another note every off quarter-note, by starting it "8n"
+                // const loopB = new Tone.Loop(time => {
+                //     synthB.triggerAttackRelease("C3", "1n", time);
+                // }, "1n").start("2n");
+                // the loops start when the Transport is started
+                Tone.Transport.start()
+                // ramp up to 200 bpm over 10 seconds
+                // Tone.Transport.bpm.rampTo(200, 100);
+
                 const regex = /[!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~]/g;
                 let string = `what lines lace the undersea? copper, mineral, thickly. in which falling in love, and paying taxes resemble each other. plunked from boats edge they sink and caress sea floor. off mendocino, 600 wait for signal. instead sound and light extend pacificside, a sentence unraveling backwards the period.
                     tell the myth of global. american cable, english telegraph wire form warp extorting electric money. ocean becomes cross-weave, cut currents across optical fiber & silicon gel buffed by plastic. ultra high strength steel copper sheath polyethylene nylon galvanize thread in a tar soaked yarn. erotic verdigris. see also: contraception. see also: circuit industry. see also: goddess of spermicidic semiconduction. she is venus! she is named—`
                 let poem = string.split(regex);
 
-                
+
                 let lat = []; 
                 let lon = [];
                 let place = [];
@@ -135,11 +166,13 @@
                         console.log("Parsing complete:", results, file);
                         data = results.data;
                         for(let i = 1; i < data.length; i++){
+                    
                             lat.push(data[i][10]);
                             lon.push(data[i][11]);
                             place.push(data[i][5]);
                             mineral.push(data[i][6]);
                             type.push(data[i][7]);
+                        
                          }
 
                          play();
