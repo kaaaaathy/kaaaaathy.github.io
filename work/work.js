@@ -26,7 +26,7 @@ work=[
   {  "folder":"blueimg",
   "name":"virtual blue",
   "tags":"HTML, javaScript, projection, sound, poetry",
-  "thumb":"blue1.gif",
+  "thumb":"blueceiling.png",
   "content":`
 If you call something, you can keep it in a box. If you classify it, perhaps you can harvest it. Commodification and supply chain and frameworks of extraction have their own grammars.
 This infinitely looping browser poem explores concepts both abstract and concrete — a color wavelength — are socialized through language. How blue was the last discrete color category to be named in English.
