@@ -4,7 +4,7 @@ work=[
   "tags":"Mixed media, data, projection, sound, poetry",
   "thumb":"8.jpg",
   "content":`
-  This project is a multimedia installation which highlights geographic sites of copper extraction and outlines the role of copper in technology and internet infrastructures. 
+  Internet Geologies (i am drawing a line) is a multimedia installation which highlights geographic sites of copper extraction and outlines the role of copper in technology and internet infrastructures. 
   
   Inspired by Fernando Godoy’s copper mine recordings, Trevor Paglen’s drone footage project, and Sam Lavigne’s web scrape of oil news, the digital projection combines sound, maps, government data, and poetry to play with the aesthetics of systemized extraction and "the field." 
   
@@ -16,6 +16,9 @@ work=[
   [3.jpg]
   [4.jpg]
   [8.jpg]
+
+  Made with Leaflet.js, Mapbox, Tone.js, with thanks to Freesound.org user Travis Needham. 
+
 `
 
   },
