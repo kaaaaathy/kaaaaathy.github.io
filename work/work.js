@@ -1,6 +1,26 @@
 work=[
+  {  "folder":"internetgeo",
+  "name":"internet geology",
+  "tags":"Mixed media, data, projection, sound, poetry",
+  "thumb":"8.jpg",
+  "content":`
+  This project is a multimedia installation which highlights geographic sites of copper extraction and outlines the role of copper in technology and internet infrastructures. 
+  
+  Inspired by Fernando Godoy’s copper mine recordings, Trevor Paglen’s drone footage project, and Sam Lavigne’s web scrape of oil news, the digital projection combines sound, maps, government data, and poetry to play with the aesthetics of systemized extraction and "the field." 
+  
+  <iframe src="https://player.vimeo.com/video/778307297?h=7132e13db1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  
+  The installation combines the satellite’s gaze (via OpenMapBox) and Open Mineral data from US governmental data bases on worldwide copper mines, smelters, and plants. This piece is projected on to a copper-infused, copper-colored conductive fabric. In front is a metaphorical "circuit" of objects: a sculptural installation of yarn, selvage circuitry, smart phone, found natural materials, and copper tape. Touching part of the sculpture closes the circuit and subtly manipulate the projection & sound.
 
-{  "folder":"blueimg",
+  [1.jpg]
+  [3.jpg]
+  [4.jpg]
+  [8.jpg]
+`
+
+  },
+
+  {  "folder":"blueimg",
   "name":"virtual blue",
   "tags":"HTML, javaScript, projection, sound, poetry",
   "thumb":"blue1.gif",
@@ -76,7 +96,7 @@ The main 3 projects focus on Math.random() as a divination tool, collective auth
 Course Website → <a href="https://kaaathy.com/comppoetics" target="_blank">Computational Poetics</a>
 
       [hero.png]
-      Student work pictured by Amy Choi, Mariana Ramos Ortiz, Lara Karadogan, Daphne Hsu
+      Student work pictured by Amy Choi, Mariana Ramos Ortiz, Lara Karadogan,Daphne Hsu
       [2.jpg]
       [3.jpg]
       [4.jpg]
@@ -278,14 +298,14 @@ Course Website → <a href="https://kaaathy.com/comppoetics" target="_blank">Com
   <br>
   <span class="emph">2. CONVERSION TOOLS</span>
   The human body understands the material world and has unique intuitions that help us navigate it. I was interested in how people would use intuition to convert their understanding of virtual units into physical objects.
- I created interpretive “conversion tools” n the form of frames and boxes. Each of these symbolized a space for an assigned virtual unit where people’s responses/objects would live.
+I created interpretive “conversion tools”n the form of frames and boxes. Each of these symbolized a space for an assigned virtual unit where people’s responses/objects would live.
   [crowdsourced.jpg]
 
 
   <br>
   <br>
   <span class="emph">3. WRITING</span>
-  Writing was an important part of my process and discovery. I generated about 1MB worth of text and images throughout this project.       I populated that data into a <a href='https://drive.google.com/file/d/0BzXTWcuY86iYcHFTREVrbVhrRzA/view?usp=sharing
+  Writing was an important part of my process and discovery. I generated about 1MB worth of text and images throughout this project. I populated that data into a <a href='https://drive.google.com/file/d/0BzXTWcuY86iYcHFTREVrbVhrRzA/view?usp=sharing
 ' target='_blank'>process document</a> and a video (below).
   In the Byte Catalogue, I documented objects I crowd-sourced. I compared these against virtual experiences—for example, the Lord of the Rings trilogy in bytes.
   [dp_2.jpg]
@@ -295,7 +315,7 @@ Course Website → <a href="https://kaaathy.com/comppoetics" target="_blank">Com
   <br>
   <br>
   <span class="emph">4. OWNERSHIP OF VIRTUAL THINGS</span>
-  Inspired by the Million Dollar website,  I was amused at the skeuomorph of buying “space” on the Internet.
+  Inspired by the Million Dollar website, I was amused at the skeuomorph of buying “space” on the Internet.
   [7_alt.jpg]
   <br>
   I allocated pixel acre-age on my site for people to own, with a corresponding deed modeled after traditional land deeds.
