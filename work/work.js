@@ -1,4 +1,26 @@
 work=[
+  {  "folder":"cyan",
+  "name":"on cyan",
+  "tags":"",
+  "thumb":"thumb.jpg",
+  "content":`
+  acetate, mirrored plexiglass, gouache on bristol.
+  
+  <i>on cyan</i> is an artist book of poetry which fixates on the perceptual, the optical, through the lens of color names. It refracts, it stalls, it attempts to match paint and paper to air. When folded out, the poem becomes a cyanometer, transparent and with swatches of blue descending in brightness.
+
+  Perhaps in a medley of abstract plein air painting, field study, and poetry, the poem meditates on and tries to critique science figures like Alexander Humboldt (who sought to <a href="https://www.lrb.co.uk/the-paper/v41/n04/joyce-chaplin/blues-of-many-skies" target="_blank">measure the blue of the sky.</a>) It reflects on natural world’s capacity within as well as how it suffers from naming; the way dissections are incomplete and faltering; the complexity of everything even air refracting blue light. 
+
+  [1.jpg]
+  [3.jpg]
+  [4.jpg]
+  [5.jpg]
+  [2.jpg]
+
+
+`
+
+  },
+
   {  "folder":"internetgeo",
   "name":"internet geology",
   "tags":"Mixed media, data, projection, sound, poetry",
