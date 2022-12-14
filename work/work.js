@@ -11,10 +11,14 @@ work=[
   Perhaps in a medley of abstract plein air painting, field study, and poetry, the poem meditates on and tries to critique science figures like Alexander Humboldt (who sought to <a href="https://www.lrb.co.uk/the-paper/v41/n04/joyce-chaplin/blues-of-many-skies" target="_blank">measure the blue of the sky.</a>) It reflects on natural world’s capacity within as well as how it suffers from naming; the way dissections are incomplete and faltering; the complexity of everything even air refracting blue light. 
 
   [1.jpg]
+  [8.jpg]
   [3.jpg]
   [4.jpg]
   [5.jpg]
   [2.jpg]
+
+  The last page contains a URL to a web + sound version of the poem:
+  <iframe src="https://player.vimeo.com/video/781114238" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 
 `
