@@ -35,19 +35,39 @@ work=[
   Inspired by Fernando Godoy’s copper mine recordings, Trevor Paglen’s drone footage project, and Sam Lavigne’s web scrape of oil news, the digital projection combines sound, maps, government data, and poetry to play with the aesthetics of systemized extraction and "the field." 
   
   <iframe src="https://player.vimeo.com/video/778307297?h=7132e13db1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-  
-  The installation combines the satellite’s gaze (via OpenMapBox) and Open Mineral data from US governmental data bases on worldwide copper mines, smelters, and plants. This piece is projected on to a copper-infused, copper-colored conductive fabric. In front is a metaphorical "circuit" of objects: a sculptural installation of yarn, selvage circuitry, smart phone, found natural materials, and copper tape. Touching part of the sculpture closes the circuit and subtly manipulate the projection & sound.
 
+  The installation combines the satellite’s gaze (via OpenMapBox) and Open Mineral data from US governmental data bases on worldwide copper mines, smelters, and plants. This piece is projected on to a copper-infused, copper-colored conductive fabric. 
   [one.jpg] 
   [three.jpg]
   [4.jpg]
   [8.jpg]
 
-  Made with Leaflet.js, Mapbox, Tone.js, with thanks to Freesound.org user Travis Needham. 
+In front is a metaphorical "circuit" of objects: a sculptural installation of yarn, selvage circuitry, smart phone, found natural materials, and copper tape. Touching part of the sculpture closes the circuit and subtly manipulate the projection & sound.
+  [topview.jpg]
+
+
+  Made with found objects, copper, Leaflet.js, Mapbox, Tone.js, with thanks to Freesound.org user Travis Needham. 
 
 `
 
   },
+
+  {  "folder":"coppertxt",
+  "name":"drawingaline",
+  "tags":"Textiles",
+  "thumb":"txt4.jpg",
+  "content":`
+Meditations on copper, weaving, and <a href="https://muse.jhu.edu/article/563663" target="_blank">Lisa Nakamura's research</a> on Indigenous women weavers as early industrial circuit makers.
+Made during my first floor loom weaving workshop. Wool, cotton, copper wire, copper tape.
+[txt1.jpg]
+[txt2.jpg]
+[txt3.jpg]
+[txt5.jpg]
+
+`
+
+  },
+
 
   {  "folder":"blueimg",
   "name":"virtual blue",
