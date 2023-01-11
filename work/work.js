@@ -115,6 +115,8 @@ Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtua
     "tags":"",
     "thumb":"1.jpg",
     "content":`
+    Included in <a href="https://criticalcode.recipes/" target="_blank">Critical Coding Cookbook: Intersectional Feminist Approaches to Teaching and Learning</a>, via The New School.
+    
     This workshop / zine is inspired by a tradition of computational & digital poetry, as well as by feminist writers who write about love, pleasure, and healing. This is a template and starting point for building a simple digital love poem focused on opacity/transparency, and click/touch interactions.
 
 Within the traditions of material and concrete poetics, we might gently resist what this web space might be for.
@@ -196,7 +198,7 @@ Course Website → <a href="https://kaaathy.com/comppoetics" target="_blank">Com
     "name":"Touching Each Other Through Semi Conduction",
     "tags":"Interactive, HTML",
     "thumb":"thumb2.jpg",
-    "content":`An <a href="semiconduction/index.html" target="_blank">interactive web poem</a> I wrote and coded about Chinese workers in a context of mass production.
+    "content":`As seen in <a href="https://thenewriver.us/" target="_blank">New River's Fall 2022</a> publication. An <a href="semiconduction/index.html" target="_blank">interactive web poem</a> I wrote and coded about Chinese workers in a context of mass production.
     Works on mobile. For a more spatial viewing experience, try on a desktop computer.
      [semi6.gif]
 
