@@ -116,7 +116,7 @@ Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtua
     "thumb":"1.jpg",
     "content":`
     Included in <a href="https://criticalcode.recipes/" target="_blank">Critical Coding Cookbook: Intersectional Feminist Approaches to Teaching and Learning</a>, via The New School.
-    
+
     This workshop / zine is inspired by a tradition of computational & digital poetry, as well as by feminist writers who write about love, pleasure, and healing. This is a template and starting point for building a simple digital love poem focused on opacity/transparency, and click/touch interactions.
 
 Within the traditions of material and concrete poetics, we might gently resist what this web space might be for.
@@ -161,7 +161,7 @@ Course Website → <a href="https://kaaathy.com/comppoetics" target="_blank">Com
         "name":"visioning towards abolition zine",
         "tags":"zine, workshop",
         "thumb":"thumb.png",
-        "content":`Made with AARW as part of their abolition working group.
+        "content":`Made with <a href="https://www.aarw.org/" target="_blank">Asian American Resource Workshop</a> as part of their abolition working group.
         [zine-scan-cover-2.png]
         [2.png]
         [3.png]
