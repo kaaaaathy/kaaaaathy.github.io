@@ -109,7 +109,7 @@ Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtua
   `
   },
 
-
+  
   {  "folder":"eroevent",
     "name":"erotic event listeners",
     "tags":"",
@@ -157,6 +157,21 @@ Course Website → <a href="https://kaaathy.com/comppoetics" target="_blank">Com
 
       `
       },
+      {  "folder":"ecopobook",
+  "name":"ecopoetics in practice",
+  "tags":"",
+  "thumb":"thumb.jpg",
+  "content":`
+  Ecopoetics chapbook compiling poets' work from Eleni Sikelianos's Ecopoetics in Practice workshop.
+  Design & bookmaking.
+  
+  [2.jpg]
+  [3.jpg]
+  [4.jpg]
+
+`
+
+  },
       {  "folder":"aarw-zine",
         "name":"visioning towards abolition zine",
         "tags":"zine, workshop",
@@ -384,6 +399,8 @@ I created interpretive “conversion tools”n the form of frames and boxes. Eac
   [3alt.jpg]
   `
   },
+
+  
   //
   //
   //     {

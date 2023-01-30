@@ -1,15 +1,15 @@
-@font-face {
+/* @font-face {
   font-family: 'Arial Narrow';
   src: url('../fonts/Arial-Narrow.ttf') format('truetype');
   font-weight:  500;
-}
+} */
 
 @font-face {
   font-family: 'AUTHENTICSans';
-  src: url('../fonts/authentic-woff/AUTHENTICSans-Condensed-90.woff') format('woff');
+  src: url('../fonts/authentic-woff/AUTHENTICSans-90.woff') format('woff');
 }
 
-/* @import url('https://fonts.googleapis.com/css2?family=Pragati+Narrow&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
 
 /*--------------------------------------------------------------*/
 /*THE FUN STARTS HERE*/
@@ -18,14 +18,13 @@ html{
   height:100%;
   background-position: top;
   background-attachment: fixed;
-  /* background: linear-gradient(90deg,white,white,white,#f4eff7); */
   background-image:linear-gradient(45deg,white,azure,cornsilk,lavenderblush,#f4eff7);
   overflow-x: hidden;
 }
 
 body {
 	position: relative;
-	font-size: 16pt;
+	font-size: 11pt;
 
 	font-family: 'AUTHENTICSans','AUTHENTICSans','Arial Narrow',sans-serif;
 	letter-spacing: 0.25px;
@@ -71,8 +70,8 @@ section{
 }
 
 .aboutlinks {
-		font-family: 'AUTHENTICSans','Arial Narrow',sans-serif;
-    /* border-bottom: 1px solid darkslategray; */
+		font-family: 'AUTHENTICSans','Arial',sans-serif;
+    border-bottom: 1px solid darkslategray;
 }
 
 
@@ -94,8 +93,8 @@ nav {
 }
 
 nav a {
-	font-size: 14pt;
-    font-family: 'AUTHENTICSans','Arial Narrow', sans-serif;
+	font-size: 11pt;
+    font-family: 'AUTHENTICSans','Arial', sans-serif;
     margin-top:-20px;
     padding:24px;
 		border-bottom: none;
@@ -125,11 +124,11 @@ a:hover {
 /*HEADER STYLES*/
 
 h2 {
-	font-size: 18pt;
-	font-family:'AUTHENTICSans','Arial Narrow','Arial';
+	font-size: 11pt;
+	font-family:'AUTHENTICSans','Arial';
 	font-weight: normal;
   line-height: 1.5;
-  max-width: 700px;
+  max-width: 600px;
   margin-top:0px;
 }
 
@@ -138,11 +137,14 @@ h2 a {
 
 }
 h3{
-  font-size: 22pt;
-  font-family: 'AUTHENTICSans','Arial Narrow', 'Arial',sans-serif;
+  font-size: 12pt;
+  /* font-family: 'AUTHENTICSans','Arial',sans-serif; */
+  font-family:'courier prime';
+  text-transform:uppercase;
   font-weight: normal;
+  letter-spacing: 1px;
 
-  margin-bottom: 0px;
+  margin-bottom: 40px;
 	margin-top: 80px;
 
 }
