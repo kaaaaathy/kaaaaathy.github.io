@@ -139,7 +139,7 @@ h2 a {
 h3{
   font-size: 12pt;
   /* font-family: 'AUTHENTICSans','Arial',sans-serif; */
-  font-family:'courier prime';
+  font-family:'Courier Prime','Courier',monospace;
   text-transform:uppercase;
   font-weight: normal;
   letter-spacing: 1px;
