@@ -33,7 +33,7 @@ body {
 	letter-spacing: 0.25px;
 	line-height: 1.5em;
 
-	color: darkgreen;
+	color: darkolivegreen;
 	margin: 0;
 	width:100%;
 	height: 100%;
@@ -43,7 +43,7 @@ body {
 
 ::selection {
 	background: lavenderblush;
-	color: darkgreen;
+	color: darkolivegreen;
 }
 
 /*--------------------------------------------------------------*/
@@ -74,7 +74,7 @@ section{
 
 .aboutlinks {
 		font-family: 'AUTHENTICSans','Arial',sans-serif;
-    border-bottom: 1px solid darkgreen;
+    border-bottom: 1px solid darkolivegreen;
 }
 
 
@@ -111,7 +111,7 @@ nav a {
 a{
 	text-decoration: none;
 	color: inherit;
-  color: darkgreen;
+  color: darkolivegreen;
 
 }
 
@@ -136,7 +136,7 @@ h2 {
 }
 
 h2 a {
-	border-bottom: 1px solid darkgreen;
+	border-bottom: 1px solid darkolivegreen;
 
 }
 h3{
@@ -170,7 +170,7 @@ h3{
   background: transparent;
   padding-top: 20px; /*this is additive with the div content below, which you can't delete
   because it defines the <br> height */
-  border-bottom: 1px dotted darkgreen;
+  border-bottom: 1px dotted darkolivegreen;
 
 }
 
@@ -188,7 +188,7 @@ h3{
 }
 
 #content a {
-    border-bottom: 1px solid darkgreen;
+    border-bottom: 1px solid darkolivegreen;
 		/* previously #a937ff */
 }
 
@@ -231,7 +231,7 @@ h3{
 #work-stuff a figcaption{
 	margin-top: 16px;
 	line-height: 1.4rem;
-	color: darkgreen;
+	color: darkolivegreen;
 	text-align: center;
 	text-transform: lowercase;
 	font-family: 'AUTHENTICSans','Arial Narrow','Arial', sans-serif;
@@ -247,7 +247,7 @@ h3{
 #work-stuff .tags {
 	padding:0;
 	margin:0;
-	color: darkgreen;
+	color: darkolivegreen;
 	font-weight: normal;
 	display: none;
 
@@ -262,7 +262,7 @@ h3{
 .credit {
 	padding:15px 0;
 	font-size:9pt;
-	color: darkgreen;
+	color: darkolivegreen;
 }
 
 
@@ -278,7 +278,7 @@ h3{
 
 nav a{
 	padding-left:40px;
-  color: darkgreen;
+  color: darkolivegreen;
 
 }
 
