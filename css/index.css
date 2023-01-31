@@ -18,7 +18,10 @@ html{
   height:100%;
   background-position: top;
   background-attachment: fixed;
-  background-image:linear-gradient(45deg,white,azure,cornsilk,lavenderblush,#f4eff7);
+  /* background-image:linear-gradient(45deg,white,azure,cornsilk,lavenderblush,#f4eff7); */
+  background-color:floralwhite;
+    /* background-image:linear-gradient(90deg,floralwhite,floralwhite,floralwhite,lavenderblush); */
+
   overflow-x: hidden;
 }
 
@@ -30,7 +33,7 @@ body {
 	letter-spacing: 0.25px;
 	line-height: 1.5em;
 
-	color: darkslategray;
+	color: darkgreen;
 	margin: 0;
 	width:100%;
 	height: 100%;
@@ -40,7 +43,7 @@ body {
 
 ::selection {
 	background: lavenderblush;
-	color: darkslategray;
+	color: darkgreen;
 }
 
 /*--------------------------------------------------------------*/
@@ -71,7 +74,7 @@ section{
 
 .aboutlinks {
 		font-family: 'AUTHENTICSans','Arial',sans-serif;
-    border-bottom: 1px solid darkslategray;
+    border-bottom: 1px solid darkgreen;
 }
 
 
@@ -108,7 +111,7 @@ nav a {
 a{
 	text-decoration: none;
 	color: inherit;
-  color: darkslategray;
+  color: darkgreen;
 
 }
 
@@ -133,7 +136,7 @@ h2 {
 }
 
 h2 a {
-	border-bottom: 1px solid darkslategray;
+	border-bottom: 1px solid darkgreen;
 
 }
 h3{
@@ -167,7 +170,7 @@ h3{
   background: transparent;
   padding-top: 20px; /*this is additive with the div content below, which you can't delete
   because it defines the <br> height */
-  border-bottom: 1px dotted darkslategray;
+  border-bottom: 1px dotted darkgreen;
 
 }
 
@@ -185,7 +188,7 @@ h3{
 }
 
 #content a {
-    border-bottom: 1px solid darkslategray;
+    border-bottom: 1px solid darkgreen;
 		/* previously #a937ff */
 }
 
@@ -228,7 +231,7 @@ h3{
 #work-stuff a figcaption{
 	margin-top: 16px;
 	line-height: 1.4rem;
-	color: darkslategray;
+	color: darkgreen;
 	text-align: center;
 	text-transform: lowercase;
 	font-family: 'AUTHENTICSans','Arial Narrow','Arial', sans-serif;
@@ -244,7 +247,7 @@ h3{
 #work-stuff .tags {
 	padding:0;
 	margin:0;
-	color: darkslategray;
+	color: darkgreen;
 	font-weight: normal;
 	display: none;
 
@@ -259,7 +262,7 @@ h3{
 .credit {
 	padding:15px 0;
 	font-size:9pt;
-	color: darkslategray;
+	color: darkgreen;
 }
 
 
@@ -275,7 +278,7 @@ h3{
 
 nav a{
 	padding-left:40px;
-  color: darkslategray;
+  color: darkgreen;
 
 }
 
