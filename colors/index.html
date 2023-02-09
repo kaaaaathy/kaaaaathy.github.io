@@ -1,0 +1,82 @@
+<html>
+    <head> 
+        <title>i am drawing a line</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&family=Meddon&display=swap" rel="stylesheet">
+
+        <script type="text/javascript" src ="papaparse.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+        <style>
+                    body {
+            overflow: hidden;
+            background-color: black;
+            margin:0px;
+            display: flex;
+            flex-flow: wrap;
+    
+
+
+        }
+        iframe{
+            width:33%;
+            border: 0px;
+            margin:0px;
+            align-content: center;
+        }
+
+        </style>
+    </head>
+
+    <body>
+  <iframe id="1"></iframe>
+  <iframe id="2"></iframe>
+  <iframe id="3"></iframe>
+
+  <iframe id="4"></iframe>
+
+  <iframe id="5"></iframe>
+
+  <iframe id="6"></iframe>
+
+
+
+    
+    
+    </body>
+    <script type="text/javascript">
+              
+
+                    let swatches=6;
+
+                    let speed=6000;
+
+                    animate();
+
+
+
+                    async function animate() {
+
+                        for (let i = 1; i < swatches+1; i++){
+                            let iframe=document.getElementById(i);
+                            iframe.src = "swatch.html";
+                            await wait(speed);
+
+                        }
+                    }
+
+
+                    function wait(time) {
+                    return new Promise(resolve => {
+                        setTimeout(() => {
+                        resolve('resolved');
+                        }, time);
+                    });
+                }
+                    
+
+            </script>
+
+</html>
