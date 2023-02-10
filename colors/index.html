@@ -1,6 +1,6 @@
 <html>
     <head> 
-        <title>i am drawing a line</title>
+        <title>werner's</title>
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,31 +16,27 @@
             margin:0px;
             display: flex;
             flex-flow: wrap;
+
     
 
 
         }
         iframe{
             width:33%;
+            height:50%;
             border: 0px;
             margin:0px;
-            align-content: center;
+
         }
 
         </style>
     </head>
 
     <body>
-  <iframe id="1"></iframe>
-  <iframe id="2"></iframe>
-  <iframe id="3"></iframe>
 
-  <iframe id="4"></iframe>
-
-  <iframe id="5"></iframe>
-
-  <iframe id="6"></iframe>
-
+        <audio style = "display:none" controls preload="auto" id = "noise" loop>
+            <source src="wildlife_inspectorJ.wav" />
+          </audio>
 
 
     
@@ -48,20 +44,34 @@
     </body>
     <script type="text/javascript">
               
+              let noise = document.getElementById('noise');
+                let started = false;
+                let pressed = false;
 
-                    let swatches=6;
+            let swatches=6;
+            let speed=8000;
 
-                    let speed=8000;
 
-                    animate();
+                document.addEventListener('mouseover',function(){
+                    if (started == false){
+                            started = true;
+                            noise.play();
+                            animate();
+
+                    }
+                });
+
+
 
 
 
                     async function animate() {
+                        await wait(1000);
 
                         for (let i = 1; i < swatches+1; i++){
-                            let iframe=document.getElementById(i);
-                            iframe.src = "/swatch.html";
+                            let box=document.createElement('iframe');
+                            box.src = "/swatch.html";
+                            document.body.appendChild(box);
                             await wait(speed);
 
                         }
