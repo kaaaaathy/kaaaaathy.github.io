@@ -38,8 +38,11 @@
             line-height: 1.2em;
             text-align: center;
             color:white;
+            user-select: none;
+            
 
            }
+    
 
            #contents{
             margin:auto;
@@ -73,34 +76,30 @@
 
     <script>
 
-    let started = false;
+    // let started = false;
 
-    const synthA = new Tone.PolySynth().toDestination();
-    synthA.volume.value = -10;
+    // const synthA = new Tone.PolySynth().toDestination();
+    // synthA.volume.value = -10;
 
-    const synthB = new Tone.PolySynth().toDestination();
-    synthB.volume.value = -10;
+    // const synthB = new Tone.PolySynth().toDestination();
+    // synthB.volume.value = -10;
 
-    const loopA = new Tone.Loop(time => {
-        synthA.triggerAttackRelease(["A2","F2"], 10);
-    }, "1n").start(0);
+    // const loopA = new Tone.Loop(time => {
+    //     synthA.triggerAttackRelease(["A2","F2"], 10);
+    // }, "1n").start(0);
 
-    const loopB = new Tone.Loop(time => {
-        synthB.triggerAttackRelease(["C3"], 20);
-    }, "0.5n").start(20);
+    // const loopB = new Tone.Loop(time => {
+    //     synthB.triggerAttackRelease(["C3"], 20);
+    // }, "0.5n").start(20);
 
-    Tone.Transport.start();
+    // Tone.Transport.start();
 
-    document.addEventListener('mousedown',function(){
-        if (started == false){
-                started = true;
-                Tone.start(); 
-        }
-    });
-
-
-
-
+    // document.addEventListener('mousedown',function(){
+    //     if (started == false){
+    //             started = true;
+    //             Tone.start(); 
+    //     }
+    // });
 
     let data;
     let count = 0;
@@ -120,8 +119,7 @@
     identified as known objects or atmospheric phenomena
     while a small number remain unexplained. Future:
     flying-object sky-object object-object, initially,
-    scholars of surveillance and media turned to Michel Foucault’s model of
-    disciplinary power and subjects managed.
+    model of disciplinary power and subjects managed.
     The largest European database of sightings:
     Le témoin à table avec ses parents quand il entend 
     crier les enfants dans la cour "les martiens, un OVNI".
@@ -134,7 +132,7 @@
     the cloud is a massive network object perhaps
     Xi Jinping can make it happen, people have
     observed the sky throughout history, and have sometimes seen unusual sights
-     such as comets, bright meteors perhaps justin trudeau can shoot it,
+     such as comets, bright meteors perhaps Justin Trudeau can shoot it,
      such as planetary conjunction such as atmospheric optical phenomena
      such as parhelia and lenticular clouds such as wechat
      have you ever written a poem with satelites
@@ -149,7 +147,6 @@
 
     let poem;
     let contents;
-    let noise = document.getElementById('noise')
 
 
     async function getData() {
@@ -198,7 +195,7 @@ function object(input){
 function makeBody(input){
     document.body.innerHTML+=`
     <marquee width="90%" direction="up" height="100%" scrollamount="3">
-            <p class="caption">[ click anywhere for 🔈 ]</p><br><p id ="contents"></p>
+            <p class="caption">[ rain sounds ]</p><br><p id ="contents"></p>
         </marquee>`
     contents = document.getElementById('contents');
     animate(input);
