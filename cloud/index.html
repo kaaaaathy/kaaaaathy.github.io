@@ -173,7 +173,7 @@ function object(input){
     if (count>countLimit){
         let newPoem = input.split(" ");
         for (let i = 0;i<newPoem.length;i++){
-            if(RiTa.isNoun(newPoem[i]) && Math.random()<0.02){
+            if(RiTa.isNoun(newPoem[i]) && Math.random()<0.05){
                 newPoem[i]= "<span>[object]</span>";
                 }
 
