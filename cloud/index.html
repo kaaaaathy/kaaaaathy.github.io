@@ -53,7 +53,7 @@
             text-align: center;
 
            }
-           .obj{
+           span{
             /* font-family:'Times';
             font-size: 58px; */
             color:silver;
@@ -105,10 +105,9 @@
     let count = 0;
     let countLimit = 5;
     let tomorrow;
-    let raw = `Seeing machines, seeing machines, future tense
+    let raw = `Seeing machines, these future tense
     objects, in this photo copyright Google
-    Corporation 2023, in this photo,
-    in this photo a large balloon drifts
+    2023, in this photo, a large balloon drifts
     above the Atlantic Ocean, When is it going to rain?
     When? This or atmospheric phenomena,
     crease in cloud unidentified object above
@@ -142,8 +141,7 @@
      i feel the rain is some sort of object
      tell the window to make this last 
      a ceiling says maybe you can hold it all In this photo.
-     my friend my foe my fantasy my aggregation index value, What's
-,,, `
+     my friend my foe my fantasy my aggregation index value, What's`
 
     let poem;
     let contents;
@@ -156,7 +154,7 @@
         tomorrow = data.properties.periods[1];
 
         rain = tomorrow.detailedForecast;
-        poem = "What's the weather, " + rain + " " + raw;     
+        poem = "What's the weather like? " + rain + " " + raw;     
 
         makeBody(poem);
 
@@ -176,17 +174,19 @@ function object(input){
         let newPoem = input.split(" ");
         for (let i = 0;i<newPoem.length;i++){
             if(RiTa.isNoun(newPoem[i]) && Math.random()<0.02){
-                newPoem[i]= "<span class='obj'>[object]</span>";
+                newPoem[i]= "<span>[object]</span>";
                 }
 
         }
-        for (let j=0;j<newPoem.length;j++){
-            if (Math.random()<0.03){
+        if (count < 20){
+            for (let j=0;j<newPoem.length;j++){
+                if (Math.random()<0.03){
                 let randomComma = Math.floor(Math.random()*20);
-                newPoem[j+randomComma]= newPoem[j+randomComma] + " , ";
+                newPoem[j+randomComma]= newPoem[j+randomComma] + "&#8202;, ";
+             }
             }
         }
-            return newPoem.join(" ");
+        return newPoem.join(" ");
     } else {
         return input;
     }
