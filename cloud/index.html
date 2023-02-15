@@ -54,52 +54,46 @@
 
            }
            span{
-            /* font-family:'Times';
-            font-size: 58px; */
+
             color:silver;
            }
 
            .caption{
-            font-size:20px;
+            font-size:25px;
             letter-spacing: 0.5;
            }
         </style>
     </head>
     <body>
 
-        <!-- <audio style = "display:none" controls preload="auto" id = "noise" loop>
-            <source src="rain-gidster.wav" />
-          </audio> -->
 
+          <audio style = "display:none" controls preload="auto" id = "rain" loop>
+            <source src="naturenotesuk__weather-rain.wav" />
+          </audio>
+
+          <audio style = "display:none" controls preload="auto" id = "type" loop>
+            <source src="tams_kp__typewriter22.ogg" />
+          </audio>
     </body>
-    <script src="tone/build/Tone.js"></script>
 
     <script>
 
-    // let started = false;
 
-    // const synthA = new Tone.PolySynth().toDestination();
-    // synthA.volume.value = -10;
+    let rainSound = document.getElementById('rain');
+    let typeSound = document.getElementById('type');
 
-    // const synthB = new Tone.PolySynth().toDestination();
-    // synthB.volume.value = -10;
+    let started=false;
 
-    // const loopA = new Tone.Loop(time => {
-    //     synthA.triggerAttackRelease(["A2","F2"], 10);
-    // }, "1n").start(0);
+    document.body.addEventListener('mousedown',function(){
+                    if (started == false){
+                            started = true;
+                            // rainSound.play();
+                            // type.play();
 
-    // const loopB = new Tone.Loop(time => {
-    //     synthB.triggerAttackRelease(["C3"], 20);
-    // }, "0.5n").start(20);
 
-    // Tone.Transport.start();
+                    }
+                });
 
-    // document.addEventListener('mousedown',function(){
-    //     if (started == false){
-    //             started = true;
-    //             Tone.start(); 
-    //     }
-    // });
 
     let data;
     let count = 0;
