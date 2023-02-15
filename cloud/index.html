@@ -20,14 +20,6 @@
                 src: url('AUTHENTICSans-60.woff');
             }
 
-           #balloon{
-            width:100px;
-            height:100px;
-            border:1px solid white;
-            margin:auto;
-            margin-bottom: 200px;
-
-           }
            body{
             padding:0px 100px;
             background-image: url('ocean2.gif');
@@ -46,8 +38,6 @@
 
            #contents{
             margin:auto;
-
-
            }
            marquee{
             text-align: center;
@@ -58,14 +48,22 @@
             color:silver;
            }
 
-           .caption{
-            font-size:25px;
-            letter-spacing: 0.5;
-           }
+           #TL,#TR,#BL,#BR{
+            position: fixed;
+            font-size: 20px;
+           } #TL,#TR{ top:-10px;
+           } #BL,#BR{ bottom:-10px;}
+           #TL,#BL{ left:20px; } #TR,#BR{right:20px;}
         </style>
     </head>
     <body>
 
+        <p id="TL">&#9617;</p>
+        <p id="TR">&#9618;</p>
+        <p id="BL">&#9617;</p>
+        <p id="BR">&#9618;</p>
+
+        
 
           <audio style = "display:none" controls preload="auto" id = "rain" loop>
             <source src="naturenotesuk__weather-rain.wav" />
@@ -187,7 +185,7 @@ function object(input){
 function makeBody(input){
     document.body.innerHTML+=`
     <marquee width="90%" direction="up" height="100%" scrollamount="3">
-            <p class="caption">[ rain sounds ]</p><br><p id ="contents"></p>
+            <p id ="contents"></p>
         </marquee>`
     contents = document.getElementById('contents');
     animate(input);
