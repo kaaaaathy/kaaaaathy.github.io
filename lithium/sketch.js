@@ -15,11 +15,11 @@ let voice;
 let video;
 let detector;
 let detections = [];
-
+let canwidth = 400;
+let canheight = 400;
 
 function setup() {
-  let canwidth = windowWidth*0.45;
-  let canheight = windowHeight*0.80;
+
 
   createCanvas(canwidth, canheight);
   video = createCapture(VIDEO);
@@ -30,12 +30,7 @@ function setup() {
     voice = new p5.Speech();
     voice.setVoice(10);
     voice.setRate(0.75);
-    
-    textSize(24);
-    fill(137, 187, 232);
-
-    text("Turn on webcam and sound",width/2,height/2)
-
+    textSize(16);
 }
 
 function gotDetections(error, results) {
@@ -58,14 +53,15 @@ background(255, 255, 240);
     voice.speak(object.label);
     
     //rectangle
-    stroke(137, 187, 232);
-    strokeWeight(4);
+    stroke(139, 69, 19);
+    strokeWeight(1);
     noFill();
     rect(object.x, object.y, object.width, object.height);
     
     //text
     noStroke();
-    fill(137, 187, 232);
+    fill(139, 69, 19);
+
     text(object.label, object.x + 10, object.y + 24);
   }
   if (detections.length ==0){

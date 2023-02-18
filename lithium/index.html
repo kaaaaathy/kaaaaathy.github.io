@@ -36,19 +36,27 @@
             display: flex;
             align-items: center;
             font-family:'compagnon', monospace;
+            font-family:arial;
             letter-spacing: 1px;
             font-size:16px;
 
 
 
         }
+        #map {
+            width:100%;
+            height:100%;
+            position:absolute;
+            top:0px;
+            left:0px;
+        }
+        canvas, #defaultCanvas0{
 
-        #map, canvas{
-            width:45%;
-            height:82%;
             border-radius: 12px;
+            z-index: 1001;
             margin:auto;
-            border:1px dotted saddlebrown;
+            border:1px dotted rgb(139, 69, 19);
+            background-color: transparent;
         }
 
         #mineText,#locText{
@@ -58,9 +66,11 @@
             display: flex;
             left:0px;
             align-items: center;
-            margin:0px;
             text-align: center;
             justify-content: center;
+            margin:0px;
+            z-index: 1001;
+            text-transform: lowercase;
 
         }
 
@@ -74,14 +84,6 @@
         }
 
 
-        #text-container{
-            z-index: 1001;
-            position:fixed;
-            height:100%;
-            width:100%;
-            top:0;
-            left:0;
-        }
         
         .leaflet-control-container{
             display: none;
@@ -91,15 +93,13 @@
     </head>
 
     <body>
+        <p id="locText">Turn on your webcam and sound</p>
+        <p id="mineText">Turn on your webcam and sound</p>
 
         <div id="map"></div>
 
-        <div id="text-container">
-            <p id="locText">Turn on your webcam and sound</p>
-            <p id="mineText">Turn on your webcam and sound</p>
 
 
-         </div>
 
          <!-- <iframe src="https://editor.p5js.org/kathymakes/full/5pnoEpXNh"></iframe> -->
     </body>
