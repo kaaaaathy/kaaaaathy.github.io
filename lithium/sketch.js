@@ -69,7 +69,7 @@ background(255, 255, 240);
     text(object.label, object.x + 10, object.y + 24);
   }
   if (detections.length ==0){
-    voice.speak("no object found");
+    voice.speak("nothing");
 
   }
 }

@@ -114,7 +114,7 @@
                 let lon = [];
                 let place = [];
                 let mineral = [];
-                let type= [];
+                let country = [];
                 let data;
                 let zoom = 15;
                 let loctext = document.getElementById('locText');
@@ -147,7 +147,10 @@
                     
                             lat.push(data[i][4]);
                             lon.push(data[i][5]);
+
                             place.push(data[i][1]);
+                            country.push(data[i][2]);
+
                             mineral.push(data[i][6]);
                         
                          }
@@ -177,7 +180,7 @@
                         map.setZoom(zoom);
 
                         map.panTo(latlng);
-                        loctext.innerText = x + ", " + y + " " + place[i];
+                        loctext.innerText = x + ", " + y + " " + place[i] + ", " + country[i];
                         mineText.innerText = mineral[i] + " nothing";
 
                         await wait(speed);
