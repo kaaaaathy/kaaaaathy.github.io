@@ -47,20 +47,24 @@ function modelReady() {
 
 function draw() {
   // image(video, 0, 0);
-background(255, 255, 240);
+  // background(255, 255, 240);
+
+background(0);
   for (let i = 0; i < detections.length; i++) {
     let object = detections[i];
     voice.speak(object.label);
     
     //rectangle
-    stroke(139, 69, 19);
+    // stroke(139, 69, 19);
+
+    stroke(0);
     strokeWeight(1);
     noFill();
     rect(object.x, object.y, object.width, object.height);
     
     //text
     noStroke();
-    fill(139, 69, 19);
+    fill(0);
 
     text(object.label, object.x + 10, object.y + 24);
   }
