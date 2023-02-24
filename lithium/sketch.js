@@ -57,14 +57,14 @@ background(0);
     //rectangle
     // stroke(139, 69, 19);
 
-    stroke(0);
+    stroke(255);
     strokeWeight(1);
     noFill();
     rect(object.x, object.y, object.width, object.height);
     
     //text
     noStroke();
-    fill(0);
+    fill(255);
 
     text(object.label, object.x + 10, object.y + 24);
   }
