@@ -18,6 +18,13 @@ let detections = [];
 let canwidth = 400;
 let canheight = 400;
 
+let myFont;
+
+function preload(){
+  myFont = loadFont('Director-Bold.otf');
+
+
+}
 function setup() {
 
 
@@ -30,7 +37,9 @@ function setup() {
     voice = new p5.Speech();
     voice.setVoice(10);
     voice.setRate(0.75);
-    textSize(16);
+    textSize(14);
+    textFont(myFont);
+
 }
 
 function gotDetections(error, results) {
@@ -48,8 +57,7 @@ function modelReady() {
 function draw() {
   // image(video, 0, 0);
   // background(255, 255, 240);
-
-background(0);
+  background(0);
   for (let i = 0; i < detections.length; i++) {
     let object = detections[i];
     voice.speak(object.label);
@@ -62,7 +70,6 @@ background(0);
     noFill();
     rect(object.x, object.y, object.width, object.height);
     
-    //text
     noStroke();
     fill(255);
 

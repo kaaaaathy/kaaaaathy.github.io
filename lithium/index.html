@@ -25,9 +25,18 @@
         <style>
 
         @font-face {
-            font-family: 'compagnon';
-            src: url(fonts/Compagnon-Roman.otf);
+            font-family: 'Director';
+            src: url(Director-Regular.otf);
+            }
+
+        body {
+            background:black;
+            overflow: hidden;
+            color:white;
+
+
         }
+
         body {
             /* background:ivory; */
             background:black;
@@ -39,10 +48,9 @@
             text-align: center;
             display: flex;
             align-items: center;
-            font-family:'compagnon', monospace;
-            font-family:arial;
-            letter-spacing: 1px;
-            font-size:16px;
+            font-family:'Director', monospace;
+            font-size:14px;
+
 
 
 
@@ -75,7 +83,9 @@
             justify-content: center;
             margin:0px;
             z-index: 1001;
-            text-transform: lowercase;
+            text-transform: uppercase;
+            letter-spacing:0px;
+
 
         }
 
@@ -98,8 +108,8 @@
     </head>
 
     <body>
-        <p id="locText">Turn on your webcam and sound</p>
-        <p id="mineText">Turn on your webcam and sound</p>
+        <p id="locText">Turn on webcam and sound</p>
+        <p id="mineText">Turn on webcam and sound</p>
 
         <div id="map"></div>
 
