@@ -72,8 +72,8 @@ function draw() {
     
     noStroke();
     fill(255);
-
-    text(object.label, object.x + 10, object.y + 24);
+    let obj = object.label.toUpperCase();
+    text(obj, object.x + 10, object.y + 24);
   }
   if (detections.length ==0){
     voice.speak("nothing");
