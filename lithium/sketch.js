@@ -21,7 +21,7 @@ let canheight = 400;
 let myFont;
 
 function preload(){
-  myFont = loadFont('Director-Bold.otf');
+  myFont = loadFont('https://kaaathy.com/lithium/Director-bold.otf');
 
 
 }
