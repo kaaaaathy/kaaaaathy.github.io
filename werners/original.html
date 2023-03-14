@@ -1,0 +1,150 @@
+<html>
+    <head> 
+        <title>i am drawing a line</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&family=Meddon&display=swap" rel="stylesheet">
+
+        <script type="text/javascript" src ="papaparse.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+        <style>
+                    body {
+            overflow: hidden;
+            color:black;
+
+
+        }
+
+        #text-container{
+            display:flex;
+            position:fixed;
+            height:100%;
+            width:auto;
+            top:0;
+            left:0;
+            padding:0px 100px;
+            align-items: center;
+            justify-content: center;
+
+
+        }
+
+
+ 
+        #colorText{
+            position:fixed;bottom:0px;
+            padding:4px;
+            font-family:'meddon';
+            border-radius: 8px;
+            font-size:16px;
+            text-align: center;
+
+
+        } 
+
+        #text{
+            font-size:50px;
+            line-height: normal;
+            text-align:center;
+            display:flex;
+            align-items: center;
+            font-family:'Libre Baskerville';
+
+        }
+        </style>
+    </head>
+
+    <body>
+        <div id="text-container">
+<div id="colorText"></div>
+
+
+                <div id="text">
+                  
+         </div>
+    
+    
+    </body>
+    <script type="text/javascript">
+              
+
+
+                let text = document.getElementById('text');
+                let colorText = document.getElementById('colorText');
+
+                let hex = [];
+                let lightness = [];
+                let animal = [];
+                let veg = [];
+                let mineral = [];
+                let color = [];
+                let data;
+
+
+                Papa.parse('werners_nomenclature_of_colours.csv',{
+                    download:true,
+                        complete: function(results, file) {
+                        console.log("Parsing complete:", results, file);
+                        data = results.data;
+                        for(let i = 1; i < data.length; i++){
+                    
+                            color.push(data[i][1]);
+                            animal.push(data[i][3]);
+                            veg.push(data[i][4]);
+                            mineral.push(data[i][5]);
+                            hex.push(data[i][9]);
+
+                            let l = data[i][11].split(',')[2];
+                            lightness.push(parseInt(l));
+                        
+                         }
+
+                         play();
+                    }
+                })
+
+                
+  
+
+
+                let speed = 2000;
+                let delay = 0;
+
+                    async function play(){
+                        await wait(delay);
+                        await animate();
+                    }
+
+                    async function animate() {
+
+                    for (let i = 1; i < data.length - 1; i++){
+                        document.body.style.backgroundColor = hex[i];
+
+                        text.innerText = animal[i] + " " + veg[i] + " " + mineral[i];
+                        colorText.innerText = color[i];
+
+                        if (lightness[i]<50){
+                            document.body.style.color = "floralwhite";
+                        } else {
+                            document.body.style.color = "#222222";
+
+                        }
+
+                        await wait(speed);
+                    }
+                    await animate();
+                    }
+
+                    function wait(time) {
+                    return new Promise(resolve => {
+                        setTimeout(() => {
+                        resolve('resolved');
+                        }, time);
+                    });
+                    }
+
+            </script>
+
+</html>
