@@ -66,8 +66,10 @@ function draw() {
     // noFill();
     // rect(object.x, object.y, object.width, object.height);
 
-    noStroke();
-    fill(255);
+    // noStroke();
+    stroke(255);
+    // textFont("Times");
+    fill(0);
     let obj = object.label.toUpperCase();
     let objwidth = (object.label.length * 50)/2;
     let objheight = 70;
