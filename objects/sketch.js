@@ -9,36 +9,30 @@ Object Detection using COCOSSD
 This example uses a callback pattern to create the classifier
 === */
 
-let voice;
+// Copyright (c) 2020 ml5
+//
+// This software is released under the MIT License.
+// https://opensource.org/licenses/MIT
 
+/* ===
+ml5 Example
+Object Detection using COCOSSD
+This example uses a callback pattern to create the classifier
+=== */
 
 let video;
 let detector;
 let detections = [];
-let canwidth = 400;
-let canheight = 400;
 
-// let myFont;
-
-// function preload(){
-//   myFont = loadFont('https://kaaathy.com/lithium/Director-bold.otf');
-
-
-// }
 function setup() {
-
-
-  createCanvas(canwidth, canheight);
+  createCanvas(windowWidth, windowHeight);
   video = createCapture(VIDEO);
-  video.size(canwidth,canheight);
+  video.size(windowWidth, windowHeight);
   video.hide();
   // Models available are 'cocossd', 'yolo'
-    detector = ml5.objectDetector('cocossd', modelReady);
-    voice = new p5.Speech();
-    voice.setVoice(10);
-    voice.setRate(0.75);
-    textSize(14);
-    // textFont(myFont);
+  detector = ml5.objectDetector('cocossd', modelReady);
+
+  textSize(150);
 
 }
 
@@ -54,29 +48,30 @@ function modelReady() {
   detector.detect(video, gotDetections);
 }
 
+function loaderDots(){
+  noStroke();
+  fill(255);
+  text("...", windowWidth/2-60, windowHeight/2);
+}
+
 function draw() {
-  // image(video, 0, 0);
-  // background(255, 255, 240);
+
+  image(video, 0, 0);
   background(0);
+
   for (let i = 0; i < detections.length; i++) {
     let object = detections[i];
-    voice.speak(object.label);
-    
-    //rectangle
-    // stroke(139, 69, 19);
+    // stroke(0, 255, 0);
+    // strokeWeight(4);
+    // noFill();
+    // rect(object.x, object.y, object.width, object.height);
 
-    stroke(255);
-    strokeWeight(1);
-    noFill();
-    rect(object.x, object.y, object.width, object.height);
-    
     noStroke();
     fill(255);
     let obj = object.label.toUpperCase();
-    text(obj, object.x + 10, object.y + 24);
-  }
-  if (detections.length ==0){
-    voice.speak("nothing");
-
+    let objwidth = (object.label.length * 50)/2;
+    let objheight = 70;
+    text(obj, object.x+object.width/2-objwidth, object.y+object.height/2+objheight);
+  
   }
 }
