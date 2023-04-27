@@ -2,7 +2,7 @@ work=[
   {  "folder":"cyan",
   "name":"on cyan",
   "tags":"",
-  "thumb":"5.jpg",
+  "thumb":"8.jpg",
   "content":`
   acetate, mirrored plexiglass, gouache on bristol.
   
@@ -19,6 +19,28 @@ work=[
 
 
 
+`
+
+  },
+
+  {  "folder":"weeds",
+  "name":"the color of dislocation (weeds now run wild)",
+  "tags":"",
+  "thumb":"soundof.jpg",
+  "content":`
+  THE COLOR OF DISLOCATION (weeds now run wild) is an ongoing work, a translation-of-book-object into cloths buoyed by wind. 
+  The poems themselves are concerned with sheerness, opacity, and color in classification systems.
+  [weeds.jpg]
+  [soundof.gif]
+
+  I wonder at how scientific language grasps at knowledge; precisions it; pins it as a colonial found. Perhaps poetic gestures of annotation and collage introduce fog instead, and trouble the body of water which represents “scientific” epistemology.
+  The first banner was made in the winter:
+  [anobject2.jpg]
+
+
+  The companion book aggregates photographic scans with “found” material of Pliny the Elder’s writings, Darwin’s HMS Beagle Voyage throughout the Global South, and Werner’s Nomenclature of Colour.
+  [book4.jpg]
+  [book5.jpg]
 `
 
   },
@@ -50,21 +72,21 @@ In front is a metaphorical "circuit" of objects: a sculptural installation of ya
 
   },
 
-  {  "folder":"coppertxt",
-  "name":"drawingaline",
-  "tags":"Textiles",
-  "thumb":"txt4.jpg",
-  "content":`
-Meditations on copper, weaving, and <a href="https://muse.jhu.edu/article/563663" target="_blank">Lisa Nakamura's research</a> on Indigenous women weavers as early industrial circuit makers.
-Made during my first floor loom weaving workshop. Wool, cotton, copper wire, copper tape.
-[txt1.jpg]
-[txt2.jpg]
-[txt3.jpg]
-[txt5.jpg]
+//   {  "folder":"coppertxt",
+//   "name":"drawingaline",
+//   "tags":"Textiles",
+//   "thumb":"txt4.jpg",
+//   "content":`
+// Meditations on copper, weaving, and <a href="https://muse.jhu.edu/article/563663" target="_blank">Lisa Nakamura's research</a> on Indigenous women weavers as early industrial circuit makers.
+// Made during my first floor loom weaving workshop. Wool, cotton, copper wire, copper tape.
+// [txt1.jpg]
+// [txt2.jpg]
+// [txt3.jpg]
+// [txt5.jpg]
 
-`
+// `
 
-  },
+//   },
 
   {  "folder":"cloudpoem",
   "name":"when will it rain",
@@ -137,7 +159,6 @@ Within the traditions of material and concrete poetics, we might gently resist w
 <br>
 Website → <a href="https://eroticeventlisteners.glitch.me" target="_blank">Erotic Event Listeners</a>
     [1.png]
-    [site.gif]
 
     <br>
     Simple template for a digital erotic poem:
@@ -166,26 +187,28 @@ Course Website → <a href="https://kaaathy.com/comppoetics" target="_blank">Com
 
       `
       },
-      {  "folder":"ecopobook",
-  "name":"ecopoetics in practice",
-  "tags":"",
-  "thumb":"thumb.jpg",
-  "content":`
-  Ecopoetics chapbook compiling poets' work from Eleni Sikelianos's Ecopoetics in Practice workshop.
-  Design & bookmaking.
+//       {  "folder":"ecopobook",
+//   "name":"ecopoetics in practice",
+//   "tags":"",
+//   "thumb":"thumb.jpg",
+//   "content":`
+//   Ecopoetics chapbook compiling poets' work from Eleni Sikelianos's Ecopoetics in Practice workshop.
+//   Design & bookmaking.
   
-  [2.jpg]
-  [3.jpg]
-  [4.jpg]
+//   [2.jpg]
+//   [3.jpg]
+//   [4.jpg]
 
-`
+// `
 
-  },
+//   },
       {  "folder":"aarw-zine",
-        "name":"visioning towards abolition zine",
+        "name":"community zines",
         "tags":"zine, workshop",
-        "thumb":"thumb.png",
-        "content":`Made with <a href="https://www.aarw.org/" target="_blank">Asian American Resource Workshop</a> as part of their abolition working group.
+        "thumb":"zine-scan-cover-2.png",
+        "content":`
+        VISIONING TOWARDS ABOLITION
+        Made with <a href="https://www.aarw.org/" target="_blank">Asian American Resource Workshop</a> as part of their abolition working group.
         [zine-scan-cover-2.png]
         [2.png]
         [3.png]
@@ -197,28 +220,40 @@ Course Website → <a href="https://kaaathy.com/comppoetics" target="_blank">Com
         Check out the <a href="https://docs.google.com/presentation/d/1pfmC3wtc6xU0QqKWCPTugfl0HUkxZXpLT9-772c-Ndo/edit#slide=id.g10d7d2d8eac_0_155" target="_blank">workshop materials</a> to run this in your own communities.
         [slide1.png]
         [slide2.png]
+        <br>
+        <br>
+        MALDEN TRANSIT JUSTICE
+        A zine I co-created and designed with Asian-American teenagers in Malden, MA, as part of a creative and civic literacy afterschool program.
+        I was the teaching artist for Malden's Asian Community Development Corp in the spring of 2021. Together, we discussed how transit justice is also economic, environmental, and racial justice. I shared local histories of resisting displacement, as well as the beauty and power of maps and "countercartographies," which we made together. Students shared some of their ideas for a better Malden with the city council, as well as through their artwork, which is featured in this zine.
+
+        Learn more about Malden A-VOYCE <a href="https://asiancdc.org/sy-malden2122" target="_blank">here</a>.
+
+        [malden1.png]
+        [malden8.png]
+        [malden7.png]
+        [a-voyce-zine-2.gif]
 
 
 
         `
         },
-        {  "folder":"maldenzine",
-"name":"Malden Transit Justice Zine",
-"tags":"community artwork, zinemakring",
-"thumb":"2.png",
-"content":`A zine I co-created and designed with Asian-American teenagers in Malden, MA, as part of a creative and civic literacy afterschool program.
-I was the teaching artist for Malden's Asian Community Development Corp in the spring of 2021. Together, we discussed how transit justice is also economic, environmental, and racial justice. I shared local histories of resisting displacement, as well as the beauty and power of maps and "countercartographies," which we made together. Students shared some of their ideas for a better Malden with the city council, as well as through their artwork, which is featured in this zine.
+//         {  "folder":"maldenzine",
+// "name":"Malden Transit Justice Zine",
+// "tags":"community artwork, zinemakring",
+// "thumb":"2.png",
+// "content":`A zine I co-created and designed with Asian-American teenagers in Malden, MA, as part of a creative and civic literacy afterschool program.
+// I was the teaching artist for Malden's Asian Community Development Corp in the spring of 2021. Together, we discussed how transit justice is also economic, environmental, and racial justice. I shared local histories of resisting displacement, as well as the beauty and power of maps and "countercartographies," which we made together. Students shared some of their ideas for a better Malden with the city council, as well as through their artwork, which is featured in this zine.
 
-Learn more about Malden A-VOYCE <a href="https://asiancdc.org/sy-malden2122" target="_blank">here</a>.
+// Learn more about Malden A-VOYCE <a href="https://asiancdc.org/sy-malden2122" target="_blank">here</a>.
 
-[1.png]
-[8.png]
-[7.png]
-[a-voyce-zine-2.gif]
+// [1.png]
+// [8.png]
+// [7.png]
+// [a-voyce-zine-2.gif]
 
 
-`
-},
+// `
+// },
         {  "folder":"walk",
   "name":"walking with ghosts",
   "tags":"Interactive, HTML",
@@ -324,17 +359,17 @@ Learn more about Malden A-VOYCE <a href="https://asiancdc.org/sy-malden2122" tar
 //     `
 //   },
 
-  {  "folder":"looting",
- "name":"Looting Dream",
- "tags":"Interactive, HTML",
- "thumb":"thumb.jpg",
- "content":`LOOTING DREAM is an interactive web fantasy about distorting, glitching, re-inserting, and deleting from glass boxes + institutions. Seen on <a href="https://pages.virtualgoodsdealer.com/exhibits" target="_blank">Virtual Goods Dealer</a>.
- [looting.gif]
- [looting.png]
+//   {  "folder":"looting",
+//  "name":"Looting Dream",
+//  "tags":"Interactive, HTML",
+//  "thumb":"thumb.jpg",
+//  "content":`LOOTING DREAM is an interactive web fantasy about distorting, glitching, re-inserting, and deleting from glass boxes + institutions. Seen on <a href="https://pages.virtualgoodsdealer.com/exhibits" target="_blank">Virtual Goods Dealer</a>.
+//  [looting.gif]
+//  [looting.png]
 
 
- `
-},
+//  `
+// },
 
 
 // {
