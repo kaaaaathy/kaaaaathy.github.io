@@ -239,7 +239,7 @@ Course Website → <a href="https://kaaathy.com/comppoetics" target="_blank">Com
         },
 //         {  "folder":"maldenzine",
 // "name":"Malden Transit Justice Zine",
-// "tags":"community artwork, zinemakring",
+// "tags":"community artwork, zinemaking",
 // "thumb":"2.png",
 // "content":`A zine I co-created and designed with Asian-American teenagers in Malden, MA, as part of a creative and civic literacy afterschool program.
 // I was the teaching artist for Malden's Asian Community Development Corp in the spring of 2021. Together, we discussed how transit justice is also economic, environmental, and racial justice. I shared local histories of resisting displacement, as well as the beauty and power of maps and "countercartographies," which we made together. Students shared some of their ideas for a better Malden with the city council, as well as through their artwork, which is featured in this zine.
