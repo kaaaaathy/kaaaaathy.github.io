@@ -41,6 +41,9 @@ work=[
   The companion book aggregates photographic scans with “found” material of Pliny the Elder’s writings, Darwin’s HMS Beagle Voyage throughout the Global South, and Werner’s Nomenclature of Colour.
   [book4.jpg]
   [book5.jpg]
+
+    The last page contains a URL to a web + sound version of the poem:
+  <iframe src="https://player.vimeo.com/video/781114238" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 `
 
   },
