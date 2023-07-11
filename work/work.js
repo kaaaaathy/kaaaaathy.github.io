@@ -1,8 +1,21 @@
 work=[
+  {  "folder":"no-object",
+  "name":"there is no mineral of futurity",
+  "tags":"",
+  "thumb":"1.jpg",
+  "content":`
+  Cyanotype on cotton muslin. More soon.
+  [1.jpg]
+
+
+
+`
+
+  },
   {  "folder":"cyan",
   "name":"on cyan",
   "tags":"",
-  "thumb":"8.jpg",
+  "thumb":"4.jpg",
   "content":`
   acetate, mirrored plexiglass, gouache on bristol.
   
@@ -17,7 +30,8 @@ work=[
   [5.jpg]
   [2.jpg]
 
-
+  The last page contains a URL to a web + sound version of the poem:
+  <iframe src="https://player.vimeo.com/video/781114238" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 `
 
@@ -41,9 +55,6 @@ work=[
   The companion book aggregates photographic scans with “found” material of Pliny the Elder’s writings, Darwin’s HMS Beagle Voyage throughout the Global South, and Werner’s Nomenclature of Colour.
   [book4.jpg]
   [book5.jpg]
-
-    The last page contains a URL to a web + sound version of the poem:
-  <iframe src="https://player.vimeo.com/video/781114238" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 `
 
   },
@@ -144,31 +155,31 @@ Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtua
 
 
   
-  {  "folder":"eroevent",
-    "name":"erotic event listeners",
-    "tags":"",
-    "thumb":"1.jpg",
-    "content":`
-    Included in <a href="https://criticalcode.recipes/" target="_blank">Critical Coding Cookbook: Intersectional Feminist Approaches to Teaching and Learning</a>, via The New School.
+//   {  "folder":"eroevent",
+//     "name":"erotic event listeners",
+//     "tags":"",
+//     "thumb":"1.jpg",
+//     "content":`
+//     Included in <a href="https://criticalcode.recipes/" target="_blank">Critical Coding Cookbook: Intersectional Feminist Approaches to Teaching and Learning</a>, via The New School.
 
-    This workshop / zine is inspired by a tradition of computational & digital poetry, as well as by feminist writers who write about love, pleasure, and healing. This is a template and starting point for building a simple digital love poem focused on opacity/transparency, and click/touch interactions.
+//     This workshop / zine is inspired by a tradition of computational & digital poetry, as well as by feminist writers who write about love, pleasure, and healing. This is a template and starting point for building a simple digital love poem focused on opacity/transparency, and click/touch interactions.
 
-Within the traditions of material and concrete poetics, we might gently resist what this web space might be for.
-[1.jpg]
-[3.jpg]
-[5.jpg]
-[4.jpg]
+// Within the traditions of material and concrete poetics, we might gently resist what this web space might be for.
+// [1.jpg]
+// [3.jpg]
+// [5.jpg]
+// [4.jpg]
 
-<br>
-Website → <a href="https://eroticeventlisteners.glitch.me" target="_blank">Erotic Event Listeners</a>
-    [1.png]
+// <br>
+// Website → <a href="https://eroticeventlisteners.glitch.me" target="_blank">Erotic Event Listeners</a>
+//     [1.png]
 
-    <br>
-    Simple template for a digital erotic poem:
-    [code.jpg]
-    [rose.gif]
-    `
-    },
+//     <br>
+//     Simple template for a digital erotic poem:
+//     [code.jpg]
+//     [rose.gif]
+//     `
+//     },
     {  "folder":"comppo",
       "name":"computational poetics",
       "tags":"",
