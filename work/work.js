@@ -5,7 +5,11 @@ work=[
   "thumb":"1.jpg",
   "content":`
   Cyanotype on cotton muslin. More soon.
-  [1.JPG]
+  [1.png]
+  [7.jpg]
+  [3.jpg]
+  [17.jpg]
+  [6.jpg]
 
 
 
@@ -37,17 +41,17 @@ work=[
   {  "folder":"weeds",
   "name":"the color of dislocation (weeds now run wild)",
   "tags":"",
-  "thumb":"soundof.jpg",
+  "thumb":"3.jpg",
   "content":`
   THE COLOR OF DISLOCATION (weeds now run wild) is an ongoing work, a translation-of-book-object into cloths buoyed by wind. 
   The poems themselves are concerned with sheerness, opacity, and color in classification systems.
-  [weeds.jpg]
-  [soundof.gif]
+  [3.jpg]
+  [5.jpg]
+  [7.jpg]
 
   I wonder at how scientific language grasps at knowledge; precisions it; pins it as a colonial found. Perhaps poetic gestures of annotation and collage introduce fog instead, and trouble the body of water which represents “scientific” epistemology.
   The first banner was made in the winter:
   [anobject2.jpg]
-
 
   The companion book aggregates photographic scans with “found” material of Pliny the Elder’s writings, Darwin’s HMS Beagle Voyage throughout the Global South, and Werner’s Nomenclature of Colour.
   [book4.jpg]
