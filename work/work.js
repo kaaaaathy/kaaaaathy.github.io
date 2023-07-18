@@ -2,7 +2,7 @@ work=[
   {  "folder":"no-object",
   "name":"there is no mineral of futurity",
   "tags":"",
-  "thumb":"1.jpg",
+  "thumb":"thumb.jpg",
   "content":`
   Cyanotype on cotton muslin. More soon.
   [1.png]
