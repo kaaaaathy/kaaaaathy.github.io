@@ -5,7 +5,7 @@ work=[
   "thumb":"1.jpg",
   "content":`
   Cyanotype on cotton muslin. More soon.
-  [1.jpg]
+  [1.JPG]
 
 
 
@@ -29,9 +29,6 @@ work=[
   [4.jpg]
   [5.jpg]
   [2.jpg]
-
-  The last page contains a URL to a web + sound version of the poem:
-  <iframe src="https://player.vimeo.com/video/781114238" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 `
 
@@ -102,17 +99,17 @@ In front is a metaphorical "circuit" of objects: a sculptural installation of ya
 
 //   },
 
-  {  "folder":"cloudpoem",
-  "name":"when will it rain",
-  "tags":"javascript, HTML, poetry",
-  "thumb":"thumb.png",
-  "content":`A webpoem about balloons and meteorology and unidentifiable objects, about the limits of knowing and seeing, how governments and states know and see.
-  Procedurally redacts/translates things into the word "object," folds in live weather from government data. 
-  Site link <a href="https://kaaathy.com/cloud/index.html" target="_blank">here</a>.
-  [cloudpoem.gif]
+//   {  "folder":"cloudpoem",
+//   "name":"when will it rain",
+//   "tags":"javascript, HTML, poetry",
+//   "thumb":"thumb.png",
+//   "content":`A webpoem about balloons and meteorology and unidentifiable objects, about the limits of knowing and seeing, how governments and states know and see.
+//   Procedurally redacts/translates things into the word "object," folds in live weather from government data. 
+//   Site link <a href="https://kaaathy.com/cloud/index.html" target="_blank">here</a>.
+//   [cloudpoem.gif]
  
-  `
- },
+//   `
+//  },
   {  "folder":"blueimg",
   "name":"virtual blue",
   "tags":"HTML, javaScript, projection, sound, poetry",
