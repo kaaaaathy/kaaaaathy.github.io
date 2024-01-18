@@ -291,17 +291,22 @@ Course Website → <a href="https://kaaathy.com/comppoetics" target="_blank">Com
     "name":"Touching Each Other Through Semi Conduction",
     "tags":"Interactive, HTML",
     "thumb":"companion2.png",
-    "content":`As seen in <a href="https://thenewriver.us/" target="_blank">New River's Fall 2022</a> publication. An <a href="semiconduction/index.html" target="_blank">interactive web poem</a> I wrote and coded about Chinese workers in a context of mass production.
-    Works on mobile. For a more spatial viewing experience, try on a desktop computer.
+    "content":`A two-part poem diptych between screen-based work and artist book. Reflections on supply chain, migrant labor, Foxconn, diaspora.
+    <br>
+    ARTIST BOOK
+    [companion1.png]
+    [companion2.png]
+    <br>
+    DIGITAL POEM
+    An <a href="semiconduction/index.html" target="_blank">interactive web poem</a> I wrote and coded about Chinese workers in a context of mass production.
+    Works on mobile. As seen in <a href="https://thenewriver.us/" target="_blank">New River's Fall 2022</a> publication. For a more spatial viewing experience, try on a desktop computer.
      [semi6.gif]
 
      Still image:
      [semi_crop.png]
 
     <br>
-    Companion work as a physical artist book:
-    [companion1.png]
-    [companion2.png]
+ 
     `
     },
      {  "folder":"office",
