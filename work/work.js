@@ -290,7 +290,7 @@ Course Website → <a href="https://kaaathy.com/comppoetics" target="_blank">Com
      {  "folder":"semiconduction",
     "name":"Touching Each Other Through Semi Conduction",
     "tags":"Interactive, HTML",
-    "thumb":"thumb2.jpg",
+    "thumb":"companion2.png",
     "content":`As seen in <a href="https://thenewriver.us/" target="_blank">New River's Fall 2022</a> publication. An <a href="semiconduction/index.html" target="_blank">interactive web poem</a> I wrote and coded about Chinese workers in a context of mass production.
     Works on mobile. For a more spatial viewing experience, try on a desktop computer.
      [semi6.gif]
@@ -298,9 +298,10 @@ Course Website → <a href="https://kaaathy.com/comppoetics" target="_blank">Com
      Still image:
      [semi_crop.png]
 
-    Here's the experience on a mobile device:
-    [semi_m.gif]
-
+    <br>
+    Companion work as a physical artist book:
+    [companion1.png]
+    [companion2.png]
     `
     },
      {  "folder":"office",
@@ -331,7 +332,28 @@ Course Website → <a href="https://kaaathy.com/comppoetics" target="_blank">Com
 
     `
   },
-
+    {  "folder":"person-object",
+    "name":"person [object]",
+    "tags":"",
+    "thumb":"thumb.png",
+    "content":`Artist book & poems about human labor within today's computational systems: content moderators in SE Asia who flag
+    traumatizing content before it ever reaches our screens; low wage Amazon crowdsourced labor all over the world; low wage human
+    subjects who help train our AI systems, including transcribing Alexa and other home assistant conversations.
+    
+    Workers must often make decisions in "blurry" spaces, where machines are likely to make a mistake; they complete microtasks for little money
+    with minimal labor protections; meanwhile their existence remains ghostly and un-rendered to rest of the world.
+    “
+    [0.png]
+    [1.png]
+    [2.png]
+    
+    
+  
+  
+  
+  `
+  
+    },
 //
 //
 // {
