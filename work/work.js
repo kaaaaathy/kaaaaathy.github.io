@@ -356,13 +356,10 @@ Course Website → <a href="https://kaaathy.com/comppoetics" target="_blank">Com
     "name":"person [object]",
     "tags":"",
     "thumb":"thumb.png",
-    "content":`Artist book & poems about human labor within today's computational systems: content moderators in SE Asia who flag
-    traumatizing content before it ever reaches our screens; low wage Amazon crowdsourced labor all over the world; low wage human
-    subjects who help train our AI systems, including transcribing Alexa and other home assistant conversations.
+    "content":`Artist book & poems about human labor within today's computational systems: content moderators in SE Asia who flag traumatizing content before it ever reaches our screens; low wage Amazon crowdsourced labor all over the world; low wage human subjects who help train our AI systems, including transcribing Alexa and other home assistant conversations.
     
-    Workers must often make decisions in "blurry" spaces, where machines are likely to make a mistake; they complete microtasks for little money
-    with minimal labor protections; meanwhile their existence remains ghostly and un-rendered to rest of the world.
-    “
+    Workers must often make decisions in "blurry" spaces, where machines are likely to make a mistake; they complete microtasks for little money with minimal labor protections; meanwhile their existence remains ghostly and un-rendered to rest of the world.
+    
     [0.png]
     [1.png]
     [2.png]
