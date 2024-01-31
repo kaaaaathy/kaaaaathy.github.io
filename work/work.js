@@ -1,5 +1,20 @@
 work=[
-  {  "folder":"no-object",
+  {  "folder":"she-will-last",
+  "name":"she will last as long as stones",
+  "tags":"",
+  "thumb":"1.jpg",
+  "content":`
+  Work in progress; a garment in which I will perform my hybrid poetry manuscript about grief, glitches, and geologic time. 
+  
+  The garment is made from quilted sheer organza, about 10 pounds of local found river stones on the Rhode Island coast, with two tie strap closures. 
+  [shirt.png]
+  [2.jpg]
+  [detail.png]
+<br>
+  More to come.`
+  },
+
+{  "folder":"no-object",
   "name":"there is no mineral of futurity",
   "tags":"",
   "thumb":"thumb.jpg",
