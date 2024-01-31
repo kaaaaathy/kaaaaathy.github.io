@@ -173,31 +173,31 @@ Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtua
 
 
   
-//   {  "folder":"eroevent",
-//     "name":"erotic event listeners",
-//     "tags":"",
-//     "thumb":"1.jpg",
-//     "content":`
-//     Included in <a href="https://criticalcode.recipes/" target="_blank">Critical Coding Cookbook: Intersectional Feminist Approaches to Teaching and Learning</a>, via The New School.
+  {  "folder":"eroevent",
+    "name":"erotic event listeners",
+    "tags":"",
+    "thumb":"1.jpg",
+    "content":`
+    Included in <a href="https://criticalcode.recipes/" target="_blank">Critical Coding Cookbook: Intersectional Feminist Approaches to Teaching and Learning</a>, via The New School.
 
-//     This workshop / zine is inspired by a tradition of computational & digital poetry, as well as by feminist writers who write about love, pleasure, and healing. This is a template and starting point for building a simple digital love poem focused on opacity/transparency, and click/touch interactions.
+    This workshop / zine is inspired by a tradition of computational & digital poetry, as well as by feminist writers who write about love, pleasure, and healing. This is a template and starting point for building a simple digital love poem focused on opacity/transparency, and click/touch interactions.
 
-// Within the traditions of material and concrete poetics, we might gently resist what this web space might be for.
-// [1.jpg]
-// [3.jpg]
-// [5.jpg]
-// [4.jpg]
+Within the traditions of material and concrete poetics, we might gently resist what this web space might be for.
+[1.jpg]
+[3.jpg]
+[5.jpg]
+[4.jpg]
 
-// <br>
-// Website → <a href="https://eroticeventlisteners.glitch.me" target="_blank">Erotic Event Listeners</a>
-//     [1.png]
+<br>
+Website → <a href="https://eroticeventlisteners.glitch.me" target="_blank">Erotic Event Listeners</a>
+    [1.png]
 
-//     <br>
-//     Simple template for a digital erotic poem:
-//     [code.jpg]
-//     [rose.gif]
-//     `
-//     },
+    <br>
+    Simple template for a digital erotic poem:
+    [code.jpg]
+    [rose.gif]
+    `
+    },
     {  "folder":"comppo",
       "name":"computational poetics",
       "tags":"",
