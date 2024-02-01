@@ -10,6 +10,7 @@ work=[
   [shirt.png]
   [2.jpg]
   [detail.png]
+
 <br>
   More to come.`
   },
@@ -219,21 +220,7 @@ Course Website → <a href="https://kaaathy.com/comppoetics" target="_blank">Com
 
       `
       },
-//       {  "folder":"ecopobook",
-//   "name":"ecopoetics in practice",
-//   "tags":"",
-//   "thumb":"thumb.jpg",
-//   "content":`
-//   Ecopoetics chapbook compiling poets' work from Eleni Sikelianos's Ecopoetics in Practice workshop.
-//   Design & bookmaking.
-  
-//   [2.jpg]
-//   [3.jpg]
-//   [4.jpg]
 
-// `
-
-//   },
       {  "folder":"aarw-zine",
         "name":"community zines",
         "tags":"zine, workshop",
@@ -371,50 +358,6 @@ Course Website → <a href="https://kaaathy.com/comppoetics" target="_blank">Com
   `
   
     },
-//
-//
-// {
-//     "folder":"breath",
-//     "name":"Breath as a Line",
-//     "tags":"Informal teaching",
-//     "thumb":"action5.jpg",
-//     "content":`
-//
-//     Inspired by Buddhist monk <a href="https://en.wikipedia.org/wiki/Th%C3%ADch_Nh%E1%BA%A5t_H%E1%BA%A1nh" target="_blank">Thích Nhất Hạnh</a>, I was curious about ways in which mindful activities with the body – like walking – can be a kind of art in of itself.
-//
-//     And vice versa: "art-making activities" can become meditations. Your art-making might center body and time in mechanical, transient ways. Think Richard Long's walks, or Goldsworthy-style <a href="https://www.instagram.com/p/B5BixoGlVbwBOuRbQPQz76Gmg1e4b9uOwN5NW40/" target="_blank">leaves</a>.
-//
-//     To me, moving through space in this way has always been an ancient, unnamed, beautiful art (especially outside the canon of white contemporary artists.)
-//
-//     <br>
-//     <span class="emph">ART AS CONTEMPLATIVE CARE / CONTEMPLATIVE CARE AS ART </span>
-//
-//     In this 2-hour workshop, I offer space where people could consider the body while drawing. This way, drawing is more like breathing than it is image-making.
-//
-//     [1.jpg]
-//     [drawing2.jpg]
-//
-//     <br>
-//     <span class="emph"> VARIATIONS ON A LINE: </span> Drawing with different hands, closing your eyes, breathing through a line.
-//     [action3.jpg]
-//     [drawing3.jpg]
-//
-//     [action4.jpg]
-//     [drawing4.jpg]
-//
-//     [line_hard_break_2.jpg]
-//
-//     <br>
-//     <span class="emph">BUILDING A GUEST HOUSE: </span> Creating a sculpture to hold feeling.
-//     [action5.jpg]
-//     [drawing5.jpg]
-//     [end5.jpg]
-//
-//     [drawing6.jpg]
-//     [end0.jpg]
-//     `
-//   },
-
 //   {  "folder":"looting",
 //  "name":"Looting Dream",
 //  "tags":"Interactive, HTML",
@@ -426,36 +369,6 @@ Course Website → <a href="https://kaaathy.com/comppoetics" target="_blank">Com
 
 //  `
 // },
-
-
-// {
-//       "folder":"oakflat",
-//       "name":"Oak Flat Campaign",
-//       "tags":"Writing, Film, Digital Collage, Storytelling",
-//       "thumb":"thumb.jpg",
-//       "content":`
-//       A piece of film-based transmedia storytelling created with Nancy Valladares and Alia Rizvi.
-//       This work was created as part of a social media campaign to protest the construction of a copper mine in Oak Flat, Arizona—or what is the unceded indigenous land of the San Carlos Apache people. The prompt was to create original content and present it in a short film.
-//       [oakflat2.gif]
-//
-//     These extractive processes threaten all life because they threaten water.
-//
-//     <br>
-//     <span class="emph">  Text & Voice </span>
-//       I was responsible for integrating text throughout the piece. Inspired by artists like Young Hae-Chang Heavy Industries, I wanted to create impactful typographic experiences that could be loud without the accompaniment of sound.
-//       [oakflat3.gif]
-//
-//       <br>
-//       <span class="emph">River, Personified</span></br>
-// I wrote the script from the point of view of the Arizona Tonto Basin River— a body of water which would effectively be poisoned by the construction of the copper mine.
-//       [oakflat.gif]
-//
-//       <br>
-//       <span class="emph"> Stills </span>
-//       [stills.jpg]
-//     `
-//   },
-
 
 
 {
@@ -519,39 +432,6 @@ I created interpretive “conversion tools”n the form of frames and boxes. Eac
   },
 
   
-  //
-  //
-  //     {
-  // 		"folder":"turrell",
-  // 		"name":"James Turrell Museum",
-  // 		"tags":"Brand Identity, Print",
-  // 		"thumb":"books_thumb.jpg",
-  // 		"content":`
-  // 		I rebranded the James Turrell Museum in Bodega Colome, Argentina in 6 weeks for RISD's Brand Identity studio.
-  // 		I first wanted to know more about Turrell's work. What stood out to me was how he distills nature into this pure, temporal experience. His work focuses and frames natural processes—like the sunset— so the viewer enters this almost meditative state, where they are hyper-aware of passing time.
-  // 		Here's some early research: obsessive moodboarding, drawing, and word studies.
-  // 		[process4.jpg]
-  // 		[process1.jpg]
-  // 		<br><br>
-  // 		<span class="emph">LOGO CONCEPT</span>
-  // 		The final mark references a slow, recession of light, space, and atmosphere, while winking at the “T” of Turrell. The palette is a saturated take on the gradation of daylight, and the colors of the Turrell’s native Arizona landscape.
-  // 		[turrell-02.svg]
-  // [stationary_crop.jpg]
-  // 		[turrell12.jpg]
-  // 		[poster.jpg]
-  // 		<br>
-  // 		<span class="emph">PRINT MATERIALS</span>
-  // 		The way a Turrell piece transforms when viewed during different times of the day inspired these materials. The museum, open from 10:00AM to 6:00PM daily, issues a different colored ticket to visitors each hour. Viewed as a long strip, these tickets appear as a continuous gradient.
-  // 		[ticket.jpg]
-  // The event brochures together reference changing time throughout the year.
-  //         [books_all.jpg]
-  //         [book2.jpg]
-  // <br>
-  // 				<span class="emph">THE MUSEUM SPACE</span>
-  // What stood out to me about the museum's location was how beautiful the surrounding wineries were. This outdoor installation would bring visitors together in a tranquil museum garden. The pool connects to an unseen irrigation system which waters the nearby vines. In this way, the piece feeds back into the terrain, the way a Turrell piece works together with nature.
-  // 		[reflect_gif.gif]
-  // 		`
-  // 	},
 //
 // {  "folder":"jelly",
 //   "name":"Pulmō Plastics",
@@ -609,65 +489,6 @@ I created interpretive “conversion tools”n the form of frames and boxes. Eac
 //   `
 // },
 
-// {
-//   "folder":"searchdivides",
-//   "name":"Search Divides Us",
-//   "tags":"Exhibit design, front-end dev, UI/UX",
-//   "thumb":"cover.jpg",
-//   "content":`
-//   Designed & built in collaboration with Anthony Bui, Asha Veeraswamy, and Keerthana Pareedy. I contributed conceptual work, front end dev, and graphics.
-// <br><span class="emph">THE STORY</span>
-//   Search Divides Us is an interactive exhibit about bias in search engines, through the example of a housing search. Our team demoed this at ITP Spring Show, as well as <a href="https://makerfaire.com/maker/entry/67996/" target="_blank">New York Maker Faire</a> in 2019.
-//   [plaque-2.jpg]
-// <br>
-//   <span class="emph">HARDWARE INTERFACE</span>
-//   The final interface followed a slot machine metaphor. The interface consisted of a set of dials: CLASS, RACE, EDUCATION. In the center, a green space-bar-shaped button would allow you to search.
-//   [video-1.gif]
-//
-// <br><span class="emph">WEBSITE</span>
-//   I created a fictional island (modeled roughly after Manhattan, NY) and built fictional housing provider website.
-//   [searchdivides_mini.gif]
-//   The result was projected onto a dark wall. We wanted the experience of entering in your demographic and receiving your result to be as public as possible, so that visitors would  think about these issues in dialogue with us and each other.
-//
-//   [demo.jpg]
-// <br><span class="emph">RANDOM SEARCH</span>
-//   We encouraged visitors to explore how other search profiles tended towards different results. Using a "slot machine" metaphor, visitors could choose a new identity at random.
-//   [video-2-mini.gif]
-//
-//
-//   <br><span class="emph">PROCESS</span>
-//   Our team was inspired by the <a href="https://www.nyu.edu/about/news-publications/news/2016/august/nyu-study-looks-at-how-racial-inequality-is-produced-online.html" target = "_blank">research</a> of Dr. Charles McIlwain of NYU, which explores how the internet is as segregated as a city.
-//
-//   Here’s our early design for a plinko machine, where the flippers represent categorization and algorithm bias.
-//
-//   [idea1.jpg]
-//
-//   We were fond of this metaphor; at the same time, it felt abstract and removed.
-//
-//   [idea2.jpg]
-//   <br>
-//   [idea3.jpg]
-//
-//   <br><span class="emph">GRAPHICS</span>
-//   [bluemap.jpg]
-//   [1-white.jpg]
-//   [3-black.jpg]
-//   [4-black-result.jpg]
-//
-//   `
-// },
-  //    {  "folder":"digpo-imgs",
-  //   "name":"month of may",
-  //   "tags":"Interactive, HTML",
-  //   "thumb":"maythumb.jpg",
-  //   "content":`Printed text marries an immutable form, but graphemes on screen can shapeshift through a dynamic, stretchy existence.
-  //   Month of May is an interactive love poem generator. <a href='digpo/may.html' target='_blank'>Make your own.</a>
-  //   [may.jpg]
-  //   [may-3.gif]
-  //   `
-  // },
-
-
 
   // {
   //     "folder":"manymigrations",
@@ -712,54 +533,6 @@ I created interpretive “conversion tools”n the form of frames and boxes. Eac
   //
   //     `
   // },
-  // {
-  //       "folder":"opposites",
-  //       "name":"Opposites Workshop",
-  //       "tags":"Informal teaching",
-  //       "thumb":"workshop1.jpg",
-  //       "content":`
-  //       What’s the opposite of darkness? Is it brightness? How about the opposite of a wall, or a cage?
-  //       Our collective imagination is constrained by our vocabulary, both linguistic and visual— can we use new art forms and new language to build the inverse of violence?
-  //
-  //       [prompt.jpg]
-  //
-  //       I designed and led this workshop series around creating speculative artwork based on "inverted" headlines. By playing with words and their opposites, we can begin rewrite current news headlines into alternative realities and speculative futures.
-  //
-  //       This workshop concept was inspired by <a href="http://theamericanjournalofpoetry.com/v2-constantine.html" target="_blank">this poem</a> by Brendan Constantine.
-  //
-  //       <br><br>
-  //       <span class="emph">PT 1: THE OPPOSITE OF A GUN</span>
-  //       I first piloted this workshop at Tisch School of Arts. I introduced the poem by Brendan Constantine, and took people through an exercise:
-  //       “What is the opposite of the phrase, My Life Had Stood a Loaded Gun?”
-  //        [workshop3.jpg]
-  //         I left this Henning Rogge photo on-screen— a bomb-scar from WWII, in the forest, now teeming with life. Is this the opposite of war?
-  //         I provided foraged materials. to “build an object that is the opposite of a gun.”
-  //        [workshop1.jpg]
-  //        Here is what people made: a vase for holding life; a grenade filled with woodland seeds instead of warfare; a listening device to help you hear the forest.
-  //       [workshop2.jpg]
-  //
-  //       <br><br>
-  //       <span class="emph">PT 2: REWRITING HEADLINES</span>
-  //       In the second iteration of this workshop, I placed a stronger emphasis on writing. I asked participants to look up news headlines which contained the following words:
-  //       [workshop4.jpg]
-  //
-  //       This version of the workshop was focused on multi-media interpretations. Here's one interpretation, using front-end browser tools as a vehicle for expression and pretend:
-  //       <span class="emph">“Crew Hang Giant American Flag Over George Washington Bridge”</span> becomes <span class="emph">“Individual Lifts Tiny Worldwide Cloud Under Donald Trump Wall”</span>
-  //       [opposites.gif]
-  //       ...which later became an interactive digital project:
-  //       [oppositesgamescratch.gif]
-  //       <br>
-  //       <span class="emph">MORE EXAMPLES </span>
-  //       “These Gun Enthusiasts at the Virginia Rally Carried More Firepower than US Troops” becomes “These seed supporters at the stateless sleepover dispersed more waterpower than many Pangaea flowers”
-  //       [opposites1.jpg]
-  // “Gun Makers Adjust Focus to Women Buyers” becomes “Watering Can Fixers Keep Distraction Away From Baby Philanthropists”
-  //       [opposites2.jpg]
-  //       “Ignore the Fake Climate Debate” becomes “Focus on the True Inner Consensus”
-  //       [opposites3.jpg]`
-  //     },
-
-
-
 
 
 //
@@ -897,32 +670,6 @@ I created interpretive “conversion tools”n the form of frames and boxes. Eac
 // },
 
 
-
-  //
-	// {
-	// 	"folder":"sketch",
-	// 	"name":"Sketchbook",
-	// 	"tags":"Doodles, notes, ponderings",
-	// 	"thumb":"thumb_2.jpg",
-	// 	"content":`
-	// 	Pictures from conversations, lectures, process, from 2015-2017. More to come.
-	// 	[1.jpg]
-  //       [2.jpg]
-  //       [3.jpg]
-  //
-  //       From 2016.
-  //       [a.jpg]
-  //       [b.jpg]
-  //       [c.jpg]
-  //
-  //       From 2015.
-  //       [sketch2.jpg]
-	// 	[sketch3.jpg]
-	// 	[sketch5.jpg]
-  //
-  //
-	// 	`
-	// },
 
 
 ]
