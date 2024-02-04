@@ -1,0 +1,119 @@
+<html>
+    <head> 
+        <title>vision</title>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+        <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js" type="text/javascript"></script>
+        <script src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/837599/p5.speech.js"></script>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+        <!-- Please dont look too hard at code, it's a mess! -->
+<style>
+
+
+  body {
+    background:black;
+    overflow: hidden;
+    margin:10px;
+    color:white;
+    user-select: none;
+
+}
+
+</style>
+    </head>
+
+    <body>
+        <div id="container"></div>
+    
+    
+    </body>   
+
+    <script>
+        // Copyright (c) 2020 ml5
+    //
+    // This software is released under the MIT License.
+    // https://opensource.org/licenses/MIT
+
+    /* ===
+    ml5 Example
+    Object Detection using COCOSSD
+    This example uses a callback pattern to create the classifier
+    === */
+
+    let voice;
+
+
+    let video;
+    let detector;
+    let detections = [];
+    let canwidth = 400;
+    let canheight = 400;
+
+    // let myFont;
+
+    function preload(){
+    myFont = loadFont('AUTHENTICSans-90.otf');
+
+
+    }
+    function setup() {
+
+
+    let canvas = createCanvas(windowWidth, windowHeight);
+    canvas.parent('container');
+
+    video = createCapture(VIDEO);
+    video.size(width, height);
+    video.hide();
+    // Models available are 'cocossd', 'yolo'
+        detector = ml5.objectDetector('cocossd', modelReady);
+        voice = new p5.Speech();
+        voice.setVoice(10);
+        voice.setRate(0.75);
+        textSize(20);
+        textFont(myFont);
+
+
+    }
+
+    function gotDetections(error, results) {
+    if (error) {
+        console.error(error);
+    }
+    detections = results;
+    detector.detect(video, gotDetections);
+    }
+
+    function modelReady() {
+    detector.detect(video, gotDetections);
+    }
+
+    function draw() {
+    background(0);
+    for (let i = 0; i < detections.length; i++) {
+        let object = detections[i];
+        voice.speak(object.label);
+        
+        stroke(255);
+        strokeWeight(1);
+        noFill();
+        rect(object.x, object.y, object.width, object.height);
+        
+        noStroke();
+        fill(255);
+        let obj = object.label.toUpperCase();
+        text(obj, object.x + 10, object.y + 30);
+        
+    }
+    if (detections.length ==0){
+
+
+    }
+    }
+
+</script>
+
+</html>
