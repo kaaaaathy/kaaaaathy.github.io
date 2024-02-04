@@ -35,6 +35,7 @@
                 <div id="text-container">
                     <p id="locText"></p>
                     <p id="mineText"></p>
+                    <p id="poem"></p>
         
                
     
@@ -45,55 +46,53 @@
 
     
     
-    </body>
-    <script src="tone/build/Tone.js"></script>
-    <script type="text/javascript">
+    </body>   
 
-                let sound = document.getElementById('clink');
-                let started = false;
-                let pressed = false;
+<script>
 
-                const synthA = new Tone.PolySynth().toDestination();
-                synthA.volume.value = -10;
-                synthA.set({ detune: -1200 });
+    let poemContainer = document.getElementById('poem');
 
-                const synthB = new Tone.PolySynth().toDestination();
-                synthB.set({ detune: -1200 });
+    async function getResponse() {
+        const response = await fetch("poems.json");
+        const data = await response.json(); // Extracting data as a JSON Object from the response
+        const words = [].concat.apply([],data.segments.map((segment) => segment.wdlist))
 
+        let prevEnd = 0;
 
-                const loopA = new Tone.Loop(time => {
-                    synthA.triggerAttackRelease(["C4", "E4", "A4"], 10);
-                }, "1n").start(0);
+        for (const word of words){
             
-                Tone.Transport.start();
+            await wait((word.start - prevEnd)*2000) 
+            //wait for previous word to end (none, if first word)
 
-                document.addEventListener('mousedown',function(){
-                    if (started == false){
-                            started = true;
-                            sound.play();
-                            Tone.start(); 
+            let newSpan = document.createElement('span');
+            newSpan.innerText= word.word;
+            poemContainer.appendChild(newSpan);
+            newSpan.style.opacity = 1;
+
+            
+            await wait ((word.end - word.start)*2000);
+            newSpan.style.opacity = 0;
+            //entire duration of word
+
+            // console.log(word.word.trim() + " ended");
+            prevEnd = word.end;
+
+        }
+
+ }
+
+    getResponse();
+
+    function wait(time) {
+                    return new Promise(resolve => {
+                        setTimeout(() => {
+                        resolve('resolved');
+                        }, time);
+                    });
                     }
-                });
 
-                document.addEventListener('keydown',function(){
-                    if (started == true && pressed==false){
-                    synthB.triggerAttack(["G4"]);
-                    pressed=true;
-                    }
-
-                });
-
-
-                document.addEventListener('keyup',function(){
-                    if (started == true && pressed==true){
-                    synthB.triggerRelease(["G4"]);
-                    pressed=false;
-                    }
-
-                });
-
-
-              
+</script>
+<script type="text/javascript">
 
                 let lat = []; 
                 let lon = [];
@@ -123,18 +122,19 @@
                 }).addTo(map);
 
 
-                Papa.parse('minfac-1-copper.csv',{
+                Papa.parse('deposit.txt',{
                     download:true,
                         complete: function(results, file) {
-                        console.log("Parsing complete:", results, file);
+                        // console.log("Parsing complete:", results, file);
                         data = results.data;
                         for(let i = 1; i < data.length; i++){
                     
-                            lat.push(data[i][10]);
-                            lon.push(data[i][11]);
-                            place.push(data[i][5]);
+                            lat.push(data[i][4]);
+                            lon.push(data[i][5]);
+                            place.push(data[i][1]);
                             mineral.push(data[i][6]);
-                            type.push(data[i][7]);
+                            type.push(data[i][12]);
+
                         
                          }
 
@@ -143,6 +143,12 @@
                 })
 
                 
+
+
+
+
+
+
   
 
 
@@ -164,8 +170,9 @@
 
                         map.panTo(latlng);
                         loctext.innerText = x + ", " + y + " " + place[i];
-                        mineText.innerText = mineral[i] + " • Copper " + type[i];
-
+                        mineText.innerText = mineral[i] + " • " + type[i];
+                        
+                    
                         await wait(speed);
                     }
                     await animate();

@@ -1,0 +1,283 @@
+<html>
+    <head> 
+        <title>land</title>
+
+        <!-- Attributions
+
+        Fonts used: Authentic Sans & FT88-Serif
+        Sound: Mining by Travis Needham (https://freesound.org/people/TravisNeedham/sounds/135121/)
+        Synths: Tone.js library
+        Visuals: Mapbox via Leaflet -->
+
+        <link rel="stylesheet" href="leaflet.css">
+        <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
+        integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg="
+        crossorigin=""></script>  
+
+        <script type="text/javascript" src ="papaparse.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+        <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js" type="text/javascript"></script>
+          <script src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/837599/p5.speech.js"></script>
+
+        <!-- Please dont look too hard at code, it's a mess! -->
+
+<link rel="stylesheet" href="style.css">  
+    </head>
+
+    <body>
+        <audio style = "display:none" controls preload="auto" id = "clink" loop>
+            <source src="travisneedham.mp3" />
+          </audio>
+
+
+        <div class = "box">
+          <div class="bbar"><div class="bbut"></div><div class="bbut"></div><div class="bbut"></div></div>
+
+                <div id="map" style="height: 95%"></div>
+                <div id="text-container">
+                    <p id="locText"></p>
+                    <p id="mineText"></p>
+        
+               
+    
+        
+            </div>
+        </div>
+    </div>
+
+    
+    
+    </body>
+    <!-- <script src="tone/build/Tone.js"></script> -->
+    
+    <!-- p5 business here -->
+    <script>
+                        // Copyright (c) 2020 ml5
+                    //
+                    // This software is released under the MIT License.
+                    // https://opensource.org/licenses/MIT
+
+                    /* ===
+                    ml5 Example
+                    Object Detection using COCOSSD
+                    This example uses a callback pattern to create the classifier
+                    === */
+
+                    let voice;
+
+
+                    let video;
+                    let detector;
+                    let detections = [];
+                    let canwidth = 400;
+                    let canheight = 400;
+
+                    // let myFont;
+
+                    function preload(){
+                    myFont = loadFont('AUTHENTICSans-90.otf');
+
+
+                    }
+                    function setup() {
+
+
+                    let canvas = createCanvas(canwidth, canheight);
+                    canvas.parent('text-container');
+
+                    video = createCapture(VIDEO);
+                    video.size(canwidth,canheight);
+                    video.hide();
+                    // Models available are 'cocossd', 'yolo'
+                        detector = ml5.objectDetector('cocossd', modelReady);
+                        voice = new p5.Speech();
+                        voice.setVoice(10);
+                        voice.setRate(0.75);
+                        textSize(14);
+                        textFont(myFont);
+
+
+                    }
+
+                    function gotDetections(error, results) {
+                    if (error) {
+                        console.error(error);
+                    }
+                    detections = results;
+                    detector.detect(video, gotDetections);
+                    }
+
+                    function modelReady() {
+                    detector.detect(video, gotDetections);
+                    }
+
+                    function draw() {
+                    background(0);
+                    for (let i = 0; i < detections.length; i++) {
+                        let object = detections[i];
+                        voice.speak(object.label);
+                        
+                        stroke(255);
+                        strokeWeight(1);
+                        noFill();
+                        rect(object.x, object.y, object.width, object.height);
+                        
+                        noStroke();
+                        fill(255);
+                        let obj = object.label.toUpperCase();
+                        text(obj, object.x + 10, object.y + 24);
+                        
+                    }
+                    if (detections.length ==0){
+                        voice.speak("nothing");
+
+                    }
+                    }
+
+</script>
+<script type="text/javascript">
+
+                // let sound = document.getElementById('clink');
+                // let started = false;
+                // let pressed = false;
+
+                // const synthA = new Tone.PolySynth().toDestination();
+                // synthA.volume.value = -10;
+                // synthA.set({ detune: -1200 });
+
+                // const synthB = new Tone.PolySynth().toDestination();
+                // synthB.set({ detune: -1200 });
+
+
+                // const loopA = new Tone.Loop(time => {
+                //     synthA.triggerAttackRelease(["C4", "E4", "A4"], 10);
+                // }, "1n").start(0);
+            
+                // Tone.Transport.start();
+
+                // document.addEventListener('mousedown',function(){
+                //     if (started == false){
+                //             started = true;
+                //             sound.play();
+                //             Tone.start(); 
+                //     }
+                // });
+
+                // document.addEventListener('keydown',function(){
+                //     if (started == true && pressed==false){
+                //     synthB.triggerAttack(["G4"]);
+                //     pressed=true;
+                //     }
+
+                // });
+
+
+                // document.addEventListener('keyup',function(){
+                //     if (started == true && pressed==true){
+                //     synthB.triggerRelease(["G4"]);
+                //     pressed=false;
+                //     }
+
+                // });
+
+
+
+
+
+                let lat = []; 
+                let lon = [];
+                let place = [];
+                let mineral = [];
+                let type= [];
+                let data;
+                let zoom = 15;
+                let loctext = document.getElementById('locText');
+                let mineText = document.getElementById('mineText');
+
+                // Your Mapboxgl API Key
+                let key = 'pk.eyJ1Ijoia2FhYXRoeSIsImEiOiJja3N4dHBqOTEyZDZmMm5rdDd3aDRranl2In0.4oP1N1f4Bs43c9feXjCH6g'
+                let map = L.map('map').setView([-19.33,146.89], zoom);
+
+
+                // Map options
+
+                L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoia2FhYXRoeSIsImEiOiJja3N4dHBqOTEyZDZmMm5rdDd3aDRranl2In0.4oP1N1f4Bs43c9feXjCH6g', {
+                    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+                    maxZoom: 18,
+                    id: 'kaaathy/clebwvwot000b01ppheo47c29',
+                    tileSize: 512,
+                    zoomOffset: -1,
+                    accessToken: key
+                    
+                }).addTo(map);
+
+
+                Papa.parse('deposit.txt',{
+                    download:true,
+                        complete: function(results, file) {
+                        console.log("Parsing complete:", results, file);
+                        data = results.data;
+                        for(let i = 1; i < data.length; i++){
+                    
+                            // lat.push(data[i][10]);
+                            // lon.push(data[i][11]);
+                            // place.push(data[i][5]);
+                            // mineral.push(data[i][6]);
+                            // type.push(data[i][7]);
+                            lat.push(data[i][4]);
+                            lon.push(data[i][5]);
+                            place.push(data[i][1]);
+                            mineral.push(data[i][6]);
+                            type.push(data[i][12]);
+
+                        
+                         }
+
+                         play();
+                    }
+                })
+
+                
+  
+
+
+                let speed = 8000;
+                let delay = 0;
+
+                    async function play(){
+                        await wait(delay);
+                        await animate();
+                    }
+
+                    async function animate() {
+
+                    for (let i = 1; i < data.length - 1; i++){
+                        let y = lon[i];
+                        let x = lat[i];
+                        let latlng = L.latLng(x, y);
+                        map.setZoom(zoom);
+
+                        map.panTo(latlng);
+                        loctext.innerText = x + ", " + y + " " + place[i];
+                        mineText.innerText = mineral[i] + " • " + type[i];
+                        
+                    
+                        await wait(speed);
+                    }
+                    await animate();
+                    }
+
+                    function wait(time) {
+                    return new Promise(resolve => {
+                        setTimeout(() => {
+                        resolve('resolved');
+                        }, time);
+                    });
+                    }
+
+            </script>
+
+</html>
