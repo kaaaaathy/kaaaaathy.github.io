@@ -208,6 +208,8 @@ background-color: lightblue;
             
             await wait ((word.end - word.start)*2000);
             newSpan.style.opacity = 0;
+            poemContainer.removeChild(newSpan);
+
             //entire duration of word
 
             // console.log(word.word.trim() + " ended");
