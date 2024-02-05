@@ -43,7 +43,7 @@
     This example uses a callback pattern to create the classifier
     === */
 
-    let voice;
+    // let voice;
 
 
     let video;
@@ -70,9 +70,9 @@
     video.hide();
     // Models available are 'cocossd', 'yolo'
         detector = ml5.objectDetector('cocossd', modelReady);
-        voice = new p5.Speech();
-        voice.setVoice(10);
-        voice.setRate(0.75);
+        // voice = new p5.Speech();
+        // voice.setVoice(10);
+        // voice.setRate(0.75);
         textSize(20);
         textFont(myFont);
 
@@ -95,7 +95,7 @@
     background(0);
     for (let i = 0; i < detections.length; i++) {
         let object = detections[i];
-        voice.speak(object.label);
+        // voice.speak(object.label);
         
         stroke(255);
         strokeWeight(1);

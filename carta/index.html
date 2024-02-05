@@ -38,6 +38,8 @@
     color:white;
     user-select: none;
     display: flex;
+    transition: background 0.5s;
+    transition: filter 0.5s;
 
 }
 
@@ -134,9 +136,6 @@ z-index: 4;
     </head>
 
     <body>
-        <audio style = "display:none" controls preload="auto" id = "clink" loop>
-            <source src="travisneedham.mp3" />
-          </audio>
 
 
         <div class = "box" id="carta">
@@ -161,5 +160,56 @@ z-index: 4;
     
     
     </body>   
+    <script src="tone/build/Tone.js"></script>
+    <script type="text/javascript">
+
+                let started = false;
+                let pressed = false;
+
+                const synthA = new Tone.PolySynth().toDestination();
+                synthA.volume.value = -10;
+                synthA.set({ detune: -1200 });
+
+                const synthB = new Tone.PolySynth().toDestination();
+                synthB.set({ detune: -1200 });
+
+                const loopA = new Tone.Loop(time => {
+                    synthA.triggerAttackRelease(["C4", "E4", "A4"], 10);
+                }, "1n").start(0);
+            
+                Tone.Transport.start();
+
+                document.addEventListener('mousedown',function(){
+                    if (started == false){
+                            started = true;
+                            sound.play();
+                            Tone.start(); 
+                    }
+                });
+
+                document.addEventListener('keydown',function(){
+                    if (started == true && pressed==false){
+                    synthB.triggerAttack(["G4"]);
+                    // document.body.style.background = "white";
+                    document.body.style.filter ="blur(10px)";
+
+                    pressed=true;
+                    }
+
+                });
+
+
+                document.addEventListener('keyup',function(){
+                    if (started == true && pressed==true){
+                    synthB.triggerRelease(["G4"]);
+                    document.body.style.background = "black";
+                    document.body.style.filter ="none";
+
+
+                    pressed=false;
+                    }
+
+                });
+        </script>
 
 </html>
