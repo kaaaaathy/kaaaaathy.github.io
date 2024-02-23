@@ -1,4 +1,4 @@
-﻿gid,dep_name,country,state,latitude,longitude,commodity,dep_type,type_detail,model_code,model_name,metallic,citation,
+gid,dep_name,country,state,latitude,longitude,commodity,dep_type,type_detail,model_code,model_name,metallic,citation,
 103,"Qaidam Qarhan",China,,37.5,95,Boron-lithium-potassium,Sedimentary,,,,,"Wen Lu, 1998",0101000020E61000000000000000C057400000000000C04240,0101000020110F00000CF502F4BE2B6441FB2A28D959335141,
 780,"Silver Peak (Clayton Valley)","United States",Nevada,37.75,-117.633,"lithium, potash",Sedimentary,"Playa brine - lithium and potash",35b.13,"Lithium-rich Playa brines",,"Garrett (1996)",0101000020E61000008D976E1283685DC00000000000E04240,0101000020110F0000C0B122B5F7F968C18AA36249AA555141,
 781,"Searles Lake","United States",California,35.777,-118.4,"lithium, potash, sodium carbonate, boron",Sedimentary,"Lacustrine evaporite deposit",35b.13,"Li-rich playa brine",,"British Sulphur Corporation (1985); Russell (1988); Roskill Information Services (1989)",0101000020E61000009A99999999995DC0FA7E6ABC74E34140,0101000020110F0000AEB1B776A82369C145D00B09E7495041,
