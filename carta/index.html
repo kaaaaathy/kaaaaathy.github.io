@@ -16,7 +16,10 @@
         <!-- Please dont look too hard at code, it's a mess! -->
 <script>   $( function() {
     $( ".box" ).draggable();
+    $( "#time" ).draggable();
+
   } );
+
   </script>
 
 <style>
@@ -38,9 +41,9 @@
     color:white;
     user-select: none;
     display: flex;
+    margin:40px;
     transition: background 0.5s;
     transition: filter 0.5s;
-
 }
 
 p {
@@ -51,23 +54,21 @@ p {
 
 .box{
     background:black;
-  
     border-radius:8px;
     border:1px solid white;
     padding-top:12px;
-    height:400px;
-    width:500px;
+    height:500px;
+    width:700px;
     overflow: hidden;
     margin:10px;
 
   }
 
-.box:hover{
+.box:hover, #time:hover{
     cursor:move;
 }
 iframe{
     position: relative;
-
     top:-5px;
     left:-5px;
     height:102%;
@@ -95,20 +96,6 @@ iframe{
     border:1px solid white;
   }
 
-#vision, #vision .bbar{
-z-index: 4;
-}
-
-#vision {
-    width:300px;
-    height:300px;
-}
-
-#vision iframe{
-    z-index: 3;
-}
-
-
 #carta, #carta .bbar{
     z-index: 6;
 }
@@ -118,18 +105,16 @@ z-index: 4;
 }
 
 
-#time, #time .bbar{
-    z-index: 2;
-}
-
-#time iframe{
-    z-index: 1;
-}
 
 #time {
-    width:200px;
-    height:150px;
+    width:300px;
+    height:50px;
+    padding:20px 40px;
+    z-index: 2;
+    align-self: flex-end;
+
 }
+
 
 
 </style>
@@ -142,20 +127,11 @@ z-index: 4;
           <div class="bbar"><div class="bbut"></div><div class="bbut"></div><div class="bbut"></div></div>
             <iframe src="carta.html"></iframe>
             </div>
-        </div>
 
-        <div class = "box" id="time">
-            <div class="bbar"><div class="bbut"></div><div class="bbut"></div><div class="bbut"></div></div>
+        <div id="time">
+          <div class ="shadow"></div>
               <iframe src="time.html"></iframe>
-              </div>
-          </div>
-
-          <div class = "box" id="vision">
-            <div class="bbar"><div class="bbut"></div><div class="bbut"></div><div class="bbut"></div></div>
-              <iframe src="vision.html"></iframe>
-              </div>
-          </div>
-    </div>
+     </div>
 
     
     
