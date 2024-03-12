@@ -159,9 +159,9 @@ opacity:0;
                 const synthB = new Tone.PolySynth().toDestination();
                 synthB.set({ detune: -1200 });
 
-                // const loopA = new Tone.Loop(time => {
-                //     synthA.triggerAttackRelease(["C4", "E4", "A4"], 10);
-                // }, "1n").start(0);
+                const loopA = new Tone.Loop(time => {
+                    synthA.triggerAttackRelease(["C4", "E4", "A4"], 10);
+                }, "1n").start(0);
             
                 Tone.Transport.start();
 
