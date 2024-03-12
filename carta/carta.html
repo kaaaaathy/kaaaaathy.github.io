@@ -147,29 +147,31 @@ p {
 
         let prevEnd = 0;
 
-        for (const word of words){
-            
-            await wait((word.start - prevEnd)*2000) 
-            //wait for previous word to end (none, if first word)
+        while (true){
+            for (const word of words){
+                
+                await wait((word.start - prevEnd)*2000) 
+                //wait for previous word to end (none, if first word)
 
-            let newSpan = document.createElement('span');
-            newSpan.innerText= word.word;
-            poemContainer.appendChild(newSpan);
-            newSpan.style.opacity = 1;
+                let newSpan = document.createElement('span');
+                newSpan.innerText= word.word;
+                poemContainer.appendChild(newSpan);
+                newSpan.style.opacity = 1;
 
-            
-            await wait ((word.end - word.start)*2000);
-            newSpan.style.opacity = 0;
+                
+                await wait ((word.end - word.start)*2000);
+                newSpan.style.opacity = 0;
 
-            //entire duration of word
+                //entire duration of word
 
-            // console.log(word.word.trim() + " ended");
-            prevEnd = word.end;
+                // console.log(word.word.trim() + " ended");
+                prevEnd = word.end;
 
 
+            }
         }
+    }
 
- }
 
     getResponse();
 
@@ -212,18 +214,18 @@ p {
                 }).addTo(map);
 
 
-                Papa.parse('deposit.txt',{
+                Papa.parse('cobalt.txt',{
                     download:true,
                         complete: function(results, file) {
                         // console.log("Parsing complete:", results, file);
                         data = results.data;
                         for(let i = 1; i < data.length; i++){
                     
-                            lat.push(data[i][4]);
-                            lon.push(data[i][5]);
-                            place.push(data[i][1]);
-                            mineral.push(data[i][6]);
-                            type.push(data[i][7]);
+                            lat.push(data[i][5]);
+                            lon.push(data[i][6]);
+                            place.push(data[i][8]);
+                            mineral.push(data[i][12] + " " + data[i][13] + " " + data[i][14]);
+                            type.push(data[i][4]);
 
                         
                          }

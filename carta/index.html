@@ -100,6 +100,10 @@ iframe{
     z-index: 6;
 }
 
+#carta:has(iframe[src="about:blank"]) {
+opacity:0;
+}
+
 #carta iframe{
     z-index: 5;
 }
@@ -125,12 +129,12 @@ iframe{
 
         <div class = "box" id="carta">
           <div class="bbar"><div class="bbut"></div><div class="bbut"></div><div class="bbut"></div></div>
-            <iframe src="carta.html"></iframe>
+            <iframe id="C" src="about:blank"></iframe>
             </div>
 
         <div id="time">
           <div class ="shadow"></div>
-              <iframe src="time.html"></iframe>
+              <iframe id="T" src="about:blank"></iframe>
      </div>
 
     
@@ -142,6 +146,12 @@ iframe{
                 let started = false;
                 let pressed = false;
 
+                let frameC = document.getElementById("C");
+                let frameT = document.getElementById("T");
+
+
+        
+
                 const synthA = new Tone.PolySynth().toDestination();
                 synthA.volume.value = -10;
                 synthA.set({ detune: -1200 });
@@ -149,36 +159,58 @@ iframe{
                 const synthB = new Tone.PolySynth().toDestination();
                 synthB.set({ detune: -1200 });
 
-                const loopA = new Tone.Loop(time => {
-                    synthA.triggerAttackRelease(["C4", "E4", "A4"], 10);
-                }, "1n").start(0);
+                // const loopA = new Tone.Loop(time => {
+                //     synthA.triggerAttackRelease(["C4", "E4", "A4"], 10);
+                // }, "1n").start(0);
             
                 Tone.Transport.start();
 
-                document.addEventListener('mousedown',function(){
-                    if (started == false){
-                            started = true;
-                            sound.play();
-                            Tone.start(); 
-                    }
-                });
 
-                document.addEventListener('keydown',function(){
+                document.addEventListener("keydown", checkKeyPressed, false);
+
+                function checkKeyPressed(evt) {
+
+                    if (evt.keyCode == "84") {
+                      //the letter T
+                        if (frameT.src=="about:blank"){
+                          frameT.src="time.html";
+                        }
+                        else {
+                          frameT.src="about:blank";
+                        }
+                    }
+
+                    if (evt.keyCode == "67") {
+                      //the letter C
+                        if (frameC.src=="about:blank"){
+                          frameC.src="carta.html";
+                        }
+                        else {
+                          frameC.src="about:blank";
+                        }
+                    }
+                }
+              
+
+                document.addEventListener('keydown',function(evt){
+                  if (evt.keyCode == "32"){
+                    Tone.start();
+                    started = true;
                     if (started == true && pressed==false){
-                    synthB.triggerAttack(["G4"]);
-                    // document.body.style.background = "white";
-                    document.body.style.filter ="blur(10px)";
+                        synthB.triggerAttack(["G4"]);
+                        document.body.style.filter ="blur(10px)";
 
-                    pressed=true;
+                        pressed=true;
                     }
+                  }
+                 
 
                 });
 
 
-                document.addEventListener('keyup',function(){
-                    if (started == true && pressed==true){
+                document.addEventListener('keyup',function(evt){
+                    if (evt.keyCode == "32" && started == true && pressed==true){
                     synthB.triggerRelease(["G4"]);
-                    document.body.style.background = "black";
                     document.body.style.filter ="none";
 
 
