@@ -17,6 +17,9 @@
 <script>   $( function() {
     $( ".box" ).draggable();
     $( "#time" ).draggable();
+    $( "#E" ).draggable();
+    $( "#H" ).draggable();
+
 
   } );
 
@@ -119,7 +122,47 @@ opacity:0;
 
 }
 
+#E{
+  border-radius: 100px;
+  width:160px;
+  right:30px;
+  top: 130px;
+  z-index:10;
 
+
+}
+
+#M{
+  background-color: black;
+  padding:40px 0px;
+
+}
+
+#M,#G,#S {
+  width:0px;
+  height:auto;
+  position:absolute;
+  top:0; left:0;
+  z-index:11;
+
+}
+
+
+
+#H, #E{
+  height:auto;
+  position:absolute;
+  opacity:0;
+  transition: opacity 0.5s;
+
+}
+
+#H{
+  z-index:0;
+  width:100px;
+  top:10px;
+  right:10px;
+}
 
 </style>
     </head>
@@ -137,7 +180,13 @@ opacity:0;
               <iframe id="T" src="about:blank"></iframe>
      </div>
 
-    
+     <img id="E" src = "earth.gif">
+     <img id="H" src = "cursor.gif">
+
+     <img id="M" src = "chip.gif">
+     <img id="G" src = "error-popup.gif">
+     <img id="S" src = "sss.gif">
+
     
     </body>   
     <script src="tone/build/Tone.js"></script>
@@ -148,6 +197,12 @@ opacity:0;
 
                 let frameC = document.getElementById("C");
                 let frameT = document.getElementById("T");
+                let earth = document.getElementById("E");
+                let circuit = document.getElementById("M");
+                let hourglass = document.getElementById("H");
+                let error = document.getElementById("G");
+                let sss = document.getElementById("S");
+
 
 
         
@@ -184,13 +239,58 @@ opacity:0;
                       //the letter C
                         if (frameC.src=="about:blank"){
                           frameC.src="carta.html";
+
                         }
                         else {
                           frameC.src="about:blank";
                         }
                     }
+
+                    if(evt.keyCode == "69"){
+                        if (earth.style.opacity =="1"){
+                          earth.style.opacity = "0";
+                        } else {
+                          earth.style.opacity = "1";
+                        }
+                    }
+
+
+                    if(evt.keyCode == "77"){
+                        if (circuit.style.width =="100%"){
+                          circuit.style.width = "0px";
+                        } else {
+                          circuit.style.width = "100%";
+                        }
+                    }
+
+                    if(evt.keyCode == "83"){
+                        if (sss.style.width =="100%"){
+                          sss.style.width = "0px";
+                        } else {
+                          sss.style.width = "100%";
+                        }
+                    }
+
+                    if(evt.keyCode == "71"){
+                        if (error.style.width =="100%"){
+                          error.style.width = "0px";
+                        } else {
+                          error.style.width = "100%";
+                        }
+                    }
+
+                  if(evt.keyCode == "72"){
+                      if (hourglass.style.opacity == "1"){
+                              hourglass.style.opacity = "0";
+                            } else {
+                              hourglass.style.opacity = "1";
+                            }
+                    }
                 }
               
+
+              
+//sound stuff
 
                 document.addEventListener('keydown',function(evt){
                   if (evt.keyCode == "32"){
