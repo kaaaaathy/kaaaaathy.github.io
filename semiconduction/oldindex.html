@@ -1,0 +1,356 @@
+<html>
+<head>
+<!-- <link rel="stylesheet" href="index.css"> -->
+<script src="//code.jquery.com/jquery-1.12.4.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script> -->
+<link type="text/css" href="css/themename/jquery-ui-1.7.1.custom.css" rel="Stylesheet" />
+<title>on touching each other through semi conduction</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<style>
+
+body {
+  background:black;
+  color:white;
+
+  font-family: courier, monospace;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin:20px;
+
+  -webkit-user-select:none;
+  -webkit-touch-callout:none;
+   -moz-user-select:none;
+   -ms-user-select:none;
+   user-select:none;
+
+}
+
+@keyframes pulse {
+  from {opacity: 1.0;}
+  to {opacity: 0.5;}
+}
+
+
+#partholder {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: baseline;
+  max-width: 40%;
+}
+
+#container{
+  height:100%;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.draggable {
+  cursor: pointer;
+}
+
+.part {
+  text-align: center;
+  padding: 16px;
+  opacity: 1;
+  line-height: 16px;
+  font-family: courier, monospace;
+  font-size:12px;
+}
+
+.part img {
+  max-width: 100px;
+}
+
+.part img:hover{
+  opacity:0.75;
+}
+
+.part img:active{
+  /* box-shadow:1px 1px 5px #fff; */
+  opacity:0.5;
+
+}
+.fade {
+  opacity:0;
+  transition: 0.75s ease-in;
+}
+
+.pulse {
+  animation: pulse 1.5s ease infinite alternate;
+}
+
+#writing{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+#phone {
+  color:white;
+  /* height:90%; */
+  width:400px;
+
+  background-image: url('iphone/american_child.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+
+  margin: 10px;
+  padding: 0px 40px;
+
+  justify-content: center;
+}
+
+.supscript {
+  font-size:8px;
+  color:silver;
+}
+
+h2 {
+  font-family: times;
+  font-weight: normal;
+  line-height: 32px;
+  padding-bottom: 10px;
+
+}
+
+@media only screen and (max-width: 600px) {
+  #container {
+      flex-wrap: wrap;
+    }
+  #phone {
+    margin: 0px 10px;
+    padding: 0px;
+    width:100%;
+    height:90%;
+    border-right: 0px;
+
+  }
+
+
+  #partholder{
+    max-width:100%;
+    margin:20px 0px;
+
+
+  }
+
+  #writing{
+    position: fixed;
+    top:10px;
+  }
+
+  .part img {
+    max-width: 60px;
+  }
+  .part {
+    padding: 10px;
+  }
+
+  h2{
+    /* padding-bottom: 0px;
+    margin-top: 0px; */
+    display:none;
+  }
+}
+
+</style>
+
+<body>
+
+
+<div id="container">
+
+    <div id="phone">
+      <h2 class ="pulse">on touching each other<br>through semi conduction</h2>
+      <p id = "intro" class ="pulse">click or drag the parts→</p>
+      <p id="writing"><!-- poem is generated here --></p>
+    </div>
+    <div id = "partholder"></div>
+
+</div>
+
+
+
+<script type="text/javascript">
+
+//declare all the text data variables
+let data;  //empty for now
+let poem = []; //empty for now
+let poemCounter = [];
+let poemDiv = document.getElementById("writing");
+let phone = document.getElementById("phone");
+//create images
+let parts = ["moon","sinew","beethoven","individuals","daughters","amulets","weaving","workers","threads"];
+
+let intro = document.getElementById("intro");
+let started = false;
+
+let wholeLength = 0;
+let maxLength = 14;
+
+let fadeTime = 5000;
+let fadeDelay = 1000;
+
+function newPart(i){
+
+  let newdiv = document.createElement("div");
+  newdiv.classList.add("part");
+  newdiv.classList.add("draggable");
+
+  let newImage = document.createElement("img");
+  newImage.src = "iphone/" + parts[i] + ".png";
+  newdiv.appendChild(newImage);
+
+  let label = document.createElement("p");
+  label.innerText = i;
+  newdiv.appendChild(label);
+
+//click behavior
+  newdiv.addEventListener("click", function(){
+          if (started == false){
+            started = true;
+            turnOffIntro();
+          }
+
+          let newLine = document.createElement("div");
+          newLine.innerHTML += poem[i][poemCounter[i]] + " <span class='supscript'>" + i + "&nbsp;</span>";
+
+          setTimeout(function(){
+            newLine.classList.add("fade");
+
+          }, fadeTime+fadeDelay);
+
+          setTimeout(function(){
+            newLine.style.display = "none";
+          }, fadeTime+fadeDelay*2);
+
+          poemDiv.appendChild(newLine);
+
+          //increment lines
+          if (poemCounter[i] < poem[i].length -1){
+            poemCounter[i] += 1;
+          } else {
+            poemCounter[i] = 0;
+          }
+    });
+
+    document.addEventListener("pointerup", function(){
+      if (checkPos(newdiv) == true){
+            newdiv.classList.add("fade");
+            newdiv.classList.remove("draggable");
+            setTimeout(function(){
+              newdiv.style.display = "none";
+              let newerdiv = newPart(i);
+              newdiv.parentElement.insertBefore(newerdiv,newdiv);
+              newdiv.parentElement.removeChild(newdiv);
+
+              addDrag();
+            }, fadeDelay);
+      }
+    });
+
+  return newdiv;
+
+
+}
+
+function turnOffIntro(){
+  intro.classList.remove("pulse");
+  setTimeout(function(){
+    intro.classList.add("fade");
+  }, 500);
+
+  setTimeout(function(){
+    intro.parentElement.removeChild(intro);
+  },1000);
+
+}
+
+
+//lmao this would be more elegant in jquery
+function buildSite(){
+  //render all images and add class desc
+  for (let i = 0; i < parts.length; i++){
+    document.getElementById("partholder").appendChild(newPart(i));
+    addDrag();
+
+  }
+}
+
+    //tell it how to respond on click
+
+function checkPos(div){
+  let rect = div.getBoundingClientRect();
+  let poemX = phone.getBoundingClientRect().right;
+  let poemY = phone.getBoundingClientRect().bottom;
+
+  if (rect.left < poemX && rect.top < poemY){
+    return true;
+  }
+}
+
+
+function addDrag(){
+  $( function() {
+    $( ".draggable" ).draggable({
+          grid: [ 50, 50 ]
+        });
+  });
+}
+
+
+//this is where it happens!!
+fetch('data.txt')
+    .then(response => response.text())
+    .then(data => {
+        poem = splitTxt(data);
+        buildSite();
+    });
+
+
+function splitTxt(input){
+  //create blank Array to be returned
+  let outputPoem = [];
+
+  //create an array of the data, splitting on each numbered entry
+  //split into poems
+  let allPoems = input.split(/[0-9]+\—/);
+  allPoems.splice(0,1);
+  console.log(allPoems);
+
+  for(let i = 0; i < allPoems.length; i++){
+//split poems into lines //add lines into an baby array
+        let newLine = allPoems[i].split("\n");
+        console.log("that is da newLine that u split",newLine)
+//remove white space
+        for (let j = 0; j< newLine.length; j++){
+          if (newLine[j].length <= 1){
+              newLine.splice(j,1);
+              j-=1;
+          }
+        }
+        outputPoem.push(newLine);
+        poemCounter.push(0);
+
+        console.log("that is da outputPoem with da newLines",outputPoem)
+  }
+
+  return(outputPoem);
+}
+//this is borked
+
+
+</script>
+
+
+</body>
+</html>

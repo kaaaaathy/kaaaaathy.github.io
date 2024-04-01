@@ -1,0 +1,548 @@
+.DS_Store
+~*
+archive/
+bluebl/ableton tests/danubesoft.mp3.asd
+bluebl/ableton tests/danubesoft.mp3
+bluebl/ableton tests/danubesoft.aif.asd
+bluebl/ableton tests/danubesoft.aif
+bluebl/ableton tests/danubeloop.mp3.asd
+bluebl/ableton tests/danubeloop.aif.asd
+bluebl/ableton tests/danubeloop.aif
+bluebl/ableton tests/danube.mp3.asd
+bluebl/ableton tests/danube-short.mp3.asd
+bluebl/ableton tests/danube test.mp3.asd
+bluebl/ableton tests/danube test.mp3
+bluebl/ableton tests/danube test.aif.asd
+bluebl/ableton tests/danube test.aif
+bluebl/danube clips/danube4.m4a
+bluebl/danube clips/danube3.m4a
+bluebl/danube clips/danube2.m4a
+bluebl/danube clips/danube1.m4a
+bluebl/danube clips/danube-short.mp3
+bluebl/danube clips/danube-short.m4a
+bluebl/sounds/ableton tests/danube test.aif
+bluebl/sounds/ableton tests/danube test.aif.asd
+bluebl/sounds/ableton tests/danube test.mp3
+bluebl/sounds/ableton tests/danube test.mp3.asd
+bluebl/sounds/ableton tests/danube-short.mp3.asd
+bluebl/sounds/ableton tests/danube.mp3.asd
+bluebl/sounds/ableton tests/danubeloop.aif
+bluebl/sounds/ableton tests/danubeloop.aif.asd
+bluebl/sounds/ableton tests/danubeloop.mp3.asd
+bluebl/sounds/ableton tests/danubesoft.aif
+bluebl/sounds/ableton tests/danubesoft.aif.asd
+bluebl/sounds/ableton tests/danubesoft.mp3
+bluebl/sounds/ableton tests/danubesoft.mp3.asd
+bluebl/sounds/danube clips/danube test.mp3
+bluebl/sounds/danube clips/danube-short.m4a
+bluebl/sounds/danube clips/danube-short.mp3
+bluebl/sounds/danube clips/danube.mp3
+bluebl/sounds/danube clips/danube1.m4a
+bluebl/sounds/danube clips/danube2.m4a
+bluebl/sounds/danube clips/danube3.m4a
+bluebl/sounds/danube clips/danube4.m4a
+bluebl/sounds/danube clips/danubeloop.mp3
+bluebl/sounds/danube clips/danubesoft.mp3
+blue-v1/0.html
+blue-v1/1.html
+blue-v1/2.html
+blue-v1/3.html
+blue-v1/4.html
+blue-v1/5.html
+blue-v1/6.html
+blue-v1/animate.js
+blue-v1/animatecolors.js
+blue-v1/animatepics-alt.js
+blue-v1/colors.json
+blue-v1/images/cobaltmine/blue1.jpg
+blue-v1/images/cobaltmine/blue10.jpg
+blue-v1/images/cobaltmine/blue2.jpg
+blue-v1/images/cobaltmine/blue3.jpg
+blue-v1/images/cobaltmine/blue4.jpg
+blue-v1/images/cobaltmine/blue5.jpg
+blue-v1/images/cobaltmine/blue6.jpg
+blue-v1/images/cobaltmine/blue7.jpg
+blue-v1/images/cobaltmine/blue8.jpg
+blue-v1/images/cobaltmine/blue9.jpg
+blue-v1/index.html
+blue-v1/index.js
+blue-v1/LICENSE
+blue-v1/README.md
+blue-v1/StartAudioContext.js
+blue-v1/style.css
+blue-v1/stylealt.css
+blue-v1/text.txt
+blue-v1/TODO.md
+blue/images/_hide/bsod/blue1.jpg
+blue/images/_hide/bsod/blue2.jpg
+blue/images/_hide/bsod/blue3.jpg
+blue/images/_hide/bsod/blue4.jpg
+blue/images/_hide/bsod/blue5.jpg
+blue/images/_hide/bsod/blue6.jpg
+blue/images/_hide/bsod/blue7.jpg
+blue/images/_hide/bsod/blue8.jpg
+blue/images/_hide/bsod/blue9.jpg
+blue/images/_hide/cerulean/blue1.jpg
+blue/images/_hide/cerulean/blue2.jpg
+blue/images/_hide/cerulean/blue3.jpg
+blue/images/_hide/cerulean/blue4.jpg
+blue/images/_hide/cerulean/blue5.jpg
+blue/images/_hide/cerulean/blue6.jpg
+blue/images/_hide/cerulean/blue7.jpg
+blue/images/_hide/cerulean/blue8.jpg
+blue/images/_hide/cerulean/blue9.jpg
+blue/images/_hide/cobalt/blue1.jpg
+blue/images/_hide/cobalt/blue2.jpg
+blue/images/_hide/cobalt/blue3.jpg
+blue/images/_hide/cobalt/blue4.jpg
+blue/images/_hide/cobalt/blue5.jpg
+blue/images/_hide/cobalt/blue6.jpg
+blue/images/_hide/cobalt/blue7.jpg
+blue/images/_hide/cobalt/blue8.jpg
+blue/images/_hide/cobalt/blue9.jpg
+blue/images/_hide/lapis/blue1.jpg
+blue/images/_hide/lapis/blue2.jpg
+blue/images/_hide/lapis/blue3.jpg
+blue/images/_hide/lapis/blue4.jpg
+blue/images/_hide/lapis/blue5.jpg
+blue/images/_hide/lapis/blue6.jpg
+blue/images/_hide/neon/blue1.jpg
+blue/images/_hide/neon/blue2.jpg
+blue/images/_hide/neon/blue3.jpg
+blue/images/_hide/neon/blue4.jpg
+blue/images/_hide/neon/blue5.jpg
+blue/images/_hide/neon/blue6.jpg
+blue/images/_hide/neon/blue7.jpg
+blue/images/_hide/neon/blue8.jpg
+blue/images/_hide/prussian/blue1.jpg
+blue/images/_hide/prussian/blue10.jpg
+blue/images/_hide/prussian/blue2.jpg
+blue/images/_hide/prussian/blue3.jpg
+blue/images/_hide/prussian/blue4.jpg
+blue/images/_hide/prussian/blue5.jpg
+blue/images/_hide/prussian/blue6.jpg
+blue/images/_hide/prussian/blue7.jpg
+blue/images/_hide/prussian/blue8.jpg
+blue/images/_hide/prussian/blue9.jpg
+blue/images/_hide/ultra/blue1.jpg
+blue/images/_hide/ultra/blue10.jpg
+blue/images/_hide/ultra/blue2.jpg
+blue/images/_hide/ultra/blue3.jpg
+blue/images/_hide/ultra/blue4.jpg
+blue/images/_hide/ultra/blue5.jpg
+blue/images/_hide/ultra/blue6.jpg
+blue/images/_hide/ultra/blue7.jpg
+blue/images/_hide/ultra/blue8.jpg
+blue/images/_hide/ultra/blue9.jpg
+fonts/ignore/minion/MinionPro-Bold.otf
+fonts/ignore/minion/MinionPro-BoldCn.otf
+fonts/ignore/minion/MinionPro-BoldCnIt.otf
+fonts/ignore/minion/MinionPro-BoldIt.otf
+fonts/ignore/minion/MinionPro-It.otf
+fonts/ignore/minion/MinionPro-Medium.otf
+fonts/ignore/minion/MinionPro-MediumIt.otf
+fonts/ignore/minion/MinionPro-Regular.otf
+fonts/ignore/minion/MinionPro-Semibold.otf
+fonts/ignore/minion/MinionPro-SemiboldIt.otf
+fonts/ignore/Rubik-Black.ttf
+fonts/ignore/Rubik-BlackItalic.ttf
+fonts/ignore/Rubik-Bold.ttf
+fonts/ignore/Rubik-BoldItalic.ttf
+fonts/ignore/Rubik-Italic.ttf
+fonts/ignore/Rubik-Light.ttf
+fonts/ignore/Rubik-LightItalic.ttf
+fonts/ignore/Rubik-Medium.ttf
+fonts/ignore/Rubik-MediumItalic.ttf
+fonts/ignore/Rubik-Regular.ttf
+work/**retired but im still proud/polit-img/thumb.jpg
+work/**retired but im still proud/polit-img/smallneedful3.jpg
+work/**retired but im still proud/polit-img/smallneedful2.jpg
+work/**retired but im still proud/polit-img/smallneedful1.jpg
+work/**retired but im still proud/polit-img/pipapunk.jpg
+work/**retired but im still proud/polit-img/migrationthumb.jpg
+work/**retired but im still proud/polit-img/migrationprint.jpg
+work/**retired but im still proud/polit-img/migration-thumb.jpg
+work/**retired but im still proud/polit-img/go away/smallneedful3.png
+work/**retired but im still proud/polit-img/go away/smallneedful2.png
+work/**retired but im still proud/polit-img/go away/smallneedful1.png
+work/**retired but im still proud/polit-img/go away/pipapunk.png
+work/**retired but im still proud/polit-img/go away/migrationthumb.png
+work/**retired but im still proud/polit-img/go away/migrationprint.png
+work/**retired but im still proud/polit-img/go away/migration-thumb.png
+work/**retired but im still proud/lego/wintershow.jpg
+work/**retired but im still proud/lego/thumb.jpg
+work/**retired but im still proud/lego/stopmotion.gif
+work/**retired but im still proud/lego/schematic2.jpg
+work/**retired but im still proud/lego/schematic1.jpg
+work/**retired but im still proud/lego/record_alt.gif
+work/**retired but im still proud/lego/record4.jpg
+work/**retired but im still proud/lego/record3.jpg
+work/**retired but im still proud/lego/record2.jpg
+work/**retired but im still proud/lego/record1.jpg
+work/**retired but im still proud/lego/record/Screen Shot 2018-01-09 at 1.11.22 AM.png
+work/**retired but im still proud/lego/record/Screen Shot 2018-01-09 at 1.11.05 AM.png
+work/**retired but im still proud/lego/record/Screen Shot 2018-01-09 at 1.10.46 AM.png
+work/**retired but im still proud/lego/record/Screen Shot 2018-01-09 at 1.10.37 AM.png
+work/**retired but im still proud/lego/record/Screen Shot 2018-01-09 at 1.10.17 AM.png
+work/**retired but im still proud/lego/record.gif
+work/**retired but im still proud/lego/process1_crop.jpg
+work/**retired but im still proud/lego/process1.jpg
+work/**retired but im still proud/lego/planning.jpg
+work/**retired but im still proud/lego/p5process.jpg
+work/**retired but im still proud/lego/lego_yifan_test.gif
+work/**retired but im still proud/lego/lego_sketch.jpg
+work/**retired but im still proud/lego/go away/schematic2.png
+work/**retired but im still proud/lego/go away/schematic1.png
+work/**retired but im still proud/lego/go away/planning.png
+work/**retired but im still proud/lego/go away/p5process.png
+work/**retired but im still proud/lego/full size/1_thumb.jpg
+work/**retired but im still proud/lego/full size/1.jpg
+work/**retired but im still proud/lego/boxprocess_big.gif
+work/**retired but im still proud/lego/4.jpg
+work/**retired but im still proud/lego/3_super_cropped.jpg
+work/**retired but im still proud/lego/3_cropped.jpg
+work/**retired but im still proud/lego/3.jpg
+work/**retired but im still proud/lego/2.jpg
+work/**retired but im still proud/lego/1.jpg
+work/**retired but im still proud/bumble/thumb2.png
+work/**retired but im still proud/bumble/thumb2.jpg
+work/**retired but im still proud/bumble/thumb.psd
+work/**retired but im still proud/bumble/thumb.png
+work/**retired but im still proud/bumble/thumb.jpg
+work/**retired but im still proud/bumble/sideways2.png
+work/**retired but im still proud/bumble/sideways.png
+work/**retired but im still proud/bumble/link.png
+work/**retired but im still proud/bumble/inspiration.psd
+work/**retired but im still proud/bumble/inspiration.png
+work/**retired but im still proud/bumble/inspiration.jpg
+work/**retired but im still proud/bumble/demo.m4v
+work/**retired but im still proud/bumble/create.png
+work/**retired but im still proud/bumble/8.png
+work/**retired but im still proud/bumble/7.png
+work/**retired but im still proud/bumble/7.jpg
+work/**retired but im still proud/bumble/6.png
+work/**retired but im still proud/bumble/6.jpg
+work/**retired but im still proud/bumble/5.png
+work/**retired but im still proud/bumble/4.png
+work/**retired but im still proud/bumble/4.jpg
+work/**retired but im still proud/bumble/3.jpg
+work/**retired but im still proud/bumble/2.png
+work/**retired but im still proud/bumble/2.jpg
+work/**retired but im still proud/bumble/1.jpg
+work/**retired but im still proud/motemote/demo.jpg
+work/**retired but im still proud/motemote/demo2.JPG
+work/**retired but im still proud/motemote/go away/motemote.png
+work/**retired but im still proud/motemote/go away/motemote1.png
+work/**retired but im still proud/motemote/go away/motemote_uncropped_1.png
+work/**retired but im still proud/motemote/go away/motemote_uncropped_2.png
+work/**retired but im still proud/motemote/go away/Screenshot (1).png
+work/**retired but im still proud/motemote/go away/Screenshot (2).png
+work/**retired but im still proud/motemote/go away/Screenshot (4).png
+work/**retired but im still proud/motemote/go away/spacer.png
+work/**retired but im still proud/motemote/go away/thumb.png
+work/**retired but im still proud/motemote/go away/thumb2.png
+work/**retired but im still proud/motemote/go away/thumb3.jpg
+work/**retired but im still proud/motemote/go away/thumb3.png
+work/**retired but im still proud/motemote/motemote-2-nice.gif
+work/**retired but im still proud/motemote/motemote-2.gif
+work/**retired but im still proud/motemote/motemote-2.psd
+work/**retired but im still proud/motemote/motemote-3.gif
+work/**retired but im still proud/motemote/motemote-3.psd
+work/**retired but im still proud/motemote/motemote.gif
+work/**retired but im still proud/motemote/motemote.jpg
+work/**retired but im still proud/motemote/motemote.psd
+work/**retired but im still proud/motemote/motemote1.jpg
+work/**retired but im still proud/motemote/motemote_uncropped_1.jpg
+work/**retired but im still proud/motemote/motemote_uncropped_2.jpg
+work/**retired but im still proud/motemote/motemote_uncropped_2_nice.jpg
+work/**retired but im still proud/motemote/Screenshot (1).jpg
+work/**retired but im still proud/motemote/Screenshot (2).jpg
+work/**retired but im still proud/motemote/Screenshot (4).jpg
+work/**retired but im still proud/motemote/thumb.gif
+work/**retired but im still proud/motemote/thumb.jpg
+work/**retired but im still proud/motemote/thumb2.jpg
+work/**retired but im still proud/motemote/thumb3.jpg
+work/**retired/copy-paste-img/1.jpg
+work/**retired/copy-paste-img/12.jpg
+work/**retired/copy-paste-img/2.jpg
+work/**retired/copy-paste-img/4.jpg
+work/**retired/copy-paste-img/5.jpg
+work/**retired/copy-paste-img/7.jpg
+work/**retired/copy-paste-img/layering.gif
+work/**retired/copy-paste-img/layering/base.png
+work/**retired/copy-paste-img/layering/Screen Shot 2020-10-06 at 1.57.11 PM.png
+work/**retired/copy-paste-img/layering/Screen Shot 2020-10-06 at 1.57.32 PM.png
+work/**retired/copy-paste-img/layering/Screen Shot 2020-10-06 at 1.57.36 PM.png
+work/**retired/copy-paste-img/layering/Screen Shot 2020-10-06 at 1.57.38 PM.png
+work/**retired/copy-paste-img/layering/Screen Shot 2020-10-06 at 1.57.41 PM.png
+work/**retired/copy-paste-img/layering/Screen Shot 2020-10-06 at 1.57.44 PM.png
+work/**retired/copy-paste-img/layering/Screen Shot 2020-10-06 at 1.57.46 PM.png
+work/**retired/copy-paste-img/layering/Screen Shot 2020-10-06 at 1.57.49 PM.png
+work/**retired/copy-paste-img/layering/Screen Shot 2020-10-06 at 1.57.53 PM.png
+work/**retired/copy-paste-img/layering/Screen Shot 2020-10-06 at 1.59.33 PM.png
+work/**retired/copy-paste-img/layering/Screen Shot 2020-10-06 at 1.59.36 PM.png
+work/**retired/copy-paste-img/layering_real.psd
+work/**retired/copy-paste-img/layering_real_0000_Layer-12.png
+work/**retired/copy-paste-img/layering_real_0006_Layer-6.png
+work/**retired/copy-paste-img/layering_real_0011_bg.png
+work/**retired/copy-paste-img/long bois/1.jpg
+work/**retired/copy-paste-img/long bois/10.jpg
+work/**retired/copy-paste-img/long bois/2.jpg
+work/**retired/copy-paste-img/long bois/3.jpg
+work/**retired/copy-paste-img/long bois/5.jpg
+work/**retired/copy-paste-img/originals/phone1.jpg
+work/**retired/copy-paste-img/originals/phone2.jpg
+work/**retired/copy-paste-img/originals/phone3.jpg
+work/**retired/copy-paste-img/originals/phone4.jpg
+work/**retired/copy-paste-img/originals/phonepart1.jpg
+work/**retired/copy-paste-img/originals/phonepart2.jpg
+work/**retired/copy-paste-img/originals/phonepart3.jpg
+work/**retired/copy-paste-img/phonegif pics/phonegif.jpg
+work/**retired/copy-paste-img/phonegif pics/phonegif2.jpg
+work/**retired/copy-paste-img/phonegif pics/phonegif3.jpg
+work/**retired/copy-paste-img/phonegif pics/phonegif4.jpg
+work/**retired/copy-paste-img/phonegif pics/phonegif5.jpg
+work/**retired/copy-paste-img/phonegif pics/phonegif6.jpg
+work/**retired/copy-paste-img/phonegif.gif
+work/**retired/copy-paste-img/phonegif.psd
+work/**retired/copy-paste-img/put away/10.jpg
+work/**retired/copy-paste-img/put away/2.jpg
+work/**retired/copy-paste-img/put away/3.jpg
+work/**retired/copy-paste-img/put away/5.jpg
+work/**retired/copy-paste-img/put away/copy and paste.gif
+work/**retired/copy-paste-img/put away/layering_old.gif
+work/**retired/copy-paste-img/put away/Screen Shot 2020-10-05 at 11.42.09 PM.png
+work/**retired/copy-paste-img/put away/Screen Shot 2020-10-05 at 11.42.15 PM.png
+work/**retired/copy-paste-img/put away/Screen Shot 2020-10-05 at 11.42.17 PM.png
+work/**retired/copy-paste-img/put away/Screen Shot 2020-10-05 at 11.42.20 PM.png
+work/**retired/copy-paste-img/put away/Screen Shot 2020-10-05 at 11.42.21 PM.png
+work/**retired/copy-paste-img/put away/Screen Shot 2020-10-05 at 11.47.22 PM.png
+work/**retired/copy-paste-img/put away/Screen Shot 2020-10-05 at 11.47.25 PM.png
+work/**retired/copy-paste-img/put away/Screen Shot 2020-10-05 at 11.47.28 PM.png
+work/**retired/copy-paste-img/put away/Screen Shot 2020-10-05 at 11.47.31 PM.png
+work/**retired/copy-paste-img/put away/Screen Shot 2020-10-06 at 12.33.37 PM.png
+work/**retired/copy-paste-img/put away/Screen Shot 2020-10-06 at 12.36.15 PM.png
+work/**retired/copy-paste-img/put away/Screen Shot 2020-10-06 at 12.36.20 PM.png
+work/**retired/copy-paste-img/put away/Screen Shot 2020-10-06 at 12.36.53 PM.png
+work/**retired/copy-paste-img/put away/Screen Shot 2020-10-06 at 12.36.58 PM.png
+work/**retired/copy-paste-img/put away/Screen Shot 2020-10-06 at 12.40.39 PM.png
+work/**retired/copy-paste-img/Screen Shot 2020-10-06 at 5.32.43 PM.png
+work/**retired/copy-paste-img/thumb-alt.jpg
+work/**retired/copy-paste-img/thumb.jpg
+work/**retired/earth/earth-4x5.gif
+work/**retired/earth/earth-4x5.jpg
+work/**retired/earth/earth-4x5.psd
+work/**retired/earth/earth-mouse.gif
+work/**retired/earth/earth-record.gif
+work/**retired/earth/earth.gif
+work/**retired/earth/earth.jpg
+work/**retired/earth/earth.psd
+work/**retired/earth/earth2.jpg
+work/**retired/earth/objects.png
+work/**retired/earth/og screencaps/Screen Shot 2020-11-09 at 10.03.06 PM.png
+work/**retired/earth/og screencaps/Screen Shot 2020-11-09 at 9.51.17 PM.png
+work/**retired/earth/og screencaps/Screen Shot 2020-11-09 at 9.51.19 PM.png
+work/**retired/earth/og screencaps/Screen Shot 2020-11-09 at 9.51.22 PM.png
+work/**retired/earth/og screencaps/Screen Shot 2020-11-09 at 9.51.25 PM.png
+work/**retired/earth/og screencaps/Screen Shot 2020-11-09 at 9.51.27 PM.png
+work/**retired/earth/og screencaps/Screen Shot 2020-11-09 at 9.51.29 PM.png
+work/**retired/earth/og screencaps/Screen Shot 2020-11-09 at 9.51.31 PM.png
+work/**retired/earth/og screencaps/Screen Shot 2020-11-09 at 9.51.35 PM.png
+work/**retired/earth/og screencaps/Screen Shot 2020-11-09 at 9.52.20 PM.png
+work/**retired/earth/thumb.jpg
+work/copy-paste-img/1.jpg
+work/copy-paste-img/12.jpg
+work/copy-paste-img/2.jpg
+work/copy-paste-img/4.jpg
+work/copy-paste-img/5.jpg
+work/copy-paste-img/7.jpg
+work/copy-paste-img/layering.gif
+work/copy-paste-img/layering/base.png
+work/copy-paste-img/layering/Screen Shot 2020-10-06 at 1.57.11 PM.png
+work/copy-paste-img/layering/Screen Shot 2020-10-06 at 1.57.32 PM.png
+work/copy-paste-img/layering/Screen Shot 2020-10-06 at 1.57.36 PM.png
+work/copy-paste-img/layering/Screen Shot 2020-10-06 at 1.57.38 PM.png
+work/copy-paste-img/layering/Screen Shot 2020-10-06 at 1.57.41 PM.png
+work/copy-paste-img/layering/Screen Shot 2020-10-06 at 1.57.44 PM.png
+work/copy-paste-img/layering/Screen Shot 2020-10-06 at 1.57.46 PM.png
+work/copy-paste-img/layering/Screen Shot 2020-10-06 at 1.57.49 PM.png
+work/copy-paste-img/layering/Screen Shot 2020-10-06 at 1.57.53 PM.png
+work/copy-paste-img/layering/Screen Shot 2020-10-06 at 1.59.33 PM.png
+work/copy-paste-img/layering/Screen Shot 2020-10-06 at 1.59.36 PM.png
+work/copy-paste-img/layering_real.psd
+work/copy-paste-img/layering_real_0000_Layer-12.png
+work/copy-paste-img/layering_real_0006_Layer-6.png
+work/copy-paste-img/layering_real_0011_bg.png
+work/copy-paste-img/long bois/1.jpg
+work/copy-paste-img/long bois/10.jpg
+work/copy-paste-img/long bois/2.jpg
+work/copy-paste-img/long bois/3.jpg
+work/copy-paste-img/long bois/5.jpg
+work/copy-paste-img/originals/phone1.jpg
+work/copy-paste-img/originals/phone2.jpg
+work/copy-paste-img/originals/phone3.jpg
+work/copy-paste-img/originals/phone4.jpg
+work/copy-paste-img/originals/phonepart1.jpg
+work/copy-paste-img/originals/phonepart2.jpg
+work/copy-paste-img/originals/phonepart3.jpg
+work/copy-paste-img/phonegif pics/phonegif.jpg
+work/copy-paste-img/phonegif pics/phonegif2.jpg
+work/copy-paste-img/phonegif pics/phonegif3.jpg
+work/copy-paste-img/phonegif pics/phonegif4.jpg
+work/copy-paste-img/phonegif pics/phonegif5.jpg
+work/copy-paste-img/phonegif pics/phonegif6.jpg
+work/copy-paste-img/phonegif.gif
+work/copy-paste-img/phonegif.psd
+work/copy-paste-img/put away/10.jpg
+work/copy-paste-img/put away/2.jpg
+work/copy-paste-img/put away/3.jpg
+work/copy-paste-img/put away/5.jpg
+work/copy-paste-img/put away/copy and paste.gif
+work/copy-paste-img/put away/layering_old.gif
+work/copy-paste-img/put away/Screen Shot 2020-10-05 at 11.42.09 PM.png
+work/copy-paste-img/put away/Screen Shot 2020-10-05 at 11.42.15 PM.png
+work/copy-paste-img/put away/Screen Shot 2020-10-05 at 11.42.17 PM.png
+work/copy-paste-img/put away/Screen Shot 2020-10-05 at 11.42.20 PM.png
+work/copy-paste-img/put away/Screen Shot 2020-10-05 at 11.42.21 PM.png
+work/copy-paste-img/put away/Screen Shot 2020-10-05 at 11.47.22 PM.png
+work/copy-paste-img/put away/Screen Shot 2020-10-05 at 11.47.25 PM.png
+work/copy-paste-img/put away/Screen Shot 2020-10-05 at 11.47.28 PM.png
+work/copy-paste-img/put away/Screen Shot 2020-10-05 at 11.47.31 PM.png
+work/copy-paste-img/put away/Screen Shot 2020-10-06 at 12.33.37 PM.png
+work/copy-paste-img/put away/Screen Shot 2020-10-06 at 12.36.15 PM.png
+work/copy-paste-img/put away/Screen Shot 2020-10-06 at 12.36.20 PM.png
+work/copy-paste-img/put away/Screen Shot 2020-10-06 at 12.36.53 PM.png
+work/copy-paste-img/put away/Screen Shot 2020-10-06 at 12.36.58 PM.png
+work/copy-paste-img/put away/Screen Shot 2020-10-06 at 12.40.39 PM.png
+work/copy-paste-img/Screen Shot 2020-10-06 at 5.32.43 PM.png
+work/copy-paste-img/thumb-alt.jpg
+work/copy-paste-img/thumb.jpg
+work/earth/earth-4x5.gif
+work/earth/earth-4x5.jpg
+work/earth/earth-4x5.psd
+work/earth/earth-mouse.gif
+work/earth/earth-record.gif
+work/earth/earth.gif
+work/earth/earth.jpg
+work/earth/earth.psd
+work/earth/earth2.jpg
+work/earth/objects.png
+work/earth/og screencaps/Screen Shot 2020-11-09 at 10.03.06 PM.png
+work/earth/og screencaps/Screen Shot 2020-11-09 at 9.51.17 PM.png
+work/earth/og screencaps/Screen Shot 2020-11-09 at 9.51.19 PM.png
+work/earth/og screencaps/Screen Shot 2020-11-09 at 9.51.22 PM.png
+work/earth/og screencaps/Screen Shot 2020-11-09 at 9.51.25 PM.png
+work/earth/og screencaps/Screen Shot 2020-11-09 at 9.51.27 PM.png
+work/earth/og screencaps/Screen Shot 2020-11-09 at 9.51.29 PM.png
+work/earth/og screencaps/Screen Shot 2020-11-09 at 9.51.31 PM.png
+work/earth/og screencaps/Screen Shot 2020-11-09 at 9.51.35 PM.png
+work/earth/og screencaps/Screen Shot 2020-11-09 at 9.52.20 PM.png
+work/earth/thumb.jpg
+work/motemote/demo.jpg
+work/motemote/demo2.JPG
+work/motemote/go away/motemote.png
+work/motemote/go away/motemote1.png
+work/motemote/go away/motemote_uncropped_1.png
+work/motemote/go away/motemote_uncropped_2.png
+work/motemote/go away/Screenshot (1).png
+work/motemote/go away/Screenshot (2).png
+work/motemote/go away/Screenshot (4).png
+work/motemote/go away/spacer.png
+work/motemote/go away/thumb.png
+work/motemote/go away/thumb2.png
+work/motemote/go away/thumb3.jpg
+work/motemote/go away/thumb3.png
+work/motemote/motemote-2-nice.gif
+work/motemote/motemote-2.gif
+work/motemote/motemote-2.psd
+work/motemote/motemote-3.gif
+work/motemote/motemote-3.psd
+work/motemote/motemote.gif
+work/motemote/motemote.jpg
+work/motemote/motemote.psd
+work/motemote/motemote1.jpg
+work/motemote/motemote_uncropped_1.jpg
+work/motemote/motemote_uncropped_2.jpg
+work/motemote/motemote_uncropped_2_nice.jpg
+work/motemote/Screenshot (1).jpg
+work/motemote/Screenshot (2).jpg
+work/motemote/Screenshot (4).jpg
+work/motemote/thumb.gif
+work/motemote/thumb.jpg
+work/motemote/thumb2.jpg
+work/motemote/thumb3.jpg
+work/**retired/illustration/woof.png
+work/**retired/illustration/thumb.png
+work/**retired/illustration/5.png
+work/**retired/illustration/4.png
+work/**retired/illustration/3b.png
+work/**retired/illustration/3a.png
+work/**retired/illustration/3.png
+work/**retired/illustration/2.png
+work/**retired/illustration/1.png
+work/**retired/ics-design/thumb.jpg
+work/**retired/ics-design/mobile.jpeg
+work/**retired/ics-design/inspiration.psd
+work/**retired/ics-design/hide/mobile_spicy.jpeg
+work/**retired/ics-design/hide/diffdesigns.psd
+work/**retired/ics-design/hide/c.jpeg
+work/**retired/ics-design/hide/before_after.psd
+work/**retired/ics-design/hide/b.jpeg
+work/**retired/ics-design/hide/7.jpeg
+work/**retired/ics-design/hide/6.psd
+work/**retired/ics-design/hide/3_alt.jpeg
+work/**retired/ics-design/hide/2.jpeg
+work/**retired/ics-design/hide/0.jpeg
+work/**retired/ics-design/diffdesigns_alt.gif
+work/**retired/ics-design/diffdesigns.gif
+work/**retired/ics-design/before_after.gif
+work/**retired/ics-design/8_spicy.jpeg
+work/**retired/ics-design/8.jpeg
+work/**retired/ics-design/7.jpeg
+work/**retired/ics-design/6_alt.jpeg
+work/**retired/ics-design/6.jpeg
+work/**retired/ics-design/5.jpeg
+work/**retired/ics-design/3.jpeg
+work/**retired/ics-design/1.jpeg
+*.css
+work/scratch/build your own city/Scratch Day BYOC Guide.pdf
+work/maldenzine/a-voyce zine.psd
+work/\*\*retired but im still proud/lankpranks/gifmaking/rain.psd
+work/\*\*retired but im still proud/digpo-imgs/may-2.mov
+work/\*\*design/scratch/build your own city/Scratch Day BYOC Guide.pdf
+work/\*\*design/precious/thumb.psd
+work/\*\*design/motemote/motemote-3.psd
+work/no-object/hide/4.jpg
+work/no-object/hide/8.jpg
+work/no-object/hide/9.jpg
+work/no-object/hide/uncropped/16.jpg
+work/no-object/hide/uncropped/17.jpg
+work/no-object/hide/uncropped/2.jpg
+work/no-object/hide/uncropped/3.jpg
+work/no-object/hide/uncropped/5.jpg
+work/no-object/hide/uncropped/6.jpg
+*.psd
+work/no-object/hide/1.jpg
+work/no-object/hide/10.jpg
+work/no-object/hide/11.jpg
+work/no-object/hide/12.jpg
+work/no-object/hide/13.jpg
+work/no-object/hide/14.jpg
+work/weeds/big pics (hide)/banner1.jpg
+work/weeds/big pics (hide)/banner10.jpg
+work/weeds/big pics (hide)/banner2.jpg
+work/weeds/big pics (hide)/banner3.jpg
+work/weeds/big pics (hide)/banner4.jpg
+work/weeds/big pics (hide)/banner5.jpg
+work/weeds/big pics (hide)/banner6.jpg
+work/weeds/big pics (hide)/banner7.jpg
+work/weeds/big pics (hide)/banner8.jpg
+work/weeds/big pics (hide)/banner9.jpg
+work/weeds/big pics (hide)/PXL_20230426_154444480.jpg
+work/weeds/big pics (hide)/PXL_20230426_154452598.jpg
+work/weeds/big pics (hide)/PXL_20230426_154504238.jpg
+work/weeds/big pics (hide)/PXL_20230426_154538131.jpg
+work/weeds/big pics (hide)/PXL_20230426_154554500.jpg
+work/weeds/big pics (hide)/PXL_20230426_154607002.jpg
+work/weeds/big pics (hide)/PXL_20230426_154619467.jpg
+everything must go.m4a

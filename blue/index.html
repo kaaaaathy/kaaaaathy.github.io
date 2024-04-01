@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital@0;1&display=swap" rel="stylesheet">
+
+
+  </head>
+  <body class = "black" style="text-align:center;">
+    <p id ="startCaption">[sound on]</p>
+
+    <section id ="start"></section>
+
+    <audio style = "display:none" controls preload="auto" id = "clink" loop>
+        <source src="klink.mp3" />
+      </audio>
+
+  </body>
+  <script>
+    let sound = document.getElementById('clink');
+    let go = document.getElementById('start');
+    let goCaption = document.getElementById('startCaption');
+
+    let delay = 1400;
+    let started = false;
+
+    document.addEventListener('mouseover',function(){
+      if (started == false){
+      started = true;
+      go.innerHTML = "<iframe src = 'names.html'></iframe><iframe src = 'pics.html'></iframe><iframe src = 'poem.html'></iframe>"
+          setTimeout(()=>{
+              sound.play();
+              goCaption.classList.add("fade");
+          },delay);
+      }
+    });
+
+  </script>
+</html>

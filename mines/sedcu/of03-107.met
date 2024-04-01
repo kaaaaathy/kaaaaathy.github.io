@@ -1,0 +1,736 @@
+Metadata:
+  Identification_Information:
+    Citation:
+      Citation_Information:
+        Originator: Cox, Dennis P.
+        Originator: Lindsey, David A.
+        Originator: Singer, Donald A.
+        Originator: Diggles, Michael F.
+        Title: Sediment-hosted copper deposits of the world
+        Publication_Date: 2003
+        Series_Information:
+          Series_Name: Open-File Report
+          Issue_Identification: 2003-107
+        Publication_Information:
+          Publication_Place: Menlo Park, California
+          Publisher: Geological Survey (U.S.)
+        Online_Linkage: http://mrdata.usgs.gov/sedcu/
+    Description:
+      Abstract: Characteristics of 785 deposits, including grade, tonnage, rocks, mineralogy, and references
+      Purpose:
+        National and global scale mineral resource assessments require
+        information of this nature about specific types of mineral deposits
+    Time_Period_of_Content:
+      Time_Period_Information:
+        Multiple_Dates/Times:
+          Single_Date/Time:
+            Calendar_Date: 200304
+          Single_Date/Time:
+            Calendar_Date: 20070625
+      Currentness_Reference: publication and revision dates
+    Status:
+      Progress: Complete
+      Maintenance_and_Update_Frequency: As needed
+    Spatial_Domain:
+      Bounding_Coordinates:
+        West_Bounding_Coordinate: -180
+        East_Bounding_Coordinate: 180
+        North_Bounding_Coordinate: 90
+        South_Bounding_Coordinate: -60
+    Access_Constraints: none
+    Use_Constraints: none
+    Keywords:
+      Theme:
+        Theme_Keyword_Thesaurus: Alexandria Digital Library Feature Type Thesaurus
+        Theme_Keyword: mineral deposit areas
+      Theme:
+        Theme_Keyword_Thesaurus: General glossary for mineral resources spatial data
+        Theme_Keyword: comma-delimited text
+        Theme_Keyword: DBF
+        Theme_Keyword: HTML table
+        Theme_Keyword: KML
+        Theme_Keyword: shapefile
+        Theme_Keyword: FileMaker
+        Theme_Keyword: Microsoft Excel format
+        Theme_Keyword: tab-delimited text
+      Theme:
+        Theme_Keyword_Thesaurus: Mineral Resources Data System commodity types
+        Theme_Keyword: Copper
+      Theme:
+        Theme_Keyword_Thesaurus: USGS Thesaurus
+        Theme_Keyword: cobalt
+        Theme_Keyword: copper
+        Theme_Keyword: economic geology
+        Theme_Keyword: geospatial datasets
+        Theme_Keyword: metallic ores
+        Theme_Keyword: natural resource assessment
+        Theme_Keyword: silver
+      Theme:
+        Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+        Theme_Keyword: geoscientificInformation
+    Point_of_Contact:
+      Contact_Information:
+        Contact_Person_Primary:
+          Contact_Person: Dennis P Cox
+          Contact_Organization: USGS WR SW GD
+        Contact_Position: Volunteer
+        Contact_Address:
+          Address_Type: mailing address
+          Address: 345 Middlefield Road$Mail Stop 901
+          City: Menlo Park
+          State_or_Province: CA
+          Postal_Code: 94025
+          Country: USA
+        Contact_Voice_Telephone: 650-329-5328
+        Contact_Facsimile_Telephone: 650-329-5491
+        Contact_Electronic_Mail_Address: dcox@usgs.gov
+    Cross_Reference:
+      Citation_Information:
+        Originator: Cox, Dennis P.
+        Originator: Lindsey, David A.
+        Originator: Singer, Donald A.
+        Originator: Diggles, Michael F.
+        Title: Sediment-hosted copper deposits of the world: Deposit models and database
+        Publication_Date: 2003
+        Series_Information:
+          Series_Name: Open-File Report
+          Issue_Identification: 2003-107
+        Publication_Information:
+          Publisher: Geological Survey (U.S.)
+          Publication_Place: Menlo Park, California
+        Online_Linkage: http://pubs.usgs.gov/of/2003/of03-107/
+  Spatial_Data_Organization_Information:
+    Direct_Spatial_Reference_Method: Point
+    Point_and_Vector_Object_Information:
+      SDTS_Terms_Description:
+        SDTS_Point_and_Vector_Object_Type: Entity point
+        Point_and_Vector_Object_Count: 785
+  Spatial_Reference_Information:
+    Horizontal_Coordinate_System_Definition:
+      Geographic:
+        Geographic_Coordinate_Units: decimal degrees
+      Geodetic_Model:
+        Horizontal_Datum_Name: World Geodetic System 1984
+        Ellipsoid_Name: WGS 84
+        Semi-major_Axis: 6378137
+        Denominator_of_Flattening_Ratio: 298.257
+  Entity_and_Attribute_Information:
+    Detailed_Description:
+      Entity_Type:
+        Entity_Type_Label: main
+        Entity_Type_Definition: General descriptive information about the deposit
+      Attribute:
+        Attribute_Label: rec_id
+        Attribute_Definition:
+          Record ID.
+
+          A distinct numerical identifier for the database record without
+          further scientific significance.
+          Integer values.
+          Int of width 4.
+        Attribute_Domain_Values:
+          Range_Domain:
+            Range_Domain_Minimum: 1
+            Range_Domain_Maximum: 785
+            Attribute_Measurement_Resolution: 1
+      Attribute:
+        Attribute_Label: depname
+        Attribute_Definition:
+          Deposit name.
+
+          The most recent deposit name.
+          Textual values of no more than 34 characters.
+      Attribute:
+        Attribute_Label: altname
+        Attribute_Definition:
+          Other names.
+
+          Alternative names that have been used for the deposit.
+          Textual values of no more than 46 characters.
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: (no value)
+            Enumerated_Domain_Value_Definition:
+              Information not available for this record.
+              708 records have no value for altname.
+      Attribute:
+        Attribute_Label: includes
+        Attribute_Definition:
+          Includes.
+
+          The names of deposits that have been combined with the primary deposit
+          as a result of the two-kilometer minimum separation rule.
+          Textual values of no more than 67 characters.
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: (no value)
+            Enumerated_Domain_Value_Definition:
+              Information not available for this record.
+              722 records have no value for includes.
+      Attribute:
+        Attribute_Label: cntrycd
+        Attribute_Definition:
+          Country code.
+
+          Coded abbreviation combining the country and state or province.
+          Textual values of no more than 5 characters.
+      Attribute:
+        Attribute_Label: latdeg
+        Attribute_Definition:
+          Latitude degrees.
+
+          Degrees of latitude.
+          Integer values.
+          Int of width 3.
+        Attribute_Domain_Values:
+          Range_Domain:
+            Range_Domain_Minimum: -39
+            Range_Domain_Maximum: 73
+            Attribute_Units_of_Measure: degrees
+            Attribute_Measurement_Resolution: 1
+      Attribute:
+        Attribute_Label: latmin
+        Attribute_Definition:
+          Latitude minutes.
+
+          Minutes of latitude.
+          Integer values.
+          Int of width 2.
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: (no value)
+            Enumerated_Domain_Value_Definition:
+              Information not available for this record.
+              2 records have no value for latmin.
+        Attribute_Domain_Values:
+          Range_Domain:
+            Range_Domain_Minimum: -59
+            Range_Domain_Maximum: 59
+            Attribute_Units_of_Measure: minutes
+            Attribute_Measurement_Resolution: 1
+      Attribute:
+        Attribute_Label: latsec
+        Attribute_Definition:
+          Latitude seconds.
+
+          Seconds of latitude.
+          Integer values.
+          Int of width 2.
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: (no value)
+            Enumerated_Domain_Value_Definition:
+              Information not available for this record.
+              291 records have no value for latsec.
+        Attribute_Domain_Values:
+          Range_Domain:
+            Range_Domain_Minimum: -59
+            Range_Domain_Maximum: 60
+            Attribute_Units_of_Measure: seconds
+            Attribute_Measurement_Resolution: 1
+      Attribute:
+        Attribute_Label: londeg
+        Attribute_Definition:
+          Longitude degrees.
+
+          Degrees of lontitude.
+          Integer values.
+          Int of width 4.
+        Attribute_Domain_Values:
+          Range_Domain:
+            Range_Domain_Minimum: -142
+            Range_Domain_Maximum: 147
+            Attribute_Units_of_Measure: degrees
+            Attribute_Measurement_Resolution: 1
+      Attribute:
+        Attribute_Label: lonmin
+        Attribute_Definition:
+          Longitude minutes.
+
+          Minutes of longitude.
+          Integer values.
+          Int of width 2.
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: (no value)
+            Enumerated_Domain_Value_Definition:
+              Information not available for this record.
+              3 records have no value for lonmin.
+        Attribute_Domain_Values:
+          Range_Domain:
+            Range_Domain_Minimum: -59
+            Range_Domain_Maximum: 59
+            Attribute_Units_of_Measure: minutes
+            Attribute_Measurement_Resolution: 1
+      Attribute:
+        Attribute_Label: lonsec
+        Attribute_Definition:
+          Longitude seconds.
+
+          Seconds of longitude.
+          Integer values.
+          Int of width 2.
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: (no value)
+            Enumerated_Domain_Value_Definition:
+              Information not available for this record.
+              300 records have no value for lonsec.
+        Attribute_Domain_Values:
+          Range_Domain:
+            Range_Domain_Minimum: -59
+            Range_Domain_Maximum: 57
+            Attribute_Units_of_Measure: seconds
+            Attribute_Measurement_Resolution: 1
+      Attribute:
+        Attribute_Label: oreton
+        Attribute_Definition:
+          Ore tonnage.
+
+          Total tons of ore based on total production, reserves, and resources
+          at the lowest possible cutoff grade, in millions of metric tons.
+          Real numbers stored in double precision.
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: (no value)
+            Enumerated_Domain_Value_Definition:
+              Information not available for this record.
+              644 records have no value for oreton.
+        Attribute_Domain_Values:
+          Range_Domain:
+            Range_Domain_Minimum: 0.12
+            Range_Domain_Maximum: 2600
+            Attribute_Units_of_Measure: million metric tons
+      Attribute:
+        Attribute_Label: cugrd
+        Attribute_Definition:
+          Copper grade.
+
+          Average grade of copper for the deposit, as percent of metal in ore.
+          Zero value means the grade (always for byproducts) was unavailable.
+          Real numbers stored in double precision.
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: (no value)
+            Enumerated_Domain_Value_Definition:
+              Information not available for this record.
+              644 records have no value for cugrd.
+        Attribute_Domain_Values:
+          Range_Domain:
+            Range_Domain_Minimum: 0.15
+            Range_Domain_Maximum: 13
+            Attribute_Units_of_Measure: percent
+      Attribute:
+        Attribute_Label: cogrd
+        Attribute_Definition:
+          Cobalt grade.
+
+          Average grade of cobalt for the deposit, as percent of metal in ore.
+          Zero value means the grade (always for byproducts) was unavailable.
+          Real numbers stored in double precision.
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: (no value)
+            Enumerated_Domain_Value_Definition:
+              Information not available for this record.
+              767 records have no value for cogrd.
+        Attribute_Domain_Values:
+          Range_Domain:
+            Range_Domain_Minimum: 0.07
+            Range_Domain_Maximum: 1.07
+            Attribute_Units_of_Measure: percent
+      Attribute:
+        Attribute_Label: aggrd
+        Attribute_Definition:
+          Silver grade.
+
+          Average grade of silver for the deposit, as grams per metric ton of
+          ore. Zero value means the grade (always for byproducts) was
+          unavailable.
+          Real numbers stored in double precision.
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: (no value)
+            Enumerated_Domain_Value_Definition:
+              Information not available for this record.
+              744 records have no value for aggrd.
+        Attribute_Domain_Values:
+          Range_Domain:
+            Range_Domain_Minimum: 0.3
+            Range_Domain_Maximum: 266
+            Attribute_Units_of_Measure: grams per metric ton
+      Attribute:
+        Attribute_Label: country
+        Attribute_Definition:
+          Country.
+
+          Name of the country where the deposit occurs.
+          Textual values of no more than 28 characters.
+      Attribute:
+        Attribute_Label: stprov
+        Attribute_Definition:
+          State or province.
+
+          State or province, if known, where the deposit occurs.
+          Textual values of no more than 21 characters.
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: (no value)
+            Enumerated_Domain_Value_Definition:
+              Information not available for this record.
+              327 records have no value for stprov.
+      Attribute:
+        Attribute_Label: deptype
+        Attribute_Definition:
+          Type of deposit.
+
+          Classification of the deposit.
+          Textual values of no more than 17 characters.
+      Attribute:
+        Attribute_Label: hostrock
+        Attribute_Definition:
+          Host rock.
+
+          Type of rocks hosting the ore body, in the same terms used in
+          published maps and reports.
+          Textual values of no more than 83 characters.
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: (no value)
+            Enumerated_Domain_Value_Definition:
+              Information not available for this record.
+              42 records have no value for hostrock.
+      Attribute:
+        Attribute_Label: rockunder
+        Attribute_Definition:
+          Rock underlying.
+
+          Type of rocks underlying the host rock, forming the footwall.
+          Textual values of no more than 73 characters.
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: (no value)
+            Enumerated_Domain_Value_Definition:
+              Information not available for this record.
+              687 records have no value for rockunder.
+      Attribute:
+        Attribute_Label: depage
+        Attribute_Definition:
+          Age of deposit.
+
+          Age of the deposit expressed using standard divisions of geologic time
+          or in millions of years, when available.
+          Textual values of no more than 35 characters.
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: (no value)
+            Enumerated_Domain_Value_Definition:
+              Information not available for this record.
+              6 records have no value for depage.
+      Attribute:
+        Attribute_Label: agemy
+        Attribute_Definition:
+          Age.
+
+          Age of the deposit in millions of years before the present based on
+          reported absolute (typically thermal dates) ages or midpoints of
+          geologic time scale units.
+          Real numbers stored in double precision.
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: (no value)
+            Enumerated_Domain_Value_Definition:
+              Information not available for this record.
+              7 records have no value for agemy.
+        Attribute_Domain_Values:
+          Range_Domain:
+            Range_Domain_Minimum: 1
+            Range_Domain_Maximum: 2400
+            Attribute_Units_of_Measure: million years
+      Attribute:
+        Attribute_Label: rockover
+        Attribute_Definition:
+          Rock overlying.
+
+          Type of rocks overlying the host rock.
+          Textual values of no more than 61 characters.
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: (no value)
+            Enumerated_Domain_Value_Definition:
+              Information not available for this record.
+              714 records have no value for rockover.
+      Attribute:
+        Attribute_Label: assoctype
+        Attribute_Definition:
+          Associated Types.
+
+          Supplementary information about the deposit type.
+          Textual values of no more than 74 characters.
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: (no value)
+            Enumerated_Domain_Value_Definition:
+              Information not available for this record.
+              616 records have no value for assoctype.
+      Attribute:
+        Attribute_Label: comments
+        Attribute_Definition:
+          Comments.
+
+          Supplementary information.
+          Textual values of no more than 212 characters.
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: (no value)
+            Enumerated_Domain_Value_Definition:
+              Information not available for this record.
+              438 records have no value for comments.
+      Attribute:
+        Attribute_Label: geolunit
+        Attribute_Definition:
+          Geologic unit.
+
+          Geologic unit code, a number matching polygons in XXXXXX.
+          Textual values of no more than 49 characters.
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: (no value)
+            Enumerated_Domain_Value_Definition:
+              Information not available for this record.
+              187 records have no value for geolunit.
+      Attribute:
+        Attribute_Label: geolprov
+        Attribute_Definition:
+          Geologic province.
+
+          Name of the geologic province in which the deposit formed.
+          Textual values of no more than 22 characters.
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: (no value)
+            Enumerated_Domain_Value_Definition:
+              Information not available for this record.
+              592 records have no value for geolprov.
+      Attribute:
+        Attribute_Label: latitude
+        Attribute_Definition:
+          Latitude.
+
+          Geographic latitude in decimal degrees, datum WGS84.  South is
+          negative, north positive.
+          Real numbers stored in double precision.
+        Attribute_Domain_Values:
+          Range_Domain:
+            Range_Domain_Minimum: -39.2166666666667
+            Range_Domain_Maximum: 73.8
+            Attribute_Units_of_Measure: decimal degrees
+      Attribute:
+        Attribute_Label: longitude
+        Attribute_Definition:
+          Longitude.
+
+          Geographic longitude in decimal degrees, datum WGS84.  West is
+          negative, east positive.
+          Real numbers stored in double precision.
+        Attribute_Domain_Values:
+          Range_Domain:
+            Range_Domain_Minimum: -142.866666666667
+            Range_Domain_Maximum: 147.5
+            Attribute_Units_of_Measure: decimal degrees
+      Attribute:
+        Attribute_Label: cuton
+        Attribute_Definition:
+          Copper tonnage.
+
+          Total tons of contained copper based on total production, reserves,
+          and resources at the lowest possible cutoff grade, in millions of
+          metric tons.
+          Real numbers stored in double precision.
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: (no value)
+            Enumerated_Domain_Value_Definition:
+              Information not available for this record.
+              644 records have no value for cuton.
+        Attribute_Domain_Values:
+          Range_Domain:
+            Range_Domain_Minimum: 0.00136
+            Range_Domain_Maximum: 52
+            Attribute_Units_of_Measure: million metric tons
+      Attribute:
+        Attribute_Label: continent
+        Attribute_Definition:
+          Continent.
+
+          Coded abbreviation for the continent.
+          Textual values of no more than 2 characters.
+    Detailed_Description:
+      Entity_Type:
+        Entity_Type_Label: minerals
+        Entity_Type_Definition: Mineralogy of the deposit as reported in scientific literature
+      Attribute:
+        Attribute_Label: rec_id
+        Attribute_Definition:
+          Record ID.
+
+          Numerical identifier for the deposit, matches a value in main:rec_id.
+          Integer values.
+          Int of width 4.
+        Attribute_Domain_Values:
+          Range_Domain:
+            Range_Domain_Minimum: 1
+            Range_Domain_Maximum: 785
+            Attribute_Measurement_Resolution: 1
+      Attribute:
+        Attribute_Label: value
+        Attribute_Definition:
+          Mineralogy.
+
+          Name of minerals reported as present in the deposit, without regard
+          for their abundance. Most rock-forming minerals, such as feldspar,
+          calcite, and quartz, are not included. Some variants of rock forming
+          minerals that may be related to mineralization or alteration, such as
+          Ag calcite, are included.
+          Textual values of no more than 71 characters.
+    Detailed_Description:
+      Entity_Type:
+        Entity_Type_Label: tracemin
+        Entity_Type_Definition: Trace minerals of the deposit as reported in scientific literature
+      Attribute:
+        Attribute_Label: rec_id
+        Attribute_Definition:
+          Record ID.
+
+          Numerical identifier for the deposit, matches a value in main:rec_id.
+          Integer values.
+          Int of width 4.
+        Attribute_Domain_Values:
+          Range_Domain:
+            Range_Domain_Minimum: 1
+            Range_Domain_Maximum: 785
+            Attribute_Measurement_Resolution: 1
+      Attribute:
+        Attribute_Label: value
+        Attribute_Definition:
+          Mineralogy.
+
+          Name of trace minerals reported as present in the deposit, without
+          regard for their abundance. Most rock-forming minerals, such as
+          feldspar, calcite, and quartz, are not included. Some variants of rock
+          forming minerals that may be related to mineralization or alteration,
+          such as Ag calcite, are included.
+          Textual values of no more than 76 characters.
+    Detailed_Description:
+      Entity_Type:
+        Entity_Type_Label: ref
+        Entity_Type_Definition: Scientific literature consulted by the authors to characterize the deposit
+      Attribute:
+        Attribute_Label: rec_id
+        Attribute_Definition:
+          Record ID.
+
+          Numerical identifier for the deposit, matches a value in main:rec_id.
+          Integer values.
+          Int of width 4.
+        Attribute_Domain_Values:
+          Range_Domain:
+            Range_Domain_Minimum: 1
+            Range_Domain_Maximum: 785
+            Attribute_Measurement_Resolution: 1
+      Attribute:
+        Attribute_Label: value
+        Attribute_Definition:
+          References.
+
+          Papers and web sites that were used to describe the deposit.  In a few
+          cases unpublished sources were used.
+          Textual values of no more than 444 characters.
+  Distribution_Information:
+    Distributor:
+      Contact_Information:
+        Contact_Organization_Primary:
+          Contact_Organization: USGS Information Services
+        Contact_Address:
+          Address_Type: mailing
+          Address: Box 25286, Denver Federal Center
+          City: Denver
+          State_or_Province: Colorado
+          Postal_Code: 80255-0046
+          Country: USA
+        Contact_Voice_Telephone: 1-888-ASK-USGS
+        Contact_Facsimile_Telephone: 1-303-202-4695
+        Contact_Electronic_Mail_Address: infoservices@usgs.gov
+    Resource_Description: USGS Open File Report 03-107
+    Distribution_Liability:
+      This report is preliminary and has not been reviewed for
+      conformity with U.S. Geological Survey editorial standards (or
+      with the North American Stratigraphic Code).  Any use of trade,
+      product, or firm names is for descriptive purposes only and does
+      not imply endorsement by the U.S. Government.
+    Standard_Order_Process:
+      Digital_Form:
+        Digital_Transfer_Information:
+          Format_Name: Shapefile
+          Format_Version_Number: 1.0
+          Format_Information_Content: Simple shapefile with a URL to the full report for each location, with all attributes as accompanying CSV files
+          File_Decompression_Technique: unzip
+          Transfer_Size: 0.1
+        Digital_Transfer_Option:
+          Online_Option:
+            Computer_Contact_Information:
+              Network_Address:
+                Network_Resource_Name: http://mrdata.usgs.gov/sedcu/sedcu-csv.zip
+      Digital_Form:
+        Digital_Transfer_Information:
+          Format_Name: CSV
+          Format_Version_Number: 1.0
+          Format_Information_Content: Simple shapefile with a URL to the full report for each location, with all attributes as accompanying CSV files
+          File_Decompression_Technique: unzip
+          Transfer_Size: 0.1
+        Digital_Transfer_Option:
+          Online_Option:
+            Computer_Contact_Information:
+              Network_Address:
+                Network_Resource_Name: http://mrdata.usgs.gov/sedcu/sedcu-csv.zip
+      Digital_Form:
+        Digital_Transfer_Information:
+          Format_Name: WMS
+          Format_Version_Number: 1.1.1
+          Format_Information_Content: Locations and characteristics of sediment-hosted copper deposits worldwide
+        Digital_Transfer_Option:
+          Online_Option:
+            Computer_Contact_Information:
+              Network_Address:
+                Network_Resource_Name: http://mrdata.usgs.gov/services/sedcu?request=getcapabilities&service=WMS&version=1.1.1&
+      Digital_Form:
+        Digital_Transfer_Information:
+          Format_Name: WFS
+          Format_Version_Number: 1.1.0
+          Format_Information_Content: Locations and characteristics of sediment-hosted copper deposits worldwide
+        Digital_Transfer_Option:
+          Online_Option:
+            Computer_Contact_Information:
+              Network_Address:
+                Network_Resource_Name: http://mrdata.usgs.gov/wfs/sedcu?request=getcapabilities&service=WFS&version=1.1.0&
+      Fees: none
+  Metadata_Reference_Information:
+    Metadata_Date: 20160617
+    Metadata_Contact:
+      Contact_Information:
+        Contact_Person_Primary:
+          Contact_Person: Peter N Schweitzer
+          Contact_Organization: USGS ER GD
+        Contact_Position: Geologist
+        Contact_Address:
+          Address_Type: mailing address
+          Address: 12201 Sunrise Valley Drive
+          City: Reston
+          State_or_Province: VA
+          Postal_Code: 20192-0002
+          Country: USA
+        Contact_Voice_Telephone: 703-648-6533
+        Contact_Facsimile_Telephone: 703-648-6252
+        Contact_Electronic_Mail_Address: pschweitzer@usgs.gov
+    Metadata_Standard_Name: Content Standard for Digital Geospatial Metadata
+    Metadata_Standard_Version: FGDC-STD-001-1998

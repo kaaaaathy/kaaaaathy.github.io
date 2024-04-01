@@ -1,0 +1,58 @@
+id,tblorder,tblname,number,label,category,short_desc,description,link,origin,sqltype,dbftype,width,prec,units
+1,1,main,1,,,"Geologic information","General descriptive information about the deposit",,,,,,,
+2,1,main,1,rec_id,"Site identification","Record ID","A distinct numerical identifier for the database record without further scientific significance",,,int,N,4,0,
+3,1,main,2,depname,"Site identification","Deposit name","The most recent deposit name",,,varchar,C,34,0,
+4,1,main,3,altname,"Site identification","Other names","Alternative names that have been used for the deposit.",,,varchar,C,46,0,
+5,1,main,4,includes,"Site identification",Includes,"The names of deposits that have been combined with the primary deposit as a result of the two-kilometer minimum separation rule.",,,varchar,C,67,0,
+6,1,main,5,cntrycd,"Geographic location","Country code","Coded abbreviation combining the country and state or province",,,varchar,C,5,0,
+7,1,main,6,latdeg,"Geographic location","Latitude degrees","Degrees of latitude",,,int,N,3,0,degrees
+8,1,main,7,latmin,"Geographic location","Latitude minutes","Minutes of latitude",,,int,N,2,0,minutes
+9,1,main,8,latsec,"Geographic location","Latitude seconds","Seconds of latitude",,,int,N,2,0,seconds
+10,1,main,9,londeg,"Geographic location","Longitude degrees","Degrees of lontitude",,,int,N,4,0,degrees
+11,1,main,10,lonmin,"Geographic location","Longitude minutes","Minutes of longitude",,,int,N,2,0,minutes
+12,1,main,11,lonsec,"Geographic location","Longitude seconds","Seconds of longitude",,,int,N,2,0,seconds
+13,1,main,12,oreton,"Site characteristics","Ore tonnage","Total tons of ore based on total production, reserves, and resources at the lowest possible cutoff grade, in millions of metric tons.",,,double,N,7,3,"million metric tons"
+14,1,main,13,cugrd,"Site characteristics","Copper grade","Average grade of copper for the deposit, as percent of metal in ore.  Zero value means the grade (always for byproducts) was unavailable.",,,double,N,6,3,percent
+15,1,main,14,cogrd,"Site characteristics","Cobalt grade","Average grade of cobalt for the deposit, as percent of metal in ore.  Zero value means the grade (always for byproducts) was unavailable.",,,double,N,6,3,percent
+16,1,main,15,aggrd,"Site characteristics","Silver grade","Average grade of silver for the deposit, as grams per metric ton of ore. Zero value means the grade (always for byproducts) was unavailable.",,,double,N,6,3,"grams per metric ton"
+17,1,main,16,country,"Geographic location",Country,"Name of the country where the deposit occurs.",,,varchar,C,28,0,
+18,1,main,17,stprov,"Geographic location","State or province","State or province, if known, where the deposit occurs.",,,varchar,C,21,0,
+19,1,main,18,deptype,"Site characteristics","Type of deposit","Classification of the deposit",,,varchar,C,17,0,
+20,1,main,19,hostrock,"Site characteristics","Host rock","Type of rocks hosting the ore body, in the same terms used in published maps and reports",,,varchar,C,83,0,
+21,1,main,20,rockunder,"Site characteristics","Rock underlying","Type of rocks underlying the host rock, forming the footwall.",,,varchar,C,73,0,
+22,1,main,21,depage,"Site characteristics","Age of deposit","Age of the deposit expressed using standard divisions of geologic time or in millions of years, when available.",,,varchar,C,35,0,
+23,1,main,22,agemy,"Site characteristics",Age,"Age of the deposit in millions of years before the present based on reported absolute (typically thermal dates) ages or midpoints of geologic time scale units.",,,double,N,6,1,"million years"
+24,1,main,23,rockover,"Site characteristics","Rock overlying","Type of rocks overlying the host rock.",,,varchar,C,61,0,
+25,1,main,24,assoctype,"Site characteristics","Associated Types","Supplementary information about the deposit type",,,varchar,C,74,0,
+26,1,main,25,comments,"Site characteristics",Comments,"Supplementary information",,,varchar,C,212,0,
+27,1,main,26,geolunit,"Site characteristics","Geologic unit","Geologic unit code, a number matching polygons in XXXXXX",,,varchar,C,49,,
+28,1,main,27,geolprov,"Site characteristics","Geologic province","Name of the geologic province in which the deposit formed",,,varchar,C,22,,
+29,1,main,28,latitude,"Geographic location",Latitude,"Geographic latitude in decimal degrees, datum WGS84.  South is negative, north positive.",,,double,N,11,6,"decimal degrees"
+30,1,main,29,longitude,"Geographic location",Longitude,"Geographic longitude in decimal degrees, datum WGS84.  West is negative, east positive.",,,double,N,12,6,"decimal degrees"
+31,1,main,30,cuton,"Site characteristics","Copper tonnage","Total tons of contained copper based on total production, reserves, and resources at the lowest possible cutoff grade, in millions of metric tons.",,,double,N,7,3,"million metric tons"
+32,1,main,31,continent,"Geographic location",Continent,"Coded abbreviation for the continent",,,varchar,C,2,0,
+33,2,minerals,1,,,"Mineralogy at the site","Mineralogy of the deposit as reported in scientific literature",,,,,,,
+34,2,minerals,1,rec_id,"Site identification","Record ID","Numerical identifier for the deposit, matches a value in main:rec_id",,,int,N,4,0,
+35,2,minerals,2,value,"Site characteristics",Mineralogy,"Name of minerals reported as present in the deposit, without regard for their abundance. Most rock-forming minerals, such as feldspar, calcite, and quartz, are not included. Some variants of rock forming minerals that may be related to mineralization or alteration, such as Ag calcite, are included.",,,varchar,C,71,0,
+36,3,tracemin,1,,,"Trace minerals at the site","Trace minerals of the deposit as reported in scientific literature",,,,,,,
+37,3,tracemin,1,rec_id,"Site identification","Record ID","Numerical identifier for the deposit, matches a value in main:rec_id",,,int,N,4,0,
+38,3,tracemin,2,value,"Site characteristics",Mineralogy,"Name of trace minerals reported as present in the deposit, without regard for their abundance. Most rock-forming minerals, such as feldspar, calcite, and quartz, are not included. Some variants of rock forming minerals that may be related to mineralization or alteration, such as Ag calcite, are included.",,,varchar,C,76,0,
+39,4,ref,1,,,"Bibliographic references","Scientific literature consulted by the authors to characterize the deposit",,,,,,,
+40,4,ref,1,rec_id,"Site identification","Record ID","Numerical identifier for the deposit, matches a value in main:rec_id",,,int,N,4,0,
+41,4,ref,2,value,"Site characteristics",References,"Papers and web sites that were used to describe the deposit.  In a few cases unpublished sources were used.",,,varchar,C,444,0,
+42,5,datadxny,,,Metadata,,"Description of the tables and fields within this data set",,,,,,,
+43,5,datadxny,1,id,Metadata,"Record ID",,,,integer,N,4,,
+44,5,datadxny,2,tblorder,Metadata,"Table order",,,,integer,N,4,,
+45,5,datadxny,3,tblname,Metadata,"Table name",,,,"character varying",C,20,,
+46,5,datadxny,4,number,Metadata,"Ordinal position",,,,integer,N,4,,
+47,5,datadxny,5,label,Metadata,"Field label",,,,"character varying",C,32,,
+48,5,datadxny,6,category,Metadata,Category,,,,"character varying",C,50,,
+49,5,datadxny,7,short_desc,Metadata,"Short description",,,,"character varying",C,40,,
+50,5,datadxny,8,description,Metadata,Description,,,,"character varying",C,4096,,
+51,5,datadxny,9,link,Metadata,Link,,,,"character varying",C,96,,
+52,5,datadxny,10,origin,Metadata,"Origin of field",,,,"character varying",C,12,,
+53,5,datadxny,11,sqltype,Metadata,"SQL type",,,,"character varying",C,8,,
+54,5,datadxny,12,dbftype,Metadata,"DBF field type",,,,character,C,1,,
+55,5,datadxny,13,width,Metadata,"Field width",,,,integer,N,4,,
+56,5,datadxny,14,prec,Metadata,Precision,,,,integer,N,4,,
+57,5,datadxny,15,units,Metadata,"Units of measure",,,,"character varying",C,64,,

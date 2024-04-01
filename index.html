@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>kathy wu</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta name="author" content="kathy wu">
+	<meta name="keywords" content="kathy wu, risd, itp, brown">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+	<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+	<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+	<!-- <script src="https://unpkg.com/react-router@6.22.3/dist/umd/react-router.development.js"></script> -->
+	<script src="https://unpkg.com/history@5.3.0/umd/history.development.js"></script>
+	<script src="https://unpkg.com/react-router@6.3.0/umd/react-router.development.js"></script>
+	<script src="https://unpkg.com/react-router-dom@6.3.0/umd/react-router-dom.development.js"></script>
+	<script type="module">
+		import { useHashHistory } from 'https://cdn.jsdelivr.net/npm/use-hash-history@1.3.4/+esm'
+		window.useHashHistory = useHashHistory
+	</script>
+	<script src="https://unpkg.com/@babel/standalone@7/babel.min.js"></script>
+	<script src="work/work.js"></script>
+	<script type="text/babel">
+
+		const Router = ReactRouterDOM.unstable_HistoryRouter
+		const Route = ReactRouterDOM.Route
+		const Routes = ReactRouterDOM.Routes
+		const Link = ReactRouterDOM.Link
+		const Navigate = ReactRouterDOM.Navigate
+		const useParams = ReactRouterDOM.useParams
+		const useLocation = ReactRouterDOM.useLocation
+
+		function Navbar() {
+			const location = useLocation()
+
+			return (
+				<nav>
+					<Link id="logo" to={"/"}>
+						kathy wu
+					</Link>
+					<Link id="logo-m" to={"/"}>
+						<marquee>kathy wu</marquee>
+					</Link>
+
+
+					<div id="sidebar">
+						<p className="sidebar-bio">
+							multidisciplinary artist<br />
+							designer writer educator
+							<br />
+						</p>
+					</div>
+
+					<div id="aboutcontainer">
+						<Link className="aboutlinks" to={"/#"}>work</Link>
+						<Link className="aboutlinks" to={"/about"}>info</Link>
+					</div>
+				</nav>
+			)
+		}
+
+		function ProjectList() {
+			return (
+				<section id="work-stuff">
+					{work.map((project) =>
+						<Link to={`/${project.folder}`} key={project.folder}>
+							<div className="image-tile" style={{ backgroundImage: `url(work/${project.folder}/${project.thumb})` }}>
+							</div>
+							<figcaption>{project.name}</figcaption>
+						</Link>
+					)}
+				</section>
+			)
+		}
+
+		function About() {
+			return (
+				<h2>
+					kathy wu (she/they) is currently an MFA candidate at Brown Literary Arts. She is an artist, poet,
+					designer, tech worker, educator, and aspiring weaver. She has taught <a
+						href="https://kaaathy.com/comppoetics/" target="_blank">computational poetics</a> at RISD, and
+					worked on <a href="https://www.media.mit.edu/projects/scratch/overview/" target="_blank">creative
+						tools</a> at MIT for many years. Her recent artworks wonder about <a href="#internetgeo">media
+							geology</a> and <a href="#cyan">the color blue</a>. She is working on a chapbook about scientific
+					nomenclatures.
+
+					<br /><br />
+					She has given artist talks & workshops via Northeastern, RISD, and Rutgers. Her work is published via
+					The New School, New River Journal of Digital Literature, among others.
+					She's also passionate about community arts practices, in collective publishing, as well as artistic
+					literacies and political education.
+					Always nice to hear from new people, collaborators, etc, say hello~
+				</h2>
+			)
+		}
+
+		function parseProjectContent(contentText, folder) {
+			const imageRegex = /\[([^\[\]]+)\]/g, underlineRegex = /\*([^\*]+)\*/g, centerRegex = /\{([^\{\}]+)\}/g;
+			//		var callback=function(){
+			const content = contentText.replace(/\[/g, "\n[").replace(/\]/, "]\n").replace(/\n+/g, "\n").replace(/^\s+|\s+$/g, "").split("\n");
+			let contentString = "";
+			for (var i = 0; i < content.length; i++) {
+				if (content[i].search(imageRegex) >= 0) {
+					contentString += content[i].replace(imageRegex, function (a, b) { return "<img src=\"work/" + folder + "/" + b + "\">" });
+				}
+				else {
+					contentString += "<div" + (content[i].search(centerRegex) >= 0 ? " class=\"center-align\"" : "") + ">" + content[i].replace(centerRegex, function (a, b) { return b; }).replace(underlineRegex, function (a, b) { return "<span class=\"highlight\">" + b + "</span>" }) + "</div>"
+				}
+			}
+			return contentString
+		}
+
+		function ProjectDetail() {
+			const params = useParams()
+			const project = work.find((project) => project.folder === params.projectId)
+			if (!project) {
+				return <NotFound />
+			}
+			return <section id="content">
+				<h3>{project.name}</h3>
+				<div dangerouslySetInnerHTML={{ __html: parseProjectContent(project.content, project.folder) }}></div>
+			</section >
+		}
+
+		function NotFound() {
+			// Redirect home if we can't find the project
+			return <Navigate to={"/"} />
+
+		}
+		function App() {
+			const history = useHashHistory({ hashRoot: "" })
+			return (
+				<Router history={history} >
+					<Navbar />
+					<main>
+						<Routes>
+							<Route path="/" exact element={<ProjectList />}></Route>
+							<Route path="/about" element={<About />}></Route>
+							<Route path="/:projectId" element={<ProjectDetail />} />;
+						</Routes>
+					</main>
+				</Router>
+			);
+		}
+
+		// const history = 
+		const root = ReactDOM.createRoot(document.getElementById('app'))
+		root.render(
+			<React.StrictMode>
+				<App />
+			</React.StrictMode>
+		);
+
+	</script>
+</head>
+
+<body>
+	<div id="app"></div>
+</body>
+
+</html>

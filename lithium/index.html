@@ -1,0 +1,213 @@
+<html>
+    <head> 
+        <title>lithium nothings</title>
+
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+        integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+        crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
+        integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg="
+        crossorigin=""></script>  
+
+        <script type="text/javascript" src ="papaparse.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+        <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js" type="text/javascript"></script>
+          <script src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/837599/p5.speech.js"></script>
+      
+
+
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+        <!-- Please dont look too hard at code, it's a mess! -->
+
+        <style>
+
+        @font-face {
+            font-family: 'Director';
+            src: url(Director-Regular.otf);
+            }
+
+        body {
+            background:black;
+            overflow: hidden;
+            color:white;
+
+
+        }
+
+        body {
+            /* background:ivory; */
+            background:black;
+
+            overflow: hidden;
+            /* color:#8b4513; */
+            color:white;
+
+            text-align: center;
+            display: flex;
+            align-items: center;
+            font-family:'Director', monospace;
+            font-size:14px;
+
+
+
+
+        }
+        #map {
+            width:100%;
+            height:100%;
+            position:absolute;
+            top:0px;
+            left:0px;
+        }
+        canvas, #defaultCanvas0{
+
+            border-radius: 12px;
+            z-index: 1001;
+            margin:auto;
+            /* border:1px dotted rgb(139, 69, 19); */
+            border:1px dotted white;
+            background-color: transparent;
+        }
+
+        #mineText,#locText{
+            width:100%;
+            height:70px;
+            position: absolute;
+            display: flex;
+            left:0px;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            margin:0px;
+            z-index: 1001;
+            text-transform: uppercase;
+            letter-spacing:0px;
+
+
+        }
+
+        #mineText{
+            top:0px;
+         }
+
+        #locText{
+            bottom:0px;
+
+        }
+
+
+        
+        .leaflet-control-container{
+            display: none;
+        }
+   
+        </style>
+    </head>
+
+    <body>
+        <p id="locText">Turn on webcam and sound</p>
+        <p id="mineText">Turn on webcam and sound</p>
+
+        <div id="map"></div>
+
+    </body>
+
+    <script type="text/javascript">
+
+                let sound = document.getElementById('clink');
+
+              
+
+                let lat = []; 
+                let lon = [];
+                let place = [];
+                let mineral = [];
+                let country = [];
+                let data;
+                let zoom = 15;
+                let loctext = document.getElementById('locText');
+                let mineText = document.getElementById('mineText');
+
+                // Your Mapboxgl API Key
+                let key = 'pk.eyJ1Ijoia2FhYXRoeSIsImEiOiJja3N4dHBqOTEyZDZmMm5rdDd3aDRranl2In0.4oP1N1f4Bs43c9feXjCH6g'
+                let map = L.map('map').setView([-19.33,146.89], zoom);
+
+
+                // Map options
+
+                L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoia2FhYXRoeSIsImEiOiJja3N4dHBqOTEyZDZmMm5rdDd3aDRranl2In0.4oP1N1f4Bs43c9feXjCH6g', {
+                    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+                    maxZoom: 18,
+                    id: 'kaaathy/clebwvwot000b01ppheo47c29',
+                    tileSize: 512,
+                    zoomOffset: -1,
+                    accessToken: key
+                    
+                }).addTo(map);
+
+
+                Papa.parse('deposit.txt',{
+                    download:true,
+                        complete: function(results, file) {
+                        console.log("Parsing complete:", results, file);
+                        data = results.data;
+                        for(let i = 1; i < data.length; i++){
+                    
+                            lat.push(data[i][4]);
+                            lon.push(data[i][5]);
+
+                            place.push(data[i][1]);
+                            country.push(data[i][2]);
+
+                            mineral.push(data[i][6]);
+                        
+                         }
+
+                         play();
+                    }
+                })
+
+                
+  
+
+
+                let speed = 8000;
+                let delay = 4000;
+
+                    async function play(){
+                        await wait(delay);
+                        await animate();
+                    }
+
+                    async function animate() {
+
+                    for (let i = 1; i < data.length - 1; i++){
+                        let y = lon[i];
+                        let x = lat[i];
+                        let latlng = L.latLng(x, y);
+                        map.setZoom(zoom);
+
+                        map.panTo(latlng);
+                        loctext.innerText = x + ", " + y + " " + place[i] + ", " + country[i];
+                        mineText.innerText = mineral[i] + " nothing";
+
+                        await wait(speed);
+                    }
+                    await animate();
+                    }
+
+                    function wait(time) {
+                    return new Promise(resolve => {
+                        setTimeout(() => {
+                        resolve('resolved');
+                        }, time);
+                    });
+                    }
+
+            </script>
+            <script src="sketch.js"></script>
+
+</html>

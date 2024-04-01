@@ -1,0 +1,348 @@
+<html>
+    <head> 
+        <title>land</title>
+
+        <!-- Attributions
+
+        Fonts used: Authentic Sans & FT88-Serif
+        Sound: Mining by Travis Needham (https://freesound.org/people/TravisNeedham/sounds/135121/)
+        Synths: Tone.js library
+        Visuals: Mapbox via Leaflet -->
+
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+        <!-- Please dont look too hard at code, it's a mess! -->
+<script>   $( function() {
+    $( ".box" ).draggable();
+    $( "#time" ).draggable();
+    $( "#E" ).draggable();
+    $( "#H" ).draggable();
+
+
+  } );
+
+  </script>
+
+<style>
+    @font-face {
+    font-family: "FT88";
+    src: url(FT88-Serif.otf);
+  }
+ 
+  @font-face {
+    font-family: "Authentic";
+    src: url(AUTHENTICSans-90.otf);
+  }
+  
+
+  body {
+    background:black;
+    overflow: hidden;
+    margin:10px;
+    color:white;
+    user-select: none;
+    display: flex;
+    margin:40px;
+    transition: background 0.5s;
+    transition: filter 0.5s;
+}
+
+p {
+    font-family:"Authentic", 'Arial', sans-serif;
+    color:white;
+}
+
+
+.box{
+    background:black;
+    border-radius:8px;
+    border:1px solid white;
+    padding-top:12px;
+    height:500px;
+    width:700px;
+    overflow: hidden;
+    margin:10px;
+
+  }
+
+.box:hover, #time:hover{
+    cursor:move;
+}
+iframe{
+    position: relative;
+    top:-5px;
+    left:-5px;
+    height:102%;
+    width:102%;
+    border:none;
+
+  }
+
+  .bbar{
+    position:relative;
+    top:0px;
+    width:100%;
+    height:20px;
+    border-bottom:1px solid white;
+    display:flex;
+    flex-wrap:nowrap;
+  
+  }
+  
+  .bbut{
+    height:8px;
+    width:8px;
+    margin-left:8px;
+    border-radius:30px;
+    border:1px solid white;
+  }
+
+#carta, #carta .bbar{
+    z-index: 6;
+}
+
+#carta:has(iframe[src="about:blank"]) {
+opacity:0;
+}
+
+#carta iframe{
+    z-index: 5;
+}
+
+
+
+#time {
+    width:300px;
+    height:50px;
+    padding:20px 40px;
+    z-index: 2;
+    align-self: flex-end;
+
+}
+
+#E{
+  border-radius: 100px;
+  width:160px;
+  right:40px;
+  top: 180px;
+  z-index:10;
+
+
+}
+
+#M{
+  background-color: black;
+  padding:40px 0px;
+
+}
+
+#M,#G,#S {
+  width:0px;
+  height:auto;
+  position:absolute;
+  top:0; left:0;
+  z-index:11;
+
+}
+
+
+
+#H, #E{
+  height:auto;
+  position:absolute;
+  opacity:0;
+  transition: opacity 0.5s;
+
+}
+
+#H{
+  z-index:0;
+  width:100px;
+  top:40px;
+  right:40px;
+}
+
+#D{
+  width: 100%;opacity:0;z-index:-5;
+}
+
+marquee{
+  width:600px;
+  height: 100%;
+  position:fixed;right:0px;top:0px;
+}
+
+</style>
+    </head>
+
+    <body>
+
+
+        <div class = "box" id="carta">
+          <div class="bbar"><div class="bbut"></div><div class="bbut"></div><div class="bbut"></div></div>
+            <iframe id="C" src="about:blank"></iframe>
+            </div>
+
+        <div id="time">
+          <div class ="shadow"></div>
+              <iframe id="T" src="time.html"></iframe>
+     </div>
+
+     <img id="E" src = "earth.gif">
+     <img id="H" src = "cursor.gif">
+
+     <img id="M" src = "chip.gif">
+     <img id="G" src = "error-popup.gif">
+     <img id="S" src = "sss.gif">
+
+     <marquee direction="up"><img id="D" src="mines.png"></marquee>
+
+    
+    </body>   
+    <script src="tone/build/Tone.js"></script>
+    <script type="text/javascript">
+
+                let started = false;
+                let pressed = false;
+
+                let frameC = document.getElementById("C");
+                let frameT = document.getElementById("T");
+                let earth = document.getElementById("E");
+                let circuit = document.getElementById("M");
+                let hourglass = document.getElementById("H");
+                let error = document.getElementById("G");
+                let sss = document.getElementById("S");
+                let mines = document.getElementById("D");
+
+
+
+        
+
+                const synthA = new Tone.PolySynth().toDestination();
+                synthA.volume.value = -10;
+                synthA.set({ detune: -1200 });
+
+                const synthB = new Tone.PolySynth().toDestination();
+                synthB.set({ detune: -1200 });
+
+                const loopA = new Tone.Loop(time => {
+                    synthA.triggerAttackRelease(["C4", "E4", "A4"], 10);
+                }, "1n").start(0);
+            
+                Tone.Transport.start();
+
+
+                document.addEventListener("keydown", checkKeyPressed, false);
+
+                function checkKeyPressed(evt) {
+
+                    if (evt.keyCode == "84") {
+                      //the letter T
+                        if (frameT.src=="about:blank"){
+                          frameT.src="time.html";
+                        }
+                        else {
+                          frameT.src="about:blank";
+                        }
+                    }
+
+                    if (evt.keyCode == "67") {
+                      //the letter C
+                        if (frameC.src=="about:blank"){
+                          frameC.src="carta.html";
+
+                        }
+                        else {
+                          frameC.src="about:blank";
+                        }
+                    }
+
+                    if(evt.keyCode == "69"){
+                        if (earth.style.opacity =="1"){
+                          earth.style.opacity = "0";
+                        } else {
+                          earth.style.opacity = "1";
+                        }
+                    }
+
+
+                    if(evt.keyCode == "77"){
+                        if (circuit.style.width =="100%"){
+                          circuit.style.width = "0px";
+                        } else {
+                          circuit.style.width = "100%";
+                        }
+                    }
+
+
+                    if(evt.keyCode == "83"){
+                        if (sss.style.width =="100%"){
+                          sss.style.width = "0px";
+                        } else {
+                          sss.style.width = "100%";
+                        }
+                    }
+
+                    if(evt.keyCode == "68"){
+                      if (mines.style.opacity =="1"){
+                        mines.style.opacity = "0";
+
+                            } else {
+                             mines.style.opacity = "1"
+                            }
+                    }
+
+                    if(evt.keyCode == "71"){
+                        if (error.style.width =="100%"){
+                          error.style.width = "0px";
+                        } else {
+                          error.style.width = "100%";
+                        }
+                    }
+
+                  if(evt.keyCode == "72"){
+                      if (hourglass.style.opacity == "1"){
+                              hourglass.style.opacity = "0";
+                            } else {
+                              hourglass.style.opacity = "1";
+                            }
+                    }
+
+
+                }
+              
+
+              
+//sound stuff
+
+                document.addEventListener('keydown',function(evt){
+                  if (evt.keyCode == "32"){
+                    Tone.start();
+                    started = true;
+                    if (started == true && pressed==false){
+                        synthB.triggerAttack(["G4"]);
+                        document.body.style.filter ="blur(10px)";
+
+                        pressed=true;
+                    }
+                  }
+                 
+
+                });
+
+
+                document.addEventListener('keyup',function(evt){
+                    if (evt.keyCode == "32" && started == true && pressed==true){
+                    synthB.triggerRelease(["G4"]);
+                    document.body.style.filter ="none";
+
+
+                    pressed=false;
+                    }
+
+                });
+        </script>
+
+</html>
