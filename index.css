@@ -8,15 +8,26 @@
   src: url('fonts/FT88-School.otf');
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+/*--------------------------------------------------------------*/
+/*AT LARGEST SIZE */
+/*--------------------------------------------------------------*/
+
+@media screen and (min-width: 1000px) {
+
+  #work-stuff a {
+    max-width: 33.33%;
+  }
+}
 
 /*--------------------------------------------------------------*/
-/*THE FUN STARTS HERE*/
+/*Between 840 and 1000*/
+/*--------------------------------------------------------------*/
+
 
 #credit {
   font-size: 8pt;
   position: absolute;
-  bottom: 10px;
+  bottom: 6px;
 }
 
 body {
@@ -35,9 +46,7 @@ body {
   color: #333;
 }
 
-/*--------------------------------------------------------------*/
 /*DEFINE SECTIONS & CENTERING*/
-
 
 nav {
   position: fixed;
@@ -46,15 +55,12 @@ nav {
   bottom: 0;
   width: 200px;
   padding: 30px 20px 20px 20px;
-
-  /* overflow: auto; */
 }
 
 #logo,
 #logo-m {
   font-size: 12pt;
   font-family: 'FT88-School';
-
 }
 
 #logo {
@@ -73,10 +79,8 @@ main {
   padding-right: 40px;
   padding-top: 30px;
   padding-bottom: 120px;
-
   margin-left: 0;
   margin-right: auto;
-
   max-width: 840px;
 }
 
@@ -112,6 +116,9 @@ main {
   margin-top: 40px;
 }
 
+/*--------------------------------------------------------------*/
+/*UNDER 840PX*/
+/*--------------------------------------------------------------*/
 
 /* Remove sidebar when too narrow */
 @media screen and (max-width: 840px) {
@@ -145,9 +152,10 @@ main {
 
 
   main {
-    padding: 0px 20px 80px 20px;
+    padding: 0px 20px 0px 20px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 80px;
 
   }
 
@@ -196,13 +204,6 @@ main {
 
 }
 
-
-
-
-
-
-
-/*--------------------------------------------------------------*/
 /*HYPERLINKS */
 
 a {
@@ -237,7 +238,6 @@ h2 a {
 h3 {
   font-size: 14pt;
   font-family: 'AUTHENTICSans', 'Arial', sans-serif;
-  /* font-family: 'Courier Prime', 'Courier', monospace; */
   text-transform: lowercase;
   font-weight: normal;
   letter-spacing: 0.5px;
@@ -247,10 +247,6 @@ h3 {
 }
 
 
-
-
-
-/*--------------------------------------------------------------*/
 /*SECTION: CONTENT LIGHTBOX*/
 
 #content {
@@ -277,7 +273,6 @@ h3 {
   margin-top: 0;
 }
 
-/*--------------------------------------------------------------*/
 /*SECTION: WORK THUMBNAILS*/
 
 #work-stuff {
@@ -322,19 +317,29 @@ h3 {
   height: 200px;
 }
 
-/* #work-stuff a figcaption {
-  text-align: left;
-} */
+/*--------------------------------------------------------------*/
+
+/*RESPONSIVE BIT -- MOBILE UNDER 520 */
 
 /*--------------------------------------------------------------*/
 
-/*RESPONSIVE BIT -- even bigger screen*/
+@media screen and (max-width: 520px) {
 
-/*--------------------------------------------------------------*/
-
-@media screen and (min-width: 1000px) {
+  #credit {
+    display: none;
+  }
 
   #work-stuff a {
-    width: 33.333%;
+    width: 100%;
+    height: 320px;
+  }
+
+  #work-stuff a * {
+    margin: 0px;
+  }
+
+  #work-stuff a .image-tile {
+    height: 260px;
+
   }
 }
