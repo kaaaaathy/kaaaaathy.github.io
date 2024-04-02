@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'AUTHENTICSans';
-  src: url('../fonts/authentic-woff/AUTHENTICSans-90.woff') format('woff');
+  src: url('fonts/authentic-woff/AUTHENTICSans-90.woff');
 }
 
 @font-face {
   font-family: 'FT88-School';
-  src: url('../fonts/FT88-School.otf') format('otf');
+  src: url('fonts/FT88-School.otf');
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
@@ -22,7 +22,7 @@
 body {
   background-color: white;
   font-size: 11pt;
-  font-family: 'AUTHENTICSans', 'AUTHENTICSans', 'Arial Narrow', sans-serif;
+  font-family: 'AUTHENTICSans', 'Arial Narrow', sans-serif;
   letter-spacing: 0.25px;
   line-height: 1.5em;
   color: #333;

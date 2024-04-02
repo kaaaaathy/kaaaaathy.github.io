@@ -8,12 +8,13 @@
 	<meta name="author" content="kathy wu">
 	<meta name="keywords" content="kathy wu, risd, itp, brown">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
 	<link rel="stylesheet" type="text/css" href="index.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
 
-
+<body>
+	<div id="app"></div>
 	<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
 	<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
 	<!-- <script src="https://unpkg.com/react-router@6.22.3/dist/umd/react-router.development.js"></script> -->
@@ -26,7 +27,7 @@
 	</script>
 	<script src="https://unpkg.com/@babel/standalone@7/babel.min.js"></script>
 	<script src="work/work.js"></script>
-	<script type="text/babel">
+	<script type="text/babel" id="runonce">
 
 		const Router = ReactRouterDOM.unstable_HistoryRouter
 		const Route = ReactRouterDOM.Route
@@ -188,10 +189,6 @@
 		);
 
 	</script>
-</head>
-
-<body>
-	<div id="app"></div>
 </body>
 
 </html>
