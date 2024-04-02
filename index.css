@@ -31,7 +31,7 @@
 }
 
 body {
-  background-color: white;
+  background-color: seashell;
   font-size: 11pt;
   font-family: 'AUTHENTICSans', 'Arial Narrow', sans-serif;
   letter-spacing: 0.25px;
@@ -42,7 +42,7 @@ body {
 }
 
 ::selection {
-  background: lavenderblush;
+  background: lavender;
   color: #333;
 }
 
@@ -209,7 +209,6 @@ main {
 a {
   text-decoration: none;
   color: inherit;
-  color: #333;
 }
 
 a:hover {
@@ -296,7 +295,6 @@ h3 {
   margin-top: 10px;
   font-size: 10.5pt;
   line-height: 1.2rem;
-  color: #333;
   text-align: center;
   text-transform: lowercase;
   font-family: 'AUTHENTICSans', 'Arial Narrow', 'Arial', sans-serif;
