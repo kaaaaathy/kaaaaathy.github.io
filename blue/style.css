@@ -1,0 +1,127 @@
+/* CSS files add styling rules to your content */
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+  font-family: 'space mono',monospace;
+  text-transform: uppercase;
+  letter-spacing:0.5px;
+  font-size:100px;
+  color:white;
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  user-select: none;
+  overflow: hidden;
+}
+
+section {
+  display:flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding-top: 200px;
+  width: 100%;
+  margin:0px auto;
+}
+
+iframe {
+  height:250px;
+  width: 28%;
+  /* this used to be 20px, btw */
+  margin: 0px 1.5%;
+  border: none;
+}
+
+#swatch {
+  width:120px;
+  height:120px;
+  color:transparent;
+}
+
+
+#text {
+  font-size: 100px;
+  display:flex;
+  align-items:center;
+}
+
+/*
+#colorName{
+  text-align:center;
+  font-size:20px;
+} */
+
+#container{
+  height:250px;
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  margin:auto;
+}
+
+#startCaption{
+  font-size: 20px;
+  text-transform: lowercase;
+  font-style: italic;
+  position: fixed;
+  top:20px;
+  width: 100%;
+  text-align: center;
+}
+
+.fade {
+  opacity:0;
+  transition: 0.5s opacity;
+}
+
+.black {
+  background:black;
+
+}
+
+.blackText{
+  color:black;
+}
+
+
+.cobalt {
+  background:#0046AB;
+}
+
+
+.blue {
+  background:blue;
+
+}
+
+/* temporarily retired styles */
+
+/* .sky {
+  background:#87CFEB;
+
+}
+
+.lapis {
+  background:#26619C;
+}
+
+.ultra {
+  background:#3F00FF;
+
+}
+
+.prussian {
+  background:#003153;
+}
+
+
+.navy {
+  background:navy;
+
+}
+.cyan{
+  background:cyan;
+  color:black;
+} */

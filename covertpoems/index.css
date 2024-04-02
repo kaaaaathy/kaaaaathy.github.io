@@ -1,0 +1,47 @@
+body {
+  /* INSERT AN IMAGE THAT YOU MAY WANT FOR DISCRETION */
+  background-image: url(rose.jpg);
+
+  /* THIS PREVENTS THE IMAGE FROM MOVING AROUND, FEEL FREE TO CHANGE FOR RESIZING */
+  background-size: cover;
+  overflow-y: hidden;
+
+  font-family: cursive;
+}
+
+h1 {
+  /* FORMATS THE TITLE */
+  text-shadow: oldlace 1px 0 10px;
+  text-align: center;
+}
+
+p{
+  /* FORMATS YOUR POEM LINE */
+  position: absolute;
+  font-size: 30px;
+  opacity: 0.1;
+  color:white;
+  transition: 1s ease;
+
+}
+
+p:hover{
+  /* FORMATS YOUR POEM LINE WHEN THE CURSOR EVER SO GRAZES IT */
+  opacity:1;
+  transition: 1s ease;
+  cursor:pointer;
+
+}
+
+p:focus, p:active{
+  /* CHANGES CURSOR TO GRABBING CURSOR ON CLICK */
+  cursor:grabbing;
+
+}
+
+.touched{
+  /* MAKES THE POEM LINE APPEAR, ALSO CAN BE DELETED FOR DISCRETION */
+  opacity:1;
+  text-shadow: oldlace 10px 0 10px;
+
+}
