@@ -192,9 +192,9 @@
 		document.getElementById("runonce").remove()
 	</script>
 	<script>
-		document.addEventListener("load", () => {
+		setTimeout(() => {
 			Babel.transformScriptTags();
-		})
+		}, 0)
 	</script>
 </body>
 
