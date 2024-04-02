@@ -17,7 +17,6 @@
 	<div id="app"></div>
 	<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
 	<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-	<!-- <script src="https://unpkg.com/react-router@6.22.3/dist/umd/react-router.development.js"></script> -->
 	<script src="https://unpkg.com/history@5.3.0/umd/history.development.js"></script>
 	<script src="https://unpkg.com/react-router@6.3.0/umd/react-router.development.js"></script>
 	<script src="https://unpkg.com/react-router-dom@6.3.0/umd/react-router-dom.development.js"></script>
@@ -177,16 +176,26 @@
 			);
 		}
 
-		// const history = 
-		const root = ReactDOM.createRoot(document.getElementById('app'))
-		root.render(
-			<React.StrictMode>
-				<App />
-			</React.StrictMode>
-		);
+		if (!window.initialized) {
+			const root = ReactDOM.createRoot(document.getElementById('app'))
+			root.render(
+				<React.StrictMode>
+					<App />
+				</React.StrictMode>
+			);
+			window.initialized = true;
+		}
 
-		// Run only once!
-		document.getElementById("runonce").remove()
+	</script>
+
+	<script>
+		function fixIt() {
+			if (!window.initialized) {
+				Babel.transformScriptTags()
+				setTimeout(fixIt, 100)
+			}
+		}
+		setTimeout(fixIt, 100)
 	</script>
 </body>
 
