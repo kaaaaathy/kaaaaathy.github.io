@@ -188,6 +188,13 @@
 			</React.StrictMode>
 		);
 
+		// Run only once!
+		document.getElementById("runonce").remove()
+	</script>
+	<script>
+		document.addEventListener("load", () => {
+			Babel.transformScriptTags();
+		})
 	</script>
 </body>
 
