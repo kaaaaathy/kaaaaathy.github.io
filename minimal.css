@@ -23,12 +23,15 @@
 /*Between 840 and 1000*/
 /*--------------------------------------------------------------*/
 
-#app {
-  cursor: crosshair;
+
+#credit {
+  font-size: 8pt;
+  position: absolute;
+  bottom: 6px;
 }
 
 body {
-  background-color: khaki;
+  background-color: seashell;
   font-size: 11pt;
   font-family: 'AUTHENTICSans', 'Arial Narrow', sans-serif;
   letter-spacing: 0.25px;
@@ -39,8 +42,8 @@ body {
 }
 
 ::selection {
-  background: darkkhaki;
-  color: lavenderblush;
+  background: lavender;
+  color: #333;
 }
 
 /*DEFINE SECTIONS & CENTERING*/
@@ -113,14 +116,6 @@ main {
   border: none;
   margin-top: 40px;
 }
-
-
-#credit {
-  font-size: 8pt;
-  position: absolute;
-  bottom: 6px;
-}
-
 
 /*--------------------------------------------------------------*/
 /*UNDER 840PX*/
@@ -222,12 +217,6 @@ a:hover {
   opacity: 0.8;
 }
 
-#aboutcontainer a:active,
-h2 a:active,
-#content a:active {
-  background-color: orchid;
-  -webkit-animation: 0.2s background-color;
-}
 
 /*--------------------------------------------------------------*/
 /*HEADER STYLES*/
@@ -301,9 +290,6 @@ h3 {
   height: 240px;
   background-size: cover;
   background-position: center;
-  border-radius: 8px;
-  border: 1px solid orchid;
-  box-shadow: 1px 1px 4px orchid;
 }
 
 #work-stuff a figcaption {
