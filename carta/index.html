@@ -152,7 +152,8 @@
     #K,
     #B,
     #W,
-    #Sewell {
+    #Sewell,
+    #Obj {
       width: 0px;
       height: auto;
       position: absolute;
@@ -167,7 +168,7 @@
     #B,
     #W,
     #S {
-      opacity: 0.6;
+      opacity: 0.7;
       z-index: 12;
 
     }
@@ -241,6 +242,7 @@
   <img id="Sewell" src="sewell.gif">
   <img id="W" src="water.gif">
   <img id="B" src="copper.gif">
+  <img id="Obj" src="person-short.gif">
 
   <marquee direction="up"><img id="D" src="mines.png"></marquee>
 
@@ -261,6 +263,7 @@
   let sss = document.getElementById("S");
   let circuit = document.getElementById("M");
   let error = document.getElementById("G");
+  let obj = document.getElementById("Obj");
 
   // DRAGGABLE MINIS
   let hourglass = document.getElementById("H");
@@ -375,6 +378,15 @@
         sewell.style.width = "100%";
       }
     }
+
+    if (evt.keyCode == "53") {
+      if (obj.style.width == "100%") {
+        obj.style.width = "0px";
+      } else {
+        obj.style.width = "100%";
+      }
+    }
+
 
     if (evt.keyCode == "68") {
       if (mines.style.opacity == "1") {

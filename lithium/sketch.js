@@ -15,8 +15,8 @@ let voice;
 let video;
 let detector;
 let detections = [];
-let canwidth = 400;
-let canheight = 400;
+let canwidth = 600;
+let canheight = 600;
 
 // let myFont;
 
@@ -30,15 +30,15 @@ function setup() {
 
   createCanvas(canwidth, canheight);
   video = createCapture(VIDEO);
-  video.size(canwidth,canheight);
+  video.size(canwidth, canheight);
   video.hide();
   // Models available are 'cocossd', 'yolo'
-    detector = ml5.objectDetector('cocossd', modelReady);
-    voice = new p5.Speech();
-    voice.setVoice(10);
-    voice.setRate(0.75);
-    textSize(14);
-    // textFont(myFont);
+  detector = ml5.objectDetector('cocossd', modelReady);
+  voice = new p5.Speech();
+  voice.setVoice(10);
+  voice.setRate(0.75);
+  textSize(14);
+  // textFont(myFont);
 
 }
 
@@ -61,7 +61,7 @@ function draw() {
   for (let i = 0; i < detections.length; i++) {
     let object = detections[i];
     voice.speak(object.label);
-    
+
     //rectangle
     // stroke(139, 69, 19);
 
@@ -69,13 +69,13 @@ function draw() {
     strokeWeight(1);
     noFill();
     rect(object.x, object.y, object.width, object.height);
-    
+
     noStroke();
     fill(255);
     let obj = object.label.toUpperCase();
     text(obj, object.x + 10, object.y + 24);
   }
-  if (detections.length ==0){
+  if (detections.length == 0) {
     voice.speak("nothing");
 
   }
