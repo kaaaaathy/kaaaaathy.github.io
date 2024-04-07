@@ -41,11 +41,10 @@
     body {
       background: black;
       overflow: hidden;
-      margin: 10px;
+      margin: 0px;
       color: white;
       user-select: none;
       display: flex;
-      margin: 40px;
       transition: background 0.5s;
       transition: filter 0.5s;
     }
@@ -64,7 +63,7 @@
       height: 500px;
       width: 700px;
       overflow: hidden;
-      margin: 10px;
+      margin: 40px;
 
     }
 
@@ -120,17 +119,22 @@
     #time {
       width: 300px;
       height: 50px;
-      padding: 20px 40px;
+      /* margin-bottom: 40px; */
+      padding: 70px;
       z-index: 2;
       align-self: flex-end;
+      mix-blend-mode: screen;
+
 
     }
+
+
 
     #E {
       border-radius: 100px;
       width: 160px;
       right: 40px;
-      top: 180px;
+      top: 170px;
       z-index: 10;
 
 
@@ -161,11 +165,13 @@
 
 
     #B,
-    #W {
+    #W,
+    #S {
       opacity: 0.6;
       z-index: 12;
 
     }
+
 
     #H,
     #E {
@@ -177,16 +183,24 @@
     }
 
     #H {
-      z-index: 0;
       width: 100px;
-      top: 40px;
+      z-index: 10;
+      /* left: 350px;
+      top: 40%; */
+      top: 30px;
       right: 40px;
+      border-radius: 50px;
+      mix-blend-mode: screen;
+
+      ;
+
     }
 
     #D {
       width: 100%;
       opacity: 0;
       z-index: -5;
+      pointer-events: none;
     }
 
     marquee {
