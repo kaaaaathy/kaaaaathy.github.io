@@ -35,8 +35,8 @@
       color: white;
       user-select: none;
       display: flex;
-      transition: background 0.5s;
-      transition: filter 0.5s;
+      transition: filter 0.1s;
+
     }
 
     p {
@@ -109,13 +109,10 @@
     #time {
       width: 300px;
       height: 50px;
-      /* margin-bottom: 40px; */
       padding: 70px;
       z-index: 2;
       align-self: flex-end;
       mix-blend-mode: screen;
-
-
     }
 
 
@@ -247,9 +244,16 @@
       }
 
       clink.play();
+      document.body.style.filter = "blur(10px)";
+
     }
   });
 
+
+  document.addEventListener('keyup', function (evt) {
+    document.body.style.filter = "none";
+
+  });
 
   document.addEventListener("keydown", checkKeyPressed, false);
 
@@ -276,7 +280,6 @@
         frameC.src = "about:blank";
       }
     }
-
 
     //NUMBERS from 1 onwards
 
@@ -324,8 +327,6 @@
       }
     }
 
-
-
     if (evt.keyCode == "54") {
       if (error.style.width == "100%") {
         error.style.width = "0px";
@@ -333,7 +334,6 @@
         error.style.width = "100%";
       }
     }
-
 
     if (evt.keyCode == "55") {
       if (love.style.width == "100%") {
