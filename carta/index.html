@@ -177,6 +177,7 @@
 
 <body>
 
+  <audio loop id="audio" src="sound.mp3"></audio>
 
   <div class="box" id="carta">
     <div class="bbar">
@@ -189,7 +190,7 @@
 
   <div id="time">
     <div class="shadow"></div>
-    <iframe id="T" src="time.html"></iframe>
+    <iframe id="T" src="about:blank"></iframe>
   </div>
 
   <img id="circuit" src="chip.gif">
@@ -207,15 +208,16 @@
 </body>
 <script type="text/javascript">
 
-  let started = false;
-  let pressed = false;
+  let audio = document.getElementById("audio");
 
   // POSITIONABLE FOR PROJECTION MAP
   let frameC = document.getElementById("C");
   let frameT = document.getElementById("T");
+
+  //WHATEVER
   let mines = document.getElementById("minedata");
 
-  // FULL SCREEN 
+  // FULL SCREEN BW
   let sss = document.getElementById("S");
   let circuit = document.getElementById("circuit");
   let error = document.getElementById("glitch");
@@ -226,6 +228,19 @@
   // FULL SCREEN COLOR
   let me = document.getElementById("me");
   let smelt = document.getElementById("smelt");
+
+  document.addEventListener('keydown', function (event) {
+    // Get the audio element
+    let audio = document.getElementById('audio');
+    audio.loop = true;
+
+    // Check if the audio element exists and the key pressed
+    if (audio && event.key) {
+      // Play the audio
+      audio.play();
+    }
+  });
+
 
   document.addEventListener("keydown", checkKeyPressed, false);
 
@@ -254,7 +269,7 @@
     }
 
 
-    //NUcircuitsmeltERS from 1 onwards
+    //NUMBERS from 1 onwards
 
     if (evt.keyCode == "49") {
       if (circuit.style.width == "100%") {
