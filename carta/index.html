@@ -178,6 +178,7 @@
 <body>
 
   <audio loop id="audio" src="sound.mp3"></audio>
+  <audio id="clink" src="clink.m4a"></audio>
 
   <div class="box" id="carta">
     <div class="bbar">
@@ -208,7 +209,10 @@
 </body>
 <script type="text/javascript">
 
+  // SOUND RELATED
+  let started = false;
   let audio = document.getElementById("audio");
+  let clink = document.getElementById("clink");
 
   // POSITIONABLE FOR PROJECTION MAP
   let frameC = document.getElementById("C");
@@ -237,7 +241,12 @@
     // Check if the audio element exists and the key pressed
     if (audio && event.key) {
       // Play the audio
-      audio.play();
+      if (started == false) {
+        audio.play();
+        started = true;
+      }
+
+      clink.play();
     }
   });
 
