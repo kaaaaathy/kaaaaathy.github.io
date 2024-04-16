@@ -1,14 +1,7 @@
 <html>
 
 <head>
-  <title>land</title>
-
-  <!-- Attributions
-
-        Fonts used: Authentic Sans & FT88-Serif
-        Sound: Mining by Travis Needham (https://freesound.org/people/TravisNeedham/sounds/135121/)
-        Synths: Tone.js library
-        Visuals: Mapbox via Leaflet -->
+  <title>***</title>
 
   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
   <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
@@ -18,9 +11,6 @@
   <script>   $(function () {
       $(".box").draggable();
       $("#time").draggable();
-      $("#E").draggable();
-      $("#H").draggable();
-
 
     });
 
@@ -130,30 +120,19 @@
 
 
 
-    #E {
-      border-radius: 100px;
-      width: 160px;
-      right: 40px;
-      top: 170px;
-      z-index: 10;
-
-
-    }
-
-    #M {
+    #circuit {
       background-color: black;
       padding: 40px 0px;
 
     }
 
-    #M,
-    #G,
+    #circuit,
+    #glitch,
     #S,
-    #K,
-    #B,
-    #W,
-    #Sewell,
-    #Obj {
+    #me,
+    #smelt,
+    #love,
+    #object {
       width: 0px;
       height: auto;
       position: absolute;
@@ -164,15 +143,14 @@
 
     }
 
-    #Obj {
+    #object {
       mix-blend-mode: screen;
       z-index: 12;
 
     }
 
 
-    #B,
-    #W,
+    #smelt,
     #S {
       opacity: 0.7;
       z-index: 12;
@@ -180,30 +158,7 @@
     }
 
 
-    #H,
-    #E {
-      height: auto;
-      position: absolute;
-      opacity: 0;
-      transition: opacity 0.5s;
-
-    }
-
-    #H {
-      width: 100px;
-      z-index: 10;
-      /* left: 350px;
-      top: 40%; */
-      top: 30px;
-      right: 40px;
-      border-radius: 50px;
-      mix-blend-mode: screen;
-
-      ;
-
-    }
-
-    #D {
+    #minedata {
       width: 100%;
       opacity: 0;
       z-index: -5;
@@ -237,67 +192,40 @@
     <iframe id="T" src="time.html"></iframe>
   </div>
 
-  <img id="E" src="earth.gif">
-  <img id="H" src="cursor.gif">
-
-  <img id="M" src="chip.gif">
-  <img id="G" src="error-popup.gif">
+  <img id="circuit" src="chip.gif">
+  <img id="glitch" src="error-popup.gif">
   <img id="S" src="sss.gif">
 
-  <img id="K" src="me-looped.gif">
-  <img id="Sewell" src="sewell.gif">
-  <img id="W" src="water.gif">
-  <img id="B" src="copper.gif">
-  <img id="Obj" src="person-short.gif">
+  <img id="me" src="me-looped.gif">
+  <img id="smelt" src="copper.gif">
+  <img id="object" src="person-short.gif">
+  <img id="love" src="love.gif">
 
-  <marquee direction="up"><img id="D" src="mines.png"></marquee>
+  <marquee direction="up"><img id="minedata" src="mines.png"></marquee>
 
 
 </body>
-<script src="tone/build/Tone.js"></script>
 <script type="text/javascript">
 
   let started = false;
   let pressed = false;
 
-  // POSITIONED FOR PROJECTION MAP
+  // POSITIONABLE FOR PROJECTION MAP
   let frameC = document.getElementById("C");
   let frameT = document.getElementById("T");
-  let mines = document.getElementById("D");
+  let mines = document.getElementById("minedata");
 
-  // FULL SCREEN BW
+  // FULL SCREEN 
   let sss = document.getElementById("S");
-  let circuit = document.getElementById("M");
-  let error = document.getElementById("G");
-  let obj = document.getElementById("Obj");
+  let circuit = document.getElementById("circuit");
+  let error = document.getElementById("glitch");
+  let obj = document.getElementById("object");
+  let love = document.getElementById("love");
 
-  // DRAGGABLE MINIS
-  let hourglass = document.getElementById("H");
-  let earth = document.getElementById("E");
 
   // FULL SCREEN COLOR
-  let me = document.getElementById("K");
-  let smelt = document.getElementById("B");
-  let sewell = document.getElementById("Sewell");
-  let water = document.getElementById("W");
-
-
-
-
-
-  const synthA = new Tone.PolySynth().toDestination();
-  synthA.volume.value = -10;
-  synthA.set({ detune: -1200 });
-
-  const synthB = new Tone.PolySynth().toDestination();
-  synthB.set({ detune: -1200 });
-
-  const loopA = new Tone.Loop(time => {
-    synthA.triggerAttackRelease(["C4", "E4", "A4"], 10);
-  }, "1n").start(0);
-
-  Tone.Transport.start();
-
+  let me = document.getElementById("me");
+  let smelt = document.getElementById("smelt");
 
   document.addEventListener("keydown", checkKeyPressed, false);
 
@@ -325,16 +253,10 @@
       }
     }
 
-    if (evt.keyCode == "69") {
-      if (earth.style.opacity == "1") {
-        earth.style.opacity = "0";
-      } else {
-        earth.style.opacity = "1";
-      }
-    }
 
+    //NUcircuitsmeltERS from 1 onwards
 
-    if (evt.keyCode == "77") {
+    if (evt.keyCode == "49") {
       if (circuit.style.width == "100%") {
         circuit.style.width = "0px";
       } else {
@@ -343,7 +265,7 @@
     }
 
 
-    if (evt.keyCode == "83") {
+    if (evt.keyCode == "50") {
       if (sss.style.width == "100%") {
         sss.style.width = "0px";
       } else {
@@ -352,7 +274,7 @@
     }
 
 
-    if (evt.keyCode == "49") {
+    if (evt.keyCode == "51") {
       if (me.style.width == "100%") {
         me.style.width = "0px";
       } else {
@@ -361,15 +283,7 @@
     }
 
 
-    if (evt.keyCode == "50") {
-      if (water.style.width == "100%") {
-        water.style.width = "0px";
-      } else {
-        water.style.width = "100%";
-      }
-    }
-
-    if (evt.keyCode == "51") {
+    if (evt.keyCode == "52") {
       if (smelt.style.width == "100%") {
         smelt.style.width = "0px";
       } else {
@@ -377,13 +291,6 @@
       }
     }
 
-    if (evt.keyCode == "52") {
-      if (sewell.style.width == "100%") {
-        sewell.style.width = "0px";
-      } else {
-        sewell.style.width = "100%";
-      }
-    }
 
     if (evt.keyCode == "53") {
       if (obj.style.width == "100%") {
@@ -394,7 +301,26 @@
     }
 
 
-    if (evt.keyCode == "68") {
+
+    if (evt.keyCode == "54") {
+      if (error.style.width == "100%") {
+        error.style.width = "0px";
+      } else {
+        error.style.width = "100%";
+      }
+    }
+
+
+    if (evt.keyCode == "55") {
+      if (love.style.width == "100%") {
+        love.style.width = "0px";
+
+      } else {
+        love.style.width = "100%";
+      }
+    }
+
+    if (evt.keyCode == "56") {
       if (mines.style.opacity == "1") {
         mines.style.opacity = "0";
 
@@ -403,55 +329,8 @@
       }
     }
 
-    if (evt.keyCode == "71") {
-      if (error.style.width == "100%") {
-        error.style.width = "0px";
-      } else {
-        error.style.width = "100%";
-      }
-    }
-
-    if (evt.keyCode == "72") {
-      if (hourglass.style.opacity == "1") {
-        hourglass.style.opacity = "0";
-      } else {
-        hourglass.style.opacity = "1";
-      }
-    }
-
-
   }
 
-
-
-  //sound stuff
-
-  document.addEventListener('keydown', function (evt) {
-    if (evt.keyCode == "32") {
-      Tone.start();
-      started = true;
-      if (started == true && pressed == false) {
-        synthB.triggerAttack(["G4"]);
-        document.body.style.filter = "blur(10px)";
-
-        pressed = true;
-      }
-    }
-
-
-  });
-
-
-  document.addEventListener('keyup', function (evt) {
-    if (evt.keyCode == "32" && started == true && pressed == true) {
-      synthB.triggerRelease(["G4"]);
-      document.body.style.filter = "none";
-
-
-      pressed = false;
-    }
-
-  });
 </script>
 
 </html>
