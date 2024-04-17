@@ -30,7 +30,7 @@
 body {
   background-color: khaki;
   font-size: 11pt;
-  font-family: 'AUTHENTICSans', 'Arial Narrow', sans-serif;
+  font-family: 'AUTHENTICSans', 'Arial', sans-serif;
   letter-spacing: 0.25px;
   line-height: 1.5em;
   color: #333;
@@ -58,7 +58,7 @@ nav {
 #logo,
 #logo-m {
   font-size: 12pt;
-  font-family: 'FT88-School';
+  font-family: 'FT88-School', 'Courier Prime', monospace;
 }
 
 #logo {
@@ -313,7 +313,7 @@ h3 {
   line-height: 1.2rem;
   text-align: center;
   text-transform: lowercase;
-  font-family: 'AUTHENTICSans', 'Arial Narrow', 'Arial', sans-serif;
+  font-family: 'AUTHENTICSans', 'Arial', sans-serif;
 }
 
 #work-stuff a {
