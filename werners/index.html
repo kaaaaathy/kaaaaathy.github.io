@@ -1,0 +1,119 @@
+<html>
+    <head> 
+        <title>werner's</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&family=Meddon&display=swap" rel="stylesheet">
+
+        <script type="text/javascript" src ="papaparse.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+        <style>
+        body {
+            overflow: hidden;
+            background-color: white;
+            margin:0px;
+            display: flex;
+            flex-flow: wrap;
+
+
+        }
+
+        .fade {
+            opacity:0;
+            transition: 0.75s ease-in;
+            }
+
+        iframe{
+            width:33%;
+            height:50%;
+            border: 0px;
+            margin:0px;
+
+        }
+        #instruction, #container{
+            width:100%;
+            height:100%;
+            position: fixed;
+            top:0;
+            left:0;
+        }
+        #instruction{
+            z-index: 2;
+            background-color: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+
+        }
+
+        </style>
+    </head>
+
+    <body>
+
+        <audio style = "display:none" controls preload="auto" id = "noise" loop>
+            <source src="https://kaaathy.com/werners/wildlife_inspectorJ.wav" />
+          </audio>
+
+        <div id="instruction">Click anywhere to start</div>
+        <div id="container"></div>
+
+
+    
+    
+    </body>
+    <script type="text/javascript">
+              
+              let noise = document.getElementById('noise');
+              let instruction = document.getElementById('instruction');
+              let container = document.getElementById('container');
+            
+              let started = false;
+              let pressed = false;
+
+            let swatches=6;
+            let speed=8000;
+
+
+                document.addEventListener('mousedown',function(){
+                    if (started == false){
+                            started = true;
+                            noise.play();
+                            instruction.classList.add('fade');
+                            animate();
+
+                    }
+                });
+
+
+
+
+
+                    async function animate() {
+                        await wait(1000);
+
+                        for (let i = 1; i < swatches+1; i++){
+                            let box=document.createElement('iframe');
+                            box.src = "https://kaaathy.com/werners/swatch.html";
+                            container.appendChild(box);
+                            await wait(speed);
+
+                        }
+                    }
+
+
+                    function wait(time) {
+                    return new Promise(resolve => {
+                        setTimeout(() => {
+                        resolve('resolved');
+                        }, time);
+                    });
+                }
+                    
+
+            </script>
+
+</html>
