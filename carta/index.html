@@ -179,6 +179,7 @@
   <audio id="tone1" src="tone1.wav"></audio>
   <audio id="tone2" src="tone2.wav"></audio>
   <audio id="tone3" src="tone3.wav"></audio>
+  <audio id="tone4" src="tone4.wav"></audio>
 
   <div class="box" id="carta">
     <div class="bbar">
@@ -212,9 +213,11 @@
   // SOUND RELATED
   let started = false;
   let audio = document.getElementById("audio");
+  audio.volume = 0.75;
   let tone1 = document.getElementById("tone1");
   let tone2 = document.getElementById("tone2");
   let tone3 = document.getElementById("tone3");
+  let tone4 = document.getElementById("tone4");
 
   // POSITIONABLE FOR PROJECTION MAP
   let frameC = document.getElementById("C");
@@ -316,7 +319,7 @@
 
 
     if (evt.keyCode == "51") {
-      restartAudio(tone1);
+      restartAudio(tone3);
 
       if (me.style.width == "100%") {
         me.style.width = "0px";
@@ -327,7 +330,7 @@
 
 
     if (evt.keyCode == "52") {
-      restartAudio(tone2);
+      restartAudio(tone4);
 
 
       if (smelt.style.width == "100%") {
@@ -339,7 +342,7 @@
 
 
     if (evt.keyCode == "53") {
-      restartAudio(tone3);
+      restartAudio(tone1);
 
 
       if (obj.style.width == "100%") {
@@ -350,7 +353,7 @@
     }
 
     if (evt.keyCode == "54") {
-      restartAudio(tone2);
+      restartAudio(tone4);
 
 
       if (error.style.width == "100%") {
@@ -361,7 +364,7 @@
     }
 
     if (evt.keyCode == "55") {
-      restartAudio(tone3);
+      restartAudio(tone2);
 
 
       if (love.style.width == "100%") {
@@ -373,7 +376,7 @@
     }
 
     if (evt.keyCode == "56") {
-      restartAudio(tone2);
+      restartAudio(tone3);
 
 
       if (mines.style.opacity == "1") {
