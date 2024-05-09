@@ -180,6 +180,7 @@
   <audio id="tone2" src="tone2.wav"></audio>
   <audio id="tone3" src="tone3.wav"></audio>
   <audio id="tone4" src="tone4.wav"></audio>
+  <audio id="chatgpt" src="chatgpt.wav"></audio>
 
   <div class="box" id="carta">
     <div class="bbar">
@@ -214,10 +215,13 @@
   let started = false;
   let audio = document.getElementById("audio");
   audio.volume = 0.6;
+
   let tone1 = document.getElementById("tone1");
   let tone2 = document.getElementById("tone2");
   let tone3 = document.getElementById("tone3");
   let tone4 = document.getElementById("tone4");
+  let chatgpt = document.getElementById("chatgpt");
+  chatgpt.volume = 0.7;
 
   // POSITIONABLE FOR PROJECTION MAP
   let frameC = document.getElementById("C");
@@ -342,7 +346,7 @@
 
 
     if (evt.keyCode == "53") {
-      restartAudio(tone1);
+      restartAudio(tone4);
 
 
       if (obj.style.width == "100%") {
@@ -353,14 +357,15 @@
     }
 
     if (evt.keyCode == "54") {
-      restartAudio(tone4);
+      restartAudio(chatgpt);
 
 
-      if (error.style.width == "100%") {
-        error.style.width = "0px";
-      } else {
-        error.style.width = "100%";
-      }
+
+      // if (error.style.width == "100%") {
+      //   error.style.width = "0px";
+      // } else {
+      //   error.style.width = "100%";
+      // }
     }
 
     if (evt.keyCode == "55") {
@@ -376,7 +381,7 @@
     }
 
     if (evt.keyCode == "56") {
-      restartAudio(tone3);
+      restartAudio(tone1);
 
 
       if (mines.style.opacity == "1") {
