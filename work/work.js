@@ -28,7 +28,7 @@ work = [
   POETRY MANUSCRIPT
   Manuscript is in progress!
 
-  [book.jpg]
+  [book1.jpg]
   [book2.png]
   [carta.png]
 
@@ -156,17 +156,18 @@ In front is a metaphorical "circuit" of objects: a sculptural installation of ya
 
   //   },
 
-  //   {  "folder":"cloudpoem",
-  //   "name":"when will it rain",
-  //   "tags":"javascript, HTML, poetry",
-  //   "thumb":"thumb.png",
-  //   "content":`A webpoem about balloons and meteorology and unidentifiable objects, about the limits of knowing and seeing, how governments and states know and see.
-  //   Procedurally redacts/translates things into the word "object," folds in live weather from government data. 
-  //   Site link <a href="https://kaaathy.com/cloud/index.html" target="_blank">here</a>.
-  //   [cloudpoem.gif]
+  {
+    "folder": "cloudpoem",
+    "name": "when will it rain",
+    "tags": "javascript, HTML, poetry",
+    "thumb": "thumb.png",
+    "content": `A webpoem about balloons and meteorology and unidentifiable objects, about the limits of knowing and seeing, how governments and states know and see.
+    Procedurally redacts/translates things into the word "object," folds in live weather from government data. 
+    Site link <a href="https://kaaathy.com/cloud/index.html" target="_blank">here</a>.
+    [cloudpoem.gif]
 
-  //   `
-  //  },
+    `
+  },
   {
     "folder": "blueimg",
     "name": "virtual blue",
@@ -236,28 +237,28 @@ Website → <a href="https://eroticeventlisteners.glitch.me" target="_blank">Ero
     [rose.gif]
     `
   },
-  {
-    "folder": "comppo",
-    "name": "computational poetics",
-    "tags": "",
-    "thumb": "hero.jpg",
-    "content": `
-Computational Poetics is a studio elective within RISD Graphic Design focused on new ways of reading and writing, both with and without computers. The course asks critical questions about text-oriented art and design in the context of code, procedures, authorship, and classification.
-The main 3 projects focus on Math.random() as a divination tool, collective authorship through annotation and hypertext, and the politics of classification.
+  //   {
+  //     "folder": "comppo",
+  //     "name": "computational poetics",
+  //     "tags": "",
+  //     "thumb": "hero.jpg",
+  //     "content": `
+  // Computational Poetics is a studio elective within RISD Graphic Design focused on new ways of reading and writing, both with and without computers. The course asks critical questions about text-oriented art and design in the context of code, procedures, authorship, and classification.
+  // The main 3 projects focus on Math.random() as a divination tool, collective authorship through annotation and hypertext, and the politics of classification.
 
-Course Website → <a href="https://kaaathy.com/comppoetics" target="_blank">Computational Poetics</a>
+  // Course Website → <a href="https://kaaathy.com/comppoetics" target="_blank">Computational Poetics</a>
 
-      [hero.png]
-      Student work pictured by Amy Choi, Mariana Ramos Ortiz, Lara Karadogan,Daphne Hsu
-      [2.jpg]
-      [3.jpg]
-      [4.jpg]
-      [5.jpg]
+  //       [hero.png]
+  //       Student work pictured by Amy Choi, Mariana Ramos Ortiz, Lara Karadogan,Daphne Hsu
+  //       [2.jpg]
+  //       [3.jpg]
+  //       [4.jpg]
+  //       [5.jpg]
 
-      more soon~
+  //       more soon~
 
-      `
-  },
+  //       `
+  //   },
 
   {
     "folder": "aarw-zine",
