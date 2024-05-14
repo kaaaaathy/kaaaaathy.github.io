@@ -11,8 +11,16 @@
 /*--------------------------------------------------------------*/
 /*AT LARGEST SIZE */
 /*--------------------------------------------------------------*/
+#aboutpic {
+  width: 250px;
+  border-radius: 8px;
+  border: 1px solid orchid;
+  box-shadow: 1px 1px 4px orchid;
+}
 
 @media screen and (min-width: 1000px) {
+
+
 
   #work-stuff a {
     max-width: 33.33%;
@@ -117,7 +125,8 @@ main {
 
 #credit {
   font-size: 8pt;
-  position: absolute;
+  position: fixed;
+  z-index: -10;
   bottom: 6px;
 }
 
