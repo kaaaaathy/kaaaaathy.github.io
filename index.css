@@ -12,10 +12,10 @@
 /*AT LARGEST SIZE */
 /*--------------------------------------------------------------*/
 #aboutpic {
-  width: 250px;
+  width: 200px;
   border-radius: 8px;
-  border: 1px solid orchid;
-  box-shadow: 1px 1px 4px orchid;
+  border: 1px solid cornflowerblue;
+  box-shadow: 1px 1px 4px cornflowerblue;
 }
 
 @media screen and (min-width: 1000px) {
