@@ -1,5 +1,4 @@
 
-
 let i = 0;
 let words = [];
 let pics = [];
@@ -28,7 +27,6 @@ function textillate(input) {
 
 
 
-//p5 mappa canvas
 function preload() {
     terminal = loadFont('https://cdn.glitch.me/640277e6-6a19-4a13-8251-32b8d9d92672%2Fterminal-grotesque.ttf?v=1633900310040');
     instruct = document.getElementById('instruct');
@@ -61,7 +59,6 @@ function draw() {
             fossillist[j].show();
         }
     }
-
 }
 
 
@@ -99,8 +96,8 @@ class Tag {
         noStroke();
         textSize(20);
         text(this.info, this.x, this.y);
-        if (this.opacity > 0) {
-            this.opacity--;
+        if (this.opacity > 5) {
+            this.opacity -= 0.5;
         }
 
     }
