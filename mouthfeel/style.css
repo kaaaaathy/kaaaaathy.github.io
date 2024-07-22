@@ -1,0 +1,103 @@
+body {
+  width: 100%;
+  background-color: black;
+}
+
+.axis {
+  position: absolute;
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+/* Page structure */
+video {
+  z-index: -10;
+  width: 200px;
+  background: none;
+
+}
+
+.label {
+  position: absolute;
+  text-align: center;
+  font-family: "space mono", monospace;
+  width: 100%;
+  z-index: 10;
+  user-select: none;
+  color: white;
+  size: 20px;
+}
+
+
+#soft,
+#hard {
+  width: 100%;
+  text-align: center;
+
+}
+
+#soft video,
+#hard video {
+  margin: auto;
+
+}
+
+#hard {
+  bottom: 5%;
+
+}
+
+#soft {
+  top: 5%;
+}
+
+#dog,
+#cat,
+#soft,
+#hard,
+#harddog,
+#hardcat,
+#softcat,
+#softdog {
+  position: absolute;
+
+}
+
+#dog,
+#cat {
+  height: 100%;
+
+}
+
+#cat {
+  left: 5%;
+}
+
+#dog {
+  right: 5%;
+
+}
+
+#softdog {
+  top: 20%;
+  right: 15%;
+}
+
+#softcat {
+  top: 20%;
+  left: 15%;
+}
+
+#harddog {
+
+  bottom: 20%;
+  right: 15%;
+
+}
+
+#hardcat {
+
+  bottom: 20%;
+  left: 15%;
+}
