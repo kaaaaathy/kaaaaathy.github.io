@@ -46,6 +46,7 @@ video {
   width: 100%;
   text-align: center;
 
+
 }
 
 #soft video,
@@ -72,7 +73,7 @@ video {
 #softcat,
 #softdog {
   position: absolute;
-
+  cursor: pointer !important;
 }
 
 #dog,
