@@ -49,7 +49,7 @@ function draw() {
     clear();
 
     textSize(10);
-    text('✦', mouseX, mouseY);
+    text('✦', mouseX - 12, mouseY + 6);
 
     for (let j = 0; j < taglist.length; j++) {
 
