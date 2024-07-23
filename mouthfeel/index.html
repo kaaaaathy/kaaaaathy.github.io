@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="style.css" />
 
   <!-- The website JavaScript file -->
-  <script src="/script.js" defer></script>
+
 </head>
 
 <body>
@@ -21,7 +21,7 @@
 
   <div id="soft" class="axis">
 
-    <video autoplay muted loop controls>
+    <video loop controls>
       <source src="soft.mp4" type="video/mp4">
     </video>
 
@@ -32,7 +32,7 @@
 
   <div id="hard" class="axis">
 
-    <video autoplay muted loop controls>
+    <video loop controls>
       <source src="hard.mp4" type="video/mp4">
     </video>
     <div class="label">
@@ -42,7 +42,7 @@
 
   <div id="cat" class="axis">
 
-    <video autoplay muted loop controls>
+    <video loop controls>
       <source src="cat.mp4" type="video/mp4">
     </video>
     <div class="label">
@@ -52,7 +52,7 @@
 
   <div id="dog" class="axis">
 
-    <video autoplay muted loop controls>
+    <video loop controls>
       <source src="dog.mp4" type="video/mp4">
     </video>
     <div class="label">
@@ -61,23 +61,33 @@
   </div>
 
 
-  <video id="softcat" autoplay muted loop controls>
+  <video id="softcat" loop controls>
     <source src="softcat.mp4" type="video/mp4">
   </video>
 
-  <video id="hardcat" autoplay muted loop controls>
+  <video id="hardcat" loop controls>
     <source src="hardcat.mp4" type="video/mp4">
   </video>
 
 
-  <video id="harddog" autoplay muted loop controls>
+  <video id="harddog" loop controls>
     <source src="harddog.mp4" type="video/mp4">
   </video>
 
-  <video id="softdog" autoplay muted loop controls>
+  <video id="softdog" loop controls>
     <source src="softdog.mp4" type="video/mp4">
   </video>
 
 </body>
+<script>
+  const videos = document.querySelectorAll('.video');
+
+  videos.forEach(video => {
+    video.addEventListener('mouseover', () => {
+      video.play();
+    });
+
+
+</script>
 
 </html>
