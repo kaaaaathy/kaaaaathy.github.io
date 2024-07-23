@@ -10,17 +10,22 @@ body {
   align-items: center;
 }
 
-/* Page structure */
+/* Can't get the cursor to work oh well */
 video {
   z-index: 0;
   width: 200px;
-  background: none;
-  cursor: pointer;
-
+  cursor: pointer !important;
 }
 
-video::-webkit-media-controls-fullscreen-button {
-  display: none;
+.toggle:hover {
+  opacity: 1;
+  cursor: pointer !important;
+}
+
+.toggle {
+  cursor: pointer !important;
+  opacity: 0.5;
+  transition: opacity 0.2s ease;
 }
 
 .label {
@@ -30,6 +35,7 @@ video::-webkit-media-controls-fullscreen-button {
   width: 100%;
   z-index: 10;
   user-select: none;
+  pointer-events: none;
   color: white;
   size: 20px;
 }

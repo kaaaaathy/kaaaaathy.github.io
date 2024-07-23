@@ -12,8 +12,6 @@
 
   <link rel="stylesheet" href="style.css" />
 
-  <!-- The website JavaScript file -->
-
 </head>
 
 <body>
@@ -21,7 +19,7 @@
 
   <div id="soft" class="axis">
 
-    <video loop controls>
+    <video class="toggle" autoplay muted loop>
       <source src="soft.mp4" type="video/mp4">
     </video>
 
@@ -32,7 +30,7 @@
 
   <div id="hard" class="axis">
 
-    <video loop controls>
+    <video class="toggle" autoplay muted loop>
       <source src="hard.mp4" type="video/mp4">
     </video>
     <div class="label">
@@ -42,7 +40,7 @@
 
   <div id="cat" class="axis">
 
-    <video loop controls>
+    <video class="toggle" autoplay muted loop>
       <source src="cat.mp4" type="video/mp4">
     </video>
     <div class="label">
@@ -52,7 +50,7 @@
 
   <div id="dog" class="axis">
 
-    <video loop controls>
+    <video class="toggle" autoplay muted loop>
       <source src="dog.mp4" type="video/mp4">
     </video>
     <div class="label">
@@ -61,32 +59,38 @@
   </div>
 
 
-  <video id="softcat" loop controls>
+  <video class="toggle" id="softcat" autoplay muted loop>
     <source src="softcat.mp4" type="video/mp4">
   </video>
 
-  <video id="hardcat" loop controls>
+  <video class="toggle" id="hardcat" autoplay muted loop>
     <source src="hardcat.mp4" type="video/mp4">
   </video>
 
 
-  <video id="harddog" loop controls>
+  <video class="toggle" id="harddog" autoplay muted loop>
     <source src="harddog.mp4" type="video/mp4">
   </video>
 
-  <video id="softdog" loop controls>
+  <video class="toggle" id="softdog" autoplay muted loop>
     <source src="softdog.mp4" type="video/mp4">
   </video>
 
 </body>
 <script>
-  const videos = document.querySelectorAll('.video');
+  let videos = document.querySelectorAll('.toggle');
 
   videos.forEach(video => {
-    video.addEventListener('mouseover', () => {
-      video.play();
-    });
+    video.addEventListener('click', () => {
+      video.muted = !video.muted;
+      if (video.style.opacity == 1) {
+        video.style.opacity = 0.5;
+      } else {
+        video.style.opacity = 1;
+      }
 
+    });
+  });
 
 </script>
 
