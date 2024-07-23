@@ -18,9 +18,9 @@ video {
 
 }
 
-video::-webkit-media-controls-fullscreen-button {
+/* video::-webkit-media-controls-fullscreen-button {
   display: none;
-}
+} */
 
 .label {
   position: absolute;
