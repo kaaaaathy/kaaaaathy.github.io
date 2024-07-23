@@ -19,7 +19,7 @@ video {
 }
 
 video::-webkit-media-controls-fullscreen-button {
-  display: none !important;
+  display: none;
 }
 
 .label {
