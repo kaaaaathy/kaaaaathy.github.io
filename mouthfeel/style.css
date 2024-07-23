@@ -18,6 +18,10 @@ video {
 
 }
 
+video::-webkit-media-controls-fullscreen-button {
+  display: none !important;
+}
+
 .label {
   position: absolute;
   text-align: center;
