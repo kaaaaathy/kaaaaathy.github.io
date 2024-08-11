@@ -403,17 +403,18 @@ Website → <a href="https://eroticeventlisteners.glitch.me" target="_blank">Ero
   `
 
   },
-  //   {  "folder":"looting",
-  //  "name":"Looting Dream",
-  //  "tags":"Interactive, HTML",
-  //  "thumb":"thumb.jpg",
-  //  "content":`LOOTING DREAM is an interactive web fantasy about distorting, glitching, re-inserting, and deleting from glass boxes + institutions. Seen on <a href="https://pages.virtualgoodsdealer.com/exhibits" target="_blank">Virtual Goods Dealer</a>.
-  //  [looting.gif]
-  //  [looting.png]
+  {
+    "folder": "looting",
+    "name": "Looting Dream",
+    "tags": "Interactive, HTML",
+    "thumb": "thumb.jpg",
+    "content": `LOOTING DREAM is an interactive web fantasy about distorting, glitching, re-inserting, and deleting from glass boxes + institutions. Seen on <a href="https://pages.virtualgoodsdealer.com/exhibits" target="_blank">Virtual Goods Dealer</a>.
+   [looting.gif]
+   [looting.png]
 
 
-  //  `
-  // },
+   `
+  },
 
 
   {
