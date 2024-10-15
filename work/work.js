@@ -96,19 +96,25 @@ work = [
     "tags": "",
     "thumb": "3.jpg",
     "content": `
-  THE COLOR OF DISLOCATION (weeds now run wild) is an ongoing work, a translation-of-book-object into cloths buoyed by wind. 
-  The poems themselves are concerned with sheerness, opacity, and color in classification systems.
-  [3.jpg]
-  [5.jpg]
-  [7.jpg]
+  THE COLOR OF DISLOCATION (weeds now run wild) is an ongoing work, a hybrid mini-chapbook with textile components. 
+     The text aggregates photographic scans with “found” material of Pliny the Elder’s writings, Darwin’s HMS Beagle Voyage throughout the Global South, and Werner’s Nomenclature of Colour.   Excerpts from the book are forthcoming from Nightboat Books anthology, <a href="https://nightboat.org/book/permanent-record-poetics-towards-the-archive/" target="_blank">Permanent Record</a>.
+    [spread1.png]
+    [spread2.png]
 
-  I wonder at how scientific language grasps at knowledge; precisions it; pins it as a colonial found. Perhaps poetic gestures of annotation and collage introduce fog instead, and trouble the body of water which represents “scientific” epistemology.
+    The poems themselves are concerned with sheerness, opacity, and color in classification systems.     I wonder at how scientific language grasps at knowledge; precisions it; pins it as a colonial found. Perhaps poetic gestures of annotation and collage introduce fog instead, and trouble the body of water which represents “scientific” epistemology.
+
+    [book4.jpg]
+  
+    Translation-of-book into cloths buoyed by wind. 
+
+    [3.jpg]
+    [5.jpg]
+    [7.jpg]
+<br/>
   The first banner was made in the winter:
   [anobject2.jpg]
 
-  The companion book aggregates photographic scans with “found” material of Pliny the Elder’s writings, Darwin’s HMS Beagle Voyage throughout the Global South, and Werner’s Nomenclature of Colour.
-  [book4.jpg]
-  [book5.jpg]
+
 `
 
   },
@@ -175,7 +181,7 @@ In front is a metaphorical "circuit" of objects: a sculptural installation of ya
     "tags": "HTML, javaScript, projection, sound, poetry",
     "thumb": "blueceiling.png",
     "content": `
-If you call something, you can keep it in a box. If you classify it, perhaps you can harvest it. Commodification and supply chain and frameworks of extraction have their own grammars.
+Published in Fonograf Edition's <a href="https://fonografeditions.com/catalog/fono31-de-canon-fe-a-mouth-holds-many-things-print-anthology/" target="_blank">A Mouth Holds Many Things</a>. If you call something, you can keep it in a box. If you classify it, perhaps you can harvest it. Commodification and supply chain and frameworks of extraction have their own grammars.
 This infinitely looping browser poem explores concepts both abstract and concrete — a color wavelength — are socialized through language. How blue was the last discrete color category to be named in English.
 
 Watch with sound on:<iframe src="https://player.vimeo.com/video/653867996" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
