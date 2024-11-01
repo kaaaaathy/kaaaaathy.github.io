@@ -46,12 +46,28 @@ work = [
   [cast4crop.jpg]
 `
   },
+  {
+    "folder": "weaves",
+    "name": "where is the living tissue",
+    "tags": "",
+    "thumb": "thumb1.png",
+    "content": `
+        work in progress. Inkjet on cotton, copper sheeting. 12 * 16 inches.
+top-to-bottom: <i>where is the living tissue in this piece / unsure if stamina to carry on / wash it down with a little stone.</i>
+
+        <br>
+        [weave3.png]
+
+        [weave1.png]
+
+        [weave2.png]
+    `},
 
   {
     "folder": "no-object",
     "name": "there is no mineral of futurity",
     "tags": "",
-    "thumb": "thumb.jpg",
+    "thumb": "7.jpg",
     "content": `
   “there is no mineral of futurity” (2023) is a textile-based, photographic meditation on extractivism, technology, and the color blue. Through cyanotypes, the piece depicts error screens, cursors, glitches, alongside mining sites in Google satellite imagery and settler colonial cartographies. Among these are lithium mines in the American Southwest and cobalt mines in the Congo, both of which are crucial for battery production; the piece’s geographies also include a 19th century map of the largest copper mine in the world, based in Chile, which played a critical role in the dawn of electricity and electronics. 
   These cyanotype images were developed using solar power and iron-based pigment, which nods to photography’s material basis. Perhaps there is something about photography which pretends to be virtual as well, which creates what Susan Sontag calls a “fracturing, dislocating vision that only the camera supplies.” I would venture to say that language crops the world in such a way, too, notably within the technology of object recognition. And so the piece reckons not only with the geographies of extraction, but also its grammars. In this case, it references the surveillant, extractive gaze of artificial intelligence, skimming over the maps, and claiming, “NO OBJECT FOUND.” 
@@ -118,6 +134,46 @@ work = [
 `
 
   },
+  {
+    "folder": "blueimg",
+    "name": "virtual blue",
+    "tags": "HTML, javaScript, projection, sound, poetry",
+    "thumb": "blueceiling.png",
+    "content": `
+Published in Fonograf Edition's <a href="https://fonografeditions.com/catalog/fono31-de-canon-fe-a-mouth-holds-many-things-print-anthology/" target="_blank">A Mouth Holds Many Things</a>. If you call something, you can keep it in a box. If you classify it, perhaps you can harvest it. Commodification and supply chain and frameworks of extraction have their own grammars.
+This infinitely looping browser poem explores concepts both abstract and concrete — a color wavelength — are socialized through language. How blue was the last discrete color category to be named in English.
+
+Watch with sound on:<iframe src="https://player.vimeo.com/video/653867996" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtual blue</a> (images may load slowly before they cache)
+<br><br>
+
+  Virtual loves to hide a supply chain. They can't make lithium fast enough.
+  [blue1.gif]
+
+  Appliances love to hide a hole. Cobalt is the sound on the roof of your mouth.
+  [blue2.gif]
+
+  Vermeer finds beautiful clothing for Mary. She's draped in it, it's Afghanistan.
+  [blue6.gif]
+
+  They wanted to build a tunnel to China but China was busy eating the Congo.
+  [blue3.gif]
+
+  The glaze whispering, infinity. You think blue is more velvet but it is made of hard things.
+  [blue4.gif]
+
+<br>
+  Color names poem projected onto a ceiling:<iframe src="https://player.vimeo.com/video/650982362" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  [blueceiling.png]
+
+  The data:
+  [bluelist.png]
+
+  The end:
+  [end.png]
+
+  `
+  },
 
   {
     "folder": "internetgeo",
@@ -174,46 +230,6 @@ In front is a metaphorical "circuit" of objects: a sculptural installation of ya
     [cloudpoem.gif]
 
     `
-  },
-  {
-    "folder": "blueimg",
-    "name": "virtual blue",
-    "tags": "HTML, javaScript, projection, sound, poetry",
-    "thumb": "blueceiling.png",
-    "content": `
-Published in Fonograf Edition's <a href="https://fonografeditions.com/catalog/fono31-de-canon-fe-a-mouth-holds-many-things-print-anthology/" target="_blank">A Mouth Holds Many Things</a>. If you call something, you can keep it in a box. If you classify it, perhaps you can harvest it. Commodification and supply chain and frameworks of extraction have their own grammars.
-This infinitely looping browser poem explores concepts both abstract and concrete — a color wavelength — are socialized through language. How blue was the last discrete color category to be named in English.
-
-Watch with sound on:<iframe src="https://player.vimeo.com/video/653867996" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtual blue</a> (images may load slowly before they cache)
-<br><br>
-
-  Virtual loves to hide a supply chain. They can't make lithium fast enough.
-  [blue1.gif]
-
-  Appliances love to hide a hole. Cobalt is the sound on the roof of your mouth.
-  [blue2.gif]
-
-  Vermeer finds beautiful clothing for Mary. She's draped in it, it's Afghanistan.
-  [blue6.gif]
-
-  They wanted to build a tunnel to China but China was busy eating the Congo.
-  [blue3.gif]
-
-  The glaze whispering, infinity. You think blue is more velvet but it is made of hard things.
-  [blue4.gif]
-
-<br>
-  Color names poem projected onto a ceiling:<iframe src="https://player.vimeo.com/video/650982362" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-  [blueceiling.png]
-
-  The data:
-  [bluelist.png]
-
-  The end:
-  [end.png]
-
-  `
   },
 
 
@@ -389,26 +405,26 @@ Website → <a href="https://eroticeventlisteners.glitch.me" target="_blank">Ero
 
     `
   },
-  {
-    "folder": "person-object",
-    "name": "person [object]",
-    "tags": "",
-    "thumb": "thumb.png",
-    "content": `Artist book & poems about human labor within today's computational systems: content moderators in SE Asia who flag traumatizing content before it ever reaches our screens; low wage Amazon crowdsourced labor all over the world; low wage human subjects who help train our AI systems, including transcribing Alexa and other home assistant conversations.
-    
-    Workers must often make decisions in "blurry" spaces, where machines are likely to make a mistake; they complete microtasks for little money with minimal labor protections; meanwhile their existence remains ghostly and un-rendered to rest of the world.
-    
-    [0.png]
-    [1.png]
-    [2.png]
-    
-    
-  
-  
-  
-  `
+  // {
+  //   "folder": "person-object",
+  //   "name": "person [object]",
+  //   "tags": "",
+  //   "thumb": "thumb.png",
+  //   "content": `Artist book & poems about human labor within today's computational systems: content moderators in SE Asia who flag traumatizing content before it ever reaches our screens; low wage Amazon crowdsourced labor all over the world; low wage human subjects who help train our AI systems, including transcribing Alexa and other home assistant conversations.
 
-  },
+  //   Workers must often make decisions in "blurry" spaces, where machines are likely to make a mistake; they complete microtasks for little money with minimal labor protections; meanwhile their existence remains ghostly and un-rendered to rest of the world.
+
+  //   [0.png]
+  //   [1.png]
+  //   [2.png]
+
+
+
+
+
+  // `
+
+  // },
   {
     "folder": "looting",
     "name": "Looting Dream",
