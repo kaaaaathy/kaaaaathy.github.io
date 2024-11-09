@@ -48,7 +48,7 @@ work = [
   },
   {
     "folder": "weaves",
-    "name": "untitled (scintillations)",
+    "name": "scintillations",
     "tags": "",
     "thumb": "thumb1.png",
     "content": `
