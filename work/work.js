@@ -48,13 +48,11 @@ work = [
   },
   {
     "folder": "weaves",
-    "name": "where is the living tissue",
+    "name": "untitled (scintillations)",
     "tags": "",
     "thumb": "thumb1.png",
     "content": `
         work in progress. Inkjet on cotton, copper sheeting. 12 * 16 inches.
-top-to-bottom: <i>where is the living tissue in this piece / unsure if stamina to carry on / wash it down with a little stone.</i>
-
         <br>
         [weave3.png]
 
