@@ -71,16 +71,16 @@ work = [
           these experiments are extensions of the <a href="http://kaaathy.com/work/she-will-last/cast4crop.jpg" target="_blank">computery fossils</a> i made in spring '24. plus sd card, usb-c, vintage nokia phone...
           <br> 
           [invert.png]
-          [usbcomp.jpg]
-          [usb2.jpg]
-          [usb3.jpg]
-          [usb5.jpg]
-          [usb1.jpg]
+          [usbcomp.JPG]
+          [usb2.JPG]
+          [usb3.JPG]
+          [usb5.JPG]
+          [usb1.JPG]
 <br>
           more things to come!
           [iphone.jpg]
-          [phone7.jpg]
-          [phone8.jpg]
+          [phone7.JPG]
+          [phone8.JPG]
           
       `},
 
