@@ -62,6 +62,29 @@ work = [
     `},
 
   {
+    "folder": "fossiloids",
+    "name": "fossiloids (wip)",
+    "tags": "",
+    "thumb": "invert2.png",
+    "content": `
+          work in progress. sand, rockite, impressions, data. i give credit to the brilliant Mika Ben Amar <a href="https://www.instagram.com/100o111/" target="_blank"> who made usb stones first.</a> 
+          these experiments are extensions of the <a href="http://kaaathy.com/work/she-will-last/cast4crop.jpg" target="_blank">computery fossils</a> i made in spring '24. plus sd card, usb-c, vintage nokia phone...
+          <br>
+          [invert.png]
+          [usbcomp.jpg]
+          [usb2.jpg]
+          [usb3.jpg]
+          [usb5.jpg]
+          [usb1.jpg]
+<br>
+          more things to come!
+          [iphone.jpg]
+          [phone7.jpg]
+          [phone8.jpg]
+          
+      `},
+
+  {
     "folder": "no-object",
     "name": "there is no mineral of futurity",
     "tags": "",
