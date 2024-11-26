@@ -65,11 +65,13 @@ work = [
     "folder": "fossiloids",
     "name": "fossiloids (wip)",
     "tags": "",
-    "thumb": "invert2.png",
+    "thumb": "mirror2.JPG",
     "content": `
           work in progress. sand, rockite, impressions, data. i give credit to the brilliant Mika Ben Amar <a href="https://www.instagram.com/100o111/" target="_blank"> who made usb stones first.</a> 
           these experiments are extensions of the <a href="http://kaaathy.com/work/she-will-last/cast4crop.jpg" target="_blank">computery fossils</a> i made in spring '24. plus sd card, usb-c, vintage nokia phone...
           <br> 
+          [mirror2.JPG]
+          [mirror4.JPG]
           [invert.png]
           [usbcomp.JPG]
           [usb2.JPG]
