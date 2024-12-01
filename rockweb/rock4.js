@@ -31,7 +31,7 @@ scene.add(dirLight);
 const loader = new GLTFLoader();
 
 let rock;
-let size = 60;
+let size = 110;
 
 loader.load('assets/rock4.glb', (gltf) => {
     rock = gltf.scene;

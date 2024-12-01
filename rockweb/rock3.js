@@ -35,7 +35,7 @@ let size = 60;
 loader.load('assets/rock3.glb', (gltf) => {
     rock = gltf.scene;
     rock.scale.set(size, size, size);
-    rock.position.set(0, 0, 0);
+    rock.position.set(0, -3.5, 0);
     rock.rotateX(0.5)
     scene.add(rock);
 
