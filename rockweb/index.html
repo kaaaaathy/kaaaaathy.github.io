@@ -1,0 +1,60 @@
+<html>
+
+<head>
+  <title> ROCKWEB </title>
+  <style>
+    body,
+    button {
+      font-family: "Arial Narrow";
+      font-size: 100px;
+      background: black;
+      color: white;
+    }
+
+    marquee {
+      height: 100%;
+      text-align: center;
+
+    }
+  </style>
+
+</head>
+
+<body>
+  <marquee direction="up" scrollamount="4">
+    THE BEGINNING
+    <button onclick="makeRock(0)">OR</button>
+    <button onclick="makeRock(1)">SOMEHOW</button>
+    <button onclick="makeRock(2)">THE</button>
+    <button onclick="makeRock(5)">END</button>
+  </marquee>
+</body>
+<script>
+  let rockSites = [
+    "rock1.html",
+    "rock2.html",
+    "rock3.html",
+    "rock4.html",
+    "rock5.html",
+    "rock6.html",
+    "rock7.html",
+    "rock8.html",
+  ];
+
+  let mouseX; let mouseY;
+
+  document.addEventListener('mousemove', function (event) {
+    mouseX = event.clientX + 'px';
+    mouseY = event.clientY + 'px';
+  });
+
+
+  function makeRock(x) {
+    const rockWindow = window.open(rockSites[x], "", "width=300,height=300, left=" + mouseX + ", top=" + mouseY);
+
+  }
+
+
+</script>
+
+</html>
