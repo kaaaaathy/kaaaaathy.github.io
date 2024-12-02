@@ -2,9 +2,16 @@
 
 <head>
   <title> ROCKWEB </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
   <style>
+    @font-face {
+      font-family: ftserif;
+      src: url("FT88-Serif.otf");
+    }
+
     body {
-      font-family: "Arial";
+      font-family: ftserif, "Arial", monospace;
       font-size: 20px;
       background: black;
       color: white;
@@ -55,14 +62,7 @@
   Some act of faith, don’t say hell. Dirt cloud,
   ore river. Empire lasts in funny ways.
 
-  
-  She jump. Leap from me. Then I decide to count the endless names of stones. Rock leap, wall heart, rip
-    eye, cease
-    breadth, marl cut, blood leap, clay deep, coal dead, coal deep, never rot, never cease, sand high, bone dirt, dust
-    hard, mud bird, mud fish, mud word, rock flower, coral water, coral heart, coral breath. . . .
-    She’s flying out to sea and in the emerald she sees the sea, its eyes translucent, its back solid going to some
-    place so old there’s no memory of it. She’s leaping...  —Dionne Brand
-  `
+`
   var words_arr = str.split(" "); //split text into array
   var wordIndex = 0; //initiallize index of words_arr
   var bodies_list = []; //initiallize array of bodies(rendered rectangles)
@@ -112,7 +112,7 @@
   World.add(engine.world, mouseConstraint);
 
   $(document).ready(function () {
-    engine.world.gravity.y = 0.5;
+    engine.world.gravity.y = 0.25;
     engine.world.gravityscale = 0.0005;
     addBlock(); //embedded in this is a recursive setTimeOut so it adds a block every second until there are no more new words in the word array
   });

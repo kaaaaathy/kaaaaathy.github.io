@@ -1,3 +1,9 @@
+@font-face {
+    font-family: ftserif;
+    src: url("FT88-Serif.otf");
+}
+
+
 body {
     margin: 0px !important;
     overflow: hidden;
@@ -6,10 +12,11 @@ body {
 }
 
 #label {
-    font-family: "Times New Roman";
-    font-style: italic;
+    font-family: ftserif, "arial", monospace;
+    color: darkgreen;
+    font-size: 10px;
     position: fixed;
-    top: -5px;
+    top: 0px;
     left: 10px;
     z-index: 1000;
 }

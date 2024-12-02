@@ -3,52 +3,60 @@
 <head>
   <title> ROCKWEB </title>
   <style>
+    @font-face {
+      font-family: ftserif;
+      src: url("FT88-Serif.otf");
+    }
+
     body {
       margin: 0px;
-      font-family: "Arial Narrow";
-      font-size: 40px;
-      background: black;
-      color: white;
+      font-family: ftserif, "Arial", monospace;
+
+      background: gray;
+      background-image: url('tile.png');
+      background-size: 200%;
+      color: black;
+      overflow: scroll;
+      height: 6000px;
+      width: 6000px;
+      user-select: none;
+
+    }
+
+
+
+    #nav {
+      width: 100%;
       text-align: center;
-      /* display: flex; */
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      z-index: 100;
+      font-size: 16px;
+      text-transform: uppercase;
+      padding: 10px 0px;
+      border-bottom: 1px dotted black;
+      background-color: gray;
+      color: black;
+    }
+
+    .portal {
+      position: absolute;
+      font-size: 20px;
+      opacity: 0.5;
+      padding: 10px;
+      border-radius: 20px;
+      color: darkgreen;
+      transform: rotate(90deg);
 
     }
 
-    marquee {
-      height: 100%;
-
-    }
-
-    button {
-      padding: 20px 0;
-      border: none;
-      font-size: 30px;
-      background: black;
-      color: white;
-    }
-
-    button:hover {
+    .portal:hover {
+      opacity: 1;
       color: blue;
       cursor: pointer;
-    }
-
-    #quote {
-      text-align: center;
-      font-size: 24px;
-    }
-
-    #animation {
-      /* background: gray; */
-      /* display: flex; */
-      /* flex-flow: row wrap; */
-      font-size: 20px;
-      width: 100%;
-    }
-
-
-    .box {
-      padding: 0px 8px;
     }
   </style>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -57,43 +65,7 @@
 </head>
 
 <body>
-  <!-- <marquee direction="up" scrollamount="2"> -->
-  <section id="landscape">
-    <button onclick="makeSite(0)"> ⌑ </button>
-
-    <!-- <p>KNOWLEDGE ISNT AT HOME ANYWHERE.</p> -->
-
-
-
-    <button onclick="makeSite(1)"> ⌑ </button>
-
-    <!-- <p>HOW MUCH ENERGY IN THE LETTER A.</p> -->
-
-    <button onclick="makeSite(2)"> ⌑ </button>
-
-    <!-- <p> MEANWHILE PLURALITIES REMAIN.</p> -->
-
-    <button onclick="makeSite(3)"> ⌑ </button>
-
-    <!-- <p>FOR LET I BE ZERO.</p> -->
-
-    <button onclick="makeSite(4)"> ⌑</button>
-
-    <!-- <p>THAT’S THE THING ABOUT HARDWARE.</p> -->
-
-    <button onclick="makeSite(5)"> ⌑ </button>
-
-    <!-- <p>FOR LET EARTH. EARTH IS EARTH PLUS ONE.</p> -->
-
-    <button onclick="makeSite(6)"> ⌑ </button>
-
-    <!-- <p>FOR LET STONE. STONE IS STONE MINUS ONE.</p> -->
-
-    <button onclick="makeSite(7)"> ⌑ </button>
-  </section>
-
-  <!-- <p>FORGET STONE.</p> -->
-  <!-- </marquee> -->
+  <div id="nav">FOSSILIDS</div>
 </body>
 
 <script>
@@ -103,46 +75,67 @@
   let sites = [
     {
       "name": "text1.html",
+      "text": "░",
       "width": fixedX,
       "height": fixedY
     },
     {
       "name": "rock1.html",
+      "text": "▓",
       "width": fixedX,
       "height": fixedY
     },
     {
+      "name": "time.html",
+      "text": "▙",
+      "width": "300px",
+      "height": "70px"
+    },
+    {
       "name": "rock2.html",
+      "text": "▒",
+      "width": fixedX,
+      "height": fixedY
+    },
+    {
+      "name": "chip.gif",
+      "text": "▗",
       "width": fixedX,
       "height": fixedY
     },
     {
       "name": "rock3.html",
+      "text": "▗▛",
       "width": fixedX,
       "height": fixedY
     },
     {
       "name": "rock4.html",
+      "text": "▕",
       "width": "250",
       "height": "170",
     },
     {
       "name": "rock5.html",
+      "text": "░",
       "width": fixedX,
       "height": fixedY
     },
     {
       "name": "rock6.html",
+      "text": "▓",
       "width": fixedX,
       "height": fixedY
     },
     {
       "name": "rock7.html",
+      "text": "▛",
       "width": fixedX,
       "height": fixedY
     },
     {
       "name": "rock8.html",
+      "text": "▗",
       "width": fixedX,
       "height": fixedY
     }
@@ -162,6 +155,37 @@
   }
 
 
+  for (let i = 0; i < sites.length; i++) {
+    let portal = $("<div class='portal'></div>");
+
+    var containerWidth = $("body").width();
+    var containerHeight = $("body").height();
+
+    let randomLeft = Math.floor(Math.random() * (containerWidth - 100));
+    let randomTop = Math.floor(Math.random() * (containerHeight - 100));
+
+
+    // Add content to the div
+    portal.text(sites[i].text);
+
+    portal.css({
+      left: randomLeft,
+      top: randomTop
+    });
+
+    portal.animate({
+      top: "+=5px",
+    }, 1500);
+
+    portal.on("click", function () {
+      makeSite(i);
+    });
+
+
+    // Append the new div to an existing element, for example, the body
+    $("body").append(portal);
+
+  }
 
   //make divs
   //store them in list
