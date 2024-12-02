@@ -63,22 +63,22 @@ work = [
 
   {
     "folder": "fossilids",
-    "name": "fossilids (wip)",
+    "name": "fossilids",
     "tags": "",
     "thumb": "mirror2.JPG",
     "content": `
-          work in progress. sand, rockite, impressions, data. i give credit to the brilliant Mika Ben Amar <a href="https://www.instagram.com/100o111/" target="_blank"> who made usb stones first.</a> 
-          these experiments are extensions of the <a href="http://kaaathy.com/work/she-will-last/cast4crop.jpg" target="_blank">computery fossils</a> i made in spring '24. plus sd card, usb-c, vintage nokia phone...
-          <br> 
+          sand, rockite, impressions, data, website. 
+          These objects are extensions of the <a href="http://kaaathy.com/work/she-will-last/cast4crop.jpg" target="_blank">computery fossils</a> i made in spring '24. plus sd card, usb-c, vintage nokia phone...
           [mirror2.JPG]
-          [mirror4.JPG]
           [invert.png]
-
-          Website for unearth fossilids. Made with three.js, matter.js.
+          [mirror4.JPG]
+<br>
+          Website for unearthing fossilids. <a href="http://kaaathy.com/rockweb" target="_blank">Look for them here.</a> Made with three.js, matter.js. 
 [web.png]
+
 [spin.gif]
 
-More objects.
+More objects. I give credit to the brilliant Mika Ben Amar <a href="https://www.instagram.com/100o111/" target="_blank"> who made usb stones first.</a> 
           [usb2.JPG]
           [usb1.JPG]
 
