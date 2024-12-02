@@ -20,14 +20,18 @@
       height: 6000px;
       width: 6000px;
       user-select: none;
+      cursor: grab;
 
     }
 
-
+    #caption {
+      font-family: ftserif;
+      font-size: 10;
+      padding-left: 30px;
+    }
 
     #nav {
       width: 100%;
-      text-align: center;
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
       position: fixed;
@@ -36,7 +40,7 @@
       z-index: 100;
       font-size: 16px;
       text-transform: uppercase;
-      padding: 10px 0px;
+      padding: 10px;
       border-bottom: 1px dotted black;
       background-color: gray;
       color: black;
@@ -44,18 +48,18 @@
 
     .portal {
       position: absolute;
-      font-size: 20px;
-      opacity: 0.5;
+      font-size: 30px;
+      opacity: 0.75;
       padding: 10px;
       border-radius: 20px;
-      color: darkgreen;
+      color: black;
       transform: rotate(90deg);
 
     }
 
     .portal:hover {
       opacity: 1;
-      color: blue;
+      color: green;
       cursor: pointer;
     }
   </style>
@@ -65,7 +69,7 @@
 </head>
 
 <body>
-  <div id="nav">FOSSILIDS</div>
+  <div id="nav">FOSSILIDS <span id="caption">scroll the landscape to find them.</span></div>
 </body>
 
 <script>
@@ -85,12 +89,12 @@
       "width": fixedX,
       "height": fixedY
     },
-    {
-      "name": "time.html",
-      "text": "▙",
-      "width": "300px",
-      "height": "70px"
-    },
+    // {
+    //   "name": "time.html",
+    //   "text": "▙",
+    //   "width": "300px",
+    //   "height": "70px"
+    // },
     {
       "name": "rock2.html",
       "text": "▒",
@@ -98,10 +102,10 @@
       "height": fixedY
     },
     {
-      "name": "chip.gif",
+      "name": "text2.html",
       "text": "▗",
       "width": fixedX,
-      "height": fixedY
+      "height": "400"
     },
     {
       "name": "rock3.html",
@@ -132,6 +136,12 @@
       "text": "▛",
       "width": fixedX,
       "height": fixedY
+    },
+    {
+      "name": "text3.html",
+      "text": "▓",
+      "width": "500",
+      "height": "400"
     },
     {
       "name": "rock8.html",
@@ -173,9 +183,9 @@
       top: randomTop
     });
 
-    portal.animate({
-      top: "+=5px",
-    }, 1500);
+    // portal.animate({
+    //   top: "+=5px",
+    // }, 1500);
 
     portal.on("click", function () {
       makeSite(i);
