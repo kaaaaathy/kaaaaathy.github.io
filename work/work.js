@@ -77,6 +77,7 @@ work = [
 [web.png]
 
 [spin.gif]
+[falling.gif]
 
 More objects. I give credit to the brilliant Mika Ben Amar <a href="https://www.instagram.com/100o111/" target="_blank"> who made usb stones first.</a> 
           [usb2.JPG]
