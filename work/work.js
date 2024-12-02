@@ -62,8 +62,8 @@ work = [
     `},
 
   {
-    "folder": "fossiloids",
-    "name": "fossiloids (wip)",
+    "folder": "fossilids",
+    "name": "fossilids (wip)",
     "tags": "",
     "thumb": "mirror2.JPG",
     "content": `
@@ -73,17 +73,15 @@ work = [
           [mirror2.JPG]
           [mirror4.JPG]
           [invert.png]
-          [usbcomp.JPG]
+
+          Website for unearth fossilids. Made with three.js, matter.js.
+[web.png]
+[spin.gif]
+
+More objects.
           [usb2.JPG]
-          [usb3.JPG]
-          [usb5.JPG]
           [usb1.JPG]
-<br>
-          more things to come!
-          [iphone.jpg]
-          [phone7.JPG]
-          [phone8.JPG]
-          
+
       `},
 
   {
