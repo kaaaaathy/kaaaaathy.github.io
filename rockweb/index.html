@@ -4,13 +4,13 @@
   <title> ROCKWEB </title>
   <style>
     body {
-      margin: 0px 300px;
+      margin: 0px;
       font-family: "Arial Narrow";
-      font-size: 60px;
+      font-size: 40px;
       background: black;
       color: white;
       text-align: center;
-      padding-top: 100px;
+      /* display: flex; */
 
 
     }
@@ -22,10 +22,7 @@
 
     button {
       padding: 20px 0;
-      /* margin: 200px 0; */
       border: none;
-      font-family: "Times";
-      font-style: italic;
       font-size: 30px;
       background: black;
       color: white;
@@ -40,59 +37,62 @@
       text-align: center;
       font-size: 24px;
     }
-  </style>
 
+    #animation {
+      /* background: gray; */
+      /* display: flex; */
+      /* flex-flow: row wrap; */
+      font-size: 20px;
+      width: 100%;
+    }
+
+
+    .box {
+      padding: 0px 8px;
+    }
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+    integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <!-- <marquee direction="up" scrollamount="4"> -->
+  <!-- <marquee direction="up" scrollamount="2"> -->
+  <section id="landscape">
+    <button onclick="makeText(0)"> ⌑ </button>
 
-  <p id="quote">She jump. Leap from me. Then I decide to count the endless names of stones. Rock leap, wall heart, rip
-    eye, cease
-    breadth, marl cut, blood leap, clay deep, coal dead, coal deep, never rot, never cease, sand high, bone dirt, dust
-    hard, mud bird, mud fish, mud word, rock flower, coral water, coral heart, coral breath. . . .
-    She’s flying out to sea and in the emerald she sees the sea, its eyes translucent, its back solid going to some
-    place so old there’s no memory of it. She’s leaping... <br /><br /> —Dionne Brand
-  </p>
+    <!-- <p>KNOWLEDGE ISNT AT HOME ANYWHERE.</p> -->
 
-  The skin sheds but it’s an old snake. Red brown,
-  orange brown, dry dust, cement, gray edge, mud
-  fall, dirt sky, dust leg, stone man, father, son,
-  granite body.
-  Some act of faith, don’t say hell. Dirt cloud,
-  ore river. Empire lasts in funny ways.
 
-  <button onclick="makeRock(0)"> 1 </button>
 
-  <p>KNOWLEDGE ISNT AT HOME ANYWHERE.</p>
+    <button onclick="makeRock(1)"> ⌑ </button>
 
-  <button onclick="makeRock(1)"> 2 </button>
+    <!-- <p>HOW MUCH ENERGY IN THE LETTER A.</p> -->
 
-  <p>HOW MUCH ENERGY IN THE LETTER A.</p>
+    <button onclick="makeRock(2)"> ⌑ </button>
 
-  <button onclick="makeRock(2)"> 3 </button>
+    <!-- <p> MEANWHILE PLURALITIES REMAIN.</p> -->
 
-  <p> MEANWHILE PLURALITIES REMAIN.</p>
+    <button onclick="makeRock(3)"> ⌑ </button>
 
-  <button onclick="makeRock(3)"> 4 </button>
+    <!-- <p>FOR LET I BE ZERO.</p> -->
 
-  <p>FOR LET I BE ZERO.</p>
+    <button onclick="makeRock(4)"> ⌑</button>
 
-  <button onclick="makeRock(4)"> 5</button>
+    <!-- <p>THAT’S THE THING ABOUT HARDWARE.</p> -->
 
-  <p>THAT’S THE THING ABOUT HARDWARE.</p>
+    <button onclick="makeRock(5)"> ⌑ </button>
 
-  <button onclick="makeRock(5)"> 6 </button>
+    <!-- <p>FOR LET EARTH. EARTH IS EARTH PLUS ONE.</p> -->
 
-  <p>FOR LET EARTH. EARTH IS EARTH PLUS ONE.</p>
+    <button onclick="makeRock(6)"> ⌑ </button>
 
-  <button onclick="makeRock(6)"> 7 </button>
+    <!-- <p>FOR LET STONE. STONE IS STONE MINUS ONE.</p> -->
 
-  <p>FOR LET STONE. STONE IS STONE MINUS ONE.</p>
+    <button onclick="makeRock(7)"> ⌑ </button>
+  </section>
 
-  <button onclick="makeRock(7)"> 8 </button>
-
-  <p>FORGET STONE.</p>
+  <!-- <p>FORGET STONE.</p> -->
   <!-- </marquee> -->
 </body>
 
@@ -116,12 +116,6 @@
       "width": fixedX,
       "height": fixedY
     },
-    {
-      "name": "rock4.html",
-      "width": fixedX,
-      "height": fixedY
-    }
-    ,
     {
       "name": "rock4.html",
       "width": "250",
@@ -150,6 +144,14 @@
 
   ]
 
+  let textSites = [
+    {
+      "name": "text1.html",
+      "width": fixedX,
+      "height": fixedY
+    }
+  ]
+
   let mouseX; let mouseY;
 
   document.addEventListener('mousemove', function (event) {
@@ -157,13 +159,19 @@
     mouseY = event.clientY + 'px';
   });
 
-
   function makeRock(x) {
-    const rockWindow = window.open(rockSites[x].name, "resizable=no, toolbar=no", "width=" + rockSites[x].width + ",height=" + rockSites[x].height + ", left=" + mouseX + ", top=" + mouseY);
-    console.log(rockSites[x].width + " " + rockSites[x].height);
+    const rockWindow = window.open(rockSites[x].name, "_blank", "resizable=no, toolbar=no, width=" + rockSites[x].width + ",height=" + rockSites[x].height + ", left=" + mouseX + ", top=" + mouseY);
+  }
+
+  function makeText(x) {
+    const textWindow = window.open(textSites[x].name, "_blank", "resizable=no, toolbar=no, width=" + textSites[x].width + ",height=" + textSites[x].height + ", left=" + mouseX + ", top=" + mouseY);
   }
 
 
+  //make divs
+  //store them in list
+  //add eventlisteners to them
+  //randomly position them on the page
 </script>
 
 </html>
