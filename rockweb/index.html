@@ -59,37 +59,37 @@
 <body>
   <!-- <marquee direction="up" scrollamount="2"> -->
   <section id="landscape">
-    <button onclick="makeText(0)"> ⌑ </button>
+    <button onclick="makeSite(0)"> ⌑ </button>
 
     <!-- <p>KNOWLEDGE ISNT AT HOME ANYWHERE.</p> -->
 
 
 
-    <button onclick="makeRock(1)"> ⌑ </button>
+    <button onclick="makeSite(1)"> ⌑ </button>
 
     <!-- <p>HOW MUCH ENERGY IN THE LETTER A.</p> -->
 
-    <button onclick="makeRock(2)"> ⌑ </button>
+    <button onclick="makeSite(2)"> ⌑ </button>
 
     <!-- <p> MEANWHILE PLURALITIES REMAIN.</p> -->
 
-    <button onclick="makeRock(3)"> ⌑ </button>
+    <button onclick="makeSite(3)"> ⌑ </button>
 
     <!-- <p>FOR LET I BE ZERO.</p> -->
 
-    <button onclick="makeRock(4)"> ⌑</button>
+    <button onclick="makeSite(4)"> ⌑</button>
 
     <!-- <p>THAT’S THE THING ABOUT HARDWARE.</p> -->
 
-    <button onclick="makeRock(5)"> ⌑ </button>
+    <button onclick="makeSite(5)"> ⌑ </button>
 
     <!-- <p>FOR LET EARTH. EARTH IS EARTH PLUS ONE.</p> -->
 
-    <button onclick="makeRock(6)"> ⌑ </button>
+    <button onclick="makeSite(6)"> ⌑ </button>
 
     <!-- <p>FOR LET STONE. STONE IS STONE MINUS ONE.</p> -->
 
-    <button onclick="makeRock(7)"> ⌑ </button>
+    <button onclick="makeSite(7)"> ⌑ </button>
   </section>
 
   <!-- <p>FORGET STONE.</p> -->
@@ -100,7 +100,12 @@
   let fixedX = 300;
   let fixedY = 300;
 
-  let rockSites = [
+  let sites = [
+    {
+      "name": "text1.html",
+      "width": fixedX,
+      "height": fixedY
+    },
     {
       "name": "rock1.html",
       "width": fixedX,
@@ -144,13 +149,6 @@
 
   ]
 
-  let textSites = [
-    {
-      "name": "text1.html",
-      "width": fixedX,
-      "height": fixedY
-    }
-  ]
 
   let mouseX; let mouseY;
 
@@ -159,13 +157,10 @@
     mouseY = event.clientY + 'px';
   });
 
-  function makeRock(x) {
-    const rockWindow = window.open(rockSites[x].name, "_blank", "resizable=no, toolbar=no, width=" + rockSites[x].width + ",height=" + rockSites[x].height + ", left=" + mouseX + ", top=" + mouseY);
+  function makeSite(x) {
+    const site = window.open(sites[x].name, "_blank", "resizable=no, toolbar=no, width=" + sites[x].width + ",height=" + sites[x].height + ", left=" + mouseX + ", top=" + mouseY);
   }
 
-  function makeText(x) {
-    const textWindow = window.open(textSites[x].name, "_blank", "resizable=no, toolbar=no, width=" + textSites[x].width + ",height=" + textSites[x].height + ", left=" + mouseX + ", top=" + mouseY);
-  }
 
 
   //make divs
