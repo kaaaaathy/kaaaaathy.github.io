@@ -46,26 +46,13 @@ work = [
   [cast4crop.jpg]
 `
   },
-  {
-    "folder": "weaves",
-    "name": "scintillations",
-    "tags": "",
-    "thumb": "thumb1.png",
-    "content": `
-        work in progress. Inkjet on cotton, copper sheeting. 12 * 16 inches.
-        <br>
-        [weave3.png]
 
-        [weave1.png]
-
-        [weave2.png]
-    `},
 
   {
     "folder": "fossils",
     "name": "litany / fossils",
     "tags": "",
-    "thumb": "mirror2.JPG",
+    "thumb": "thumb.png",
     "content": `
           sand, rockite, impressions, data, website. 
           These objects are extensions of the <a href="http://kaaathy.com/work/she-will-last/cast4crop.jpg" target="_blank">computery fossils</a> i made in spring '24. plus sd card, usb-c, vintage nokia phone...
@@ -78,13 +65,27 @@ work = [
 
 [spin.gif]
 [falling.gif]
+[forget.gif]
 
 More objects. I give credit to the brilliant Mika Ben Amar <a href="https://www.instagram.com/100o111/" target="_blank"> who made usb stones first.</a> 
           [usb2.JPG]
           [usb1.JPG]
 
       `},
-
+  {
+    "folder": "weaves",
+    "name": "scintillations",
+    "tags": "",
+    "thumb": "thumb1.png",
+    "content": `
+            work in progress. Inkjet on cotton, copper sheeting. 12 * 16 inches.
+            <br>
+            [weave3.png]
+    
+            [weave1.png]
+    
+            [weave2.png]
+        `},
   {
     "folder": "no-object",
     "name": "there is no mineral of futurity",
