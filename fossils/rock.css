@@ -12,11 +12,13 @@ body {
 }
 
 #label {
-    font-family: ftserif, "arial", monospace;
+    /* font-family: ftserif, "arial", monospace; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.3px;
     color: gray;
     text-align: center;
     user-select: none;
-    font-size: 10px;
+    font-size: 12px;
     width: 100%;
     position: fixed;
     top: 0px;

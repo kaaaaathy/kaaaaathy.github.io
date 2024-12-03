@@ -5,63 +5,83 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <style>
-    @font-face {
-      font-family: ftserif;
-      src: url("FT88-Serif.otf");
-    }
-
     body {
       margin: 0px;
       font-family: ftserif, "Arial", monospace;
-
+      letter-spacing: 0.5px;
       background: gray;
+      box-shadow: inset 0px 0px 10px 5px rgba(255, 255, 255, 0.6);
       background-image: url('tile.png');
       background-size: 200%;
       color: black;
       overflow: scroll;
-      height: 6000px;
-      width: 6000px;
+      height: 5000px;
+      width: 5000px;
       user-select: none;
       cursor: grab;
 
     }
 
-    #caption {
-      font-family: ftserif;
-      font-size: 10;
-      padding-left: 30px;
-    }
+
 
     #nav {
       width: 100%;
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+      height: 40px;
       position: fixed;
+      display: flex;
+      flex-flow: row nowrap;
       top: 0px;
       left: 0px;
       z-index: 100;
-      font-size: 16px;
+      font-size: 14px;
       text-transform: uppercase;
-      padding: 10px;
       border-bottom: 1px dotted black;
       background-color: gray;
       color: black;
+      justify-content: center;
+
+    }
+
+    #caption {
+      width: 100%;
+      margin: auto;
+    }
+
+    #heading {
+      margin: auto;
+      border-right: 1px dotted black;
+      height: 40px;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center;
+      text-align: center;
+    }
+
+
+    #heading p {
+      margin: auto;
+      min-width: 250px;
+
     }
 
     .portal {
       position: absolute;
-      font-size: 30px;
-      opacity: 0.75;
+      width: 30px;
+      height: 30px;
+      background-image: url('gray.gif');
+      background-size: contain;
       padding: 10px;
-      border-radius: 20px;
-      color: black;
-      transform: rotate(90deg);
+
 
     }
 
     .portal:hover {
-      opacity: 1;
-      color: blueviolet;
+      /* box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.25); */
+      /* background-color: black; */
+
+      background-image: url('chunkyinvert.gif');
+
       cursor: pointer;
     }
   </style>
@@ -71,7 +91,14 @@
 </head>
 
 <body>
-  <div id="nav">FOSSILIDS <span id="caption">scroll the landscape to find them.</span></div>
+  <div id="nav">
+    <div id="heading">
+      <p>LITANIES FOR THE GROUND</p>
+    </div>
+    <div id="caption">
+      <marquee scrollamount="2.5">scroll the landscape to uncover fossils.</marquee>
+    </div>
+  </div>
 </body>
 
 <script>
@@ -91,12 +118,12 @@
       "width": fixedX,
       "height": fixedY
     },
-    {
-      "name": "time.html",
-      "text": "▙",
-      "width": "300px",
-      "height": "70px"
-    },
+    // {
+    //   "name": "time.html",
+    //   "text": "▙",
+    //   "width": "300px",
+    //   "height": "70px"
+    // },
     {
       "name": "rock2.html",
       "text": "▒",
@@ -168,17 +195,15 @@
 
 
   for (let i = 0; i < sites.length; i++) {
+
     let portal = $("<div class='portal'></div>");
 
     var containerWidth = $("body").width();
     var containerHeight = $("body").height();
 
     let randomLeft = Math.floor(Math.random() * (containerWidth - 100));
-    let randomTop = Math.floor(Math.random() * (containerHeight - 100));
+    let randomTop = 60 + Math.floor(Math.random() * (containerHeight - 100));
 
-
-    // Add content to the div
-    portal.text(sites[i].text);
 
     portal.css({
       left: randomLeft,
@@ -199,10 +224,6 @@
 
   }
 
-  //make divs
-  //store them in list
-  //add eventlisteners to them
-  //randomly position them on the page
 </script>
 
 </html>

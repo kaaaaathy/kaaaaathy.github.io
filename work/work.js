@@ -62,8 +62,8 @@ work = [
     `},
 
   {
-    "folder": "fossilids",
-    "name": "fossilids",
+    "folder": "fossils",
+    "name": "litany / fossils",
     "tags": "",
     "thumb": "mirror2.JPG",
     "content": `
@@ -73,7 +73,7 @@ work = [
           [invert.png]
           [mirror4.JPG]
 <br>
-          Website for unearthing fossilids. <a href="http://kaaathy.com/rockweb" target="_blank">Look for them here.</a> Made with three.js, matter.js. 
+          Website for unearthing fossilids. <a href="http://kaaathy.com/fossils" target="_blank">Look for them here.</a> Made with three.js, matter.js. 
 [web.png]
 
 [spin.gif]

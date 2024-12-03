@@ -1,0 +1,23 @@
+ @font-face {
+     font-family: ftserif;
+     src: url("FT88-Serif.otf");
+ }
+
+ body {
+     font-family: "Franklin Gothic Medium", "Arial Narrow", sans-serif;
+     background: black;
+     letter-spacing: 0.5px;
+     color: white;
+     text-align: center;
+     height: 100%;
+     width: 100%;
+     margin: 0px;
+     user-select: none;
+
+
+ }
+
+ .box {
+     height: auto;
+     position: absolute;
+ }
