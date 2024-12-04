@@ -125,9 +125,9 @@ main {
 
 #credit {
   font-size: 8pt;
-  position: fixed;
-  z-index: -10;
+  /* position: fixed;
   bottom: 6px;
+  z-index: -10; */
 }
 
 
@@ -348,9 +348,7 @@ h3 {
 
 @media screen and (max-width: 520px) {
 
-  #credit {
-    display: none;
-  }
+
 
   #work-stuff a {
     width: 100%;
