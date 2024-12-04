@@ -27,7 +27,7 @@ work = [
 
   <br>
   POETRY MANUSCRIPT
-  Manuscript is in progress!
+  Writing, design, images. Printed in a small batch on my own.
 
   [book1.jpg]
   [book2.png]
@@ -66,10 +66,13 @@ work = [
 [spin.gif]
 [falling.gif]
 [forget.gif]
-
-More objects. I give credit to the brilliant Mika Ben Amar <a href="https://www.instagram.com/100o111/" target="_blank"> who made usb stones first.</a> 
-          [usb2.JPG]
-          [usb1.JPG]
+<br>
+More objects. USB, USB-C, SD card... I give credit to the brilliant Mika Ben Amar <a href="https://www.instagram.com/100o111/" target="_blank"> who made usb stones first.</a> 
+          [usbcomp2.JPG]
+          [mono5.JPG]
+         
+         <br>USB with the encoding of its own 3D image—
+          [usb1-edit.JPG]
 
       `},
   {
