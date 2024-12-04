@@ -58,7 +58,7 @@ work = [
           These objects are extensions of the <a href="http://kaaathy.com/work/she-will-last/cast4crop.jpg" target="_blank">computery fossils</a> i made in spring '24. plus sd card, usb-c, vintage nokia phone...
           [mirror2.JPG]
           [invert.png]
-          [mirror4.JPG]
+          [mirror7.JPG]
 <br>
           Accompanying website for unearthing fossilids. <a href="http://kaaathy.com/fossils" target="_blank">Look for them here.</a> Made with three.js, matter.js. 
 [web.png]
@@ -68,7 +68,7 @@ work = [
 [forget.gif]
 <br>
 More objects. USB, USB-C, SD card... I give credit to the brilliant Mika Ben Amar <a href="https://www.instagram.com/100o111/" target="_blank"> who made usb stones first.</a> 
-          [usbcomp2.JPG]
+          [usbcomp.JPG]
           [mono5.JPG]
          
          <br>USB with the encoding of its own 3D image—
