@@ -50,17 +50,17 @@ work = [
 
   {
     "folder": "fossils",
-    "name": "litany / fossils",
+    "name": "litany for the ground (fossils)",
     "tags": "",
     "thumb": "thumb.png",
     "content": `
-          sand, rockite, impressions, data, website. 
+          Sand, rockite, vintage hardware, data, website. WIP.
           These objects are extensions of the <a href="http://kaaathy.com/work/she-will-last/cast4crop.jpg" target="_blank">computery fossils</a> i made in spring '24. plus sd card, usb-c, vintage nokia phone...
           [mirror2.JPG]
           [invert.png]
           [mirror4.JPG]
 <br>
-          Website for unearthing fossilids. <a href="http://kaaathy.com/fossils" target="_blank">Look for them here.</a> Made with three.js, matter.js. 
+          Accompanying website for unearthing fossilids. <a href="http://kaaathy.com/fossils" target="_blank">Look for them here.</a> Made with three.js, matter.js. 
 [web.png]
 
 [spin.gif]
