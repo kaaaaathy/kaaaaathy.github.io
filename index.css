@@ -4,6 +4,11 @@
 }
 
 @font-face {
+  font-family: 'RightSerif';
+  src: url('fonts/PPRightSerifMono-Regular.otf');
+}
+
+@font-face {
   font-family: 'FT88-School';
   src: url('fonts/FT88-School.otf');
 }
@@ -11,9 +16,15 @@
 /*--------------------------------------------------------------*/
 /*AT LARGEST SIZE */
 /*--------------------------------------------------------------*/
+
+#highlight {
+  background-color: yellow;
+  padding: 4px;
+}
+
 #aboutpic {
-  width: 200px;
-  border-radius: 8px;
+  width: 300px;
+  /* border-radius: 8px; */
   border: 1px solid cornflowerblue;
   box-shadow: 1px 1px 4px cornflowerblue;
 }
@@ -23,7 +34,9 @@
 
 
   #work-stuff a {
-    max-width: 33.33%;
+    /* max-width: 33.33%; */
+    max-width: 48%;
+
   }
 }
 
@@ -36,7 +49,7 @@
 }
 
 body {
-  background-color: khaki;
+  background-color: oldlace;
   font-size: 11pt;
   font-family: 'AUTHENTICSans', 'Arial', sans-serif;
   letter-spacing: 0.25px;
@@ -47,8 +60,8 @@ body {
 }
 
 ::selection {
-  background: darkkhaki;
-  color: lavenderblush;
+  /* background: lavenderblush; */
+  color: darkkhaki;
 }
 
 /*DEFINE SECTIONS & CENTERING*/
@@ -66,6 +79,7 @@ nav {
 #logo,
 #logo-m {
   font-size: 12pt;
+  text-transform: lowercase;
   font-family: 'FT88-School', 'Courier Prime', monospace;
 }
 
@@ -131,6 +145,14 @@ main {
 }
 
 
+#aboutcontainer a:active,
+h2 a:active,
+#content a:active {
+  color: cornflowerblue;
+  border-bottom: 1px solid cornflowerblue;
+  animation: 0.2s color;
+}
+
 /*--------------------------------------------------------------*/
 /*UNDER 840PX*/
 /*--------------------------------------------------------------*/
@@ -138,6 +160,13 @@ main {
 /* Remove sidebar when too narrow */
 @media screen and (max-width: 840px) {
 
+  #aboutcontainer a:active {
+    border-bottom: none;
+  }
+
+  marquee {
+    margin: 0px 20px;
+  }
 
   main {
     /* Make some space for topbar */
@@ -232,12 +261,6 @@ a:hover {
   opacity: 0.8;
 }
 
-#aboutcontainer a:active,
-h2 a:active,
-#content a:active {
-  background-color: orchid;
-  -webkit-animation: 0.2s background-color;
-}
 
 /*--------------------------------------------------------------*/
 /*HEADER STYLES*/
@@ -256,11 +279,20 @@ h2 a {
 
 }
 
+h2 h3 {
+  line-height: 1;
+}
+
 h3 {
-  font-size: 14pt;
-  font-family: 'AUTHENTICSans', 'Arial', sans-serif;
-  text-transform: lowercase;
+  /* font-size: 14pt; */
+  /* font-family: 'AUTHENTICSans', 'Arial', sans-serif; */
+  /* text-transform: lowercase;*/
+  font-size: 18pt;
   font-weight: normal;
+  font-family: 'RightSerif', monospace;
+  text-transform: uppercase;
+  /* letter-spacing: 0px; */
+  line-height: 1.2;
   letter-spacing: 0.5px;
   margin-bottom: 40px;
   margin-top: 0px;
@@ -304,30 +336,33 @@ h3 {
 #work-stuff a {
   width: 100%;
   margin-bottom: 24px;
-  height: 300px;
 }
 
 #work-stuff a .image-tile {
-  height: 240px;
   background-size: cover;
   background-position: center;
-  border-radius: 8px;
-  border: 1px solid orchid;
-  box-shadow: 1px 1px 4px orchid;
+  /* border: 1px solid cornflowerblue; */
+  box-shadow: 1px 1px 4px cornflowerblue;
+
+  /* border-radius: 8px; */
+  /* border: 1px solid orchid;
+  box-shadow: 1px 1px 4px orchid; */
 }
 
 #work-stuff a figcaption {
   margin-top: 10px;
-  font-size: 10.5pt;
+  font-size: 11pt;
   line-height: 1.2rem;
-  text-align: center;
-  text-transform: lowercase;
+  text-align: left;
   font-family: 'AUTHENTICSans', 'Arial', sans-serif;
+  /* font-family: 'RightSerif', monospace; */
+  text-transform: lowercase;
+  letter-spacing: 0px;
 }
 
 #work-stuff a {
   width: 50%;
-  height: 240px;
+  /* height: 250px; */
 }
 
 #work-stuff a * {
@@ -337,7 +372,7 @@ h3 {
 }
 
 #work-stuff a .image-tile {
-  height: 200px;
+  height: 260px;
 }
 
 /*--------------------------------------------------------------*/
