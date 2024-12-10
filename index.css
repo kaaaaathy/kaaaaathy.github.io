@@ -28,7 +28,7 @@
 }
 
 #highlight {
-  background-color: yellow;
+  background-color: rgba(100, 149, 237, 0.3);
   padding: 4px;
 }
 
@@ -61,7 +61,8 @@
 body {
   background-color: seashell;
   font-size: 11pt;
-  font-family: 'AUTHENTICSans', 'Arial', sans-serif;
+  font-family: 'Georgia', 'times', serif;
+  /* font-family: 'AUTHENTICSans', 'Arial', sans-serif; */
   letter-spacing: 0.25px;
   line-height: 1.5em;
   color: #333;
@@ -133,7 +134,9 @@ main {
 }
 
 .aboutlinks {
-  font-family: 'AUTHENTICSans', 'Arial', sans-serif;
+  /* font-family: 'AUTHENTICSans', 'Arial', sans-serif; */
+  font-family: 'RightSerif', 'Arial Narrow', monospace;
+
   width: 100%;
   display: grid;
   margin: 16px 0;
@@ -278,7 +281,9 @@ a:hover {
 
 h2 {
   font-size: 11pt;
-  font-family: 'AUTHENTICSans', 'Arial';
+  /* font-family: 'AUTHENTICSans', 'Arial'; */
+  font-family: 'Georgia', 'times', serif;
+
   font-weight: normal;
   line-height: 1.5;
   max-width: 600px;
@@ -313,7 +318,7 @@ h3 {
 /*SECTION: CONTENT LIGHTBOX*/
 
 #content {
-  max-width: 620px;
+  max-width: 580px;
 }
 
 #content div {
@@ -331,6 +336,12 @@ h3 {
 #content a {
   border-bottom: 1px solid #333;
 }
+
+/* h2 a,
+#content a {
+  font-family: 'RightSerif';
+
+} */
 
 #content>*:first-child {
   margin-top: 0;
@@ -364,8 +375,8 @@ h3 {
   font-size: 11pt;
   line-height: 1.2rem;
   text-align: left;
-  font-family: 'AUTHENTICSans', 'Arial', sans-serif;
-  /* font-family: 'RightSerif', monospace; */
+  /* font-family: 'AUTHENTICSans', 'Arial', sans-serif; */
+  font-family: 'RightSerif', monospace;
   text-transform: lowercase;
   letter-spacing: 0px;
   display: flex;
