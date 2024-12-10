@@ -17,6 +17,15 @@
 /*AT LARGEST SIZE */
 /*--------------------------------------------------------------*/
 
+.arrow {
+  background-image: url("arrow.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 11px;
+  width: 11px;
+  margin: 2px 5px !important;
+}
+
 #highlight {
   background-color: yellow;
   padding: 4px;
@@ -177,7 +186,7 @@ h2 a:active,
   #aboutcontainer {
     border-top: 1px dotted #333;
     border-bottom: 1px dotted #333;
-    padding: 8px 10px;
+    padding: 8px 12px;
     display: flex;
     margin-top: 0px;
     justify-content: space-between;
@@ -357,6 +366,8 @@ h3 {
   /* font-family: 'RightSerif', monospace; */
   text-transform: lowercase;
   letter-spacing: 0px;
+  display: flex;
+  flex-flow: row;
 }
 
 #work-stuff a {
