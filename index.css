@@ -24,7 +24,8 @@
   background-repeat: no-repeat;
   height: 11px;
   width: 11px;
-  margin: 2px 5px !important;
+  opacity: 0.8;
+  margin: 3px 5px !important;
 }
 
 #highlight {
@@ -61,10 +62,11 @@
 }
 
 body {
-  background-color: seashell;
-  font-size: 11pt;
-  /* font-family: 'Georgia', 'times', serif; */
-  font-family: 'AUTHENTICSans', 'Arial', sans-serif;
+  background-color: oldlace;
+  /* font-size: 11pt; */
+  /* font-family: 'AUTHENTICSans', 'Arial', sans-serif; */
+  font-size: 12pt;
+  font-family: 'times', serif;
   letter-spacing: 0.25px;
   line-height: 1.5em;
   color: #333;
@@ -73,9 +75,7 @@ body {
 }
 
 ::selection {
-  /* background: lavenderblush; */
   color: cornflowerblue;
-  background-color: seashell;
 }
 
 /*DEFINE SECTIONS & CENTERING*/
@@ -136,13 +136,10 @@ main {
 }
 
 .aboutlinks {
-  /* font-family: 'AUTHENTICSans', 'Arial', sans-serif; */
   font-family: 'RightSerif', 'Arial Narrow', monospace;
-
   width: 100%;
   display: grid;
   margin: 16px 0;
-  /* border-bottom: 1px solid #333; */
   width: fit-content;
   line-height: 12pt;
 }
@@ -150,14 +147,13 @@ main {
 #aboutcontainer {
   border: none;
   margin-top: 40px;
+
 }
+
 
 
 #credit {
   font-size: 8pt;
-  /* position: fixed;
-  bottom: 6px;
-  z-index: -10; */
 }
 
 
@@ -186,7 +182,7 @@ h2 a:active,
 
   main {
     /* Make some space for topbar */
-    margin-top: 120px;
+    margin-top: 60px;
   }
 
 
@@ -204,12 +200,20 @@ h2 a:active,
     padding: 0px;
     right: 0;
     bottom: auto;
-    margin-top: 10px;
-    position: absolute;
+    padding-top: 10px;
+
+    position: sticky;
+    top: 0;
+    background-color: oldlace;
+
     width: 100%;
     box-sizing: border-box;
     border: none;
+    z-index: 1000;
   }
+
+
+
 
 
   main {
@@ -261,6 +265,7 @@ h2 a:active,
     margin: 8px 0;
     padding-left: 2%;
     padding-right: 2%;
+
   }
 
 }
@@ -282,9 +287,11 @@ a:hover {
 /*HEADER STYLES*/
 
 h2 {
-  font-size: 11pt;
-  font-family: 'AUTHENTICSans', 'Arial';
-  /* font-family: 'Georgia', 'times', serif; */
+  /* font-size: 11pt;
+  font-family: 'AUTHENTICSans', 'Arial'; */
+
+  font-size: 12pt;
+  font-family: 'times', serif;
 
   font-weight: normal;
   line-height: 1.5;
@@ -302,9 +309,6 @@ h2 h3 {
 }
 
 h3 {
-  /* font-size: 14pt; */
-  /* font-family: 'AUTHENTICSans', 'Arial', sans-serif; */
-  /* text-transform: lowercase;*/
   font-size: 18pt;
   font-weight: normal;
   font-family: 'RightSerif', 'Arial Narrow', 'Arial', monospace;
@@ -320,7 +324,8 @@ h3 {
 /*SECTION: CONTENT LIGHTBOX*/
 
 #content {
-  max-width: 620px;
+  /* max-width: 620px; */
+  max-width: 580px;
 }
 
 #content div {
@@ -334,11 +339,6 @@ h3 {
   display: block;
   margin: 16px 0 16px 0;
 }
-
-/* 
-#content a {
-  border-bottom: 1px solid #333;
-} */
 
 h2 a,
 #content a {
@@ -374,11 +374,7 @@ h2 a,
   background-size: cover;
   background-position: center;
   /* border: 1px solid cornflowerblue; */
-  box-shadow: 1px 1px 4px cornflowerblue;
-
-  /* border-radius: 8px; */
-  /* border: 1px solid orchid;
-  box-shadow: 1px 1px 4px orchid; */
+  /* box-shadow: 1px 1px 4px cornflowerblue; */
 }
 
 #work-stuff a figcaption {
@@ -386,7 +382,6 @@ h2 a,
   font-size: 11pt;
   line-height: 1.2rem;
   text-align: left;
-  /* font-family: 'AUTHENTICSans', 'Arial', sans-serif; */
   font-family: 'RightSerif', monospace;
   text-transform: lowercase;
   letter-spacing: 0px;
@@ -396,7 +391,6 @@ h2 a,
 
 #work-stuff a {
   width: 50%;
-  /* height: 250px; */
 }
 
 #work-stuff a * {
@@ -418,7 +412,6 @@ h2 a,
 @media screen and (max-width: 520px) {
 
 
-
   #work-stuff a {
     width: 100%;
     height: 320px;
@@ -432,4 +425,5 @@ h2 a,
     height: 260px;
 
   }
+
 }
