@@ -37,9 +37,8 @@
 
 #aboutpic {
   width: 240px;
-  /* border-radius: 8px; */
-  border: 1px solid cornflowerblue;
-  box-shadow: 1px 1px 4px cornflowerblue;
+  mix-blend-mode: multiply;
+
 }
 
 @media screen and (min-width: 1000px) {
@@ -182,7 +181,7 @@ h2 a:active,
 
   main {
     /* Make some space for topbar */
-    margin-top: 60px;
+    margin-top: 50px;
   }
 
 
@@ -203,7 +202,7 @@ h2 a:active,
     padding-top: 10px;
 
     position: sticky;
-    top: 0;
+    top: -44px;
     background-color: oldlace;
 
     width: 100%;
@@ -253,7 +252,6 @@ h2 a:active,
 
   #logo-m {
     display: initial;
-    /* font-size: 20px; */
     line-height: 24px;
     opacity: 1;
 
