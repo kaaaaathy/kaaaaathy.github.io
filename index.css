@@ -17,6 +17,7 @@
 /*AT LARGEST SIZE */
 /*--------------------------------------------------------------*/
 
+
 .arrow {
   background-image: url("https://kaaathy.com/arrow.png");
   background-size: contain;
@@ -58,7 +59,7 @@
 }
 
 body {
-  background-color: oldlace;
+  background-color: seashell;
   font-size: 11pt;
   font-family: 'AUTHENTICSans', 'Arial', sans-serif;
   letter-spacing: 0.25px;
@@ -70,7 +71,8 @@ body {
 
 ::selection {
   /* background: lavenderblush; */
-  color: darkkhaki;
+  color: cornflowerblue;
+  background-color: seashell;
 }
 
 /*DEFINE SECTIONS & CENTERING*/
@@ -382,7 +384,7 @@ h3 {
 }
 
 #work-stuff a .image-tile {
-  height: 260px;
+  height: 240px;
 }
 
 /*--------------------------------------------------------------*/
