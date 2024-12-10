@@ -289,9 +289,8 @@ h3 {
   /* text-transform: lowercase;*/
   font-size: 18pt;
   font-weight: normal;
-  font-family: 'RightSerif', monospace;
+  font-family: 'RightSerif', 'Arial Narrow', 'Arial', monospace;
   text-transform: uppercase;
-  /* letter-spacing: 0px; */
   line-height: 1.2;
   letter-spacing: 0.5px;
   margin-bottom: 40px;
