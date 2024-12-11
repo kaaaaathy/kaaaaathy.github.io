@@ -74,7 +74,7 @@ body {
   font-size: 12pt;
   font-family: 'times', serif;
   letter-spacing: 0.25px;
-  line-height: 1.5em;
+  line-height: 1.4em;
   color: #333;
   margin: 0;
   cursor: default;
@@ -292,14 +292,11 @@ a:hover {
 /*HEADER STYLES*/
 
 h2 {
-  /* font-size: 11pt;
-  font-family: 'AUTHENTICSans', 'Arial'; */
-
   font-size: 12pt;
   font-family: 'times', serif;
 
   font-weight: normal;
-  line-height: 1.5;
+  line-height: 1.4;
   max-width: 600px;
   margin-top: 0px;
 }
@@ -358,7 +355,6 @@ h2 a,
 } */
 
 
-
 #content>*:first-child {
   margin-top: 0;
 }
@@ -378,8 +374,6 @@ h2 a,
 #work-stuff a .image-tile {
   background-size: cover;
   background-position: center;
-  /* border: 1px solid cornflowerblue; */
-  /* box-shadow: 1px 1px 4px cornflowerblue; */
 }
 
 #work-stuff a figcaption {
@@ -415,6 +409,19 @@ h2 a,
 /*--------------------------------------------------------------*/
 
 @media screen and (max-width: 520px) {
+
+  body,
+  h2,
+  #work-stuff a figcaption,
+  .extlink {
+    font-size: 13.5pt;
+  }
+
+
+
+  .aboutlinks {
+    font-size: 12pt;
+  }
 
 
   #work-stuff a {
