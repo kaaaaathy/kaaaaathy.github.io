@@ -17,6 +17,13 @@
 /*AT LARGEST SIZE */
 /*--------------------------------------------------------------*/
 
+.extlink {
+  font-family: 'RightSerif';
+  font-size: 12pt;
+  text-decoration: none;
+  line-height: 2rem;
+
+}
 
 .arrow {
   background-image: url("https://kaaathy.com/arrow.png");
