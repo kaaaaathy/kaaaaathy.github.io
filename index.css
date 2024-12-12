@@ -411,15 +411,15 @@ h2 a,
 @media screen and (max-width: 520px) {
 
   body,
-  h2,
-  #work-stuff a figcaption,
-  .extlink {
+  h2 {
     font-size: 13.5pt;
   }
 
 
 
-  .aboutlinks {
+  .aboutlinks,
+  #work-stuff a figcaption,
+  .extlink {
     font-size: 12pt;
   }
 
