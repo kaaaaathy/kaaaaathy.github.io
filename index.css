@@ -415,11 +415,12 @@ h2 a,
     font-size: 13.5pt;
   }
 
-
+  .extlink {
+    font-size: 13pt;
+  }
 
   .aboutlinks,
-  #work-stuff a figcaption,
-  .extlink {
+  #work-stuff a figcaption {
     font-size: 12pt;
   }
 
