@@ -60,6 +60,7 @@ work = [
           [invert.png]
           [mirror7.JPG]
 <br>
+          WEBPOEM<br>
           Accompanying website for unearthing fossilids. <a href="http://kaaathy.com/fossils" target="_blank">Look for them here.</a> Made with three.js, matter.js. 
 [web.png]
 
@@ -67,12 +68,17 @@ work = [
 [falling.gif]
 [forget.gif]
 <br>
+INSTALLATION<br>
+[install1.JPG]
+[rock-comp.gif]
+[txtscan1.jpg]
+<br>
 Object details. USB, USB-C, SD card... I give credit to the brilliant Mika Ben Amar <a href="https://www.instagram.com/100o111/" target="_blank"> who made usb stones first.</a> 
           [usb_b2.JPG]
           [mono5.JPG]
          
          <br>USB with the encoding of its own 3D image—
-          [usb1-edit.jpg]
+          [usb.JPG]
 
       `},
   {
