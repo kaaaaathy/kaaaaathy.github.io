@@ -73,7 +73,7 @@ body {
 
   font-size: 10pt;
   font-family: 'AUTHENTICSans', 'Arial', sans-serif;
-  line-height: 1.5;
+  line-height: 1.6;
 
   /* font-size: 12pt;
   font-family: 'times', serif; */
@@ -178,7 +178,7 @@ h2 a:active,
 }
 
 /*--------------------------------------------------------------*/
-/*UNDER 840PX*/
+/*UNDER 700PX*/
 /*--------------------------------------------------------------*/
 
 /* Remove sidebar when too narrow */
@@ -302,7 +302,7 @@ h2 {
   font-family: 'times', serif; */
   font-size: 10pt;
   font-family: 'AUTHENTICSans', 'Arial', sans-serif;
-  line-height: 1.5;
+  line-height: 1.6;
 
   font-weight: normal;
   max-width: 600px;
@@ -419,13 +419,15 @@ h2 a,
 @media screen and (max-width: 520px) {
 
   body,
-  h2 {
+  h2,
+  .aboutlinks,
+  #work-stuff a figcaption {
     /* font-size: 13.5pt; */
-    font-size: 11pt;
+    font-size: 12pt;
   }
 
   .extlink {
-    font-size: 12pt;
+    font-size: 13pt;
   }
 
   /* 
