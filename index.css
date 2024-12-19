@@ -182,7 +182,7 @@ h2 a:active,
 /*--------------------------------------------------------------*/
 
 /* Remove sidebar when too narrow */
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 700px) {
 
   #aboutcontainer a:active {
     border-bottom: none;
