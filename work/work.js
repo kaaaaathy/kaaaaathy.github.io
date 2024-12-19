@@ -54,26 +54,31 @@ work = [
     "tags": "",
     "thumb": "thumb.png",
     "content": `
-          Sand, rockite, vintage hardware, data, website. WIP.
+          Multi-media body of work thinking through the "geology of media," as defined by theorist Jussi Parrika, and via the forms of litanies and list poems. Sculptures of sand, rockite, vintage hardware, data / website of poems, 3D scans / installation of stone, digital fabric print.
+<br>
+          SCULPTURES
           These objects are extensions of the <a href="http://kaaathy.com/work/she-will-last/cast4crop.jpg" target="_blank">computery fossils</a> i made in spring '24. plus sd card, usb-c, vintage nokia phone...
           [mirror2.JPG]
           [invert.png]
           [mirror7.JPG]
-<br>
-          WEBPOEM<br>
+          <br>
+          WEBPOEM
           Accompanying website for unearthing fossilids. <a href="http://kaaathy.com/fossils" target="_blank">Look for them here.</a> Made with three.js, matter.js. 
 [web.png]
 
 [spin.gif]
 [falling.gif]
 [forget.gif]
+
 <br>
-INSTALLATION<br>
+INSTALLATION
+A stone and a fraction of the .txt file for its 3D digitized self. Inkjet on cotton, 3 inches * 20 feet.
 [install1.JPG]
 [rock-comp.gif]
 [txtscan1.jpg]
 <br>
-Object details. USB, USB-C, SD card... I give credit to the brilliant Mika Ben Amar <a href="https://www.instagram.com/100o111/" target="_blank"> who made usb stones first.</a> 
+OBJECT DETAILS
+USB, USB-C, SD card... I give credit to the brilliant Mika Ben Amar <a href="https://www.instagram.com/100o111/" target="_blank"> who made usb stones first.</a> 
           [usb_b2.JPG]
           [mono5.JPG]
          
