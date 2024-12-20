@@ -222,7 +222,7 @@ h2 a:active,
     padding-top: 10px;
 
     position: sticky;
-    top: -44px;
+    top: -40px;
     background-color: oldlace;
 
     width: 100%;
@@ -272,7 +272,7 @@ h2 a:active,
 
   #logo-m {
     display: initial;
-    line-height: 24px;
+    line-height: 20px;
     opacity: 1;
 
   }

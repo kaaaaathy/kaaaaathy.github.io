@@ -240,22 +240,6 @@ In front is a metaphorical "circuit" of objects: a sculptural installation of ya
 
   },
 
-  //   {  "folder":"coppertxt",
-  //   "name":"drawingaline",
-  //   "tags":"Textiles",
-  //   "thumb":"txt4.jpg",
-  //   "content":`
-  // Meditations on copper, weaving, and <a href="https://muse.jhu.edu/article/563663" target="_blank">Lisa Nakamura's research</a> on Indigenous women weavers as early industrial circuit makers.
-  // Made during my first floor loom weaving workshop. Wool, cotton, copper wire, copper tape.
-  // [txt1.jpg]
-  // [txt2.jpg]
-  // [txt3.jpg]
-  // [txt5.jpg]
-
-  // `
-
-  //   },
-
   {
     "folder": "cloudpoem",
     "name": "when will it rain",
@@ -297,28 +281,6 @@ Website → <a href="https://eroticeventlisteners.glitch.me" target="_blank">Ero
     [rose.gif]
     `
   },
-  //   {
-  //     "folder": "comppo",
-  //     "name": "computational poetics",
-  //     "tags": "",
-  //     "thumb": "hero.jpg",
-  //     "content": `
-  // Computational Poetics is a studio elective within RISD Graphic Design focused on new ways of reading and writing, both with and without computers. The course asks critical questions about text-oriented art and design in the context of code, procedures, authorship, and classification.
-  // The main 3 projects focus on Math.random() as a divination tool, collective authorship through annotation and hypertext, and the politics of classification.
-
-  // Course Website → <a href="https://kaaathy.com/comppoetics" target="_blank">Computational Poetics</a>
-
-  //       [hero.png]
-  //       Student work pictured by Amy Choi, Mariana Ramos Ortiz, Lara Karadogan,Daphne Hsu
-  //       [2.jpg]
-  //       [3.jpg]
-  //       [4.jpg]
-  //       [5.jpg]
-
-  //       more soon~
-
-  //       `
-  //   },
 
   {
     "folder": "aarw-zine",
@@ -482,7 +444,7 @@ Website → <a href="https://eroticeventlisteners.glitch.me" target="_blank">Ero
     "tags": "Installation, sculpture, writing",
     "thumb": "thumb.jpg",
     "content": `
-  How much does the internet weigh? How much data do we consume?<br>Are their landfills of information on the internet?
+  RISD Degree Project, 2015. How much does the internet weigh? How much data do we consume?<br>Are their landfills of information on the internet?
 [intro_bytes_reduced.jpg]
 
   The Byte Catalog expresses the degree to which text in digital space is now so immense in scale, that our bodies fail to comprehend it. Language originally comes from the human body, and holds meaning within social, relational contexts. What happens at scale—when language transcends meaning, when data transcends body?
@@ -594,50 +556,6 @@ I created interpretive “conversion tools”n the form of frames and boxes. Eac
   //   `
   // },
 
-
-  // {
-  //     "folder":"manymigrations",
-  //     "name":"Many Migrations",
-  //     "tags":"Textiles, poetry",
-  //     "thumb":"thumb.jpg",
-  //     "content":`
-  //     A cross-seas collaboration with my friend Ying Cai.
-  //
-  //     The embroidery (by me) tells two migration stories divided across economic class and held by culture. A garment worker in NYC Chinatown on the left; my mother designing semiconductors on the right. Both of them, immigrant people within a context of mass production.
-  //
-  //     In the center, a child who is born in America.
-  //
-  //     [me1.jpg]
-  //
-  //     The hand-dyed garment is made by Ying. She's so beautifully synthesized the Chinese Du-dou silhouette with the Western apron. The shape holds stories of domesticity, Confucian patriarchy, female labor.
-  //     In her words, yellow is a strong but gentle color.
-  //
-  //     [sideview3.jpg]
-  //     [backview.jpg]
-  //
-  //     <br>
-  //     <span class="emph"> GARMENT DETAIL </span>
-  //     [layflat.jpg]
-  //     [closeup1.jpg]
-  //     [closeup2.jpg]
-  //
-  //     <br>
-  //     <span class="emph"> PROCESS </span>
-  //     [process1.jpg]
-  //     [process3.jpg]
-  //
-  //     <br>
-  //     <span class="emph"> INSPIRATION </span>
-  //     The embroidery for this textile work was inspired by a poem I wrote: <span class="emph">Chinatown (Many Migrations)</span>.
-  //
-  //     Published in <a href="https://issuu.com/mitaai/docs/zinefinal_4_no_bleed_for_online_export-compressed" target="_blank">MIT Asian American Initiative Zine: Rooted</a>.
-  //     Also featured in <a href="https://www.unboundvisualarts.org/new-narratives-reclaiming-asian-identity-through-story-storyteller-series/" target ="_blank">VISIONS Unbounded Art Storytellers Exhibit & Panel Roundtable</a>.
-  //     [chinatown 1.jpg]
-  //     Whose working immigrant bodies do we value through our language?
-  //     Sometimes I find myself a tourist within my extended family's own cultural or class experience. In the broader Chinese diaspora, I feel sensitive to moments when way race unifies across class, and create moments of the familiar.
-  //
-  //     `
-  // },
 
 
   //
