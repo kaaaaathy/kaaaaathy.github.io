@@ -49,20 +49,7 @@
 
 }
 
-@media screen and (min-width: 1000px) {
 
-
-
-  #work-stuff a {
-    /* max-width: 33.33%; */
-    max-width: 48%;
-
-  }
-}
-
-/*--------------------------------------------------------------*/
-/*Between 840 and 1000*/
-/*--------------------------------------------------------------*/
 
 #app {
   cursor: crosshair;
@@ -74,9 +61,6 @@ body {
   font-size: 10pt;
   font-family: 'AUTHENTICSans', 'Arial', sans-serif;
   line-height: 1.6;
-
-  /* font-size: 12pt;
-  font-family: 'times', serif; */
   letter-spacing: 0.25px;
   color: #333;
   margin: 0;
@@ -173,9 +157,31 @@ main {
 h2 a:active,
 #content a:active {
   color: cornflowerblue;
-  /* border-bottom: 1px solid cornflowerblue; */
   animation: 0.2s color;
 }
+
+#work-stuff a .image-tile {
+  height: 320px;
+}
+
+
+
+/*--------------------------------------------------------------*/
+/*Between 700 and 900*/
+/*--------------------------------------------------------------*/
+
+@media screen and (min-width: 900px) {
+
+
+  #work-stuff a {
+    max-width: 45%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+  }
+
+}
+
+
 
 /*--------------------------------------------------------------*/
 /*UNDER 700PX*/
@@ -183,6 +189,7 @@ h2 a:active,
 
 /* Remove sidebar when too narrow */
 @media screen and (max-width: 700px) {
+
 
   #aboutcontainer a:active {
     border-bottom: none;
@@ -298,8 +305,7 @@ a:hover {
 /*HEADER STYLES*/
 
 h2 {
-  /* font-size: 12pt;
-  font-family: 'times', serif; */
+
   font-size: 10pt;
   font-family: 'AUTHENTICSans', 'Arial', sans-serif;
   line-height: 1.6;
@@ -382,6 +388,7 @@ h2 a,
 #work-stuff a .image-tile {
   background-size: cover;
   background-position: center;
+
 }
 
 #work-stuff a figcaption {
@@ -397,18 +404,15 @@ h2 a,
 }
 
 #work-stuff a {
-  width: 50%;
+  width: 100%;
 }
 
 #work-stuff a * {
-  margin-left: 3%;
-  margin-right: 3%;
+  margin-left: 0%;
+  margin-right: 0%;
 
 }
 
-#work-stuff a .image-tile {
-  height: 240px;
-}
 
 /*--------------------------------------------------------------*/
 
@@ -430,24 +434,13 @@ h2 a,
     font-size: 13pt;
   }
 
-  /* 
-  .aboutlinks,
-  #work-stuff a figcaption {
-    font-size: 11pt;
-  } */
-
   #work-stuff a {
     width: 100%;
-    height: 320px;
   }
 
   #work-stuff a * {
     margin: 0px;
   }
 
-  #work-stuff a .image-tile {
-    height: 260px;
-
-  }
 
 }
