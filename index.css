@@ -175,8 +175,8 @@ h2 a:active,
 
   #work-stuff a {
     max-width: 45%;
-    margin-left: 1.5%;
-    margin-right: 1.5%;
+    margin-left: 1%;
+    margin-right: 1%;
   }
 
 }
@@ -236,7 +236,7 @@ h2 a:active,
 
 
   main {
-    padding: 0px 20px 0px 20px;
+    padding: 0px 12px 0px 12px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 80px;
