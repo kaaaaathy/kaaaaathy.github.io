@@ -94,7 +94,7 @@ USB, USB-C, SD card... I give credit to the brilliant Mika Ben Amar <a href="htt
     "tags": "",
     "thumb": "main.png",
     "content": `
-          Jacquard-loomed work of my mother's circuitry.
+          Jacquard-loomed hanging of my mother's circuitry. Cotton, 50 * 60 inches.
           [main.png]
           [detail5.JPG]
           [detail2.JPG]
