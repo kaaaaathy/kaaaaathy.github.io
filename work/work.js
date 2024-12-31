@@ -86,11 +86,26 @@ USB, USB-C, SD card... I give credit to the brilliant Mika Ben Amar <a href="htt
           [usb.JPG]
 
       `},
+
+
+  {
+    "folder": "homonym",
+    "name": "homonym",
+    "tags": "",
+    "thumb": "main.png",
+    "content": `
+          Jacquard-loomed work of my mother's circuitry.
+          [main.png]
+          [detail5.JPG]
+          [detail2.JPG]
+          [detail7.JPG]
+
+      `},
   {
     "folder": "weaves",
     "name": "scintillations",
     "tags": "",
-    "thumb": "thumb1.png",
+    "thumb": "thumb.JPG",
     "content": `
             work in progress. Inkjet on cotton, copper sheeting. 12 * 16 inches.
             <br>
