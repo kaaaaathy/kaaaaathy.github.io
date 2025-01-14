@@ -47,11 +47,10 @@
 			}, []);
 
 			return (
-				<div><h2><h3>Writing</h3>
-					Select publications online.<br /><br /><br />
+				<div><h2><h3>Writing<span id="pubnote">(selected publications)</span></h3>
 					{pubItems.map((item, index) => (
 						<ul key={index}>
-							{item.title}, <a href={item.url} target="_blank">{item.publication}</a>, {item.year}
+							<p class="pub">{item.title}, <a href={item.url} target="_blank">{item.publication}</a>, {item.year}</p>
 						</ul>
 					))}
 				</h2>
