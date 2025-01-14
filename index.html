@@ -22,6 +22,8 @@
 	<script src="https://unpkg.com/@babel/standalone@7/babel.min.js"></script>
 	<script src="work/work.js"></script>
 	<script type="text/babel" data-type="module">
+
+		// import { useState, useEffect } from "react";
 		import { useHashHistory } from 'https://cdn.jsdelivr.net/npm/use-hash-history@1.3.4/+esm'
 
 		const Router = ReactRouterDOM.unstable_HistoryRouter
@@ -30,7 +32,38 @@
 		const Link = ReactRouterDOM.Link
 		const Navigate = ReactRouterDOM.Navigate
 		const useParams = ReactRouterDOM.useParams
+		const useState = React.useState
+		const useEffect = React.useEffect
 		const useLocation = ReactRouterDOM.useLocation
+
+		function Writing() {
+			const [pubItems, setPubItems] = useState([]);
+
+			useEffect(() => {
+				fetch('./pubs.json')
+					.then((response) => response.json())
+					.then((json) => setPubItems(json))
+
+			}, []);
+
+			return (
+				<div><h2><h3>Writing</h3>
+					Select publications online.<br /><br /><br />
+					{pubItems.map((item, index) => (
+						<ul key={index}>
+							{item.title}, <a href={item.url} target="_blank">{item.publication}</a>, {item.year}
+						</ul>
+					))}
+				</h2>
+				</div>
+			);
+		}
+
+
+
+
+
+
 
 		function Navbar() {
 			const location = useLocation()
@@ -57,6 +90,7 @@
 						<Link className="aboutlinks" to={"/#"}>work</Link>
 						<Link className="aboutlinks" to={"/info"}>info</Link>
 						<Link className="aboutlinks" to={"/teaching"}>teaching</Link>
+						<Link className="aboutlinks" to={"/writing"}>writing</Link>
 
 					</div>
 				</nav>
@@ -125,6 +159,9 @@
 			)
 		}
 
+
+
+
 		function parseProjectContent(contentText, folder) {
 			const imageRegex = /\[([^\[\]]+)\]/g, underlineRegex = /\*([^\*]+)\*/g, centerRegex = /\{([^\{\}]+)\}/g;
 			//		var callback=function(){
@@ -168,6 +205,7 @@
 							<Route path="/" exact element={<ProjectList />}></Route>
 							<Route path="/info" element={<About />}></Route>
 							<Route path="/teaching" element={<Teaching />}></Route>
+							<Route path="/writing" element={<Writing />}></Route>
 
 							<Route path="/:projectId" element={<ProjectDetail />} />;
 						</Routes>
