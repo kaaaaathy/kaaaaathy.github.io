@@ -459,7 +459,7 @@ Website → <a href="https://eroticeventlisteners.glitch.me" target="_blank">Ero
     "tags": "Installation, sculpture, writing",
     "thumb": "thumb.jpg",
     "content": `
-  RISD Degree Project, 2015. How much does the internet weigh? How much data do we consume?<br>Are their landfills of information on the internet?
+  RISD Degree Project, 2015. How much does the internet weigh? How much data do we consume? Are their landfills of information on the internet?
 [intro_bytes_reduced.jpg]
 
   The Byte Catalog expresses the degree to which text in digital space is now so immense in scale, that our bodies fail to comprehend it. Language originally comes from the human body, and holds meaning within social, relational contexts. What happens at scale—when language transcends meaning, when data transcends body?
