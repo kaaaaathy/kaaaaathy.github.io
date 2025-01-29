@@ -55,15 +55,16 @@ work = [
     "thumb": "thumb.png",
     "content": `
           Multi-media body of work thinking through the "geology of media," as defined by theorist Jussi Parrika, and via the forms of litanies and list poems. Sculptures of sand, rockite, vintage hardware, data / website of poems, 3D scans / installation of stone, digital fabric print.
+          Read the web component → <a href="http://kaaathy.com/fossils" target="_blank">LINK</a> 
 <br>
           SCULPTURES
-          These objects are extensions of the <a href="http://kaaathy.com/work/she-will-last/cast4crop.jpg" target="_blank">computery fossils</a> i made in spring '24. plus sd card, usb-c, vintage nokia phone...
+          These objects are extensions of the <a href="http://kaaathy.com/work/she-will-last/cast4crop.jpg" target="_blank">computery fossils</a> I made in Spring '24. Plus SD cards, USB-C, vintage nokia phone...
           [mirror2.JPG]
           [invert.png]
           [mirror7.JPG]
           <br>
           WEBPOEM
-          Accompanying website for unearthing fossilids. <a href="http://kaaathy.com/fossils" target="_blank">Look for them here.</a> Made with three.js, matter.js. 
+          Accompanying website for unearthing fossilids. Made with three.js, matter.js. 
 [web.png]
 
 [spin.gif]
@@ -262,7 +263,7 @@ In front is a metaphorical "circuit" of objects: a sculptural installation of ya
     "thumb": "thumb.png",
     "content": `A webpoem about balloons and meteorology and unidentifiable objects, about the limits of knowing and seeing, how governments and states know and see.
     Procedurally redacts/translates things into the word "object," folds in live weather from government data. 
-    Site link <a href="https://kaaathy.com/cloud/index.html" target="_blank">here</a>.
+    Read online → <a href="https://kaaathy.com/cloud/index.html" target="_blank">LINK</a>
     [cloudpoem.gif]
 
     `
@@ -304,16 +305,18 @@ Website → <a href="https://eroticeventlisteners.glitch.me" target="_blank">Ero
     "thumb": "zine-scan-cover-2.png",
     "content": `
         VISIONING TOWARDS ABOLITION
-        Made with <a href="https://www.aarw.org/" target="_blank">Asian American Resource Workshop</a> as part of their abolition working group.
+        Made with <a href="https://www.aarw.org/" target="_blank">Asian American Resource Workshop</a> as part of their abolition working group. Includes a political educator's toolkit to run this in your own communities.
+        Download the zine for free → <a href="https://www.aarw.org/zines/abolitionzine" target="_blank">LINK</a>
+        Use the workshop toolkit → <a href="https://docs.google.com/presentation/d/1pfmC3wtc6xU0QqKWCPTugfl0HUkxZXpLT9-772c-Ndo/edit#slide=id.g10d7d2d8eac_0_155" target="_blank">LINK</a> 
+ 
         [zine-scan-cover-2.png]
         [2.png]
         [3.png]
         [4.png]
         [zine-scan-gif.gif]
-        You can purchase the zine here.
+
         [sky1.jpeg]
         <br>
-        Check out the <a href="https://docs.google.com/presentation/d/1pfmC3wtc6xU0QqKWCPTugfl0HUkxZXpLT9-772c-Ndo/edit#slide=id.g10d7d2d8eac_0_155" target="_blank">workshop materials</a> to run this in your own communities.
         [slide1.png]
         [slide2.png]
         <br>
@@ -355,10 +358,10 @@ Website → <a href="https://eroticeventlisteners.glitch.me" target="_blank">Ero
     "name": "walking with ghosts",
     "tags": "Interactive, HTML",
     "thumb": "thumb.png",
-    "content": `<a href="https://kaaathy.com/walk/1.html" target="_blank">*walking with ghosts*</a> is a hypertext web poem that invites the reader to travel through cryptic sites in Google Street View. the images are pulled from current NY public parks (nearly all of which used to be potter's fields) and contrasts present day burial grounds with these recreational spaces.
+    "content": `*walking with ghosts* is a hypertext web poem that invites the reader to travel through cryptic sites in Google Street View. the images are pulled from current NY public parks (nearly all of which used to be potter's fields) and contrasts present day burial grounds with these recreational spaces.
   it nods at the historical layers of eviction, theft, imperialism embedded quietly and namelessly in these green spaces, via the narrative throughline of ghosts.
-  <iframe src="https://player.vimeo.com/video/596956749" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-
+  Read online → <a href="https://kaaathy.com/walk/1.html" target="_blank">LINK</a>
+<iframe src="https://player.vimeo.com/video/596956749" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
   [walk1.png]
   [walk2.png]
   [walk3.png]
@@ -395,14 +398,15 @@ Website → <a href="https://eroticeventlisteners.glitch.me" target="_blank">Ero
     "name": "Office for Language Under Capitalism",
     "tags": "Interactive, HTML",
     "thumb": "thumb.jpg",
-    "content": `Selected for <a href="https://icids2021.ardin.online/art-exhibition" target="_blank">ICIDS 2021 ReDisconnection.</a>
-
-    I'm interested in what happens to language under specific sociopolitical constraints.
+    "content": `    I'm interested in what happens to language under specific sociopolitical constraints.
     Language under capitalism compresses itself—it minifies into lean, neat boxes fit for work and production. It does not rebel, it does not deviate; it eclipses possibility of what could be in our relationships.
+    This interactive, audio-based web poem plays out through a fictional bureaucratic phone call. Selected for <a href="https://icids2021.ardin.online/art-exhibition" target="_blank">ICIDS 2021 ReDisconnection.</a>
+    Try it on your mobile device → <a href="office/index.html" target="_blank">LINK</a>
     <iframe src="https://player.vimeo.com/video/469486919" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-    This interactive, audio-based web poem plays out through a fictional bureaucratic phone call. <a href="office/index.html" target="_blank">Try it on your mobile device</a> for the intended experience.
+    <br>
+        Dialing any one of several digits (including secret, non-menu digits) will play a computer-synthesized, female voice recording.
+
     [phonedemo-title.gif]
-    Dialing any one of several digits (including secret, non-menu digits) will play a computer-synthesized, female voice recording.
     [2.jpg]
     [3a.jpg]
     [3b.jpg]
@@ -445,7 +449,8 @@ Website → <a href="https://eroticeventlisteners.glitch.me" target="_blank">Ero
     "tags": "Interactive, HTML",
     "thumb": "thumb.jpg",
     "content": `An interactive web fantasy about distorting, glitching, re-inserting, and deleting from glass boxes + institutions. Seen on <a href="https://pages.virtualgoodsdealer.com/exhibits" target="_blank">Virtual Goods Dealer</a>.
-   [looting.gif]
+     Read online → <a href="https://kaaathy.com/everything/looting-dream.html" target="_blank">LINK</a>
+[looting.gif]
    [looting.png]
 
 
