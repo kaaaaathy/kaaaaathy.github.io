@@ -77,7 +77,7 @@ body {
 }
 
 body {
-  background-color: oldlace;
+  background-color: whitesmoke;
 
   font-size: 10pt;
   font-family: 'AUTHENTICSans', 'Arial', sans-serif;
@@ -173,6 +173,15 @@ h2 a:active,
 
 #work-stuff a .image-tile {
   height: 350px;
+  filter: blur(0px);
+  transition: 0.1s filter ease;
+
+}
+
+#work-stuff a .image-tile:hover {
+  filter: blur(4px);
+  transition: 0.1s filter ease;
+
 }
 
 
@@ -181,6 +190,8 @@ main {
   padding-top: 30px;
   padding-bottom: 120px;
   margin-left: 0;
+  margin-right: 16px;
+
 }
 
 
@@ -194,18 +205,21 @@ main {
   #work-stuff a {
     max-width: 48%;
     margin-right: 1.5%;
+
   }
 
   main {
-    padding-left: 265px;
+    padding-left: 250px;
     padding-top: 30px;
     padding-bottom: 120px;
     margin-left: 0;
-    margin-right: auto;
+    margin-right: 0px;
   }
 
   #work-stuff a .image-tile {
     height: 300px;
+
+
   }
 
 
@@ -250,7 +264,7 @@ main {
 
     position: sticky;
     top: -40px;
-    background-color: oldlace;
+    background-color: whitesmoke;
 
     width: 100%;
     box-sizing: border-box;
@@ -332,6 +346,13 @@ a {
 a:hover {
   cursor: help;
   opacity: 0.8;
+}
+
+#content a:hover,
+nav a:hover,
+.inner a:hover {
+  font-style: oblique;
+
 }
 
 
@@ -428,6 +449,7 @@ h2 a,
 #work-stuff a figcaption {
   margin-top: 10px;
   font-size: 11pt;
+  padding-left: 8px;
   line-height: 1.2rem;
   text-align: left;
   font-family: 'RightSerif', monospace;
@@ -475,10 +497,6 @@ h2 a,
 
   #work-stuff a * {
     margin: 0px;
-  }
-
-  #work-stuff a figcaption {
-    padding-left: 12px;
   }
 
 }
