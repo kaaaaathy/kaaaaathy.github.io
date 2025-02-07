@@ -180,10 +180,9 @@ figcaption p {
   position: absolute;
   top: 0px;
   height: 100%;
-  width: 100%;
+  max-width: 150px;
   display: flex;
   align-items: center;
-  justify-content: center;
   color: black;
 
 
@@ -206,6 +205,8 @@ figcaption {
   animation: fadeIn 0.1s ease 2s 1 forwards;
   opacity: 0;
   padding-left: 0px;
+  display: flex;
+  justify-content: center;
 
 }
 
@@ -334,6 +335,8 @@ ul {
     position: relative;
     top: 0px;
     display: flex;
+    justify-content: left;
+
     margin-bottom: 20px;
     animation: none;
     opacity: 1;
@@ -342,9 +345,9 @@ ul {
 
   figcaption p {
     text-align: left;
-    justify-content: left;
     position: inherit;
     color: #333;
+    max-width: 100%;
 
   }
 
