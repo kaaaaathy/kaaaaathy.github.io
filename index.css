@@ -132,6 +132,8 @@ h2 a:active,
 #work-stuff a img:hover {
   opacity: 0.3;
   filter: blur(4px);
+  mix-blend-mode: multiply;
+
   transition: 0.1s filter ease;
   transition: 0.1s opacity ease;
 
@@ -460,6 +462,9 @@ ul {
 
   }
 
+  figcaption {
+    padding-left: 8px;
+  }
 }
 
 /*SECTION: CONTENT LIGHTBOX*/
@@ -504,7 +509,7 @@ h2 a,
 }
 
 #work-stuff a img {
-  margin-bottom: 5px;
+  margin-bottom: 2px;
 
 }
 
@@ -543,11 +548,6 @@ h2 a,
 
 
 
-  figcaption {
-    padding-left: 8px;
-    margin-bottom: 20px;
-
-  }
 
 
 
