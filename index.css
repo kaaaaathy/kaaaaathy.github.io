@@ -202,7 +202,7 @@ figcaption {
 
   z-index: -100;
   user-select: none !important;
-  animation: fadeIn 0.1s ease 2s 1 forwards;
+  animation: fadeIn 0.1s ease 1s 1 forwards;
   opacity: 0;
   padding-left: 0px;
   display: flex;
