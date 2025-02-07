@@ -21,6 +21,7 @@
 	<script src="https://unpkg.com/react-router-dom@6.3.0/umd/react-router-dom.development.js"></script>
 	<script src="https://unpkg.com/@babel/standalone@7/babel.min.js"></script>
 	<script src="work/work.js"></script>
+
 	<script type="text/babel" data-type="module">
 
 		// import { useState, useEffect } from "react";
@@ -98,15 +99,31 @@
 		}
 
 		function ProjectList() {
+			const halfway = Math.floor(work.length / 2);
+			const half1 = work.slice(0, halfway);
+			const half2 = work.slice(halfway);
+
 			return (
 				<section id="work-stuff">
-					{work.map((project) =>
-						<Link to={`/${project.folder}`} key={project.folder}>
-							<div className="image-tile" style={{ backgroundImage: `url(work/${project.folder}/${project.thumb})` }}>
-							</div>
-							<figcaption><div class="arrow"></div>{project.name}</figcaption>
-						</Link>
-					)}
+					<div id="col1">
+						{half1.map((project) =>
+							<Link to={`/${project.folder}`} key={project.folder}>
+								<div class="bbox"><img src={`work/${project.folder}/${project.thumb}`} />
+									<figcaption><div className="arrow"></div><p>{project.name}</p></figcaption></div>
+							</Link>
+						)}
+					</div>
+					<div id="col2">
+						{half2.map((project) =>
+							<Link to={`/${project.folder}`} key={project.folder}>
+								<div class="bbox"><img src={`work/${project.folder}/${project.thumb}`} />
+
+									<figcaption><div className="arrow"></div><p>{project.name}</p></figcaption></div>
+							</Link>
+						)}
+					</div>
+
+
 				</section>
 			)
 		}
@@ -120,14 +137,13 @@
 						<span id="highlight">Debut poetry book forthcoming with <a href="https://www.wendyssubway.com/publishing/titles/she-will-last-as-long-as-stones" target="_blank">Wendy's Subway</a> ✨</span>
 						<br /><br />
 						kathy wu (she/they) ✩彡 is an artist, poet,
-						designer, educator, and amateur translator. They work across language, computation, books, sometimes textile. She currently teaches at < a href="https://risd.gd/" target="_blank" > RISD Graphic Design</a >. kathy has taught < a
-							href="https://kaaathy.com/geopoetics/" target="_blank" > experimental studios</a > and
+						designer, educator, and amateur translator working across language, computation, books, and sometimes textile. They currently teach at < a href="https://risd.gd/" target="_blank" > RISD Graphic Design</a >. kathy has taught < a
+							href="https://poetry.arizona.edu/calendar/geopoetics-kathy-wu" target="_blank" >place-based writing workshops</a > and
 						worked on < a href="https://www.media.mit.edu/projects/scratch/overview/" target="_blank" > creative
 							tools</a > at MIT. She has her MFA in Literary Arts from Brown University, and lives in Providence on Narragansett land.
 						< br /> <br />
-						kathy has been published via < a href="https://parsonsdt.github.io/critical-coding-cookbook/" target="_blank" > The New School</a >, Dialogist, Rain Taxi, and anthologized in <a href="https://fonografeditions.com/catalog/fono31-de-canon-fe-a-mouth-holds-many-things-print-anthology/" target="_blank">Fonograf Editions</a>. Her poems are forthcoming via NatBrut, Tilted House, and a < a href="https://nightboat.org/book/permanent-record-poetics-towards-the-archive/" target="_blank" > Nightboat Books</a > anthology. She has been awarded arts residencies at Blue Mountain Center, Black Mountain College Museum, Pao Arts Center.
-						< br /> <br />They're passionate about community arts practices, in collective publishing, as well as artistic
-						literacies and < a href="https://interferencearchive.org/" target="_blank" > political education</a >. Always nice to hear from new people, collaborators, etc, say hello~
+						kathy has been published via < a href="https://parsonsdt.github.io/critical-coding-cookbook/" target="_blank" > The New School</a >, Dialogist, Rain Taxi, and anthologized in <a href="https://fonografeditions.com/catalog/fono31-de-canon-fe-a-mouth-holds-many-things-print-anthology/" target="_blank">Fonograf Editions</a>. Their poems are forthcoming via NatBrut, Tilted House, and a < a href="https://nightboat.org/book/permanent-record-poetics-towards-the-archive/" target="_blank" > Nightboat Books</a > anthology. She has been awarded arts residencies at Blue Mountain Center, Black Mountain College Museum, Pao Arts Center.
+						< br /> <br />They're passionate about <a href="https://www.aarw.org/" target="_blank">organizing</a> against displacement, collective publishing, and < a href="https://interferencearchive.org/" target="_blank" >political education</a >. Always nice to hear from new people, collaborators, etc, say hello~
 						<br /> < br />
 						<p id="credit">Website by kw, with thanks to Willy Wu. Set in Times New Roman / Authentic Sans, Right Serif Mono, FT88.</p>
 						<br /> < br />
@@ -239,6 +255,7 @@
 		}
 		setTimeout(fixIt, 100)
 	</script>
+
 </body>
 
 </html>

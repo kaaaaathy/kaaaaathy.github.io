@@ -16,65 +16,13 @@
 /*--------------------------------------------------------------*/
 /*AT LARGEST SIZE */
 /*--------------------------------------------------------------*/
-ul {
-  margin: 0;
-  padding-left: 0;
-  display: flex;
-  flex-flow: row nowrap;
-}
-
-body {
-  margin-top: 40px;
-
-}
-
-
-#pubnote {
-  margin-left: 10px;
-  font-size: 10pt;
-  font-family: 'AUTHENTICSans', 'Arial', sans-serif;
-  text-transform: lowercase;
-}
-
-
-
-.extlink {
-  font-family: 'RightSerif';
-  font-size: 12pt;
-  text-decoration: none;
-  line-height: 2rem;
-
-}
-
-.arrow {
-  background-image: url("https://kaaathy.com/arrow.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 11px;
-  width: 11px;
-  opacity: 0.8;
-  margin: 3px 5px !important;
-}
-
-#highlight {
-  background-color: yellow;
-  font-family: 'RightSerif';
-  letter-spacing: 0;
-  padding: 2px;
-  font-size: 11pt;
-}
-
-#aboutpic {
-  width: 240px;
-  mix-blend-mode: multiply;
-
-}
-
 
 
 #app {
   cursor: crosshair;
+  width: 100%;
 }
+
 
 body {
   background-color: whitesmoke;
@@ -171,68 +119,244 @@ h2 a:active,
   animation: 0.2s color;
 }
 
-#work-stuff a .image-tile {
-  height: 350px;
+#work-stuff a img {
+  width: 100%;
+  height: auto;
+  opacity: 1;
   filter: blur(0px);
   transition: 0.1s filter ease;
+  transition: 0.1s opacity ease;
 
 }
 
-#work-stuff a .image-tile:hover {
+#work-stuff a img:hover {
+  opacity: 0.3;
   filter: blur(4px);
   transition: 0.1s filter ease;
+  transition: 0.1s opacity ease;
 
 }
 
 
 main {
   padding-left: 258px;
-  padding-top: 30px;
   padding-bottom: 120px;
-  margin-left: 0;
+  margin-left: 0px;
+  margin-top: 30px;
   margin-right: 16px;
 
 }
 
-
-/*--------------------------------------------------------------*/
-/*Between 700 and 900*/
-/*--------------------------------------------------------------*/
-
-@media screen and (min-width: 900px) {
-
-
-  #work-stuff a {
-    max-width: 48%;
-    margin-right: 1.5%;
-
-  }
-
-  main {
-    padding-left: 250px;
-    padding-top: 30px;
-    padding-bottom: 120px;
-    margin-left: 0;
-    margin-right: 0px;
-  }
-
-  #work-stuff a .image-tile {
-    height: 300px;
-
-
-  }
-
+#col1,
+#col2 {
+  max-width: 44%;
+  margin-right: 1.5%;
 
 }
 
 
+#work-stuff a div {
+  display: block;
+  position: relative;
+  margin: auto;
+
+}
+
+img {
+  position: relative;
+  z-index: 1;
+  top: 0px;
+}
+
+figcaption p {
+  line-height: 1.2rem;
+  margin: 0px;
+  font-size: 11pt;
+  font-family: 'RightSerif', monospace;
+  text-transform: lowercase;
+  text-align: center;
+  position: absolute;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+
+
+}
+
+figcaption {
+
+  z-index: -100;
+  user-select: none !important;
+
+  padding-left: 0px;
+
+}
+
+
+
+
+/*HYPERLINKS */
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: 0.1s opacity ease;
+
+}
+
+a:hover {
+  cursor: help;
+  opacity: 0.8;
+}
+
+
+#content a:hover,
+nav a:hover,
+.inner a:hover {
+  font-style: oblique;
+
+}
+
+
+/*--------------------------------------------------------------*/
+/*HEADER STYLES*/
+
+h2 {
+
+  font-size: 10pt;
+  font-family: 'AUTHENTICSans', 'Arial', sans-serif;
+  line-height: 1.6;
+
+  font-weight: normal;
+  max-width: 600px;
+  margin-top: 0px;
+}
+
+h2 a {
+  border-bottom: 1px solid #333;
+
+}
+
+h2 h3 {
+  line-height: 1;
+}
+
+h3 {
+  font-size: 18pt;
+  font-weight: normal;
+  font-family: 'RightSerif', 'Arial Narrow', 'Arial', monospace;
+  text-transform: uppercase;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+  margin-bottom: 40px;
+  margin-top: 0px;
+
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+
+
+#pubnote {
+  margin-left: 10px;
+  font-size: 10pt;
+  font-family: 'AUTHENTICSans', 'Arial', sans-serif;
+  text-transform: lowercase;
+}
+
+
+
+.extlink {
+  font-family: 'RightSerif';
+  font-size: 12pt;
+  text-decoration: none;
+  line-height: 2rem;
+
+}
+
+
+
+#highlight {
+  background-color: yellow;
+  font-family: 'RightSerif';
+  letter-spacing: 0;
+  padding: 2px;
+  font-size: 11pt;
+}
+
+#aboutpic {
+  width: 240px;
+  mix-blend-mode: multiply;
+
+}
+
+
+/*--------------------------------------------------------------*/
+/*Between 600 and 800*/
+/*--------------------------------------------------------------*/
+
+@media screen and (max-width: 800px) {
+
+
+  .arrow {
+    background-image: url("https://kaaathy.com/arrow.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 11px;
+    width: 11px;
+    opacity: 0.8;
+    margin: 3px 5px !important;
+  }
+
+  figcaption {
+    position: relative;
+    top: 0px;
+    user-select: inherit;
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  figcaption p {
+    text-align: left;
+    justify-content: left;
+    position: inherit;
+    color: #333;
+
+  }
+
+
+
+  #col1,
+  #col2 {
+    max-width: 100%;
+    margin: 0px;
+
+  }
+
+
+  #work-stuff a img:hover {
+    opacity: 0.8;
+  }
+
+}
 
 /*--------------------------------------------------------------*/
 /*UNDER 700PX*/
 /*--------------------------------------------------------------*/
 
 /* Remove sidebar when too narrow */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
+
+
 
 
   #aboutcontainer a:active {
@@ -256,6 +380,7 @@ main {
 
   }
 
+
   nav {
     padding: 0px;
     right: 0;
@@ -277,6 +402,7 @@ main {
 
 
   main {
+    margin-top: 0px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 80px;
@@ -336,66 +462,9 @@ main {
 
 }
 
-/*HYPERLINKS */
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-a:hover {
-  cursor: help;
-  opacity: 0.8;
-}
-
-#content a:hover,
-nav a:hover,
-.inner a:hover {
-  font-style: oblique;
-
-}
-
-
-/*--------------------------------------------------------------*/
-/*HEADER STYLES*/
-
-h2 {
-
-  font-size: 10pt;
-  font-family: 'AUTHENTICSans', 'Arial', sans-serif;
-  line-height: 1.6;
-
-  font-weight: normal;
-  max-width: 600px;
-  margin-top: 0px;
-}
-
-h2 a {
-  border-bottom: 1px solid #333;
-
-}
-
-h2 h3 {
-  line-height: 1;
-}
-
-h3 {
-  font-size: 18pt;
-  font-weight: normal;
-  font-family: 'RightSerif', 'Arial Narrow', 'Arial', monospace;
-  text-transform: uppercase;
-  line-height: 1.2;
-  letter-spacing: 0.5px;
-  margin-bottom: 40px;
-  margin-top: 0px;
-
-}
-
-
 /*SECTION: CONTENT LIGHTBOX*/
 
 #content {
-  /* max-width: 620px; */
   max-width: 560px;
 }
 
@@ -417,12 +486,6 @@ h2 a,
   border-bottom: none;
 }
 
-/* h2 a,
-#content a {
-  font-family: 'RightSerif';
-
-} */
-
 
 #content>*:first-child {
   margin-top: 0;
@@ -440,28 +503,11 @@ h2 a,
   margin-bottom: 24px;
 }
 
-#work-stuff a .image-tile {
-  background-size: cover;
-  background-position: center;
+#work-stuff a img {
+  margin-bottom: 5px;
 
 }
 
-#work-stuff a figcaption {
-  margin-top: 10px;
-  font-size: 11pt;
-  padding-left: 8px;
-  line-height: 1.2rem;
-  text-align: left;
-  font-family: 'RightSerif', monospace;
-  text-transform: lowercase;
-  letter-spacing: 0px;
-  display: flex;
-  flex-flow: row;
-}
-
-#work-stuff a {
-  width: 100%;
-}
 
 #work-stuff a * {
   margin-left: 0%;
@@ -495,8 +541,14 @@ h2 a,
     width: 100%;
   }
 
-  #work-stuff a * {
-    margin: 0px;
+
+
+  figcaption {
+    padding-left: 8px;
+    margin-bottom: 20px;
+
   }
+
+
 
 }
