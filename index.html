@@ -204,10 +204,12 @@
 			if (!project) {
 				return <NotFound />
 			}
+			window.scrollTo(0, 0);
 			return <section id="content">
 				<h3>{project.name}</h3>
 				<div dangerouslySetInnerHTML={{ __html: parseProjectContent(project.content, project.folder) }}></div>
 			</section >
+
 		}
 
 		function NotFound() {
