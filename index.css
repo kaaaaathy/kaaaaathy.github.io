@@ -189,11 +189,22 @@ figcaption p {
 
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
 figcaption {
 
   z-index: -100;
   user-select: none !important;
-
+  animation: fadeIn 0.1s ease 2s 1 forwards;
+  opacity: 0;
   padding-left: 0px;
 
 }
@@ -322,9 +333,11 @@ ul {
   figcaption {
     position: relative;
     top: 0px;
-    user-select: inherit;
     display: flex;
     margin-bottom: 20px;
+    animation: none;
+    opacity: 1;
+
   }
 
   figcaption p {
