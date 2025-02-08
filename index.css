@@ -120,6 +120,7 @@ h2 a:active,
 }
 
 #work-stuff a img {
+  background-color: whitesmoke;
   width: 100%;
   height: auto;
   opacity: 1;
