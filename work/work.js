@@ -3,7 +3,7 @@ work = [
     "folder": "she-will-last",
     "name": "she will last as long as stones",
     "tags": "",
-    "thumb": "still1.png",
+    "thumb": "still3.png",
     "content": `
   MFA thesis project for Brown University Literary Arts program, 2024. Advised by Sawako Nakayasu. 
   A poetry performance about copper and cobalt mining, losing my mother, and ways that grief is a circuit, and how stones teach us about eternity. Perhaps maternal and ecological grief are a deep form of love, persisting. A huge thank you to Si-Min Chong for taking these photos!
@@ -52,7 +52,7 @@ work = [
     "folder": "fossils",
     "name": "litany for the ground (fossils)",
     "tags": "",
-    "thumb": "thumb.png",
+    "thumb": "spin.gif",
     "content": `
           Multi-media body of work thinking through the "geology of media," as defined by theorist Jussi Parrika, and via the forms of litanies and list poems. Sculptures of sand, rockite, vintage hardware, data / website of poems, 3D scans / installation of stone, digital fabric print.
           Read the web component → <a href="http://kaaathy.com/fossils" target="_blank">LINK</a> 
@@ -106,7 +106,7 @@ USB, USB-C, SD card... I give credit to the brilliant Mika Ben Amar <a href="htt
     "folder": "weaves",
     "name": "scintillations",
     "tags": "",
-    "thumb": "thumb.JPG",
+    "thumb": "weave3.png",
     "content": `
             work in progress. Inkjet on cotton, copper sheeting. 12 * 16 inches.
             <br>
@@ -116,26 +116,7 @@ USB, USB-C, SD card... I give credit to the brilliant Mika Ben Amar <a href="htt
     
             [weave2.png]
         `},
-  {
-    "folder": "no-object",
-    "name": "there is no mineral of futurity",
-    "tags": "",
-    "thumb": "7.jpg",
-    "content": `
-  “there is no mineral of futurity” (2023) is a textile-based, photographic meditation on extractivism, technology, and the color blue. Through cyanotypes, the piece depicts error screens, cursors, glitches, alongside mining sites in Google satellite imagery and settler colonial cartographies. Among these are lithium mines in the American Southwest and cobalt mines in the Congo, both of which are crucial for battery production; the piece’s geographies also include a 19th century map of the largest copper mine in the world, based in Chile, which played a critical role in the dawn of electricity and electronics. 
-  These cyanotype images were developed using solar power and iron-based pigment, which nods to photography’s material basis. Perhaps there is something about photography which pretends to be virtual as well, which creates what Susan Sontag calls a “fracturing, dislocating vision that only the camera supplies.” I would venture to say that language crops the world in such a way, too, notably within the technology of object recognition. And so the piece reckons not only with the geographies of extraction, but also its grammars. In this case, it references the surveillant, extractive gaze of artificial intelligence, skimming over the maps, and claiming, “NO OBJECT FOUND.” 
-  
-  [1.png]
-  [7.jpg]
-  [3.jpg]
-  [17.jpg]
-  [6.jpg]
 
-
-
-`
-
-  },
   {
     "folder": "cyan",
     "name": "on cyan",
@@ -187,6 +168,7 @@ USB, USB-C, SD card... I give credit to the brilliant Mika Ben Amar <a href="htt
 `
 
   },
+
   {
     "folder": "blueimg",
     "name": "virtual blue",
@@ -228,33 +210,7 @@ Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtua
   `
   },
 
-  {
-    "folder": "internetgeo",
-    "name": "internet geology",
-    "tags": "Mixed media, data, projection, sound, poetry",
-    "thumb": "8.jpg",
-    "content": `
-  Internet Geology is a multimedia installation which highlights geographic sites of copper extraction and outlines the role of copper in technology and internet infrastructures. 
-  
-  Inspired by Fernando Godoy’s copper mine recordings, Trevor Paglen’s drone footage project, and Sam Lavigne’s web scrape of oil news, the digital projection combines sound, maps, government data, and poetry to play with the aesthetics of systemized extraction and "the field." 
-  
-  <iframe src="https://player.vimeo.com/video/778307297?h=7132e13db1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-  The installation combines the satellite’s gaze (via OpenMapBox) and Open Mineral data from US governmental data bases on worldwide copper mines, smelters, and plants. This piece is projected on to a copper-infused, copper-colored conductive fabric. 
-  [one.jpg] 
-  [three.jpg]
-  [4.jpg]
-  [8.jpg]
-
-In front is a metaphorical "circuit" of objects: a sculptural installation of yarn, selvage circuitry, smart phone, found natural materials, and copper tape. Touching part of the sculpture closes the circuit and subtly manipulate the projection & sound.
-  [topview.jpg]
-
-
-  Made with found objects, copper, Leaflet.js, Mapbox, Tone.js, with thanks to Freesound.org user Travis Needham. 
-
-`
-
-  },
 
   {
     "folder": "cloudpoem",
@@ -335,6 +291,25 @@ Website → <a href="https://eroticeventlisteners.glitch.me" target="_blank">Ero
 
 
         `
+  }, {
+    "folder": "no-object",
+    "name": "there is no mineral of futurity",
+    "tags": "",
+    "thumb": "7.jpg",
+    "content": `
+  “there is no mineral of futurity” (2023) is a textile-based, photographic meditation on extractivism, technology, and the color blue. Through cyanotypes, the piece depicts error screens, cursors, glitches, alongside mining sites in Google satellite imagery and settler colonial cartographies. Among these are lithium mines in the American Southwest and cobalt mines in the Congo, both of which are crucial for battery production; the piece’s geographies also include a 19th century map of the largest copper mine in the world, based in Chile, which played a critical role in the dawn of electricity and electronics. 
+  These cyanotype images were developed using solar power and iron-based pigment, which nods to photography’s material basis. Perhaps there is something about photography which pretends to be virtual as well, which creates what Susan Sontag calls a “fracturing, dislocating vision that only the camera supplies.” I would venture to say that language crops the world in such a way, too, notably within the technology of object recognition. And so the piece reckons not only with the geographies of extraction, but also its grammars. In this case, it references the surveillant, extractive gaze of artificial intelligence, skimming over the maps, and claiming, “NO OBJECT FOUND.” 
+  
+  [1.png]
+  [7.jpg]
+  [3.jpg]
+  [17.jpg]
+  [6.jpg]
+
+
+
+`
+
   },
   //         {  "folder":"maldenzine",
   // "name":"Malden Transit Justice Zine",
@@ -392,6 +367,33 @@ Website → <a href="https://eroticeventlisteners.glitch.me" target="_blank">Ero
     <br>
  
     `
+  },
+  {
+    "folder": "internetgeo",
+    "name": "internet geology",
+    "tags": "Mixed media, data, projection, sound, poetry",
+    "thumb": "8.jpg",
+    "content": `
+  Internet Geology is a multimedia installation which highlights geographic sites of copper extraction and outlines the role of copper in technology and internet infrastructures. 
+  
+  Inspired by Fernando Godoy’s copper mine recordings, Trevor Paglen’s drone footage project, and Sam Lavigne’s web scrape of oil news, the digital projection combines sound, maps, government data, and poetry to play with the aesthetics of systemized extraction and "the field." 
+  
+  <iframe src="https://player.vimeo.com/video/778307297?h=7132e13db1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+  The installation combines the satellite’s gaze (via OpenMapBox) and Open Mineral data from US governmental data bases on worldwide copper mines, smelters, and plants. This piece is projected on to a copper-infused, copper-colored conductive fabric. 
+  [one.jpg] 
+  [three.jpg]
+  [4.jpg]
+  [8.jpg]
+
+In front is a metaphorical "circuit" of objects: a sculptural installation of yarn, selvage circuitry, smart phone, found natural materials, and copper tape. Touching part of the sculpture closes the circuit and subtly manipulate the projection & sound.
+  [topview.jpg]
+
+
+  Made with found objects, copper, Leaflet.js, Mapbox, Tone.js, with thanks to Freesound.org user Travis Needham. 
+
+`
+
   },
   {
     "folder": "office",
