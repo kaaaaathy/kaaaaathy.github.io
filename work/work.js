@@ -93,7 +93,7 @@ USB, USB-C, SD card... I give credit to the brilliant Mika Ben Amar <a href="htt
     "folder": "homonym",
     "name": "homonym",
     "tags": "",
-    "thumb": "main.png",
+    "thumb": "thumb.png",
     "content": `
           Jacquard-loomed hanging of my mother's circuitry. Cotton, 50 * 60 inches.
           [main.png]
@@ -106,10 +106,15 @@ USB, USB-C, SD card... I give credit to the brilliant Mika Ben Amar <a href="htt
     "folder": "weaves",
     "name": "scintillations",
     "tags": "",
-    "thumb": "weave3.png",
+    "thumb": "infinitethumb.jpg",
     "content": `
-            work in progress. Inkjet on cotton, copper sheeting. 12 * 16 inches.
+            Scenes from Sewell, Chile: the largest underground copper mine and its American company town.
+            Inkjet on cotton, digital embroidery. 24 * 18 inches.
+            [infinite.JPG]
+            [metalis.JPG]
             <br>
+
+            Open-pit triptych, Southern Arizona. Inkjet on cotton, copper sheeting. 12 * 16 inches.
             [weave3.png]
     
             [weave1.png]
