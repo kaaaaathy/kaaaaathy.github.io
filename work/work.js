@@ -3,7 +3,7 @@ work = [
     "folder": "she-will-last",
     "name": "she will last as long as stones",
     "tags": "",
-    "thumb": "still3.png",
+    "thumb": "vidstill4.png",
     "content": `
   MFA thesis project for Brown University Literary Arts program, 2024. Advised by Sawako Nakayasu. 
   A poetry performance about copper and cobalt mining, losing my mother, and ways that grief is a circuit, and how stones teach us about eternity. Perhaps maternal and ecological grief are a deep form of love, persisting. A huge thank you to Si-Min Chong for taking these photos!
@@ -36,13 +36,11 @@ work = [
 
   <br>
   ACCOMPANYING OBJECTS
-  More to come.
 
-  A sheer organza quilt of text and digitally embroidered circuits. Text is by me; all circuits are by my mother.
-  [quilt-edit.jpg]
+  Rockite-cast "fossils" of iPhones, plus a sheer organza quilt of text and digitally embroidered circuits. Text is by me; all circuits are by my mother.
 
-  Rockite-cast "fossils" of iPhones.
   [cast2.jpg]
+  [quilt-edit.jpg]
   [cast4crop.jpg]
 `
   },
@@ -93,10 +91,10 @@ USB, USB-C, SD card... I give credit to the brilliant Mika Ben Amar <a href="htt
     "folder": "homonym",
     "name": "homonym",
     "tags": "",
-    "thumb": "thumb.png",
+    "thumb": "crop.png",
     "content": `
           Jacquard-loomed hanging of my mother's circuitry. Cotton, 50 * 60 inches.
-          [main.png]
+          [crop.png]
           [detail5.JPG]
           [detail2.JPG]
           [detail7.JPG]
@@ -146,39 +144,10 @@ USB, USB-C, SD card... I give credit to the brilliant Mika Ben Amar <a href="htt
   },
 
   {
-    "folder": "weeds",
-    "name": "the color of dislocation (weeds now run wild)",
-    "tags": "",
-    "thumb": "3.jpg",
-    "content": `
-  THE COLOR OF DISLOCATION (weeds now run wild) is an ongoing work, a hybrid mini-chapbook with textile components. 
-     The text aggregates photographic scans with “found” material of Pliny the Elder’s writings, Darwin’s HMS Beagle Voyage throughout the Global South, and Werner’s Nomenclature of Colour.   Excerpts from the book are forthcoming from Nightboat Books anthology, <a href="https://nightboat.org/book/permanent-record-poetics-towards-the-archive/" target="_blank">Permanent Record</a>.
-    [spread1.png]
-    [spread2.png]
-
-    The poems themselves are concerned with sheerness, opacity, and color in classification systems.     I wonder at how scientific language grasps at knowledge; precisions it; pins it as a colonial found. Perhaps poetic gestures of annotation and collage introduce fog instead, and trouble the body of water which represents “scientific” epistemology.
-
-    [book4.jpg]
-  
-    Translation-of-book into cloths buoyed by wind. 
-
-    [3.jpg]
-    [5.jpg]
-    [7.jpg]
-<br/>
-  The first banner was made in the winter:
-  [anobject2.jpg]
-
-
-`
-
-  },
-
-  {
     "folder": "blueimg",
     "name": "virtual blue",
     "tags": "HTML, javaScript, projection, sound, poetry",
-    "thumb": "blueceiling.png",
+    "thumb": "blue1.gif",
     "content": `
 Published in Fonograf Edition's <a href="https://fonografeditions.com/catalog/fono31-de-canon-fe-a-mouth-holds-many-things-print-anthology/" target="_blank">A Mouth Holds Many Things</a>. If you call something, you can keep it in a box. If you classify it, perhaps you can harvest it. Commodification and supply chain and frameworks of extraction have their own grammars.
 This infinitely looping browser poem explores concepts both abstract and concrete — a color wavelength — are socialized through language. How blue was the last discrete color category to be named in English.
@@ -230,6 +199,35 @@ Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtua
     `
   },
 
+  {
+    "folder": "weeds",
+    "name": "the color of dislocation (weeds now run wild)",
+    "tags": "",
+    "thumb": "thumb.png",
+    "content": `
+  THE COLOR OF DISLOCATION (weeds now run wild) is an ongoing work, a hybrid mini-chapbook with textile components. 
+     The text aggregates photographic scans with “found” material of Pliny the Elder’s writings, Darwin’s HMS Beagle Voyage throughout the Global South, and Werner’s Nomenclature of Colour.   Excerpts from the book are forthcoming from Nightboat Books anthology, <a href="https://nightboat.org/book/permanent-record-poetics-towards-the-archive/" target="_blank">Permanent Record</a>.
+    [spread1.png]
+    [spread2.png]
+
+    The poems themselves are concerned with sheerness, opacity, and color in classification systems.     I wonder at how scientific language grasps at knowledge; precisions it; pins it as a colonial found. Perhaps poetic gestures of annotation and collage introduce fog instead, and trouble the body of water which represents “scientific” epistemology.
+
+    [book4.jpg]
+  
+    Translation-of-book into cloths buoyed by wind. 
+
+    [3.jpg]
+    [5.jpg]
+    [7.jpg]
+<br/>
+  The first banner was made in the winter:
+  [anobject2.jpg]
+
+
+`
+
+  },
+
 
 
   {
@@ -263,7 +261,7 @@ Website → <a href="https://eroticeventlisteners.glitch.me" target="_blank">Ero
     "folder": "aarw-zine",
     "name": "community zines",
     "tags": "zine, workshop",
-    "thumb": "zine-scan-cover-2.png",
+    "thumb": "zine-scan-slow.gif",
     "content": `
         VISIONING TOWARDS ABOLITION
         Made with <a href="https://www.aarw.org/" target="_blank">Asian American Resource Workshop</a> as part of their abolition working group. Includes a political educator's toolkit to run this in your own communities.
@@ -377,19 +375,17 @@ Website → <a href="https://eroticeventlisteners.glitch.me" target="_blank">Ero
     "folder": "internetgeo",
     "name": "internet geology",
     "tags": "Mixed media, data, projection, sound, poetry",
-    "thumb": "8.jpg",
+    "thumb": "vid-short.gif",
     "content": `
   Internet Geology is a multimedia installation which highlights geographic sites of copper extraction and outlines the role of copper in technology and internet infrastructures. 
   
   Inspired by Fernando Godoy’s copper mine recordings, Trevor Paglen’s drone footage project, and Sam Lavigne’s web scrape of oil news, the digital projection combines sound, maps, government data, and poetry to play with the aesthetics of systemized extraction and "the field." 
-  
   <iframe src="https://player.vimeo.com/video/778307297?h=7132e13db1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
   The installation combines the satellite’s gaze (via OpenMapBox) and Open Mineral data from US governmental data bases on worldwide copper mines, smelters, and plants. This piece is projected on to a copper-infused, copper-colored conductive fabric. 
+   [geostill.png]
+ [in-action.jpg]
   [one.jpg] 
-  [three.jpg]
-  [4.jpg]
-  [8.jpg]
 
 In front is a metaphorical "circuit" of objects: a sculptural installation of yarn, selvage circuitry, smart phone, found natural materials, and copper tape. Touching part of the sculpture closes the circuit and subtly manipulate the projection & sound.
   [topview.jpg]
@@ -430,26 +426,7 @@ In front is a metaphorical "circuit" of objects: a sculptural installation of ya
 
     `
   },
-  // {
-  //   "folder": "person-object",
-  //   "name": "person [object]",
-  //   "tags": "",
-  //   "thumb": "thumb.png",
-  //   "content": `Artist book & poems about human labor within today's computational systems: content moderators in SE Asia who flag traumatizing content before it ever reaches our screens; low wage Amazon crowdsourced labor all over the world; low wage human subjects who help train our AI systems, including transcribing Alexa and other home assistant conversations.
 
-  //   Workers must often make decisions in "blurry" spaces, where machines are likely to make a mistake; they complete microtasks for little money with minimal labor protections; meanwhile their existence remains ghostly and un-rendered to rest of the world.
-
-  //   [0.png]
-  //   [1.png]
-  //   [2.png]
-
-
-
-
-
-  // `
-
-  // },
   {
     "folder": "looting",
     "name": "Looting Dream",
@@ -463,7 +440,26 @@ In front is a metaphorical "circuit" of objects: a sculptural installation of ya
 
    `
   },
+  {
+    "folder": "person-object",
+    "name": "person [object]",
+    "tags": "",
+    "thumb": "thumb2.png",
+    "content": `Artist book & poems about human labor within today's computational systems: content moderators in SE Asia who flag traumatizing content before it ever reaches our screens; low wage Amazon crowdsourced labor all over the world; low wage human subjects who help train our AI systems, including transcribing Alexa and other home assistant conversations.
 
+    Workers must often make decisions in "blurry" spaces, where machines are likely to make a mistake; they complete microtasks for little money with minimal labor protections; meanwhile their existence remains ghostly and un-rendered to rest of the world.
+
+    [0.png]
+    [1.png]
+    [2.png]
+
+
+
+
+
+  `
+
+  },
 
   {
     "folder": "dp",
@@ -523,9 +519,20 @@ I created interpretive “conversion tools”n the form of frames and boxes. Eac
   [4.jpg]
   [3alt.jpg]
   `
-  },
+  }
+  // ,
 
-
+  // {
+  //   "folder": "touchart",
+  //   "name": "Touch Art",
+  //   "tags": "",
+  //   "thumb": "example.png",
+  //   "content": `[ta-0.png]
+  //   [ta-4.png]
+  //   [ta-5.png]
+  //   [blog.png]
+  // `
+  // }
   //
   // {  "folder":"jelly",
   //   "name":"Pulmō Plastics",
