@@ -211,8 +211,10 @@
 			window.scrollTo(0, 0);
 			return <section id="content">
 				<h3>{project.name}</h3>
-				<span class="metadata">{project.tags} / {project.year}</span>
+
 				<div dangerouslySetInnerHTML={{ __html: parseProjectContent(project.content, project.folder) }}></div>
+				<br />
+				<span class="metadata">{project.tags} / {project.year}</span>
 			</section >
 
 		}
