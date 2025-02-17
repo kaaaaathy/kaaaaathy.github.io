@@ -19,7 +19,7 @@
 
 .metadata {
   font-size: 8pt;
-  color: rgb(115, 115, 115);
+  color: #555;
   text-transform: lowercase;
 }
 
@@ -559,6 +559,11 @@ h2 a,
   #work-stuff a figcaption {
     /* font-size: 13.5pt; */
     font-size: 12pt;
+  }
+
+  #credit,
+  .metadata {
+    font-size: 10pt;
   }
 
   .extlink {
