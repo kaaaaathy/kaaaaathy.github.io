@@ -356,8 +356,7 @@ Website → <a href="https://eroticeventlisteners.glitch.me" target="_blank">Ero
   [walk2.png]
   [walk3.png]
   [walk4.png]
-
-  more soon~`
+`
   },
 
   {

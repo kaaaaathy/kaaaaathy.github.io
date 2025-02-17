@@ -18,16 +18,11 @@
 /*--------------------------------------------------------------*/
 
 .metadata {
-  font-size: 9pt;
-  color: gray;
-  /* font-style: oblique; */
+  font-size: 8pt;
+  color: rgb(115, 115, 115);
   text-transform: lowercase;
 }
 
-.year {
-  font-family: "Authentic Sans", Arial, sans-serif;
-  padding-left: 16px;
-}
 
 #app {
   cursor: crosshair;
