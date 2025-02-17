@@ -130,12 +130,12 @@ USB, USB-C, SD card... I give credit to the brilliant Mika Ben Amar <a href="htt
     "tags": "",
     "year": "2023",
     "thumb": "4.jpg",
-    "content": `
-  acetate, mirrored plexiglass, gouache on bristol.
-  
+    "content": `  
   <i>on cyan</i> is an artist book of poetry which fixates on the perceptual, the optical, through the lens of color names. It refracts, it stalls, it attempts to match paint and paper to air. When folded out, the poem becomes a cyanometer, transparent and with swatches of blue descending in brightness.
 
   Perhaps in a medley of abstract plein air painting, field study, and poetry, the poem meditates on and tries to critique science figures like Alexander Humboldt (who sought to <a href="https://www.lrb.co.uk/the-paper/v41/n04/joyce-chaplin/blues-of-many-skies" target="_blank">measure the blue of the sky.</a>) It reflects on natural world’s capacity within as well as how it suffers from naming; the way dissections are incomplete and faltering; the complexity of everything even air refracting blue light. 
+
+  Made of acetate, mirrored plexiglass, gouache on bristol.
 
   [1.jpg]
   [8.jpg]
@@ -143,7 +143,10 @@ USB, USB-C, SD card... I give credit to the brilliant Mika Ben Amar <a href="htt
   [4.jpg]
   [5.jpg]
   [2.jpg]
-
+<br/><br/>
+  PERFORMANCE
+  Video component made with p5.js, voice.
+  <iframe src="https://player.vimeo.com/video/781114238?h=0bb978ccb6" frameborder="0" width="100%" height ="320"></iframe>
 `
 
   },
@@ -158,7 +161,7 @@ USB, USB-C, SD card... I give credit to the brilliant Mika Ben Amar <a href="htt
 Published in Fonograf Edition's <a href="https://fonografeditions.com/catalog/fono31-de-canon-fe-a-mouth-holds-many-things-print-anthology/" target="_blank">A Mouth Holds Many Things</a>. If you call something, you can keep it in a box. If you classify it, perhaps you can harvest it. Commodification and supply chain and frameworks of extraction have their own grammars.
 This infinitely looping browser poem explores concepts both abstract and concrete — a color wavelength — are socialized through language. How blue was the last discrete color category to be named in English.
 
-Watch with sound on:<iframe src="https://player.vimeo.com/video/653867996" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+Watch with sound on:<iframe src="https://player.vimeo.com/video/653867996" width="100%" height="350" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtual blue</a> (images may load slowly before they cache)
 <br><br>
 
@@ -214,7 +217,7 @@ Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtua
     "thumb": "thumb.png",
     "content": `
   THE COLOR OF DISLOCATION (weeds now run wild) is an ongoing work, a hybrid mini-chapbook with textile components. 
-     The text aggregates photographic scans with “found” material of Pliny the Elder’s writings, Darwin’s HMS Beagle Voyage throughout the Global South, and Werner’s Nomenclature of Colour.   Excerpts from the book are forthcoming from Nightboat Books anthology, <a href="https://nightboat.org/book/permanent-record-poetics-towards-the-archive/" target="_blank">Permanent Record</a>.
+     The text aggregates photographic scans with “found” material of Pliny the Elder’s writings, Darwin’s HMS Beagle Voyage throughout the Global South, and Werner’s Nomenclature of Colour. Excerpts from the book are published in the Nightboat Books anthology, <a href="https://nightboat.org/book/permanent-record-poetics-towards-the-archive/" target="_blank">Permanent Record</a>.
     [spread1.png]
     [spread2.png]
 
@@ -397,7 +400,7 @@ Website → <a href="https://eroticeventlisteners.glitch.me" target="_blank">Ero
 
   The installation combines the satellite’s gaze (via OpenMapBox) and Open Mineral data from US governmental data bases on worldwide copper mines, smelters, and plants. This piece is projected on to a copper-infused, copper-colored conductive fabric. 
    [geostill.png]
- [in-action.jpg]
+ [action.jpg]
   [one.jpg] 
 
 In front is a metaphorical "circuit" of objects: a sculptural installation of yarn, selvage circuitry, smart phone, found natural materials, and copper tape. Touching part of the sculpture closes the circuit and subtly manipulate the projection & sound.
@@ -486,11 +489,11 @@ In front is a metaphorical "circuit" of objects: a sculptural installation of ya
     Better documentation coming soon (maybe).
 
   [crop.png]
-  [1.jpg]
+  [one.jpg]
   [crop2.png]
-  [2.jpg]
+  [two.jpg]
   [crop3.png]
-  [3.jpg]
+  [three.jpg]
   `
 
   },
