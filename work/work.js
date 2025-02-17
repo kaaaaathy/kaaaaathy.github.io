@@ -3,6 +3,7 @@ work = [
     "folder": "she-will-last",
     "name": "she will last as long as stones",
     "tags": "",
+    "year": "2024",
     "thumb": "vidstill4.png",
     "content": `
   MFA thesis project for Brown University Literary Arts program, 2024. Advised by Sawako Nakayasu. 
@@ -50,6 +51,7 @@ work = [
     "folder": "fossils",
     "name": "litany for the ground (fossils)",
     "tags": "",
+    "year": "2025",
     "thumb": "spin.gif",
     "content": `
           Multi-media body of work thinking through the "geology of media," as defined by theorist Jussi Parrika, and via the forms of litanies and list poems. Sculptures of sand, rockite, vintage hardware, data / website of poems, 3D scans / installation of stone, digital fabric print.
@@ -91,6 +93,7 @@ USB, USB-C, SD card... I give credit to the brilliant Mika Ben Amar <a href="htt
     "folder": "homonym",
     "name": "homonym",
     "tags": "",
+    "year": "2025",
     "thumb": "crop.png",
     "content": `
           Jacquard-loomed hanging of my mother's circuitry. Cotton, 50 * 60 inches.
@@ -104,6 +107,7 @@ USB, USB-C, SD card... I give credit to the brilliant Mika Ben Amar <a href="htt
     "folder": "weaves",
     "name": "scintillations",
     "tags": "",
+    "year": "2025",
     "thumb": "infinitethumb.jpg",
     "content": `
             Scenes from Sewell, Chile: the largest underground copper mine and its American company town.
@@ -124,6 +128,7 @@ USB, USB-C, SD card... I give credit to the brilliant Mika Ben Amar <a href="htt
     "folder": "cyan",
     "name": "on cyan",
     "tags": "",
+    "year": "2023",
     "thumb": "4.jpg",
     "content": `
   acetate, mirrored plexiglass, gouache on bristol.
@@ -148,6 +153,7 @@ USB, USB-C, SD card... I give credit to the brilliant Mika Ben Amar <a href="htt
     "name": "virtual blue",
     "tags": "HTML, javaScript, projection, sound, poetry",
     "thumb": "blue1.gif",
+    "year": "2021",
     "content": `
 Published in Fonograf Edition's <a href="https://fonografeditions.com/catalog/fono31-de-canon-fe-a-mouth-holds-many-things-print-anthology/" target="_blank">A Mouth Holds Many Things</a>. If you call something, you can keep it in a box. If you classify it, perhaps you can harvest it. Commodification and supply chain and frameworks of extraction have their own grammars.
 This infinitely looping browser poem explores concepts both abstract and concrete — a color wavelength — are socialized through language. How blue was the last discrete color category to be named in English.
@@ -190,6 +196,7 @@ Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtua
     "folder": "cloudpoem",
     "name": "when will it rain",
     "tags": "javascript, HTML, poetry",
+    "year": "2023",
     "thumb": "thumb.png",
     "content": `A webpoem about balloons and meteorology and unidentifiable objects, about the limits of knowing and seeing, how governments and states know and see.
     Procedurally redacts/translates things into the word "object," folds in live weather from government data. 
@@ -203,6 +210,7 @@ Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtua
     "folder": "weeds",
     "name": "the color of dislocation (weeds now run wild)",
     "tags": "",
+    "year": "2023",
     "thumb": "thumb.png",
     "content": `
   THE COLOR OF DISLOCATION (weeds now run wild) is an ongoing work, a hybrid mini-chapbook with textile components. 
@@ -234,6 +242,7 @@ Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtua
     "folder": "eroevent",
     "name": "erotic event listeners",
     "tags": "",
+    "year": "2022",
     "thumb": "1.jpg",
     "content": `
     Included in <a href="https://criticalcode.recipes/" target="_blank">Critical Coding Cookbook: Intersectional Feminist Approaches to Teaching and Learning</a>, via The New School.
@@ -261,6 +270,7 @@ Website → <a href="https://eroticeventlisteners.glitch.me" target="_blank">Ero
     "folder": "aarw-zine",
     "name": "community zines",
     "tags": "zine, workshop",
+    "year": "2021",
     "thumb": "zine-scan-slow.gif",
     "content": `
         VISIONING TOWARDS ABOLITION
@@ -298,9 +308,10 @@ Website → <a href="https://eroticeventlisteners.glitch.me" target="_blank">Ero
     "folder": "no-object",
     "name": "there is no mineral of futurity",
     "tags": "",
+    "year": "2023",
     "thumb": "7.jpg",
     "content": `
-  “there is no mineral of futurity” (2023) is a textile-based, photographic meditation on extractivism, technology, and the color blue. Through cyanotypes, the piece depicts error screens, cursors, glitches, alongside mining sites in Google satellite imagery and settler colonial cartographies. Among these are lithium mines in the American Southwest and cobalt mines in the Congo, both of which are crucial for battery production; the piece’s geographies also include a 19th century map of the largest copper mine in the world, based in Chile, which played a critical role in the dawn of electricity and electronics. 
+  A textile-based, photographic meditation on extractivism, technology, and the color blue. Through cyanotypes, the piece depicts error screens, cursors, glitches, alongside mining sites in Google satellite imagery and settler colonial cartographies. Among these are lithium mines in the American Southwest and cobalt mines in the Congo, both of which are crucial for battery production; the piece’s geographies also include a 19th century map of the largest copper mine in the world, based in Chile, which played a critical role in the dawn of electricity and electronics. 
   These cyanotype images were developed using solar power and iron-based pigment, which nods to photography’s material basis. Perhaps there is something about photography which pretends to be virtual as well, which creates what Susan Sontag calls a “fracturing, dislocating vision that only the camera supplies.” I would venture to say that language crops the world in such a way, too, notably within the technology of object recognition. And so the piece reckons not only with the geographies of extraction, but also its grammars. In this case, it references the surveillant, extractive gaze of artificial intelligence, skimming over the maps, and claiming, “NO OBJECT FOUND.” 
   
   [1.png]
@@ -335,6 +346,7 @@ Website → <a href="https://eroticeventlisteners.glitch.me" target="_blank">Ero
     "folder": "walk",
     "name": "walking with ghosts",
     "tags": "Interactive, HTML",
+    "year": "2021",
     "thumb": "thumb.png",
     "content": `*walking with ghosts* is a hypertext web poem that invites the reader to travel through cryptic sites in Google Street View. the images are pulled from current NY public parks (nearly all of which used to be potter's fields) and contrasts present day burial grounds with these recreational spaces.
   it nods at the historical layers of eviction, theft, imperialism embedded quietly and namelessly in these green spaces, via the narrative throughline of ghosts.
@@ -352,6 +364,7 @@ Website → <a href="https://eroticeventlisteners.glitch.me" target="_blank">Ero
     "folder": "semiconduction",
     "name": "Touching Each Other Through Semi Conduction",
     "tags": "Interactive, HTML",
+    "year": "2021–3",
     "thumb": "companion2.png",
     "content": `A two-part poem diptych between screen-based work and artist book. Reflections on supply chain, migrant labor, Foxconn, diaspora.
     <br>
@@ -375,6 +388,7 @@ Website → <a href="https://eroticeventlisteners.glitch.me" target="_blank">Ero
     "folder": "internetgeo",
     "name": "internet geology",
     "tags": "Mixed media, data, projection, sound, poetry",
+    "year": "2022",
     "thumb": "vid-short.gif",
     "content": `
   Internet Geology is a multimedia installation which highlights geographic sites of copper extraction and outlines the role of copper in technology and internet infrastructures. 
@@ -400,6 +414,7 @@ In front is a metaphorical "circuit" of objects: a sculptural installation of ya
     "folder": "office",
     "name": "Office for Language Under Capitalism",
     "tags": "Interactive, HTML",
+    "year": "2022",
     "thumb": "thumb.jpg",
     "content": `    I'm interested in what happens to language under specific sociopolitical constraints.
     Language under capitalism compresses itself—it minifies into lean, neat boxes fit for work and production. It does not rebel, it does not deviate; it eclipses possibility of what could be in our relationships.
@@ -431,6 +446,7 @@ In front is a metaphorical "circuit" of objects: a sculptural installation of ya
     "folder": "looting",
     "name": "Looting Dream",
     "tags": "Interactive, HTML",
+    "year": "2021",
     "thumb": "thumb.jpg",
     "content": `An interactive web fantasy about distorting, glitching, re-inserting, and deleting from glass boxes + institutions. Seen on <a href="https://pages.virtualgoodsdealer.com/exhibits" target="_blank">Virtual Goods Dealer</a>.
      Read online → <a href="https://kaaathy.com/everything/looting-dream.html" target="_blank">LINK</a>
@@ -444,6 +460,7 @@ In front is a metaphorical "circuit" of objects: a sculptural installation of ya
     "folder": "person-object",
     "name": "person [object]",
     "tags": "",
+    "year": "2023",
     "thumb": "thumb2.png",
     "content": `Artist book & poems about human labor within today's computational systems: content moderators in SE Asia who flag traumatizing content before it ever reaches our screens; low wage Amazon crowdsourced labor all over the world; low wage human subjects who help train our AI systems, including transcribing Alexa and other home assistant conversations.
 
@@ -464,16 +481,17 @@ In front is a metaphorical "circuit" of objects: a sculptural installation of ya
     "folder": "a-cell",
     "name": "A CELL, A CELL",
     "tags": "",
+    "year": "2023",
     "thumb": "sadthumb.png",
     "content": `An artist's book of short expiermental poems about the bureaucracy of end-of-life care, of diaspora and loss.
     Better documentation coming soon (maybe).
 
   [crop.png]
-  [1.JPG]
+  [1.jpg]
   [crop2.png]
-  [2.JPG]
+  [2.jpg]
   [crop3.png]
-  [3.JPG]
+  [3.jpg]
   `
 
   },
@@ -481,6 +499,7 @@ In front is a metaphorical "circuit" of objects: a sculptural installation of ya
     "folder": "dp",
     "name": "The Byte Catalog",
     "tags": "installation, sculpture, writing",
+    "year": "2015",
     "thumb": "thumb.jpg",
     "content": `
   RISD Degree Project, 2015. How much does the internet weigh? How much data do we consume? Are their landfills of information on the internet?
@@ -541,7 +560,7 @@ I created interpretive “conversion tools”n the form of frames and boxes. Eac
   // {
   //   "folder": "touchart",
   //   "name": "Touch Art",
-  //   "tags": "",
+
   //   "thumb": "example.png",
   //   "content": `[ta-0.png]
   //   [ta-4.png]
