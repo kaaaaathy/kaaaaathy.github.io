@@ -400,7 +400,7 @@ Website → <a href="https://eroticeventlisteners.glitch.me" target="_blank">Ero
 
   The installation combines the satellite’s gaze (via OpenMapBox) and Open Mineral data from US governmental data bases on worldwide copper mines, smelters, and plants. This piece is projected on to a copper-infused, copper-colored conductive fabric. 
    [geostill.png]
- [action.jpg]
+ [action.png]
   [one.jpg] 
 
 In front is a metaphorical "circuit" of objects: a sculptural installation of yarn, selvage circuitry, smart phone, found natural materials, and copper tape. Touching part of the sculpture closes the circuit and subtly manipulate the projection & sound.
@@ -489,11 +489,11 @@ In front is a metaphorical "circuit" of objects: a sculptural installation of ya
     Better documentation coming soon (maybe).
 
   [crop.png]
-  [one.jpg]
+  [one.png]
   [crop2.png]
-  [two.jpg]
+  [two.png]
   [crop3.png]
-  [three.jpg]
+  [three.png]
   `
 
   },
