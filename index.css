@@ -20,7 +20,7 @@
 .metadata {
   font-size: 9pt;
   color: gray;
-  font-style: oblique;
+  /* font-style: oblique; */
   text-transform: lowercase;
 }
 
