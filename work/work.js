@@ -460,11 +460,27 @@ In front is a metaphorical "circuit" of objects: a sculptural installation of ya
   `
 
   },
+  {
+    "folder": "a-cell",
+    "name": "A CELL, A CELL",
+    "tags": "",
+    "thumb": "sadthumb.png",
+    "content": `An artist's book of short expiermental poems about the bureaucracy of end-of-life care, of diaspora and loss.
+    Better documentation coming soon (maybe).
 
+  [crop.png]
+  [1.JPG]
+  [crop2.png]
+  [2.JPG]
+  [crop3.png]
+  [3.JPG]
+  `
+
+  },
   {
     "folder": "dp",
     "name": "The Byte Catalog",
-    "tags": "Installation, sculpture, writing",
+    "tags": "installation, sculpture, writing",
     "thumb": "thumb.jpg",
     "content": `
   RISD Degree Project, 2015. How much does the internet weigh? How much data do we consume? Are their landfills of information on the internet?
