@@ -382,6 +382,9 @@ ul {
 @media screen and (max-width: 600px) {
 
 
+  figcaption {
+    justify-content: center;
+  }
 
 
   #aboutcontainer a:active {
