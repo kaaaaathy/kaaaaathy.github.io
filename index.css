@@ -500,7 +500,7 @@ ul {
 }
 
 #content div {
-  margin-top: 20px;
+  margin-top: 12px;
 }
 
 
@@ -508,7 +508,7 @@ ul {
   height: auto;
   width: 100%;
   display: block;
-  margin: 16px 0 16px 0;
+  margin: 12px 0px;
 }
 
 h2 a,
@@ -578,7 +578,9 @@ h2 a,
   }
 
 
-
+  #content div {
+    margin-top: 16px;
+  }
 
 
 
