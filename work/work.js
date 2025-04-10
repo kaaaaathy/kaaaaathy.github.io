@@ -45,25 +45,7 @@ work = [
   [cast4crop.jpg]
 `
   },
-  {
-    "folder": "for-let",
-    "name": "for let earth",
-    "tags": "",
-    "year": "2025",
-    "thumb": "heropic.png",
-    "content": `Fragment of a larger body of work. Published through <a href="https://www.tiltedhouse.org/shop/for-let-earth-kathy-wu-presale" target="_blank">Tilted House Press</a> in New Orleans: "a booklet dense with illogical geologies, extracted metals, verbal and visual circuitries, and copper wires connecting ‘mother-daughterboards,’ labor, and land. Printed in an edition of 150 on new and old technologies. 4.25” x 7”, 12 pages, letters metals + elements."
 
-    Polymer plate from Boxcar Press on Mohawk Carnival. Printed on a Vandercook 320G.
-
-    [heropic.png]
-    [inner-cover.png]
-    [feelingofwalking.png]
-        [close.png]
-
-    [colophon.png]
-[cover-spread.png]
-    `
-  },
 
   {
     "folder": "fossils",
@@ -141,7 +123,25 @@ USB, USB-C, SD card... I give credit to the brilliant Mika Ben Amar <a href="htt
     
             [weave2.png]
         `},
-
+  {
+    "folder": "for-let",
+    "name": "for let earth",
+    "tags": "",
+    "year": "2025",
+    "thumb": "heropic.png",
+    "content": `Fragment of a larger body of work. Published through <a href="https://www.tiltedhouse.org/shop/for-let-earth-kathy-wu-presale" target="_blank">Tilted House Press</a> in New Orleans: "a booklet dense with illogical geologies, extracted metals, verbal and visual circuitries, and copper wires connecting ‘mother-daughterboards,’ labor, and land. Printed in an edition of 150 on new and old technologies. 4.25” x 7”, 12 pages, letters metals + elements."
+      
+          Polymer plate from Boxcar Press on Mohawk Carnival. Printed on a Vandercook 320G.
+      
+          [heropic.png]
+          [inner-cover.png]
+          [feelingofwalking.png]
+              [close.png]
+      
+          [colophon.png]
+      [cover-spread.png]
+          `
+  },
   {
     "folder": "cyan",
     "name": "on cyan",
