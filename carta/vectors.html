@@ -216,7 +216,7 @@
     }).addTo(map);
 
 
-    Papa.parse('cobalt.txt', {
+    Papa.parse('copper-list.txt', {
         download: true,
         complete: function (results, file) {
             // console.log("Parsing complete:", results, file);
@@ -256,7 +256,7 @@
 
     async function animate() {
 
-        for (let i = 1; i < data.length - 1; i++) {
+        for (let i = 0; i < data.length - 1; i++) {
             let y = lon[i];
             let x = lat[i];
             let latlng = L.latLng(x, y);

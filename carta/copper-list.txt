@@ -1,0 +1,9 @@
+dep_id,url,mrds_id,mas_id,site_name,latitude,longitude,region,country,state,county,com_type,commod1,commod2,commod3,oper_type,company
+,,,,Dexing,29,117.758,,China,Jiangxi,,,Copper,,,,Jiangxi Copper
+,,,,Kamoa-Kakula,-10.882,25.198,,Congo - Kinshasa,Muvunda,,,Copper,,,,Ivanhoe Mines
+,,,,Morenci,33.098,-109.353696,,United States,Arizona,,,Copper,,,,Freeport McMoRan
+,,,,Chuquicamata,-22.289,-68.9,,Chile,Antofagasta,,,Copper,,,,Codelco
+,,,,Cerro Verde,-16.531,-71.604022,,Peru,Arequipa,,,Copper,,,,Freeport McMoRan
+,,,,El Teniente,-34.087779,-70.458021,,Chile,Machali,,,Copper,,,,Codelco
+,,,,Bisbee Queen Mine,31.440621,-109.913003,,United States,Arizona,,,Copper,,,,Freeport McMoRan
+,,,,Sierrita Mine,31.873309,-111.137433,,United States,Arizona,,,Copper,,,,Freeport McMoRan
