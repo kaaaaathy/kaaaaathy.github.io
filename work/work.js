@@ -295,7 +295,8 @@ Website → <a href="https://eroticeventlisteners.glitch.me" target="_blank">Ero
     "thumb": "zine-scan-slow.gif",
     "content": `
         VISIONING TOWARDS ABOLITION
-        Made with <a href="https://www.aarw.org/" target="_blank">Asian American Resource Workshop</a> as part of their abolition working group. Includes a political educator's toolkit to run this in your own communities.
+        Made with <a href="https://www.aarw.org/" target="_blank">Asian American Resource Workshop</a> (AARW) as part of their abolition working group. Includes a political educator's toolkit to run this in your own communities. Distributed online through AARW as well as through <a href="https://pm.linkedbyair.net/catalog/59883/" target="_blank">Printed Matter</a>.
+        <br>
         Download the zine for free → <a href="https://www.aarw.org/zines/abolitionzine" target="_blank">LINK</a>
         Use the workshop toolkit → <a href="https://docs.google.com/presentation/d/1pfmC3wtc6xU0QqKWCPTugfl0HUkxZXpLT9-772c-Ndo/edit#slide=id.g10d7d2d8eac_0_155" target="_blank">LINK</a> 
  
