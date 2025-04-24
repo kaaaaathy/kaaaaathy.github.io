@@ -134,9 +134,7 @@ USB, USB-C, SD card... I give credit to the brilliant Mika Ben Amar <a href="htt
             [metalis.JPG]
             <br>
 
-            Open-pit triptych, Southern Arizona. Inkjet on cotton, copper sheeting. 12 * 16 inches.
-            [weave3.png]
-    
+            Open-pit series, Southern Arizona. Inkjet on cotton, copper sheeting. 12 * 16 inches.    
             [weave1.png]
     
             [weave2.png]
