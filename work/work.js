@@ -26,23 +26,24 @@ work = [
   [river2 edit.jpg]
 
 
-  <br>
+
+  <br><br>
+  ACCOMPANYING MEDIA
+  Website of speech-to-text transcription alongside USGS mining data / Digitally embroidered organza quilt of poems alongside my mother's circuit diagrams / iPhone 4 cast in cement.
+
+
+    <iframe src="https://player.vimeo.com/video/1079861192" frameborder="0" width="100%" height ="320"></iframe>
+   [quilt-edit.jpg]
+   [iphonecast.jpg]
+
+     <br><br>
   POETRY MANUSCRIPT
-  Writing, design, images. Printed in a small batch on my own.
+  Writing, design, images. Printed in a small batch on my own. A longer edition of this book is forthcoming with Wendy's Subway in fall 2025.
 
   [book1.jpg]
   [book2.png]
-  [carta.png]
 
 
-  <br>
-  ACCOMPANYING OBJECTS
-
-  Rockite-cast "fossils" of iPhones, plus a sheer organza quilt of text and digitally embroidered circuits. Text is by me; all circuits are by my mother.
-
-  [cast2.jpg]
-  [quilt-edit.jpg]
-  [cast4crop.jpg]
 `
   },
 
@@ -58,7 +59,7 @@ work = [
           Read the web component → <a href="http://kaaathy.com/fossils" target="_blank">LINK</a> 
 <br>
           SCULPTURES
-          These objects are extensions of the <a href="http://kaaathy.com/work/she-will-last/cast4crop.jpg" target="_blank">computery fossils</a> I made in Spring '24. Plus SD cards, USB-C, vintage nokia phone...
+          These objects are extensions of the <a href="http://kaaathy.com/work/she-will-last/iphonecast.jpg" target="_blank">cement casts</a> I made in Spring '24. Plus SD cards, USB-C, vintage nokia phone. These works are very much inspired by Blair Simmons's <a href="https://www.blairsimmons.com/">laptop-in-cement</a>!
           [mirror2.JPG]
           [invert.png]
           [mirror7.JPG]
