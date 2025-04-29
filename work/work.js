@@ -34,7 +34,7 @@ work = [
 
     <iframe src="https://player.vimeo.com/video/1079861192" frameborder="0" width="100%" height ="320"></iframe>
    [quilt-edit.jpg]
-   [iphonecast.jpg]
+   [iphone.png]
 
      <br><br>
   POETRY MANUSCRIPT
@@ -59,7 +59,7 @@ work = [
           Read the web component → <a href="http://kaaathy.com/fossils" target="_blank">LINK</a> 
 <br>
           SCULPTURES
-          These objects are extensions of the <a href="http://kaaathy.com/work/she-will-last/iphonecast.jpg" target="_blank">cement casts</a> I made in Spring '24. Plus SD cards, USB-C, vintage NOKIA phone. These works are very much inspired by Blair Simmons's <a href="https://www.blairsimmons.com/">laptop-in-cement</a>!
+          These objects are extensions of the <a href="http://kaaathy.com/work/she-will-last/iphone.png" target="_blank">cement casts</a> I made in Spring '24. Plus SD cards, USB-C, vintage NOKIA phone. These works are very much inspired by Blair Simmons's <a href="https://www.blairsimmons.com/">laptop-in-cement</a>!
           [mirror2.JPG]
           [invert.png]
           [mirror7.JPG]
