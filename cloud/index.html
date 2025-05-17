@@ -1,96 +1,120 @@
 <html>
-    <head>
-        <title>when is it going to rain</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
-<script src="https://unpkg.com/rita">
+
+<head>
+    <title>when is it going to rain</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/rita"></script>
 
     // Typeset in Authentic Sans, with text from
     // TungHui Hu's PREHISTORY OF THE CLOUD,
     // WIKIPEDIA's UFO PAGE, CNN.
     // Using the US gov free Weather API.
 
-</script>
+    </script>
 
-        <style>
+    <style>
+        @font-face {
+            font-family: 'authentic';
+            src: url('AUTHENTICSans-60.woff');
+        }
 
-            @font-face {
-                font-family: 'authentic';
-                src: url('AUTHENTICSans-60.woff');
-            }
-
-           body{
-            padding:0px 100px;
+        body {
+            padding: 0px 100px;
             background-image: url('ocean2.gif');
             background-size: cover;
-            font-family:'authentic', Arial;
+            font-family: 'authentic', Arial;
             letter-spacing: 2px;
             font-size: 50px;
             line-height: 1.2em;
             text-align: center;
-            color:white;
+            color: white;
             user-select: none;
-            
 
-           }
-    
 
-           #contents{
-            margin:auto;
-           }
-           marquee{
+        }
+
+
+        #contents {
+            margin: auto;
+        }
+
+        marquee {
             text-align: center;
 
-           }
-           span{
+        }
 
-            color:silver;
-           }
+        span {
 
-           #TL,#TR,#BL,#BR{
+            color: silver;
+        }
+
+        #TL,
+        #TR,
+        #BL,
+        #BR {
             position: fixed;
             font-size: 20px;
-           } #TL,#TR{ top:-10px;
-           } #BL,#BR{ bottom:-10px;}
-           #TL,#BL{ left:20px; } #TR,#BR{right:20px;}
-        </style>
-    </head>
-    <body>
+        }
 
-        <p id="TL">&#9617;</p>
-        <p id="TR">&#9618;</p>
-        <p id="BL">&#9617;</p>
-        <p id="BR">&#9618;</p>
+        #TL,
+        #TR {
+            top: -10px;
+        }
 
-        
+        #BL,
+        #BR {
+            bottom: -10px;
+        }
 
-          <audio style = "display:none" controls preload="auto" id = "rain" loop>
-            <source src="naturenotesuk__weather-rain.wav" />
-          </audio>
+        #TL,
+        #BL {
+            left: 20px;
+        }
 
-          <audio style = "display:none" controls preload="auto" id = "type" loop>
-            <source src="tams_kp__typewriter22.ogg" />
-          </audio>
-    </body>
+        #TR,
+        #BR {
+            right: 20px;
+        }
+    </style>
+</head>
 
-    <script>
+<body>
+
+    <p id="TL">&#9617;</p>
+    <p id="TR">&#9618;</p>
+    <p id="BL">&#9617;</p>
+    <p id="BR">&#9618;</p>
+
+
+
+    <audio style="display:none" controls preload="auto" id="rain" loop>
+        <source src="naturenotesuk__weather-rain.wav" />
+    </audio>
+
+    <audio style="display:none" controls preload="auto" id="type" loop>
+        <source src="tams_kp__typewriter22.ogg" />
+    </audio>
+</body>
+
+<script>
 
 
     let rainSound = document.getElementById('rain');
     let typeSound = document.getElementById('type');
 
-    let started=false;
+    let started = false;
 
-    document.body.addEventListener('mousedown',function(){
-                    if (started == false){
-                            started = true;
-                            // rainSound.play();
-                            // type.play();
+    document.body.addEventListener('mousedown', function () {
+        if (started == false) {
+            started = true;
+            // rainSound.play();
+            // type.play();
 
 
-                    }
-                });
+        }
+    });
 
 
     let data;
@@ -138,81 +162,81 @@
 
 
     async function getData() {
-    try {
-        const response = await fetch('https://api.weather.gov/gridpoints/BOX/64,64/forecast');
-        data = await response.json();
-        tomorrow = data.properties.periods[1];
+        try {
+            const response = await fetch('https://api.weather.gov/gridpoints/BOX/64,64/forecast');
+            data = await response.json();
+            tomorrow = data.properties.periods[1];
 
-        rain = tomorrow.detailedForecast;
-        poem = "What's the weather like, " + rain + " " + raw;     
+            rain = tomorrow.detailedForecast;
+            poem = "What's the weather like, " + rain + " " + raw;
 
-        makeBody(poem);
+            makeBody(poem);
 
 
 
-    } catch (error) {
-        console.error('Error:', error);
-    }
+        } catch (error) {
+            console.error('Error:', error);
+        }
     }
 
     getData();
 
 
-function object(input){
-    count++;
-    if (count>countLimit){
-        let newPoem = input.split(" ");
-        for (let i = 0;i<newPoem.length;i++){
-            if(RiTa.isNoun(newPoem[i]) && Math.random()<0.05){
-                newPoem[i]= "<span>[object]</span>";
+    function object(input) {
+        count++;
+        if (count > countLimit) {
+            let newPoem = input.split(" ");
+            for (let i = 0; i < newPoem.length; i++) {
+                if (RiTa.isNoun(newPoem[i]) && Math.random() < 0.05) {
+                    newPoem[i] = "<span>[object]</span>";
                 }
 
-        }
-        if (count < 20){
-            for (let j=0;j<newPoem.length;j++){
-                if (Math.random()<0.03){
-                let randomComma = Math.floor(Math.random()*20);
-                newPoem[j+randomComma]= newPoem[j+randomComma] + "&#8202;, ";
-             }
             }
+            if (count < 20) {
+                for (let j = 0; j < newPoem.length; j++) {
+                    if (Math.random() < 0.03) {
+                        let randomComma = Math.floor(Math.random() * 20);
+                        newPoem[j + randomComma] = newPoem[j + randomComma] + "&#8202;, ";
+                    }
+                }
+            }
+            return newPoem.join(" ");
+        } else {
+            return input;
         }
-        return newPoem.join(" ");
-    } else {
-        return input;
-    }
 
-}
-function makeBody(input){
-    document.body.innerHTML+=`
+    }
+    function makeBody(input) {
+        document.body.innerHTML += `
     <marquee width="90%" direction="up" height="100%" scrollamount="3">
             <p id ="contents"></p>
         </marquee>`
-    contents = document.getElementById('contents');
-    animate(input);
+        contents = document.getElementById('contents');
+        animate(input);
 
-}
+    }
 
-async function animate(input) {
-        contents.innerHTML= poem;
+    async function animate(input) {
+        contents.innerHTML = poem;
         poem = object(input);
         await wait(5000);
 
         animate(poem);
 
-    }   
+    }
 
-    
+
 
 
     function wait(time) {
-    return new Promise(resolve => {
-        setTimeout(() => {
-        resolve('resolved');
-        }, time);
-    });
-}
-                
-            
-</script>
-</html>
+        return new Promise(resolve => {
+            setTimeout(() => {
+                resolve('resolved');
+            }, time);
+        });
+    }
 
+
+</script>
+
+</html>
