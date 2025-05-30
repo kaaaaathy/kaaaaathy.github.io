@@ -139,6 +139,7 @@ USB, USB-C, SD card... I give credit to the brilliant Mika Ben Amar <a href="htt
             [weave1.png]
     
             [weave2.png]
+            [weave3.png]
         `},
 
   {
@@ -330,7 +331,7 @@ Website → <a href="https://eroticeventlisteners.glitch.me" target="_blank">Ero
     "name": "there is no mineral of futurity",
     "tags": "",
     "year": "2023",
-    "thumb": "7.jpg",
+    "thumb": "thumb.jpg",
     "content": `
   A textile-based, photographic meditation on extractivism, technology, and the color blue. Through cyanotypes, the piece depicts error screens, cursors, glitches, alongside mining sites in Google satellite imagery and settler colonial cartographies. Among these are lithium mines in the American Southwest and cobalt mines in the Congo, both of which are crucial for battery production; the piece’s geographies also include a 19th century map of the largest copper mine in the world, based in Chile, which played a critical role in the dawn of electricity and electronics. 
   These cyanotype images were developed using solar power and iron-based pigment, which nods to photography’s material basis. Perhaps there is something about photography which pretends to be virtual as well, which creates what Susan Sontag calls a “fracturing, dislocating vision that only the camera supplies.” I would venture to say that language crops the world in such a way, too, notably within the technology of object recognition. And so the piece reckons not only with the geographies of extraction, but also its grammars. In this case, it references the surveillant, extractive gaze of artificial intelligence, skimming over the maps, and claiming, “NO OBJECT FOUND.” 
@@ -342,6 +343,22 @@ Website → <a href="https://eroticeventlisteners.glitch.me" target="_blank">Ero
   [6.jpg]
 
 
+
+`
+
+  },
+  {
+    "folder": "potters-fields",
+    "name": "satellite drawings",
+    "tags": "",
+    "year": "2021",
+    "thumb": "drawing1.png",
+    "content": `
+    Colored pencil drawings of former burial sites in NYC which are now public parks (or pending transformation in to a public park).
+
+    [drawing1.png]
+    [drawing2.png]
+    [drawing3.png]
 
 `
 
