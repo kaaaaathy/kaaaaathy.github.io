@@ -18,7 +18,7 @@
 /*--------------------------------------------------------------*/
 
 .metadata {
-  font-size: 8pt;
+  font-size: 7.5pt;
   color: #555;
   text-transform: lowercase;
 }
@@ -33,7 +33,7 @@
 body {
   background-color: whitesmoke;
 
-  font-size: 10pt;
+  font-size: 9.5pt;
   font-family: 'AUTHENTICSans', 'Arial', sans-serif;
   line-height: 1.6;
   letter-spacing: 0.25px;
@@ -61,7 +61,7 @@ nav {
 
 #logo,
 #logo-m {
-  font-size: 11pt;
+  font-size: 10pt;
   text-transform: lowercase;
   font-family: 'FT88-School', 'Courier Prime', monospace;
 }
@@ -102,7 +102,7 @@ nav {
   margin: 16px 0;
   width: fit-content;
   line-height: 12pt;
-  font-size: 11pt;
+  font-size: 10pt;
 
 }
 
@@ -180,7 +180,7 @@ img {
 figcaption p {
   line-height: 1.2rem;
   margin: 0px;
-  font-size: 11pt;
+  font-size: 10pt;
   font-family: 'RightSerif', monospace;
   text-transform: lowercase;
   text-align: center;
@@ -289,7 +289,7 @@ ul {
 
 #pubnote {
   margin-left: 10px;
-  font-size: 10pt;
+  font-size: 9.5pt;
   font-family: 'AUTHENTICSans', 'Arial', sans-serif;
   text-transform: lowercase;
 }
@@ -298,7 +298,7 @@ ul {
 
 .extlink {
   font-family: 'RightSerif';
-  font-size: 12pt;
+  font-size: 11pt;
   text-decoration: none;
   line-height: 2rem;
 
