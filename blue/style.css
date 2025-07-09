@@ -3,11 +3,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 body {
-  font-family: 'space mono',monospace;
+  font-family: 'space mono', monospace;
   text-transform: uppercase;
-  letter-spacing:0.5px;
-  font-size:100px;
-  color:white;
+  letter-spacing: 0.5px;
+  font-size: 100px;
+  color: white;
   background-size: auto;
   background-position: center;
   background-repeat: no-repeat;
@@ -16,16 +16,16 @@ body {
 }
 
 section {
-  display:flex;
+  display: flex;
   flex-wrap: nowrap;
   justify-content: center;
   padding-top: 200px;
   width: 100%;
-  margin:0px auto;
+  margin: 0px auto;
 }
 
 iframe {
-  height:250px;
+  height: 250px;
   width: 28%;
   /* this used to be 20px, btw */
   margin: 0px 1.5%;
@@ -33,16 +33,17 @@ iframe {
 }
 
 #swatch {
-  width:120px;
-  height:120px;
-  color:transparent;
+  width: 250px;
+  height: 250px;
+  /* previously 125px */
+  color: transparent;
 }
 
 
 #text {
   font-size: 100px;
-  display:flex;
-  align-items:center;
+  display: flex;
+  align-items: center;
 }
 
 /*
@@ -51,48 +52,48 @@ iframe {
   font-size:20px;
 } */
 
-#container{
-  height:250px;
-  width:100%;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  text-align:center;
-  margin:auto;
+#container {
+  height: 250px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
 }
 
-#startCaption{
+#startCaption {
   font-size: 20px;
   text-transform: lowercase;
   font-style: italic;
   position: fixed;
-  top:20px;
+  top: 20px;
   width: 100%;
   text-align: center;
 }
 
 .fade {
-  opacity:0;
+  opacity: 0;
   transition: 0.5s opacity;
 }
 
 .black {
-  background:black;
+  background: black;
 
 }
 
-.blackText{
-  color:black;
+.blackText {
+  color: black;
 }
 
 
 .cobalt {
-  background:#0046AB;
+  background: #0046AB;
 }
 
 
 .blue {
-  background:blue;
+  background: blue;
 
 }
 
