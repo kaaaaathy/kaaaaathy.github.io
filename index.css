@@ -96,7 +96,7 @@ nav {
 }
 
 .aboutlinks {
-  font-family: 'RightSerif', 'Arial Narrow', monospace;
+  font-family: 'RightSerif', 'Arial', sans-serif;
   width: 100%;
   display: grid;
   margin: 16px 0;
@@ -181,7 +181,7 @@ figcaption p {
   line-height: 1.2rem;
   margin: 0px;
   font-size: 10pt;
-  font-family: 'RightSerif', monospace;
+  font-family: 'RightSerif', 'Courier Prime', 'Courier', monospace;
   text-transform: lowercase;
   text-align: center;
   position: absolute;
@@ -269,7 +269,7 @@ h2 h3 {
 h3 {
   font-size: 18pt;
   font-weight: normal;
-  font-family: 'RightSerif', 'Arial Narrow', 'Arial', monospace;
+  font-family: 'RightSerif', 'Courier Prime', 'Courier', monospace;
   text-transform: uppercase;
   line-height: 1.2;
   letter-spacing: 0.5px;
@@ -297,7 +297,7 @@ ul {
 
 
 .extlink {
-  font-family: 'RightSerif';
+  font-family: 'RightSerif', 'Courier Prime', 'Courier', monospace;
   font-size: 11pt;
   text-decoration: none;
   line-height: 2rem;
@@ -308,7 +308,7 @@ ul {
 
 #highlight {
   background-color: yellow;
-  font-family: 'RightSerif';
+  font-family: 'RightSerif', 'Courier Prime', 'Courier', monospace;
   letter-spacing: 0;
   padding: 2px;
   font-size: 11pt;
