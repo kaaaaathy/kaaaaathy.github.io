@@ -4,15 +4,15 @@ work = [
     "name": "into uncertain weathers",
     "tags": "",
     "year": "2025",
-    "thumb": "1.jpg",
+    "thumb": "1.png",
     "content": `
     Work-in-progress created while an artist-in-residence at CultureHub NYC. This project was supported in part by SeoulArts and La MaMa theater.
       INTO UNCERTAIN WEATHERS is an interactive installation and performance of poetry, weather balloons, mylar and haze which asks: What are technology’s affordances and limits in future-telling? 
  Despite state attempts to know and control the planet, we know that knowledge alone isn’t enough to secure our climate future. Inspired by Hito Steyerl’s How Not to Be Seen and Zhanyi Chen’s satellite poetry, the piece thinks about planetary imagery through a surveillance studies lens. 
- [1.jpg]
-    [7.jpg]
+ [1.png]
+    [7.png]
 
-    [3.jpg]
+    [3.png]
     During the event, the audience can ask questions both online and in-person—only to receive cryptic answers modulated by a NYC weather API and accompanied by NASA satellite imagery. The resulting texts will morph alongside temperature, wind, rain, and other vectors of fortunetelling. 
 This project was also an experiment in expanding audience telepresence online; I used CultureHub's new software-in-development, their LiveLab Broadcaster, to build out audience interactions in p5.js which could overlay a low-latent video stream. Here are some view from online:
     [broadcast1.png]
