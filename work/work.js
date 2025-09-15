@@ -26,10 +26,11 @@ This project was also an experiment in expanding audience telepresence online; I
 [broadcast6.png]
 
 More images to come!
-    [6.jpg]
+    [6.png]
 
     A looping, ongoing projection of different metereological symbols, turned into a custom typeface.
-    [5.jpg]
+    [5.png]
+    [glyphs.gif]
 [type3.png]
 
 
