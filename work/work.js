@@ -6,34 +6,55 @@ work = [
     "year": "2025",
     "thumb": "1.png",
     "content": `
-    Work-in-progress created while an artist-in-residence at <a href="https://www.culturehub.org/events/into-uncertain-weathers" target="_blank">CultureHub NYC</a>. This project was supported in part by SeoulArts and La MaMa theater.
-      INTO UNCERTAIN WEATHERS is an interactive installation and performance of poetry, weather balloons, mylar and haze which asks: What are technology’s affordances and limits in future-telling? 
- Despite state attempts to know and control the planet, we know that knowledge alone isn’t enough to secure our climate future. Inspired by Hito Steyerl’s How Not to Be Seen and Zhanyi Chen’s satellite poetry, the piece thinks about planetary imagery through a surveillance studies lens. 
- [1.png]
-    [7.png]
+    Work-in-progress created while an artist-in-residence at <a href="https://www.culturehub.org/events/into-uncertain-weathers" target="_blank">CultureHub NYC</a>.
+ INTO UNCERTAIN WEATHERS is an interactive installation and divinatory performance of poetry, weather balloons, mylar and haze which asks: What are technology’s affordances and limits in future-telling? 
+ Despite state attempts to know and control the planet, we know that knowledge alone isn’t enough to secure our climate future. Inspired by Hito Steyerl’s How Not to Be Seen and Zhanyi Chen’s satellite poetry, the performance thinks about planetary imagery through a surveillance studies lens. 
 
-    [3.png]
+
+    [ji-hoon-9.png]
+     [7.png]
+     [ji-hoon-7.png]
+
+      [1.png]
+      [ji-hoon-6.png]
+      [semin-1.png]
+
+    [ji-hoon-0.png]
+    [semin-2.png]
+    [ji-hoon-8.png]
+
+<br>
+EXPERIMENTS IN TELEPRESENCE
     During the event, the audience can ask questions both online and in-person—only to receive cryptic answers modulated by a NYC weather API and accompanied by NASA satellite imagery. The resulting texts will morph alongside temperature, wind, rain, and other vectors of fortunetelling. 
 This project was also an experiment in expanding audience telepresence online; I used CultureHub's new software-in-development, their LiveLab Broadcaster, to build out audience interactions in p5.js which could overlay a low-latent video stream. Here are some view from online:
     [broadcast1.png]
-    Audience members could overlay drawings, clouds, rain...
+<br>
+    Audience members could overlay drawings, clouds, rain which would affect the performance in real time. thank you to Jonathan for the screenshots! 
     [broadcast4.png]
-    ...wich would affect the performance in real time.
     [broadcast3.png]
     [broadcast2.png]
 
-    The weather divination session ends when enough cursors congregate around the center of the sky, and create a fully white "eclipse" in the projection space.
 [broadcast6.png]
+    The weather divination session ends when enough cursors congregate around the center of the sky, and create a fully white "eclipse" in the projection space.
 
-More images to come!
-    [6.png]
+<br>
+METEOROLOGICAL GLYPHS
+A set of glyphs drawn from meteorological symbols, turned into a custom typeface used for balloons, and for looping ground film projected through haze. 
 
-    A looping, ongoing projection of different metereological symbols, turned into a custom typeface.
+[ji-hoon-5.png]
+
+
     [5.png]
     [glyphs.gif]
 [type3.png]
+   <br>
+       CREDITS
+           HUGE thank you to the CultureHub team: DeAndra, Mattie, Sangmin, Tee, Billy, and all! Special thanks to Lai Yi Ohlsen for the projector loan, and to Willy Wu for backend support. Big thanks also to Ryan Greene for testing.
 
-HUGE thank you to the CultureHub team: DeAndra, Mattie, Sangmin, Tee, Billy, and all! Special thanks to Lai Yi Ohlsen for the projector loan, and to Willy Wu for backend support. Big thanks also to Ryan Greene for testing.
+ Thank you so much to Ji-Hoon and Semin for your photos, and for your work documenting the event! Photo credit for other in-person images go to dear friends Angie and Livia—thank you.
+ 
+ If you are featured in these photos as an attendee but don't want to be, please reach out and I will take it down.
+
 
               `
   },
