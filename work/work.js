@@ -374,7 +374,9 @@ Website → <a href="https://eroticeventlisteners.glitch.me" target="_blank">Ero
         <br>
         MALDEN TRANSIT JUSTICE
         A zine I co-created and designed with Asian-American teenagers in Malden, MA, as part of a creative and civic literacy afterschool program.
-        I was the teaching artist for Malden's Asian Community Development Corp in the spring of 2021. Together, we discussed how transit justice is also economic, environmental, and racial justice. I shared local histories of resisting displacement, as well as the beauty and power of maps and "countercartographies," which we made together. Students shared some of their ideas for a better Malden with the city council, as well as through their artwork, which is featured in this zine.
+        I was the teaching artist for Malden's Asian Community Development Corp in the spring of 2021. 
+        [malden.png]
+        Together, we discussed how transit justice is also economic, environmental, and racial justice. I shared local histories of resisting displacement, as well as the beauty and power of maps and "countercartographies," which we made together. Students shared some of their ideas for a better Malden with the city council, as well as through their artwork, which is featured in this zine.
 
         Learn more about Malden A-VOYCE <a href="https://asiancdc.org/sy-malden2122" target="_blank">here</a>.
 
@@ -382,6 +384,7 @@ Website → <a href="https://eroticeventlisteners.glitch.me" target="_blank">Ero
         [malden8.png]
         [malden7.png]
         [a-voyce-zine-2.gif]
+        
 
 
 
