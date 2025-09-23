@@ -423,6 +423,11 @@ Website → <a href="https://eroticeventlisteners.glitch.me" target="_blank">Ero
     [drawing2.png]
     [drawing3.png]
 
+    <br>
+    DETAIL
+    [detail1.png]
+    [detail2.png]
+
 `
 
   },
