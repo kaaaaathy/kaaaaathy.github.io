@@ -9,6 +9,7 @@ work = [
     Work-in-progress created while an artist-in-residence at <a href="https://www.culturehub.org/events/into-uncertain-weathers" target="_blank">CultureHub NYC</a>.
  INTO UNCERTAIN WEATHERS is an interactive installation and divinatory performance of poetry, weather balloons, mylar and haze which asks: What are technology’s affordances and limits in future-telling? 
  Despite state attempts to know and control the planet, we know that knowledge alone isn’t enough to secure our climate future. Inspired by Hito Steyerl’s How Not to Be Seen and Zhanyi Chen’s satellite poetry, the performance thinks about planetary imagery through a surveillance studies lens. 
+Watch the recording → <a href="https://vimeo.com/1121613009" target="_blank">LINK</a>
 
 
     [ji-hoon-9.png]
