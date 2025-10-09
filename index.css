@@ -25,7 +25,6 @@
 
 
 #app {
-    cursor: crosshair;
     width: 100%;
 }
 
@@ -39,7 +38,6 @@ body {
     letter-spacing: 0.5px;
     color: #333;
     margin: 0;
-    /* cursor: default; */
 }
 
 
@@ -56,7 +54,7 @@ nav {
     bottom: 0;
     width: 200px;
     padding: 30px 20px 20px 20px;
-    /* border-right: 1px solid gray; */
+    border-right: 1px dotted black;
 }
 
 #logo,
@@ -92,7 +90,7 @@ nav {
     flex-direction: column;
     text-align: right;
     justify-content: center;
-    cursor: pointer;
+
 }
 
 .aboutlinks {
@@ -136,6 +134,7 @@ h2 a:active,
 
 }
 
+
 #work-stuff a img:hover {
     opacity: 0.3;
     filter: blur(4px);
@@ -144,11 +143,13 @@ h2 a:active,
     transition: 0.1s filter ease;
     transition: 0.1s opacity ease;
 
+
 }
 
 
 main {
-    padding-left: 258px;
+    padding-left: 260px;
+    /*was 258? */
     padding-bottom: 120px;
     margin-left: 0px;
     margin-top: 30px;
@@ -175,6 +176,8 @@ img {
     position: relative;
     z-index: 1;
     top: 0px;
+
+
 }
 
 figcaption p {
@@ -230,7 +233,7 @@ a {
 }
 
 a:hover {
-    cursor: help;
+    cursor: help !important;
     opacity: 0.8;
 }
 
@@ -239,6 +242,7 @@ a:hover {
 nav a:hover,
 .inner a:hover {
     font-style: oblique;
+    cursor: help !important;
 
 }
 
@@ -536,7 +540,8 @@ h2 a,
 }
 
 #work-stuff a img {
-    margin-bottom: 2px;
+    margin-bottom: 1.5%;
+    border-radius: 4px;
 
 }
 
@@ -583,6 +588,9 @@ h2 a,
         margin-top: 16px;
     }
 
+    #work-stuff a img {
+        border-radius: 0px;
 
+    }
 
 }
