@@ -81,7 +81,7 @@ A set of glyphs drawn from meteorological symbols, turned into a custom typeface
   [still2.png]
 
   <div style="padding:56.26% 0 0 0;position:relative;">
-  <iframe src="https://player.vimeo.com/video/947107796#t=0m55s?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="she will last as long as stones (reading)"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+ <iframe src="https://player.vimeo.com/video/947107796" frameborder="0" width="100%" height ="320"></iframe>
     <br>
   GARMENT
   A cold, 15-pound garment stitched together with Rhode Island river and beach stones. This garment is worn during the computer performance as an expression of embodied grief, and as an extension of the local ecologies. 
