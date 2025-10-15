@@ -39,10 +39,7 @@ This project was also an experiment in expanding audience telepresence online; I
     The weather divination session ends when enough cursors congregate around the center of the sky, and create a fully white "eclipse" in the projection space.
 
 
-<br>
-WEBSITE
-You can still access the divination website here → <a href="https://www.uncertain.cloud/" target="_blank">LINK</a>
- <iframe src="https://player.vimeo.com/video/1123723725" frameborder="0" width="100%" height ="320"></iframe>
+
 <br>
 METEOROLOGICAL GLYPHS
 A set of glyphs drawn from meteorological symbols, turned into a custom typeface used for balloons, and for looping ground film projected through haze. 
@@ -54,6 +51,15 @@ A set of glyphs drawn from meteorological symbols, turned into a custom typeface
     [glyphs.gif]
 [type3.png]
    <br>
+  
+WEBSITE + ZINES
+You can still access the divination website here → <a href="https://www.uncertain.cloud/" target="_blank">LINK</a>
+ <iframe src="https://player.vimeo.com/video/1123723725" frameborder="0" width="100%" height ="320"></iframe>
+After the show, I turned all participant questions into little zines which repurposed the mylar from the balloons.
+[zine3-edit.png]
+[zine4.png]
+<br>
+
        CREDITS
            HUGE thank you to the CultureHub team: DeAndra, Mattie, Sangmin, Tee, Billy, and all! Special thanks to Lai Yi Ohlsen for the projector loan, and to Willy Wu for backend support. Big thanks also to Ryan Greene for testing.
 
