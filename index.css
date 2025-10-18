@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: 'RightSerif';
-    src: url('fonts/PPRightSerifMono-Regular.otf');
+    src: url('fonts/HB-Lossy.otf');
 }
 
 @font-face {
@@ -35,7 +35,7 @@ body {
     font-size: 9.5pt;
     font-family: 'AUTHENTICSans', 'Arial', sans-serif;
     line-height: 1.6;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.75px;
     color: #333;
     margin: 0;
 }
@@ -93,14 +93,28 @@ nav {
 
 }
 
+a {
+    font-family: 'RightSerif', 'Arial', sans-serif;
+    letter-spacing: 0px;
+
+}
+
 .aboutlinks {
     font-family: 'RightSerif', 'Arial', sans-serif;
+    letter-spacing: 0px;
     width: 100%;
     display: grid;
     margin: 16px 0;
     width: fit-content;
     line-height: 12pt;
     font-size: 10pt;
+
+}
+
+#sidebar {
+    font-family: 'RightSerif', 'Arial', sans-serif;
+    font-size: 10pt;
+    letter-spacing: 0px;
 
 }
 
@@ -519,8 +533,8 @@ ul {
 
 h2 a,
 #content a {
-    text-decoration: underline;
-    border-bottom: none;
+    /* text-decoration: underline; */
+    border-bottom: 1px dotted #333;
 }
 
 
@@ -568,6 +582,11 @@ h2 a,
     #highlight,
     #work-stuff a figcaption {
         /* font-size: 13.5pt; */
+        font-size: 12pt;
+    }
+
+    figcaption p {
+
         font-size: 12pt;
     }
 
