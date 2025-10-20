@@ -25,7 +25,7 @@ Watch the recording → <a href="https://vimeo.com/1121613009" target="_blank">L
     [ji-hoon-8.png]
 
 <br>
-EXPERIMENTS IN TELEPRESENCE
+<li>EXPERIMENTS IN TELEPRESENCE</li>
     During the event, the audience can ask questions both online and in-person—only to receive cryptic answers modulated by a NYC weather API and accompanied by NASA satellite imagery. The resulting texts will morph alongside temperature, wind, rain, and other vectors of fortunetelling. 
 This project was also an experiment in expanding audience telepresence online; I used CultureHub's new software-in-development, their LiveLab Broadcaster, to build out audience interactions in p5.js which could overlay a low-latent video stream. Here are some view from online:
     [broadcast1.png]
@@ -41,7 +41,7 @@ This project was also an experiment in expanding audience telepresence online; I
 
 
 <br>
-METEOROLOGICAL GLYPHS
+<li>METEOROLOGICAL GLYPHS</li>
 A set of glyphs drawn from meteorological symbols, turned into a custom typeface used for balloons, and for looping ground film projected through haze. 
 
 [ji-hoon-5.png]
@@ -52,7 +52,7 @@ A set of glyphs drawn from meteorological symbols, turned into a custom typeface
 [type3.png]
    <br>
   
-WEBSITE + ZINES
+<li>WEBSITE + ZINES</li>
 You can still access the divination website here → <a href="https://www.uncertain.cloud/" target="_blank">LINK</a>
  <iframe src="https://player.vimeo.com/video/1123723725" frameborder="0" width="100%" height ="320"></iframe>
 After the show, I turned all participant questions into little zines which repurposed the mylar from the balloons.
@@ -60,7 +60,7 @@ After the show, I turned all participant questions into little zines which repur
 [zine4.png]
 <br>
 
-       CREDITS
+       <li>CREDITS</li>
            HUGE thank you to the CultureHub team: DeAndra, Mattie, Sangmin, Tee, Billy, and all! Special thanks to Lai Yi Ohlsen for the projector loan, and to Willy Wu for backend support. Big thanks also to Ryan Greene for testing.
 
  Thank you so much to Ji-Hoon and Semin for your photos, and for your work documenting the event! Photo credit for other in-person images go to dear friends Angie and Livia—thank you.
@@ -89,7 +89,7 @@ After the show, I turned all participant questions into little zines which repur
   <div style="padding:56.26% 0 0 0;position:relative;">
  <iframe src="https://player.vimeo.com/video/947107796" frameborder="0" width="100%" height ="320"></iframe>
     <br>
-  GARMENT
+  <li>GARMENT</li>
   A cold, 15-pound garment stitched together with Rhode Island river and beach stones. This garment is worn during the computer performance as an expression of embodied grief, and as an extension of the local ecologies. 
   
   [shirt.png]
@@ -101,7 +101,7 @@ After the show, I turned all participant questions into little zines which repur
 
 
   <br><br>
-  ACCOMPANYING MEDIA
+  <li>ACCOMPANYING MEDIA</li>
   Website of speech-to-text transcription alongside USGS mining data / Digitally embroidered organza quilt of poems alongside my mother's circuit diagrams / iPhone 4 cast in cement.
 
 
@@ -110,7 +110,7 @@ After the show, I turned all participant questions into little zines which repur
    [iphone.png]
 
      <br><br>
-  POETRY MANUSCRIPT
+  <li>POETRY MANUSCRIPT</li>
   Writing, design, images. Printed in a small batch on my own. A longer edition of this book is forthcoming with Wendy's Subway in fall 2025.
 
   [book1.jpg]
@@ -131,13 +131,13 @@ After the show, I turned all participant questions into little zines which repur
           Multi-media body of work thinking through the "geology of media," as defined by theorist Jussi Parrika, and via the forms of litanies and list poems. Sculptures of sand, rockite, vintage hardware, data / website of poems, 3D scans / installation of stone, digital fabric print.
           Read the web component → <a href="http://kaaathy.com/fossils" target="_blank">LINK</a> 
 <br>
-          SCULPTURES
+          <li>SCULPTURES</li>
           These objects are extensions of the <a href="http://kaaathy.com/work/she-will-last/iphone.png" target="_blank">cement casts</a> I made in Spring '24. Plus SD cards, USB-C, vintage NOKIA phone. These works are very much inspired by Blair Simmons's <a href="https://www.blairsimmons.com/">laptop-in-cement</a>!
           [mirror2.JPG]
           [invert.png]
           [mirror7.JPG]
           <br>
-          WEBPOEM
+          <li>WEBPOEM</li>
           Accompanying website for unearthing fossilids. Made with three.js, matter.js. 
 [web.png]
 
@@ -146,13 +146,13 @@ After the show, I turned all participant questions into little zines which repur
 [forget.gif]
 
 <br>
-INSTALLATION
+<li>INSTALLATION</li>
 A stone and a fraction of the .txt file for its 3D digitized self. Inkjet on cotton, 3 inches * 20 feet.
 [install1.JPG]
 [rock-comp.gif]
 [txtscan1.jpg]
 <br>
-OBJECT DETAILS
+<li>OBJECT DETAILS</li>
 USB, USB-C, SD card... I give credit to the brilliant Mika Ben Amar <a href="https://www.instagram.com/100o111/" target="_blank"> who made usb stones first.</a> 
           [usb_b2.JPG]
           [mono5.JPG]
@@ -235,7 +235,7 @@ USB, USB-C, SD card... I give credit to the brilliant Mika Ben Amar <a href="htt
   [5.jpg]
   [2.jpg]
 <br/><br/>
-  PERFORMANCE
+  <li>PERFORMANCE</li>
   Video component made with p5.js, voice.
   <iframe src="https://player.vimeo.com/video/781114238?h=0bb978ccb6" frameborder="0" width="100%" height ="320"></iframe>
 `
@@ -367,7 +367,7 @@ Website → <a href="https://eroticeventlisteners.glitch.me" target="_blank">Ero
     "year": "2021",
     "thumb": "zine-scan-slow.gif",
     "content": `
-        VISIONING TOWARDS ABOLITION
+        <li>VISIONING TOWARDS ABOLITION</li>
         Made with <a href="https://www.aarw.org/" target="_blank">Asian American Resource Workshop</a> (AARW) as part of their abolition working group. Includes a political educator's toolkit to run this in your own communities. Distributed online through AARW as well as through <a href="https://pm.linkedbyair.net/catalog/59883/" target="_blank">Printed Matter</a>.
         <br>
         Download the zine for free → <a href="https://www.aarw.org/zines/abolitionzine" target="_blank">LINK</a>
@@ -385,7 +385,7 @@ Website → <a href="https://eroticeventlisteners.glitch.me" target="_blank">Ero
         [slide2.png]
         <br>
         <br>
-        MALDEN TRANSIT JUSTICE
+        <li>MALDEN TRANSIT JUSTICE</li>
         A zine I co-created and designed with Asian-American teenagers in Malden, MA, as part of a creative and civic literacy afterschool program.
         I was the teaching artist for Malden's Asian Community Development Corp in the spring of 2021. 
         [malden.png]
@@ -437,7 +437,7 @@ Website → <a href="https://eroticeventlisteners.glitch.me" target="_blank">Ero
     [drawing3.png]
 
     <br>
-    DETAIL
+    <li>DETAIL</li>
     [detail1.png]
     [detail2.png]
 
@@ -486,11 +486,11 @@ Website → <a href="https://eroticeventlisteners.glitch.me" target="_blank">Ero
     "thumb": "companion2.png",
     "content": `A two-part poem diptych between screen-based work and artist book. Reflections on supply chain, migrant labor, Foxconn, diaspora.
     <br>
-    ARTIST BOOK
+    <li>ARTIST BOOK</li>
     [companion1.png]
     [companion2.png]
     <br>
-    DIGITAL POEM
+    <li>DIGITAL POEM</li>
     An <a href="semiconduction/index.html" target="_blank">interactive web poem</a> I wrote and coded about Chinese workers in a context of mass production.
     Works on mobile. As seen in <a href="https://thenewriver.us/" target="_blank">New River's Fall 2022</a> publication. For a more spatial viewing experience, try on a desktop computer.
      [semi6.gif]
@@ -627,7 +627,7 @@ In front is a metaphorical "circuit" of objects: a sculptural installation of ya
   This work began as a inquiry into the textual internet; over a semester, it evolved into a visceral experience of virtuality, including sculpture, video, and writing.
 
   <br><br>
-  <span class="emph">1. VOLUME, WEIGHT</span>
+  <li>1. VOLUME, WEIGHT</li>
 
   If our informational input could be measured in pounds, imagine how it would feel to literally consume or hold that much weight.
 
@@ -636,7 +636,7 @@ In front is a metaphorical "circuit" of objects: a sculptural installation of ya
   [dp_1.jpg]
   <br>
   <br>
-  <span class="emph">2. CONVERSION TOOLS</span>
+  <li>2. CONVERSION TOOLS</li>
   The human body understands the material world and has unique intuitions that help us navigate it. I was interested in how people would use intuition to convert their understanding of virtual units into physical objects.
 I created interpretive “conversion tools”n the form of frames and boxes. Each of these symbolized a space for an assigned virtual unit where people’s responses/objects would live.
   [crowdsourced.jpg]
@@ -644,7 +644,7 @@ I created interpretive “conversion tools”n the form of frames and boxes. Eac
 
   <br>
   <br>
-  <span class="emph">3. WRITING</span>
+  <li>3. WRITING</li>
   Writing was an important part of my process and discovery. I generated about 1MB worth of text and images throughout this project. I populated that data into a <a href='https://drive.google.com/file/d/0BzXTWcuY86iYcHFTREVrbVhrRzA/view?usp=sharing
 ' target='_blank'>process document</a> and a video (below).
   In the Byte Catalogue, I documented objects I crowd-sourced. I compared these against virtual experiences—for example, the Lord of the Rings trilogy in bytes.
@@ -654,7 +654,7 @@ I created interpretive “conversion tools”n the form of frames and boxes. Eac
 
   <br>
   <br>
-  <span class="emph">4. OWNERSHIP OF VIRTUAL THINGS</span>
+  <li>4. OWNERSHIP OF VIRTUAL THINGS</li>
   Inspired by the Million Dollar website, I was amused at the skeuomorph of buying “space” on the Internet.
   [7_alt.jpg]
   <br>
