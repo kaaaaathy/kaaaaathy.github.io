@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: 'HBLossy';
-    src: url('fonts/HB-Lossy.otf');
+    src: url('fonts/HBLossyWeb.woff2');
 }
 
 @font-face {
@@ -106,8 +106,9 @@ li {
     font-family: 'HBLossy', 'Arial', sans-serif;
     font-size: 11pt;
     list-style: none;
-    text-transform: capitalize;
-    padding-bottom: 10px;
+    text-transform: lowercase;
+    padding-bottom: 12px;
+    padding-top: 40px;
 
 }
 
