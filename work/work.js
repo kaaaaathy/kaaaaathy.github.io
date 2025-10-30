@@ -347,20 +347,20 @@ Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtua
     "folder": "field",
     "name": "a field",
     "tags": "",
-    "thumb": "altthumb.png",
+    "thumb": "altthumb3.png",
     "year": "2025",
     "content": `
     Work-in-progress from my time at Black Mountain College Museum + Art Center. A large drawing, projected video, and movement performance situated in the original Black Mountain College Studies building.
-    Graphite on cotton muslin, found reeds, video, poems.
+    Graphite on cotton muslin, sticks, reeds, video, poems.
 
             <iframe src="https://player.vimeo.com/video/1131542204" style="background:black; width:100%; height:400px; border-radius:4px" frameborder = "0" allow="fullscreen" allowfullscreen></iframe>
 
     <li>surface</li>
-    [day1.JPG]
+    [day.png]
 
-    [4.JPG]
-    [5.JPG]
-    [10.JPG]
+    [4.png]
+    [5.png]
+    [10.png]
 
         <li>movement</li>
 
