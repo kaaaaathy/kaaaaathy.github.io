@@ -70,7 +70,38 @@ After the show, I turned all participant questions into little zines which repur
 
               `
   },
+  {
+    "folder": "field",
+    "name": "a field",
+    "tags": "",
+    "thumb": "altthumb3.png",
+    "year": "2025",
+    "content": `
+    Work-in-progress from my time at Black Mountain College Museum + Art Center. A large drawing, projected video, and movement performance situated in the original Black Mountain College Studies building.
+    Graphite on cotton muslin, sticks, reeds, video, poems.
 
+            <iframe src="https://player.vimeo.com/video/1131542204" style="background:black; width:100%; height:400px; border-radius:4px" frameborder = "0" allow="fullscreen" allowfullscreen></iframe>
+
+    <li>surface</li>
+    [day.png]
+
+    [4.png]
+    [5.png]
+    [10.png]
+
+        <li>movement</li>
+
+        [movement0.png]
+        [movement1.png]
+        [movement5.png]
+<br>
+        The movements were based on a traditional writing grid—the "rice grid."
+        [grid.png]
+
+
+
+  `
+  },
   {
     "folder": "she-will-last",
     "name": "she will last as long as stones",
@@ -194,25 +225,6 @@ USB, USB-C, SD card... I give credit to the brilliant Mika Ben Amar <a href="htt
           [detail7.JPG]
 
       `},
-  {
-    "folder": "weaves",
-    "name": "scintillations",
-    "tags": "",
-    "year": "2025",
-    "thumb": "infinitethumb.jpg",
-    "content": `
-            Scenes from Sewell, Chile: the largest underground copper mine and its American company town.
-            Inkjet on cotton, digital embroidery. 24 * 18 inches.
-            [infinite.JPG]
-            [metalis.JPG]
-            <br>
-
-            Open-pit series, Southern Arizona. Inkjet on cotton, copper sheeting. 12 * 16 inches.    
-            [weave1.png]
-    
-            [weave2.png]
-            [weave3.png]
-        `},
 
   {
     "folder": "cyan",
@@ -320,6 +332,8 @@ Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtua
 `
 
   },
+
+
   {
     "folder": "weeds",
     "name": "the color of dislocation ii",
@@ -344,37 +358,25 @@ Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtua
 
   },
   {
-    "folder": "field",
-    "name": "a field",
+    "folder": "weaves",
+    "name": "scintillations",
     "tags": "",
-    "thumb": "altthumb3.png",
     "year": "2025",
+    "thumb": "infinitethumb.jpg",
     "content": `
-    Work-in-progress from my time at Black Mountain College Museum + Art Center. A large drawing, projected video, and movement performance situated in the original Black Mountain College Studies building.
-    Graphite on cotton muslin, sticks, reeds, video, poems.
+            Scenes from Sewell, Chile: the largest underground copper mine and its American company town.
+            Inkjet on cotton, digital embroidery. 24 * 18 inches.
+            [infinite.JPG]
+            [metalis.JPG]
+            <br>
 
-            <iframe src="https://player.vimeo.com/video/1131542204" style="background:black; width:100%; height:400px; border-radius:4px" frameborder = "0" allow="fullscreen" allowfullscreen></iframe>
+            Open-pit series, Southern Arizona. Inkjet on cotton, copper sheeting. 12 * 16 inches.    
+            [weave1.png]
+    
+            [weave2.png]
+            [weave3.png]
+        `},
 
-    <li>surface</li>
-    [day.png]
-
-    [4.png]
-    [5.png]
-    [10.png]
-
-        <li>movement</li>
-
-        [movement0.png]
-        [movement1.png]
-        [movement5.png]
-<br>
-        The movements were based on a traditional writing grid—the "rice grid."
-        [grid.png]
-
-
-
-  `
-  },
 
 
   {
@@ -485,23 +487,7 @@ Website with a simple template for a digital erotic poem:
 `
 
   },
-  //         {  "folder":"maldenzine",
-  // "name":"Malden Transit Justice Zine",
-  // "tags":"community artwork, zinemaking",
-  // "thumb":"2.png",
-  // "content":`A zine I co-created and designed with Asian-American teenagers in Malden, MA, as part of a creative and civic literacy afterschool program.
-  // I was the teaching artist for Malden's Asian Community Development Corp in the spring of 2021. Together, we discussed how transit justice is also economic, environmental, and racial justice. I shared local histories of resisting displacement, as well as the beauty and power of maps and "countercartographies," which we made together. Students shared some of their ideas for a better Malden with the city council, as well as through their artwork, which is featured in this zine.
 
-  // Learn more about Malden A-VOYCE <a href="https://asiancdc.org/sy-malden2122" target="_blank">here</a>.
-
-  // [1.png]
-  // [8.png]
-  // [7.png]
-  // [a-voyce-zine-2.gif]
-
-
-  // `
-  // },
   {
     "folder": "walk",
     "name": "walking with ghosts",
@@ -636,24 +622,24 @@ In front is a metaphorical "circuit" of objects: a sculptural installation of ya
   `
 
   },
-  {
-    "folder": "a-cell",
-    "name": "A CELL, A CELL",
-    "tags": "",
-    "year": "2023",
-    "thumb": "sadthumb.png",
-    "content": `An artist's book of short expiermental poems about the bureaucracy of end-of-life care, of diaspora and loss.
-    Better documentation coming soon (maybe).
+  // {
+  //   "folder": "a-cell",
+  //   "name": "A CELL, A CELL",
+  //   "tags": "",
+  //   "year": "2023",
+  //   "thumb": "sadthumb.png",
+  //   "content": `An artist's book of short expiermental poems about the bureaucracy of end-of-life care, of diaspora and loss.
+  //   Better documentation coming soon (maybe).
 
-  [crop.png]
-  [one.png]
-  [crop2.png]
-  [two.png]
-  [crop3.png]
-  [three.png]
-  `
+  // [crop.png]
+  // [one.png]
+  // [crop2.png]
+  // [two.png]
+  // [crop3.png]
+  // [three.png]
+  // `
 
-  },
+  // },
   {
     "folder": "dp",
     "name": "The Byte Catalog",
