@@ -364,7 +364,7 @@ Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtua
 
         <li>movement</li>
 
-        [thumb.png]
+        [movement0.png]
         [movement1.png]
         [movement5.png]
 <br>
