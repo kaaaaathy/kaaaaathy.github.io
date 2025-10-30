@@ -241,6 +241,7 @@ USB, USB-C, SD card... I give credit to the brilliant Mika Ben Amar <a href="htt
 
   },
 
+
   {
     "folder": "blueimg",
     "name": "virtual blue",
@@ -300,22 +301,36 @@ Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtua
   },
 
   {
-    "folder": "weeds",
-    "name": "the color of dislocation (weeds now run wild)",
+    "folder": "werners",
+    "name": "the color of dislocation",
     "tags": "",
     "year": "2023",
     "thumb": "thumb.png",
     "content": `
-  THE COLOR OF DISLOCATION (weeds now run wild) is an ongoing work, a hybrid mini-chapbook with textile components. 
-     The text aggregates photographic scans with “found” material of Pliny the Elder’s writings, Darwin’s HMS Beagle Voyage throughout the Global South, and Werner’s Nomenclature of Colour. Excerpts from the book are published in the Nightboat Books anthology, <a href="https://nightboat.org/book/permanent-record-poetics-towards-the-archive/" target="_blank">Permanent Record</a>.
-    [spread1.png]
+<i>the color of dislocation (weeds now run wild)</i> is an ongoing work, a hybrid mini-chapbook concerned with sheerness, opacity, and color in classification systems. I wonder at how scientific language grasps at knowledge; precisions it; pins it as a colonial found. Perhaps poetic gestures of annotation and collage introduce fog instead, and trouble the body of water which represents “scientific” epistemology.. 
+        The booklet aggregates photographic scans with “found” material of Pliny the Elder’s writings, Darwin’s HMS Beagle Voyage throughout the Global South, and Werner’s Nomenclature of Colour. Excerpts from the book are published in the Nightboat Books anthology, <a href="https://nightboat.org/book/permanent-record-poetics-towards-the-archive/" target="_blank">Permanent Record</a>.
+   
+    <li>Book component</li>
+     [spread1.png]
+    [pages7.png]
     [spread2.png]
 
-    The poems themselves are concerned with sheerness, opacity, and color in classification systems.     I wonder at how scientific language grasps at knowledge; precisions it; pins it as a colonial found. Perhaps poetic gestures of annotation and collage introduce fog instead, and trouble the body of water which represents “scientific” epistemology.
+    
 
-    [book4.jpg]
-  
-    Translation-of-book into cloths buoyed by wind. 
+`
+
+  },
+  {
+    "folder": "weeds",
+    "name": "the color of dislocation ii",
+    "tags": "",
+    "year": "2023",
+    "thumb": "3.jpg",
+    "content": `
+<i>the color of dislocation (weeds now run wild)</i> is a textile series concerned with sheerness, opacity, and color in classification systems. I wonder at how scientific language grasps at knowledge; precisions it; pins it as a colonial found. Perhaps poetic gestures of annotation and collage introduce fog instead, and trouble the body of water which represents “scientific” epistemology.. 
+        The following banners contain language written by me as well as “found” text from Darwin’s HMS Beagle Voyage records.
+   
+     <li>fiber component</li>
 
     [3.jpg]
     [5.jpg]
@@ -328,7 +343,38 @@ Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtua
 `
 
   },
+  {
+    "folder": "field",
+    "name": "a field",
+    "tags": "",
+    "thumb": "altthumb.png",
+    "year": "2025",
+    "content": `
+    Work-in-progress from my time at Black Mountain College Museum + Art Center. A large drawing, projected video, and movement performance situated in the original Black Mountain College Studies building.
+    Graphite on cotton muslin, found reeds, video, poems.
 
+            <iframe src="https://player.vimeo.com/video/1131542204" style="background:black; width:100%; height:400px; border-radius:4px" frameborder = "0" allow="fullscreen" allowfullscreen></iframe>
+
+    <li>surface</li>
+    [day1.JPG]
+
+    [4.JPG]
+    [5.JPG]
+    [10.JPG]
+
+        <li>movement</li>
+
+        [thumb.png]
+        [movement1.png]
+        [movement5.png]
+<br>
+        The movements were based on a traditional writing grid—the "rice grid."
+        [grid.png]
+
+
+
+  `
+  },
 
 
   {
@@ -465,7 +511,7 @@ Website with a simple template for a digital erotic poem:
     "content": `<i>walking with ghosts</i> is a hypertext web poem that invites the reader to travel through cryptic sites in Google Street View. the images are pulled from current NY public parks (nearly all of which used to be potter's fields) and contrasts present day burial grounds with these recreational spaces.
   it nods at the historical layers of eviction, theft, imperialism embedded quietly and namelessly in these green spaces, via the narrative throughline of ghosts.
   Read online → <a href="https://kaaathy.com/walk/1.html" target="_blank">LINK</a>
-<iframe src="https://player.vimeo.com/video/596956749" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/596956749" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen"  allowfullscreen></iframe>
   [walk1.png]
   [walk2.png]
   [walk3.png]
