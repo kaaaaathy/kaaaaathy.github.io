@@ -41,6 +41,8 @@ body {
     letter-spacing: 0.75px;
     color: #333;
     margin: 0;
+    /* height: 100%;
+    overflow-y: scroll; */
 }
 
 
