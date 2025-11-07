@@ -468,26 +468,26 @@ Website with a simple template for a digital erotic poem:
 `
 
   }, {
-    "folder": "stope",
+    "folder": "stope-book",
     "name": "stope",
     "tags": "",
     "year": "2025",
-    "thumb": "detail2.jpg",
+    "thumb": "detail2.png",
     "content": `
             Scenes from copper mining sites: Bisbee and Sahauritas, Arizona, and Sewell in Chile.
             Inkjet on organza.
 
-            [spread3.jpg]
-            [spread1.jpg]
-            [spread2.jpg]
+            [spread3.png]
+            [spread1.png]
+            [spread2.png]
 <br>
 <li>Detail</li>
-            [detail1.jpg]
-            [detail2.jpg]
-            [detail3.jpg]
-            [detail4.jpg]
+            [detail1.png]
+            [detail2.png]
+            [detail3.png]
+            [detail4.png]
 
-                                    [cover.jpg]
+                                    [cover.png]
 
         `},
   {
