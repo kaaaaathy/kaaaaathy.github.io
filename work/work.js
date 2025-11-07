@@ -193,6 +193,28 @@ USB, USB-C, SD card... I give credit to the brilliant Mika Ben Amar <a href="htt
 
       `},
   {
+    "folder": "stope-book",
+    "name": "stope",
+    "tags": "",
+    "year": "2025",
+    "thumb": "detail2.png",
+    "content": `
+            Scenes from copper mining sites: Bisbee and Sahauritas, Arizona, and Sewell in Chile.
+            Inkjet on organza.
+            [spread1.png]
+            [spread3.png]
+            [spread2.png]
+<br>
+<li>Detail</li>
+            [detail1.png]
+            [detail2.png]
+            [detail3.png]
+            [detail4.png]
+
+                                    [cover.png]
+
+        `},
+  {
     "folder": "for-let",
     "name": "for let earth",
     "tags": "",
@@ -467,28 +489,7 @@ Website with a simple template for a digital erotic poem:
 
 `
 
-  }, {
-    "folder": "stope-book",
-    "name": "stope",
-    "tags": "",
-    "year": "2025",
-    "thumb": "detail2.png",
-    "content": `
-            Scenes from copper mining sites: Bisbee and Sahauritas, Arizona, and Sewell in Chile.
-            Inkjet on organza.
-            [spread1.png]
-            [spread3.png]
-            [spread2.png]
-<br>
-<li>Detail</li>
-            [detail1.png]
-            [detail2.png]
-            [detail3.png]
-            [detail4.png]
-
-                                    [cover.png]
-
-        `},
+  },
   {
     "folder": "potters-fields",
     "name": "satellite drawings",
