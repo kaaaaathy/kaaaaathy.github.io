@@ -476,9 +476,8 @@ Website with a simple template for a digital erotic poem:
     "content": `
             Scenes from copper mining sites: Bisbee and Sahauritas, Arizona, and Sewell in Chile.
             Inkjet on organza.
-
-            [spread3.png]
             [spread1.png]
+            [spread3.png]
             [spread2.png]
 <br>
 <li>Detail</li>
