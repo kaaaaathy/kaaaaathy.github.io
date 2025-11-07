@@ -151,6 +151,7 @@ After the show, I turned all participant questions into little zines which repur
   },
 
 
+
   {
     "folder": "fossils",
     "name": "litany for the ground (fossils)",
@@ -357,6 +358,7 @@ Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtua
 `
 
   },
+
   {
     "folder": "weaves",
     "name": "scintillations",
@@ -465,7 +467,29 @@ Website with a simple template for a digital erotic poem:
 
 `
 
-  },
+  }, {
+    "folder": "stope",
+    "name": "stope",
+    "tags": "",
+    "year": "2025",
+    "thumb": "detail2.jpg",
+    "content": `
+            Scenes from copper mining sites: Bisbee and Sahauritas, Arizona, and Sewell in Chile.
+            Inkjet on organza.
+
+            [spread3.jpg]
+            [spread1.jpg]
+            [spread2.jpg]
+<br>
+<li>Detail</li>
+            [detail1.jpg]
+            [detail2.jpg]
+            [detail3.jpg]
+            [detail4.jpg]
+
+                                    [cover.jpg]
+
+        `},
   {
     "folder": "potters-fields",
     "name": "satellite drawings",
