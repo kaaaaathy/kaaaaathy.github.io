@@ -99,28 +99,8 @@
 
 		document.onmousemove = mouse;
 		function mouse(e) {
-			set_scroll();
 			y = (e) ? e.pageY : event.y + sdown;
 			x = (e) ? e.pageX : event.x + sleft;
-		}
-
-		function set_scroll() {
-			if (typeof (self.pageYOffset) == "number") {
-				sdown = self.pageYOffset;
-				sleft = self.pageXOffset;
-			}
-			else if (document.body.scrollTop || document.body.scrollLeft) {
-				sdown = document.body.scrollTop;
-				sleft = document.body.scrollLeft;
-			}
-			else if (document.documentElement && (document.documentElement.scrollTop || document.documentElement.scrollLeft)) {
-				sleft = document.documentElement.scrollLeft;
-				sdown = document.documentElement.scrollTop;
-			}
-			else {
-				sdown = 0;
-				sleft = 0;
-			}
 		}
 
 		window.onresize = set_width;
@@ -149,7 +129,8 @@
 			div.classList.add('star');
 			return (div);
 		}
-		// ]]>
+
+
 	</script>
 
 </head>
@@ -241,6 +222,8 @@
 		}
 
 		function ProjectList() {
+			window.scrollTo(0, 0);
+
 			const halfway = Math.floor(work.length / 2);
 			const half1 = work.slice(0, halfway);
 			const half2 = work.slice(halfway);
@@ -372,9 +355,26 @@
 		}
 		function App() {
 			const history = useHashHistory({ hashRoot: "" })
+			// reset body styles & scroll on every route change to avoid leftover inline styles
+			function RouteEffect() {
+				const loc = useLocation();
+				useEffect(() => {
+					// Ensure we're at the top of the page
+					window.scrollTo(0, 0);
+					// Clear common inline styles other pages/scripts may set
+					document.body.style.height = "";
+					document.body.style.minHeight = "";
+					document.body.style.overflow = "";
+					document.body.style.overflowY = "";
+
+				}, [loc]);
+				return null;
+			}
+
 			return (
 				<Router history={history} >
 					<Navbar />
+					<RouteEffect />
 					<main>
 						<Routes>
 							<Route path="/" exact element={<ProjectList />}></Route>

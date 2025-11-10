@@ -63,7 +63,7 @@ After the show, I turned all participant questions into little zines which repur
        <li>credits</li>
            HUGE thank you to the CultureHub team: DeAndra, Mattie, Sangmin, Tee, Billy, and all! Special thanks to Lai Yi Ohlsen for the projector loan, and to Willy Wu for backend support. Big thanks also to Ryan Greene for testing.
 
- Thank you so much to Ji-Hoon and Semin for your photos, and for your work documenting the event! Photo credit for other in-person images go to dear friends Angie and Livia—thank you.
+ Thank you so much to Ji-Hoon Kim and Semin Lee for your photos, and for your work documenting the event! Photo credit for other in-person images go to dear friends Angie and Livia—thank you.
  
  If you are featured in these photos as an attendee but don't want to be, please reach out and I will take it down.
 

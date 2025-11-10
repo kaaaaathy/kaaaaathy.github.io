@@ -99,13 +99,13 @@ nav {
 }
 
 a {
-    font-family: 'HBLossy', 'Arial', sans-serif;
+    font-family: 'HBLossy', 'Courier Prime', 'Courier', monospace;
     letter-spacing: 0px;
 
 }
 
 li {
-    font-family: 'HBLossy', 'Arial', sans-serif;
+    font-family: 'HBLossy', 'Courier Prime', 'Courier', monospace;
     font-size: 11pt;
     list-style: none;
     text-transform: lowercase;
@@ -120,7 +120,7 @@ li::before {
 }
 
 .aboutlinks {
-    font-family: 'HBLossy', 'Arial', sans-serif;
+    font-family: 'HBLossy', 'Courier Prime', 'Courier', monospace;
     letter-spacing: 0px;
     width: 100%;
     display: grid;
@@ -132,7 +132,7 @@ li::before {
 }
 
 #sidebar {
-    font-family: 'HBLossy', 'Arial', sans-serif;
+    font-family: 'HBLossy', 'Courier Prime', 'Courier', monospace;
     font-size: 10pt;
     letter-spacing: 0px;
 
@@ -410,6 +410,7 @@ ul {
     #col2 {
         max-width: 100%;
         margin: 0px;
+        height: auto;
 
     }
 
