@@ -184,7 +184,7 @@ h2 a:active,
 main {
     padding-left: 260px;
     /*was 258? */
-    padding-bottom: 120px;
+    padding-bottom: 80px;
     margin-left: 0px;
     margin-top: 30px;
     margin-right: 16px;
@@ -360,7 +360,7 @@ ul {
     /* font-size: 11pt; */
 }
 
-#aboutpic {
+.aboutpic {
     width: 240px;
     mix-blend-mode: multiply;
 
