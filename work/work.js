@@ -11,7 +11,6 @@ work = [
  Despite state attempts to know and control the planet, we know that knowledge alone isn’t enough to secure our climate future. Inspired by Hito Steyerl’s How Not to Be Seen and Zhanyi Chen’s satellite poetry, the performance thinks about planetary imagery through a surveillance studies lens. 
 Watch the recording → <a href="https://vimeo.com/1121613009" target="_blank">LINK</a>
 
-
     [ji-hoon-9.png]
      [7.png]
      [ji-hoon-7.png]
@@ -64,7 +63,8 @@ After the show, I turned all participant questions into little zines which repur
            HUGE thank you to the CultureHub team: DeAndra, Mattie, Sangmin, Tee, Billy, and all! Special thanks to Lai Yi Ohlsen for the projector loan, and to Willy Wu for backend support. Big thanks also to Ryan Greene for testing.
 
  Thank you so much to Ji-Hoon Kim and Semin Lee for your photos, and for your work documenting the event! Photo credit for other in-person images go to dear friends Angie and Livia—thank you.
- 
+ Thank you to Katherine Yang for <a href="https://www.culturehub.org/read/what-is-a-cloud">writing about this performance</a>.
+
  If you are featured in these photos as an attendee but don't want to be, please reach out and I will take it down.
 
 
@@ -193,25 +193,27 @@ USB, USB-C, SD card... I give credit to the brilliant Mika Ben Amar <a href="htt
 
       `},
   {
-    "folder": "stope-book",
+    "folder": "stope",
     "name": "stope",
     "tags": "",
     "year": "2025",
     "thumb": "detail2.png",
     "content": `
-            Scenes from copper mining sites: Bisbee and Sahauritas, Arizona, and Sewell in Chile.
-            Inkjet on organza.
+STOPE is an artist book compiling photography from copper mining sites: Bisbee and Sahauritas, Arizona, and Sewell in Chile. Set in "copper green," nodding at oxidation and malachite deposits found in these areas, the monochrome book also alludes to industries' increased reliance on copper for so-called green technologies.
+The sheer book lends a thread of connectivity between these related sites of violence, using both found text and photography to "conduct," as copper does, a salient thread across continents.            Inkjet on organza.
             [spread1.png]
-            [spread3.png]
             [spread2.png]
+                        [spread4.png]
+
 <br>
 <li>Detail</li>
+            [detail0.png]
             [detail1.png]
             [detail2.png]
-            [detail3.png]
             [detail4.png]
+             [cover1.png]
 
-                                    [cover.png]
+                                   
 
         `},
   {
