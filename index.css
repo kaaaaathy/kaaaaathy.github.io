@@ -147,6 +147,7 @@ li::before {
 
 #credit {
     font-size: 8pt;
+    line-height: 1.2rem;
 }
 
 
@@ -624,6 +625,8 @@ h2 a,
     #credit,
     .metadata {
         font-size: 10pt;
+        line-height: 1.5rem;
+
     }
 
     .extlink {
