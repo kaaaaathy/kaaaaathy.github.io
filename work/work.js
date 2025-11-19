@@ -199,7 +199,7 @@ USB, USB-C, SD card... I give credit to the brilliant Mika Ben Amar <a href="htt
     "year": "2025",
     "thumb": "detail2.png",
     "content": `
-STOPE is an artist book compiling photography from copper mining sites: Bisbee and Sahauritas, Arizona, and Sewell in Chile. Set in "copper green," nodding at oxidation and malachite deposits found in these areas, the monochrome book also alludes to industries' increased reliance on copper for so-called green technologies.
+<i>stope</i> is an artist book compiling photography from copper mining sites: Bisbee and Sahauritas, Arizona, and Sewell in Chile. Set in "copper green," nodding at oxidation and malachite deposits found in these areas, the monochrome book also alludes to industries' increased reliance on copper for so-called green technologies.
 The sheer book lends a thread of connectivity between these related sites of violence, using both found text and photography to "conduct," as copper does, a salient thread across continents.            Inkjet on organza.
             [spread1.png]
             [spread2.png]
