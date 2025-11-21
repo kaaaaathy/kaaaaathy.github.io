@@ -53,7 +53,7 @@ A set of glyphs drawn from meteorological symbols, turned into a custom typeface
   
 <li>WEBSITE + ZINES</li>
 You can still access the divination website here → <a href="https://www.uncertain.cloud/" target="_blank">LINK</a>
- <iframe src="https://player.vimeo.com/video/1123723725" frameborder="0" width="100%" height ="320"></iframe>
+ <iframe src="https://player.vimeo.com/video/1123723725" frameborder="0" width="100%" height ="320"></iframe class="video">
 After the show, I turned all participant questions into little zines which repurposed the mylar from the balloons.
 [zine3-edit.png]
 [zine4.png]
@@ -80,7 +80,7 @@ After the show, I turned all participant questions into little zines which repur
     Work-in-progress from my time at Black Mountain College Museum + Art Center. A large drawing, projected video, and movement performance situated in the original Black Mountain College Studies building.
     Graphite on cotton muslin, sticks, reeds, video, poems.
 
-            <iframe src="https://player.vimeo.com/video/1131542204" style="background:black; width:100%; height:400px; border-radius:4px" frameborder = "0" allow="fullscreen" allowfullscreen></iframe>
+            <iframe src="https://player.vimeo.com/video/1131542204" style="background:black; width:100%; height:400px; border-radius:4px" frameborder = "0" allow="fullscreen" allowfullscreen></iframe class="video">
 
     <li>surface</li>
     [day.png]
@@ -117,7 +117,7 @@ After the show, I turned all participant questions into little zines which repur
   [still3.png]
   [still2.png]
 
- <iframe src="https://player.vimeo.com/video/947107796" frameborder="0" width="100%" height ="320"></iframe>
+ <iframe src="https://player.vimeo.com/video/947107796" frameborder="0" width="100%" height ="320"></iframe class="video">
     <br>
   <li>garment</li>
   A cold, 15-pound garment stitched together with Rhode Island river and beach stones. This garment is worn during the computer performance as an expression of embodied grief, and as an extension of the local ecologies. 
@@ -135,7 +135,7 @@ After the show, I turned all participant questions into little zines which repur
   Website of speech-to-text transcription alongside USGS mining data / Digitally embroidered organza quilt of poems alongside my mother's circuit diagrams / iPhone 4 cast in cement.
 
 
-    <iframe src="https://player.vimeo.com/video/1079861192" frameborder="0" width="100%" height ="320"></iframe>
+    <iframe src="https://player.vimeo.com/video/1079861192" frameborder="0" width="100%" height ="320"></iframe class="video">
    [quilt-edit.jpg]
    [iphone.png]
 
@@ -273,7 +273,7 @@ The sheer book lends a thread of connectivity between these related sites of vio
 <br/><br/>
   <li>performance</li>
   Video component made with p5.js, voice.
-  <iframe src="https://player.vimeo.com/video/781114238?h=0bb978ccb6" frameborder="0" width="100%" height ="320"></iframe>
+  <iframe src="https://player.vimeo.com/video/781114238?h=0bb978ccb6" frameborder="0" width="100%" height ="320"></iframe class="video">
 `
 
   },
@@ -289,7 +289,7 @@ The sheer book lends a thread of connectivity between these related sites of vio
 Published in Fonograf Edition's <a href="https://fonografeditions.com/catalog/fono31-de-canon-fe-a-mouth-holds-many-things-print-anthology/" target="_blank">A Mouth Holds Many Things</a>. If you call something, you can keep it in a box. If you classify it, perhaps you can harvest it. Commodification and supply chain and frameworks of extraction have their own grammars.
 This infinitely looping browser poem explores concepts both abstract and concrete — a color wavelength — are socialized through language. How blue was the last discrete color category to be named in English.
 
-Watch with sound on:<iframe src="https://player.vimeo.com/video/653867996" width="100%" height="350" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+Watch with sound on:<iframe src="https://player.vimeo.com/video/653867996" width="100%" height="350" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe class="video">
 Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtual blue</a> (images may load slowly before they cache)
 <br><br>
 
@@ -309,7 +309,7 @@ Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtua
   [blue4.gif]
 
 <br>
-  Color names poem projected onto a ceiling:<iframe src="https://player.vimeo.com/video/650982362" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  Color names poem projected onto a ceiling:<iframe src="https://player.vimeo.com/video/650982362" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe class="video">
   [blueceiling.png]
 
   The data:
@@ -523,7 +523,7 @@ Website with a simple template for a digital erotic poem:
     "content": `<i>walking with ghosts</i> is a hypertext web poem that invites the reader to travel through cryptic sites in Google Street View. the images are pulled from current NY public parks (nearly all of which used to be potter's fields) and contrasts present day burial grounds with these recreational spaces.
   it nods at the historical layers of eviction, theft, imperialism embedded quietly and namelessly in these green spaces, via the narrative throughline of ghosts.
   Read online → <a href="https://kaaathy.com/walk/1.html" target="_blank">LINK</a>
-<iframe src="https://player.vimeo.com/video/596956749" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen"  allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/596956749" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen"  allowfullscreen></iframe class="video">
   [walk1.png]
   [walk2.png]
   [walk3.png]
@@ -565,7 +565,7 @@ Website with a simple template for a digital erotic poem:
   Internet Geology is a multimedia installation which highlights geographic sites of copper extraction and outlines the role of copper in technology and internet infrastructures. 
   
   Inspired by Fernando Godoy’s copper mine recordings, Trevor Paglen’s drone footage project, and Sam Lavigne’s web scrape of oil news, the digital projection combines sound, maps, government data, and poetry to play with the aesthetics of systemized extraction and "the field." 
-  <iframe src="https://player.vimeo.com/video/778307297?h=7132e13db1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  <iframe src="https://player.vimeo.com/video/778307297?h=7132e13db1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe class="video">
 
   The installation combines the satellite’s gaze (via OpenMapBox) and Open Mineral data from US governmental data bases on worldwide copper mines, smelters, and plants. This piece is projected on to a copper-infused, copper-colored conductive fabric. 
    [geostill.png]
@@ -591,7 +591,7 @@ In front is a metaphorical "circuit" of objects: a sculptural installation of ya
     Language under capitalism compresses itself—it minifies into lean, neat boxes fit for work and production. It does not rebel, it does not deviate; it eclipses possibility of what could be in our relationships.
     This interactive, audio-based web poem plays out through a fictional bureaucratic phone call. Selected for <a href="https://icids2021.ardin.online/art-exhibition" target="_blank">ICIDS 2021 ReDisconnection.</a>
     Try it on your mobile device → <a href="office/index.html" target="_blank">LINK</a>
-    <iframe src="https://player.vimeo.com/video/469486919" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    <iframe src="https://player.vimeo.com/video/469486919" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe class="video">
     <br>
         Dialing any one of several digits (including secret, non-menu digits) will play a computer-synthesized, female voice recording.
 

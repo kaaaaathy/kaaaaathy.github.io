@@ -217,7 +217,14 @@ img {
 }
 
 iframe {
-    border-radius: 4px;
+    border-radius: 4px !important;
+    background-color: black;
+
+}
+
+.player,
+#player {
+    border-radius: 4px !important;
 
 }
 
@@ -429,6 +436,10 @@ ul {
 /* Remove sidebar when too narrow */
 @media screen and (max-width: 600px) {
 
+    /* iframe {
+        background-color: transparent;
+
+    } */
 
     figcaption {
         justify-content: center;
