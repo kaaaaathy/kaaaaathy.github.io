@@ -16,6 +16,46 @@
 /*--------------------------------------------------------------*/
 /*AT LARGEST SIZE */
 /*--------------------------------------------------------------*/
+.arrow-flip {
+    background-image: url("arrow-flip.png");
+    margin: 0px -2px -2px 5px !important;
+    height: 10px;
+    width: 10px;
+
+
+}
+
+.arrow {
+    display: hidden;
+    margin: 3px 5px !important;
+    background-image: url("https://kaaathy.com/arrow.png");
+    height: 11px;
+    width: 11px;
+}
+
+.arrow,
+.arrow-flip {
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    opacity: 0.8;
+    display: flex;
+
+}
+
+.extlink {
+    display: flex;
+    flex-wrap: nowrap;
+    font-family: 'HBLossy', 'Courier Prime', 'Courier', monospace;
+    font-size: 11pt;
+    line-height: 18px;
+}
+
+.extlink a {
+    display: flex;
+    align-items: center;
+}
+
 .star {
     z-index: 2000;
 }
@@ -34,7 +74,6 @@
 
 body {
     background-color: whitesmoke;
-
     font-size: 9.5pt;
     font-family: 'AUTHENTICSans', 'Arial', sans-serif;
     line-height: 1.6;
@@ -350,14 +389,6 @@ ul {
 
 
 
-.extlink {
-    font-family: 'HBLossy', 'Courier Prime', 'Courier', monospace;
-    font-size: 11pt;
-    text-decoration: none;
-    line-height: 2rem;
-
-}
-
 
 
 #highlight {
@@ -382,15 +413,13 @@ ul {
 @media screen and (max-width: 800px) {
 
 
+
     .arrow {
-        background-image: url("https://kaaathy.com/arrow.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        height: 11px;
-        width: 11px;
-        opacity: 0.8;
-        margin: 3px 5px !important;
+        display: block;
     }
+
+
+
 
     figcaption {
         position: relative;
@@ -436,10 +465,6 @@ ul {
 /* Remove sidebar when too narrow */
 @media screen and (max-width: 600px) {
 
-    /* iframe {
-        background-color: transparent;
-
-    } */
 
     figcaption {
         justify-content: center;
@@ -572,7 +597,6 @@ ul {
 
 h2 a,
 #content a {
-    /* text-decoration: underline; */
     border-bottom: 1px dotted #333;
 }
 
@@ -620,7 +644,6 @@ h2 a,
     .aboutlinks,
     #highlight,
     #work-stuff a figcaption {
-        /* font-size: 13.5pt; */
         font-size: 12pt;
     }
 
@@ -642,6 +665,8 @@ h2 a,
 
     .extlink {
         font-size: 13pt;
+        line-height: 21px;
+
     }
 
     #work-stuff a {

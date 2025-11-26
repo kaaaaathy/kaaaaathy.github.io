@@ -344,16 +344,18 @@ Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtua
     "year": "2023",
     "thumb": "thumb.png",
     "content": `
-<i>the color of dislocation (weeds now run wild)</i> is an ongoing work, a hybrid mini-chapbook concerned with sheerness, opacity, and color in classification systems. I wonder at how scientific language grasps at knowledge; precisions it; pins it as a colonial found. Perhaps poetic gestures of annotation and collage introduce fog instead, and trouble the body of water which represents “scientific” epistemology.. 
-        The booklet aggregates photographic scans with “found” material of Pliny the Elder’s writings, Darwin’s HMS Beagle Voyage throughout the Global South, and Werner’s Nomenclature of Colour. Excerpts from the book are published in the Nightboat Books anthology, <a href="https://nightboat.org/book/permanent-record-poetics-towards-the-archive/" target="_blank">Permanent Record</a>.
+<i>the color of dislocation (weeds now run wild)</i> is an ongoing body of work. I wonder at how scientific language grasps at knowledge; precisions it; pins it as a colonial found. Perhaps poetic gestures of annotation and collage introduce fog instead, and trouble the body of water which represents “scientific” epistemology. 
+        The chapbook and web component aggregate “found” material from Pliny the Elder’s writings, Darwin’s HMS Beagle Voyage throughout the Global South, and <a href="https://archive.org/details/gri_c00033125012743312" target="_blank">Werner’s Nomenclature of Colour</a>. Excerpts from the book are published in the Nightboat Books anthology, <a href="https://nightboat.org/book/permanent-record-poetics-towards-the-archive/" target="_blank">Permanent Record</a>.
    
     <li>Book component</li>
      [spread1.png]
     [pages7.png]
     [spread2.png]
 
-    
-
+<li>Website</li>
+  The book has an accompanying website which animates data from Nicholas Rogeaux's <a href="https://docs.google.com/spreadsheets/d/10w7UebIDqN6ChEpBwLDQmAgVZZhLtKvnrLeNnBjJmsc/edit?gid=0#gid=0" target="_blank">downloadable CSV</a> of Werner's colors. Sound credit to <a href="https://freesound.org/people/InspectorJ/sounds/398980/" target="_blank">InspectorJ</a> on FreeSound.org.
+  Read online → <a href="https://kaaathy.com/werners/" target="_blank">LINK</a>
+ [thumb.png]
 `
 
   },
