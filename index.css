@@ -46,6 +46,11 @@
 .extlink {
     display: flex;
     flex-wrap: nowrap;
+
+}
+
+.extlink,
+.syllabus {
     font-family: 'HBLossy', 'Courier Prime', 'Courier', monospace;
     font-size: 11pt;
     line-height: 18px;
@@ -663,7 +668,8 @@ h2 a,
 
     }
 
-    .extlink {
+    .extlink,
+    .syllabus {
         font-size: 13pt;
         line-height: 21px;
 
