@@ -21,27 +21,19 @@
     margin: 0px -2px -2px 5px !important;
     height: 10px;
     width: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    display: flex;
 
 
 }
 
 .arrow {
-    display: hidden;
-    margin: 3px 5px !important;
-    background-image: url("https://kaaathy.com/arrow.png");
-    height: 11px;
-    width: 11px;
-}
-
-.arrow,
-.arrow-flip {
-    background-size: contain;
-    background-repeat: no-repeat;
-
-    opacity: 0.8;
-    display: flex;
+    display: none;
 
 }
+
 
 .extlink {
     display: flex;
@@ -418,14 +410,6 @@ ul {
 @media screen and (max-width: 800px) {
 
 
-
-    .arrow {
-        display: block;
-    }
-
-
-
-
     figcaption {
         position: relative;
         top: 0px;
@@ -643,6 +627,17 @@ h2 a,
 /*--------------------------------------------------------------*/
 
 @media screen and (max-width: 520px) {
+
+    .arrow {
+        display: block;
+        background-size: contain;
+        background-repeat: no-repeat;
+        opacity: 0.8;
+        margin: 3px 5px !important;
+        background-image: url("https://kaaathy.com/arrow.png");
+        height: 11px;
+        width: 11px;
+    }
 
     body,
     h2,
