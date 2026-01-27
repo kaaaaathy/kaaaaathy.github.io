@@ -405,7 +405,128 @@ Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtua
             [weave3.png]
         `},
 
+  //   {
+  //     "folder": "aa-abolition",
+  //     "name": "visioning towards abolition",
+  //     "tags": "zine, workshop",
+  //     "year": "2026",
+  //     "thumb": "10-alt.png",
+  //     "content": `
+  //          <li>second edition</li>
+  // Second edition of an Abolition Zine for 2026. Produced by Many Folds Press, designed in collaboration with Angela Chang and Many Folds. 75% of proceeds go towards deportation defense funds.
+  //     Bisque and Blue RISO ink on Salmon text weight paper by French Paper.
 
+  //     [cover-alt.png]
+  //     [2.png]
+  //     [3.png]
+  //     [5.png]
+  //     [6.png]
+  //     <br><br>
+
+  //     Buy from Many Folds press! <3 → <a href="https://printingfortunes.info/jobs" target="_blank">LINK</a>
+  //     [mfp1.jpg]
+  //     [mfp2.jpg]
+  //     Photos by Connie Yu.
+
+  //      <li>first edition</li>
+
+  //         Made with <a href="https://www.aarw.org/" target="_blank">Asian American Resource Workshop</a> (AARW) as part of their abolition working group. Includes a political educator's toolkit to run this in your own communities. Distributed online through AARW as well as through <a href="https://pm.linkedbyair.net/catalog/59883/" target="_blank">Printed Matter</a>.
+
+  //         [zine-scan-cover-2.png]
+  //         [2-old.png]
+  //         [3-old.png]
+  //         [4-old.png]
+  //         [zine-scan-slow.gif]
+  //         <br>
+  //                 Use the workshop toolkit → <a href="https://docs.google.com/presentation/d/1pfmC3wtc6xU0QqKWCPTugfl0HUkxZXpLT9-772c-Ndo/edit#slide=id.g10d7d2d8eac_0_155" target="_blank">LINK</a> 
+
+  //         [slide1.png]
+  //         [slide2.png]
+
+  //     `},
+
+  {
+    "folder": "conducting-memory",
+    "name": "Conducting Our Memory",
+    "tags": "zines, workshop",
+    "year": "2026",
+    "thumb": "makey3.png",
+    "content": `
+    [cover.png]
+    [makey1.png]
+          [spread5.png]
+         [spread6.png]
+            [spread3.png]
+       [spread4.png]
+    [spread1.png]
+     [spread2.png]
+         [cover-lit.png]
+
+   [closeup.png]
+  
+
+    `
+  },
+  {
+    "folder": "bisbee",
+    "name": "Bisbee",
+    "tags": "weaving",
+    "year": "2026",
+    "thumb": "weave1.png",
+    "content": `
+    Wool, cotton, and copper-foiled paper on copper warp.
+    Thank you Fernando Serrano for the blue churro and copper foil <3
+
+    [weave0.png]
+    [weave5.jpg]
+   
+  
+
+    `
+  },
+  {
+    "folder": "no-object",
+    "name": "there is no mineral of futurity",
+    "tags": "",
+    "year": "2023",
+    "thumb": "thumb.jpg",
+    "content": `
+  A textile-based, photographic meditation on extractivism, technology, and the color blue. Through cyanotypes, the piece depicts error screens, cursors, glitches, alongside mining sites in Google satellite imagery and settler colonial cartographies. Among these are lithium mines in the American Southwest and cobalt mines in the Congo, both of which are crucial for battery production; the piece’s geographies also include a 19th century map of the largest copper mine in the world, based in Chile, which played a critical role in the dawn of electricity and electronics. 
+  These cyanotype images were developed using solar power and iron-based pigment, which nods to photography’s material basis. Perhaps there is something about photography which pretends to be virtual as well, which creates what Susan Sontag calls a “fracturing, dislocating vision that only the camera supplies.” I would venture to say that language crops the world in such a way, too, notably within the technology of object recognition. And so the piece reckons not only with the geographies of extraction, but also its grammars. In this case, it references the surveillant, extractive gaze of artificial intelligence, skimming over the maps, and claiming, “NO OBJECT FOUND.” 
+  
+  [1.png]
+  [7.jpg]
+  [3.jpg]
+  [17.jpg]
+  [6.jpg]
+
+
+
+`
+
+  },
+
+  {
+    "folder": "potters-fields",
+    "name": "satellite drawings",
+    "tags": "",
+    "year": "2021",
+    "thumb": "drawing1.png",
+    "content": `
+    Colored pencil drawings of former burial sites in NYC which are now public parks (or pending transformation in to a public park).
+
+    [drawing1.png]
+    [drawing2.png]
+    [drawing3.png]
+
+    <br>
+    <li>detail</li>
+    [detail1.png]
+    [detail2.png]
+
+`
+
+  },
 
   {
     "folder": "eroevent",
@@ -434,30 +555,13 @@ Website with a simple template for a digital erotic poem:
   },
 
   {
-    "folder": "aarw-zine",
-    "name": "community zines",
+    "folder": "malden-zine",
+    "name": "malden transit justice workshop",
     "tags": "zine, workshop",
     "year": "2021",
-    "thumb": "zine-scan-slow.gif",
+    "thumb": "a-voyce-zine-2.gif",
     "content": `
-        <li>visioning towards abolition</li>
-        Made with <a href="https://www.aarw.org/" target="_blank">Asian American Resource Workshop</a> (AARW) as part of their abolition working group. Includes a political educator's toolkit to run this in your own communities. Distributed online through AARW as well as through <a href="https://pm.linkedbyair.net/catalog/59883/" target="_blank">Printed Matter</a>.
-        Use the workshop toolkit → <a href="https://docs.google.com/presentation/d/1pfmC3wtc6xU0QqKWCPTugfl0HUkxZXpLT9-772c-Ndo/edit#slide=id.g10d7d2d8eac_0_155" target="_blank">LINK</a> 
- 
-        [zine-scan-cover-2.png]
-        [2.png]
-        [3.png]
-        [4.png]
-        [zine-scan-gif.gif]
-
-        [sky1.jpeg]
-        <br>
-        [slide1.png]
-        [slide2.png]
-        <br>
-        <br>
-        <li>malden transit justice</li>
-        A zine I co-created and designed with Asian-American teenagers in Malden, MA, as part of a creative and civic literacy afterschool program.
+               A zine I co-created and designed with Asian-American teenagers in Malden, MA, as part of a creative and civic literacy afterschool program.
         I was the teaching artist for Malden's Asian Community Development Corp in the spring of 2021. 
         [malden.png]
         Together, we discussed how transit justice is also economic, environmental, and racial justice. I shared local histories of resisting displacement, as well as the beauty and power of maps and "countercartographies," which we made together. Students shared some of their ideas for a better Malden with the city council, as well as through their artwork, which is featured in this zine.
@@ -469,53 +573,8 @@ Website with a simple template for a digital erotic poem:
         [malden7.png]
         [a-voyce-zine-2.gif]
         
-
-
-
         `
-  }, {
-    "folder": "no-object",
-    "name": "there is no mineral of futurity",
-    "tags": "",
-    "year": "2023",
-    "thumb": "thumb.jpg",
-    "content": `
-  A textile-based, photographic meditation on extractivism, technology, and the color blue. Through cyanotypes, the piece depicts error screens, cursors, glitches, alongside mining sites in Google satellite imagery and settler colonial cartographies. Among these are lithium mines in the American Southwest and cobalt mines in the Congo, both of which are crucial for battery production; the piece’s geographies also include a 19th century map of the largest copper mine in the world, based in Chile, which played a critical role in the dawn of electricity and electronics. 
-  These cyanotype images were developed using solar power and iron-based pigment, which nods to photography’s material basis. Perhaps there is something about photography which pretends to be virtual as well, which creates what Susan Sontag calls a “fracturing, dislocating vision that only the camera supplies.” I would venture to say that language crops the world in such a way, too, notably within the technology of object recognition. And so the piece reckons not only with the geographies of extraction, but also its grammars. In this case, it references the surveillant, extractive gaze of artificial intelligence, skimming over the maps, and claiming, “NO OBJECT FOUND.” 
-  
-  [1.png]
-  [7.jpg]
-  [3.jpg]
-  [17.jpg]
-  [6.jpg]
-
-
-
-`
-
   },
-  {
-    "folder": "potters-fields",
-    "name": "satellite drawings",
-    "tags": "",
-    "year": "2021",
-    "thumb": "drawing1.png",
-    "content": `
-    Colored pencil drawings of former burial sites in NYC which are now public parks (or pending transformation in to a public park).
-
-    [drawing1.png]
-    [drawing2.png]
-    [drawing3.png]
-
-    <br>
-    <li>detail</li>
-    [detail1.png]
-    [detail2.png]
-
-`
-
-  },
-
   {
     "folder": "walk",
     "name": "walking with ghosts",
@@ -533,12 +592,13 @@ Website with a simple template for a digital erotic poem:
 `
   },
 
+
   {
     "folder": "semiconduction",
     "name": "Touching Each Other Through Semi Conduction",
     "tags": "Interactive, HTML",
     "year": "2021–3",
-    "thumb": "companion2.png",
+    "thumb": "semi6.gif",
     "content": `A two-part poem diptych between screen-based work and artist book. Reflections on supply chain, migrant labor, Foxconn, diaspora.
     <br>
     <li>artist book</li>
@@ -629,27 +689,27 @@ In front is a metaphorical "circuit" of objects: a sculptural installation of ya
 
    `
   },
-  {
-    "folder": "person-object",
-    "name": "person [object]",
-    "tags": "",
-    "year": "2023",
-    "thumb": "thumb2.png",
-    "content": `Artist book & poems about human labor within today's computational systems: content moderators in SE Asia who flag traumatizing content before it ever reaches our screens; low wage Amazon crowdsourced labor all over the world; low wage human subjects who help train our AI systems, including transcribing Alexa and other home assistant conversations.
+  // {
+  //   "folder": "person-object",
+  //   "name": "person [object]",
+  //   "tags": "",
+  //   "year": "2023",
+  //   "thumb": "thumb2.png",
+  //   "content": `Artist book & poems about human labor within today's computational systems: content moderators in SE Asia who flag traumatizing content before it ever reaches our screens; low wage Amazon crowdsourced labor all over the world; low wage human subjects who help train our AI systems, including transcribing Alexa and other home assistant conversations.
 
-    Workers must often make decisions in "blurry" spaces, where machines are likely to make a mistake; they complete microtasks for little money with minimal labor protections; meanwhile their existence remains ghostly and un-rendered to rest of the world.
+  //   Workers must often make decisions in "blurry" spaces, where machines are likely to make a mistake; they complete microtasks for little money with minimal labor protections; meanwhile their existence remains ghostly and un-rendered to rest of the world.
 
-    [0.png]
-    [1.png]
-    [2.png]
-
-
+  //   [0.png]
+  //   [1.png]
+  //   [2.png]
 
 
 
-  `
 
-  },
+
+  // `
+
+  // },
   // {
   //   "folder": "a-cell",
   //   "name": "A CELL, A CELL",
