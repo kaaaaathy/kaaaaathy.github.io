@@ -452,6 +452,7 @@ Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtua
     "year": "2026",
     "thumb": "makey3.png",
     "content": `
+    Conductive zines made for a workshop in the historical mining town of Bisbee, AZ. Participants used Chibitronics and MaKey MaKey to create simple circuits with copper on paper. The zines have prompts for drawing and writing, and share past and present struggles around copper mining—for example, the 1917 Bisbee Deportation of striking miners, and today's fight to protect sacred land from mining companies.
     [cover.png]
     [makey1.png]
           [spread5.png]
@@ -475,10 +476,10 @@ Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtua
     "thumb": "weave1.png",
     "content": `
     Wool, cotton, and copper-foiled paper on copper warp.
-    Thank you Fernando Serrano for the blue churro and copper foil <3
+    Thank you <a href="" target="_blank">Fernando Serrano</a> for the blue churro and copper foil <3
 
     [weave0.png]
-    [weave5.jpg]
+    [weave5.png]
    
   
 
