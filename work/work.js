@@ -478,8 +478,8 @@ Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtua
     "year": "2026",
     "thumb": "weave1.png",
     "content": `
-    Wool, cotton, and copper-foiled paper on copper warp.
-    Thank you <a href="https://www.emmanuelfernandoserrano.com/" target="_blank">Fernando Serrano</a> for the blue churro and copper foil <3
+    Wool, cotton, and copper-leafed paper on copper wire warp. Better pictures coming soon (maybe!)
+    Thank you <a href="https://www.emmanuelfernandoserrano.com/" target="_blank">Fernando Serrano</a> for the dyed blue churro and copper leaf <3
 
     [weave0.png]
     [weave5.png]
