@@ -455,16 +455,18 @@ Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtua
     Conductive zines made for a workshop in the historical mining town of Bisbee, AZ. Participants used <a href="https://chibitronics.com/" target="_blank">Chibitronics</a> and <a href="https://www.youtube.com/watch?v=rfQqh7iCcOU" target="_blank">MaKey MaKey</a> to create simple circuits with copper on paper. The zines have prompts for drawing and writing, and share past and present struggles around copper mining—for example, the 1917 Bisbee Deportation of striking miners, and today's fight to protect sacred land from mining companies.
     [cover.png]
     [makey3.png]
+           [poem1.png]
+
           [spread5.png]
          [spread6.png]
             [spread3.png]
-       [spread4.png]
-    [spread1.png]
+                [spread1.png]
      [spread2.png]
+
          [cover-lit.png]
 
    [closeup.png]
-   Created while Artist-in-Residence at Bisbee Central School Project. Special thanks to Laurie McKenna, Fernando Serrano, Ryan Green.
+   Created while Artist-in-Residence at Bisbee Central School Project. Special thanks to Laurie McKenna, Fernando Serrano, Ryan Greene.
   
 
     `
