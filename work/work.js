@@ -450,11 +450,11 @@ Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtua
     "name": "Conducting Our Memory",
     "tags": "zines, workshop",
     "year": "2026",
-    "thumb": "makey3.png",
+    "thumb": "makey2.png",
     "content": `
     Conductive zines made for a workshop in the historical mining town of Bisbee, AZ. Participants used <a href="https://chibitronics.com/" target="_blank">Chibitronics</a> and <a href="https://www.youtube.com/watch?v=rfQqh7iCcOU" target="_blank">MaKey MaKey</a> to create simple circuits with copper on paper. The zines have prompts for drawing and writing, and share past and present struggles around copper mining—for example, the 1917 Bisbee Deportation of striking miners, and today's fight to protect sacred land from mining companies.
     [cover.png]
-    [makey1.png]
+    [makey3.png]
           [spread5.png]
          [spread6.png]
             [spread3.png]
