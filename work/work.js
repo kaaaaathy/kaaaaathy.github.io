@@ -54,9 +54,9 @@ A set of glyphs drawn from meteorological symbols, turned into a custom typeface
 <li>WEBSITE + ZINES</li>
 You can still access the divination website here → <a href="https://www.uncertain.cloud/" target="_blank">LINK</a>
  <iframe src="https://player.vimeo.com/video/1123723725" frameborder="0" width="100%" height ="320"></iframe class="video">
-After the show, I turned all participant questions into little zines which repurposed the mylar from the balloons.
+After the show, I turned all participant questions into little zines which repurposed the mylar from the balloons. 
+[zine-culturehub.png]
 [zine3-edit.png]
-[zine4.png]
 <br>
 
        <li>credits</li>
