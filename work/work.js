@@ -66,9 +66,7 @@ After the show, I turned all participant questions into little zines which repur
  Thank you to Katherine Yang for <a href="https://www.culturehub.org/read/what-is-a-cloud">writing about this performance</a>.
 
  If you are featured in these photos as an attendee but don't want to be, please reach out and I will take it down.
-
-
-              `
+`
   },
   {
     "folder": "field",
@@ -99,18 +97,50 @@ After the show, I turned all participant questions into little zines which repur
         [grid.png]
 
 
-
   `
+  },
+  {
+    "folder": "stone-shirt",
+    "name": "want to not want the heavy",
+    "tags": "",
+    "year": "2023",
+    "thumb": "shirt.png",
+    "content": `
+  A cold, 15-pound garment stitched together with Rhode Island river and beach stones. This garment is worn during the computer performance as an expression of embodied grief, and as an extension of the local ecologies. 
+  
+  [shirt.png]
+  [detail.png]
+
+  Here, I'm modeling it by the Blackstone Seekonk river, which was, at one point, the most polluted river in the country due to Pawtucket textile industries. (Thank you, Riley, for this picture in below freezing windy weather).
+  [river2 edit.jpg]
+`
   },
   {
     "folder": "she-will-last",
     "name": "she will last as long as stones",
     "tags": "",
-    "year": "2024",
-    "thumb": "still5.png",
+    "year": "2024–2026",
+    "thumb": "03-flat.png",
     "content": `
-  MFA thesis project for Brown University Literary Arts program, 2024. Advised by Sawako Nakayasu. 
-  A poetry performance about copper and cobalt mining, losing my mother, and ways that grief is a circuit, and how stones teach us about eternity. Perhaps maternal and ecological grief are a deep form of love, persisting. A huge thank you to Si-Min Chong for taking these photos!
+    <li>book</li>
+Design by Dorothy Lin, published by Wendy's Subway Press. 
+From the Wendy's Subway page: 
+Weaving together the matter of geology, migration, and computation, kathy wu’s debut book She Will Last as Long as Stones mines data from the United States Geological Survey, pairing it with (mis)translations of conversations with the author’s mother, narratives of racialized and gendered labor, and elegies on end-of-life care. Through text, photo-collage, and diagrammatic circuitry, wu mobilizes language toward the edges of things, where glitch and failure meet grief, outpour. 
+
+
+  [cover.png]
+  [03-flat.png]
+  [06-flat.png]
+  
+    <li>performances</li>
+    Photos from book tour in 2025–2026! Videos by Amelia Bloom.
+    <iframe src="https://player.vimeo.com/video/1160585792" frameborder="0" width="100%" height ="320"></iframe class="video">
+    <iframe src="https://player.vimeo.com/video/1160585890" frameborder="0" width="100%" height ="320"></iframe class="video">
+[riffraff.png]
+[wendys.png]
+<br>
+ Originally, the work was performed as MFA thesis project for Brown University Literary Arts program, 2024. Advised by Sawako Nakayasu. 
+A huge thank you to Si-Min Chong for taking these photos/video!
 
   [still5.png]
   [still1.png]
@@ -119,39 +149,14 @@ After the show, I turned all participant questions into little zines which repur
 
  <iframe src="https://player.vimeo.com/video/947107796" frameborder="0" width="100%" height ="320"></iframe class="video">
     <br>
-  <li>garment</li>
-  A cold, 15-pound garment stitched together with Rhode Island river and beach stones. This garment is worn during the computer performance as an expression of embodied grief, and as an extension of the local ecologies. 
-  
-  [shirt.png]
-  [detail.png]
 
-  Here, I'm modeling it by the Blackstone Seekonk river, which was, at one point, the most polluted river in the country due to Pawtucket textile industries. (Thank you, Riley, for this picture in below freezing windy weather).
-  [river2 edit.jpg]
-
-
-
-  <br><br>
   <li>accompanying media</li>
+
   Website of speech-to-text transcription alongside USGS mining data / Digitally embroidered organza quilt of poems alongside my mother's circuit diagrams / iPhone 4 cast in cement.
-
-
-    <iframe src="https://player.vimeo.com/video/1079861192" frameborder="0" width="100%" height ="320"></iframe class="video">
+    <iframe src="https://player.vimeo.com/video/1160624808" frameborder="0" width="100%" height ="320"></iframe class="video">
    [quilt-edit.jpg]
-   [iphone.png]
-
-     <br><br>
-  <li>poetry manuscript</li>
-  Writing, design, images. Printed in a small batch on my own. A longer edition of this book is forthcoming with Wendy's Subway in fall 2025.
-
-  [book1.jpg]
-  [book2.png]
-
-
 `
   },
-
-
-
   {
     "folder": "fossils",
     "name": "litany for the ground (fossils)",
@@ -167,6 +172,8 @@ After the show, I turned all participant questions into little zines which repur
           [mirror2.JPG]
           [invert.png]
           [mirror7.JPG]
+          [iphone.png]
+
           <br>
           <li>webpoem</li>
           Accompanying website for unearthing fossilids. Made with three.js, matter.js. 
@@ -203,7 +210,7 @@ USB, USB-C, SD card... I give credit to the brilliant Mika Ben Amar <a href="htt
 The sheer book lends a thread of connectivity between these related sites of violence, using both found text and photography to "conduct," as copper does, a salient thread across continents.            Inkjet on organza.
             [spread1.png]
             [spread2.png]
-                        [spread4.png]
+      [spread4.png]
 
 <br>
 <li>Detail</li>
