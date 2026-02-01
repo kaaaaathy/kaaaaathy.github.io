@@ -99,22 +99,7 @@ After the show, I turned all participant questions into little zines which repur
 
   `
   },
-  {
-    "folder": "stone-shirt",
-    "name": "want to not want the heavy",
-    "tags": "",
-    "year": "2023",
-    "thumb": "shirt.png",
-    "content": `
-  A cold, 15-pound garment stitched together with Rhode Island river and beach stones. This garment is worn during the computer performance as an expression of embodied grief, and as an extension of the local ecologies. 
-  
-  [shirt.png]
-  [detail.png]
 
-  Here, I'm modeling it by the Blackstone Seekonk river, which was, at one point, the most polluted river in the country due to Pawtucket textile industries. (Thank you, Riley, for this picture in below freezing windy weather).
-  [river2 edit.jpg]
-`
-  },
   {
     "folder": "she-will-last",
     "name": "she will last as long as stones",
@@ -122,10 +107,10 @@ After the show, I turned all participant questions into little zines which repur
     "year": "2024–2026",
     "thumb": "03-flat.png",
     "content": `
-    <li>book</li>
-Design by Dorothy Lin, published by Wendy's Subway Press. 
-From the Wendy's Subway page: 
-Weaving together the matter of geology, migration, and computation, kathy wu’s debut book She Will Last as Long as Stones mines data from the United States Geological Survey, pairing it with (mis)translations of conversations with the author’s mother, narratives of racialized and gendered labor, and elegies on end-of-life care. Through text, photo-collage, and diagrammatic circuitry, wu mobilizes language toward the edges of things, where glitch and failure meet grief, outpour. 
+Book of visual poetry. Design by Dorothy Lin, edited by Corinne Butta. Printed in an edition of 1,000. Published by <a href="https://wendyssubway.com/publishing/titles/she-will-last-as-long-as-stones" target="_blank">Wendy's Subway Press.</a>
+<li>about</li>
+From the publisher—
+<i>Weaving together the matter of geology, migration, and computation, kathy wu’s debut book She Will Last as Long as Stones mines data from the United States Geological Survey, pairing it with (mis)translations of conversations with the author’s mother, narratives of racialized and gendered labor, and elegies on end-of-life care. Through text, photo-collage, and diagrammatic circuitry, wu mobilizes language toward the edges of things, where glitch and failure meet grief, outpour. </i>
 
 
   [cover.png]
@@ -134,27 +119,23 @@ Weaving together the matter of geology, migration, and computation, kathy wu’s
   
     <li>performances</li>
     Photos from book tour in 2025–2026! Videos by Amelia Bloom.
-    <iframe src="https://player.vimeo.com/video/1160585792" frameborder="0" width="100%" height ="320"></iframe class="video">
-    <iframe src="https://player.vimeo.com/video/1160585890" frameborder="0" width="100%" height ="320"></iframe class="video">
-[riffraff.png]
-[wendys.png]
-<br>
+    [wendys.png]
+    [riffraff.png]
+    <iframe src="https://player.vimeo.com/video/1160585792" frameborder="0" width="100%" height ="350"></iframe class="video">
+    <iframe src="https://player.vimeo.com/video/1160585890" frameborder="0" width="100%" height ="350"></iframe class="video">
+    <br>
+Multimedia element from performances—
+    <iframe src="https://player.vimeo.com/video/1160624808" frameborder="0" width="100%" height ="320"></iframe class="video">
+    <li>early version</li>
+
  Originally, the work was performed as MFA thesis project for Brown University Literary Arts program, 2024. Advised by Sawako Nakayasu. 
 A huge thank you to Si-Min Chong for taking these photos/video!
 
   [still5.png]
   [still1.png]
   [still3.png]
-  [still2.png]
-
  <iframe src="https://player.vimeo.com/video/947107796" frameborder="0" width="100%" height ="320"></iframe class="video">
     <br>
-
-  <li>accompanying media</li>
-
-  Website of speech-to-text transcription alongside USGS mining data / Digitally embroidered organza quilt of poems alongside my mother's circuit diagrams / iPhone 4 cast in cement.
-    <iframe src="https://player.vimeo.com/video/1160624808" frameborder="0" width="100%" height ="320"></iframe class="video">
-   [quilt-edit.jpg]
 `
   },
   {
@@ -199,6 +180,25 @@ USB, USB-C, SD card... I give credit to the brilliant Mika Ben Amar <a href="htt
           [usb.JPG]
 
       `},
+  {
+    "folder": "stone-shirt",
+    "name": "want to not want the heavy",
+    "tags": "",
+    "year": "2023",
+    "thumb": "shirt.png",
+    "content": `
+  A cold, 15-pound garment stitched together with Rhode Island river and beach stones. This garment is worn during the computer performance as an expression of embodied grief, and as an extension of the local ecologies. 
+  
+  [shirt.png]
+  [detail.png]
+
+  Here, I'm modeling it by the Blackstone Seekonk river, which was, at one point, the most polluted river in the country due to Pawtucket textile industries. (Thank you, Riley, for this picture in below freezing windy weather).
+  [river2 edit.jpg]
+<br>
+  Accompanying quilt-object—
+  [quilt-edit.jpg]
+`
+  },
   {
     "folder": "stope",
     "name": "stope",

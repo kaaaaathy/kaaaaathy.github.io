@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="description" content="">
 	<meta name="author" content="kathy wu">
-	<meta name="keywords" content="kathy wu, risd, itp, brown">
+	<meta name="keywords" content="kathy wu, risd, poet, design, brown">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="index.css">
 	<script type="text/javascript">
@@ -137,6 +137,12 @@
 
 <body>
 	<div id="app"></div>
+	<!-- <script src="https://cdn.jsdelivr.net/npm/use-hash-history@1.3.4/build/index.min.js"></script> -->
+	<script type="module">
+		import { useHashHistory } from 'https://cdn.jsdelivr.net/npm/use-hash-history@1.3.4/+esm'
+		window.useHashHistory = useHashHistory
+	</script>
+
 	<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
 	<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
 	<script src="https://unpkg.com/history@5.3.0/umd/history.development.js"></script>
@@ -144,11 +150,10 @@
 	<script src="https://unpkg.com/react-router-dom@6.3.0/umd/react-router-dom.development.js"></script>
 	<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 	<script src="work/work.js"></script>
-
-	<script type="text/babel" data-type="module">
+	<script type="text/babel">
 
 		// import { useState, useEffect } from "react";
-		import { useHashHistory } from 'https://cdn.jsdelivr.net/npm/use-hash-history@1.3.4/+esm'
+		// import { useHashHistory } from 'https://cdn.jsdelivr.net/npm/use-hash-history@1.3.4/build/index.min.js'
 
 		const Router = ReactRouterDOM.unstable_HistoryRouter
 		const Route = ReactRouterDOM.Route
@@ -171,11 +176,11 @@
 			}, []);
 
 			return (
-				<section class="inner">
+				<section className="inner">
 					<h2><h3>Writing<span id="pubnote">(selected publications)</span></h3>
 						{pubItems.map((item, index) => (
 							<ul key={index}>
-								<p class="pub">{item.title}, <a href={item.url} target="_blank">{item.publication}</a>, {item.year}</p>
+								<p className="pub">{item.title}, <a href={item.url} target="_blank">{item.publication}</a>, {item.year}</p>
 							</ul>
 						))}
 					</h2>
@@ -233,17 +238,17 @@
 					<div id="col1">
 						{half1.map((project) =>
 							<Link to={`/${project.folder}`} key={project.folder}>
-								<div class="bbox"><img src={`work/${project.folder}/${project.thumb}`} />
-									<figcaption><div class="arrow"></div><p>{project.name}</p></figcaption></div>
+								<div className="bbox"><img src={`work/${project.folder}/${project.thumb}`} />
+									<figcaption><div className="arrow"></div><p>{project.name}</p></figcaption></div>
 							</Link>
 						)}
 					</div>
 					<div id="col2">
 						{half2.map((project) =>
 							<Link to={`/${project.folder}`} key={project.folder}>
-								<div class="bbox"><img src={`work/${project.folder}/${project.thumb}`} />
+								<div className="bbox"><img src={`work/${project.folder}/${project.thumb}`} />
 
-									<figcaption><div class="arrow"></div><p>{project.name}</p></figcaption></div>
+									<figcaption><div className="arrow"></div><p>{project.name}</p></figcaption></div>
 							</Link>
 						)}
 					</div>
@@ -257,9 +262,9 @@
 			window.scrollTo(0, 0);
 
 			return (
-				<section class="inner">
+				<section className="inner">
 					<h2>
-						<img class="aboutpic" src="bitmap.png" />
+						<img className="aboutpic" src="bitmap.png" />
 						<br /><br />
 						kathy wu ✩彡 is an artist, poet,
 						designer, and educator working across language, computation, books, fiber. They currently teach at < a href="https://risd.gd/" target="_blank" > RISD Graphic Design</a >. 						Her debut book, <a href="https://www.wendyssubway.com/publishing/titles/she-will-last-as-long-as-stones" target="_blank">She Will Last as Long as Stones</a> is out with Wendy's Subway.< br /> <br />
@@ -270,18 +275,18 @@
 							tools</a > at MIT. She has been published via < a href="https://parsonsdt.github.io/critical-coding-cookbook/" target="_blank" > The New School</a >, Dialogist, Rain Taxi, <a href="https://www.natbrut.org/issue-eighteen" target="_blank">NatBrut</a>, <a href="https://www.tiltedhouse.org/shop/for-let-earth-kathy-wu-presale" target="_blank">Tilted House</a>, and selected for residencies at the Provincetown Fine Arts Work Center, Blue Mountain Center, CultureHub, Black Mountain College Museum. They have given talks at <a href="https://amc.alliedmedia.org/" target="_blank">Allied Media Conference</a>, American Association for Geographers, WordHack @ <a href="https://www.babycastles.com/" target="_blank">Babycastles</a>, and other places. She is learning to move more slowly.
 						< br /> <br />They are enthusiastic about collective publishing, < a href="https://interferencearchive.org/" target="_blank" >political education</a >, and <a href="https://www.aarw.org/" target="_blank">organizing</a> against displacement. Always nice to hear from new people, say hello~
 						<br /> < br />
-						<div class="extlink">
-							<a href="https://docs.google.com/document/d/1xcpC8EH8U03K49ZLjWUCj9zQV7xGKdwxYPdEnZNK2eU/edit" target="_blank">cv <div class="arrow-flip"></div></a>
+						<div className="extlink">
+							<a href="https://docs.google.com/document/d/1xcpC8EH8U03K49ZLjWUCj9zQV7xGKdwxYPdEnZNK2eU/edit" target="_blank">cv <div className="arrow-flip"></div></a>
 							&emsp;&emsp;
-							<a href="mailto:kaaathywu@gmail.com" target="_blank">email <div class="arrow-flip"></div></a>
+							<a href="mailto:kaaathywu@gmail.com" target="_blank">email <div className="arrow-flip"></div></a>
 							&emsp;&emsp;
-							<a href="https://pixelflower.substack.com/subscribe?next=https%3A%2F%2Fsubstack.com%2F%40pixelflower%3Futm_campaign%3Dprofile%26utm_medium%3Dprofile-page&utm_source=profile-page&utm_medium=web&utm_campaign=substack_profile&just_signed_up=true" target="_blank">newsletter <div class="arrow-flip"></div></a>
+							<a href="https://pixelflower.substack.com/subscribe?next=https%3A%2F%2Fsubstack.com%2F%40pixelflower%3Futm_campaign%3Dprofile%26utm_medium%3Dprofile-page&utm_source=profile-page&utm_medium=web&utm_campaign=substack_profile&just_signed_up=true" target="_blank">newsletter <div className="arrow-flip"></div></a>
 						</div>
 						<br /> < br />
 						<br /><br />
 
 
-						<img class="aboutpic" src="bitmap-drawing.png" />
+						<img className="aboutpic" src="bitmap-drawing.png" />
 						<li>HYPERTEXT</li>
 						<p id="credit">The work here is deeply inspired by and rooted in the ideas + teachings of Kameelah Janan Rasheed, Allison Parrish, Marisa Morán Jahn, Pauline Oliveros, Eunsong Kim, Blair Simmons, Sawako Nakayasu, Maralie Armstrong-Rial, Eleni Sikelianos, Renee Gladman, many others...
 							<br /><br />...as well as the practices of collaborators + friends: Ryan Greene, <a href='https://montoyamoraga.io/' target='_blank'>aarón montoya-moraga</a>, Chloe Zimmerman, Tiffany Mi, <a href='https://www.liviafoldes.com/' target='_blank'>Livia Foldes</a>, Giancarlo + Nora of <a href='https://cardboardhousepress.org/Cartonera' target='_blank'>Cardboard House Press</a>, <a href='https://lily-xie.com/' target='_blank'>Lily Xie</a>, <a href='https://www.haiwenlin.com/' target='_blank'>Hai-Wen Lin</a>, <a href='https://www.zhanyichen.org/' target='_blank'>Zhanyi Chen</a>, <a href='https://flowers4xyz.com/' target='_blank'>Hua Xi</a>, <a href='https://www.poetryproject.org/people/basalt-hsu' target='_blank'>Basalt Tsu</a>, <a href='https://hellodri.itch.io/' target='_blank'>Dri Tattersfield-Chiu</a>,  <a href='https://www.katygero.com/' target='_blank'>Katy Gero</a>,  <a href='http://jackieis.online/' target='_blank'>Jackie Liu</a>. This practice owes much to former students, as I have learned so much from teaching.
@@ -296,21 +301,21 @@
 			window.scrollTo(0, 0);
 
 			return (
-				<section class="inner">
+				<section className="inner">
 					<h2><h3>teaching</h3>
-						<a class="syllabus" href="https://kaaathy.com/comppoetics/" target="_blank">↳ Computational Poetics </a>
+						<a className="syllabus" href="https://kaaathy.com/comppoetics/" target="_blank">↳ Computational Poetics </a>
 						< br /> Experimental studio about new ways of reading and writing, with and without computers. RISD Graphic Design 2021, 2025.
 						< br /> <br />
-						<a class="syllabus" href="https://kaaathy.com/type-3/" target="_blank">↳ Typography III </a>
+						<a className="syllabus" href="https://kaaathy.com/type-3/" target="_blank">↳ Typography III </a>
 						< br /> Core studio course for third-year undergraduates. RISD Graphic Design 2024.
 						< br /> <br />
-						<a class="syllabus" href="https://kaaathy.com/geopoetics/" target="_blank">↳ Geopoetics</a>
+						<a className="syllabus" href="https://kaaathy.com/geopoetics/" target="_blank">↳ Geopoetics</a>
 						< br />Language arts class about reading and writing land and earth. Brown Literary Arts 2023.
 						< br /> <br />
-						<a class="syllabus" href="https://docs.google.com/document/d/1MxJDl_5UUTFgBX5w4zzRZsTrkbUMZoPO8d4RY698ZRM/edit" target="_blank">↳ Cross-Disciplinary Language Arts</a>
+						<a className="syllabus" href="https://docs.google.com/document/d/1MxJDl_5UUTFgBX5w4zzRZsTrkbUMZoPO8d4RY698ZRM/edit" target="_blank">↳ Cross-Disciplinary Language Arts</a>
 						< br />Intro level class focused on Fluxist and Dada notions of the "found," and critiques of the found. Brown University Literary Arts 2024.
 						< br /> <br />
-						<a class="syllabus" href="https://design-for-cooperation.glitch.me/" target="_blank">↳ Design for Cooperation</a>
+						<a className="syllabus" href="https://design-for-cooperation.glitch.me/" target="_blank">↳ Design for Cooperation</a>
 						< br /> Studio course about design and media culture in social movements. Cotaught with Katya Rozanova and Hadass Wade.
 						CUNY Queens College 2022.
 					</h2>
@@ -331,7 +336,7 @@
 					contentString += content[i].replace(imageRegex, function (a, b) { return "<img src=\"work/" + folder + "/" + b + "\">" });
 				}
 				else {
-					contentString += "<div" + (content[i].search(centerRegex) >= 0 ? " class=\"center-align\"" : "") + ">" + content[i].replace(centerRegex, function (a, b) { return b; }).replace(underlineRegex, function (a, b) { return "<span class=\"highlight\">" + b + "</span>" }) + "</div>"
+					contentString += "<div" + (content[i].search(centerRegex) >= 0 ? " className=\"center-align\"" : "") + ">" + content[i].replace(centerRegex, function (a, b) { return b; }).replace(underlineRegex, function (a, b) { return "<span className=\"highlight\">" + b + "</span>" }) + "</div>"
 				}
 			}
 			return contentString
@@ -349,7 +354,7 @@
 
 				<div dangerouslySetInnerHTML={{ __html: parseProjectContent(project.content, project.folder) }}></div>
 				<br />
-				<span class="metadata">{project.tags} ~ {project.year}</span>
+				<span className="metadata">{project.tags} ~ {project.year}</span>
 			</section >
 
 		}
