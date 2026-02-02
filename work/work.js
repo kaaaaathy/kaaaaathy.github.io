@@ -470,7 +470,7 @@ Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtua
    Created while Artist-in-Residence at Bisbee Central School Project. Special thanks to Laurie McKenna, Fernando Serrano, Ryan Greene.
   <br>
    Images from workshop + process—
-   [process.jpg]
+   [process.png]
    [workshop.png]
 
     `
