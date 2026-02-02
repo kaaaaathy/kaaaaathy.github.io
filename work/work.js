@@ -187,10 +187,10 @@ USB, USB-C, SD card... I give credit to the brilliant Mika Ben Amar <a href="htt
   [detail.png]
 
   Here, I'm modeling it by the Blackstone Seekonk river, which was, at one point, the most polluted river in the country due to Pawtucket textile industries. (Thank you, Riley, for this picture in below freezing windy weather).
-  [river2 edit.jpg]
+  [river.png]
 <br>
   Accompanying quilt-object—
-  [quilt-edit.jpg]
+  [quilt.png]
 `
   },
   {
