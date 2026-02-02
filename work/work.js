@@ -796,19 +796,28 @@ I created interpretive “conversion tools”n the form of frames and boxes. Eac
   [3alt.jpg]
   `
   }
-  // ,
+  ,
 
-  // {
-  //   "folder": "touchart",
-  //   "name": "Touch Art",
+  {
+    "folder": "touchart",
+    "name": "touch art",
+    "tags": "net art, zine",
+    "year": "2014",
+    "thumb": "example_zoom.png",
+    "content": `Old work. Inspired by Walter Bejamin's A Work of Art in the Age of Mechanical Reproduction. Nose-pick image by SC.
+    [example2.png]
+    [art.png]
+    [art1.png]
+<br>
+    From the zine—
+    [ta.png]
+            [ta1.png]
+        [ta2.png]
+    [ta5.png]
 
-  //   "thumb": "example.png",
-  //   "content": `[ta-0.png]
-  //   [ta-4.png]
-  //   [ta-5.png]
-  //   [blog.png]
-  // `
-  // }
+    
+  `
+  },
   //
   // {  "folder":"jelly",
   //   "name":"Pulmō Plastics",
@@ -866,42 +875,41 @@ I created interpretive “conversion tools”n the form of frames and boxes. Eac
   //   `
   // },
 
-
-
-  //
-  // {
-  // 		"folder":"difficultwriting",
-  // 		"name":"Difficult Writing",
-  // 		"tags":"Poetics, digital media",
-  // 		"thumb":"thumb.jpg",
-  // 		"content":`
-  // 		The gesture of writing includes scratch, ping, swipe, tap. What are some new tools for writing that push or strain the body? These are experiments in bizarre and obstructed lingual gestures. (More to come.)
-  // 		<br>
-  // 		<span class="emph">CROSS-COUNTRY CALLIGRAPHY.</span> It may take months to write to you.
-  // 		[driving_gif.gif]
-  //
-  // 		[miss-you.jpg]
-  // 		<br>
-  // 		<br>
-  //     <span class="emph">TRANSCRIBING OBSTRUCTIONS I.</span> Typing with socks on my hands.
-  //     [socks.png]
-  //     <br><br>
-  // 		<span class="emph">TRANSCRIBING OBSTRUCTIONS II.</span> Reading tongue twisters while covering different parts of my mouth with a spoon. I used an online text-to-speech tool.
-  // 		<br>
-  // 		{<video width=100% src='work/shapinglanguage/speech-to-text.mp4' controls autoplay='on' muted></video>}
-  // 		<br>
-  //     <br>
-  //
-  // 		<span class="emph">KEYBOARD CALISTHENICS</span> A speculative guidebook and sarcastic keyboard workout video, inspired by Jane Fonda energy from the 80's and those horrible typing games from my childhood.
-  // 		[kindastrange1.gif]
-  //     <br>
-  //     Explorations in repetition, exercise, and creating writing from an interface-first perspective – since our expression is ultimately constrained by body and tools.
-  //     <br>
-  // 		[keyboard1.jpg]
-  // 		[keyboard2.jpg]
-  // 		[keyboard3.jpg]
-  // 		`
-  // },
+  {
+    "folder": "digpo",
+    "name": "digital poetics",
+    "year": "2014–2015",
+    "tags": "Poetics, digital media",
+    "thumb": "thumb.jpg",
+    "content": `
+  		By now, vintage experiments from the 2010's.
+      The gesture of writing includes scratch, ping, swipe, tap. What are some new tools for writing that push or strain the body? These are experiments in bizarre and obstructed lingual gestures. 
+  		<br>
+      <li>basho in the garden</li>
+      [basho.png]
+      [basho1.png]
+  		<li>CROSS-COUNTRY CALLIGRAPHY</li> It may take months to write to you.
+  		[driving_gif.gif]
+  		<br>
+  		<br>
+      <li>TRANSCRIBING OBSTRUCTIONS I</li> 
+      Typing with socks on my hands.
+      [socks.png]
+<br>Reading tongue twisters while covering different parts of my mouth with a spoon. I used an online text-to-speech tool.
+ <iframe src="https://player.vimeo.com/video/1161161194" frameborder="0" width="100%" height ="300"></iframe class="video">
+  		<br>
+      <br>
+  
+  		<li>KEYBOARD CALISTHENICS</li> A speculative guidebook and sarcastic keyboard workout video, inspired by Jane Fonda energy from the 80's and those horrible typing games from my childhood.
+  		[kindastrange1.gif]
+      <br>
+      Explorations in repetition, exercise, and creating writing from an interface-first perspective – since our expression is ultimately constrained by body and tools.
+      <br>
+  		[keyboard1.png]
+  		[keyboard2.png]
+  		[keyboard3.png]
+  		`
+  }
 
 
   // {  "folder":"scratch",
