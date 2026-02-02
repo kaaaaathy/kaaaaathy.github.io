@@ -105,22 +105,16 @@ After the show, I turned all participant questions into little zines which repur
     "name": "she will last as long as stones",
     "tags": "",
     "year": "2024–2026",
-    "thumb": "03-flat.png",
+    "thumb": "thumb.png",
     "content": `
-Book of visual poetry. Design by Dorothy Lin, edited by Corinne Butta. Printed in an edition of 1,000. Published by <a href="https://wendyssubway.com/publishing/titles/she-will-last-as-long-as-stones" target="_blank">Wendy's Subway Press.</a>
-<li>about</li>
-From the publisher—
-<i>Weaving together the matter of geology, migration, and computation, kathy wu’s debut book She Will Last as Long as Stones mines data from the United States Geological Survey, pairing it with (mis)translations of conversations with the author’s mother, narratives of racialized and gendered labor, and elegies on end-of-life care. Through text, photo-collage, and diagrammatic circuitry, wu mobilizes language toward the edges of things, where glitch and failure meet grief, outpour. </i>
-
-
+Book of visual poetry on themes of geology, computation, migration, and loss. Design by Dorothy Lin, edited by Corinne Butta. Printed in an edition of 1,000. Published by <a href="https://wendyssubway.com/publishing/titles/she-will-last-as-long-as-stones" target="_blank">Wendy's Subway Press.</a>
   [cover.png]
   [03-flat.png]
   [06-flat.png]
   
     <li>performances</li>
-    Photos from book tour in 2025–2026! Videos by Amelia Bloom.
+    Photos from book tour in 2025–2026! Videos by Amelia Bloom. 
     [wendys.png]
-    [riffraff.png]
     <iframe src="https://player.vimeo.com/video/1160585792" frameborder="0" width="100%" height ="350"></iframe class="video">
     <iframe src="https://player.vimeo.com/video/1160585890" frameborder="0" width="100%" height ="350"></iframe class="video">
     <br>
@@ -474,7 +468,10 @@ Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtua
 
    [closeup.png]
    Created while Artist-in-Residence at Bisbee Central School Project. Special thanks to Laurie McKenna, Fernando Serrano, Ryan Greene.
-  
+  <br>
+   Images from workshop + process—
+   [process.jpg]
+   [workshop.png]
 
     `
   },
