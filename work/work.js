@@ -113,7 +113,7 @@ Book of visual poetry on themes of geology, computation, migration, and loss. De
   [06-flat.png]
   
     <li>performances</li>
-    Photos from book tour in 2025–2026. Videos by Amelia Doll. 
+    Photos from book tour in 2025–2026! Videos by Amelia Doll. 
     [wendys.png]
     <iframe src="https://player.vimeo.com/video/1160585792" frameborder="0" width="100%" height ="350"></iframe class="video">
     <iframe src="https://player.vimeo.com/video/1160585890" frameborder="0" width="100%" height ="350"></iframe class="video">
@@ -880,7 +880,7 @@ I created interpretive “conversion tools”n the form of frames and boxes. Eac
     "name": "digital poetics",
     "year": "2014–2015",
     "tags": "Poetics, digital media",
-    "thumb": "thumb.jpg",
+    "thumb": "thumb.png",
     "content": `
   		By now, vintage experiments from the 2010's.
       The gesture of writing includes scratch, ping, swipe, tap. What are some new tools for writing that push or strain the body? These are experiments in bizarre and obstructed lingual gestures. 
