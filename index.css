@@ -445,6 +445,18 @@ ul {
         opacity: 0.8;
     }
 
+
+    .arrow {
+        display: block;
+        background-size: contain;
+        background-repeat: no-repeat;
+        opacity: 0.8;
+        margin: 4px 6px !important;
+        background-image: url("https://kaaathy.com/arrow.png");
+        height: 11px;
+        width: 11px;
+    }
+
 }
 
 /*--------------------------------------------------------------*/
@@ -582,6 +594,8 @@ ul {
     width: 100%;
     display: block;
     margin: 12px 0px;
+
+
 }
 
 h2 a,
@@ -620,6 +634,8 @@ h2 a,
 }
 
 
+
+
 /*--------------------------------------------------------------*/
 
 /*RESPONSIVE BIT -- MOBILE UNDER 520 */
@@ -628,16 +644,6 @@ h2 a,
 
 @media screen and (max-width: 520px) {
 
-    .arrow {
-        display: block;
-        background-size: contain;
-        background-repeat: no-repeat;
-        opacity: 0.8;
-        margin: 3px 5px !important;
-        background-image: url("https://kaaathy.com/arrow.png");
-        height: 11px;
-        width: 11px;
-    }
 
     body,
     h2,

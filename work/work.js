@@ -337,7 +337,23 @@ Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtua
 
     `
   },
+  {
+    "folder": "bisbee",
+    "name": "Bisbee",
+    "tags": "weaving",
+    "year": "2026",
+    "thumb": "weave1.png",
+    "content": `
+    Wool, cotton, and copper-leafed paper on copper wire warp. Better pictures coming soon (maybe!)
+    Thank you <a href="https://www.emmanuelfernandoserrano.com/" target="_blank">Fernando Serrano</a> for the dyed blue churro and copper leaf <3
 
+    [weave0.png]
+    [weave5.png]
+
+
+
+    `
+  },
   {
     "folder": "werners",
     "name": "the color of dislocation",
@@ -386,65 +402,47 @@ Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtua
 
   },
 
+
+
   {
-    "folder": "weaves",
-    "name": "scintillations",
-    "tags": "",
-    "year": "2025",
-    "thumb": "infinitethumb.jpg",
+    "folder": "aa-abolition",
+    "name": "visioning towards abolition",
+    "tags": "zine, workshop",
+    "year": "2026",
+    "thumb": "10-alt.png",
     "content": `
-            Scenes from Sewell, Chile: the largest underground copper mine and its American company town.
-            Inkjet on cotton, digital embroidery. 24 * 18 inches.
-            [infinite.JPG]
-            [metalis.JPG]
-            <br>
+           <li>2026 edition</li>
+  Second edition of an Abolition Zine for 2026. Produced by <a href="https://printingfortunes.info/Many-Folds-Press-1" target="_blank">Many Folds Press</a>, designed in collaboration with Angela Chang and Many Folds. 75% of proceeds go towards deportation defense funds.
+      Bisque and Blue RISO ink on Salmon text weight paper by French Paper.
 
-            Open-pit series, Southern Arizona. Inkjet on cotton, copper sheeting. 12 * 16 inches.    
-            [weave1.png]
-    
-            [weave2.png]
-            [weave3.png]
-        `},
+      [cover-alt.png]
+      [2.png]
+      [3.png]
+      [5.png]
+      [6.png]
+      <br><br>
 
-  //   {
-  //     "folder": "aa-abolition",
-  //     "name": "visioning towards abolition",
-  //     "tags": "zine, workshop",
-  //     "year": "2026",
-  //     "thumb": "10-alt.png",
-  //     "content": `
-  //          <li>second edition</li>
-  // Second edition of an Abolition Zine for 2026. Produced by Many Folds Press, designed in collaboration with Angela Chang and Many Folds. 75% of proceeds go towards deportation defense funds.
-  //     Bisque and Blue RISO ink on Salmon text weight paper by French Paper.
+      Buy from Many Folds press! <3 → <a href="https://printingfortunes.info/jobs" target="_blank">LINK</a>
+      [mfp1.jpg]
+      [mfp2.jpg]
+      Photos by Connie Yu.
 
-  //     [cover-alt.png]
-  //     [2.png]
-  //     [3.png]
-  //     [5.png]
-  //     [6.png]
-  //     <br><br>
+       <li>2021 edition</li>
 
-  //     Buy from Many Folds press! <3 → <a href="https://printingfortunes.info/jobs" target="_blank">LINK</a>
-  //     [mfp1.jpg]
-  //     [mfp2.jpg]
-  //     Photos by Connie Yu.
+          Made with <a href="https://www.aarw.org/" target="_blank">Asian American Resource Workshop</a> (AARW) as part of their abolition working group. Includes a political educator's toolkit to run this in your own communities. Distributed online through AARW as well as through <a href="https://pm.linkedbyair.net/catalog/59883/" target="_blank">Printed Matter</a>.
 
-  //      <li>first edition</li>
+          [zine-scan-cover-2.png]
+          [2-old.png]
+          [3-old.png]
+          [4-old.png]
+          [zine-scan-slow.gif]
+          <br>
+                  Use the workshop toolkit → <a href="https://docs.google.com/presentation/d/1pfmC3wtc6xU0QqKWCPTugfl0HUkxZXpLT9-772c-Ndo/edit#slide=id.g10d7d2d8eac_0_155" target="_blank">LINK</a> 
 
-  //         Made with <a href="https://www.aarw.org/" target="_blank">Asian American Resource Workshop</a> (AARW) as part of their abolition working group. Includes a political educator's toolkit to run this in your own communities. Distributed online through AARW as well as through <a href="https://pm.linkedbyair.net/catalog/59883/" target="_blank">Printed Matter</a>.
+          [slide1.png]
+          [slide2.png]
 
-  //         [zine-scan-cover-2.png]
-  //         [2-old.png]
-  //         [3-old.png]
-  //         [4-old.png]
-  //         [zine-scan-slow.gif]
-  //         <br>
-  //                 Use the workshop toolkit → <a href="https://docs.google.com/presentation/d/1pfmC3wtc6xU0QqKWCPTugfl0HUkxZXpLT9-772c-Ndo/edit#slide=id.g10d7d2d8eac_0_155" target="_blank">LINK</a> 
-
-  //         [slide1.png]
-  //         [slide2.png]
-
-  //     `},
+      `},
 
   {
     "folder": "conducting-memory",
@@ -472,35 +470,39 @@ Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtua
    Images from workshop + process—
    [process.png]
    [workshop.png]
+   [wr-1.png]
 
     `
   },
   {
-    "folder": "bisbee",
-    "name": "Bisbee",
-    "tags": "weaving",
-    "year": "2026",
-    "thumb": "weave1.png",
+    "folder": "weaves",
+    "name": "scintillations",
+    "tags": "",
+    "year": "2025",
+    "thumb": "infinitethumb.jpg",
     "content": `
-    Wool, cotton, and copper-leafed paper on copper wire warp. Better pictures coming soon (maybe!)
-    Thank you <a href="https://www.emmanuelfernandoserrano.com/" target="_blank">Fernando Serrano</a> for the dyed blue churro and copper leaf <3
+            Scenes from Sewell, Chile: the largest underground copper mine and its American company town.
+            Inkjet on cotton, digital embroidery. 24 * 18 inches.
+            [infinite.JPG]
+            [metalis.JPG]
+            <br>
 
-    [weave0.png]
-    [weave5.png]
-   
-  
+            Open-pit series, Southern Arizona. Inkjet on cotton, copper sheeting. 12 * 16 inches.    
+            [weave1.png]
+    
+            [weave2.png]
+            [weave3.png]
+  //       `},
 
-    `
-  },
   {
     "folder": "no-object",
     "name": "there is no mineral of futurity",
     "tags": "",
     "year": "2023",
     "thumb": "thumb.jpg",
-    "content": `
-  A textile-based, photographic meditation on extractivism, technology, and the color blue. Through cyanotypes, the piece depicts error screens, cursors, glitches, alongside mining sites in Google satellite imagery and settler colonial cartographies. Among these are lithium mines in the American Southwest and cobalt mines in the Congo, both of which are crucial for battery production; the piece’s geographies also include a 19th century map of the largest copper mine in the world, based in Chile, which played a critical role in the dawn of electricity and electronics. 
-  These cyanotype images were developed using solar power and iron-based pigment, which nods to photography’s material basis. Perhaps there is something about photography which pretends to be virtual as well, which creates what Susan Sontag calls a “fracturing, dislocating vision that only the camera supplies.” I would venture to say that language crops the world in such a way, too, notably within the technology of object recognition. And so the piece reckons not only with the geographies of extraction, but also its grammars. In this case, it references the surveillant, extractive gaze of artificial intelligence, skimming over the maps, and claiming, “NO OBJECT FOUND.” 
+    "content": `Cyanotype on cotton and paper, approx 30 inches square. 
+    The piece depicts error screens, cursors, glitches, alongside mining sites in Google satellite imagery and settler colonial cartographies. Among these are lithium mines in the American Southwest and cobalt mines in the Congo, both of which are crucial for battery production; the piece’s geographies also include a 19th century map of the largest copper mine in the world, based in Chile, which played a critical role in the dawn of electricity and electronics. 
+  These cyanotype images were developed using solar power and iron-based pigment, which nods to photography’s material basis. Perhaps there is something about photography which pretends to be virtual as well, which creates what Susan Sontag calls a “fracturing, dislocating vision that only the camera supplies.” 
   
   [1.png]
   [7.jpg]
@@ -892,7 +894,7 @@ I created interpretive “conversion tools”n the form of frames and boxes. Eac
   		[driving_gif.gif]
   		<br>
   		<br>
-      <li>TRANSCRIBING OBSTRUCTIONS I</li> 
+      <li>TRANSCRIBING OBSTRUCTIONS</li> 
       Typing with socks on my hands.
       [socks.png]
 <br>Reading tongue twisters while covering different parts of my mouth with a spoon. I used an online text-to-speech tool.
