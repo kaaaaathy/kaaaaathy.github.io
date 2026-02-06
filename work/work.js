@@ -342,15 +342,15 @@ Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtua
     "name": "Bisbee",
     "tags": "weaving",
     "year": "2026",
-    "thumb": "horizontal.png",
+    "thumb": "0.png",
     "content": `
     Wool, cotton, and copper-leafed paper on copper wire warp. Better pictures coming soon (maybe!)
     Thank you <a href="https://www.emmanuelfernandoserrano.com/" target="_blank">Fernando Serrano</a> for the dyed blue churro and copper leaf <3
 
-    [horizontal.png]
-    [5.png]
-    [8.png]
+    [0.png]
+    [4.png]
     [7.png]
+        [5.png]
 
     [weave5.png]
 
