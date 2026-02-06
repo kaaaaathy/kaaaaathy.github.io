@@ -426,9 +426,9 @@ Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtua
       [6.png]
       <br><br>
 
-      Buy from Many Folds press! <3 → <a href="https://printingfortunes.info/jobs" target="_blank">LINK</a>
-      [mfp1.jpg]
-      [mfp2.jpg]
+      Buy from Many Folds press! <3 → <a href="https://printingfortunes.info/product-page-abolition-zine" target="_blank">LINK</a>
+      [mfp1.png]
+      [mfp2.png]
       Photos by Connie Yu.
 
        <li>2021 edition</li>
