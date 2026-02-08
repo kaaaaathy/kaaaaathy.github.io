@@ -83,7 +83,8 @@ body {
 
 
 ::selection {
-    color: cornflowerblue;
+    /* color: cornflowerblue; */
+    color: mediumslateblue;
 }
 
 /*DEFINE SECTIONS & CENTERING*/
@@ -96,6 +97,8 @@ nav {
     width: 200px;
     padding: 30px 20px 20px 20px;
     border-right: 1px dotted black;
+    background-color: whitesmoke;
+
 }
 
 #logo,
@@ -167,6 +170,8 @@ li::before {
 
 }
 
+
+
 #sidebar {
     font-family: 'HBLossy', 'Courier Prime', 'Courier', monospace;
     font-size: 10pt;
@@ -190,7 +195,8 @@ li::before {
 #aboutcontainer a:active,
 h2 a:active,
 #content a:active {
-    color: cornflowerblue;
+    /* color: cornflowerblue; */
+    color: mediumslateblue;
     animation: 0.2s color;
 }
 
@@ -346,10 +352,10 @@ h2 {
     margin-top: 0px;
 }
 
-h2 a {
+/* h2 a {
     border-bottom: 1px solid #333;
 
-}
+} */
 
 h2 h3 {
     line-height: 1;
@@ -387,14 +393,6 @@ ul {
 
 
 
-
-#highlight {
-    background-color: yellow;
-    font-family: 'HBLossy', 'Courier Prime', 'Courier', monospace;
-    letter-spacing: 0;
-    padding: 2px;
-    /* font-size: 11pt; */
-}
 
 .aboutpic {
     width: 240px;
@@ -502,7 +500,7 @@ ul {
 
         position: sticky;
         top: -40px;
-        background-color: whitesmoke;
+        /* background-color: whitesmoke; */
 
         width: 100%;
         box-sizing: border-box;
@@ -571,7 +569,10 @@ ul {
         padding-left: 2%;
         padding-right: 2%;
 
+
     }
+
+
 
     figcaption {
         padding-left: 8px;
@@ -599,8 +600,11 @@ ul {
 }
 
 h2 a,
-#content a {
-    border-bottom: 1px dotted #333;
+#content a,
+#aboutcontainer a {
+    border: 1px dotted lime;
+    padding: 0px 2px;
+    background-color: rgb(211, 250, 210);
 }
 
 
