@@ -16,6 +16,24 @@
 /*--------------------------------------------------------------*/
 /*AT LARGEST SIZE */
 /*--------------------------------------------------------------*/
+
+h2 a,
+
+#content a {
+    border: 1px dotted lime;
+    padding: 0px 2px;
+    background-color: rgb(211, 250, 210);
+}
+
+/* #aboutcontainer a{
+
+} */
+.flourish {
+    color: mediumslateblue;
+    padding-right: 4px;
+}
+
+
 .arrow-flip {
     background-image: url("arrow-flip.png");
     margin: 0px -2px -2px 5px !important;
@@ -162,7 +180,7 @@ li::before {
     font-family: 'HBLossy', 'Courier Prime', 'Courier', monospace;
     letter-spacing: 0px;
     width: 100%;
-    display: grid;
+    display: flex;
     margin: 16px 0;
     width: fit-content;
     line-height: 12pt;
@@ -465,6 +483,13 @@ ul {
 @media screen and (max-width: 600px) {
 
 
+    .flourish {
+        color: mediumslateblue;
+        padding-right: 4px;
+    }
+
+
+
     figcaption {
         justify-content: center;
     }
@@ -477,6 +502,7 @@ ul {
     marquee {
         margin: 0px 20px;
     }
+
 
 
 
@@ -599,13 +625,6 @@ ul {
 
 }
 
-h2 a,
-#content a,
-#aboutcontainer a {
-    border: 1px dotted lime;
-    padding: 0px 2px;
-    background-color: rgb(211, 250, 210);
-}
 
 
 #content>*:first-child {
@@ -647,6 +666,13 @@ h2 a,
 /*--------------------------------------------------------------*/
 
 @media screen and (max-width: 520px) {
+
+
+    #aboutcontainer a {
+        padding: 3px;
+        background: none;
+        border: none;
+    }
 
 
     body,
