@@ -18,11 +18,13 @@
 /*--------------------------------------------------------------*/
 
 h2 a,
-
+#aboutcontainer a,
 #content a {
-    border: 1px dotted lime;
+    border-bottom: 1px dotted #333;
+
+    /* border: 1px dotted lime;
     padding: 0px 2px;
-    background-color: rgb(211, 250, 210);
+    background-color: rgb(211, 250, 210); */
 }
 
 /* #aboutcontainer a{
@@ -31,8 +33,13 @@ h2 a,
 .flourish {
     color: mediumslateblue;
     padding-right: 4px;
+    display: block;
 }
 
+/* h2 a {
+    border-bottom: 1px solid #333;
+
+} */
 
 .arrow-flip {
     background-image: url("arrow-flip.png");
@@ -370,10 +377,7 @@ h2 {
     margin-top: 0px;
 }
 
-/* h2 a {
-    border-bottom: 1px solid #333;
 
-} */
 
 h2 h3 {
     line-height: 1;
@@ -482,10 +486,17 @@ ul {
 /* Remove sidebar when too narrow */
 @media screen and (max-width: 600px) {
 
+    #aboutcontainer a {
+        padding: 3px;
+        background: none;
+        border: none;
+    }
 
     .flourish {
         color: mediumslateblue;
         padding-right: 4px;
+        display: none;
+
     }
 
 
@@ -668,11 +679,7 @@ ul {
 @media screen and (max-width: 520px) {
 
 
-    #aboutcontainer a {
-        padding: 3px;
-        background: none;
-        border: none;
-    }
+
 
 
     body,
