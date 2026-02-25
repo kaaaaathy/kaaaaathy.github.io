@@ -159,12 +159,17 @@ A huge thank you to Si-Min Chong for taking these photos/video!
 [forget.gif]
 
 <br>
-<li>installation</li>
+<li>data</li>
 A stone and a fraction of the .txt file for its 3D digitized self. Inkjet on cotton, 3 inches * 20 feet.
 [install1.JPG]
 [rock-comp.gif]
 [txtscan1.jpg]
 <br>
+<li>gallery show</li>
+Part of my solo show, FOR LET EARTH, at AS220 Aborn Gallery, Providence, RI. April 2025.
+[show1.png]
+[show4.png]
+
 <li>object details</li>
 USB, USB-C, SD card... I give credit to the brilliant Mika Ben Amar <a href="https://www.instagram.com/100o111/" target="_blank"> who made usb stones first.</a> 
           [usb_b2.JPG]
@@ -551,7 +556,7 @@ Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtua
     "content": `
     Included in <a href="https://criticalcode.recipes/" target="_blank">Critical Coding Cookbook: Intersectional Feminist Approaches to Teaching and Learning</a>, via The New School.
 
-    This workshop / zine is inspired by a tradition of computational & digital poetry, as well as by feminist writers who write about love, pleasure, and healing. This is a template and starting point for building a simple digital love poem focused on opacity/transparency, and click/touch interactions.
+    This workshop is inspired by a tradition of computational & digital poetry, as well as by feminist writers who write about love, pleasure, and healing. This is a template and starting point for building a simple digital love poem focused on opacity/transparency, and click/touch interactions.
 
 Within the traditions of material and concrete poetics, we might gently resist what this web space might be for.
 [1.jpg]
@@ -757,7 +762,7 @@ In front is a metaphorical "circuit" of objects: a sculptural installation of ya
   This work began as a inquiry into the textual internet; over a semester, it evolved into a visceral experience of virtuality, including sculpture, video, and writing.
 
   <br><br>
-  <li>1. volume, weight</li>
+  <li>volume, weight</li>
 
   If our informational input could be measured in pounds, imagine how it would feel to literally consume or hold that much weight.
 
@@ -766,7 +771,7 @@ In front is a metaphorical "circuit" of objects: a sculptural installation of ya
   [dp_1.jpg]
   <br>
   <br>
-  <li>2. conversation tools</li>
+  <li>conversation tools</li>
   The human body understands the material world and has unique intuitions that help us navigate it. I was interested in how people would use intuition to convert their understanding of virtual units into physical objects.
 I created interpretive “conversion tools”n the form of frames and boxes. Each of these symbolized a space for an assigned virtual unit where people’s responses/objects would live.
   [crowdsourced.jpg]
@@ -774,7 +779,7 @@ I created interpretive “conversion tools”n the form of frames and boxes. Eac
 
   <br>
   <br>
-  <li>3. writing</li>
+  <li>writing</li>
   Writing was an important part of my process and discovery. I generated about 1MB worth of text and images throughout this project. I populated that data into a <a href='https://drive.google.com/file/d/0BzXTWcuY86iYcHFTREVrbVhrRzA/view?usp=sharing
 ' target='_blank'>process document</a> and a video (below).
   In the Byte Catalogue, I documented objects I crowd-sourced. I compared these against virtual experiences—for example, the Lord of the Rings trilogy in bytes.
@@ -784,7 +789,7 @@ I created interpretive “conversion tools”n the form of frames and boxes. Eac
 
   <br>
   <br>
-  <li>4. ownership of virtual things</li>
+  <li>ownership of virtual things</li>
   Inspired by the Million Dollar website, I was amused at the skeuomorph of buying “space” on the Internet.
   [7_alt.jpg]
   <br>
@@ -794,7 +799,7 @@ I created interpretive “conversion tools”n the form of frames and boxes. Eac
 
   <br>
   <br>
-  <span class="emph">5. virtual world</span>
+  <span class="emph">virtual world</span>
   Eventually I collected enough to fill up a room with artifacts. I found textual objects and materials of different weights and densities and quantified them in bytes.
   The piece also featured sculptural metaphors like downloading across glass jars, as well as plastic physical hard-drives.
   [1.png]

@@ -688,6 +688,7 @@ ul {
     #highlight,
     #work-stuff a figcaption {
         font-size: 12pt;
+        letter-spacing: 1px;
     }
 
     li {
