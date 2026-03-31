@@ -286,16 +286,21 @@ The sheer book lends a thread of connectivity between these related sites of vio
 
 
   {
-    "folder": "blueimg",
+    "folder": "virtual-blue",
     "name": "virtual blue",
     "tags": "HTML, javaScript, projection, sound, poetry",
     "thumb": "blue1.gif",
     "year": "2021",
     "content": `
 Published in Fonograf Edition's <a href="https://fonografeditions.com/catalog/fono31-de-canon-fe-a-mouth-holds-many-things-print-anthology/" target="_blank">A Mouth Holds Many Things</a>. If you call something, you can keep it in a box. If you classify it, perhaps you can harvest it. Commodification and supply chain and frameworks of extraction have their own grammars.
+Shown at Emerson Contemporary, March 2026, as part of <a href="https://emersoncontemporary.org/event/messing-with-language-a-multimodal-pop-up-exhibition/" target="_blank">Messing with Language</a>. Photos courtesy of Sophie Dodd.
+[emerson6.jpeg]
+[emerson7.jpeg]
+
 This infinitely looping browser poem explores concepts both abstract and concrete — a color wavelength — are socialized through language. How blue was the last discrete color category to be named in English.
 
-Watch with sound on:<iframe src="https://player.vimeo.com/video/653867996" width="100%" height="350" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe class="video">
+Watch with sound on:
+<iframe src="https://player.vimeo.com/video/653867996" width="100%" height="350" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe class="video">
 Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtual blue</a> (images may load slowly before they cache)
 <br><br>
 
@@ -311,18 +316,16 @@ Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtua
   They wanted to build a tunnel to China but China was busy eating the Congo.
   [blue3.gif]
 
-  The glaze whispering, infinity. You think blue is more velvet but it is made of hard things.
+  The glaze whispering, infinity. You think blue is velvet but it is made of hard things.
   [blue4.gif]
 
 <br>
-  Color names poem projected onto a ceiling:<iframe src="https://player.vimeo.com/video/650982362" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe class="video">
+  Color names poem projected onto a ceiling:
+  <iframe src="https://player.vimeo.com/video/650982362" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe class="video">
   [blueceiling.png]
 
   The data:
   [bluelist.png]
-
-  The end:
-  [end.png]
 
   `
   },
@@ -461,6 +464,8 @@ Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtua
     "thumb": "makey2.png",
     "content": `
     Conductive zines made for a workshop in the historical mining town of Bisbee, AZ. Participants used <a href="https://chibitronics.com/" target="_blank">Chibitronics</a> and <a href="https://www.youtube.com/watch?v=rfQqh7iCcOU" target="_blank">MaKey MaKey</a> to create simple circuits with copper on paper. The zines have prompts for drawing and writing, and share past and present struggles around copper mining—for example, the 1917 Bisbee Deportation of striking miners, and today's fight to protect sacred land from mining companies.
+    Shown at Ulises Project Space, April 2026.
+    
     [cover.png]
     [makey3.png]
            [poem1.png]
@@ -491,7 +496,9 @@ Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtua
     "thumb": "infinitethumb.jpg",
     "content": `
             Scenes from Sewell, Chile: the largest underground copper mine and its American company town.
-            Inkjet on cotton, digital embroidery. 24 * 18 inches.
+            Inkjet on cotton, digital embroidery. 24 * 18 inches. Shown at SoMad Gallery, New York, April 2026, as part of Intersectional Ecologies.
+
+
             [infinite.JPG]
             [metalis.JPG]
             <br>
