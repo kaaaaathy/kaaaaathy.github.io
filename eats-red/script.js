@@ -7,7 +7,6 @@ let pinText;
 
 let taglist = [];
 let fossillist = [];
-let terminal;
 
 
 fetch('captions.txt')
@@ -28,7 +27,6 @@ function textillate(input) {
 
 
 function preload() {
-    terminal = loadFont('right-serif.otf');
     instruct = document.getElementById('instruct');
     for (let i = 0; i < 50; i++) {
         pics[i] = loadImage("img/" + i + ".png");
