@@ -28,7 +28,7 @@ function textillate(input) {
 
 
 function preload() {
-    terminal = loadFont('https://cdn.glitch.me/640277e6-6a19-4a13-8251-32b8d9d92672%2Fterminal-grotesque.ttf?v=1633900310040');
+    terminal = loadFont('right-serif.otf');
     instruct = document.getElementById('instruct');
     for (let i = 0; i < 50; i++) {
         pics[i] = loadImage("img/" + i + ".png");
