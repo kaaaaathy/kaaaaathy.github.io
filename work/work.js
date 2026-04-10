@@ -1,73 +1,48 @@
 work = [
   {
-    "folder": "uncertain-weathers",
-    "name": "into uncertain weathers",
+    "folder": "weaves",
+    "name": "scintillations",
     "tags": "",
     "year": "2025",
-    "thumb": "1.png",
+    "thumb": "infinitethumb.jpg",
     "content": `
-    Work-in-progress created while an artist-in-residence at <a href="https://www.culturehub.org/events/into-uncertain-weathers" target="_blank">CultureHub NYC</a>.
- <i>into uncertain weathers</i> is an interactive installation and divinatory performance of poetry, weather balloons, mylar and haze which asks: What are technology’s affordances and limits in future-telling? 
- Despite state attempts to know and control the planet, we know that knowledge alone isn’t enough to secure our climate future. Inspired by Hito Steyerl’s How Not to Be Seen and Zhanyi Chen’s satellite poetry, the performance thinks about planetary imagery through a surveillance studies lens. 
-Watch the recording → <a href="https://vimeo.com/1121613009" target="_blank">LINK</a>
-
-    [ji-hoon-9.png]
-     [7.png]
-     [ji-hoon-7.png]
-
-      [1.png]
-      [ji-hoon-6.png]
-      [semin-1.png]
-
-    [ji-hoon-0.png]
-    [semin-2.png]
-    [ji-hoon-8.png]
-
-<br>
-<li>experiments in telepresence</li>
-    During the event, the audience can ask questions both online and in-person—only to receive cryptic answers modulated by a NYC weather API and accompanied by NASA satellite imagery. The resulting texts will morph alongside temperature, wind, rain, and other vectors of fortunetelling. 
-This project was also an experiment in expanding audience telepresence online; I used CultureHub's new software-in-development, their LiveLab Broadcaster, to build out audience interactions in p5.js which could overlay a low-latent video stream. Here are some view from online:
-    [broadcast1.png]
-<br>
-    Audience members could overlay drawings, clouds, rain which would affect the performance in real time. thank you to Jonathan for the screenshots! 
-    [broadcast4.png]
-    [broadcast3.png]
-    [broadcast2.png]
-
-[broadcast6.png]
-    The weather divination session ends when enough cursors congregate around the center of the sky, and create a fully white "eclipse" in the projection space.
+            Scenes from Sewell, Chile: the largest underground copper mine and its American company town.
+            Inkjet on cotton, digital embroidery. 24 * 18 inches. Shown at SoMad Gallery, New York, April 2026, as part of Intersectional Ecologies.
 
 
+            [infinite.JPG]
+            [metalis.JPG]
+            <br>
 
-<br>
-<li>meteorological glyphs</li>
-A set of glyphs drawn from meteorological symbols, turned into a custom typeface used for balloons, and for looping ground film projected through haze. 
-
-[ji-hoon-5.png]
-
-
-    [5.png]
-    [glyphs.gif]
-[type3.png]
-   <br>
+            Open-pit series, Southern Arizona. Inkjet on cotton, copper sheeting. 12 * 16 inches.    
+            [weave1.png]
+    
+            [weave2.png]
+            [weave3.png]
+  //       `},
+  // 
+  {
+    "folder": "no-object",
+    "name": "there is no mineral of futurity",
+    "tags": "",
+    "year": "2023",
+    "thumb": "thumb.jpg",
+    "content": `Cyanotype on cotton and paper, approx 30 inches square. 
+    The piece depicts error screens, cursors, glitches, alongside mining sites in Google satellite imagery and settler colonial cartographies. Among these are lithium mines in the American Southwest and cobalt mines in the Congo, both of which are crucial for battery production; the piece’s geographies also include a 19th century map of the largest copper mine in the world, based in Chile, which played a critical role in the dawn of electricity and electronics. 
+  These cyanotype images were developed using solar power and iron-based pigment, which nods to photography’s material basis. Perhaps there is something about photography which pretends to be virtual as well, which creates what Susan Sontag calls a “fracturing, dislocating vision that only the camera supplies.” 
   
-<li>WEBSITE + ZINES</li>
-You can still access the divination website here → <a href="https://www.uncertain.cloud/" target="_blank">LINK</a>
- <iframe src="https://player.vimeo.com/video/1123723725" frameborder="0" width="100%" height ="320"></iframe class="video">
-After the show, I turned all participant questions into little zines which repurposed the mylar from the balloons. 
-[zine-culturehub.png]
-[zine3-edit.png]
-<br>
+  [1.png]
+  [7.jpg]
+  [3.jpg]
+  [17.jpg]
+  [6.jpg]
 
-       <li>credits</li>
-           HUGE thank you to the CultureHub team: DeAndra, Mattie, Sangmin, Tee, Billy, and all! Special thanks to Lai Yi Ohlsen for the projector loan, and to Willy Wu for backend support. Big thanks also to Ryan Greene for testing.
 
- Thank you so much to Ji-Hoon Kim and Semin Lee for your photos, and for your work documenting the event! Photo credit for other in-person images go to dear friends Angie and Livia—thank you.
- Thank you to Katherine Yang for <a href="https://www.culturehub.org/read/what-is-a-cloud">writing about this performance</a>.
 
- If you are featured in these photos as an attendee but don't want to be, please reach out and I will take it down.
 `
+
   },
+
   {
     "folder": "field",
     "name": "a field",
@@ -132,115 +107,7 @@ A huge thank you to Si-Min Chong for taking these photos/video!
     <br>
 `
   },
-  {
-    "folder": "fossils",
-    "name": "litany for the ground (fossils)",
-    "tags": "",
-    "year": "2025",
-    "thumb": "spin.gif",
-    "content": `
-          Multi-media body of work thinking through the "geology of media," as defined by theorist Jussi Parrika, and via the forms of litanies and list poems. Sculptures of sand, rockite, vintage hardware, data / website of poems, 3D scans / installation of stone, digital fabric print.
-          Read the web component → <a href="http://kaaathy.com/fossils" target="_blank">LINK</a> 
-<br>
-          <li>sculptures</li>
-          These objects are extensions of the <a href="http://kaaathy.com/work/she-will-last/iphone.png" target="_blank">cement casts</a> I made in Spring '24. Plus SD cards, USB-C, vintage NOKIA phone. These works are very much inspired by Blair Simmons's <a href="https://www.blairsimmons.com/">laptop-in-cement</a>!
-          [mirror2.JPG]
-          [invert.png]
-          [mirror7.JPG]
-          [iphone.png]
 
-          <br>
-          <li>webpoem</li>
-          Accompanying website for unearthing fossilids. Made with three.js, matter.js. 
-[web.png]
-
-[spin.gif]
-[falling.gif]
-[forget.gif]
-
-<br>
-<li>data</li>
-A stone and a fraction of the .txt file for its 3D digitized self. Inkjet on cotton, 3 inches * 20 feet.
-[install1.JPG]
-[rock-comp.gif]
-[txtscan1.jpg]
-<br>
-<li>gallery show</li>
-Part of my solo show, FOR LET EARTH, at AS220 Aborn Gallery, Providence, RI. April 2025.
-[show1.png]
-[show4.png]
-
-<li>object details</li>
-USB, USB-C, SD card... I give credit to the brilliant Mika Ben Amar <a href="https://www.instagram.com/100o111/" target="_blank"> who made usb stones first.</a> 
-          [usb_b2.JPG]
-          [mono5.JPG]
-         
-         <br>USB with the encoding of its own 3D image—
-          [usb.JPG]
-
-      `},
-  {
-    "folder": "stone-shirt",
-    "name": "want to not want the heavy",
-    "tags": "",
-    "year": "2023",
-    "thumb": "shirt.png",
-    "content": `
-  A cold, 15-pound garment stitched together with Rhode Island river and beach stones. This garment is worn during the computer performance as an expression of embodied grief, and as an extension of the local ecologies. 
-  
-  [shirt.png]
-  [detail.png]
-
-  Here, I'm modeling it by the Blackstone Seekonk river, which was, at one point, the most polluted river in the country due to Pawtucket textile industries. (Thank you, Riley, for this picture in below freezing windy weather).
-  [river.png]
-<br>
-  Accompanying quilt-object—
-  [quilt.png]
-`
-  },
-  {
-    "folder": "stope",
-    "name": "stope",
-    "tags": "",
-    "year": "2025",
-    "thumb": "detail2.png",
-    "content": `
-<i>stope</i> is an artist book compiling photography from copper mining sites: Bisbee and Sahauritas, Arizona, and Sewell in Chile. Set in "copper green," nodding at oxidation and malachite deposits found in these areas, the monochrome book also alludes to industries' increased reliance on copper for so-called green technologies.
-The sheer book lends a thread of connectivity between these related sites of violence, using both found text and photography to "conduct," as copper does, a salient thread across continents.            Inkjet on organza.
-            [spread1.png]
-            [spread2.png]
-      [spread4.png]
-
-<br>
-<li>Detail</li>
-            [detail0.png]
-            [detail1.png]
-            [detail2.png]
-            [detail4.png]
-             [cover1.png]
-
-                                   
-
-        `},
-  {
-    "folder": "for-let",
-    "name": "for let earth",
-    "tags": "",
-    "year": "2025",
-    "thumb": "heropic.png",
-    "content": `Fragment of a larger body of work. Published through <a href="https://www.tiltedhouse.org/shop/for-let-earth-kathy-wu-presale" target="_blank">Tilted House Press</a> in New Orleans: "a booklet dense with illogical geologies, extracted metals, verbal and visual circuitries, and copper wires connecting ‘mother-daughterboards,’ labor, and land. Printed in an edition of 150 on new and old technologies. 4.25” x 7”, 12 pages, letters metals + elements."
-          
-              Polymer plate from Boxcar Press on Mohawk Carnival. Printed on a Vandercook 320G. Thank you so much to Cameron Lovejoy of Tilted House for his design collaboration and production labor.
-          
-              [heropic.png]
-              [inner-cover.png]
-              [feelingofwalking.png]
-                  [close.png]
-          
-              [colophon.png]
-          [cover-spread.png]
-              `
-  },
 
   {
     "folder": "homonym",
@@ -367,27 +234,32 @@ Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtua
     `
   },
   {
-    "folder": "werners",
-    "name": "the color of dislocation",
-    "tags": "",
-    "year": "2023",
-    "thumb": "thumb.png",
+    "folder": "internetgeo",
+    "name": "internet geology",
+    "tags": "Mixed media, data, projection, sound, poetry",
+    "year": "2022",
+    "thumb": "vid-short.gif",
     "content": `
-<i>the color of dislocation (weeds now run wild)</i> is an ongoing body of work. I wonder at how scientific language grasps at knowledge; precisions it; pins it as a colonial found. Perhaps poetic gestures of annotation and collage introduce fog instead, and trouble the body of water which represents “scientific” epistemology. 
-        The chapbook and web component aggregate “found” material from Pliny the Elder’s writings, Darwin’s HMS Beagle Voyage throughout the Global South, and <a href="https://archive.org/details/gri_c00033125012743312" target="_blank">Werner’s Nomenclature of Colour</a>. Excerpts from the book are published in the Nightboat Books anthology, <a href="https://nightboat.org/book/permanent-record-poetics-towards-the-archive/" target="_blank">Permanent Record</a>.
-   
-    <li>Book component</li>
-     [spread1.png]
-    [pages7.png]
-    [spread2.png]
+  Internet Geology is a multimedia installation which highlights geographic sites of copper extraction and outlines the role of copper in technology and internet infrastructures. 
+  
+  Inspired by Fernando Godoy’s copper mine recordings, Trevor Paglen’s drone footage project, and Sam Lavigne’s web scrape of oil news, the digital projection combines sound, maps, government data, and poetry to play with the aesthetics of systemized extraction and "the field." 
+  <iframe src="https://player.vimeo.com/video/778307297?h=7132e13db1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe class="video">
 
-<li>Website</li>
-  The book has an accompanying website which animates data from Nicholas Rogeaux's <a href="https://docs.google.com/spreadsheets/d/10w7UebIDqN6ChEpBwLDQmAgVZZhLtKvnrLeNnBjJmsc/edit?gid=0#gid=0" target="_blank">downloadable CSV</a> of Werner's colors. Sound credit to <a href="https://freesound.org/people/InspectorJ/sounds/398980/" target="_blank">InspectorJ</a> on FreeSound.org.
-  Read online → <a href="https://kaaathy.com/werners/" target="_blank">LINK</a>
- [thumb.png]
+  The installation combines the satellite’s gaze (via OpenMapBox) and Open Mineral data from US governmental data bases on worldwide copper mines, smelters, and plants. This piece is projected on to a copper-infused, copper-colored conductive fabric. 
+   [geostill.png]
+ [action.png]
+  [one.jpg] 
+
+In front is a metaphorical "circuit" of objects: a sculptural installation of yarn, selvage circuitry, smart phone, found natural materials, and copper tape. Touching part of the sculpture closes the circuit and subtly manipulate the projection & sound.
+  [topview.jpg]
+
+
+  Made with found objects, copper, Leaflet.js, Mapbox, Tone.js, with thanks to Freesound.org user Travis Needham. 
+
 `
 
   },
+
 
 
   {
@@ -415,7 +287,165 @@ Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtua
   },
 
 
+  {
+    "folder": "stone-shirt",
+    "name": "want to not want the heavy",
+    "tags": "",
+    "year": "2023",
+    "thumb": "shirt.png",
+    "content": `
+  A cold, 15-pound garment stitched together with Rhode Island river and beach stones. This garment is worn during the computer performance as an expression of embodied grief, and as an extension of the local ecologies. 
+  
+  [shirt.png]
+  [detail.png]
 
+  Here, I'm modeling it by the Blackstone Seekonk river, which was, at one point, the most polluted river in the country due to Pawtucket textile industries. (Thank you, Riley, for this picture in below freezing windy weather).
+  [river.png]
+<br>
+  Accompanying quilt-object—
+  [quilt.png]
+`
+  },
+  {
+    "folder": "stope",
+    "name": "stope",
+    "tags": "",
+    "year": "2025",
+    "thumb": "detail2.png",
+    "content": `
+<i>stope</i> is an artist book compiling photography from copper mining sites: Bisbee and Sahauritas, Arizona, and Sewell in Chile. Set in "copper green," nodding at oxidation and malachite deposits found in these areas, the monochrome book also alludes to industries' increased reliance on copper for so-called green technologies.
+The sheer book lends a thread of connectivity between these related sites of violence, using both found text and photography to "conduct," as copper does, a salient thread across continents.            Inkjet on organza.
+            [spread1.png]
+            [spread2.png]
+      [spread4.png]
+
+<br>
+<li>Detail</li>
+            [detail0.png]
+            [detail1.png]
+            [detail2.png]
+            [detail4.png]
+             [cover1.png]
+
+                                   
+
+        `},
+  {
+    "folder": "fossils",
+    "name": "litany for the ground (fossils)",
+    "tags": "",
+    "year": "2025",
+    "thumb": "spin.gif",
+    "content": `
+          Multi-media body of work thinking through the "geology of media," as defined by theorist Jussi Parrika, and via the forms of litanies and list poems. Sculptures of sand, rockite, vintage hardware, data / website of poems, 3D scans / installation of stone, digital fabric print.
+          Read the web component → <a href="http://kaaathy.com/fossils" target="_blank">LINK</a> 
+<br>
+          <li>sculptures</li>
+          These objects are extensions of the <a href="http://kaaathy.com/work/she-will-last/iphone.png" target="_blank">cement casts</a> I made in Spring '24. Plus SD cards, USB-C, vintage NOKIA phone. These works are very much inspired by Blair Simmons's <a href="https://www.blairsimmons.com/">laptop-in-cement</a>!
+          [mirror2.JPG]
+          [invert.png]
+          [mirror7.JPG]
+          [iphone.png]
+
+          <br>
+          <li>webpoem</li>
+          Accompanying website for unearthing fossilids. Made with three.js, matter.js. 
+[web.png]
+
+[spin.gif]
+[falling.gif]
+[forget.gif]
+
+<br>
+<li>data</li>
+A stone and a fraction of the .txt file for its 3D digitized self. Inkjet on cotton, 3 inches * 20 feet.
+[install1.JPG]
+[rock-comp.gif]
+[txtscan1.jpg]
+<br>
+<li>gallery show</li>
+Part of my solo show, FOR LET EARTH, at AS220 Aborn Gallery, Providence, RI. April 2025.
+[show1.png]
+[show4.png]
+
+<li>object details</li>
+USB, USB-C, SD card... I give credit to the brilliant Mika Ben Amar <a href="https://www.instagram.com/100o111/" target="_blank"> who made usb stones first.</a> 
+          [usb_b2.JPG]
+          [mono5.JPG]
+         
+         <br>USB with the encoding of its own 3D image—
+          [usb.JPG]
+
+      `},
+  {
+    "folder": "uncertain-weathers",
+    "name": "into uncertain weathers",
+    "tags": "",
+    "year": "2025",
+    "thumb": "1.png",
+    "content": `
+    Work-in-progress created while an artist-in-residence at <a href="https://www.culturehub.org/events/into-uncertain-weathers" target="_blank">CultureHub NYC</a>.
+ <i>into uncertain weathers</i> is an interactive installation and divinatory performance of poetry, weather balloons, mylar and haze which asks: What are technology’s affordances and limits in future-telling? 
+ Despite state attempts to know and control the planet, we know that knowledge alone isn’t enough to secure our climate future. Inspired by Hito Steyerl’s How Not to Be Seen and Zhanyi Chen’s satellite poetry, the performance thinks about planetary imagery through a surveillance studies lens. 
+Watch the recording → <a href="https://vimeo.com/1121613009" target="_blank">LINK</a>
+
+    [ji-hoon-9.png]
+     [7.png]
+     [ji-hoon-7.png]
+
+      [1.png]
+      [ji-hoon-6.png]
+      [semin-1.png]
+
+    [ji-hoon-0.png]
+    [semin-2.png]
+    [ji-hoon-8.png]
+
+<br>
+<li>experiments in telepresence</li>
+    During the event, the audience can ask questions both online and in-person—only to receive cryptic answers modulated by a NYC weather API and accompanied by NASA satellite imagery. The resulting texts will morph alongside temperature, wind, rain, and other vectors of fortunetelling. 
+This project was also an experiment in expanding audience telepresence online; I used CultureHub's new software-in-development, their LiveLab Broadcaster, to build out audience interactions in p5.js which could overlay a low-latent video stream. Here are some view from online:
+    [broadcast1.png]
+<br>
+    Audience members could overlay drawings, clouds, rain which would affect the performance in real time. thank you to Jonathan for the screenshots! 
+    [broadcast4.png]
+    [broadcast3.png]
+    [broadcast2.png]
+
+[broadcast6.png]
+    The weather divination session ends when enough cursors congregate around the center of the sky, and create a fully white "eclipse" in the projection space.
+
+
+
+<br>
+<li>meteorological glyphs</li>
+A set of glyphs drawn from meteorological symbols, turned into a custom typeface used for balloons, and for looping ground film projected through haze. 
+
+[ji-hoon-5.png]
+
+
+    [5.png]
+    [glyphs.gif]
+[type3.png]
+   <br>
+  
+<li>WEBSITE + ZINES</li>
+You can still access the divination website here → <a href="https://www.uncertain.cloud/" target="_blank">LINK</a>
+ <iframe src="https://player.vimeo.com/video/1123723725" frameborder="0" width="100%" height ="320"></iframe class="video">
+After the show, I turned all participant questions into little zines which repurposed the mylar from the balloons. 
+[zine-culturehub.png]
+[zine3-edit.png]
+<br>
+
+       <li>credits</li>
+           HUGE thank you to the CultureHub team: DeAndra, Mattie, Sangmin, Tee, Billy, and all! Special thanks to Lai Yi Ohlsen for the projector loan, and to Willy Wu for backend support. Big thanks also to Ryan Greene for testing.
+
+ Thank you so much to Ji-Hoon Kim and Semin Lee for your photos, and for your work documenting the event! Photo credit for other in-person images go to dear friends Angie and Livia—thank you.
+ Thank you to Katherine Yang for <a href="https://www.culturehub.org/read/what-is-a-cloud">writing about this performance</a>.
+
+ If you are featured in these photos as an attendee but don't want to be, please reach out and I will take it down.
+`
+  },
   {
     "folder": "aa-abolition",
     "name": "visioning towards abolition",
@@ -488,49 +518,9 @@ Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtua
 
     `
   },
-  {
-    "folder": "weaves",
-    "name": "scintillations",
-    "tags": "",
-    "year": "2025",
-    "thumb": "infinitethumb.jpg",
-    "content": `
-            Scenes from Sewell, Chile: the largest underground copper mine and its American company town.
-            Inkjet on cotton, digital embroidery. 24 * 18 inches. Shown at SoMad Gallery, New York, April 2026, as part of Intersectional Ecologies.
-
-
-            [infinite.JPG]
-            [metalis.JPG]
-            <br>
-
-            Open-pit series, Southern Arizona. Inkjet on cotton, copper sheeting. 12 * 16 inches.    
-            [weave1.png]
-    
-            [weave2.png]
-            [weave3.png]
-  //       `},
-
-  {
-    "folder": "no-object",
-    "name": "there is no mineral of futurity",
-    "tags": "",
-    "year": "2023",
-    "thumb": "thumb.jpg",
-    "content": `Cyanotype on cotton and paper, approx 30 inches square. 
-    The piece depicts error screens, cursors, glitches, alongside mining sites in Google satellite imagery and settler colonial cartographies. Among these are lithium mines in the American Southwest and cobalt mines in the Congo, both of which are crucial for battery production; the piece’s geographies also include a 19th century map of the largest copper mine in the world, based in Chile, which played a critical role in the dawn of electricity and electronics. 
-  These cyanotype images were developed using solar power and iron-based pigment, which nods to photography’s material basis. Perhaps there is something about photography which pretends to be virtual as well, which creates what Susan Sontag calls a “fracturing, dislocating vision that only the camera supplies.” 
-  
-  [1.png]
-  [7.jpg]
-  [3.jpg]
-  [17.jpg]
-  [6.jpg]
 
 
 
-`
-
-  },
 
   {
     "folder": "potters-fields",
@@ -642,63 +632,6 @@ Website with a simple template for a digital erotic poem:
 
     <br>
  
-    `
-  },
-  {
-    "folder": "internetgeo",
-    "name": "internet geology",
-    "tags": "Mixed media, data, projection, sound, poetry",
-    "year": "2022",
-    "thumb": "vid-short.gif",
-    "content": `
-  Internet Geology is a multimedia installation which highlights geographic sites of copper extraction and outlines the role of copper in technology and internet infrastructures. 
-  
-  Inspired by Fernando Godoy’s copper mine recordings, Trevor Paglen’s drone footage project, and Sam Lavigne’s web scrape of oil news, the digital projection combines sound, maps, government data, and poetry to play with the aesthetics of systemized extraction and "the field." 
-  <iframe src="https://player.vimeo.com/video/778307297?h=7132e13db1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe class="video">
-
-  The installation combines the satellite’s gaze (via OpenMapBox) and Open Mineral data from US governmental data bases on worldwide copper mines, smelters, and plants. This piece is projected on to a copper-infused, copper-colored conductive fabric. 
-   [geostill.png]
- [action.png]
-  [one.jpg] 
-
-In front is a metaphorical "circuit" of objects: a sculptural installation of yarn, selvage circuitry, smart phone, found natural materials, and copper tape. Touching part of the sculpture closes the circuit and subtly manipulate the projection & sound.
-  [topview.jpg]
-
-
-  Made with found objects, copper, Leaflet.js, Mapbox, Tone.js, with thanks to Freesound.org user Travis Needham. 
-
-`
-
-  },
-  {
-    "folder": "office",
-    "name": "Office for Language Under Capitalism",
-    "tags": "Interactive, HTML",
-    "year": "2022",
-    "thumb": "thumb.jpg",
-    "content": `    I'm interested in what happens to language under specific sociopolitical constraints.
-    Language under capitalism compresses itself—it minifies into lean, neat boxes fit for work and production. It does not rebel, it does not deviate; it eclipses possibility of what could be in our relationships.
-    This interactive, audio-based web poem plays out through a fictional bureaucratic phone call. Selected for <a href="https://icids2021.ardin.online/art-exhibition" target="_blank">ICIDS 2021 ReDisconnection.</a>
-    Try it on your mobile device → <a href="office/index.html" target="_blank">LINK</a>
-    <iframe src="https://player.vimeo.com/video/469486919" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe class="video">
-    <br>
-        Dialing any one of several digits (including secret, non-menu digits) will play a computer-synthesized, female voice recording.
-
-    [phonedemo-title.gif]
-    [2.jpg]
-    [3a.jpg]
-    [3b.jpg]
-    [4.jpg]
-    [5.jpg]
-    [6.jpg]
-    Most of this text was written by a human pretending to be a machine; some text was generated through Python webscrapes of Google autocompletes.
-    [8.jpg]
-    In total, I webscraped over 3,000 discrete expressions of Thank You. (I've only used a subset)
-    [thankyou.jpg]
-
-    Finally, no bureaucratic call is complete without some palatable music.
-    [0.jpg]
-
     `
   },
 
@@ -815,28 +748,8 @@ I created interpretive “conversion tools”n the form of frames and boxes. Eac
   [3alt.jpg]
   `
   }
-  ,
 
-  {
-    "folder": "touchart",
-    "name": "touch art",
-    "tags": "net art, zine",
-    "year": "2014",
-    "thumb": "example_zoom.png",
-    "content": `Old work. Inspired by Walter Bejamin's A Work of Art in the Age of Mechanical Reproduction. Nose-pick image by SC.
-    [example2.png]
-    [art.png]
-    [art1.png]
-<br>
-    From the zine—
-    [ta.png]
-            [ta1.png]
-        [ta2.png]
-    [ta5.png]
 
-    
-  `
-  },
   //
   // {  "folder":"jelly",
   //   "name":"Pulmō Plastics",
@@ -892,141 +805,6 @@ I created interpretive “conversion tools”n the form of frames and boxes. Eac
   //
   //
   //   `
-  // },
-
-  {
-    "folder": "digpo",
-    "name": "digital poetics",
-    "year": "2014–2015",
-    "tags": "Poetics, digital media",
-    "thumb": "thumb.png",
-    "content": `
-  		By now, vintage experiments from the 2010's.
-      The gesture of writing includes scratch, ping, swipe, tap. What are some new tools for writing that push or strain the body? These are experiments in bizarre and obstructed lingual gestures. 
-  		<br>
-      <li>basho in the garden</li>
-      [basho.png]
-      [basho1.png]
-  		<li>CROSS-COUNTRY CALLIGRAPHY</li> It may take months to write to you.
-  		[driving_gif.gif]
-  		<br>
-  		<br>
-      <li>TRANSCRIBING OBSTRUCTIONS</li> 
-      Typing with socks on my hands.
-      [socks.png]
-<br>Reading tongue twisters while covering different parts of my mouth with a spoon. I used an online text-to-speech tool.
- <iframe src="https://player.vimeo.com/video/1161161194" frameborder="0" width="100%" height ="300"></iframe class="video">
-  		<br>
-      <br>
-  
-  		<li>KEYBOARD CALISTHENICS</li> A speculative guidebook and sarcastic keyboard workout video, inspired by Jane Fonda energy from the 80's and those horrible typing games from my childhood.
-  		[kindastrange1.gif]
-      <br>
-      Explorations in repetition, exercise, and creating writing from an interface-first perspective – since our expression is ultimately constrained by body and tools.
-      <br>
-  		[keyboard1.png]
-  		[keyboard2.png]
-  		[keyboard3.png]
-  		`
-  }
-
-
-  // {  "folder":"scratch",
-  //   "name":"Scratch: Join Scratch",
-  //   "tags":"UI / UX",
-  //   "thumb":"thumb.png",
-  //   "content":`
-
-  //   <span class="emph">WHAT'S SCRATCH? </span>
-  //   <a href="scratch.mit.edu" target="_blank">Scratch</a> is an open-source programming language, creative tool, and online community used by millions of young people and educators around the world today.
-  //   For many children, Scratch is their first experience in computational media and virtual community.
-
-  // <br>
-  //   <span class="emph">WHY THIS WORK? </span>
-
-  //   Our previous join experience was text-heavy, less paced, and more utilitarian.
-  //   [join 6.png]
-
-  //   Scratch usage has been growing worldwide over the last few years. Often kids will be creating a new account as part of their classroom experience, or sometimes they will discover Scratch on their own.
-  //   It felt crucial that we improve this first touch point – to emphasize a welcoming community, as well as the joy of building your first creative identity online.
-
-  // <br>
-  //   <span class="emph">NEW EXPERIENCE</span>
-  //   I remember my first foray with internet communities over a decade ago, and how emotional that could be.
-  //   We also recognize that we have a responsibility to onboard young people into internet community literacy — how to represent yourself online, while protecting your privacy.
-
-  //   [join 1.png]
-  //   [age 1.png]
-  //   [country 2.png]
-  //   [gender 3.png]
-  //   [end 1.png]
-
-
-
-  //   `
-
-  // },
-
-  // {  "folder":"scratch-sprites",
-  //   "name":"Scratch: People Sprites",
-  //   "tags":"Illustration",
-  //   "thumb":"sprite1-alt.png",
-  //   "content":`
-  //
-  //     <span class="emph">WHAT'S SCRATCH? </span>
-  //   <a href="scratch.mit.edu" target="_blank">Scratch</a> is an open-source programming language, creative tool, and online community used by millions of young people and educators around the world today.
-  //    For many children, Scratch is their first experience in computational media and virtual community.
-  //
-  //  <br>
-  //    <span class="emph">WHY THIS WORK?</span>
-  //   Kids use the paint editor in Scratch to create stories, animations, games, and more. For many of them, Scratch is their first and only image editing software.
-  //   Through the Scratch online community, young people share creations about themselves and their communities.
-  //   [community2.gif]
-  //   I wanted to lead this project because feel strongly about media representation generally; as a designer of creative tools, I'm especially passionate about our responsibilities to youth and their personal, expressive experiences.
-  //
-  // <br>
-  //   <span class="emph">OUR EXISTING ARTWORK</span>
-  //   Our team responded to how the existing characters in our asset library were sometimes difficult to reshape, or recolor. Here's an example project by a young person in the community, who has created their own work-arounds:
-  //   [abby.gif]
-  //
-  //   We identified two main challenges:
-  //   <span class="emph">1. RECOLORING.</span>
-  //    Many of our existing assets, especially the bitmap characters, were difficult to recolor. For example, the hair contains multiple tones on this sprite.
-  //   [hannah.gif]
-  //   <span class="emph">2. RESHAPING.</span>
-  //    Even for our vector assets, reposing characters were challenging because they were not designed with editability. For example, the outline and fill are constructed separately on this ballerina.
-  //   [difficulty2.gif]
-  //    This artwork was launched as part of a 3-month project I led and managed, with a focus on helping kids represent themselves in artwork.
-  //   It was important to us that beginners — new to Scratch, new to image editing, or both — could quickly see themselves in the tool and community.
-  //
-  // <br>
-  //   <span class="emph">NEW ARTWORK </span>
-  //   As part of this project, we launched four new character sets for the Scratch Asset Library. You can see them all at <a href="https://scratch.mit.edu/projects/editor" target ="_blank">scratch.mit.edu</a> in the sprite library.
-  //   Our team wanted to provide enough specificity through different options, as well as use simple shapes that could be easily altered and generalized.
-  //
-  //     [sprite2.png]
-  //
-  //   I drew this set of new vector characters. Now that they are in the Scratch Library, anyone can use them for their creative projects.
-  //
-  //   [sprite1-alt.png]
-  //
-  //   These character sets were built and grouped so they can be easily recolored or puppeted. Limb shapes are separated to move at the joint.
-  //   [sprite5.png]
-  //   [sprite3.gif]
-  //
-  //   Complex shapes like hair are left as groups of simple shapes — a strategy inspired by artists in the Scratch community.
-  //
-  //   Not only is it easier to modify, but also this offers an affordance on how vector illustrations are made.
-  //
-  //   [sprite4.png]
-  //   [sprite4.gif]
-  //
-  //   Here's some examples of the new sprites in use in the community:
-  //   [example_both.jpg]
-  //
-  //
-  //   `
-  //
   // },
 
 
