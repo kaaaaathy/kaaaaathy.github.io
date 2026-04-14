@@ -1,5 +1,74 @@
 work = [
   {
+    "folder": "uncertain-weathers",
+    "name": "into uncertain weathers",
+    "tags": "",
+    "year": "2025",
+    "thumb": "1.png",
+    "content": `
+    Work-in-progress created while an artist-in-residence at <a href="https://www.culturehub.org/events/into-uncertain-weathers" target="_blank">CultureHub NYC</a>.
+ <i>into uncertain weathers</i> is an interactive installation and divinatory performance of poetry, weather balloons, mylar and haze which asks: What are technology’s affordances and limits in future-telling? 
+ Despite state attempts to know and control the planet, we know that knowledge alone isn’t enough to secure our climate future. Inspired by Hito Steyerl’s How Not to Be Seen and Zhanyi Chen’s satellite poetry, the performance thinks about planetary imagery through a surveillance studies lens. 
+Watch the recording → <a href="https://vimeo.com/1121613009" target="_blank">LINK</a>
+
+    [ji-hoon-9.png]
+     [7.png]
+     [ji-hoon-7.png]
+
+      [1.png]
+      [ji-hoon-6.png]
+      [semin-1.png]
+
+    [ji-hoon-0.png]
+    [semin-2.png]
+    [ji-hoon-8.png]
+
+<br>
+<li>experiments in telepresence</li>
+    During the event, the audience can ask questions both online and in-person—only to receive cryptic answers modulated by a NYC weather API and accompanied by NASA satellite imagery. The resulting texts will morph alongside temperature, wind, rain, and other vectors of fortunetelling. 
+This project was also an experiment in expanding audience telepresence online; I used CultureHub's new software-in-development, their LiveLab Broadcaster, to build out audience interactions in p5.js which could overlay a low-latent video stream. Here are some view from online:
+    [broadcast1.png]
+<br>
+    Audience members could overlay drawings, clouds, rain which would affect the performance in real time. thank you to Jonathan for the screenshots! 
+    [broadcast4.png]
+    [broadcast3.png]
+    [broadcast2.png]
+
+[broadcast6.png]
+    The weather divination session ends when enough cursors congregate around the center of the sky, and create a fully white "eclipse" in the projection space.
+
+
+
+<br>
+<li>meteorological glyphs</li>
+A set of glyphs drawn from meteorological symbols, turned into a custom typeface used for balloons, and for looping ground film projected through haze. 
+
+[ji-hoon-5.png]
+
+
+    [5.png]
+    [glyphs.gif]
+[type3.png]
+   <br>
+  
+<li>WEBSITE + ZINES</li>
+You can still access the divination website here → <a href="https://www.uncertain.cloud/" target="_blank">LINK</a>
+ <iframe src="https://player.vimeo.com/video/1123723725" frameborder="0" width="100%" height ="320"></iframe class="video">
+After the show, I turned all participant questions into little zines which repurposed the mylar from the balloons. 
+[zine-culturehub.png]
+[zine3-edit.png]
+<br>
+
+       <li>credits</li>
+           HUGE thank you to the CultureHub team: DeAndra, Mattie, Sangmin, Tee, Billy, and all! Special thanks to Lai Yi Ohlsen for the projector loan, and to Willy Wu for backend support. Big thanks also to Ryan Greene for testing.
+
+ Thank you so much to Ji-Hoon Kim and Semin Lee for your photos, and for your work documenting the event! Photo credit for other in-person images go to dear friends Angie and Livia—thank you.
+ Thank you to Katherine Yang for <a href="https://www.culturehub.org/read/what-is-a-cloud">writing about this performance</a>.
+
+ If you are featured in these photos as an attendee but don't want to be, please reach out and I will take it down.
+`
+  },
+  {
     "folder": "weaves",
     "name": "scintillations",
     "tags": "",
@@ -233,32 +302,6 @@ Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtua
 
     `
   },
-  {
-    "folder": "internetgeo",
-    "name": "internet geology",
-    "tags": "Mixed media, data, projection, sound, poetry",
-    "year": "2022",
-    "thumb": "vid-short.gif",
-    "content": `
-  Internet Geology is a multimedia installation which highlights geographic sites of copper extraction and outlines the role of copper in technology and internet infrastructures. 
-  
-  Inspired by Fernando Godoy’s copper mine recordings, Trevor Paglen’s drone footage project, and Sam Lavigne’s web scrape of oil news, the digital projection combines sound, maps, government data, and poetry to play with the aesthetics of systemized extraction and "the field." 
-  <iframe src="https://player.vimeo.com/video/778307297?h=7132e13db1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe class="video">
-
-  The installation combines the satellite’s gaze (via OpenMapBox) and Open Mineral data from US governmental data bases on worldwide copper mines, smelters, and plants. This piece is projected on to a copper-infused, copper-colored conductive fabric. 
-   [geostill.png]
- [action.png]
-  [one.jpg] 
-
-In front is a metaphorical "circuit" of objects: a sculptural installation of yarn, selvage circuitry, smart phone, found natural materials, and copper tape. Touching part of the sculpture closes the circuit and subtly manipulate the projection & sound.
-  [topview.jpg]
-
-
-  Made with found objects, copper, Leaflet.js, Mapbox, Tone.js, with thanks to Freesound.org user Travis Needham. 
-
-`
-
-  },
 
 
 
@@ -377,75 +420,7 @@ USB, USB-C, SD card... I give credit to the brilliant Mika Ben Amar <a href="htt
           [usb.JPG]
 
       `},
-  {
-    "folder": "uncertain-weathers",
-    "name": "into uncertain weathers",
-    "tags": "",
-    "year": "2025",
-    "thumb": "1.png",
-    "content": `
-    Work-in-progress created while an artist-in-residence at <a href="https://www.culturehub.org/events/into-uncertain-weathers" target="_blank">CultureHub NYC</a>.
- <i>into uncertain weathers</i> is an interactive installation and divinatory performance of poetry, weather balloons, mylar and haze which asks: What are technology’s affordances and limits in future-telling? 
- Despite state attempts to know and control the planet, we know that knowledge alone isn’t enough to secure our climate future. Inspired by Hito Steyerl’s How Not to Be Seen and Zhanyi Chen’s satellite poetry, the performance thinks about planetary imagery through a surveillance studies lens. 
-Watch the recording → <a href="https://vimeo.com/1121613009" target="_blank">LINK</a>
 
-    [ji-hoon-9.png]
-     [7.png]
-     [ji-hoon-7.png]
-
-      [1.png]
-      [ji-hoon-6.png]
-      [semin-1.png]
-
-    [ji-hoon-0.png]
-    [semin-2.png]
-    [ji-hoon-8.png]
-
-<br>
-<li>experiments in telepresence</li>
-    During the event, the audience can ask questions both online and in-person—only to receive cryptic answers modulated by a NYC weather API and accompanied by NASA satellite imagery. The resulting texts will morph alongside temperature, wind, rain, and other vectors of fortunetelling. 
-This project was also an experiment in expanding audience telepresence online; I used CultureHub's new software-in-development, their LiveLab Broadcaster, to build out audience interactions in p5.js which could overlay a low-latent video stream. Here are some view from online:
-    [broadcast1.png]
-<br>
-    Audience members could overlay drawings, clouds, rain which would affect the performance in real time. thank you to Jonathan for the screenshots! 
-    [broadcast4.png]
-    [broadcast3.png]
-    [broadcast2.png]
-
-[broadcast6.png]
-    The weather divination session ends when enough cursors congregate around the center of the sky, and create a fully white "eclipse" in the projection space.
-
-
-
-<br>
-<li>meteorological glyphs</li>
-A set of glyphs drawn from meteorological symbols, turned into a custom typeface used for balloons, and for looping ground film projected through haze. 
-
-[ji-hoon-5.png]
-
-
-    [5.png]
-    [glyphs.gif]
-[type3.png]
-   <br>
-  
-<li>WEBSITE + ZINES</li>
-You can still access the divination website here → <a href="https://www.uncertain.cloud/" target="_blank">LINK</a>
- <iframe src="https://player.vimeo.com/video/1123723725" frameborder="0" width="100%" height ="320"></iframe class="video">
-After the show, I turned all participant questions into little zines which repurposed the mylar from the balloons. 
-[zine-culturehub.png]
-[zine3-edit.png]
-<br>
-
-       <li>credits</li>
-           HUGE thank you to the CultureHub team: DeAndra, Mattie, Sangmin, Tee, Billy, and all! Special thanks to Lai Yi Ohlsen for the projector loan, and to Willy Wu for backend support. Big thanks also to Ryan Greene for testing.
-
- Thank you so much to Ji-Hoon Kim and Semin Lee for your photos, and for your work documenting the event! Photo credit for other in-person images go to dear friends Angie and Livia—thank you.
- Thank you to Katherine Yang for <a href="https://www.culturehub.org/read/what-is-a-cloud">writing about this performance</a>.
-
- If you are featured in these photos as an attendee but don't want to be, please reach out and I will take it down.
-`
-  },
   {
     "folder": "aa-abolition",
     "name": "visioning towards abolition",
@@ -515,6 +490,13 @@ After the show, I turned all participant questions into little zines which repur
    [process.png]
    [workshop.png]
    [wr-1.png]
+
+   <br>
+   In Ulises Project Space as part of :/repair. Photos by Ian Byers-Gamber.
+
+    [gallery2.jpg]
+          [gallery1.jpg]
+[gallery0.jpg]
 
     `
   },
@@ -609,6 +591,32 @@ Website with a simple template for a digital erotic poem:
 `
   },
 
+  {
+    "folder": "internetgeo",
+    "name": "internet geology",
+    "tags": "Mixed media, data, projection, sound, poetry",
+    "year": "2022",
+    "thumb": "vid-short.gif",
+    "content": `
+  Internet Geology is a multimedia installation which highlights geographic sites of copper extraction and outlines the role of copper in technology and internet infrastructures. 
+  
+  Inspired by Fernando Godoy’s copper mine recordings, Trevor Paglen’s drone footage project, and Sam Lavigne’s web scrape of oil news, the digital projection combines sound, maps, government data, and poetry to play with the aesthetics of systemized extraction and "the field." 
+  <iframe src="https://player.vimeo.com/video/778307297?h=7132e13db1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe class="video">
+
+  The installation combines the satellite’s gaze (via OpenMapBox) and Open Mineral data from US governmental data bases on worldwide copper mines, smelters, and plants. This piece is projected on to a copper-infused, copper-colored conductive fabric. 
+   [geostill.png]
+ [action.png]
+  [one.jpg] 
+
+In front is a metaphorical "circuit" of objects: a sculptural installation of yarn, selvage circuitry, smart phone, found natural materials, and copper tape. Touching part of the sculpture closes the circuit and subtly manipulate the projection & sound.
+  [topview.jpg]
+
+
+  Made with found objects, copper, Leaflet.js, Mapbox, Tone.js, with thanks to Freesound.org user Travis Needham. 
+
+`
+
+  },
 
   {
     "folder": "semiconduction",
