@@ -422,6 +422,25 @@ USB, USB-C, SD card... I give credit to the brilliant Mika Ben Amar <a href="htt
       `},
 
   {
+    "folder": "dwell",
+    "name": "dwellings",
+    "tags": "fiber",
+    "year": "2026",
+    "thumb": "6.png",
+    "content": `
+          Work in progress. Soft computers with NFC tags. They're siblings.
+             [7.png]
+             [9.png]
+             [10.png]
+
+          [1.png]
+           [3.png]
+                      [4.png]
+[5.png]
+
+
+      `},
+  {
     "folder": "aa-abolition",
     "name": "visioning towards abolition",
     "tags": "zine, workshop",

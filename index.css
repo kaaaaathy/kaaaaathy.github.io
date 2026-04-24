@@ -4,6 +4,11 @@
 }
 
 @font-face {
+    font-family: 'TimesNRS';
+    src: url('fonts/TimesNRS.otf');
+}
+
+@font-face {
     font-family: 'HBLossy';
     src: url('fonts/HBLossyWeb.woff2');
 }
