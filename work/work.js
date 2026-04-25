@@ -88,8 +88,8 @@ After the show, I turned all participant questions into little zines which repur
     
             [weave2.png]
             [weave3.png]
-  //       `},
-  // 
+       `},
+ 
   {
     "folder": "no-object",
     "name": "there is no mineral of futurity",
