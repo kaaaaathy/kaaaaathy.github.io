@@ -1,7 +1,9 @@
 .DS_Store
 ~*
 **/ignore/
+**/work_biggest_files/
 **/_hide/
+node_modules/
 archive/
 bluebl/ableton tests/danubesoft.mp3.asd
 bluebl/ableton tests/danubesoft.mp3
