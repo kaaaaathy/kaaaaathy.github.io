@@ -4,37 +4,37 @@ work = [
     "name": "into uncertain weathers",
     "tags": "",
     "year": "2025",
-    "thumb": "1.png",
+    "thumb": "1.jpg",
     "content": `
     Work-in-progress created while an artist-in-residence at <a href="https://www.culturehub.org/events/into-uncertain-weathers" target="_blank">CultureHub NYC</a>.
  <i>into uncertain weathers</i> is an interactive installation and divinatory performance of poetry, weather balloons, mylar and haze which asks: What are technology’s affordances and limits in future-telling? 
  Despite state attempts to know and control the planet, we know that knowledge alone isn’t enough to secure our climate future. Inspired by Hito Steyerl’s How Not to Be Seen and Zhanyi Chen’s satellite poetry, the performance thinks about planetary imagery through a surveillance studies lens. 
 Watch the recording → <a href="https://vimeo.com/1121613009" target="_blank">LINK</a>
 
-    [ji-hoon-9.png]
-     [7.png]
-     [ji-hoon-7.png]
+    [ji-hoon-9.jpg]
+     [7.jpg]
+     [ji-hoon-7.jpg]
 
-      [1.png]
-      [ji-hoon-6.png]
-      [semin-1.png]
+      [1.jpg]
+      [ji-hoon-6.jpg]
+      [semin-1.jpg]
 
-    [ji-hoon-0.png]
-    [semin-2.png]
-    [ji-hoon-8.png]
+    [ji-hoon-0.jpg]
+    [semin-2.jpg]
+    [ji-hoon-8.jpg]
 
 <br>
 <li>experiments in telepresence</li>
     During the event, the audience can ask questions both online and in-person—only to receive cryptic answers modulated by a NYC weather API and accompanied by NASA satellite imagery. The resulting texts will morph alongside temperature, wind, rain, and other vectors of fortunetelling. 
 This project was also an experiment in expanding audience telepresence online; I used CultureHub's new software-in-development, their LiveLab Broadcaster, to build out audience interactions in p5.js which could overlay a low-latent video stream. Here are some view from online:
-    [broadcast1.png]
+    [broadcast1.jpg]
 <br>
     Audience members could overlay drawings, clouds, rain which would affect the performance in real time. thank you to Jonathan for the screenshots! 
-    [broadcast4.png]
-    [broadcast3.png]
-    [broadcast2.png]
+    [broadcast4.jpg]
+    [broadcast3.jpg]
+    [broadcast2.jpg]
 
-[broadcast6.png]
+[broadcast6.jpg]
     The weather divination session ends when enough cursors congregate around the center of the sky, and create a fully white "eclipse" in the projection space.
 
 
@@ -43,20 +43,20 @@ This project was also an experiment in expanding audience telepresence online; I
 <li>meteorological glyphs</li>
 A set of glyphs drawn from meteorological symbols, turned into a custom typeface used for balloons, and for looping ground film projected through haze. 
 
-[ji-hoon-5.png]
+[ji-hoon-5.jpg]
 
 
-    [5.png]
+    [5.jpg]
     [glyphs.gif]
-[type3.png]
+[type3.jpg]
    <br>
   
 <li>WEBSITE + ZINES</li>
 You can still access the divination website here → <a href="https://www.uncertain.cloud/" target="_blank">LINK</a>
  <iframe src="https://player.vimeo.com/video/1123723725" frameborder="0" width="100%" height ="320"></iframe class="video">
 After the show, I turned all participant questions into little zines which repurposed the mylar from the balloons. 
-[zine-culturehub.png]
-[zine3-edit.png]
+[zine-culturehub.jpg]
+[zine3-edit.jpg]
 <br>
 
        <li>credits</li>
@@ -84,12 +84,12 @@ After the show, I turned all participant questions into little zines which repur
             <br>
 
             Open-pit series, Southern Arizona. Inkjet on cotton, copper sheeting. 12 * 16 inches.    
-            [weave1.png]
+            [weave1.jpg]
     
-            [weave2.png]
-            [weave3.png]
+            [weave2.jpg]
+            [weave3.jpg]
        `},
- 
+
   {
     "folder": "no-object",
     "name": "there is no mineral of futurity",
@@ -100,7 +100,7 @@ After the show, I turned all participant questions into little zines which repur
     The piece depicts error screens, cursors, glitches, alongside mining sites in Google satellite imagery and settler colonial cartographies. Among these are lithium mines in the American Southwest and cobalt mines in the Congo, both of which are crucial for battery production; the piece’s geographies also include a 19th century map of the largest copper mine in the world, based in Chile, which played a critical role in the dawn of electricity and electronics. 
   These cyanotype images were developed using solar power and iron-based pigment, which nods to photography’s material basis. Perhaps there is something about photography which pretends to be virtual as well, which creates what Susan Sontag calls a “fracturing, dislocating vision that only the camera supplies.” 
   
-  [1.png]
+  [1.jpg]
   [7.jpg]
   [3.jpg]
   [17.jpg]
@@ -116,7 +116,7 @@ After the show, I turned all participant questions into little zines which repur
     "folder": "field",
     "name": "a field",
     "tags": "",
-    "thumb": "altthumb3.png",
+    "thumb": "altthumb3.jpg",
     "year": "2025",
     "content": `
     Work-in-progress from my time at Black Mountain College Museum + Art Center. A large drawing, projected video, and movement performance situated in the original Black Mountain College Studies building.
@@ -125,20 +125,20 @@ After the show, I turned all participant questions into little zines which repur
             <iframe src="https://player.vimeo.com/video/1131542204" style="background:black; width:100%; height:400px; border-radius:4px" frameborder = "0" allow="fullscreen" allowfullscreen></iframe class="video">
 
     <li>surface</li>
-    [day.png]
+    [day.jpg]
 
-    [4.png]
-    [5.png]
-    [10.png]
+    [4.jpg]
+    [5.jpg]
+    [10.jpg]
 
         <li>movement</li>
 
-        [movement0.png]
-        [movement1.png]
-        [movement5.png]
+        [movement0.jpg]
+        [movement1.jpg]
+        [movement5.jpg]
 <br>
         The movements were based on a traditional writing grid—the "rice grid."
-        [grid.png]
+        [grid.jpg]
 
 
   `
@@ -149,16 +149,16 @@ After the show, I turned all participant questions into little zines which repur
     "name": "she will last as long as stones",
     "tags": "",
     "year": "2024–2026",
-    "thumb": "thumb.png",
+    "thumb": "thumb.jpg",
     "content": `
 Book of visual poetry on themes of geology, computation, migration, and loss. Design by Dorothy Lin, edited by Corinne Butta. Printed in an edition of 1,000. Published by <a href="https://wendyssubway.com/publishing/titles/she-will-last-as-long-as-stones" target="_blank">Wendy's Subway Press.</a>
-  [cover.png]
-  [03-flat.png]
-  [06-flat.png]
+  [cover.jpg]
+  [03-flat.jpg]
+  [06-flat.jpg]
   
     <li>performances</li>
     Photos from book tour in 2025–2026! Videos by Amelia Doll. 
-    [wendys.png]
+    [wendys.jpg]
     <iframe src="https://player.vimeo.com/video/1160585792" frameborder="0" width="100%" height ="350"></iframe class="video">
     <iframe src="https://player.vimeo.com/video/1160585890" frameborder="0" width="100%" height ="350"></iframe class="video">
     <br>
@@ -169,9 +169,9 @@ Multimedia element from performances—
  Originally, the work was performed as MFA thesis project for Brown University Literary Arts program, 2024. Advised by Sawako Nakayasu. 
 A huge thank you to Si-Min Chong for taking these photos/video!
 
-  [still5.png]
-  [still1.png]
-  [still3.png]
+  [still5.jpg]
+  [still1.jpg]
+  [still3.jpg]
  <iframe src="https://player.vimeo.com/video/947107796" frameborder="0" width="100%" height ="320"></iframe class="video">
     <br>
 `
@@ -183,10 +183,10 @@ A huge thank you to Si-Min Chong for taking these photos/video!
     "name": "homonym",
     "tags": "",
     "year": "2025",
-    "thumb": "crop.png",
+    "thumb": "crop.jpg",
     "content": `
           Jacquard-loomed hanging of my mother's circuitry. Cotton, 50 * 60 inches.
-          [crop.png]
+          [crop.jpg]
           [detail5.JPG]
           [detail2.JPG]
           [detail7.JPG]
@@ -258,10 +258,10 @@ Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtua
 <br>
   Color names poem projected onto a ceiling:
   <iframe src="https://player.vimeo.com/video/650982362" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe class="video">
-  [blueceiling.png]
+  [blueceiling.jpg]
 
   The data:
-  [bluelist.png]
+  [bluelist.jpg]
 
   `
   },
@@ -273,7 +273,7 @@ Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtua
     "name": "when will it rain",
     "tags": "javascript, HTML, poetry",
     "year": "2023",
-    "thumb": "thumb.png",
+    "thumb": "thumb.jpg",
     "content": `A webpoem about balloons and meteorology and unidentifiable objects, about the limits of knowing and seeing, how governments and states know and see.
     Procedurally redacts/translates things into the word "object," folds in live weather from government data. 
     Read online → <a href="https://kaaathy.com/cloud/index.html" target="_blank">LINK</a>
@@ -286,17 +286,17 @@ Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtua
     "name": "Bisbee",
     "tags": "weaving",
     "year": "2026",
-    "thumb": "0-alt.png",
+    "thumb": "0-alt.jpg",
     "content": `
     Wool, cotton, and copper-leafed paper on copper wire warp. Better pictures coming soon (maybe!)
     Thank you <a href="https://www.emmanuelfernandoserrano.com/" target="_blank">Fernando Serrano</a> for the dyed blue churro and copper leaf <3
 
-    [0-alt.png]
-    [4.png]
-    [7.png]
-        [5.png]
+    [0-alt.jpg]
+    [4.jpg]
+    [7.jpg]
+        [5.jpg]
 
-    [weave5.png]
+    [weave5.jpg]
 
 
 
@@ -335,18 +335,18 @@ Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtua
     "name": "want to not want the heavy",
     "tags": "",
     "year": "2023",
-    "thumb": "shirt.png",
+    "thumb": "shirt.jpg",
     "content": `
   A cold, 15-pound garment stitched together with Rhode Island river and beach stones. This garment is worn during the computer performance as an expression of embodied grief, and as an extension of the local ecologies. 
   
-  [shirt.png]
-  [detail.png]
+  [shirt.jpg]
+  [detail.jpg]
 
   Here, I'm modeling it by the Blackstone Seekonk river, which was, at one point, the most polluted river in the country due to Pawtucket textile industries. (Thank you, Riley, for this picture in below freezing windy weather).
-  [river.png]
+  [river.jpg]
 <br>
   Accompanying quilt-object—
-  [quilt.png]
+  [quilt.jpg]
 `
   },
   {
@@ -354,21 +354,21 @@ Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtua
     "name": "stope",
     "tags": "",
     "year": "2025",
-    "thumb": "detail2.png",
+    "thumb": "detail2.jpg",
     "content": `
 <i>stope</i> is an artist book compiling photography from copper mining sites: Bisbee and Sahauritas, Arizona, and Sewell in Chile. Set in "copper green," nodding at oxidation and malachite deposits found in these areas, the monochrome book also alludes to industries' increased reliance on copper for so-called green technologies.
 The sheer book lends a thread of connectivity between these related sites of violence, using both found text and photography to "conduct," as copper does, a salient thread across continents.            Inkjet on organza.
-            [spread1.png]
-            [spread2.png]
-      [spread4.png]
+            [spread1.jpg]
+            [spread2.jpg]
+      [spread4.jpg]
 
 <br>
 <li>Detail</li>
-            [detail0.png]
-            [detail1.png]
-            [detail2.png]
-            [detail4.png]
-             [cover1.png]
+            [detail0.jpg]
+            [detail1.jpg]
+            [detail2.jpg]
+            [detail4.jpg]
+             [cover1.jpg]
 
                                    
 
@@ -384,16 +384,16 @@ The sheer book lends a thread of connectivity between these related sites of vio
           Read the web component → <a href="http://kaaathy.com/fossils" target="_blank">LINK</a> 
 <br>
           <li>sculptures</li>
-          These objects are extensions of the <a href="http://kaaathy.com/work/she-will-last/iphone.png" target="_blank">cement casts</a> I made in Spring '24. Plus SD cards, USB-C, vintage NOKIA phone. These works are very much inspired by Blair Simmons's <a href="https://www.blairsimmons.com/">laptop-in-cement</a>!
+          These objects are extensions of the <a href="http://kaaathy.com/work/she-will-last/iphone.jpg" target="_blank">cement casts</a> I made in Spring '24. Plus SD cards, USB-C, vintage NOKIA phone. These works are very much inspired by Blair Simmons's <a href="https://www.blairsimmons.com/">laptop-in-cement</a>!
           [mirror2.JPG]
-          [invert.png]
+          [invert.jpg]
           [mirror7.JPG]
-          [iphone.png]
+          [iphone.jpg]
 
           <br>
           <li>webpoem</li>
           Accompanying website for unearthing fossilids. Made with three.js, matter.js. 
-[web.png]
+[web.jpg]
 
 [spin.gif]
 [falling.gif]
@@ -408,8 +408,8 @@ A stone and a fraction of the .txt file for its 3D digitized self. Inkjet on cot
 <br>
 <li>gallery show</li>
 Part of my solo show, FOR LET EARTH, at AS220 Aborn Gallery, Providence, RI. April 2025.
-[show1.png]
-[show4.png]
+[show1.jpg]
+[show4.jpg]
 
 <li>object details</li>
 USB, USB-C, SD card... I give credit to the brilliant Mika Ben Amar <a href="https://www.instagram.com/100o111/" target="_blank"> who made usb stones first.</a> 
@@ -426,17 +426,17 @@ USB, USB-C, SD card... I give credit to the brilliant Mika Ben Amar <a href="htt
     "name": "dwellings",
     "tags": "fiber",
     "year": "2026",
-    "thumb": "6.png",
+    "thumb": "6.jpg",
     "content": `
           Work in progress. Soft computers with NFC tags. They're siblings.
-             [7.png]
-             [9.png]
-             [10.png]
+             [7.jpg]
+             [9.jpg]
+             [10.jpg]
 
-          [1.png]
-           [3.png]
-                      [4.png]
-[5.png]
+          [1.jpg]
+           [3.jpg]
+                      [4.jpg]
+[5.jpg]
 
 
       `},
@@ -445,38 +445,38 @@ USB, USB-C, SD card... I give credit to the brilliant Mika Ben Amar <a href="htt
     "name": "visioning towards abolition",
     "tags": "zine, workshop",
     "year": "2026",
-    "thumb": "10-alt.png",
+    "thumb": "10-alt.jpg",
     "content": `
            <li>2026 edition</li>
   Second edition of an Abolition Zine for 2026. Produced by <a href="https://printingfortunes.info/Many-Folds-Press-1" target="_blank">Many Folds Press</a>, designed in collaboration with Angela Chang and Many Folds. 75% of proceeds go towards deportation defense funds.
       Bisque and Blue RISO ink on Salmon text weight paper by French Paper.
 
-      [cover-alt.png]
-      [2.png]
-      [3.png]
-      [5.png]
-      [6.png]
+      [cover-alt.jpg]
+      [2.jpg]
+      [3.jpg]
+      [5.jpg]
+      [6.jpg]
       <br><br>
 
       Buy from Many Folds press! <3 → <a href="https://printingfortunes.info/product-page-abolition-zine" target="_blank">LINK</a>
-      [mfp1.png]
-      [mfp2.png]
+      [mfp1.jpg]
+      [mfp2.jpg]
       Photos by Connie Yu.
 
        <li>2021 edition</li>
 
           Made with <a href="https://www.aarw.org/" target="_blank">Asian American Resource Workshop</a> (AARW) as part of their abolition working group. Includes a political educator's toolkit to run this in your own communities. Distributed online through AARW as well as through <a href="https://pm.linkedbyair.net/catalog/59883/" target="_blank">Printed Matter</a>.
 
-          [zine-scan-cover-2.png]
-          [2-old.png]
-          [3-old.png]
-          [4-old.png]
+          [zine-scan-cover-2.jpg]
+          [2-old.jpg]
+          [3-old.jpg]
+          [4-old.jpg]
           [zine-scan-slow.gif]
           <br>
                   Use the workshop toolkit → <a href="https://docs.google.com/presentation/d/1pfmC3wtc6xU0QqKWCPTugfl0HUkxZXpLT9-772c-Ndo/edit#slide=id.g10d7d2d8eac_0_155" target="_blank">LINK</a> 
 
-          [slide1.png]
-          [slide2.png]
+          [slide1.jpg]
+          [slide2.jpg]
 
       `},
 
@@ -485,30 +485,30 @@ USB, USB-C, SD card... I give credit to the brilliant Mika Ben Amar <a href="htt
     "name": "Conducting Our Memory",
     "tags": "zines, workshop",
     "year": "2026",
-    "thumb": "makey2.png",
+    "thumb": "makey2.jpg",
     "content": `
     Conductive zines made for a workshop in the historical mining town of Bisbee, AZ. Participants used <a href="https://chibitronics.com/" target="_blank">Chibitronics</a> and <a href="https://www.youtube.com/watch?v=rfQqh7iCcOU" target="_blank">MaKey MaKey</a> to create simple circuits with copper on paper. The zines have prompts for drawing and writing, and share past and present struggles around copper mining—for example, the 1917 Bisbee Deportation of striking miners, and today's fight to protect sacred land from mining companies.
     Shown at Ulises Project Space, April 2026.
     
-    [cover.png]
-    [makey3.png]
-           [poem1.png]
+    [cover.jpg]
+    [makey3.jpg]
+           [poem1.jpg]
 
-          [spread5.png]
-         [spread6.png]
-            [spread3.png]
-                [spread1.png]
-     [spread2.png]
+          [spread5.jpg]
+         [spread6.jpg]
+            [spread3.jpg]
+                [spread1.jpg]
+     [spread2.jpg]
 
-         [cover-lit.png]
+         [cover-lit.jpg]
 
-   [closeup.png]
+   [closeup.jpg]
    Created while Artist-in-Residence at Bisbee Central School Project. Special thanks to Laurie McKenna, Fernando Serrano, Ryan Greene.
   <br>
    Images from workshop + process—
-   [process.png]
-   [workshop.png]
-   [wr-1.png]
+   [process.jpg]
+   [workshop.jpg]
+   [wr-1.jpg]
 
    <br>
    In Ulises Project Space as part of :/repair. Photos by Ian Byers-Gamber.
@@ -528,18 +528,18 @@ USB, USB-C, SD card... I give credit to the brilliant Mika Ben Amar <a href="htt
     "name": "satellite drawings",
     "tags": "",
     "year": "2021",
-    "thumb": "drawing1.png",
+    "thumb": "drawing1.jpg",
     "content": `
     Colored pencil drawings of former burial sites in NYC which are now public parks (or pending transformation in to a public park).
 
-    [drawing1.png]
-    [drawing2.png]
-    [drawing3.png]
+    [drawing1.jpg]
+    [drawing2.jpg]
+    [drawing3.jpg]
 
     <br>
     <li>detail</li>
-    [detail1.png]
-    [detail2.png]
+    [detail1.jpg]
+    [detail2.jpg]
 
 `
 
@@ -565,8 +565,8 @@ Within the traditions of material and concrete poetics, we might gently resist w
 <br>
 Website with a simple template for a digital erotic poem:
  → <a href="https://kaaathy.com/erotic-event-listeners/" target="_blank">Erotic Event Listeners</a>
-    [web1.png]
-    [web3.png]
+    [web1.jpg]
+    [web3.jpg]
         [rose.gif]
     [code.jpg]
     `
@@ -581,14 +581,14 @@ Website with a simple template for a digital erotic poem:
     "content": `
                A zine I co-created and designed with Asian-American teenagers in Malden, MA, as part of a creative and civic literacy afterschool program.
         I was the teaching artist for Malden's Asian Community Development Corp in the spring of 2021. 
-        [malden.png]
+        [malden.jpg]
         Together, we discussed how transit justice is also economic, environmental, and racial justice. I shared local histories of resisting displacement, as well as the beauty and power of maps and "countercartographies," which we made together. Students shared some of their ideas for a better Malden with the city council, as well as through their artwork, which is featured in this zine.
 
         Learn more about Malden A-VOYCE <a href="https://asiancdc.org/sy-malden2122" target="_blank">here</a>.
 
-        [malden1.png]
-        [malden8.png]
-        [malden7.png]
+        [malden1.jpg]
+        [malden8.jpg]
+        [malden7.jpg]
         [a-voyce-zine-2.gif]
         
         `
@@ -598,15 +598,15 @@ Website with a simple template for a digital erotic poem:
     "name": "walking with ghosts",
     "tags": "Interactive, HTML",
     "year": "2021",
-    "thumb": "thumb.png",
+    "thumb": "thumb.jpg",
     "content": `<i>walking with ghosts</i> is a hypertext web poem that invites the reader to travel through cryptic sites in Google Street View. the images are pulled from current NY public parks (nearly all of which used to be potter's fields) and contrasts present day burial grounds with these recreational spaces.
   it nods at the historical layers of eviction, theft, imperialism embedded quietly and namelessly in these green spaces, via the narrative throughline of ghosts.
   Read online → <a href="https://kaaathy.com/walk/1.html" target="_blank">LINK</a>
 <iframe src="https://player.vimeo.com/video/596956749" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen"  allowfullscreen></iframe class="video">
-  [walk1.png]
-  [walk2.png]
-  [walk3.png]
-  [walk4.png]
+  [walk1.jpg]
+  [walk2.jpg]
+  [walk3.jpg]
+  [walk4.jpg]
 `
   },
 
@@ -623,8 +623,8 @@ Website with a simple template for a digital erotic poem:
   <iframe src="https://player.vimeo.com/video/778307297?h=7132e13db1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe class="video">
 
   The installation combines the satellite’s gaze (via OpenMapBox) and Open Mineral data from US governmental data bases on worldwide copper mines, smelters, and plants. This piece is projected on to a copper-infused, copper-colored conductive fabric. 
-   [geostill.png]
- [action.png]
+   [geostill.jpg]
+ [action.jpg]
   [one.jpg] 
 
 In front is a metaphorical "circuit" of objects: a sculptural installation of yarn, selvage circuitry, smart phone, found natural materials, and copper tape. Touching part of the sculpture closes the circuit and subtly manipulate the projection & sound.
@@ -646,8 +646,8 @@ In front is a metaphorical "circuit" of objects: a sculptural installation of ya
     "content": `A two-part poem diptych between screen-based work and artist book. Reflections on supply chain, migrant labor, Foxconn, diaspora.
     <br>
     <li>artist book</li>
-    [companion1.png]
-    [companion2.png]
+    [companion1.jpg]
+    [companion2.jpg]
     <br>
     <li>digital poem</li>
     An <a href="semiconduction/index.html" target="_blank">interactive web poem</a> I wrote and coded about Chinese workers in a context of mass production.
@@ -655,7 +655,7 @@ In front is a metaphorical "circuit" of objects: a sculptural installation of ya
      [semi6.gif]
 
      Still image:
-     [semi_crop.png]
+     [semi_crop.jpg]
 
     <br>
  
@@ -671,7 +671,7 @@ In front is a metaphorical "circuit" of objects: a sculptural installation of ya
     "content": `An interactive web fantasy about distorting, glitching, re-inserting, and deleting from glass boxes + institutions. Seen on <a href="https://pages.virtualgoodsdealer.com/exhibits" target="_blank">Virtual Goods Dealer</a>.
      Read online → <a href="https://kaaathy.com/everything/looting-dream.html" target="_blank">LINK</a>
 [looting.gif]
-   [looting.png]
+   [looting.jpg]
 
 
    `
@@ -681,14 +681,14 @@ In front is a metaphorical "circuit" of objects: a sculptural installation of ya
   //   "name": "person [object]",
   //   "tags": "",
   //   "year": "2023",
-  //   "thumb": "thumb2.png",
+  //   "thumb": "thumb2.jpg",
   //   "content": `Artist book & poems about human labor within today's computational systems: content moderators in SE Asia who flag traumatizing content before it ever reaches our screens; low wage Amazon crowdsourced labor all over the world; low wage human subjects who help train our AI systems, including transcribing Alexa and other home assistant conversations.
 
   //   Workers must often make decisions in "blurry" spaces, where machines are likely to make a mistake; they complete microtasks for little money with minimal labor protections; meanwhile their existence remains ghostly and un-rendered to rest of the world.
 
-  //   [0.png]
-  //   [1.png]
-  //   [2.png]
+  //   [0.jpg]
+  //   [1.jpg]
+  //   [2.jpg]
 
 
 
@@ -702,16 +702,16 @@ In front is a metaphorical "circuit" of objects: a sculptural installation of ya
   //   "name": "A CELL, A CELL",
   //   "tags": "",
   //   "year": "2023",
-  //   "thumb": "sadthumb.png",
+  //   "thumb": "sadthumb.jpg",
   //   "content": `An artist's book of short expiermental poems about the bureaucracy of end-of-life care, of diaspora and loss.
   //   Better documentation coming soon (maybe).
 
-  // [crop.png]
-  // [one.png]
-  // [crop2.png]
-  // [two.png]
-  // [crop3.png]
-  // [three.png]
+  // [crop.jpg]
+  // [one.jpg]
+  // [crop2.jpg]
+  // [two.jpg]
+  // [crop3.jpg]
+  // [three.jpg]
   // `
 
   // },
@@ -769,7 +769,7 @@ I created interpretive “conversion tools”n the form of frames and boxes. Eac
   <span class="emph">virtual world</span>
   Eventually I collected enough to fill up a room with artifacts. I found textual objects and materials of different weights and densities and quantified them in bytes.
   The piece also featured sculptural metaphors like downloading across glass jars, as well as plastic physical hard-drives.
-  [1.png]
+  [1.jpg]
   <br>
   [4.jpg]
   [3alt.jpg]

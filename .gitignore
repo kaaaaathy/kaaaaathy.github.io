@@ -1,5 +1,7 @@
 .DS_Store
 ~*
+**/ignore/
+**/_hide/
 archive/
 bluebl/ableton tests/danubesoft.mp3.asd
 bluebl/ableton tests/danubesoft.mp3
@@ -73,67 +75,67 @@ blue-v1/style.css
 blue-v1/stylealt.css
 blue-v1/text.txt
 blue-v1/TODO.md
-blue/images/_hide/bsod/blue1.jpg
-blue/images/_hide/bsod/blue2.jpg
-blue/images/_hide/bsod/blue3.jpg
-blue/images/_hide/bsod/blue4.jpg
-blue/images/_hide/bsod/blue5.jpg
-blue/images/_hide/bsod/blue6.jpg
-blue/images/_hide/bsod/blue7.jpg
-blue/images/_hide/bsod/blue8.jpg
-blue/images/_hide/bsod/blue9.jpg
-blue/images/_hide/cerulean/blue1.jpg
-blue/images/_hide/cerulean/blue2.jpg
-blue/images/_hide/cerulean/blue3.jpg
-blue/images/_hide/cerulean/blue4.jpg
-blue/images/_hide/cerulean/blue5.jpg
-blue/images/_hide/cerulean/blue6.jpg
-blue/images/_hide/cerulean/blue7.jpg
-blue/images/_hide/cerulean/blue8.jpg
-blue/images/_hide/cerulean/blue9.jpg
-blue/images/_hide/cobalt/blue1.jpg
-blue/images/_hide/cobalt/blue2.jpg
-blue/images/_hide/cobalt/blue3.jpg
-blue/images/_hide/cobalt/blue4.jpg
-blue/images/_hide/cobalt/blue5.jpg
-blue/images/_hide/cobalt/blue6.jpg
-blue/images/_hide/cobalt/blue7.jpg
-blue/images/_hide/cobalt/blue8.jpg
-blue/images/_hide/cobalt/blue9.jpg
-blue/images/_hide/lapis/blue1.jpg
-blue/images/_hide/lapis/blue2.jpg
-blue/images/_hide/lapis/blue3.jpg
-blue/images/_hide/lapis/blue4.jpg
-blue/images/_hide/lapis/blue5.jpg
-blue/images/_hide/lapis/blue6.jpg
-blue/images/_hide/neon/blue1.jpg
-blue/images/_hide/neon/blue2.jpg
-blue/images/_hide/neon/blue3.jpg
-blue/images/_hide/neon/blue4.jpg
-blue/images/_hide/neon/blue5.jpg
-blue/images/_hide/neon/blue6.jpg
-blue/images/_hide/neon/blue7.jpg
-blue/images/_hide/neon/blue8.jpg
-blue/images/_hide/prussian/blue1.jpg
-blue/images/_hide/prussian/blue10.jpg
-blue/images/_hide/prussian/blue2.jpg
-blue/images/_hide/prussian/blue3.jpg
-blue/images/_hide/prussian/blue4.jpg
-blue/images/_hide/prussian/blue5.jpg
-blue/images/_hide/prussian/blue6.jpg
-blue/images/_hide/prussian/blue7.jpg
-blue/images/_hide/prussian/blue8.jpg
-blue/images/_hide/prussian/blue9.jpg
-blue/images/_hide/ultra/blue1.jpg
-blue/images/_hide/ultra/blue10.jpg
-blue/images/_hide/ultra/blue2.jpg
-blue/images/_hide/ultra/blue3.jpg
-blue/images/_hide/ultra/blue4.jpg
-blue/images/_hide/ultra/blue5.jpg
-blue/images/_hide/ultra/blue6.jpg
-blue/images/_hide/ultra/blue7.jpg
-blue/images/_hide/ultra/blue8.jpg
-blue/images/_hide/ultra/blue9.jpg
+blue/images/ignore/bsod/blue1.jpg
+blue/images/ignore/bsod/blue2.jpg
+blue/images/ignore/bsod/blue3.jpg
+blue/images/ignore/bsod/blue4.jpg
+blue/images/ignore/bsod/blue5.jpg
+blue/images/ignore/bsod/blue6.jpg
+blue/images/ignore/bsod/blue7.jpg
+blue/images/ignore/bsod/blue8.jpg
+blue/images/ignore/bsod/blue9.jpg
+blue/images/ignore/cerulean/blue1.jpg
+blue/images/ignore/cerulean/blue2.jpg
+blue/images/ignore/cerulean/blue3.jpg
+blue/images/ignore/cerulean/blue4.jpg
+blue/images/ignore/cerulean/blue5.jpg
+blue/images/ignore/cerulean/blue6.jpg
+blue/images/ignore/cerulean/blue7.jpg
+blue/images/ignore/cerulean/blue8.jpg
+blue/images/ignore/cerulean/blue9.jpg
+blue/images/ignore/cobalt/blue1.jpg
+blue/images/ignore/cobalt/blue2.jpg
+blue/images/ignore/cobalt/blue3.jpg
+blue/images/ignore/cobalt/blue4.jpg
+blue/images/ignore/cobalt/blue5.jpg
+blue/images/ignore/cobalt/blue6.jpg
+blue/images/ignore/cobalt/blue7.jpg
+blue/images/ignore/cobalt/blue8.jpg
+blue/images/ignore/cobalt/blue9.jpg
+blue/images/ignore/lapis/blue1.jpg
+blue/images/ignore/lapis/blue2.jpg
+blue/images/ignore/lapis/blue3.jpg
+blue/images/ignore/lapis/blue4.jpg
+blue/images/ignore/lapis/blue5.jpg
+blue/images/ignore/lapis/blue6.jpg
+blue/images/ignore/neon/blue1.jpg
+blue/images/ignore/neon/blue2.jpg
+blue/images/ignore/neon/blue3.jpg
+blue/images/ignore/neon/blue4.jpg
+blue/images/ignore/neon/blue5.jpg
+blue/images/ignore/neon/blue6.jpg
+blue/images/ignore/neon/blue7.jpg
+blue/images/ignore/neon/blue8.jpg
+blue/images/ignore/prussian/blue1.jpg
+blue/images/ignore/prussian/blue10.jpg
+blue/images/ignore/prussian/blue2.jpg
+blue/images/ignore/prussian/blue3.jpg
+blue/images/ignore/prussian/blue4.jpg
+blue/images/ignore/prussian/blue5.jpg
+blue/images/ignore/prussian/blue6.jpg
+blue/images/ignore/prussian/blue7.jpg
+blue/images/ignore/prussian/blue8.jpg
+blue/images/ignore/prussian/blue9.jpg
+blue/images/ignore/ultra/blue1.jpg
+blue/images/ignore/ultra/blue10.jpg
+blue/images/ignore/ultra/blue2.jpg
+blue/images/ignore/ultra/blue3.jpg
+blue/images/ignore/ultra/blue4.jpg
+blue/images/ignore/ultra/blue5.jpg
+blue/images/ignore/ultra/blue6.jpg
+blue/images/ignore/ultra/blue7.jpg
+blue/images/ignore/ultra/blue8.jpg
+blue/images/ignore/ultra/blue9.jpg
 fonts/ignore/minion/MinionPro-Bold.otf
 fonts/ignore/minion/MinionPro-BoldCn.otf
 fonts/ignore/minion/MinionPro-BoldCnIt.otf
@@ -162,13 +164,13 @@ work/**retired but im still proud/polit-img/pipapunk.jpg
 work/**retired but im still proud/polit-img/migrationthumb.jpg
 work/**retired but im still proud/polit-img/migrationprint.jpg
 work/**retired but im still proud/polit-img/migration-thumb.jpg
-work/**retired but im still proud/polit-img/go away/smallneedful3.png
-work/**retired but im still proud/polit-img/go away/smallneedful2.png
-work/**retired but im still proud/polit-img/go away/smallneedful1.png
-work/**retired but im still proud/polit-img/go away/pipapunk.png
-work/**retired but im still proud/polit-img/go away/migrationthumb.png
-work/**retired but im still proud/polit-img/go away/migrationprint.png
-work/**retired but im still proud/polit-img/go away/migration-thumb.png
+work/**retired but im still proud/polit-img/ignore/smallneedful3.png
+work/**retired but im still proud/polit-img/ignore/smallneedful2.png
+work/**retired but im still proud/polit-img/ignore/smallneedful1.png
+work/**retired but im still proud/polit-img/ignore/pipapunk.png
+work/**retired but im still proud/polit-img/ignore/migrationthumb.png
+work/**retired but im still proud/polit-img/ignore/migrationprint.png
+work/**retired but im still proud/polit-img/ignore/migration-thumb.png
 work/**retired but im still proud/lego/wintershow.jpg
 work/**retired but im still proud/lego/thumb.jpg
 work/**retired but im still proud/lego/stopmotion.gif
@@ -191,10 +193,10 @@ work/**retired but im still proud/lego/planning.jpg
 work/**retired but im still proud/lego/p5process.jpg
 work/**retired but im still proud/lego/lego_yifan_test.gif
 work/**retired but im still proud/lego/lego_sketch.jpg
-work/**retired but im still proud/lego/go away/schematic2.png
-work/**retired but im still proud/lego/go away/schematic1.png
-work/**retired but im still proud/lego/go away/planning.png
-work/**retired but im still proud/lego/go away/p5process.png
+work/**retired but im still proud/lego/ignore/schematic2.png
+work/**retired but im still proud/lego/ignore/schematic1.png
+work/**retired but im still proud/lego/ignore/planning.png
+work/**retired but im still proud/lego/ignore/p5process.png
 work/**retired but im still proud/lego/full size/1_thumb.jpg
 work/**retired but im still proud/lego/full size/1.jpg
 work/**retired but im still proud/lego/boxprocess_big.gif
@@ -231,18 +233,18 @@ work/**retired but im still proud/bumble/2.jpg
 work/**retired but im still proud/bumble/1.jpg
 work/**retired but im still proud/motemote/demo.jpg
 work/**retired but im still proud/motemote/demo2.JPG
-work/**retired but im still proud/motemote/go away/motemote.png
-work/**retired but im still proud/motemote/go away/motemote1.png
-work/**retired but im still proud/motemote/go away/motemote_uncropped_1.png
-work/**retired but im still proud/motemote/go away/motemote_uncropped_2.png
-work/**retired but im still proud/motemote/go away/Screenshot (1).png
-work/**retired but im still proud/motemote/go away/Screenshot (2).png
-work/**retired but im still proud/motemote/go away/Screenshot (4).png
-work/**retired but im still proud/motemote/go away/spacer.png
-work/**retired but im still proud/motemote/go away/thumb.png
-work/**retired but im still proud/motemote/go away/thumb2.png
-work/**retired but im still proud/motemote/go away/thumb3.jpg
-work/**retired but im still proud/motemote/go away/thumb3.png
+work/**retired but im still proud/motemote/ignore/motemote.png
+work/**retired but im still proud/motemote/ignore/motemote1.png
+work/**retired but im still proud/motemote/ignore/motemote_uncropped_1.png
+work/**retired but im still proud/motemote/ignore/motemote_uncropped_2.png
+work/**retired but im still proud/motemote/ignore/Screenshot (1).png
+work/**retired but im still proud/motemote/ignore/Screenshot (2).png
+work/**retired but im still proud/motemote/ignore/Screenshot (4).png
+work/**retired but im still proud/motemote/ignore/spacer.png
+work/**retired but im still proud/motemote/ignore/thumb.png
+work/**retired but im still proud/motemote/ignore/thumb2.png
+work/**retired but im still proud/motemote/ignore/thumb3.jpg
+work/**retired but im still proud/motemote/ignore/thumb3.png
 work/**retired but im still proud/motemote/motemote-2-nice.gif
 work/**retired but im still proud/motemote/motemote-2.gif
 work/**retired but im still proud/motemote/motemote-2.psd
@@ -305,27 +307,27 @@ work/**retired/copy-paste-img/phonegif pics/phonegif5.jpg
 work/**retired/copy-paste-img/phonegif pics/phonegif6.jpg
 work/**retired/copy-paste-img/phonegif.gif
 work/**retired/copy-paste-img/phonegif.psd
-work/**retired/copy-paste-img/put away/10.jpg
-work/**retired/copy-paste-img/put away/2.jpg
-work/**retired/copy-paste-img/put away/3.jpg
-work/**retired/copy-paste-img/put away/5.jpg
-work/**retired/copy-paste-img/put away/copy and paste.gif
-work/**retired/copy-paste-img/put away/layering_old.gif
-work/**retired/copy-paste-img/put away/Screen Shot 2020-10-05 at 11.42.09 PM.png
-work/**retired/copy-paste-img/put away/Screen Shot 2020-10-05 at 11.42.15 PM.png
-work/**retired/copy-paste-img/put away/Screen Shot 2020-10-05 at 11.42.17 PM.png
-work/**retired/copy-paste-img/put away/Screen Shot 2020-10-05 at 11.42.20 PM.png
-work/**retired/copy-paste-img/put away/Screen Shot 2020-10-05 at 11.42.21 PM.png
-work/**retired/copy-paste-img/put away/Screen Shot 2020-10-05 at 11.47.22 PM.png
-work/**retired/copy-paste-img/put away/Screen Shot 2020-10-05 at 11.47.25 PM.png
-work/**retired/copy-paste-img/put away/Screen Shot 2020-10-05 at 11.47.28 PM.png
-work/**retired/copy-paste-img/put away/Screen Shot 2020-10-05 at 11.47.31 PM.png
-work/**retired/copy-paste-img/put away/Screen Shot 2020-10-06 at 12.33.37 PM.png
-work/**retired/copy-paste-img/put away/Screen Shot 2020-10-06 at 12.36.15 PM.png
-work/**retired/copy-paste-img/put away/Screen Shot 2020-10-06 at 12.36.20 PM.png
-work/**retired/copy-paste-img/put away/Screen Shot 2020-10-06 at 12.36.53 PM.png
-work/**retired/copy-paste-img/put away/Screen Shot 2020-10-06 at 12.36.58 PM.png
-work/**retired/copy-paste-img/put away/Screen Shot 2020-10-06 at 12.40.39 PM.png
+work/**retired/copy-paste-img/ignore/10.jpg
+work/**retired/copy-paste-img/ignore/2.jpg
+work/**retired/copy-paste-img/ignore/3.jpg
+work/**retired/copy-paste-img/ignore/5.jpg
+work/**retired/copy-paste-img/ignore/copy and paste.gif
+work/**retired/copy-paste-img/ignore/layering_old.gif
+work/**retired/copy-paste-img/ignore/Screen Shot 2020-10-05 at 11.42.09 PM.png
+work/**retired/copy-paste-img/ignore/Screen Shot 2020-10-05 at 11.42.15 PM.png
+work/**retired/copy-paste-img/ignore/Screen Shot 2020-10-05 at 11.42.17 PM.png
+work/**retired/copy-paste-img/ignore/Screen Shot 2020-10-05 at 11.42.20 PM.png
+work/**retired/copy-paste-img/ignore/Screen Shot 2020-10-05 at 11.42.21 PM.png
+work/**retired/copy-paste-img/ignore/Screen Shot 2020-10-05 at 11.47.22 PM.png
+work/**retired/copy-paste-img/ignore/Screen Shot 2020-10-05 at 11.47.25 PM.png
+work/**retired/copy-paste-img/ignore/Screen Shot 2020-10-05 at 11.47.28 PM.png
+work/**retired/copy-paste-img/ignore/Screen Shot 2020-10-05 at 11.47.31 PM.png
+work/**retired/copy-paste-img/ignore/Screen Shot 2020-10-06 at 12.33.37 PM.png
+work/**retired/copy-paste-img/ignore/Screen Shot 2020-10-06 at 12.36.15 PM.png
+work/**retired/copy-paste-img/ignore/Screen Shot 2020-10-06 at 12.36.20 PM.png
+work/**retired/copy-paste-img/ignore/Screen Shot 2020-10-06 at 12.36.53 PM.png
+work/**retired/copy-paste-img/ignore/Screen Shot 2020-10-06 at 12.36.58 PM.png
+work/**retired/copy-paste-img/ignore/Screen Shot 2020-10-06 at 12.40.39 PM.png
 work/**retired/copy-paste-img/Screen Shot 2020-10-06 at 5.32.43 PM.png
 work/**retired/copy-paste-img/thumb-alt.jpg
 work/**retired/copy-paste-img/thumb.jpg
@@ -393,27 +395,27 @@ work/copy-paste-img/phonegif pics/phonegif5.jpg
 work/copy-paste-img/phonegif pics/phonegif6.jpg
 work/copy-paste-img/phonegif.gif
 work/copy-paste-img/phonegif.psd
-work/copy-paste-img/put away/10.jpg
-work/copy-paste-img/put away/2.jpg
-work/copy-paste-img/put away/3.jpg
-work/copy-paste-img/put away/5.jpg
-work/copy-paste-img/put away/copy and paste.gif
-work/copy-paste-img/put away/layering_old.gif
-work/copy-paste-img/put away/Screen Shot 2020-10-05 at 11.42.09 PM.png
-work/copy-paste-img/put away/Screen Shot 2020-10-05 at 11.42.15 PM.png
-work/copy-paste-img/put away/Screen Shot 2020-10-05 at 11.42.17 PM.png
-work/copy-paste-img/put away/Screen Shot 2020-10-05 at 11.42.20 PM.png
-work/copy-paste-img/put away/Screen Shot 2020-10-05 at 11.42.21 PM.png
-work/copy-paste-img/put away/Screen Shot 2020-10-05 at 11.47.22 PM.png
-work/copy-paste-img/put away/Screen Shot 2020-10-05 at 11.47.25 PM.png
-work/copy-paste-img/put away/Screen Shot 2020-10-05 at 11.47.28 PM.png
-work/copy-paste-img/put away/Screen Shot 2020-10-05 at 11.47.31 PM.png
-work/copy-paste-img/put away/Screen Shot 2020-10-06 at 12.33.37 PM.png
-work/copy-paste-img/put away/Screen Shot 2020-10-06 at 12.36.15 PM.png
-work/copy-paste-img/put away/Screen Shot 2020-10-06 at 12.36.20 PM.png
-work/copy-paste-img/put away/Screen Shot 2020-10-06 at 12.36.53 PM.png
-work/copy-paste-img/put away/Screen Shot 2020-10-06 at 12.36.58 PM.png
-work/copy-paste-img/put away/Screen Shot 2020-10-06 at 12.40.39 PM.png
+work/copy-paste-img/ignore/10.jpg
+work/copy-paste-img/ignore/2.jpg
+work/copy-paste-img/ignore/3.jpg
+work/copy-paste-img/ignore/5.jpg
+work/copy-paste-img/ignore/copy and paste.gif
+work/copy-paste-img/ignore/layering_old.gif
+work/copy-paste-img/ignore/Screen Shot 2020-10-05 at 11.42.09 PM.png
+work/copy-paste-img/ignore/Screen Shot 2020-10-05 at 11.42.15 PM.png
+work/copy-paste-img/ignore/Screen Shot 2020-10-05 at 11.42.17 PM.png
+work/copy-paste-img/ignore/Screen Shot 2020-10-05 at 11.42.20 PM.png
+work/copy-paste-img/ignore/Screen Shot 2020-10-05 at 11.42.21 PM.png
+work/copy-paste-img/ignore/Screen Shot 2020-10-05 at 11.47.22 PM.png
+work/copy-paste-img/ignore/Screen Shot 2020-10-05 at 11.47.25 PM.png
+work/copy-paste-img/ignore/Screen Shot 2020-10-05 at 11.47.28 PM.png
+work/copy-paste-img/ignore/Screen Shot 2020-10-05 at 11.47.31 PM.png
+work/copy-paste-img/ignore/Screen Shot 2020-10-06 at 12.33.37 PM.png
+work/copy-paste-img/ignore/Screen Shot 2020-10-06 at 12.36.15 PM.png
+work/copy-paste-img/ignore/Screen Shot 2020-10-06 at 12.36.20 PM.png
+work/copy-paste-img/ignore/Screen Shot 2020-10-06 at 12.36.53 PM.png
+work/copy-paste-img/ignore/Screen Shot 2020-10-06 at 12.36.58 PM.png
+work/copy-paste-img/ignore/Screen Shot 2020-10-06 at 12.40.39 PM.png
 work/copy-paste-img/Screen Shot 2020-10-06 at 5.32.43 PM.png
 work/copy-paste-img/thumb-alt.jpg
 work/copy-paste-img/thumb.jpg
@@ -440,18 +442,18 @@ work/earth/og screencaps/Screen Shot 2020-11-09 at 9.52.20 PM.png
 work/earth/thumb.jpg
 work/motemote/demo.jpg
 work/motemote/demo2.JPG
-work/motemote/go away/motemote.png
-work/motemote/go away/motemote1.png
-work/motemote/go away/motemote_uncropped_1.png
-work/motemote/go away/motemote_uncropped_2.png
-work/motemote/go away/Screenshot (1).png
-work/motemote/go away/Screenshot (2).png
-work/motemote/go away/Screenshot (4).png
-work/motemote/go away/spacer.png
-work/motemote/go away/thumb.png
-work/motemote/go away/thumb2.png
-work/motemote/go away/thumb3.jpg
-work/motemote/go away/thumb3.png
+work/motemote/ignore/motemote.png
+work/motemote/ignore/motemote1.png
+work/motemote/ignore/motemote_uncropped_1.png
+work/motemote/ignore/motemote_uncropped_2.png
+work/motemote/ignore/Screenshot (1).png
+work/motemote/ignore/Screenshot (2).png
+work/motemote/ignore/Screenshot (4).png
+work/motemote/ignore/spacer.png
+work/motemote/ignore/thumb.png
+work/motemote/ignore/thumb2.png
+work/motemote/ignore/thumb3.jpg
+work/motemote/ignore/thumb3.png
 work/motemote/motemote-2-nice.gif
 work/motemote/motemote-2.gif
 work/motemote/motemote-2.psd
@@ -483,16 +485,16 @@ work/**retired/illustration/1.png
 work/**retired/ics-design/thumb.jpg
 work/**retired/ics-design/mobile.jpeg
 work/**retired/ics-design/inspiration.psd
-work/**retired/ics-design/hide/mobile_spicy.jpeg
-work/**retired/ics-design/hide/diffdesigns.psd
-work/**retired/ics-design/hide/c.jpeg
-work/**retired/ics-design/hide/before_after.psd
-work/**retired/ics-design/hide/b.jpeg
-work/**retired/ics-design/hide/7.jpeg
-work/**retired/ics-design/hide/6.psd
-work/**retired/ics-design/hide/3_alt.jpeg
-work/**retired/ics-design/hide/2.jpeg
-work/**retired/ics-design/hide/0.jpeg
+work/**retired/ics-design/ignore/mobile_spicy.jpeg
+work/**retired/ics-design/ignore/diffdesigns.psd
+work/**retired/ics-design/ignore/c.jpeg
+work/**retired/ics-design/ignore/before_after.psd
+work/**retired/ics-design/ignore/b.jpeg
+work/**retired/ics-design/ignore/7.jpeg
+work/**retired/ics-design/ignore/6.psd
+work/**retired/ics-design/ignore/3_alt.jpeg
+work/**retired/ics-design/ignore/2.jpeg
+work/**retired/ics-design/ignore/0.jpeg
 work/**retired/ics-design/diffdesigns_alt.gif
 work/**retired/ics-design/diffdesigns.gif
 work/**retired/ics-design/before_after.gif
@@ -511,39 +513,39 @@ work/\*\*retired but im still proud/digpo-imgs/may-2.mov
 work/\*\*design/scratch/build your own city/Scratch Day BYOC Guide.pdf
 work/\*\*design/precious/thumb.psd
 work/\*\*design/motemote/motemote-3.psd
-work/no-object/hide/4.jpg
-work/no-object/hide/8.jpg
-work/no-object/hide/9.jpg
-work/no-object/hide/uncropped/16.jpg
-work/no-object/hide/uncropped/17.jpg
-work/no-object/hide/uncropped/2.jpg
-work/no-object/hide/uncropped/3.jpg
-work/no-object/hide/uncropped/5.jpg
-work/no-object/hide/uncropped/6.jpg
+work/no-object/ignore/4.jpg
+work/no-object/ignore/8.jpg
+work/no-object/ignore/9.jpg
+work/no-object/ignore/uncropped/16.jpg
+work/no-object/ignore/uncropped/17.jpg
+work/no-object/ignore/uncropped/2.jpg
+work/no-object/ignore/uncropped/3.jpg
+work/no-object/ignore/uncropped/5.jpg
+work/no-object/ignore/uncropped/6.jpg
 *.psd
-work/no-object/hide/1.jpg
-work/no-object/hide/10.jpg
-work/no-object/hide/11.jpg
-work/no-object/hide/12.jpg
-work/no-object/hide/13.jpg
-work/no-object/hide/14.jpg
-work/weeds/big pics (hide)/banner1.jpg
-work/weeds/big pics (hide)/banner10.jpg
-work/weeds/big pics (hide)/banner2.jpg
-work/weeds/big pics (hide)/banner3.jpg
-work/weeds/big pics (hide)/banner4.jpg
-work/weeds/big pics (hide)/banner5.jpg
-work/weeds/big pics (hide)/banner6.jpg
-work/weeds/big pics (hide)/banner7.jpg
-work/weeds/big pics (hide)/banner8.jpg
-work/weeds/big pics (hide)/banner9.jpg
-work/weeds/big pics (hide)/PXL_20230426_154444480.jpg
-work/weeds/big pics (hide)/PXL_20230426_154452598.jpg
-work/weeds/big pics (hide)/PXL_20230426_154504238.jpg
-work/weeds/big pics (hide)/PXL_20230426_154538131.jpg
-work/weeds/big pics (hide)/PXL_20230426_154554500.jpg
-work/weeds/big pics (hide)/PXL_20230426_154607002.jpg
-work/weeds/big pics (hide)/PXL_20230426_154619467.jpg
+work/no-object/ignore/1.jpg
+work/no-object/ignore/10.jpg
+work/no-object/ignore/11.jpg
+work/no-object/ignore/12.jpg
+work/no-object/ignore/13.jpg
+work/no-object/ignore/14.jpg
+work/weeds/big pics (ignore)/banner1.jpg
+work/weeds/big pics (ignore)/banner10.jpg
+work/weeds/big pics (ignore)/banner2.jpg
+work/weeds/big pics (ignore)/banner3.jpg
+work/weeds/big pics (ignore)/banner4.jpg
+work/weeds/big pics (ignore)/banner5.jpg
+work/weeds/big pics (ignore)/banner6.jpg
+work/weeds/big pics (ignore)/banner7.jpg
+work/weeds/big pics (ignore)/banner8.jpg
+work/weeds/big pics (ignore)/banner9.jpg
+work/weeds/big pics (ignore)/PXL_20230426_154444480.jpg
+work/weeds/big pics (ignore)/PXL_20230426_154452598.jpg
+work/weeds/big pics (ignore)/PXL_20230426_154504238.jpg
+work/weeds/big pics (ignore)/PXL_20230426_154538131.jpg
+work/weeds/big pics (ignore)/PXL_20230426_154554500.jpg
+work/weeds/big pics (ignore)/PXL_20230426_154607002.jpg
+work/weeds/big pics (ignore)/PXL_20230426_154619467.jpg
 everything must go.m4a
 carta/big gifs/copper.gif
 carta/big gifs/sss.gif
@@ -575,18 +577,18 @@ work/she-will-last/retire/quilt.png
 work/she-will-last/retire/perform1.png
 work/she-will-last/retire/cast4.jpg
 eats-red/Screenshot 2024-07-20 at 2.39.16 PM.png
-work/fossiloids/hide/comp1.JPG
-work/fossiloids/hide/comp2.JPG
-work/fossiloids/hide/comp3.JPG
-work/fossiloids/hide/comp4.JPG
-work/fossiloids/hide/comp5.JPG
-work/fossiloids/hide/comp6.JPG
-work/fossiloids/hide/comp7.JPG
-work/fossiloids/hide/comp8.JPG
-work/fossiloids/hide/mono11.JPG
-work/fossiloids/hide/mono12.JPG
-work/fossiloids/hide/mono4.JPG
-work/fossiloids/hide/mono6.JPG
+work/fossiloids/ignore/comp1.JPG
+work/fossiloids/ignore/comp2.JPG
+work/fossiloids/ignore/comp3.JPG
+work/fossiloids/ignore/comp4.JPG
+work/fossiloids/ignore/comp5.JPG
+work/fossiloids/ignore/comp6.JPG
+work/fossiloids/ignore/comp7.JPG
+work/fossiloids/ignore/comp8.JPG
+work/fossiloids/ignore/mono11.JPG
+work/fossiloids/ignore/mono12.JPG
+work/fossiloids/ignore/mono4.JPG
+work/fossiloids/ignore/mono6.JPG
 rockweb/bg.jpg
 rockweb/chip.gif
 rockweb/merp.gif
@@ -596,63 +598,63 @@ rockweb/removed lines.txt
 rockweb/test.png
 rockweb/grass.gif
 rockweb/field.txt
-work/fossilids/hide/mono6.JPG
-work/fossilids/hide/mono4.JPG
-work/fossilids/hide/mono12.JPG
-work/fossilids/hide/mono11.JPG
-work/fossilids/hide/comp8.JPG
-work/fossilids/hide/comp7.JPG
-work/fossilids/hide/comp6.JPG
-work/fossilids/hide/comp5.JPG
-work/fossilids/hide/comp4.JPG
-work/fossilids/hide/comp3.JPG
-work/fossilids/hide/comp2.JPG
-work/fossilids/hide/comp1.JPG
+work/fossilids/ignore/mono6.JPG
+work/fossilids/ignore/mono4.JPG
+work/fossilids/ignore/mono12.JPG
+work/fossilids/ignore/mono11.JPG
+work/fossilids/ignore/comp8.JPG
+work/fossilids/ignore/comp7.JPG
+work/fossilids/ignore/comp6.JPG
+work/fossilids/ignore/comp5.JPG
+work/fossilids/ignore/comp4.JPG
+work/fossilids/ignore/comp3.JPG
+work/fossilids/ignore/comp2.JPG
+work/fossilids/ignore/comp1.JPG
 work/fossilids/web1.png
 work/fossilids/web2.png
 work/fossilids/web3.png
-work/fossils/hide/mirror4.JPG
-work/fossils/hide/phone1.JPG
-work/fossils/hide/spin2.gif
+work/fossils/ignore/mirror4.JPG
+work/fossils/ignore/phone1.JPG
+work/fossils/ignore/spin2.gif
 fossils/banner.txt
-work/fossils/hide/invert2.png
-work/fossils/hide/iphone.jpg
-work/fossils/hide/mirror6.JPG
-work/fossils/hide/mirror8.JPG
-work/fossils/hide/mono7.JPG
-work/fossils/hide/mono9.JPG
-work/fossils/hide/thumb2.png
-work/fossils/hide/web3.png
-work/fossils/hide/web4.png
-work/fossils/hide/usbcomp2.jpg
-work/fossils/hide/usb_b1.JPG
-work/fossils/hide/install2.JPG
-work/fossils/hide/install3.JPG
-work/fossils/hide/rock.gif
-work/fossils/hide/txtscan2.jpg
-work/fossils/hide/txtscan3.jpg
-work/fossils/hide/usb1-edit.jpg
-work/fossils/hide/usb1.JPG
-work/fossils/hide/install-close.JPG
-work/fossils/hide/phone-detail1.JPG
-work/fossils/hide/phone-detail2.JPG
-work/fossils/hide/phone2.JPG
-work/fossils/hide/phone3.JPG
-work/fossils/hide/phone4.JPG
-work/fossils/hide/phone5.JPG
-work/fossils/hide/phone6.JPG
-work/fossils/hide/phone7.JPG
-work/fossils/hide/phone1 copy.JPG
-work/fossils/hide/phone1 crop.JPG
+work/fossils/ignore/invert2.png
+work/fossils/ignore/iphone.jpg
+work/fossils/ignore/mirror6.JPG
+work/fossils/ignore/mirror8.JPG
+work/fossils/ignore/mono7.JPG
+work/fossils/ignore/mono9.JPG
+work/fossils/ignore/thumb2.png
+work/fossils/ignore/web3.png
+work/fossils/ignore/web4.png
+work/fossils/ignore/usbcomp2.jpg
+work/fossils/ignore/usb_b1.JPG
+work/fossils/ignore/install2.JPG
+work/fossils/ignore/install3.JPG
+work/fossils/ignore/rock.gif
+work/fossils/ignore/txtscan2.jpg
+work/fossils/ignore/txtscan3.jpg
+work/fossils/ignore/usb1-edit.jpg
+work/fossils/ignore/usb1.JPG
+work/fossils/ignore/install-close.JPG
+work/fossils/ignore/phone-detail1.JPG
+work/fossils/ignore/phone-detail2.JPG
+work/fossils/ignore/phone2.JPG
+work/fossils/ignore/phone3.JPG
+work/fossils/ignore/phone4.JPG
+work/fossils/ignore/phone5.JPG
+work/fossils/ignore/phone6.JPG
+work/fossils/ignore/phone7.JPG
+work/fossils/ignore/phone1 copy.JPG
+work/fossils/ignore/phone1 crop.JPG
 work/fossils/phone1.JPG
 work/fossils/falling-crop.gif
 work/fossils/spin-crop.gif
-work/homonym/hide/detail1.JPG
-work/homonym/hide/detail3.JPG
-work/homonym/hide/detail4.JPG
-work/homonym/hide/detail6.JPG
-work/homonym/hide/detail8.JPG
-work/homonym/hide/main.JPG
+work/homonym/ignore/detail1.JPG
+work/homonym/ignore/detail3.JPG
+work/homonym/ignore/detail4.JPG
+work/homonym/ignore/detail6.JPG
+work/homonym/ignore/detail8.JPG
+work/homonym/ignore/main.JPG
 work/weaves/weaves.gif
 *.HEIC
 speculative-spectrality/
@@ -695,8 +697,8 @@ glitch/rita-rhyming-2025-07-08_182800.tgz
 glitch/web-work-3-2025-07-08_182647.tgz
 work/uncertain-weathers/web-demo.mp4
 work/uncertain-weathers/weather.mp4
-work/field/hide/movement3.png
-work/field/hide/movement4.png
+work/field/ignore/movement3.png
+work/field/ignore/movement4.png
 work/uncertain-weathers/kathy_-_wide (1080p).mp4
 work/uncertain-weathers/kathy_front (1080p).mp4
 work/stope/ignore/another-spread.png
@@ -723,26 +725,26 @@ moss photos\!/IMG_0704.DNG
 moss photos\!/IMG_0705.DNG
 moss photos\!/IMG_0706.DNG
 moss photos\!/IMG_0707.DNG
-work/digpo/go away/d.pdf
-work/digpo/go away/keyboard_gif.gif
-work/digpo/go away/LIKE UM.mp4
-work/digpo/go away/likeum.png
-work/bisbee/hide/0 copy.png
-work/bisbee/hide/8.png
-work/bisbee/hide/
+work/digpo/ignore/d.pdf
+work/digpo/ignore/keyboard_gif.gif
+work/digpo/ignore/LIKE UM.mp4
+work/digpo/ignore/likeum.png
+work/bisbee/ignore/0 copy.png
+work/bisbee/ignore/8.png
+work/bisbee/ignore/
 work/digpo/a-4x6.jpg
 work/digpo/basho.jpg
 work/digpo/basho1.jpg
 work/digpo/driving-d.jpg
-work/digpo/go away/b-4x6.jpg
-work/digpo/go away/basho2.jpg
-work/digpo/go away/basho3.jpg
-work/digpo/go away/c-4x6.jpg
-work/digpo/go away/d-4x6.jpg
-work/digpo/go away/e-4x6.jpg
-work/digpo/go away/IMG_0655.jpg
-work/digpo/go away/IMG_0661.jpg
-work/digpo/go away/xoxo braulio.jpg
+work/digpo/ignore/b-4x6.jpg
+work/digpo/ignore/basho2.jpg
+work/digpo/ignore/basho3.jpg
+work/digpo/ignore/c-4x6.jpg
+work/digpo/ignore/d-4x6.jpg
+work/digpo/ignore/e-4x6.jpg
+work/digpo/ignore/IMG_0655.jpg
+work/digpo/ignore/IMG_0661.jpg
+work/digpo/ignore/xoxo braulio.jpg
 work/digpo/keyboard1.jpg
 work/digpo/keyboard2.jpg
 work/digpo/keyboard3.jpg
@@ -750,43 +752,43 @@ work/digpo/kindastrange0.jpg
 work/digpo/miss-you.jpg
 work/digpo/tumblr_nlb1twLl7Z1un47e1o1_1280.jpg
 work/digpo/tumblr_nlb1twLl7Z1un47e1o2_1280.jpg
-work/field/hide/1.JPG
-work/field/hide/2.JPG
-work/field/hide/3.JPG
-work/field/hide/6.JPG
-work/field/hide/7.JPG
-work/field/hide/8.JPG
-work/field/hide/9.JPG
-work/field/hide/day2.JPG
-work/field/hide/day3.JPG
-work/internetgeo/hide/(dont upload) coppersculpture /PXL_20221220_192711161.jpg
-work/internetgeo/hide/(dont upload) coppersculpture /PXL_20221220_192715757.jpg
-work/internetgeo/hide/(dont upload) coppersculpture /PXL_20221220_192721134.jpg
-work/internetgeo/hide/(dont upload) coppersculpture /PXL_20221220_192722305.jpg
-work/internetgeo/hide/(dont upload) coppersculpture /PXL_20221220_192725394.jpg
-work/internetgeo/hide/(dont upload) coppersculpture /PXL_20221220_192730277.jpg
-work/internetgeo/hide/(dont upload) coppersculpture /PXL_20221220_192737720.jpg
-work/internetgeo/hide/(dont upload) coppersculpture /PXL_20221220_192740450.jpg
-work/internetgeo/hide/(dont upload) coppersculpture /PXL_20221220_192742319.jpg
-work/internetgeo/hide/(dont upload) coppersculpture /PXL_20221220_192931360.jpg
-work/internetgeo/hide/(dont upload) coppersculpture /PXL_20221220_192934320.jpg
-work/internetgeo/hide/(dont upload) coppersculpture /PXL_20221220_192936722.jpg
-work/internetgeo/hide/(dont upload) coppersculpture /PXL_20221220_192938323.jpg
-work/internetgeo/hide/(dont upload) coppersculpture /PXL_20221220_192941183.jpg
-work/internetgeo/hide/(dont upload) coppersculpture /PXL_20221220_192942947.jpg
-work/internetgeo/hide/2.jpg
-work/internetgeo/hide/4.jpg
-work/internetgeo/hide/5.jpg
-work/internetgeo/hide/6.jpg
-work/internetgeo/hide/7.jpg
-work/internetgeo/hide/8.jpg
-work/internetgeo/hide/9.jpg
-work/internetgeo/hide/PXL_20221213_015254104.jpg
-work/internetgeo/hide/PXL_20221213_015612548.jpg
-work/internetgeo/hide/PXL_20221213_015613815.jpg
-work/internetgeo/hide/PXL_20221213_020056849.jpg
-work/internetgeo/hide/PXL_20221213_020057661.jpg
-work/internetgeo/hide/PXL_20221213_023110423.jpg
+work/field/ignore/1.JPG
+work/field/ignore/2.JPG
+work/field/ignore/3.JPG
+work/field/ignore/6.JPG
+work/field/ignore/7.JPG
+work/field/ignore/8.JPG
+work/field/ignore/9.JPG
+work/field/ignore/day2.JPG
+work/field/ignore/day3.JPG
+work/internetgeo/ignore/(dont upload) coppersculpture /PXL_20221220_192711161.jpg
+work/internetgeo/ignore/(dont upload) coppersculpture /PXL_20221220_192715757.jpg
+work/internetgeo/ignore/(dont upload) coppersculpture /PXL_20221220_192721134.jpg
+work/internetgeo/ignore/(dont upload) coppersculpture /PXL_20221220_192722305.jpg
+work/internetgeo/ignore/(dont upload) coppersculpture /PXL_20221220_192725394.jpg
+work/internetgeo/ignore/(dont upload) coppersculpture /PXL_20221220_192730277.jpg
+work/internetgeo/ignore/(dont upload) coppersculpture /PXL_20221220_192737720.jpg
+work/internetgeo/ignore/(dont upload) coppersculpture /PXL_20221220_192740450.jpg
+work/internetgeo/ignore/(dont upload) coppersculpture /PXL_20221220_192742319.jpg
+work/internetgeo/ignore/(dont upload) coppersculpture /PXL_20221220_192931360.jpg
+work/internetgeo/ignore/(dont upload) coppersculpture /PXL_20221220_192934320.jpg
+work/internetgeo/ignore/(dont upload) coppersculpture /PXL_20221220_192936722.jpg
+work/internetgeo/ignore/(dont upload) coppersculpture /PXL_20221220_192938323.jpg
+work/internetgeo/ignore/(dont upload) coppersculpture /PXL_20221220_192941183.jpg
+work/internetgeo/ignore/(dont upload) coppersculpture /PXL_20221220_192942947.jpg
+work/internetgeo/ignore/2.jpg
+work/internetgeo/ignore/4.jpg
+work/internetgeo/ignore/5.jpg
+work/internetgeo/ignore/6.jpg
+work/internetgeo/ignore/7.jpg
+work/internetgeo/ignore/8.jpg
+work/internetgeo/ignore/9.jpg
+work/internetgeo/ignore/PXL_20221213_015254104.jpg
+work/internetgeo/ignore/PXL_20221213_015612548.jpg
+work/internetgeo/ignore/PXL_20221213_015613815.jpg
+work/internetgeo/ignore/PXL_20221213_020056849.jpg
+work/internetgeo/ignore/PXL_20221213_020057661.jpg
+work/internetgeo/ignore/PXL_20221213_023110423.jpg
 work/mossbook/moss.jpg
 work/she-will-last/retire/book1.jpg
 work/she-will-last/retire/cast1.jpg
@@ -900,24 +902,24 @@ work/conducting-memory/repair imgs/IBG_9406.jpg
 work/conducting-memory/repair imgs/IBG_9330.jpg
 work/conducting-memory/repair imgs/IBG_9304.jpg
 dwellings/
-work/dwell/hide/7.png
-work/dwell/hide/7 copy.png
-work/dwell/hide/6.png
-work/dwell/hide/4.png
-work/dwell/hide/23.png
-work/dwell/hide/20.png
-work/dwell/hide/19.png
-work/dwell/hide/17.png
-work/dwell/hide/15.png
-work/dwell/hide/13.png
-work/dwell/hide/07.png
-work/dwell/hide/06.png
-work/dwell/hide/03.png
-work/dwell/hide/01.png
+work/dwell/ignore/7.png
+work/dwell/ignore/7 copy.png
+work/dwell/ignore/6.png
+work/dwell/ignore/4.png
+work/dwell/ignore/23.png
+work/dwell/ignore/20.png
+work/dwell/ignore/19.png
+work/dwell/ignore/17.png
+work/dwell/ignore/15.png
+work/dwell/ignore/13.png
+work/dwell/ignore/07.png
+work/dwell/ignore/06.png
+work/dwell/ignore/03.png
+work/dwell/ignore/01.png
 pixelflower/
-work/conducting-memory/big files/closeup.png
-work/conducting-memory/big files/cover.png
-work/conducting-memory/big files/instructions.png
-work/conducting-memory/big files/makey3.png
-work/conducting-memory/big files/spread4.png
-work/conducting-memory/big files/workshop.png
+work/conducting-memory/ignore/closeup.png
+work/conducting-memory/ignore/cover.png
+work/conducting-memory/ignore/instructions.png
+work/conducting-memory/ignore/makey3.png
+work/conducting-memory/ignore/spread4.png
+work/conducting-memory/ignore/workshop.png
