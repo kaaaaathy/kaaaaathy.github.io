@@ -1,0 +1,32 @@
+@font-face {
+    font-family: ftserif;
+    src: url("FT88-Serif.otf");
+}
+
+
+body {
+    margin: 0px !important;
+    overflow: hidden;
+    cursor: grab !important;
+
+}
+
+#label {
+    /* font-family: ftserif, "arial", monospace; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.3px;
+    color: gray;
+    text-align: center;
+    user-select: none;
+    font-size: 12px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+}
+
+canvas {
+    position: absolute;
+
+}

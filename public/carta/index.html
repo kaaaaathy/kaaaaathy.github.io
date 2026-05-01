@@ -1,0 +1,399 @@
+<html>
+
+<head>
+  <title>***</title>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Please dont look too hard at code, it's a mess! -->
+  <script>   $(function () {
+      $(".box").draggable();
+      $("#time").draggable();
+
+    });
+
+  </script>
+
+  <style>
+    @font-face {
+      font-family: "FT88";
+      src: url(FT88-Serif.otf);
+    }
+
+    @font-face {
+      font-family: "Authentic";
+      src: url(AUTHENTICSans-90.otf);
+    }
+
+
+    body {
+      background: black;
+      overflow: hidden;
+      margin: 0px;
+      color: white;
+      user-select: none;
+      display: flex;
+      transition: filter 0.1s;
+
+    }
+
+    p {
+      font-family: "Authentic", 'Arial', sans-serif;
+      color: white;
+    }
+
+
+    .box {
+      background: black;
+      border-radius: 8px;
+      border: 1px solid white;
+      padding-top: 12px;
+      height: 500px;
+      width: 700px;
+      overflow: hidden;
+      margin: 40px;
+
+    }
+
+    .box:hover,
+    #time:hover {
+      cursor: move;
+    }
+
+    iframe {
+      position: relative;
+      top: -5px;
+      left: -5px;
+      height: 102%;
+      width: 102%;
+      border: none;
+
+    }
+
+    .bbar {
+      position: relative;
+      top: 0px;
+      width: 100%;
+      height: 20px;
+      border-bottom: 1px solid white;
+      display: flex;
+      flex-wrap: nowrap;
+
+    }
+
+    .bbut {
+      height: 8px;
+      width: 8px;
+      margin-left: 8px;
+      border-radius: 30px;
+      border: 1px solid white;
+    }
+
+    #carta,
+    #carta .bbar {
+      z-index: 6;
+    }
+
+    #carta:has(iframe[src="about:blank"]) {
+      opacity: 0;
+    }
+
+    #carta iframe {
+      z-index: 5;
+    }
+
+
+
+    #time {
+      width: 200px;
+      height: 50px;
+      padding: 70px;
+      z-index: 2;
+      align-self: flex-end;
+      mix-blend-mode: screen;
+    }
+
+
+
+    #circuit {
+      background-color: black;
+      padding: 40px 0px;
+
+    }
+
+    #circuit,
+    #glitch,
+    #S,
+    #me,
+    #smelt,
+    #love,
+    #object {
+      width: 0px;
+      height: auto;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 11;
+      pointer-events: none;
+
+    }
+
+    #object {
+      mix-blend-mode: screen;
+      z-index: 12;
+
+    }
+
+
+    #smelt,
+    #S {
+      opacity: 0.7;
+      z-index: 12;
+      height: 100%;
+    }
+
+
+
+    #minedata {
+      width: 100%;
+      opacity: 0;
+      z-index: -5;
+      pointer-events: none;
+    }
+
+    marquee {
+      width: 600px;
+      height: 100%;
+      position: fixed;
+      right: 0px;
+      top: 0px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <audio loop id="audio" src="sound.mp3"></audio>
+  <audio id="tone1" src="tone1.wav"></audio>
+  <audio id="tone2" src="tone2.wav"></audio>
+  <audio id="tone3" src="tone3.wav"></audio>
+  <audio id="tone4" src="tone4.wav"></audio>
+  <audio id="chatgpt" src="chatgpt.wav"></audio>
+
+  <div class="box" id="carta">
+    <div class="bbar">
+      <div class="bbut"></div>
+      <div class="bbut"></div>
+      <div class="bbut"></div>
+    </div>
+    <iframe id="C" src="about:blank"></iframe>
+  </div>
+
+  <div id="time">
+    <div class="shadow"></div>
+    <iframe id="T" src="about:blank"></iframe>
+  </div>
+
+  <img id="circuit" src="chip.gif">
+  <img id="glitch" src="error-popup.gif">
+  <img id="S" src="sss.gif">
+
+  <img id="me" src="me-looped.gif">
+  <img id="smelt" src="copper.gif">
+  <img id="object" src="person-short.gif">
+  <img id="love" src="love.gif">
+
+  <marquee direction="up"><img id="minedata" src="mines.png"></marquee>
+
+
+</body>
+<script type="text/javascript">
+
+  // SOUND RELATED
+  let started = false;
+  let audio = document.getElementById("audio");
+  audio.volume = 0.6;
+
+  let tone1 = document.getElementById("tone1");
+  let tone2 = document.getElementById("tone2");
+  let tone3 = document.getElementById("tone3");
+  let tone4 = document.getElementById("tone4");
+  let chatgpt = document.getElementById("chatgpt");
+  chatgpt.volume = 0.7;
+
+  // POSITIONABLE FOR PROJECTION MAP
+  let frameC = document.getElementById("C");
+  let frameT = document.getElementById("T");
+
+  //WHATEVER
+  let mines = document.getElementById("minedata");
+
+  // FULL SCREEN BW
+  let sss = document.getElementById("S");
+  let circuit = document.getElementById("circuit");
+  let error = document.getElementById("glitch");
+  let obj = document.getElementById("object");
+  let love = document.getElementById("love");
+
+
+  // FULL SCREEN COLOR
+  let me = document.getElementById("me");
+  let smelt = document.getElementById("smelt");
+
+  document.addEventListener('keydown', function (event) {
+    // Get the audio element
+    let audio = document.getElementById('audio');
+    audio.loop = true;
+
+    // Check if the audio element exists and the key pressed
+    if (audio && event.key) {
+      // Play the audio
+      if (started == false) {
+        audio.play();
+        started = true;
+      }
+
+      document.body.style.filter = "blur(10px)";
+
+    }
+  });
+
+
+  document.addEventListener('keyup', function (evt) {
+    document.body.style.filter = "none";
+
+  });
+
+  function restartAudio(sound) {
+    sound.currentTime = 0;
+    sound.play();
+  }
+  document.addEventListener("keydown", checkKeyPressed, false);
+
+  function checkKeyPressed(evt) {
+
+    if (evt.keyCode == "84") {
+      //the letter T
+
+      if (frameT.src == "about:blank") {
+        frameT.src = "time.html";
+      }
+      else {
+        frameT.src = "about:blank";
+      }
+    }
+
+
+    if (evt.keyCode == "67") {
+      //the letter C
+
+      if (frameC.src == "about:blank") {
+        frameC.src = "vectors.html";
+
+      }
+      else {
+        frameC.src = "about:blank";
+      }
+    }
+
+    //NUMBERS from 1 onwards
+
+    if (evt.keyCode == "49") {
+      restartAudio(tone1);
+
+      if (circuit.style.width == "100%") {
+        circuit.style.width = "0px";
+      } else {
+        circuit.style.width = "100%";
+      }
+    }
+
+
+    if (evt.keyCode == "50") {
+      restartAudio(tone2);
+
+      if (sss.style.width == "100%") {
+        sss.style.width = "0px";
+      } else {
+        sss.style.width = "100%";
+      }
+    }
+
+
+    if (evt.keyCode == "51") {
+      restartAudio(tone3);
+
+      if (me.style.width == "100%") {
+        me.style.width = "0px";
+      } else {
+        me.style.width = "100%";
+      }
+    }
+
+
+    if (evt.keyCode == "52") {
+      restartAudio(tone4);
+
+
+      if (smelt.style.width == "100%") {
+        smelt.style.width = "0px";
+      } else {
+        smelt.style.width = "100%";
+      }
+    }
+
+
+    if (evt.keyCode == "53") {
+      restartAudio(tone4);
+
+
+      if (obj.style.width == "100%") {
+        obj.style.width = "0px";
+      } else {
+        obj.style.width = "100%";
+      }
+    }
+
+    if (evt.keyCode == "54") {
+      restartAudio(chatgpt);
+
+
+
+      // if (error.style.width == "100%") {
+      //   error.style.width = "0px";
+      // } else {
+      //   error.style.width = "100%";
+      // }
+    }
+
+    if (evt.keyCode == "55") {
+      restartAudio(tone2);
+
+
+      if (love.style.width == "100%") {
+        love.style.width = "0px";
+
+      } else {
+        love.style.width = "100%";
+      }
+    }
+
+    if (evt.keyCode == "56") {
+      restartAudio(tone1);
+
+
+      if (mines.style.opacity == "1") {
+        mines.style.opacity = "0";
+
+      } else {
+        mines.style.opacity = "1"
+      }
+    }
+
+  }
+
+</script>
+
+</html>
