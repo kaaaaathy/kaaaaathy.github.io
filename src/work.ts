@@ -100,7 +100,7 @@ After the show, I turned all participant questions into little zines which repur
     The piece depicts error screens, cursors, glitches, alongside mining sites in Google satellite imagery and settler colonial cartographies. Among these are lithium mines in the American Southwest and cobalt mines in the Congo, both of which are crucial for battery production; the piece’s geographies also include a 19th century map of the largest copper mine in the world, based in Chile, which played a critical role in the dawn of electricity and electronics. 
   These cyanotype images were developed using solar power and iron-based pigment, which nods to photography’s material basis. Perhaps there is something about photography which pretends to be virtual as well, which creates what Susan Sontag calls a “fracturing, dislocating vision that only the camera supplies.” 
   
-  [1.jpg]
+  [no-object.png]
   [7.jpg]
   [3.jpg]
   [17.jpg]
@@ -769,7 +769,7 @@ I created interpretive “conversion tools”n the form of frames and boxes. Eac
   <span class="emph">virtual world</span>
   Eventually I collected enough to fill up a room with artifacts. I found textual objects and materials of different weights and densities and quantified them in bytes.
   The piece also featured sculptural metaphors like downloading across glass jars, as well as plastic physical hard-drives.
-  [1.jpg]
+  [1.png]
   <br>
   [4.jpg]
   [3alt.jpg]
