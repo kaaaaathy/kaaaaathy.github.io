@@ -241,7 +241,7 @@ Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtua
 <br><br>
 
   Virtual loves to hide a supply chain. They can't make lithium fast enough.
-  [blue1.gif]
+  [blue0.gif]
 
   Appliances love to hide a hole. Cobalt is the sound on the roof of your mouth.
   [blue2.gif]
