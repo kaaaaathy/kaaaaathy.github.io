@@ -225,7 +225,7 @@ A huge thank you to Si-Min Chong for taking these photos/video!
     "folder": "virtual-blue",
     "name": "virtual blue",
     "tags": "HTML, javaScript, projection, sound, poetry",
-    "thumb": "blue1.gif",
+    "thumb": "blue2.gif",
     "year": "2021",
     "content": `
 Published in Fonograf Edition's <a href="https://fonografeditions.com/catalog/fono31-de-canon-fe-a-mouth-holds-many-things-print-anthology/" target="_blank">A Mouth Holds Many Things</a>. If you call something, you can keep it in a box. If you classify it, perhaps you can harvest it. Commodification and supply chain and frameworks of extraction have their own grammars.
