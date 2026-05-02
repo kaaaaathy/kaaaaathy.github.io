@@ -728,6 +728,10 @@ ul {
         margin-top: 8px;
     }
 
+    #content img {
+        margin: 8px 0px;
+    }
+
     #work-stuff a img {
         border-radius: 0px;
 
