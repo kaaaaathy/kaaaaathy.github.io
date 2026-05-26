@@ -88,6 +88,10 @@ After the show, I turned all participant questions into little zines which repur
     
             [weave2.jpg]
             [weave3.jpg]
+
+            <br>
+            On show at SoMad Gallery, NYC. Photo credit to Yi Hsuan Lai.
+            [somad-2.jpg]
        `},
 
   {
@@ -192,6 +196,8 @@ A huge thank you to Si-Min Chong for taking these photos/video!
           [detail7.JPG]
 
       `},
+
+
 
   {
     "folder": "cyan",
@@ -378,10 +384,17 @@ The sheer book lends a thread of connectivity between these related sites of vio
     "name": "litany for the ground (fossils)",
     "tags": "",
     "year": "2025",
-    "thumb": "spin.gif",
+    "thumb": "somad-fossils-1.jpg",
     "content": `
           Multi-media body of work thinking through the "geology of media," as defined by theorist Jussi Parrika, and via the forms of litanies and list poems. Sculptures of sand, rockite, vintage hardware, data / website of poems, 3D scans / installation of stone, digital fabric print.
-          Read the web component → <a href="http://kaaathy.com/fossils" target="_blank">LINK</a> 
+          [somad-fossils-1.jpg]
+                    [somad-fossils-2.jpg]
+
+          [somad-fossils-3.jpg]
+
+                    [somad-fossils-4.jpg]
+          Images from SoMad Gallery, NYC. April 2026. Thank you to Yi Hsuan Lai for the photos.
+          
 <br>
           <li>sculptures</li>
           These objects are extensions of the <a href="http://kaaathy.com/work/she-will-last/iphone.jpg" target="_blank">cement casts</a> I made in Spring '24. Plus SD cards, USB-C, vintage NOKIA phone. These works are very much inspired by Blair Simmons's <a href="https://www.blairsimmons.com/">laptop-in-cement</a>!
@@ -393,6 +406,8 @@ The sheer book lends a thread of connectivity between these related sites of vio
           <br>
           <li>webpoem</li>
           Accompanying website for unearthing fossilids. Made with three.js, matter.js. 
+                    Read the web component → <a href="http://kaaathy.com/fossils" target="_blank">LINK</a> 
+
 [web.jpg]
 
 [spin.gif]
@@ -406,10 +421,6 @@ A stone and a fraction of the .txt file for its 3D digitized self. Inkjet on cot
 [rock-comp.gif]
 [txtscan1.jpg]
 <br>
-<li>gallery show</li>
-Part of my solo show, FOR LET EARTH, at AS220 Aborn Gallery, Providence, RI. April 2025.
-[show1.jpg]
-[show4.jpg]
 
 <li>object details</li>
 USB, USB-C, SD card... I give credit to the brilliant Mika Ben Amar <a href="https://www.instagram.com/100o111/" target="_blank"> who made usb stones first.</a> 
@@ -571,7 +582,49 @@ Website with a simple template for a digital erotic poem:
     [code.jpg]
     `
   },
+  {
+    "folder": "future-making",
+    "name": "Future Making: DS4SI",
+    "tags": "",
+    "year": "2026",
+    "thumb": "thumb.jpg",
+    "content": `
+        I was invited by Design Studio for Social Intervention to run a 3-hour workshop for their series, Momentum Lab. Thank you Anulfo and Crystal for having me! <3
 
+    <i>Future Making: Collective Scrying, Sensing, Dreaming</i> was a co-imagining space to hold each other in the midst of state violence, climate crisis, and general moments of uncertainty. The session included divination experiments where we create our own modes of prediction — inspired by ancient modes of future-telling such as scrying, weather-based divination, tea leaves. 
+    To end, we made a collective tarot card deck of our co-imaginings.   
+
+Thank you to Celine Berger for the photos! If you are in a photo and no longer want to be, please reach out to me and I will take it down.
+[event3.jpeg]
+I asked participants to think about something they want to ask the ancestors, and what they'd like to tell the descedants. Together we looked at the artwork of Skawennati and the words of Octavia Butler.
+        [event4.jpeg]
+        [slide5.jpg]
+        A colorful slide with an Octavia Butler quote: "There’s no single answer that will solve all of our future problems. There’s no magic bullet. Instead there are thousands of answers–at least. You can be one of them if you choose to be."
+   <li>divination play</li>
+   Folks were invited to try modes like ceromancy (with wax), bibliomancy (with books), taseomancy (tea leaves), or make up their own.
+[candle2.jpeg]
+[wax1.jpeg]
+(What do you see in the wax?)
+       <li>collective card deck</li>
+Participants were given simple card templates to draw or collage on. These were the (optional!) prompts:
+— One thing which makes you feel steady and sure
+— One thing which makes you feel unstable but excited
+— The kind of love you wish you could give a younger self
+— An image/object/place from a dream
+— Something your ancestors would do in hard times
+[scan.jpg]
+[event5.jpeg]
+[event8.jpeg]
+   Cards were scanned and printed and shared in different colors.
+  [event7.jpeg]
+                [event10.jpeg]
+ [cards2.jpg]
+[cards5.jpg]
+  [cards3.jpg]
+   [cardgif.gif]
+
+  
+      `},
   {
     "folder": "malden-zine",
     "name": "malden transit justice workshop",
@@ -603,10 +656,10 @@ Website with a simple template for a digital erotic poem:
   it nods at the historical layers of eviction, theft, imperialism embedded quietly and namelessly in these green spaces, via the narrative throughline of ghosts.
   Read online → <a href="https://kaaathy.com/walk/1.html" target="_blank">LINK</a>
 <iframe src="https://player.vimeo.com/video/596956749" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen"  allowfullscreen></iframe class="video">
-  [walk1.jpg]
-  [walk2.jpg]
-  [walk3.jpg]
-  [walk4.jpg]
+  [walk1.png]
+  [walk2.png]
+  [walk3.png]
+  [walk4.png]
 `
   },
 
@@ -740,7 +793,7 @@ In front is a metaphorical "circuit" of objects: a sculptural installation of ya
   <br>
   <li>conversation tools</li>
   The human body understands the material world and has unique intuitions that help us navigate it. I was interested in how people would use intuition to convert their understanding of virtual units into physical objects.
-I created interpretive “conversion tools”n the form of frames and boxes. Each of these symbolized a space for an assigned virtual unit where people’s responses/objects would live.
+I created interpretive “conversion tools” in the form of frames and boxes. Each of these symbolized a space for an assigned virtual unit where people’s responses/objects would live.
   [crowdsourced.jpg]
 
 
@@ -774,8 +827,43 @@ I created interpretive “conversion tools”n the form of frames and boxes. Eac
   [4.jpg]
   [3alt.jpg]
   `
-  }
+  },
 
+  {
+    "folder": "digpo",
+    "name": "digital poetics",
+    "year": "2014–2015",
+    "tags": "Poetics, digital media",
+    "thumb": "thumb.png",
+    "content": `
+      By now, vintage experiments from the 2010's.
+      The gesture of writing includes scratch, ping, swipe, tap. What are some new tools for writing that push or strain the body? These are experiments in bizarre and obstructed lingual gestures. 
+      <br>
+      <li>basho in the garden</li>
+      [basho.png]
+      [basho1.png]
+      <li>CROSS-COUNTRY CALLIGRAPHY</li> It may take months to write to you.
+      [driving_gif.gif]
+      <br>
+      <br>
+      <li>TRANSCRIBING OBSTRUCTIONS</li> 
+      Typing with socks on my hands.
+      [socks.png]
+<br>Reading tongue twisters while covering different parts of my mouth with a spoon. I used an online text-to-speech tool.
+ <iframe src="https://player.vimeo.com/video/1161161194" frameborder="0" width="100%" height ="300"></iframe class="video">
+      <br>
+      <br>
+  
+      <li>KEYBOARD CALISTHENICS</li> A speculative guidebook and sarcastic keyboard workout video, inspired by Jane Fonda energy from the 80's and those horrible typing games from my childhood.
+      [kindastrange1.gif]
+      <br>
+      Explorations in repetition, exercise, and creating writing from an interface-first perspective – since our expression is ultimately constrained by body and tools.
+      <br>
+      [keyboard1.png]
+      [keyboard2.png]
+      [keyboard3.png]
+      `
+  }
 
   //
   // {  "folder":"jelly",
