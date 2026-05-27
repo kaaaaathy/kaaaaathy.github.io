@@ -384,13 +384,13 @@ The sheer book lends a thread of connectivity between these related sites of vio
     "name": "litany for the ground (fossils)",
     "tags": "",
     "year": "2025",
-    "thumb": "somad-fossils-1.jpg",
+    "thumb": "somad-fossils-1.png",
     "content": `
           Multi-media body of work thinking through the "geology of media," as defined by theorist Jussi Parrika, and via the forms of litanies and list poems. Sculptures of sand, rockite, vintage hardware, data / website of poems, 3D scans / installation of stone, digital fabric print.
-          [somad-fossils-1.jpg]
-        [somad-fossils-2.jpg]
-          [somad-fossils-3.jpg]
-[somad-fossils-4.jpg]
+          [somad-fossils-1.png]
+        [somad-fossils-2.png]
+          [somad-fossils-3.png]
+[somad-fossils-4.png]
           Images from SoMad Gallery, NYC. April 2026. Thank you to Yi Hsuan Lai for the photos.
           
 <br>
