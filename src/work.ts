@@ -73,7 +73,7 @@ After the show, I turned all participant questions into little zines which repur
     "name": "scintillations",
     "tags": "",
     "year": "2025",
-    "thumb": "infinitethumb.jpg",
+    "thumb": "somad-3.jpg",
     "content": `
             Scenes from Sewell, Chile: the largest underground copper mine and its American company town.
             Inkjet on cotton, digital embroidery. 24 * 18 inches. Shown at SoMad Gallery, New York, April 2026, as part of Intersectional Ecologies.
