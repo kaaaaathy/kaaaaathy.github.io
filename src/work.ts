@@ -574,8 +574,8 @@ Within the traditions of material and concrete poetics, we might gently resist w
 <br>
 Website with a simple template for a digital erotic poem:
  → <a href="https://kaaathy.com/erotic-event-listeners/" target="_blank">Erotic Event Listeners</a>
-    [web1.jpg]
-    [web3.jpg]
+    [web1.png]
+    [web3.png]
         [rose.gif]
     [code.jpg]
     `
