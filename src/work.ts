@@ -441,10 +441,18 @@ USB, USB-C, SD card... I give credit to the brilliant Mika Ben Amar <a href="htt
              [7.jpg]
              [9.jpg]
              [10.jpg]
+             <br>
+             NFT tags in the lower corner of each pillow leads you to a text-based dream sequence.
+             [aftermath-small.gif]
+             [readingful-small.gif]
 
-          [1.jpg]
+                <iframe src="https://player.vimeo.com/video/1202338930?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="100%" height="375" frameborder="0" allow="autoplay;  title="aftermath"></iframe>
+<br>
+                Perhaps they can offer a place to rest...
+                [1.jpg]
            [3.jpg]
                       [4.jpg]
+               
 [5.jpg]
 
 
