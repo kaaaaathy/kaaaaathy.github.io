@@ -23,7 +23,6 @@
 /*--------------------------------------------------------------*/
 
 h2 a,
-#aboutcontainer a,
 #content a {
     border-bottom: 1px dotted #333;
 
@@ -32,7 +31,10 @@ h2 a,
     background-color: rgb(211, 250, 210); */
 }
 
+
+
 /* #aboutcontainer a{
+    border-bottom: 1px dotted #333;
 
 } */
 .flourish {
@@ -100,7 +102,7 @@ h2 a,
 
 
 body {
-    background-color: whitesmoke;
+    background-color: snow;
     font-size: 9.5pt;
     font-family: 'AUTHENTICSans', 'Arial', sans-serif;
     line-height: 1.6;
@@ -125,9 +127,9 @@ nav {
     top: 0;
     bottom: 0;
     width: 200px;
-    padding: 30px 20px 20px 20px;
-    border-right: 1px dotted black;
-    background-color: whitesmoke;
+    margin-top: 20px;
+    padding: 0px 20px 20px 20px;
+    border-right: 1px dashed gray;
 
 }
 
@@ -211,7 +213,9 @@ li::before {
 
 #aboutcontainer {
     border: none;
-    margin-top: 40px;
+    margin-top: 30px;
+    padding-top: 10px;
+    border-top: 1px dashed gray;
 
 }
 
@@ -231,7 +235,7 @@ h2 a:active,
 }
 
 #work-stuff a img {
-    background-color: whitesmoke;
+    background-color: snow;
     width: 100%;
     height: auto;
     opacity: 1;
@@ -259,7 +263,7 @@ main {
     /*was 258? */
     padding-bottom: 80px;
     margin-left: 0px;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-right: 16px;
 
 }
@@ -524,8 +528,8 @@ ul {
 
 
     #aboutcontainer {
-        border-top: 1px dotted gray;
-        border-bottom: 1px dotted gray;
+        border-top: 1px dashed gray;
+        border-bottom: 1px dashed gray;
         padding: 8px 12px;
         display: flex;
         margin-top: 0px;
@@ -539,10 +543,11 @@ ul {
         right: 0;
         bottom: auto;
         padding-top: 10px;
+        margin-top: 0px;
 
         position: sticky;
         top: -40px;
-        /* background-color: whitesmoke; */
+        background-color: snow;
 
         width: 100%;
         box-sizing: border-box;
@@ -628,7 +633,7 @@ ul {
 }
 
 #content div {
-    margin-top: 12px;
+    margin-top: 8px;
 }
 
 
@@ -636,7 +641,7 @@ ul {
     height: auto;
     width: 100%;
     display: block;
-    margin: 12px 0px;
+    /* margin: 12px 0px; */
 
 
 }
@@ -660,8 +665,8 @@ ul {
 }
 
 #work-stuff a img {
-    margin-bottom: 1.5%;
-    border-radius: 4px;
+    margin-bottom: 2%;
+    /* border-radius: 4px; */
 
 }
 
@@ -725,7 +730,7 @@ ul {
 
 
     #content div {
-        margin-top: 8px;
+        /* margin-top: 8px; */
     }
 
     #content img {
