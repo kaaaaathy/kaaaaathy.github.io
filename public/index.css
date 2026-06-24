@@ -127,7 +127,7 @@ nav {
     top: 0;
     bottom: 0;
     width: 200px;
-    margin-top: 20px;
+    margin: 20px 0px;
     padding: 0px 20px 20px 20px;
     border-right: 1px dashed gray;
 
@@ -543,7 +543,7 @@ ul {
         right: 0;
         bottom: auto;
         padding-top: 10px;
-        margin-top: 0px;
+        margin: 0px;
 
         position: sticky;
         top: -40px;
@@ -666,7 +666,7 @@ ul {
 
 #work-stuff a img {
     margin-bottom: 2%;
-    /* border-radius: 4px; */
+    border-radius: 0px;
 
 }
 
@@ -737,9 +737,9 @@ ul {
         margin: 8px 0px;
     }
 
-    #work-stuff a img {
+    /* #work-stuff a img {
         border-radius: 0px;
 
-    }
+    } */
 
 }
