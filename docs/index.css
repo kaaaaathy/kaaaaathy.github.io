@@ -242,6 +242,7 @@ h2 a:active,
     filter: blur(0px);
     transition: 0.1s filter ease;
     transition: 0.1s opacity ease;
+    border-radius: 4px;
 
 }
 
@@ -662,11 +663,12 @@ ul {
 #work-stuff a {
     width: 100%;
     margin-bottom: 24px;
+
 }
 
 #work-stuff a img {
     margin-bottom: 2%;
-    border-radius: 0px;
+    /* border-radius: 0px; */
 
 }
 
@@ -737,9 +739,9 @@ ul {
         margin: 8px 0px;
     }
 
-    /* #work-stuff a img {
+    #work-stuff a img {
         border-radius: 0px;
 
-    } */
+    }
 
 }
