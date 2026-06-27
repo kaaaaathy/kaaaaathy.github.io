@@ -634,7 +634,7 @@ ul {
 }
 
 #content div {
-    margin-top: 8px;
+    margin: 8px 0px;
 }
 
 
@@ -642,7 +642,7 @@ ul {
     height: auto;
     width: 100%;
     display: block;
-    /* margin: 12px 0px; */
+    margin: 8px 0px;
 
 
 }
