@@ -5,17 +5,28 @@ import { HashRouter, Route, Routes, Link, Navigate, useParams, useLocation } fro
 import { useEffect } from "react";
 import { work } from "./work";
 import { pubs as pubItems } from "./pubs";
+import { press as pressItems } from "./press";
+
 
 function Writing() {
 
   return (
     <section className="inner">
-      <h2><h3>Writing<span id="pubnote">(selected publications)</span></h3>
+      <h2><h3>press</h3>
+        {pressItems.map((item, index) => (
+          <ul key={index}>
+            <p className="pub"><a href={item.url} target="_blank">{item.title}</a>, {item.publication}, {item.year}</p>
+          </ul>
+
+        ))}
+        <br /> <br />
+        <h3>Writing<span id="pubnote">(selected publications)</span></h3>
         {pubItems.map((item, index) => (
           <ul key={index}>
-            <p className="pub">{item.title}, <a href={item.url} target="_blank">{item.publication}</a>, {item.year}</p>
+            <p className="pub"><a href={item.url} target="_blank">{item.title}</a>, {item.publication}, {item.year}</p>
           </ul>
         ))}
+
       </h2>
     </section >
   );
@@ -53,7 +64,7 @@ function Navbar() {
         <Link className="aboutlinks" to={"/#"}><span className="flourish">𖦹</span>work </Link>
         <Link className="aboutlinks" to={"/info"}><span className="flourish">⟡</span>info </Link>
         <Link className="aboutlinks" to={"/teaching"}><span className="flourish">𖡼</span>teaching </Link>
-        <Link className="aboutlinks" to={"/writing"}><span className="flourish">⩩</span>writing </Link>
+        <Link className="aboutlinks" to={"/writing"}><span className="flourish">⩩ </span>publishing </Link>
 
       </div>
     </nav>

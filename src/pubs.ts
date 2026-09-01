@@ -6,9 +6,9 @@ export const pubs = [
         "year": "2025"
     },
     {
-        "title": "Feature: She Will Last as Long as Stones",
-        "publication": "Cleveland Review of Books",
-        "url": "https://clereviewofbooks.com/from-she-will-last-as-long-as-stones/",
+        "title": "four poems",
+        "publication": "Tyger Quarterly",
+        "url": "https://tygerquarterly.com/kathy-wu",
         "year": "2026"
     },
     {
