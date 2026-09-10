@@ -242,7 +242,7 @@ Shown at Emerson Contemporary, March 2026, as part of <a href="https://emersonco
 This infinitely looping browser poem explores concepts both abstract and concrete — a color wavelength — are socialized through language. How blue was the last discrete color category to be named in English.
 
 Watch with sound on:
-<iframe src="https://player.vimeo.com/video/653867996" width="100%" height="350" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe class="video">
+<iframe src="https://player.vimeo.com/video/651241191" width="100%" height="350" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe class="video">
 Website → <a href="https://kaaathy.com/blue/index.html" target="_blank">virtual blue</a> (images may load slowly before they cache)
 <br><br>
 
