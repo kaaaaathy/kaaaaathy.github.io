@@ -116,6 +116,28 @@ After the show, I turned all participant questions into little zines which repur
 
   },
 
+
+  {
+    "folder": "image-of-a-horse",
+    "name": "image of an image",
+    "tags": "",
+    "year": "2026",
+    "thumb": "b1.jpg",
+    "content": `  
+  Work in progress! Created as a workspace artist-in-residence at the Center for Book Arts. Edition of 20.
+
+  a RISO printed woven accordion book of ekphrastic poems-in-progress by the artist, kathy wu; Found and manipulated compositions from Google Open Images v7 data set sit alongside Muybridge's Untitled (Horse + Jockey) — a nod to Rebecca Solnit's book, River of Shadows, which swirls together Muybridge's early photography of California with present day Silicon Valley expansionism. 
+[w1.jpg]
+[w2.jpg]
+[w0.jpg]
+[w3.jpg]
+  [w6.jpg]
+  [w4.jpg]
+  [w5.jpg]
+  [w7.jpg]
+`
+
+  },
   {
     "folder": "field",
     "name": "a field",
